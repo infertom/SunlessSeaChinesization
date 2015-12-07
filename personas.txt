@@ -1,0 +1,2101 @@
+[
+   {
+      "Description" : "Setup for player on startup",
+      "Id" : 3950,
+      "Name" : "PlayerInit",
+      "QualitiesAffected" : [
+         {
+            "AssociatedQuality" : {
+               "Id" : 105968
+            },
+            "Id" : 4999,
+            "SetToExactly" : 1
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102030
+            },
+            "Id" : 5000,
+            "SetToExactly" : 8
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102896
+            },
+            "Id" : 5001,
+            "SetToExactly" : 25
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102895
+            },
+            "Id" : 5002,
+            "SetToExactly" : 25
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102894
+            },
+            "Id" : 5003,
+            "SetToExactly" : 25
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102898
+            },
+            "Id" : 5004,
+            "SetToExactly" : 25
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102897
+            },
+            "Id" : 5005,
+            "SetToExactly" : 25
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 104361
+            },
+            "ForceEquip" : true,
+            "Id" : 5224,
+            "SetToExactly" : 1
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 107457
+            },
+            "ForceEquip" : true,
+            "Id" : 5225,
+            "SetToExactly" : 1
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102028
+            },
+            "Id" : 5226,
+            "SetToExactly" : 50
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102027
+            },
+            "Id" : 5227,
+            "SetToExactly" : 10
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102026
+            },
+            "Id" : 5228,
+            "Level" : 5
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 231
+            },
+            "Id" : 5229,
+            "SetToExactly" : 1
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 109343
+            },
+            "ForceEquip" : true,
+            "Id" : 5230,
+            "Level" : 1
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 104895
+            },
+            "ForceEquip" : true,
+            "Id" : 5231,
+            "Level" : 1
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 108290
+            },
+            "Id" : 5237,
+            "SetToExactly" : 1
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 110380
+            },
+            "Id" : 5405,
+            "Level" : 1
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102029
+            },
+            "Id" : 5406,
+            "SetToExactly" : 75
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 114909
+            },
+            "Id" : 6437,
+            "SetToExactly" : 1
+         }
+      ],
+      "QualitiesRequired" : [],
+      "Setting" : {
+         "Id" : 100233
+      },
+      "SettingID" : 100233
+   },
+   {
+      "Description" : "[will be obsolete]",
+      "Id" : 4545,
+      "Name" : "Elite",
+      "QualitiesAffected" : [
+         {
+            "AssociatedQuality" : {
+               "Id" : 102894
+            },
+            "Id" : 5112,
+            "Level" : 25
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102895
+            },
+            "Id" : 5114,
+            "Level" : 25
+         }
+      ],
+      "QualitiesRequired" : [],
+      "Setting" : {
+         "Id" : 100233
+      },
+      "SettingID" : 100233
+   },
+   {
+      "Description" : "Ship III",
+      "Id" : 4546,
+      "Name" : "Ship III",
+      "QualitiesAffected" : [
+         {
+            "AssociatedQuality" : {
+               "Id" : 102029
+            },
+            "Id" : 4621,
+            "Level" : 100
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102030
+            },
+            "Id" : 4622,
+            "Level" : 20
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102894
+            },
+            "Id" : 5107,
+            "Level" : 100
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102896
+            },
+            "Id" : 5108,
+            "Level" : 100
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102895
+            },
+            "Id" : 5109,
+            "Level" : 100
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102897
+            },
+            "Id" : 5110,
+            "Level" : 100
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102898
+            },
+            "Id" : 5111,
+            "Level" : 100
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 106992
+            },
+            "Id" : 5232,
+            "Level" : 20
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 105361
+            },
+            "Id" : 5388,
+            "Level" : 100
+         }
+      ],
+      "QualitiesRequired" : [],
+      "Setting" : {
+         "Id" : 100233
+      },
+      "SettingID" : 100233
+   },
+   {
+      "Description" : "Ship VIII",
+      "Id" : 4547,
+      "Name" : "Ship VIII",
+      "QualitiesAffected" : [
+         {
+            "AssociatedQuality" : {
+               "Id" : 102030
+            },
+            "Id" : 5466,
+            "Level" : 80
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 106992
+            },
+            "Id" : 5467,
+            "Level" : 80
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102029
+            },
+            "Id" : 5468,
+            "Level" : 1000
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 105361
+            },
+            "Id" : 5469,
+            "Level" : 1000
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102894
+            },
+            "Id" : 5470,
+            "Level" : 250
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102896
+            },
+            "Id" : 5471,
+            "Level" : 100
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102895
+            },
+            "Id" : 5472,
+            "Level" : 250
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102898
+            },
+            "Id" : 5473,
+            "Level" : 100
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102897
+            },
+            "Id" : 5474,
+            "Level" : 100
+         }
+      ],
+      "QualitiesRequired" : [],
+      "Setting" : {
+         "Id" : 100233
+      },
+      "SettingID" : 100233
+   },
+   {
+      "Description" : "Starter enemy",
+      "Id" : 4748,
+      "Name" : "Ship 0",
+      "QualitiesAffected" : [
+         {
+            "AssociatedQuality" : {
+               "Id" : 102898
+            },
+            "Id" : 5172,
+            "Level" : 10
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102897
+            },
+            "Id" : 5173,
+            "Level" : 10
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102894
+            },
+            "Id" : 5174,
+            "Level" : 50
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102896
+            },
+            "Id" : 5175,
+            "Level" : 30
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102895
+            },
+            "Id" : 5176,
+            "Level" : 30
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102030
+            },
+            "Id" : 5460,
+            "Level" : 5
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 106992
+            },
+            "Id" : 5461,
+            "Level" : 25
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102029
+            },
+            "Id" : 5462,
+            "Level" : 30
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 105361
+            },
+            "Id" : 5496,
+            "Level" : 30
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 110628
+            },
+            "Id" : 5581,
+            "Level" : 50
+         }
+      ],
+      "QualitiesRequired" : [],
+      "Setting" : {
+         "Id" : 100233
+      },
+      "SettingID" : 100233
+   },
+   {
+      "Description" : "This is a persona for lifebergs and other giant crushing monsters",
+      "Id" : 5041,
+      "Name" : "AttackCrush",
+      "QualitiesAffected" : [
+         {
+            "AssociatedQuality" : {
+               "Id" : 109346
+            },
+            "Id" : 5169,
+            "Level" : 1
+         }
+      ],
+      "QualitiesRequired" : [],
+      "Setting" : {
+         "Id" : 100233
+      },
+      "SettingID" : 100233
+   },
+   {
+      "Description" : "This is a persona for eels, sharks and whatnot.",
+      "Id" : 5042,
+      "Name" : "AttackBite",
+      "QualitiesAffected" : [
+         {
+            "AssociatedQuality" : {
+               "Id" : 109344
+            },
+            "Id" : 5168,
+            "Level" : 1
+         }
+      ],
+      "QualitiesRequired" : [],
+      "Setting" : {
+         "Id" : 100233
+      },
+      "SettingID" : 100233
+   },
+   {
+      "Description" : "Ship V",
+      "Id" : 5043,
+      "Name" : "Ship V",
+      "QualitiesAffected" : [
+         {
+            "AssociatedQuality" : {
+               "Id" : 102029
+            },
+            "Id" : 5146,
+            "Level" : 200
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102030
+            },
+            "Id" : 5147,
+            "Level" : 40
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102894
+            },
+            "Id" : 5148,
+            "Level" : 150
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102895
+            },
+            "Id" : 5149,
+            "Level" : 150
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102896
+            },
+            "Id" : 5150,
+            "Level" : 150
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102897
+            },
+            "Id" : 5151,
+            "Level" : 150
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102898
+            },
+            "Id" : 5152,
+            "Level" : 75
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 106992
+            },
+            "Id" : 5233,
+            "Level" : 40
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 105361
+            },
+            "Id" : 5463,
+            "Level" : 200
+         }
+      ],
+      "QualitiesRequired" : [],
+      "Setting" : {
+         "Id" : 100233
+      },
+      "SettingID" : 100233
+   },
+   {
+      "Description" : "Pinnaces, etc.",
+      "Id" : 5044,
+      "Name" : "Ship I",
+      "QualitiesAffected" : [
+         {
+            "AssociatedQuality" : {
+               "Id" : 102030
+            },
+            "Id" : 5154,
+            "Level" : 10
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102894
+            },
+            "Id" : 5155,
+            "Level" : 50
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102895
+            },
+            "Id" : 5156,
+            "Level" : 50
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102896
+            },
+            "Id" : 5157,
+            "Level" : 50
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102898
+            },
+            "Id" : 5158,
+            "Level" : 10
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102897
+            },
+            "Id" : 5159,
+            "Level" : 10
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 106992
+            },
+            "Id" : 5234,
+            "Level" : 10
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 105361
+            },
+            "Id" : 5458,
+            "Level" : 50
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102029
+            },
+            "Id" : 5459,
+            "Level" : 50
+         }
+      ],
+      "QualitiesRequired" : [],
+      "Setting" : {
+         "Id" : 100233
+      },
+      "SettingID" : 100233
+   },
+   {
+      "Description" : "Ship VII",
+      "Id" : 5045,
+      "Name" : "Ship VII",
+      "QualitiesAffected" : [
+         {
+            "AssociatedQuality" : {
+               "Id" : 102029
+            },
+            "Id" : 5160,
+            "Level" : 500
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102030
+            },
+            "Id" : 5161,
+            "Level" : 60
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102894
+            },
+            "Id" : 5162,
+            "Level" : 200
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102896
+            },
+            "Id" : 5163,
+            "Level" : 100
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102895
+            },
+            "Id" : 5164,
+            "Level" : 200
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102897
+            },
+            "Id" : 5165,
+            "Level" : 200
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102898
+            },
+            "Id" : 5166,
+            "Level" : 100
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 106992
+            },
+            "Id" : 5464,
+            "Level" : 60
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 105361
+            },
+            "Id" : 5465,
+            "Level" : 500
+         }
+      ],
+      "QualitiesRequired" : [],
+      "Setting" : {
+         "Id" : 100233
+      },
+      "SettingID" : 100233
+   },
+   {
+      "Description" : "Beasts and ships that can attack using Speculation.",
+      "Id" : 5047,
+      "Name" : "AttackSpeculate",
+      "QualitiesAffected" : [
+         {
+            "AssociatedQuality" : {
+               "Id" : 109347
+            },
+            "Id" : 5170,
+            "Level" : 1
+         }
+      ],
+      "QualitiesRequired" : [],
+      "Setting" : {
+         "Id" : 100233
+      },
+      "SettingID" : 100233
+   },
+   {
+      "Description" : "Reduces Hull and Life by 50 each",
+      "Id" : 5048,
+      "Name" : "Fragile",
+      "QualitiesAffected" : [
+         {
+            "AssociatedQuality" : {
+               "Id" : 102029
+            },
+            "Id" : 5491,
+            "Level" : -50
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 106160
+            },
+            "Id" : 5492,
+            "Level" : -50
+         }
+      ],
+      "QualitiesRequired" : [],
+      "Setting" : {
+         "Id" : 100233
+      },
+      "SettingID" : 100233
+   },
+   {
+      "Description" : "This is a trivially swattable starter beastie. ",
+      "Id" : 5051,
+      "Name" : "MiniBeastie",
+      "QualitiesAffected" : [
+         {
+            "AssociatedQuality" : {
+               "Id" : 106160
+            },
+            "Id" : 5185,
+            "Level" : 5
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102894
+            },
+            "Id" : 5186,
+            "Level" : 10
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102895
+            },
+            "Id" : 5187,
+            "Level" : 20
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102896
+            },
+            "Id" : 5188,
+            "Level" : 50
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102897
+            },
+            "Id" : 5189,
+            "Level" : 10
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 110142
+            },
+            "Id" : 5346,
+            "Level" : 5
+         }
+      ],
+      "QualitiesRequired" : [],
+      "Setting" : {
+         "Id" : 100233
+      },
+      "SettingID" : 100233
+   },
+   {
+      "Description" : "Ship IX",
+      "Id" : 5182,
+      "Name" : "Ship IX",
+      "QualitiesAffected" : [
+         {
+            "AssociatedQuality" : {
+               "Id" : 102030
+            },
+            "Id" : 5475,
+            "Level" : 100
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 106992
+            },
+            "Id" : 5476,
+            "Level" : 100
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102029
+            },
+            "Id" : 5477,
+            "Level" : 2000
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 105361
+            },
+            "Id" : 5478,
+            "Level" : 2000
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102894
+            },
+            "Id" : 5479,
+            "Level" : 300
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102895
+            },
+            "Id" : 5480,
+            "Level" : 300
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102896
+            },
+            "Id" : 5481,
+            "Level" : 100
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102898
+            },
+            "Id" : 5482,
+            "Level" : 100
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102897
+            },
+            "Id" : 5483,
+            "Level" : 100
+         }
+      ],
+      "QualitiesRequired" : [],
+      "Setting" : {
+         "Id" : 100233
+      },
+      "SettingID" : 100233
+   },
+   {
+      "Description" : "Does more damage the more crew you have; Terror effects increase with Crew, Supplies can be damaged.",
+      "Id" : 5183,
+      "Name" : "Swarmer",
+      "QualitiesAffected" : [
+         {
+            "AssociatedQuality" : {
+               "Id" : 110135
+            },
+            "Id" : 5335,
+            "Level" : 1
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 106160
+            },
+            "Id" : 5336,
+            "Level" : 20
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102896
+            },
+            "Id" : 5337,
+            "Level" : 75
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102894
+            },
+            "Id" : 5338,
+            "Level" : 1
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102897
+            },
+            "Id" : 5339,
+            "Level" : 1
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102895
+            },
+            "Id" : 5340,
+            "Level" : 30
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 110142
+            },
+            "Id" : 5347,
+            "Level" : 20
+         }
+      ],
+      "QualitiesRequired" : [],
+      "Setting" : {
+         "Id" : 100233
+      },
+      "SettingID" : 100233
+   },
+   {
+      "Description" : "Small group of terrestrial enemies.",
+      "Id" : 5197,
+      "Name" : "SmallBand",
+      "QualitiesAffected" : [
+         {
+            "AssociatedQuality" : {
+               "Id" : 102030
+            },
+            "Id" : 5359,
+            "Level" : 5
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 106992
+            },
+            "Id" : 5360,
+            "Level" : 5
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 110188
+            },
+            "Id" : 5364,
+            "Level" : 1
+         }
+      ],
+      "QualitiesRequired" : [],
+      "Setting" : {
+         "Id" : 100233
+      },
+      "SettingID" : 100233
+   },
+   {
+      "Description" : "This is a basic FL integration persona.",
+      "Id" : 5198,
+      "Name" : "Navigator",
+      "QualitiesAffected" : [
+         {
+            "AssociatedQuality" : {
+               "Id" : 110060
+            },
+            "Id" : 5391,
+            "Level" : 1
+         }
+      ],
+      "QualitiesRequired" : [
+         {
+            "AssociatedQuality" : {
+               "Id" : 109921
+            },
+            "Id" : 6,
+            "MinLevel" : 1
+         }
+      ],
+      "Setting" : {
+         "Id" : 100233
+      },
+      "SettingID" : 100233
+   },
+   {
+      "Description" : "Modestly dangerous armed land band. NB the 9 on the end of the Iron is for /10 +1 rounding in the relevant Acts",
+      "Id" : 5203,
+      "Name" : "ModestlyArmed",
+      "QualitiesAffected" : [
+         {
+            "AssociatedQuality" : {
+               "Id" : 110189
+            },
+            "Id" : 5372,
+            "Level" : 1
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102894
+            },
+            "Id" : 5373,
+            "Level" : 29
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102895
+            },
+            "Id" : 5374,
+            "Level" : 30
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102896
+            },
+            "Id" : 5375,
+            "Level" : 30
+         }
+      ],
+      "QualitiesRequired" : [],
+      "Setting" : {
+         "Id" : 100233
+      },
+      "SettingID" : 100233
+   },
+   {
+      "Description" : "Ship X",
+      "Id" : 5206,
+      "Name" : "Ship X",
+      "QualitiesAffected" : [
+         {
+            "AssociatedQuality" : {
+               "Id" : 102894
+            },
+            "Id" : 5376,
+            "Level" : 400
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102895
+            },
+            "Id" : 5377,
+            "Level" : 400
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102897
+            },
+            "Id" : 5378,
+            "Level" : 100
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102898
+            },
+            "Id" : 5379,
+            "Level" : 100
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102896
+            },
+            "Id" : 5380,
+            "Level" : 100
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102029
+            },
+            "Id" : 5484,
+            "Level" : 5000
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 105361
+            },
+            "Id" : 5485,
+            "Level" : 5000
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102030
+            },
+            "Id" : 5486,
+            "Level" : 200
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 106992
+            },
+            "Id" : 5487,
+            "Level" : 200
+         }
+      ],
+      "QualitiesRequired" : [],
+      "Setting" : {
+         "Id" : 100233
+      },
+      "SettingID" : 100233
+   },
+   {
+      "Description" : "Beastie I",
+      "Id" : 5230,
+      "Name" : "Beastie I",
+      "QualitiesAffected" : [
+         {
+            "AssociatedQuality" : {
+               "Id" : 110142
+            },
+            "Id" : 5417,
+            "Level" : 50
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 106160
+            },
+            "Id" : 5418,
+            "Level" : 50
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102896
+            },
+            "Id" : 5419,
+            "Level" : 50
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102895
+            },
+            "Id" : 5420,
+            "Level" : 50
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102894
+            },
+            "Id" : 5421,
+            "Level" : 50
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102897
+            },
+            "Id" : 5422,
+            "Level" : 50
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102898
+            },
+            "Id" : 5423,
+            "Level" : 50
+         }
+      ],
+      "QualitiesRequired" : [],
+      "Setting" : {
+         "Id" : 100233
+      },
+      "SettingID" : 100233
+   },
+   {
+      "Description" : "Beastie III",
+      "Id" : 5231,
+      "Name" : "Beastie III",
+      "QualitiesAffected" : [
+         {
+            "AssociatedQuality" : {
+               "Id" : 110142
+            },
+            "Id" : 5426,
+            "Level" : 100
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 106160
+            },
+            "Id" : 5427,
+            "Level" : 100
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102894
+            },
+            "Id" : 5428,
+            "Level" : 100
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102896
+            },
+            "Id" : 5429,
+            "Level" : 100
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102895
+            },
+            "Id" : 5430,
+            "Level" : 100
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102897
+            },
+            "Id" : 5431,
+            "Level" : 100
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102898
+            },
+            "Id" : 5432,
+            "Level" : 100
+         }
+      ],
+      "QualitiesRequired" : [],
+      "Setting" : {
+         "Id" : 100233
+      },
+      "SettingID" : 100233
+   },
+   {
+      "Description" : "Beastie V",
+      "Id" : 5232,
+      "Name" : "Beastie V",
+      "QualitiesAffected" : [
+         {
+            "AssociatedQuality" : {
+               "Id" : 110142
+            },
+            "Id" : 5424,
+            "Level" : 200
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 106160
+            },
+            "Id" : 5425,
+            "Level" : 200
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102894
+            },
+            "Id" : 5433,
+            "Level" : 150
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102897
+            },
+            "Id" : 5434,
+            "Level" : 150
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102898
+            },
+            "Id" : 5435,
+            "Level" : 150
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102896
+            },
+            "Id" : 5436,
+            "Level" : 150
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102895
+            },
+            "Id" : 5437,
+            "Level" : 150
+         }
+      ],
+      "QualitiesRequired" : [],
+      "Setting" : {
+         "Id" : 100233
+      },
+      "SettingID" : 100233
+   },
+   {
+      "Description" : "Beastie VII",
+      "Id" : 5233,
+      "Name" : "Beastie VII",
+      "QualitiesAffected" : [
+         {
+            "AssociatedQuality" : {
+               "Id" : 110142
+            },
+            "Id" : 5438,
+            "Level" : 500
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 106160
+            },
+            "Id" : 5439,
+            "Level" : 500
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102894
+            },
+            "Id" : 5440,
+            "Level" : 200
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102896
+            },
+            "Id" : 5441,
+            "Level" : 200
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102895
+            },
+            "Id" : 5442,
+            "Level" : 200
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102897
+            },
+            "Id" : 5443,
+            "Level" : 200
+         }
+      ],
+      "QualitiesRequired" : [],
+      "Setting" : {
+         "Id" : 100233
+      },
+      "SettingID" : 100233
+   },
+   {
+      "Description" : "Beastie VIII",
+      "Id" : 5234,
+      "Name" : "Beastie VIII",
+      "QualitiesAffected" : [
+         {
+            "AssociatedQuality" : {
+               "Id" : 110142
+            },
+            "Id" : 5410,
+            "Level" : 1000
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 106160
+            },
+            "Id" : 5411,
+            "Level" : 1000
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102894
+            },
+            "Id" : 5412,
+            "Level" : 250
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102896
+            },
+            "Id" : 5413,
+            "Level" : 250
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102898
+            },
+            "Id" : 5414,
+            "Level" : 250
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102897
+            },
+            "Id" : 5415,
+            "Level" : 250
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102895
+            },
+            "Id" : 5416,
+            "Level" : 250
+         }
+      ],
+      "QualitiesRequired" : [],
+      "Setting" : {
+         "Id" : 100233
+      },
+      "SettingID" : 100233
+   },
+   {
+      "Description" : "Beastie IX",
+      "Id" : 5235,
+      "Name" : "Beastie IX",
+      "QualitiesAffected" : [
+         {
+            "AssociatedQuality" : {
+               "Id" : 110142
+            },
+            "Id" : 5444,
+            "Level" : 2000
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 106160
+            },
+            "Id" : 5445,
+            "Level" : 2000
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102894
+            },
+            "Id" : 5446,
+            "Level" : 300
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102895
+            },
+            "Id" : 5447,
+            "Level" : 300
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102896
+            },
+            "Id" : 5448,
+            "Level" : 300
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102897
+            },
+            "Id" : 5449,
+            "Level" : 300
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102898
+            },
+            "Id" : 5450,
+            "Level" : 300
+         }
+      ],
+      "QualitiesRequired" : [],
+      "Setting" : {
+         "Id" : 100233
+      },
+      "SettingID" : 100233
+   },
+   {
+      "Description" : "Beastie X",
+      "Id" : 5236,
+      "Name" : "Beastie X",
+      "QualitiesAffected" : [
+         {
+            "AssociatedQuality" : {
+               "Id" : 110142
+            },
+            "Id" : 5451,
+            "Level" : 5000
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 106160
+            },
+            "Id" : 5452,
+            "Level" : 5000
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102894
+            },
+            "Id" : 5453,
+            "Level" : 400
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102896
+            },
+            "Id" : 5454,
+            "Level" : 400
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102895
+            },
+            "Id" : 5455,
+            "Level" : 400
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102898
+            },
+            "Id" : 5456,
+            "Level" : 400
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102897
+            },
+            "Id" : 5457,
+            "Level" : 400
+         }
+      ],
+      "QualitiesRequired" : [],
+      "Setting" : {
+         "Id" : 100233
+      },
+      "SettingID" : 100233
+   },
+   {
+      "Description" : "Increases Crew and Hull",
+      "Id" : 5238,
+      "Name" : "Clay Men",
+      "QualitiesAffected" : [
+         {
+            "AssociatedQuality" : {
+               "Id" : 102030
+            },
+            "Id" : 5489,
+            "Level" : 10
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102029
+            },
+            "Id" : 5490,
+            "Level" : 25
+         }
+      ],
+      "QualitiesRequired" : [],
+      "Setting" : {
+         "Id" : 100233
+      },
+      "SettingID" : 100233
+   },
+   {
+      "Description" : "FL integration unlock for a box that can only be opened in SS.",
+      "Id" : 5239,
+      "Name" : "FL_Whisper-Locked Box",
+      "QualitiesAffected" : [
+         {
+            "AssociatedQuality" : {
+               "Id" : 116273
+            },
+            "Id" : 6505,
+            "SetToExactly" : 1
+         }
+      ],
+      "QualitiesRequired" : [
+         {
+            "AssociatedQuality" : {
+               "Id" : 116130
+            },
+            "Id" : 12,
+            "MinLevel" : 1
+         }
+      ],
+      "Setting" : {
+         "Id" : 100233
+      },
+      "SettingID" : 100233
+   },
+   {
+      "Description" : "UsesPotentFlares",
+      "Id" : 5240,
+      "Name" : "UsesPotentFlares",
+      "QualitiesAffected" : [
+         {
+            "AssociatedQuality" : {
+               "Id" : 102027
+            },
+            "Id" : 5493,
+            "Level" : 10
+         }
+      ],
+      "QualitiesRequired" : [],
+      "Setting" : {
+         "Id" : 100233
+      },
+      "SettingID" : 100233
+   },
+   {
+      "Description" : "Has an Obscure Energies Device - can use Obscure Overload",
+      "Id" : 5241,
+      "Name" : "UsesObscureOverload",
+      "QualitiesAffected" : [
+         {
+            "AssociatedQuality" : {
+               "Id" : 110433
+            },
+            "Id" : 5494,
+            "Level" : 1
+         }
+      ],
+      "QualitiesRequired" : [],
+      "Setting" : {
+         "Id" : 100233
+      },
+      "SettingID" : 100233
+   },
+   {
+      "Description" : "Three Unclear Devices - can use Unclear Device",
+      "Id" : 5242,
+      "Name" : "HasUnclearDevices",
+      "QualitiesAffected" : [
+         {
+            "AssociatedQuality" : {
+               "Id" : 110435
+            },
+            "Id" : 5495,
+            "Level" : 3
+         }
+      ],
+      "QualitiesRequired" : [],
+      "Setting" : {
+         "Id" : 100233
+      },
+      "SettingID" : 100233
+   },
+   {
+      "Description" : "FL Panther linkup",
+      "Id" : 5254,
+      "Name" : "FL_Panther",
+      "QualitiesAffected" : [
+         {
+            "AssociatedQuality" : {
+               "Id" : 110493
+            },
+            "Id" : 5508,
+            "Level" : 1
+         }
+      ],
+      "QualitiesRequired" : [
+         {
+            "AssociatedQuality" : {
+               "Id" : 110432
+            },
+            "Id" : 7,
+            "MinLevel" : 1
+         }
+      ],
+      "Setting" : {
+         "Id" : 100233
+      },
+      "SettingID" : 100233
+   },
+   {
+      "Description" : "Beastie II",
+      "Id" : 5261,
+      "Name" : "Beastie II",
+      "QualitiesAffected" : [
+         {
+            "AssociatedQuality" : {
+               "Id" : 110142
+            },
+            "Id" : 5515,
+            "Level" : 75
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 106160
+            },
+            "Id" : 5516,
+            "Level" : 75
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102894
+            },
+            "Id" : 5517,
+            "Level" : 75
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102896
+            },
+            "Id" : 5518,
+            "Level" : 75
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102895
+            },
+            "Id" : 5519,
+            "Level" : 75
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102897
+            },
+            "Id" : 5520,
+            "Level" : 75
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102898
+            },
+            "Id" : 5521,
+            "Level" : 75
+         }
+      ],
+      "QualitiesRequired" : [],
+      "Setting" : {
+         "Id" : 100233
+      },
+      "SettingID" : 100233
+   },
+   {
+      "Description" : "Beastie IV",
+      "Id" : 5262,
+      "Name" : "Beastie IV",
+      "QualitiesAffected" : [
+         {
+            "AssociatedQuality" : {
+               "Id" : 110142
+            },
+            "Id" : 5522,
+            "Level" : 125
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 106160
+            },
+            "Id" : 5523,
+            "Level" : 125
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102894
+            },
+            "Id" : 5524,
+            "Level" : 125
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102896
+            },
+            "Id" : 5525,
+            "Level" : 125
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102897
+            },
+            "Id" : 5526,
+            "Level" : 125
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102895
+            },
+            "Id" : 5527,
+            "Level" : 125
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102898
+            },
+            "Id" : 5528,
+            "Level" : 125
+         }
+      ],
+      "QualitiesRequired" : [],
+      "Setting" : {
+         "Id" : 100233
+      },
+      "SettingID" : 100233
+   },
+   {
+      "Description" : "Beastie VI",
+      "Id" : 5263,
+      "Name" : "Beastie VI",
+      "QualitiesAffected" : [
+         {
+            "AssociatedQuality" : {
+               "Id" : 110142
+            },
+            "Id" : 5529,
+            "Level" : 300
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 106160
+            },
+            "Id" : 5530,
+            "Level" : 300
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102894
+            },
+            "Id" : 5531,
+            "Level" : 175
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102895
+            },
+            "Id" : 5532,
+            "Level" : 175
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102896
+            },
+            "Id" : 5533,
+            "Level" : 175
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102897
+            },
+            "Id" : 5534,
+            "Level" : 175
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102898
+            },
+            "Id" : 5535,
+            "Level" : 175
+         }
+      ],
+      "QualitiesRequired" : [],
+      "Setting" : {
+         "Id" : 100233
+      },
+      "SettingID" : 100233
+   },
+   {
+      "Description" : "Ship II",
+      "Id" : 5264,
+      "Name" : "Ship II",
+      "QualitiesAffected" : [
+         {
+            "AssociatedQuality" : {
+               "Id" : 105361
+            },
+            "Id" : 5536,
+            "Level" : 75
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102029
+            },
+            "Id" : 5537,
+            "Level" : 75
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102030
+            },
+            "Id" : 5538,
+            "Level" : 15
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 106992
+            },
+            "Id" : 5539,
+            "Level" : 15
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102895
+            },
+            "Id" : 5540,
+            "Level" : 75
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102894
+            },
+            "Id" : 5541,
+            "Level" : 75
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102896
+            },
+            "Id" : 5542,
+            "Level" : 75
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102898
+            },
+            "Id" : 5543,
+            "Level" : 75
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102897
+            },
+            "Id" : 5544,
+            "Level" : 75
+         }
+      ],
+      "QualitiesRequired" : [],
+      "Setting" : {
+         "Id" : 100233
+      },
+      "SettingID" : 100233
+   },
+   {
+      "Description" : "Ship IV",
+      "Id" : 5265,
+      "Name" : "Ship IV",
+      "QualitiesAffected" : [
+         {
+            "AssociatedQuality" : {
+               "Id" : 106992
+            },
+            "Id" : 5545,
+            "Level" : 30
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102030
+            },
+            "Id" : 5546,
+            "Level" : 30
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 105361
+            },
+            "Id" : 5547,
+            "Level" : 125
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102029
+            },
+            "Id" : 5548,
+            "Level" : 125
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102894
+            },
+            "Id" : 5549,
+            "Level" : 125
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102896
+            },
+            "Id" : 5550,
+            "Level" : 125
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102895
+            },
+            "Id" : 5551,
+            "Level" : 125
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102898
+            },
+            "Id" : 5552,
+            "Level" : 125
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102897
+            },
+            "Id" : 5553,
+            "Level" : 125
+         }
+      ],
+      "QualitiesRequired" : [],
+      "Setting" : {
+         "Id" : 100233
+      },
+      "SettingID" : 100233
+   },
+   {
+      "Description" : "Ship VI",
+      "Id" : 5266,
+      "Name" : "Ship VI",
+      "QualitiesAffected" : [
+         {
+            "AssociatedQuality" : {
+               "Id" : 106992
+            },
+            "Id" : 5554,
+            "Level" : 50
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102030
+            },
+            "Id" : 5555,
+            "Level" : 50
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 105361
+            },
+            "Id" : 5556,
+            "Level" : 300
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102029
+            },
+            "Id" : 5557,
+            "Level" : 300
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102894
+            },
+            "Id" : 5558,
+            "Level" : 175
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102895
+            },
+            "Id" : 5559,
+            "Level" : 175
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102896
+            },
+            "Id" : 5560,
+            "Level" : 175
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102898
+            },
+            "Id" : 5561,
+            "Level" : 175
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102897
+            },
+            "Id" : 5562,
+            "Level" : 175
+         }
+      ],
+      "QualitiesRequired" : [],
+      "Setting" : {
+         "Id" : 100233
+      },
+      "SettingID" : 100233
+   },
+   {
+      "Description" : "FL integration for Parabolan Kitten",
+      "Id" : 5275,
+      "Name" : "FL_PantherKitten",
+      "QualitiesAffected" : [
+         {
+            "AssociatedQuality" : {
+               "Id" : 105977
+            },
+            "Id" : 5571,
+            "SetToExactly" : 1
+         }
+      ],
+      "QualitiesRequired" : [
+         {
+            "AssociatedQuality" : {
+               "Id" : 110558
+            },
+            "Id" : 10,
+            "MinLevel" : 1
+         }
+      ],
+      "Setting" : {
+         "Id" : 100233
+      },
+      "SettingID" : 100233
+   },
+   {
+      "Description" : "This supports a Fallen London metaquality provided via a launch-promotion access code.",
+      "Id" : 6186,
+      "Name" : "Long Boxer",
+      "QualitiesAffected" : [
+         {
+            "AssociatedQuality" : {
+               "Id" : 105976
+            },
+            "Id" : 6485,
+            "Level" : 1
+         }
+      ],
+      "QualitiesRequired" : [
+         {
+            "AssociatedQuality" : {
+               "Id" : 116075
+            },
+            "Id" : 11,
+            "MinLevel" : 1
+         }
+      ],
+      "Setting" : {
+         "Id" : 100233
+      },
+      "SettingID" : 100233
+   }
+]
