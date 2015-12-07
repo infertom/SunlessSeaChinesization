@@ -70,12 +70,13 @@ public class Events {
 		File fileOut = new File("analy/out.txt");
 		FileOutputStream fileOutputStream = new FileOutputStream(fileOut);
 		PrintStream out = new PrintStream(fileOutputStream);
+		int num = 1;
 	
 		JSONArray jsonArray = JSON.parseArray(buffer.toString());
 		for ( Object ob : jsonArray ){
 			JSONObject jsonObject = (JSONObject) ob;
 //			fileName = "analy/" + jsonObject.getString("Name") + "(" + jsonObject.getString("Id") + ")" + ".txt";
-			fileName = "analy/" + "(" + jsonObject.getString("Id") + ")" + ".txt";
+			fileName = "analy/" + "(" + (num++) + ")" + ".txt";
 			fileOut = new File(fileName);
 			fileOutputStream = new FileOutputStream(fileOut);
 			out = new PrintStream(fileOutputStream);
