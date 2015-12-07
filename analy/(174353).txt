@@ -1,0 +1,24 @@
+Name:You've destroyed a Tramp Steamer
+Id:174353
+Description:Innocent men and women are dead, but that's their problem. And yours, if you're caught, but let's not dwell on that. What now?
+
+
+
+	ChildBranches1
+Name:Poke through the wreckage
+Id:142566
+Description:Take what you can.
+
+		DefaultEvent
+Name:What's this?
+Id:174356
+Description:Your crew is unhappy to be complicit in this crime, but obedient for now. Here's what they've found - 
+
+		ParentEvent
+Id:174353
+
+		RareDefaultEvent
+Name:A regrettable incident
+Id:174357
+Description:One of your sailors breaks down. She didn't go to sea to be a pirate! You've betrayed the fellowship of the sea! Your bo'sun is forced to shoot her when she leaps at you. Grim eyes, tightened lips. But here's your hard-won treasure.
+

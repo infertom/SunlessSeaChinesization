@@ -1,0 +1,60 @@
+Name:The Purified City
+Id:152419
+Description:The walled city of Varchas is a tangle of green vines and luminescent fungal flowers slow-blooming around mouldering stone. A quincunx of carved stepped-towers rise over the walls and pour burning white light into the bleak sky. 
+<br/><br/>
+A rough, shadowed path leads from the docks to the Mirrored Gates of Varchas. But there is no fire burning in the towering stone-lamps beside the gates, and no blue-cloaked Guard.
+<br/><br/>
+Varchas is barred to visitors.
+
+
+
+
+	ChildBranches1
+Name:A new settlement
+Id:129879
+Description:There is a collection of tents and huts clustered in the thin ring of light around the city's walls. Perhaps you could speak to them?
+
+		DefaultEvent
+Name:
+Id:152420
+Description:The Jewel-Turbaned Youth greets you with his hands pressed together. Only he is not Jewel-Turbaned any more, nor does he look particularly youthful. You can see other ill-fated Neathers through open-tent flaps. They sit on mouldering cushions and sipping mushroom-tea.
+<br/><br/>
+"We decided to leave Varchas, now that we are no longer Varchaasi," he explains. Though they haven't gone particularly far. He gives you an ironic look. "We have not given up our cause, but we are not quite ready for the wide open sea yet." 
+<br/><br/>
+He looks out over the glistening black expanse of the Unterzee, and a smile spreads slowly over his wan features. "Soon," he whispers. "Soon."
+<br/><br/>
+There is little more you have to say to each other; he watches you closely, almost yearningly, as you walk back to your ship.
+
+		ParentEvent
+Id:152419
+
+
+
+	ChildBranches2
+Name:Put a blemmigan ashore
+Id:147590
+Description:Will anyone object?
+
+		DefaultEvent
+Name:Bitter laughter
+Id:182415
+Description:The Neathers in the tents cackle with malicious delight as the blemmigan vanishes into the shadows. "Let's see Mihir take care of <i>that</i>!" one cries. Who knows? Perhaps blemmigans will creep into the city where they cannot. Perhaps blemmigans will be the ones to extinguish the light of Mihir. Perhaps you will return, one day, to find the city a single, vast, pulsating mass of purple sentience. Perhaps that will herald a new era of co-operation between Fungus and Humanity. Perhaps it will only herald the fungal violation of the whole Neath. Or perhaps the blemmigan will find itself crushed beneath a cart-wheel. The future is a trackless ocean that dwarfs even the Unterzee.
+
+		ParentEvent
+Id:152419
+
+
+
+	ChildBranches3
+Name:Compile a Port Report
+Id:147657
+Description:The gates are closed. The Admiralty will want to know.
+
+		DefaultEvent
+Name:Possibilities
+Id:182513
+Description:Perhaps the Neathers will prove useful to London...
+
+		ParentEvent
+Id:152419
+

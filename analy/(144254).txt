@@ -1,0 +1,43 @@
+Name:Imperial Frigate
+Id:144254
+Description:...
+
+
+
+	ChildBranches1
+Name:Fight, if turned pirate
+Id:124664
+Description:
+
+		DefaultEvent
+Id:144255
+
+		ParentEvent
+Id:144254
+
+
+
+	ChildBranches2
+Name:Flee, if turned pirate
+Id:124665
+Description:
+
+		DefaultEvent
+Id:144256
+
+		ParentEvent
+Id:144254
+
+
+
+	ChildBranches3
+Name:Talk
+Id:124666
+Description:
+
+		DefaultEvent
+Id:144257
+
+		ParentEvent
+Id:144254
+

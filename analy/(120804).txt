@@ -1,0 +1,49 @@
+Name:Revealing your Past
+Id:120804
+Description:"Let us speak frankly..."
+
+
+
+	ChildBranches1
+Name:"I prefer not to think about my upbringing..."
+Id:109940
+Description:"...but there are enough secrets at zee."
+
+		DefaultEvent
+Name:
+Id:120805
+Description:
+
+		ParentEvent
+Id:120804
+
+
+
+	ChildBranches2
+Name:"I've just been too busy..."
+Id:109941
+Description:"...but I don't particularly mind talking about it."
+
+		DefaultEvent
+Name:
+Id:120806
+Description:
+
+		ParentEvent
+Id:120804
+
+
+
+	ChildBranches3
+Name:"Remember me."
+Id:109942
+Description:"I may never return home. Someone should know who I was."
+
+		DefaultEvent
+Name:
+Id:120807
+Description:
+
+		ParentEvent
+Id:120804
+

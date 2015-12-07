@@ -1,0 +1,202 @@
+Name:Iron & Misery Company Funging Station
+Id:121902
+Description:I & M has a funger operation here, felling giant bolegus shrooms for building materials, harvesting kirralee for its 'medicinal' properties. It's a desperate little outpost of something like civilisation. 
+<br/><br/>
+Up puffs the Affable Factor. "Oh hello, Captain! Thank God for visitors. We'd go quite mad out here otherwise, ahahaha. Quite mad. How can we be of assistance?"
+
+
+
+	ChildBranches1
+Name:Give the pass-sign to the Affable Factor
+Id:110632
+Description:The Admiralty asked you to bring back Strategic Information. This is your contact.
+
+		DefaultEvent
+Name:A strained smile
+Id:121903
+Description:"Yes - yes, I have it here. The courier-ship to Mt Palmerston stopped off to resupply. Tell the Admiralty - tell them I miss my children. Tell them I can't take it here much longer. The spores, the dark."
+
+		ParentEvent
+Id:121902
+
+		RareDefaultEvent
+Name:A strained smile
+Id:153203
+Description:"Here. Little to report, but we have had Khanate privateers nosing around. And tell them that the Company grows suspicious. Mr Iron knows the Admiralty is interested in his business. Pray, my friend, that you never have to serve two masters, as I do."
+
+
+
+	ChildBranches2
+Name:Tea with the Factor
+Id:110633
+Description:The poor fellow needs the company, and he can spare an hour away from his schedule.
+
+		DefaultEvent
+Name:An interlude
+Id:121904
+Description:You sit on the verandah of the Factor's house, looking out over the fungal jungle: an expanse of green and sour gold. The air is thick with hovering spores. The scones are stale. Even the tea has a hint of mildew. But the Factor is good company: he shares odd stories about the ice and roses of Irem, the monstrosities of the Sea of Lilies, and a little restaurant in Venderbight where he enjoyed the most extraordinary sea-food. ("Venderbight! I know! I'd never met a tomb-colonist who could cook! But you must visit the place. Do you know it?")
+<br/><br/>
+He also has a load of bolegus-frond carted aboard your ship. He waves away your thanks. "I have eaten so much of the stuff I fear that I might be transformed entirely into fungus." He leans confidentially towards you. "It happens, you know. But one does have to eat rather a lot of it first."
+
+		ParentEvent
+Id:121902
+
+
+
+	ChildBranches3
+Name:Explore Demeaux Island
+Id:124310
+Description:Close-crowded thickets of bolegus and skirralee. The Iron & Misery company fells them daily, but they grow back almost as fast. The interior of the island is dark and wild.
+
+		DefaultEvent
+Name:
+Id:143706
+Description:
+
+		ParentEvent
+Id:121902
+
+
+
+	ChildBranches4
+Name:Explore Demeaux Island
+Id:125898
+Description:Close-crowded thickets of bolegus and skirralee. The Iron & Misery company fells them daily, but they grow back almost as fast. The interior of the island is dark and wild.
+
+		DefaultEvent
+Name:
+Id:146184
+Description:
+
+		ParentEvent
+Id:121902
+
+
+
+	ChildBranches5
+Name:Explore Demeaux Island
+Id:125900
+Description:Close-crowded thickets of bolegus and skirralee. The Iron & Misery company fells them daily, but they grow back almost as fast. The interior of the island is dark and wild.
+
+		DefaultEvent
+Name:
+Id:146186
+Description:
+
+		ParentEvent
+Id:121902
+
+
+
+	ChildBranches6
+Name:Explore Demeaux Island
+Id:125901
+Description:Close-crowded thickets of bolegus and skirralee. The Iron & Misery company fells them daily, but they grow back almost as fast.
+
+		DefaultEvent
+Name:
+Id:146187
+Description:
+
+		ParentEvent
+Id:121902
+
+
+
+	ChildBranches7
+Name:Accept a volunteer
+Id:126068
+Description:One of Company's bolegus-fellers has negotiated an early release from her contract. "It's the sproutlings," she tells you, her face pleading. "I keep picking them out of me porridge. And me hair. And me eyes. Take me away. I'm a good worker."
+
+		DefaultEvent
+Name:Signing up
+Id:146445
+Description:You pay the release-fee to the Factor, and your new zailor settles in. Ready to zail now?
+
+		ParentEvent
+Id:121902
+
+
+
+	ChildBranches8
+Name:Put a blemmigan ashore
+Id:133910
+Description:Though it's far from hospitable...
+
+		DefaultEvent
+Name:A kind of homecoming
+Id:158884
+Description:The blemmigan propels itself into a springing leap: up to a bolegus trunk, around, into the thickets. It whistles as it goes, and deeper in the fungal jungle, a whistling rises in response. There are already blemmigans here.
+
+		ParentEvent
+Id:121902
+
+
+
+	ChildBranches9
+Name:Bargain with the Factor for a secret
+Id:146106
+Description:The Irrepressible Cannoneer is convinced that the Factor knows more about a weapon - the Company's terrible prototype. You will need a bribe. It's only fair.
+
+		DefaultEvent
+Name:A shared and sordid past
+Id:180107
+Description:Even with the bribe, the Factor is reluctant to talk - but it seems the Cannoneer knew him 'in the old days', and he's even more reluctant to have the Cannoneer talk about the old days. Finally, he gives in.
+<br/><br/>
+"It was a place called Aestival. Do you know it? It's, hm, a striking place. You wouldn't believe me if I told you. It's east. A long way east. We took it off all the maps. Not that maps last at zee anyway. That's all I know. Now - shall we let the past lie where it fell?"
+
+		ParentEvent
+Id:121902
+
+
+
+	ChildBranches10
+Name:Tea with the Factor
+Id:147442
+Description:The poor fellow needs the company, and he can spare an hour away from his schedule.
+
+		DefaultEvent
+Name:An interlude
+Id:182205
+Description:You sit on the verandah of the Factor's house, looking out over the fungal jungle: an expanse of green and sour gold. The air is thick with hovering spores. The scones are stale. Even the tea has a hint of mildew. But the Factor is good company: he shares odd stories about the Gant Pole where monsters swarm, about the seductions of the Principles of Coral, the infestation at Featherhaven...
+<br/><br/>
+He also has a load of bolegus-frond carted aboard your ship. He waves away your thanks. "I have eaten so much of the stuff I fear that I might be transformed entirely into fungus." He leans confidentially towards you. "It happens, you know. But one does have to eat rather a lot of it first."
+
+		ParentEvent
+Id:121902
+
+
+
+	ChildBranches11
+Name:Compile a Port Report
+Id:147663
+Description:The Admiralty likes to keep an eye on Iron & Misery's activities.
+
+		DefaultEvent
+Name:The business of spores
+Id:182521
+Description:Of course, I&M's activities here don't seem that interesting. Nevertheless, record what you can.
+
+		ParentEvent
+Id:121902
+
+
+
+	ChildBranches12
+Name:Gather supplies
+Id:129132
+Description:Some of the island's fungus is good to eat. Some is poisonous, hallucinogenic or mischievous. Good luck!
+
+		DefaultEvent
+Name:A fug of dread
+Id:151241
+Description:The spores lie thick on your face: they coat your tongues. One crewman begins to whimper. "Oh Christ," he says. "They've reached my heart. I think I'll be harvest yet. Harvest yet!" You have to drag him back to the ship before he's calm again.
+
+		ParentEvent
+Id:121902
+
+		SuccessEvent
+Name:
+Id:151242
+Description:
+

@@ -1,0 +1,43 @@
+Name:Caught in the act
+Id:147930
+Description:One of the shadows moves. An Austere Acolyte steps into the light. She is covered head to foot in protective black, her fingers thickly gloved and goggles perched on the top of her head. It is plain she's unimpressed by what she's seen of you so far.
+<br/>
+<br/>
+"Deliveries go up this path," she says, nodding towards the steepled building.
+
+
+
+	ChildBranches1
+Name:Apologise for the form of your meeting
+Id:127081
+Description:Who knows - she may be responsible for paying the delivery charges. 
+
+		DefaultEvent
+Name:That could have gone better
+Id:148059
+Description:You offer an apology.
+<br/>
+<br/>
+She listens, but indifferently. You are very nearly sure she is humming something faintly while you talk to her.
+
+		ParentEvent
+Id:147930
+
+
+
+	ChildBranches2
+Name:Insist she bring help to carry the boxes
+Id:127083
+Description:It's not your crew's proper job, after all.
+
+		DefaultEvent
+Name:Arms and weight
+Id:148061
+Description:You explain that you were paid only to deliver the boxes to these shores and no further.
+<br/>
+<br/>
+She frowns at you, then shrugs. 
+
+		ParentEvent
+Id:147930
+

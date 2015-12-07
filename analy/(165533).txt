@@ -1,0 +1,44 @@
+Name:Tomb-Colonists in Khan's Glory
+Id:165533
+Description:"...one knows one should be patriotic, but the Glory is so much prettier than London. Although one finds one tiring of all the guns pointed at one. One should find a better pronoun."
+
+
+
+	ChildBranches1
+Name:Let them tour the palaces
+Id:137243
+Description:They may be mistaken for marauding ghosts: shot, burnt or exorcised. Well, they should have stayed home if they wanted an easy life.
+
+		DefaultEvent
+Name:Enthusiasm!
+Id:165534
+Description:Your tomb-colonists return, delighted, brandishing their sketches of the Khaganian palaces. One intends to remodel Venderbight after Khan's Glory. "It'll take decades," she opines. "Decades! I may be long gone." She sighs. "Long gone."
+
+		ParentEvent
+Id:165533
+
+		RareDefaultEvent
+Name:Free enterprise
+Id:175353
+Description:"He's gone," one of them explains. "They put him in a sort of crucible and extracted him into jars. They're selling him as 'ghost-dust' in the Nephrite Quarter now. I don't think they actually thought he was a ghost. I think they thought he was a spy. They're not very friendly, the Khaganians, are they? Where are we going now?"
+
+
+
+	ChildBranches2
+Name:Use your influence with the Leopard
+Id:143192
+Description:Perhaps you can arrange some sort of cultural exchange with clan officials?
+
+		DefaultEvent
+Name:Tea and spiced toast
+Id:175336
+Description:Your tomb-colonists are treated with courtesy, despite their unpromising appearance. Some Khaganians revere their ancestors; perhaps that's why. When the colonists return, they're chattering freely about the layout of the Leopard's palace. Note that information down: it will come in useful to someone.
+
+		ParentEvent
+Id:165533
+
+		RareDefaultEvent
+Name:Unusual confidences
+Id:175352
+Description:Ruins of a previous civilisation underlie Venderbight. Tomb-colonists have unearthed the secrets of the Third City. Rather rudely, they haven't chosen to share those secrets with you: instead, they've divulged them to Khaganian officials. But they're very happy to share the information that the Khaganians shared in turn...
+

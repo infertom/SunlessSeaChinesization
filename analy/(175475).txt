@@ -1,0 +1,101 @@
+Name:Fountainhead Island
+Id:175475
+Description:Swiftly growing vegetation keeps a thick forest wrapped around variably ancient ruins. Even the yet to be plundered ones are heavily scarred with crowbar marks.
+
+
+
+	ChildBranches1
+Name:A temple in the forest
+Id:143284
+Description:In a clearing of parasynthetic trees looms an imposing structure of wood and stone.
+
+		DefaultEvent
+Name:The Vault of the First Emperor
+Id:175476
+Description:It stretches through the forest in a mix of stone and wood, its style at the mercy of the Pentecost apes' current whimsies and inspirations. It would take a dedicated team to break in and uncover its secrets. Perhaps you will bring one here later...
+
+		ParentEvent
+Id:175475
+
+		RareDefaultEvent
+Name:The Vault of the First Emperor
+Id:176026
+Description:It stretches through the forest in a number of styles, each designed by the whims of the latest Pentecost apes who felt it needed to be made grander. It would take a dedicated team to break in and uncover its secrets. Perhaps you will bring one here later...
+
+
+
+	ChildBranches2
+Name:Return to the boat
+Id:143645
+Description:It will take a better equipped expedition to uncover this island's secrets and treasures.
+
+		DefaultEvent
+Name:An investigation for another day
+Id:176027
+Description:Perhaps there is someone in Fallen London who might be able to help you get to the treasures of this island.
+
+		ParentEvent
+Id:175475
+
+
+
+	ChildBranches3
+Name:Visit the Delightful Adventuress' camp
+Id:143927
+Description:With a small army of monkeys bought with her soul, she excavates the Vault of the First Emperor.
+
+		DefaultEvent
+Name:Through the forest
+Id:176470
+Description:The foliage is thick and unforgiving.
+
+		ParentEvent
+Id:175475
+
+
+
+	ChildBranches4
+Name:To the Vault of the First Emperor
+Id:143930
+Description:A shortcut past the Delightful Adventuress' camp
+
+		DefaultEvent
+Name:The route is familiar
+Id:176475
+Description:Soon enough, you stand before the stone gates and wooden towers of the Empire's most gloriously overconstructed structure.
+
+		ParentEvent
+Id:175475
+
+
+
+	ChildBranches5
+Name:A Treasure Hunt
+Id:143956
+Description:Secrets are buried here, ready to be uncovered.
+
+		DefaultEvent
+Name:Into the Valley
+Id:176504
+Description:The map of the island shows where to begin. The instructions on the back explain the rest.
+<br />
+[You only have time for one dig attempt per visit. Every time you return to the Valley, you will begin at the correct point for finding the treasure]
+
+		ParentEvent
+Id:175475
+
+
+
+	ChildBranches6
+Name:Return to the boat
+Id:144137
+Description:Treasure hunting can wait until later.
+
+		DefaultEvent
+Name:An easy journey back to port
+Id:176747
+Description:The zee is calm. So is whatever might be swimming in it around here.
+
+		ParentEvent
+Id:175475
+

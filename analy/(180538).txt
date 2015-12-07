@@ -1,0 +1,19 @@
+Name:Sunlight-Filled Mirrorcatch Box
+Id:180538
+Description:There is glory within.
+
+
+
+	ChildBranches1
+Name:Open the Box
+Id:146678
+Description:Consume sunlight. [This will empty your Box, give you a Wound (three Wounds will kill you), and slightly reduce terror.]
+
+		DefaultEvent
+Name:A moment
+Id:181077
+Description:For a moment, you could be a-sail on the bright oceans above: then the pain comes.
+
+		ParentEvent
+Id:180538
+

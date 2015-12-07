@@ -1,0 +1,80 @@
+Name:Hunter's Keep in ruins
+Id:149712
+Description:The lawns are weedy meadows walked by the wind. The gravel paths have sunk to mud. The house is a jumble of charred stones and timbers. 
+
+
+
+	ChildBranches1
+Name:Pick over the ruins of the great house
+Id:128181
+Description:Fungus and cavern-vines are already reclaiming the masonry.
+
+		DefaultEvent
+Name:A presence in the ruins
+Id:149714
+Description:No one has come to reclaim Hunter's Keep, despite its proximity to London. (Here's one: a porcelain heart, untouched by flames.) The place has an eery reputation.
+<br/><br/>
+One of your zailors cocks an ear. You look questioning. "I thought - " she says - "for a moment, I thought I heard a woman singing."
+
+		ParentEvent
+Id:149712
+
+		RareDefaultEvent
+Name:Peace in the ruins
+Id:149716
+Description:No one has come to reclaim Hunter's Keep, despite its proximity to London. The place has an eery reputation. It's difficult to see why, today. The place is as peaceful as a folly in a park. The air is still. Far across the water, the lights of London glow.
+
+
+
+	ChildBranches2
+Name:Put a blemmigan ashore
+Id:133945
+Description:It seems fitting, in this place of ruins.
+
+		DefaultEvent
+Name:A mushroom in the meadow
+Id:158937
+Description:It saunters up the beach, casual as a costermonger on a Sunday afternoon. It snatches a cave-cricket from a stone and, munching cheerfully, disappears into the undergrowth.
+
+		ParentEvent
+Id:149712
+
+
+
+	ChildBranches3
+Name:Look in on the ruins
+Id:146674
+Description:Has anything changed?
+
+		DefaultEvent
+Name:Wind, weeds, water
+Id:181073
+Description:Tumbled stones. The garden unwinding gently into disorder, week on week. Nothing more.
+
+		ParentEvent
+Id:149712
+
+
+
+	ChildBranches4
+Name:Excavate the cellar
+Id:146675
+Description:"Right," the Mechanic says. "That's, er, a problem. The pool we need is down there." He points to the ruins. "I'm afraid we'll need to do some digging."
+
+		DefaultEvent
+Name:Beneath Hunter's Keep
+Id:181074
+Description:It takes a full day to clear away sufficient ruins to reach the cellars. In the deepest sub-cellar, your candles illuminate a litter of tumbled stones - the remnants of a temple. The signs on the stones have a Khaganian look. A pool at the cellar's centre is almost dry. The remaining water there seethes oddly in the candle-light, as if it were near boiling, but it's quite cool to the touch.
+<br/><br/>
+"The Writhing River flows near here," the Mechanic remarks. "One of the tributaries of dream. My enemies find me when I sleep - but this water will attract my enemies to this poor fellow."
+<br/><br/>
+He bends to dip his hand in the water and sketches a sign on the Clay Man's forehead. The Man watches him stolidly. The Mechanic hands him the Mirrorcatch Box. "Hold this," he says. "Keep it open. Don't let go, no matter what happens." The Clay Man's huge hands enfold the box.
+<br/><br/>
+"There," the Mechanic says, turning to you. "A serpent-trap. Now, I can sleep. I can finally sleep." He smiles. "And then I think I may be able to offer you something rather interesting."
+<br/><br/>
+[Speak to the Mechanic on board ship to advance the story further.]
+
+
+		ParentEvent
+Id:149712
+

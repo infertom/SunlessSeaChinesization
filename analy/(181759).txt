@@ -1,0 +1,67 @@
+Name:Snuffer Hunting
+Id:181759
+Description:The docks throng. The streets bustle. The Blue Bazaar heaves. Thousands upon thousands of faces. The snuffer could be hiding behind any one of them. How will you find it?
+
+
+
+	ChildBranches1
+Name:Abandon the pursuit for now
+Id:147153
+Description:Another time.
+
+		DefaultEvent
+Name:
+Id:181764
+Description:
+
+		ParentEvent
+Id:181759
+
+
+
+	ChildBranches2
+Name:Mobilise your network
+Id:147151
+Description:You have other eyes, and other hands.
+
+		DefaultEvent
+Name:Devilish ingenuity
+Id:181760
+Description:No sooner have you issued your coded instructions than one of your agents disappears. The Snuffer had infiltrated your own network! 
+
+		ParentEvent
+Id:181759
+
+		SuccessEvent
+Name:A good day's work
+Id:181762
+Description:You issue coded instructions to your agents. Within the day, the snuffer is identified, isolated, subdued with the gift of a carefully-poisoned hat steeped in paralytic jillyfish extracts, placed in a coffin, carried to your ship, and chained in the hold before the poison wears off. A diet of mutersalted candles keeps it quiet for the return journey.
+<br/><br/>
+It had been masquerading as an aide at the governor's mansion. Undoubtedly questions will be asked regarding his disappearance, but you'll be long gone by then.
+
+
+
+	ChildBranches3
+Name:The same way you entice any prey: with bait
+Id:147152
+Description:You'll need candles. Lots of candles.
+
+		DefaultEvent
+Name:Empty-handed
+Id:181761
+Description:You arrange a tempting, poorly-guarded bulk sale of candles. What Snuffer could resist? This one, apparently. He doesn't bite. By evening you're down on the deal and you've wasted a day disguised as a flamboyant, but gullible, merchant from Khan's Shadow. You fling aside the least flattering of your scarves in disgust.
+
+		ParentEvent
+Id:181759
+
+		SuccessEvent
+Name:A trap for the faithful
+Id:181763
+Description:As far as you can tell, this trick was last performed seven hundred years ago, when a cabal of Orthodox priests confronted Snuffers preying on their Fourth City flock. 
+<br/><br/>
+You create a false chapel and fill it with candles. They stand tall on stands, blaze in candelabras, float in copper bowls. Scented candles and coloured candles: red as meat, white as bone, green as emeralds, black as a funeral. A hot wax smell pours from the doors and down the street.
+<br/><br/>
+<i>There are so many!</i> the Snuffer must think. <i>Who would miss one?</i> He does not know you are hiding in the confessional. You emerge when you hear him gobbling between two pews. Melted wax encrusts his chin. A scrap of wick is caught between his teeth. You show him your pistol, tie his hands, and lock him in the brig of your ship. He was ambitious, this Snuffer. He had replaced an aide at the governor's mansion.
+
+
+

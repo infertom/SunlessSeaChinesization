@@ -1,0 +1,34 @@
+Name:A litter of smashed carapaces
+Id:153584
+Description:Who would have thought the foul things had so much ichor in them?
+
+
+
+	ChildBranches1
+Name:Clean your boots
+Id:130591
+Description:All that stamping and shooting has taken its toll. Sorrow-spider ichor does not smell anything like flowers.
+
+		DefaultEvent
+Name:More than you'd want to know
+Id:153585
+Description:You pick bits of spider off your person. In the process, you gain a degree of practical acquaintance with the internal details of arachnids. Well, all knowledge is useful to someone.
+
+		ParentEvent
+Id:153584
+
+
+
+	ChildBranches2
+Name:Record any Observations
+Id:131982
+Description:If you've gathered enough, you may learn something...
+
+		DefaultEvent
+Name:For the eyes!
+Id:155734
+Description:That fat spider with the overdeveloped fangs - it was sucking merrily on Seaman Carrilo's bicep before you smashed it. They eat whatever flesh they can find (poor Carrilo, still moaning from the poison's ravages!). But again and again they leap for the eyes. Do they prefer the taste? Is it a tactic? Or do they have an even more disgusting purpose in their dim arachnid minds?
+
+		ParentEvent
+Id:153584
+

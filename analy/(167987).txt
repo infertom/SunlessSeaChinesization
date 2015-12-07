@@ -1,0 +1,69 @@
+Name:Jillyfleur's End
+Id:167987
+Description:The jillyfleur. Is it a young jillyfish? A lesser subspecies? Do the dreams of jillyfish become real? In any case, now it's a sad slick of goo, dissolving into the zee.
+
+
+
+	ChildBranches1
+Name:Scoop it up!
+Id:138762
+Description:Perhaps you can eat it. Better yet, perhaps your zailors can.
+
+		DefaultEvent
+Name:A barrel of former jellyfish
+Id:167990
+Description:It will wait in the hold like a cup of dissolved moon. One day, you will eat it. Or, perhaps, it will eat you.
+
+		ParentEvent
+Id:167987
+
+		RareDefaultEvent
+Name:A spreading stain
+Id:167992
+Description:It's gone: you are left with gooey gloves and a buttery smell. And this purple thing. Is it an egg? A heart? A less fortunate traveller, dissolved and shrivelled to mauve ruin? Put it somewhere safe.
+
+
+
+	ChildBranches2
+Name:Let it disperse
+Id:138763
+Description:Watch its oil-rainbow colours fade.
+
+		DefaultEvent
+Name:A face?
+Id:167991
+Description:From above, the jillyfleur's cap does look a little like a woman's face. She dissolves like smeared paint.
+
+		ParentEvent
+Id:167987
+
+
+
+	ChildBranches3
+Name:Let it disperse
+Id:138767
+Description:Watch its oil-rainbow colours fade.
+
+		DefaultEvent
+Name:A face!
+Id:167998
+Description:It looks very like Flourishing-of-Years - the grand shrine-face of Visage. Something about the eyes, the sternness of the mouth. Perhaps only that it stares at the roof, just as Flourishing-of-Years does. Now it dissolves...
+
+		ParentEvent
+Id:167987
+
+
+
+	ChildBranches4
+Name:Let it disperse
+Id:138768
+Description:Watch its oil-rainbow colours fade.
+
+		DefaultEvent
+Name:
+Id:167999
+Description:It looks very like Flourishing-of-Years - the grand shrine-face of Visage. Something about the eyes, the sternness of the mouth. Perhaps only that it stares at the roof, just as Flourishing-of-Years does. Now it dissolves...
+
+		ParentEvent
+Id:167987
+

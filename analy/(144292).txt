@@ -1,0 +1,76 @@
+Name:You've defeated an Albino Moray
+Id:144292
+Description:D--n me, it's an ugly thing! Even uglier dead than alive. Friendlier, though.
+
+
+
+	ChildBranches1
+Name:Butcher it
+Id:124692
+Description:For supplies; and occasionally other oddities.
+
+		DefaultEvent
+Name:
+Id:144295
+Description:
+
+		ParentEvent
+Id:144292
+
+
+
+	ChildBranches2
+Name:Record any Observations
+Id:131995
+Description:If you've gathered enough, you may learn something...
+
+		DefaultEvent
+Name:A carnivorous complexity
+Id:155747
+Description:How many jaws does this monster have? Each folds into the next like an orchid of bone. They're wrecked by cannon-fire now, but you think you counted seven. It suggests unlikely things about the nature, or impossibility, of Neathly processes of evolution...
+
+		ParentEvent
+Id:144292
+
+
+
+	ChildBranches3
+Name:Rescue a New Jonah
+Id:141552
+Description:The eel's gut twitches. Is something alive in there?
+
+		DefaultEvent
+Name:Slice it open!
+Id:172689
+Description:A bandage-wrapped fellow clambers out of the slit. Well: they were bandages, before they were steeped for weeks in the internal juices of an eel. Now the effect is more like a kind of rollmop linguine. "Does wonders for my complexion," he remarks, squelchingly. "But I suppose it's time to go. Could you drop me off at Venderbight?"
+
+		ParentEvent
+Id:144292
+
+
+
+	ChildBranches4
+Name:Dissect it
+Id:124691
+Description:for knowledge.
+
+		DefaultEvent
+Name:A setback
+Id:144293
+Description:But you are a little too careless: the slime that coats it is poisonous, and as it passes into your blood, you pass out. You recover consciousness with your ship's doctor anxiously chafing your wrists. The Moray has disintegrated in the zee-currents.
+
+		ParentEvent
+Id:144292
+
+		SuccessEvent
+Name:Nature's armoury
+Id:144294
+Description:Observe its teeth: the hooks, the clamps, the cunning tendons of the jaw. Its skin, which almost defeats your knives, and which secretes a slime containing a toxin that causes paralysis of the nerves. You can learn from these...
+
+		RareSuccessEvent
+Name:Your attention drifts
+Id:148476
+Description:...as you hack up the beast. Somehow, you seem no longer to be engaged in dissection, but climbing a pale shingle beach. The pebbles glisten with slime. Beyond the ridge of the beach, you hear music: a careless cheery piping. You struggle higher. Zee-bats zip past. The piping ends abruptly: all is silence. You look back down the beach to the Unterzee: shafts of light pierce the darkness. "The Sun!" cries a voice. "The Sun!"
+<br/><br/>
+No: no Sun. You are kneeling in darkness, in the disintegrating innards of a giant eel.
+

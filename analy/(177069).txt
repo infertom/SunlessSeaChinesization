@@ -1,0 +1,21 @@
+Name:A Hesperidean Apple
+Id:177069
+Description:These grow freely in the Garden beneath the Mountain of Light. Out here, they're rarer than actual gold. You lucky dog.
+
+
+
+	ChildBranches1
+Name:Consume the Apple
+Id:144311
+Description:The Masters of the Bazaar know how to ferment these into an elixir of immortality. A raw apple won't be quite as potent, but it will still perk you up no end. [This will cure all Wounds, and substantially reduce Terror.]
+
+		DefaultEvent
+Name:That taste!
+Id:177070
+Description:...is the taste of apples. Crisp, juicy, but to be honest, a little bit too tart. Disappointing. You were expecting more. You take another bi-
+<br/><br/>
+When the gold is gone from your eyes and brain, you take stock. Your clothes will need repair. No one seems to have heard your wild laughter, or if else they were tactful enough to ignore it. Your heart is still pounding, but it will probably stop eventually. Your cabin is scrawled with poetry. Some of it's quite good, actually. Quite good, considering the circumstances. The apple still tastes like something out of any ordinary Surface orchard, but perhaps you should be more cautious next time.
+
+		ParentEvent
+Id:177069
+

@@ -1,0 +1,125 @@
+Name:Errands for the Acolyte
+Id:148123
+Description:From time to time she'll admit that there's something you can do for her.
+
+
+
+	ChildBranches1
+Name:A present
+Id:127124
+Description:She's in search of new music to sing at her work. You could scramble together some pages.
+
+		DefaultEvent
+Name:New tunefulness
+Id:148124
+Description:If it's not entirely original work, at least it will make a change from her usual round of children's ditties and airs from half-remembered operas. She is pleased by your thoughtfulness.
+
+		ParentEvent
+Id:148123
+
+
+
+	ChildBranches2
+Name:Deliveries to the smith
+Id:127128
+Description:Heartmetal for the smith. Why the Clay Men can't deliver it, you don't know.
+
+		DefaultEvent
+Name:Matter for weapons
+Id:148130
+Description:The smithy is a long low building that you missed on your first survey of the island. The blacksmith works, it proves, entirely in heart-metal, though it is so hard and cruel that it wears his tools out quickly.
+<br/>
+<br/>
+"Nothing like it for weaponry," he says. "Does more damage than any ordinary steel, and a little bit of the shrapnel will give you trouble to the end of your days."
+
+		ParentEvent
+Id:148123
+
+
+
+	ChildBranches3
+Name:A visit to Soothe and Cooper
+Id:127130
+Description:She has a little jar of heart-metal shavings, bits too small to be reused for any other purpose, picked out of the teeth of the nutcracker.
+
+		DefaultEvent
+Name:Boiling liquids
+Id:148133
+Description:Soothe meets you at the door. Cooper is not home.
+<br/>
+<br/>
+Soothe has a cauldron on the boil already, and in go the shavings. You wouldn't think they'd melt, but they go like butter, swirling into the mix.
+<br/>
+<br/>
+"Have 'em bottled by tomorrow forenoon," Soothe says, not looking up from his stirring. 
+
+		ParentEvent
+Id:148123
+
+
+
+	ChildBranches4
+Name:Deliveries to the smith
+Id:127776
+Description:She piles up a crate full of discarded heart-metal, if you're willing to be made to fetch and carry now...
+
+		DefaultEvent
+Name:Matter for weapons
+Id:149032
+Description:It's sweltering inside the smithy. Best to deposit the boxes close to the door.
+<br/>
+<br/>
+The smith follows your glance. "Heat's not good for the Clay Men," he says. "But the Acolyte doesn't much like it either, all bundled up the way she is."
+
+		ParentEvent
+Id:148123
+
+
+
+	ChildBranches5
+Name:A novel present
+Id:127131
+Description:She's in search of new music to sing at her work. You could write some.
+
+		DefaultEvent
+Name:Genius averted
+Id:148134
+Description:For a quarter hour you think you're on to something original, until one of your crew reminds you the tune you're whistling is that Wolfstack drinking song with the naughty refrain about Sinning Jenny.
+
+		ParentEvent
+Id:148123
+
+		SuccessEvent
+Name:Nothing too difficult
+Id:148135
+Description:It might not be enough for a royal concert, but it's a good, hearty tune that would put anyone in a better mood. You try singing it with various invented lyrics about a kite made of pantaloons and a clock that can only strike thirteen. The tune holds up, and you're sure that the Austere Acolyte's broader and more varied verses will go with it just as well.
+<br/>
+<br/>
+When you whistle it for her, she seems really quite touched.
+
+
+
+	ChildBranches6
+Name:Guarding the yard
+Id:127125
+Description:She asks you to keep a night watch on the dump where she throws away the unused heartstuff.
+
+		DefaultEvent
+Name:A dull watch
+Id:148125
+Description:Apparently usually one of the other acolytes performs this melancholy duty, but no one is available today, and so it falls to you.
+<br/>
+<br/>
+The place proves to be a wide field knee-deep in the dark matter. You quickly learn better than to touch it, or even go very near it. The cumulative misery of so many lives is dizzying if you even look in the general direction. You keep your eyes out to sea instead.
+
+		ParentEvent
+Id:148123
+
+		SuccessEvent
+Name:Smugglers along the shore
+Id:149076
+Description:The place proves to be a wide field knee-deep in the dark matter, thousands of hearts' worth. Looking too closely at it makes you dizzy. Looking too far away from it makes you a poor watchman. It makes for an uncomfortable couple of hours, pacing around the dumping ground, which runs all the way down to the beach.
+<br/>
+<br/>
+In the last quarter of the watch, there's stealthy movement, a rowboat, three hooded figures. 
+

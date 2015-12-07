@@ -1,0 +1,48 @@
+Name:Goodbye Medium Tramp-Steamer
+Id:144328
+Description:...
+
+
+
+	ChildBranches1
+Name:Scuttle her
+Id:124710
+Description:
+
+		DefaultEvent
+Id:144331
+
+		ParentEvent
+Id:144328
+
+
+
+	ChildBranches2
+Name:Record any Observations
+Id:132007
+Description:If you've gathered enough, you may learn something...
+
+		DefaultEvent
+Id:155763
+
+		ParentEvent
+Id:144328
+
+
+
+	ChildBranches3
+Name:Send home with a prize crew
+Id:124709
+Description:
+
+		DefaultEvent
+Name:Here it is.
+Id:144329
+Description:Not much at present.
+
+		ParentEvent
+Id:144328
+
+		SuccessEvent
+Id:144330
+

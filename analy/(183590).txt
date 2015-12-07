@@ -1,0 +1,201 @@
+Name:Your Colony
+Id:183590
+Description:One day, perhaps, your kingdom.
+
+
+
+	ChildBranches1
+Name:Establish your colony in earnest
+Id:148316
+Description:Put ten volunteers ashore here, with enough supplies, building materials and cutlery to civilise this desert isle.
+
+		DefaultEvent
+Name:A kind of paradise
+Id:183591
+Description:Your zailors are keen to tramp themselves a place. "Fruit falls right off the tree, captain!" one enthuses. "And we'll be, what, your Parliament, right? Allus thought I'd make a good M.P."
+<br/><br/>
+"But what're we going to call the island?" one asks.
+
+		ParentEvent
+Id:183590
+
+
+
+	ChildBranches2
+Name:Improve your estate
+Id:148738
+Description:Bricks, barrels, glass, books, pianos, antimacassars, tea. All the components of civilisation. [You must increase your Estate quality to 100 before declaring yourself a nation.]
+
+		DefaultEvent
+Name:Your estate grows!
+Id:184276
+Description:Day by day, the walls rise higher, the gardens grow tidier, the hats become grander. Probably zailors will always spit in the street, but one day soon you may <i>have</i> a street for them to spit in.
+
+		ParentEvent
+Id:183590
+
+
+
+	ChildBranches3
+Name:Increase your population
+Id:148739
+Description:Suggest to five crew that they might want to remain ashore. [You must increase your population to 77 before declaring yourself a nation.]
+
+		DefaultEvent
+Name:Retirement, of sorts
+Id:184277
+Description:Perhaps one day they'll want to return home; perhaps this will be their home. Perhaps the zee's call will be irresistible again some day. Either way, they seem happy with the sunshine, and the peace.
+
+		ParentEvent
+Id:183590
+
+
+
+	ChildBranches4
+Name:Install a viceroy - the Satisfied Magician
+Id:149226
+Description:You'll need someone to rule in your absence. He's proven himself intelligent, charismatic and trustworthy, now that his quest for revenge is complete.
+
+		DefaultEvent
+Name:"An honour!"
+Id:185098
+Description:"I can't say I'd ever expected this to be my retirement. But it's a charming place, isn't it? Thank you for the trust you repose in me. I will ensure it is not misplaced."
+
+		ParentEvent
+Id:183590
+
+
+
+	ChildBranches5
+Name:Install a viceroy - the Indomitable Campaigner
+Id:149227
+Description:You'll need someone to rule in your absence. She'd probably be alarmingly good at this, now that her illness is cured.
+
+		DefaultEvent
+Name:"Excellent."
+Id:185099
+Description:"You've made the right choice. I'll see that things are done properly round here from now on. And... thank you."
+
+		ParentEvent
+Id:183590
+
+
+
+	ChildBranches6
+Name:Install a viceroy - the Disillusioned Doctor
+Id:149228
+Description:You'll need someone to rule in your absence. He's a realist, now. He might not be the most vigorous governor, but he's loyal.
+
+		DefaultEvent
+Name:"Thank you for your trust..."
+Id:185100
+Description:"Yes. We must do the best we can. And here, I will do the best I can. Thank you. You have changed everything for me, and I will try not to disappoint you."
+
+		ParentEvent
+Id:183590
+
+
+
+	ChildBranches7
+Name:Declare yourself a nation
+Id:149239
+Description:When your estate and your population are great enough, you can declare yourself a nation - albeit a minor one - and complete this ambition! You will need to choose a great power to ally yourself with, or go it alone - choose this option to see the requirements.
+
+		DefaultEvent
+Name:
+Id:185115
+Description:
+
+		ParentEvent
+Id:183590
+
+
+
+	ChildBranches8
+Name:Collect Fuel
+Id:149249
+Description:[This will expend one point of Estate to gain 30 points of Fuel.]
+
+		DefaultEvent
+Name:Wood and zea-coal
+Id:185128
+Description:Your citizens provide what they can. It's not the best quality fuel, but it'll take you where you need to go.
+
+		ParentEvent
+Id:183590
+
+
+
+	ChildBranches9
+Name:Knowledge is Power
+Id:149347
+Description:Use Vital Intelligence to lay plans and win leverage. [This will increase Estate by 3; you can do it up to five times.]
+
+		DefaultEvent
+Name:The centre of the spider's web
+Id:185300
+Description:Not the actual spider's web. That's at Saviour's Rocks, and you wouldn't want to found a kingdom <i>there</i>. But you are placing yourself at the centre of a figurative, civilised spider's web: kingmaker, and one day, king...
+
+		ParentEvent
+Id:183590
+
+
+
+	ChildBranches10
+Name:Coffee is Power
+Id:149348
+Description:Darkdrop Coffee will energise your labourers. There are risks, of course. There are always risks. But if their hearts burst, it's probably from happiness. [This will increase Estate by 2; you can do it up to 5 times.]
+
+		DefaultEvent
+Name:A better grind
+Id:185301
+Description:Your workers' eyes are bright. Their smiles are wide. Their songs are rapid.
+
+		ParentEvent
+Id:183590
+
+
+
+	ChildBranches11
+Name:Wealth is Power
+Id:149349
+Description:Enshrine and boast of your treasures, to increase your prestige. [This will increase Estate by 5; you can do it up to five times.]
+
+		DefaultEvent
+Name:A hall of legend
+Id:185302
+Description:It's not really a throne room. Throne rooms are terribly eighteenth-century. But it is a very grand study. Any visitor will be suitably awed; and they needn't know if you use the thing mostly as a paperweight.
+
+		ParentEvent
+Id:183590
+
+
+
+	ChildBranches12
+Name:Time ashore
+Id:150021
+Description:There's enough here for your zailors to pretend it's civilisation. Those of them that like civilisation. [This will reduce your Terror by ten points at a cost of 1 Supply.]
+
+		DefaultEvent
+Name:Days in the semi-sun
+Id:186377
+Description:Your crew bask and loaf. It's not quite sunlight - they'll never tan, and they won't particularly die - but the fruit is ripe; the leaves are green; the waves are lazuli. The night retreats.
+
+		ParentEvent
+Id:183590
+
+
+
+	ChildBranches13
+Name:Repair your ship
+Id:150022
+Description:This little drydock isn't exactly the Admiralty Shipyards; but you can manage repairs that would be impossible at zee. [This will completely repair your Hull at a cost of seven Supplies.]
+
+		DefaultEvent
+Name:A satisfactory result
+Id:186378
+Description:This land is yours; this ship is yours.
+
+		ParentEvent
+Id:183590
+

@@ -1,0 +1,40 @@
+Name:Hearthsake Island
+Id:175477
+Description:The survivors of a pirate expedition have stolen this land, where apes are unwelcome except as an entrée.
+
+
+
+	ChildBranches1
+Name:The Lost Treasure Hunter
+Id:143285
+Description:He squints at a map, muttering incoherently.
+
+		DefaultEvent
+Name:"North for each City the bats have brought down..."
+Id:175478
+Description:He wipes his brow. "Have you seen a big X on the ground by any chance? I got these four map pieces that got me this far and said X would mark the spot. But I can't find an X anywhere." He looks at the map sadly. "It should be here, it says. Now where am I supposed to dig?"
+<br /><br />
+He is too busy to talk right now, but adds that he will be in the village later if you want to trade adventuring supplies. "Don't try the meatballs," he warns, getting back to his search. "You just... don't want to do that."
+
+		ParentEvent
+Id:175477
+
+
+
+	ChildBranches2
+Name:Approach the village
+Id:143605
+Description:Greasy smoke and guiltily tempting aromas rise from a collection of huts around a long beached pirate ship, and a field of pointedly impaled monkeys.
+
+		DefaultEvent
+Name:An explosion almost takes off your head!
+Id:175979
+Description:"SORRY ABOUT THAT!" booms the Boisterous Pirate, lowering a smoking blunderbuss as bits of shattered tree rain down. "NEW ARRIVAL, ARE WE? WELL, IF YOU HAVEN'T GOT A TAIL, YOU'RE ALL RIGHT BY ME!"
+<br /></br >
+He squints, momentarily suspicious. "YOU <i>DON'T</i> HAVE A TAIL, DO YOU? WOULDN'T PUT IT PAST THE THIEVING LITTLE BUGGERS TO GO SHAVING ONE OF THEIR OWN! WOULDN'T KNOW FAIR PLAY IF IT KICKED 'EM UP RIGHT UP THE ARSE!"
+<br /><br />
+His voice is louder than his blunderbuss. The congealed meat juices in his thick beard are better not considered.
+
+		ParentEvent
+Id:175477
+

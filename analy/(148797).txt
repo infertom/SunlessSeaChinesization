@@ -1,0 +1,132 @@
+Name:Speak to the Tireless Mechanic
+Id:148797
+Description:"Hello hello. Busy now, but always got time for you."
+
+
+
+	ChildBranches1
+Name:Increase your Veils
+Id:127630
+Description:[Spend a Secret to improve your Veils, unless it's higher than 150.]
+
+		DefaultEvent
+Name:"Of course, of course!"
+Id:148798
+Description:"This. And this. Also this. Don't forget this. And never forget that."
+
+		ParentEvent
+Id:148797
+
+
+
+	ChildBranches2
+Name:Answer questions about your past
+Id:127632
+Description:You've kept your secrets long enough. [Unmask yourself! This will allow you to select a Past, Ambition, and form of preferred address - also providing you with a specialist ability bonus.]
+
+		DefaultEvent
+Name:
+Id:148800
+Description:
+
+		ParentEvent
+Id:148797
+
+
+
+	ChildBranches3
+Name:Invite him to dine with you
+Id:127633
+Description:His tastes are spartan - he eats little, drinks only water, barely sleeps at all - so you need only lay a simple table.
+
+		DefaultEvent
+Name:An appeal
+Id:148801
+Description:"Thanks for the meal. And the company. No, no wine. It makes me sleepy. Oh, yes, I can sleep! Too easily - that's the problem." He hesitates.
+<br/><br/>
+"There's a draught I take nightly, to substitute for sleep. It works well enough, and it keeps me sane and upright, but I wish I could enjoy just one night's sleep. If you could help me..."
+<br/><br/>
+"We need a Clay Man, from Polythreme. We'll need a Mirrorcatch Box. And we'll need to go to Hunter's Keep. I'll explain when we get there. No, I'm serious. I would owe you a great deal." [Mirrorcatch Boxes are rarely sold in London, but can be found in the Khanate and occasionally elsewhere.]
+
+		ParentEvent
+Id:148797
+
+
+
+	ChildBranches4
+Name:Allow the Mechanic to enjoy his sleep
+Id:146679
+Description:"It might be messy," he warns you. "Could you have a couple of strong zailors standing by? Tell them to snap the box shut when the trouble begins." He holds up a bottle of laudanum. "<i>I</i> will be sleeping <i>deeply</i>."
+
+		DefaultEvent
+Name:A certain amount of excitement
+Id:181078
+Description:When nothing seems to be happening, you take to your own bunk - but a roar from the Clay Man brings you sprinting back to the Mechanic's cabin. You fling open the door.
+<br/><br/>
+The Man's eyes seethe with viric flame! It's struggling against the efforts of the zailors to restrain it. As you rush to assist, it flings one zailor off - but the other manages to snap the box closed. Instantly the Man goes stiff - a lifeless clay statue. The viric glow now pulsates from the box.
+<br/><br/>
+In the bunk, the Mechanic sleeps on, his face wreathed in dreamy smiles. He will sleep so until morning.
+
+
+		ParentEvent
+Id:148797
+
+		RareDefaultEvent
+Name:Messy indeed
+Id:181079
+Description:When nothing seems to be happening, you take to your own bunk - but a roar from the Clay Man brings you sprinting back to the Mechanic's cabin. You fling open the door.
+<br/><br/>
+The Man's eyes seethe with viric flame! It's struggling against the efforts of the zailors to restrain it. As you rush to assist, it smashes one zailor against the wall with terrible force - but the other manages to snap the box closed. Instantly the Man goes stiff - a lifeless clay statue. The viric glow now pulsates from the box.
+<br/><br/>
+In the bunk, the Mechanic sleeps on, his face wreathed in dreamy smiles. He will sleep so until morning.
+
+
+
+
+	ChildBranches5
+Name:Proposition the Tireless Mechanic
+Id:146905
+Description: [The Mechanic enjoys the life of the mind. Ensure your Pages is at least twenty points higher than your Hearts.]
+
+		DefaultEvent
+Name:Tireless
+Id:181421
+Description:The Mechanic seems perpetually balanced between passion and distraction. You can't help wondering if his mind is elsewhere. But then again, he is exceptionally good with his hands. Afterwards, he whispers "Full steam ahead!" and then can't stop giggling. You would be quite entitled to push him out of bed. After all, you are captain.
+<br/><br/>
+[Opportunities for other trysts will occur while you're at sea, substantially reducing Terror. However, if you have a lover in port, they might find out.]
+
+		ParentEvent
+Id:148797
+
+
+
+	ChildBranches6
+Name:Exchange a secret smile
+Id:146908
+Description:A romance with an Officer might be considered unseemly. You'll need to be discreet.
+
+		DefaultEvent
+Name:Later...
+Id:181424
+Description:[Opportunities for other trysts will occur while you're at sea - but not quite yet.]
+
+		ParentEvent
+Id:148797
+
+
+
+	ChildBranches7
+Name:Ask the Mechanic to explain exactly what the hell is going on
+Id:147149
+Description:"Well, it's like this. I stole a secret from the Echo Bazaar. With the help of the Fingerkings. You know, the serpents who rule dream. Then I reneged on the Fingerkings. Don't look at me like that. Would you rather I'd given them the secret?"
+
+		DefaultEvent
+Name:Pigs of Stone
+Id:181757
+Description:"I talk about engines. All the time. I'm sure you've noticed. And I dream about them. I found myself dreaming of the Stone Pigs. They're, oh, I don't entirely understand, still. But they're how the Bazaar travels between stars. (Did you know they did that?) And they sleep, so the Fingerkings can crack their dreams open. So the Fingerkings recruited me."
+<br/><br/>
+"I found a secret in those dreams. An engine like the zee's never seen. Oh, captain, captain, let me build it for you. You won't be sorry! But there are some things I'll need. (I know, I know. Isn't it always the way?)"
+
+		ParentEvent
+Id:148797
+

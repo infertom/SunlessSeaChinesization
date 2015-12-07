@@ -1,0 +1,32 @@
+Name:You've destroyed a Glorious Dreadnought
+Id:144312
+Description:The ship is yours! What will you do with her?
+
+
+
+	ChildBranches1
+Name:Scuttle her
+Id:124702
+Description:
+
+		DefaultEvent
+Id:144315
+
+		ParentEvent
+Id:144312
+
+
+
+	ChildBranches2
+Name:Record any Observations
+Id:132004
+Description:If you've gathered enough, you may learn something...
+
+		DefaultEvent
+Name:
+Id:155760
+Description:[Something!]
+
+		ParentEvent
+Id:144312
+

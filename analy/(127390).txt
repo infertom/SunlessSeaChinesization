@@ -1,0 +1,24 @@
+Name:Half-rations
+Id:127390
+Description:Hushed voices, tired faces.
+
+
+
+	ChildBranches1
+Name:Encourage them
+Id:114084
+Description:This isn't the time for rousing speeches, but a quiet word here and there will help.
+
+		DefaultEvent
+Name:Downcast eyes
+Id:127391
+Description:Perhaps you shouldn't have made that joke about boiled bat. Zailors take their superstitions seriously.
+
+		ParentEvent
+Id:127390
+
+		SuccessEvent
+Name:Brighter eyes
+Id:144486
+Description:It's short rations for you, too. Lead by example.
+

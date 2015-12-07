@@ -1,0 +1,18 @@
+Name:Overheard on Deck: the Red Science
+Id:181357
+Description:CANNONEER: Hello!! I have a question for you.<br/>
+OUTCAST: Fhel nafham.<br/>
+CANNONEER: You're a shapeling, aren't you?
+<br/>
+OUTCAST: Gosph nfoo ffierreffof.
+<br/>
+CANNONEER: Do you know anything about the Red Science?
+<br/>
+OUTCAST: Feroo. FEROO.<br/>
+<br/>
+CANNONEER: No, I understand, but - 
+<br/>
+OUTCAST: FERRO ieh FHESH.
+<br/>
+CANNONEER: Oh, suit yourself.
+

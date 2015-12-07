@@ -1,0 +1,84 @@
+Name:A Patriotic Dispute
+Id:148817
+Description:A crew of Chelonate hunters exchange heated insults with a Khanate privateer. It looks likely to end in blood.
+
+
+
+	ChildBranches1
+Name:Leave
+Id:127980
+Description:There is nothing to be gained here.
+
+		DefaultEvent
+Name:A quiet departure
+Id:149361
+Description:No one sees you go. You've learnt a little lesson in discretion.
+
+		ParentEvent
+Id:148817
+
+
+
+	ChildBranches2
+Name:Raise your own flag
+Id:127649
+Description:The Chelonians are savage ghouls who live in a dead turtle. The Khaganians are decadent cowards who can't hold a kingdom together. London is the sole bright light of civilisation in the Neath. Perhaps you should point these things out.
+
+		DefaultEvent
+Name:It goes badly
+Id:148820
+Description:The foreigners are enraged. There's a scuffle, and somewhere in the scuffle, a stabbing! You fall back hastily to the ship, leaving them to brawl with each other.
+
+		ParentEvent
+Id:148817
+
+		SuccessEvent
+Name:An Imperial victory
+Id:149394
+Description:Neither set of foreigners is impressed by your characterisation of them. The Chelonian huntress in charge hurls her harpoon, and you duck just in time. A complicated three-way battle commences! The Chelonians flee when their leader falls, and the Khaganians withdraw in good order. You find enough loot on the corpses to consider the occasion a victory.
+
+		RareSuccessEvent
+Name:A proud Imperial victory
+Id:158970
+Description:Neither set of foreigners is impressed by your characterisation of them. The Chelonian huntress in charge hurls her harpoon, and you duck just in time. A complicated three-way battle commences! The Chelonians flee when their leader falls, and the Khaganians withdraw in good order. You find enough loot on the corpses to consider the occasion a victory. The Chelonian leader's eyes are strange: the colour of the deepest zee, more beast than human... "Take one of those," the bo'sun suggests. You look dubious. He shrugs. "You'll be glad of it. Call it scientific, if you like."
+
+
+
+	ChildBranches3
+Name:Side with the Khaganians
+Id:127647
+Description:They may be foreign, but at least they're halfway sophisticated.
+
+		DefaultEvent
+Name:A defeat
+Id:148818
+Description:The Chelonians are a fierce crew, and successfully turn the battle against both you and the Khaganians. You withdraw hastily to the safety of your ship.
+
+		ParentEvent
+Id:148817
+
+		SuccessEvent
+Name:A victory
+Id:149396
+Description:The Chelonians are a fierce crew, but with your assistance, the Khaganians send them running. The privateer lieutenant still wears the red-and-gold uniform of the Khanate navy, although his epaulettes are gone and you doubt he's entitled to it. He clasps your hand. "Thank you. Show this sign if you ever come to Khan's Heart." He drops a pewter horse-head talisman into your hand. "You'll find a warmer welcome."
+
+
+
+	ChildBranches4
+Name:Side with the Chelonians
+Id:127648
+Description:They may be uncouth, but at least they're brave.
+
+		DefaultEvent
+Name:Defeat!
+Id:148819
+Description:The Chelonians are fierce fighers, but the Khaganians have the discipline, and the hand-guns. They rout you both! You withdraw to the safety of your ship.
+
+		ParentEvent
+Id:148817
+
+		SuccessEvent
+Name:Victory!
+Id:149399
+Description:With battle-screams and razor-tipped harpoons - and your help - the Chelonians rout the Khanate privateers! The swaggering huntress who leads them claps you on the back. "Well fought! ...for a Londoner. Come to the Carrion Sea, some time. We'll roast a sea-serpent for you!" She drops a saw-edged bone token into your hand and blows you a kiss.
+

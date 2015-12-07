@@ -1,0 +1,36 @@
+Name:A Tooth-Cracking Treasure
+Id:150639
+Description:A chunk of grit baked in your ship's biscuit! You crack a tooth and curse. Your crew chuckle, but when the object turns out to be a diamond - small and badly flawed, but a diamond nevertheless - they all hush.
+<br/><br/>
+"Diamonds are sacred to Stone,' one says. "Give it to the zee, captain. It'll be luck for us."
+
+
+
+	ChildBranches1
+Name:Hang on to it
+Id:128728
+Description:You're not going to throw a diamond in the zee to appease some nameless god of zailor's superstitions.
+
+		DefaultEvent
+Name:Tuck it away
+Id:150644
+Description:Your crew are disappointed, but diamonds are diamonds.
+
+		ParentEvent
+Id:150639
+
+
+
+	ChildBranches2
+Name:Do the careful thing
+Id:128729
+Description:Zailors pray to Stone when they want home, hearth and healing. She's the kind of god you'd want on your side.
+
+		DefaultEvent
+Name:A flash in the darkness
+Id:150645
+Description:The diamond glints once as it reaches the apex of its arc. Down, down, and a wave reaches up to take it.
+
+		ParentEvent
+Id:150639
+

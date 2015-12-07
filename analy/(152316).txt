@@ -1,0 +1,236 @@
+Name:Abbey Rock
+Id:152316
+Description:A black spit of an island, far from anywhere anyone would want to go. And that's how the Sisterhood likes it. Here stands their fortress-convent. There are bear-traps that look friendlier than this.
+
+
+
+	ChildBranches1
+Name:Offer a gift
+Id:129814
+Description:The Sisterhood respects two things: unswerving decades of fidelity to a holy secret purpose, and the ability to shoot straight. Perhaps you can demonstrate the second. [This will reduce Terror.]
+
+		DefaultEvent
+Name:A narrow hospitality
+Id:152317
+Description:The Muscular Prioress inspects your trophy. "I'll put it with the others," she says. Her tone suggests grudging respect. You, and no more than three zailors, are invited to dine with them that evening.
+<br/><br/>
+And you do: on black laver-bread and overcooked cavern-trout, among fierce women with spiked rosaries. One of them hacks up her trout with an axe. But at the end of the evening, when the plates are cleared away, the room goes quiet. A tall nun with a startling strabismus sings in a rich deep voice like a stolen sunset, about the hills of her homeland, far above. Firelight flickers on the faces of your crew.
+
+		ParentEvent
+Id:152316
+
+
+
+	ChildBranches2
+Name:Trade supplies
+Id:129815
+Description:Resources are limited on this bleak rock. The Sisterhood will pay a fair price for supplies. Not a <i>good</i> price, mind. [Twenty Echoes, to be precise.]
+
+		DefaultEvent
+Name:A fierce scrutiny
+Id:152318
+Description:The Muscular Prioress jingles with knives and pistols. She reckons every candle and coil of rope before she reluctantly counts out your payment.
+
+		ParentEvent
+Id:152316
+
+
+
+	ChildBranches3
+Name:Compile a Port Report
+Id:129913
+Description:It's unlikely to be eventful.
+
+		DefaultEvent
+Name:As always
+Id:152461
+Description:"Nothing is happening. The Sisters watch us: we feel their eyes. The sea crashes on the rocks, withdraws. The fortress stands stolid as the last year of a century." The greatest peril you risk here is a certain purpleness of prose.
+
+		ParentEvent
+Id:152316
+
+
+
+	ChildBranches4
+Name:Knock at the iron-studded gates with news
+Id:129935
+Description:Perhaps they'll find it valuable.
+
+		DefaultEvent
+Name:Brief attention
+Id:152491
+Description:The Muscular Prioress, the Abbess' lieutenant, comes to the door to listen. She nods, and makes notes: she pays particular attention to news of marsh-beast predations and the traffic of the roof-tops. In return, she offers a rather perfunctory blessing: but the blessing reassures your crew. 
+
+		ParentEvent
+Id:152316
+
+
+
+	ChildBranches5
+Name:Suggest to the Scarred Sister that she might find a home here
+Id:129936
+Description:They were neighbours of a kind to Hunter's Keep. Perhaps she'd find some kind of peace here, or at least a way to keep occupied.
+
+		DefaultEvent
+Name:A wary welcome
+Id:152492
+Description:The Muscular Prioress, the Abbess' lieutenant, comes down to inspect the potential novice. They speak together quietly. The Prioress bellows with laughter, to the Scarred Sister's obvious discomfiture. At last they return.
+<br/><br/>
+"They've agreed to give me a chance," the Sister says, nervously. "If I can learn to fight. Thank you, for bringing me here. It might be what I want. Goodbye: and take this. I won't need it any more."
+<br/><br/>
+It's a porcelain flute decorated with a design of flowing grasses. Khanate work. The Sister, you think, is close to tears behind her bandages. She embraces you briefly, and the convent door closes behind her.
+
+		ParentEvent
+Id:152316
+
+
+
+	ChildBranches6
+Name:Knock at the iron-studded gates...
+Id:129937
+Description:...although you have no Recent News
+
+		DefaultEvent
+Name:
+Id:152493
+Description:Nothing. Far away, a great bell tolls. Drizzle begins to fall. You sneeze.
+
+		ParentEvent
+Id:152316
+
+
+
+	ChildBranches7
+Name:Watch the Convent
+Id:129938
+Description:Wait a while and see...
+
+		DefaultEvent
+Name:Dangerous training
+Id:152494
+Description:Like huge and deadly herons, the Sisters stalk along the very tops of the walls. You watch through a spy-glass as they leap and whirl, slashing at each other with a variety of frightening weapons. God! One of them just turned a somersault.
+
+		ParentEvent
+Id:152316
+
+		RareDefaultEvent
+Name:Exotic refuse
+Id:152495
+Description:The convent is silent. A few lights prick its bulk. Bells sound the times of prayer. You're almost ready to give up when a side door opens. Four nuns march out, carrying something wrapped in a blanket, and fling it into the sea. You creep down to examine it.
+<br/><br/>
+It's... well, it was likely unidentifiable, even before the nuns used it for weapons practice. Now it leaks fluid from a dozen puncture wounds. But it still smells of the zee...
+
+
+
+	ChildBranches8
+Name:Search the surroundings
+Id:129939
+Description:You can't be the first to come here.
+
+		DefaultEvent
+Name:A map, a mask, the face beneath
+Id:152496
+Description:Someone died here, far from home, long enough ago that their flesh is gone. A Visager, by the look of their frog-mask. The mask will be worth a bit. The skull would look good on a mantelpiece. And what's this map?
+
+		ParentEvent
+Id:152316
+
+		RareDefaultEvent
+Name:A cache!
+Id:180748
+Description:You follow tracks into a sea-cave. Someone has stored food, supplies, ammunition. It can't be the nuns. These crates have a Khanate look. The Admiralty will want to know about this.
+
+
+
+	ChildBranches9
+Name:Put a blemmigan ashore
+Id:133942
+Description:The nuns will deal with it. Probably.
+
+		DefaultEvent
+Name:A reluctant departure
+Id:158934
+Description:This is a mushroom driven more by duty than desire. It disembarks on trembling tendrils.
+
+		ParentEvent
+Id:152316
+
+
+
+	ChildBranches10
+Name:Ask the Sisters to arrange the Adventuress' death
+Id:144729
+Description:She wants to die gloriously. They look like the kind of people who can help.
+
+		DefaultEvent
+Name:"We won't fight you."
+Id:177798
+Description:"Not to the death. That's not really us. But we can bring you something that will end you... an old adversary of ours. Be sure that it <i>will</i> end you, but fight hard, and you might wound it. That wound will remain as long as it does, which may be forever; and one day, it may take that wound into the sky."
+<br/><br/>
+"Sound good? We'll need something to lure him. Bring us - hm - appropriate texts. Yes, I'm serious."
+<br/><br/>
+[Bring 5 units of Romantic Literature to Abbey Rock. You can find it at the Khanate.]
+
+
+		ParentEvent
+Id:152316
+
+
+
+	ChildBranches11
+Name:'Appropriate texts'
+Id:144810
+Description:What kind of beast can be conjured with these racy volumes?
+
+		DefaultEvent
+Name:"Perfect."
+Id:177933
+Description:"There must be music, too, and fire, and a promise. We can take care of those. We begin at seven o'clock tomorrow morning. Sevens are important."
+<br/><br/>
+In the Abbey courtyard, the Sisters are heaping up driftwood for a fire. The Adventuress claps a hand on your shoulder. "That gives me, what, twelve hours? Come on. Let's go back to the ship. I don't want to spend my last twelve hours in this hole." She is flushed; eyes bright, mouth tight.
+
+		ParentEvent
+Id:152316
+
+
+
+	ChildBranches12
+Name:Don't watch
+Id:144825
+Description:The fire is lit. The smoke of printed love-stories rises into the dark. The Sisters chant in a language older than London. They play a wistful, halting, music on harps and lyres. The Adventuress has had her uniform ironed. Even her buttons are polished. Her knife is ready in her left hand, and her pistol in her right. Far above, in the deep night of the Neath, something briefly occludes the light of the false-stars.
+<br/><br/>
+"Go back to the ship," she says abruptly. "I don't want you to see me die. Please."
+
+		DefaultEvent
+Name:An ending
+Id:177958
+Description:From the deck, you see the light of the fire turn ice-blue, roar to greater brightness, and fail as night falls from the roof. A shot. Another. Shrieks, like the tearing of sheet metal, like the fission of thought. A terrible silence One final, furious shriek! The glass in the bridge windows cracks like ice. Abbey Rock is silent.
+<br/><br/>
+The Prioress arrives a half-hour later. Her eyes are shining. "She scarred it," she says delightedly. "Oh, how she scarred it! We'll lay her to rest in our own crypt. We'll write her name on our wall. The next novice who joins us will be named for her. She scarred it! Thank you. And she wanted you to have this."
+<br/><br/>
+It's her pistol, silver-chased, drenched in black and stinging blood. As you watch, the blood wisps in choking vapour from the metal, leaving it stained dark as the zee.
+
+		ParentEvent
+Id:152316
+
+
+
+	ChildBranches13
+Name:Watch
+Id:145002
+Description:Insist. Someone should bear witness. Or perhaps someone is just curious, or doesn't quite trust her, even now...
+
+		DefaultEvent
+Name:Nothing that flies
+Id:178246
+Description:The light of the fire turns ice-blue, roars to greater brightness. The Adventuress turns her back on you. She readies her knife and her pistol. "I once swore," she remarks, "to kill nothing that flies. I hope I break that oath." They will be her last words.
+<br/><br/>
+A piece of star-specked night falls shrieking from the roof! The bonfire is quenched in an instant, but a gout of flame from the pistol punctures the dark: once, again. The night is shrieking now, deep rending cries that are almost words. The scent of ice and ozone is overpowering. You reach out a hand, blindly. The darkness deepens, but a Sister takes hold of your shoulder. "Stay away!" she hisses.
+<br/><br/>
+The Adventuress cries out. So does the night. This last shriek squeezes your skull and rakes your brain and tears the words from your throat. It cracks the cobblestones of the Abbey yard. In the flames of a final shot, you glimpse a crested wave of night rearing above the Adventuress. Its wings are the sky. Its horns and vanes blaze with scars. It strikes - it convulses - it whirls, and it's gone. Your eyes are hazed with frost, but as it rises - you are quite certain - it lurches to the side, as if one of its wings had suffered a blow...
+<br/><br/>
+On the cracked cobbles at your feet lies the Adventuress, dead eyes staring. Beside her lies her pistol, silver-chased, drenched in black blood. As you watch, the blood wisps in choking vapour from the metal, leaving it stained dark as the zee.
+
+		ParentEvent
+Id:152316
+

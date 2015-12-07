@@ -1,0 +1,43 @@
+Name:Small Tramp Steamer
+Id:144262
+Description:...
+
+
+
+	ChildBranches1
+Name:Fight, if turned pirate
+Id:124670
+Description:
+
+		DefaultEvent
+Id:144263
+
+		ParentEvent
+Id:144262
+
+
+
+	ChildBranches2
+Name:Demand surrender, if turned pirate
+Id:124671
+Description:
+
+		DefaultEvent
+Id:144264
+
+		ParentEvent
+Id:144262
+
+
+
+	ChildBranches3
+Name:Talk
+Id:124672
+Description:
+
+		DefaultEvent
+Id:144265
+
+		ParentEvent
+Id:144262
+

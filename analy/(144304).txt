@@ -1,0 +1,39 @@
+Name:The Lorn-Fluke is destroyed
+Id:144304
+Description:Its pulpy flesh shivers with the energies of its failing language. Already it is disintegrating into the waters.
+
+
+
+	ChildBranches1
+Name:Record any Observations
+Id:131988
+Description:If you've gathered 30 Observations, you may learn something...
+
+		DefaultEvent
+Name:The philologies of the void
+Id:155740
+Description:The Lorn-Fluke's speech has scorched your hearing like sparks on paper. When your crew speaks to you, their words are fissured by weird lacunae, as if there are gaps in everyday things that you can no longer perceive. You are bedevilled by urges for colours and spaces that you can never reach. Write it down. Perhaps it won't catch fire.
+
+		ParentEvent
+Id:144304
+
+
+
+	ChildBranches2
+Name:Examine its corpse
+Id:124697
+Description:Dangerous. But what an opportunity!
+
+		DefaultEvent
+Name:A Fluke-Core
+Id:144305
+Description:The deliquescing body is full of incomprehensible organs that collapse at your touch. You understand nothing, and very quickly, there is little left of it. But at its centre, you find a vast lump of resin or congealed gall, the size of a barrel, flawed with darkness. In the false-star-light, it is a deep violet-purple. "Irrigo," your doctor whispers. "The colour of forgetfulness."
+
+		ParentEvent
+Id:144304
+
+		SuccessEvent
+Name:
+Id:144306
+Description:The deliquescing body is full of incomprehensible organs that collapse at your touch. You sketch what you can: cock an ear to the departing harmonies of its violent language. At its centre, you find a vast lump of resin or congealed gall, the size of a barrel, flawed with darkness. In the false-star-light, it is a deep violet-purple. "Irrigo," your doctor whispers. "The colour of forgetfulness."
+

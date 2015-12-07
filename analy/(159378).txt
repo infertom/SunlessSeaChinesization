@@ -1,0 +1,106 @@
+Name:The Brisk Campaigner collapses!
+Id:159378
+Description:One moment she's lecturing an apologetic zailor on personal hygiene. The next, she's stretched full length on the deck. By the time you reach her, she's regaining consciousness.
+
+
+
+	ChildBranches1
+Name:Ask after her health
+Id:134172
+Description:She was indisposed. What's wrong?
+
+		DefaultEvent
+Name:
+Id:159379
+Description:"In the Elder Continent, there is a flame that burns souls. My soul caught alight. It only smoulders. Souls burn long and slow. But long before it is consumed, it will sizzle my brain and bake my heart. No, it's not dangerous to anyone else... until I die. You should give my body to the sea when that happens. Yes, there is a little danger."
+<br/><br/>
+" I apologise, deeply. I should have told you. I have been selfish. But you might have refused my service: and I hope, still, there are things out here on the zee that will save me."
+
+		ParentEvent
+Id:159378
+
+
+
+	ChildBranches2
+Name:Demand an answer
+Id:134184
+Description:Is she ill? What has she brought aboard your ship?
+
+		DefaultEvent
+Name:"It's called animescence."
+Id:159401
+Description:"In the Elder Continent, there is a flame that burns souls. My soul caught alight. It only smoulders. Souls burn long and slow. But long before it is consumed, it will sizzle my brain and bake my heart. No, it's not dangerous to anyone else... until I die. You should give my body to the sea when that happens. Yes, there is a little danger."
+<br/><br/>
+" I apologise, deeply. I should have told you. I have been selfish. But you might have refused my service: and I hope, still, there are things out here on the zee that will save me."
+
+		ParentEvent
+Id:159378
+
+
+
+	ChildBranches3
+Name:"You have kept things from me. You are ill. I want you off this ship."
+Id:134185
+Description:There is danger when she dies. What kind of doctor is she, to expose her patients and companions to that risk?
+
+		DefaultEvent
+Name:She bows her head
+Id:159402
+Description:"I understand. I will remain in my cabin until we next reach port. You will not see me again."
+<br/><br/>
+You do not see her again.
+
+		ParentEvent
+Id:159378
+
+
+
+	ChildBranches4
+Name:"What do you need?"
+Id:134186
+Description:Her circumstances are desperate. Her deception is easily forgiven.
+
+		DefaultEvent
+Name:Wary hope
+Id:159403
+Description:"If - I - I swear to you that no matter what happens next, I will keep no other secrets from you." She pauses to think. "No secrets of my own. I am a doctor yet."
+<br/><br/>
+"You have my deepest thanks. My very deepest. May we adjourn to your cabin, to discuss the matter in private?"
+
+		ParentEvent
+Id:159378
+
+
+
+	ChildBranches5
+Name:"You were indisposed. I wonder - "
+Id:137097
+Description:Ask her if she's been to the Elder Continent. Hint at what might be wrong. You have your suspicions.
+
+		DefaultEvent
+Name:"Yes. It's called animescence."
+Id:165299
+Description:"In the Elder Continent, there is a flame that burns souls. My soul caught alight. It only smoulders. Souls burn long and slow. But long before it is consumed, it will sizzle my brain and bake my heart. No, it's not dangerous to anyone else... until I die. You should give my body to the sea when that happens. Yes, there is a little danger."
+<br/><br/>
+" I apologise, deeply. I should have told you. I have been selfish. But you might have refused my service: and I hope, still, there are things out here on the zee that will save me."
+
+		ParentEvent
+Id:159378
+
+
+
+	ChildBranches6
+Name:"You were indisposed."
+Id:137098
+Description:[You have not yet won her trust. If you cannot do so immediately, or don't care to, she will leave the ship.]
+
+		DefaultEvent
+Name:"I apologise."
+Id:165300
+Description:"Captain, I have kept a secret from you. I must continue to keep that secret. It is dangerous, and I will not require you to share that danger. I will remain in my cabin until we next reach port. You will not see me again."
+<br/><br/>
+You do not see her again.
+
+		ParentEvent
+Id:159378
+

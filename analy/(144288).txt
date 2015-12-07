@@ -1,0 +1,34 @@
+Name:A Bat-Swarm defeated!
+Id:144288
+Description:Little leathery corpses lie scattered across your deck. The rest of the swarm vanishes into the Neathy dark...
+
+
+
+	ChildBranches1
+Name:Gather up the corpses
+Id:124690
+Description:They are succulent with stolen blood. Into the pot!
+
+		DefaultEvent
+Name:An unorthodox diet
+Id:144291
+Description:Those little bones are troublesome, and the flesh a little gamey, but salt them well enough and they're quite edible.
+
+		ParentEvent
+Id:144288
+
+
+
+	ChildBranches2
+Name:Dispose of the corpses
+Id:130342
+Description:Their mere touch leaves you shuddering. [This will slightly reduce Terror.]
+
+		DefaultEvent
+Name:Over the side
+Id:153158
+Description:Their eyes are still fierce in death. Zailors sweep them overboard with brooms, careful not to touch them.
+
+		ParentEvent
+Id:144288
+

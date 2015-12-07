@@ -1,0 +1,54 @@
+Name:Fire!
+Id:151243
+Description:You've pushed your engines too far, too fast! Zailors scream - flames rage -
+
+
+
+	ChildBranches1
+Name:Heal the wounded, damp the flames
+Id:129133
+Description:Do what you can -
+
+		DefaultEvent
+Name:
+Id:151244
+Description:Everywhere hot metal and burning flesh. Hold on and pray.
+
+		ParentEvent
+Id:151243
+
+		SuccessEvent
+Name:Bandaging the wounded
+Id:152139
+Description:You've saved injured zailors. But the ship has suffered terribly -
+
+		RareSuccessEvent
+Name:Bandaging the woooooooound -
+Id:155166
+Description:...your Chief Engineer's face is pale as wax. "I... don't know what's happening to the engines. I think - I think they might need exorcism."
+
+
+
+	ChildBranches2
+Name:Heal the wounded, damp the flames
+Id:131642
+Description:Do what you can -
+
+		DefaultEvent
+Name:Screams and stenches
+Id:155167
+Description:Everywhere hot metal and burning flesh. And somewhere, the laughter of serpents - 
+
+		ParentEvent
+Id:151243
+
+		SuccessEvent
+Name:Bandaging the wounded
+Id:155168
+Description:You've saved injured zailors. But the ship has suffered terribly, and somewhere, serpents are laughing - 
+
+		RareSuccessEvent
+Name:Bandaging the woooooooound -
+Id:155169
+Description:...your Chief Engineer's face is pale as wax. "I... don't know what's happening to the engines. I think - I think the Fingerking is driving now."
+

@@ -1,0 +1,34 @@
+Name:By the Skin of your Teeth
+Id:181235
+Description:You've made it safe back, barely. Your ship is lost. Your crew is lost or deserted. Your officers are still loyal, barely.
+
+
+
+	ChildBranches1
+Name:Continue
+Id:146769
+Description:Perhaps you have enough money stored away to start again. Perhaps you don't want to give up. Borrow an ancient steam-launch and try to reach London.
+
+		DefaultEvent
+Name:Good luck
+Id:181236
+Description:(You'll need it.)
+
+		ParentEvent
+Id:181235
+
+
+
+	ChildBranches2
+Name:Disappear
+Id:146770
+Description:The canal rises back to the Surface. Perhaps you'll die there. Either way, you'll be safe from disgrace. ]This will end your game.
+
+		DefaultEvent
+Name:The sun; the sun
+Id:181237
+Description:Its warmth, one last time...
+
+		ParentEvent
+Id:181235
+

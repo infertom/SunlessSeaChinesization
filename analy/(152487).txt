@@ -1,0 +1,66 @@
+Name:A Kingdom Restored
+Id:152487
+Description:Murinia has fallen. The House of Cavy holds the isle for the glory of their King. You are welcome here.
+
+
+
+	ChildBranches1
+Name:Refuel
+Id:129933
+Description:Most of the wrecked steamer's stores are gone, but the cavies have a coal-mine, now, in which slave-rats labour.
+
+		DefaultEvent
+Name:A moderately graceful gift
+Id:152488
+Description:"With our thanks and et cetera et cetera," the Seneschal tells you. He inspects his pocket-watch. "Are we finished?"
+
+		ParentEvent
+Id:152487
+
+
+
+	ChildBranches2
+Name:A brief word with the Seneschal,
+Id:130671
+Description:On the matters of the island and the ships that pass - 
+
+		DefaultEvent
+Name:Matters of the Kingdom
+Id:153734
+Description:Honestly, one cavy looks very much like another, but perhaps this will be of interest to someone.
+
+		ParentEvent
+Id:152487
+
+
+
+	ChildBranches3
+Name:Put a blemmigan ashore
+Id:133954
+Description:
+
+		DefaultEvent
+Name:A stealthy entry
+Id:158946
+Description:Set the blemmigan down quietly, somewhere out of the way. The cavies may regard its introduction as sabotage.
+
+		ParentEvent
+Id:152487
+
+
+
+	ChildBranches4
+Name:Attend a banquet in your honour
+Id:146613
+Description:"How proud we are to be graced with your presence once more!"
+
+		DefaultEvent
+Name:
+Id:180983
+Description:A cavy orchestra assembles to regale you with an Albinoni oboe concerto. Lissom, athletic cavies perform a complex display of rodentine folk-dancing. A nine-course banquet follows. To be honest, some of the courses are a little scanty, and nearly all of them are fish, but the cavies are justly proud of their cuisine.
+<br/><br/>
+"Food's good, captain!" the bo'sun announces in a tone of pleased surprise. The Seneschal rolls a weary eye. "Just because we don't take the <i>Unexpurgated Gazette</i>" out here," he growls, "we're not barbarians."
+
+		ParentEvent
+Id:152487
+

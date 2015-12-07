@@ -1,0 +1,115 @@
+Name:The Soaring Glory Of Etc. Etc. Etc.
+Id:175844
+Description:If the monkeys insist on calling it that. In your heart though, it will always be the... well, never mind.
+
+
+
+	ChildBranches1
+Name:Steal the Zeppelin
+Id:143521
+Description:The East beckons. With the blessing of Storm and Salt, your crew will trade zee for sky. You will need to get behind the Emperor though, to stab him in the back...
+<br />
+[This will end your game. But your next captain will begin with something interesting.]
+
+		DefaultEvent
+Name:A tale no one else will ever know
+Id:175845
+Description:Your voyage is blessed by the spilled blood of betrayed monkeys and the impotent howls of the Emperor. What will happen to the Empire of Hands now that you have stolen its dreams? It is neither your concern, nor problem.
+<br /><br />
+The lights of a home you can never return to soon dim, as does the crew's excitement. The journey ahead is long, and while the zee-bats steer clear of your vessel, the more mundane fears of starvation and thirst grow as the rations start to shrink. For days... weeks... maybe more... the zee is but a flat darkness, as suddenly distant as a jilted lover. Supplies begin to run out. Mutinies are murmured. Until, as all hope is gone- 
+<br /><br />
+"Land ho!" comes the impossible cry.
+
+		ParentEvent
+Id:175844
+
+
+
+	ChildBranches2
+Name:Return to Port Stanton
+Id:143964
+Description:With the Zeppelin complete, your work here is done.
+
+		DefaultEvent
+Name:You leave the Soaring Glory for now
+Id:176512
+Description:The Admiralty will not be happy about this.
+
+		ParentEvent
+Id:175844
+
+
+
+	ChildBranches3
+Name:Flight of the Soaring Glory
+Id:145466
+Description:The Pentecost apes are ready to depart.
+
+		DefaultEvent
+Name:Dawn of a new Empire
+Id:178993
+Description:You watch the launch preparations of the The Soaring Glory Of Emperor Crispin IV (Greatest Of His Name), surrounded by hundreds of excited monkeys. The Emperor is carried past the guards and up the ramp on a sedan chair. After him, in uniforms of gold and purple, walk the nobility. They are followed by the mandarins, led by the Exquisite Seneschal. Next to board are the lower-souled monkeys, who-
+<br /><br />
+The guards open fire with their rifles; holding back the crowd as the ramp is pulled up. A sea of betrayed faces can only stare in horror as the Soaring Glory rises into the sky and away to the East, taking with it their stockpiled food and the last of their hopes. The howl grows angrier with each new voice.
+
+		ParentEvent
+Id:175844
+
+
+
+	ChildBranches4
+Name:Flight of the Soaring Glory
+Id:145467
+Description:The Pentecost apes are ready to depart.
+
+		DefaultEvent
+Name:Dawn of a new Empire
+Id:178994
+Description:You watch the launch preparations of the The Soaring Glory Of Emperor Crispin IV (Greatest Of His Name), surrounded by hundreds of excited monkeys. The Emperor is carried past the guards and up the ramp on a sedan chair. After him, in uniforms of gold and purple, walk the nobility. They are followed by the mandarins, led by the Exquisite Seneschal. Next to board are the lower-souled monkeys, who-
+<br /><br />
+The guards open fire with their rifles; holding back the crowd as the ramp is pulled up. A sea of betrayed faces can only stare in horror as the Soaring Glory rises into the sky and and turns towards the Elder Continent, taking with it their stockpiled food and the last of their hopes. The howl grows angrier with each new voice.
+
+		ParentEvent
+Id:175844
+
+
+
+	ChildBranches5
+Name:Check on the Zeppelin
+Id:145474
+Description:Why is the Great Exodus not yet underway?
+
+		DefaultEvent
+Name:To the East? Or to the South?
+Id:179003
+Description:It transpires that your help meant the Zeppelin was finished far earlier than expected, and the Wildweald Court has yet to decide where to go. Both factions are likely still arguing about it in the Silent Gallery...
+
+		ParentEvent
+Id:175844
+
+
+
+	ChildBranches6
+Name:Destroy the Zeppelin
+Id:143963
+Description:The Great Exodus cannot be allowed to happen. Luckily, you know a little something about hydrogen.
+
+		DefaultEvent
+Name:Boom!
+Id:176511
+Description:It is a slow, careful business, crawling around the island where The Soaring Glory is being prepared.Luckily, a Zeppelin makes for a big target, and soon enough you find somewhere the guards have overlooked.
+<br /><br />
+You take aim with your flare gun. Fire. The fireball catches a glancing blow on the cloth, but it's enough. As the monkeys wail and run helplessly for water, the flames work into the hydrogen below. When the explosion comes, it shakes the ground and rains down an apocalypse of shards and flame and broken dreams.
+<br /><br />
+White pain floods behind your eyes and gut. The bloody shard in your flesh is jagged and twisted; bone-deep, snapped. The scream goes unnoticed, lost in the noise.
+
+		ParentEvent
+Id:175844
+
+		SuccessEvent
+Name:Boom!
+Id:176845
+Description:It is a slow, careful business, crawling around the island where The Soaring Glory is being prepared. Luckily, a Zeppelin makes for a big target, and soon enough you find somewhere the guards have overlooked.
+<br /><br />
+You take aim with your flare gun. Fire. The fireball catches a glancing blow on the cloth, but it's enough. As the monkeys scream, the fire spreads... works its way in. When the explosion comes, it shakes the ground and rains down an apocalypse of shards and flame and broken dreams. The sound of burning, screaming monkeys will likely haunt the rest of your days, but you escape unharmed and undetected.
+

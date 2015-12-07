@@ -1,0 +1,159 @@
+Name:Evening in Varchas
+Id:152358
+Description:All visitors to Varchas are given one night's accommodation in the city's only inn. It is a handsome stone mansion arranged around a pleasantly cool courtyard: frescoes of city-life are painted on the walls. Given how few visitors Varchas hosts, you suspect the Inn is more usually used by philandering locals.
+<br/><br/>
+Evening falls - or does it? The town's Five Principal Mirrors are mounted on coiled-spring mechanisms, and alter their angles subtly to create the impression of evening. Across the city, the Fire-Keepers throw pinches of coloured powder into the lamps and the quality of light yellows to a softer brightness.
+
+
+
+	ChildBranches1
+Name:Sleep
+Id:129841
+Description:The bed is low and wide, and draped with cotton sheets stamped with vegetable-dye patterns in muted greens and blues. 
+
+		DefaultEvent
+Name:
+Id:152359
+Description:You fall into sleep easily despite the bright light, but your dreams are full of whispering, glittering smokes - mirror-vapours that coil into reflection-warping shapes. You see your limbs bend, your skin slough, your eyes twist.. You wake with your heart pounding. Your nostrils are full of the fungal-rot smell of Varchas.
+<br/><br/>
+Your body is as it always was, but somehow that is not as comforting as it should be.
+
+		ParentEvent
+Id:152358
+
+
+
+	ChildBranches2
+Name:Use the Mirror-Charm
+Id:129843
+Description:You hang it upon the mirror by your bed-side, and hope for quieter dreams.
+
+		DefaultEvent
+Name:
+Id:152361
+Description:It seems to work; at least, you do not remember any particularly vivid dreams when you wake. You retrieve the Mirror-Charm before you wake. Is it your imagination, or does some of the script scribbled on the paper-scraps seem slightly <i>blurred</i>?
+
+
+		ParentEvent
+Id:152358
+
+
+
+	ChildBranches3
+Name:The Wine-Mazed Lamp-Lighter
+Id:129846
+Description:He is dressed in saffron robes and is indeed pouring wine down the throat of a very attractive dark-eyed boy. You could tell him his sister is looking for him.
+
+
+		DefaultEvent
+Name:
+Id:152366
+Description:He starts up in horror, spilling burgundy-red wine everywhere. His young companion looks irritated. "I'm late!" he shouts. "Mihir forgive me, the Agnihotri is going to skin me alive!"
+<br/><br/>
+He pumps your hand in gratitude. "Thank you, Taamas! I won't forget this. Here! Take my arc-jewels - "
+
+		ParentEvent
+Id:152358
+
+
+
+	ChildBranches4
+Name:Smoke-dreams await
+Id:138228
+Description:The bed is comfortable... but the mirrors are watchful.
+
+
+		DefaultEvent
+Name:
+Id:167088
+Description:Once again, your dreams are full of whispering, glittering smokes - mirror-vapours that coil into reflection-warping shapes. You see your limbs bend, your skin slough, your eyes twist.. You writhe awake with a cry. It's worse. Each time, it's worse.
+
+		ParentEvent
+Id:152358
+
+
+
+	ChildBranches5
+Name:Dawn in Varchas
+Id:138230
+Description:Outsider time in Varchas is strictly rationed. Each morning at dawn, the Guard visits the inn to eject any Taamas they find. They are polite, but very definite.
+
+		DefaultEvent
+Name:Into the dark
+Id:167092
+Description:"Return," the Guard tells you, "but not yet." With that, they usher you into the darkness beyond the walls. You blink mirror-dazzles from your eyes. It's cold out here.
+
+		ParentEvent
+Id:152358
+
+
+
+	ChildBranches6
+Name:The Kitchens
+Id:129844
+Description:The smells of cooking mingle with the fungus-rot; but you aren't going to let that put you off your food.
+
+		DefaultEvent
+Name:
+Id:152362
+Description:The Inn's Cook is a large, scowling man with arms like a stevedore, who turns you out without a word. Are all cooks fearsome? What you wouldn't give for a crease-faced kindly old lady with sweet-tarts in her pockets.
+
+		ParentEvent
+Id:152358
+
+		SuccessEvent
+Name:
+Id:152363
+Description:The Inn's Cook makes thick spiced stews of fungus-flowers and lotus-root, eaten with chunks of boiled cassava and rice imported from inland. But it is the light-hungry fruit grown in the city which makes your mouth water.
+<br/><br/>
+Tart-scented oranges and bruise-yellow bananas, pineapples bursting with juice, tender coconuts with the silky white flesh scooped out and sap-sweet on the tongue.
+<br/><br/>
+Do you not eat meat, you ask in wonderment, and the Inn's Cook calls to Mihir for strength. "It is forbidden to eat the flesh of living creatures," he says. Lucky the Varchaasi don't fancy the zee-faring life.
+
+
+
+	ChildBranches7
+Name:The Courtyard
+Id:129845
+Description:Cushions are arrayed around the marble fountain in the middle; musicians pluck their instruments under the shade of the twisted, yellow-leafed trees.
+
+
+		DefaultEvent
+Name:
+Id:152364
+Description:You hear the word <i>Taamas!</i> being whispered, and the musicians grow so nervous that their fingers slip on the strings and their tongues forget their lyrics. You leave them to their music, before you ruin their evening entirely.
+
+		ParentEvent
+Id:152358
+
+		SuccessEvent
+Name:
+Id:152365
+Description:Their songs are curiously prosaic, the lyrics more like a biographical report than a poetic invention. 
+<br/><br/>
+You listen to a Lake-Dredgers' water-logged, lotus-rooted dirge; you sway to the slow, steady ballad of the Fungus-Collectors, and join in the Lamp-Lighters' quick-footed dance which mimics their evening rounds.
+<br/><br/>
+The evening finishes with the Song of Mihir, which is sung to the accompaniment of stringed instruments and drums and polished glass prisms which split the white light into rainbows in counterpoint to the notes.
+
+
+
+	ChildBranches8
+Name:Don't sleep
+Id:129842
+Description:It won't be difficult to stay awake in this constant light. But the lack of rest will take its toll.
+
+		DefaultEvent
+Name:
+Id:152360
+Description:You watch the light scintillate across the inn's wall. You pinch the delicate skin of the insides of your elbows and pace the length of the room.
+<br/><br/>
+Did the mirror by your bedside just give you a roguish sort of glint? Are you going out of your zee-faring mind? You decide, very deliberately, <i>not to look</i>
+
+		ParentEvent
+Id:152358
+
+		SuccessEvent
+Name:A meditative evening
+Id:167081
+Description:Up late, reading, thinking, watching. The shouts from the streets die as Varchas sleeps. But you're tired, the next morning.
+

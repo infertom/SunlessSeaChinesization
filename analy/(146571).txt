@@ -1,0 +1,186 @@
+Name:The Wistful Deviless
+Id:146571
+Description:The road to the crater ends at a brass gate in the crater wall. Beside it stands an oddly charming little cottage. It’s thrown together from pumice and basalt, but it features honeysuckle. An equally charming deviless in a tea-gown leans against the cottage wall, twirling a parasol and fanning herself. “I am the guardian of this place,” she remarks languidly. “You may not pass. But can I offer you a cup of <i>armillaria<i/> tea?”
+
+
+
+	ChildBranches1
+Name:Tea with the Deviless
+Id:126147
+Description:<i>Armillaria</i>? That's not one of the poisonous ones, is it? You're pretty sure it's not.
+
+		DefaultEvent
+Name:Terror in a tea-gown?
+Id:146572
+Description:No doubt she'd be much less pleasant if you tried to break down that gate: but just now, she's a courteous, soft-voiced woman in a tea-gown. The tea is hot and nutty and rather pleasant. She asks about your voyages: she is desperate for news of London, of its mists, its nights, its sick, its poor, its fires... She tactfully turns aside questions about the Convention, but she shares some of the secrets of the Neath.
+<br/><br/>
+"Come and see me again," she says. "Next time you're here." She shrugs gracefully. "Bring me a present, if you like."
+
+		ParentEvent
+Id:146571
+
+
+
+	ChildBranches2
+Name:No, thank you
+Id:126149
+Description:You haven't brought a sufficiently long spoon, perhaps.
+
+		DefaultEvent
+Name:You make your excuses
+Id:146574
+Description:The Deviless watches you leave - a little sadly, you think. "I know how it is," she calls after you. "Mortals are always short of time. But do drop by again, next time you're here."
+
+		ParentEvent
+Id:146571
+
+
+
+	ChildBranches3
+Name:A hesitant request
+Id:126151
+Description:"Do you happen to have a case of souls for me? No I’m not going to eat them! We don’t eat souls, usually. I’m not clear how that story got around. I just - I told you that I miss London. I miss Hell. I’d like a keepsake. And all souls are ours, you know, by right.”
+
+		DefaultEvent
+Name:Watchful and clinking
+Id:146577
+Description:The Deviless lifts the lid of the crate. The light from the souls within illuminates her face. She stares at them for a long moment, and then tears begin to roll silently down her face. "Thank you," she says. "I've missed them so." (One of her tears lands on the wood of the crate, which begins to smoke.)<br/><br/>
+"Let me tell you something very special." (She whispers it in your ear: her breath smells like hot stone.) "But you should go now. Thank you. Come back soon..."
+
+		ParentEvent
+Id:146571
+
+
+
+	ChildBranches4
+Name:Concede her your soul
+Id:126152
+Description:“Or you could just… lend me yours.” She bites her lip and looks up into your eyes. “I’ll keep it safe. Much safer than at zee. If you drown, it’ll be here, with me, for always. Mortals do drown so.” She places a slender, sallow hand on your wrist. Through your cuff, it’s warm as a stone in the sun. “It won’t hurt at all.” [This will surrender your soul to the Deviless.]
+
+		DefaultEvent
+Name:A painless process
+Id:146578
+Description:Perhaps this is how a bottle feels when it's uncorked: a moment of nervousness, a moment of release, and then a certain freedom. The Deviless smiles radiantly, holding up your soul in its jar, cuddling it like a kitten.
+<br/><br/>
+"Let me tell you something very special." (She whispers it in your ear: her breath smells like hot stone.) "But you should go now. Thank you. Come back soon..."
+
+		ParentEvent
+Id:146571
+
+
+
+	ChildBranches5
+Name:The Deviless disconsolate
+Id:126181
+Description:She pours the tea with a shaking hand. Her eyes are distant. “The lights, the agonies, the scalding mists of lead. I miss them so. I long to return from exile. I was such a fool. There's no future with the Convention."
+
+<br/><br/>"Will you help me? I overhear things, here at the gate - the Convention’s plans. Take them back to London for me. The officialdom of Hell will show gratitude to me, and I - I will show gratitude to you.”
+
+		DefaultEvent
+Name:
+Id:146629
+Description:She hands you an envelope. "Unsealed," she points out. "I choose to trust you." (She's certainly lying. Devils do not trust.)
+
+		ParentEvent
+Id:146571
+
+
+
+	ChildBranches6
+Name:Give the Deviless the news from the Embassy, and the gift
+Id:127512
+Description:The Deviless keeps little snakes as pets now - each no bigger than her little finger. She scratches their heads, she calls them by name, and once, when she thinks you aren't looking, she pops one in her mouth to chew it like a liquorice-treat.
+<br/><br/>
+"What did they say?" she asks.
+
+		DefaultEvent
+Name:Delight!
+Id:148623
+Description:The Deviless opens the parcel. Amanita sherry! She pours you each a splashy glass, chattering giddily. She blushes when she sees you push the glass away. “Force of habit! I don’t really want to poison you. It’s such good news, isn’t it? Do you really think they trust me? I would so love to get away from this ghastly little rock, back to where the souls glow and the dances never end…”
+<br/><br/>
+"So listen. I have something more valuable for them. The names of seven devils back home who remain loyal to the aristocracy, to Brimstone. Here. Take the names: give them to the Embassy. Ask them if I can come home. Sail swiftly, my brave captain. All my hopes rest with you."
+
+		ParentEvent
+Id:146571
+
+
+
+	ChildBranches7
+Name:Give the Deviless the news from the Embassy, but not the gift
+Id:127554
+Description:You've already sold it. She'll never know. [This will gain you 150 Echoes.]
+
+		DefaultEvent
+Name:A hesitant smile
+Id:148689
+Description:"They didn't send anything? But you say they wanted more? Well, there's still hope. I have something more valuable for them. The names of seven devils back home who remain loyal to the aristocracy, to Brimstone. Here. Take the names: give them to the Embassy. Ask them if I can come home. Sail swiftly, my brave captain. All my hopes rest with you."
+
+		ParentEvent
+Id:146571
+
+
+
+	ChildBranches8
+Name:Tell the Deviless it's time to go
+Id:127555
+Description:The Brass Embassy has given you the good word.
+
+		DefaultEvent
+Name:Already packed
+Id:148690
+Description:"Let's go," she says breathily. "The Brimstone invigilators will be here soon. You don't want to meet them." She lifts a single man-skin valise. "This is all I need. Take me back to London."
+
+		ParentEvent
+Id:146571
+
+
+
+	ChildBranches9
+Name:Warn the Wistful Deviless
+Id:127609
+Description:She's a double-agent who tried to deceive Hell. You tipped Hell off. If she tries to go home, they'll be ready for her.
+
+		DefaultEvent
+Name:All dressed up and nowhere to go
+Id:148771
+Description:The Deviless' man-skin valise waits in the cottage parlour. She's ready to go. When she hears what you have to say, she sinks down on the sofa.
+<br/><br/>
+"Why did you have to spoil everything?" she complains. "And why - why are you warning me now? No, don't tell me. It'll be one of your human reasons. Compunction or compassion or one of those. What an untidy race you are."
+<br/><br/>
+She sighs. "Well, I owe you a double debt, don't I? You have done me both an ill turn and a good one. Here is an ill turn and a good turn for you. Goodbye. We won't see each other again."
+<br/><br/>
+She unlocks the ebony tallboy at the back of the room and hands you a mother-of-pearl music box. It plays a tinkling, dissonant tune that calls to mind something caged and wretched. All the way back to the ship, that tune tinkles in your thoughts, unlocking peculiar unhuman thoughts. You arrive back at the port filled with unhappy insights.
+
+		ParentEvent
+Id:146571
+
+
+
+	ChildBranches10
+Name:Refuse tactfully
+Id:127861
+Description:You do not, at the moment, feel that the Deviless needs any more human souls.
+
+		DefaultEvent
+Name:A tearful nod
+Id:149169
+Description:"I understand. It is a little indelicate. But I've had so few human friends. I'm sorry if I'm tactless sometimes. Sit with me a while. Let's just talk. Oh, and I have this hamper of honey-fungus that your cook might find a use for - "
+
+		ParentEvent
+Id:146571
+
+
+
+	ChildBranches11
+Name:An awkwardness
+Id:127863
+Description:The message from the Deviless still nestles in your pocket.
+
+		DefaultEvent
+Name:Two cups of tea
+Id:149171
+Description:She pours you each a cup of tea. She asks after the weather in London. ('Dank, probably.') She doesn't mention the message.
+
+		ParentEvent
+Id:146571
+

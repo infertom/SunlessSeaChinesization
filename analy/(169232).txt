@@ -1,0 +1,89 @@
+Name:The Lady's Patronage
+Id:169232
+Description:"We have not met. Have we? No, this is definitely the first time. But - hmm." The Lady of the Cages shakes her head sharply. "Best to proceed as if it is the first, don't you think?"
+<br><br>
+A veil of gold-mesh obscures only her eyes, leaving her glistening, bitten lips bare. Perhaps a hundred small silver keys jangle in a bunch at her left hip. "I think we should be friends. I'm very important you know - or I was. No, still am." She pauses. "Yes, I am quite sure I still am."
+
+
+
+
+	ChildBranches1
+Name:Accept her offer
+Id:139461
+Description:It is always useful to be friends with important people, even if they're hazy on the subject.
+[You may only have one Patron on the Isle of Cats. Choose well.]
+
+		DefaultEvent
+Name:
+Id:169233
+Description:"You should come back last Tuesday for another little chat," she pauses, and huffs. "No, that's not quite it. Ahem. Come back - soon? Another time. Pick a good one. There aren't enough of those." 
+<br><br>
+That was - probably? - a dismissal.
+
+		ParentEvent
+Id:169232
+
+
+
+	ChildBranches2
+Name:A change of Patron
+Id:139462
+Description:"You know Isery? What a lovely coincidence, I know them quite well myself."
+
+		DefaultEvent
+Name:
+Id:169234
+Description:She does not seem to mind your previous failures. "Pasts are tricky things. I find it's best to ignore them, on the whole. I think we're much more suited to be friends, don't you?"
+
+
+		ParentEvent
+Id:169232
+
+
+
+	ChildBranches3
+Name:Refuse her
+Id:139463
+Description:You are quite busy at the moment, and possibly your grandmother is ill.
+
+		DefaultEvent
+Name:
+Id:169235
+Description:Zaira takes your refusal in stride. "Maybe you'll rethink things, once your grandmother is feeling recovered. Is it sciatica? Or fluke-flu? Both? You don't say. My sympathies."
+
+
+		ParentEvent
+Id:169232
+
+
+
+	ChildBranches4
+Name:Promises made
+Id:139464
+Description:A Melliferous Sister glides into the room, and whispers a few words in Zaira's ear.
+
+
+		DefaultEvent
+Name:
+Id:169236
+Description:"Are you <em>quite</em> sure you're working for Isery, and not for me?" Zaira wrinkles her nose. "How extraordinary. Oh well - another time. Another city. Probably? Quite."
+
+		ParentEvent
+Id:169232
+
+
+
+	ChildBranches5
+Name:Second chances
+Id:140689
+Description:You have failed them before. But perhaps they are feeling lenient?
+
+		DefaultEvent
+Name:
+Id:171289
+Description:"We've already tried to be friends once, haven't we? I hardly think we should attempt it again. I might actually have you eaten by a Drownie." A flash of white teeth. "Or maybe Isery's the one that has people eaten by Drownies? Maybe we both do? Does that seem likely to you?" 
+[The Patrons of the Isle of Cats have no further use for you.]
+
+		ParentEvent
+Id:169232
+

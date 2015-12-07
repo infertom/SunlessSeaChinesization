@@ -1,0 +1,139 @@
+Name:Emland Testing Storylet
+Id:148040
+Description:Use this to reset various things. Delete before going live!
+
+
+
+	ChildBranches1
+Name:Reset your Trade in Long Boxes
+Id:127067
+Description:Get rid of extant quantities
+
+		DefaultEvent
+Name:Reset!
+Id:148041
+Description:There, you've forgotten anything you knew on the topic.
+
+		ParentEvent
+Id:148040
+
+
+
+	ChildBranches2
+Name:Give yourself All the Wide Zee at 80
+Id:127068
+Description:Won't this be fun?
+
+		DefaultEvent
+Name:There, 20 it is.
+Id:148042
+Description:That'll let you explore.
+
+		ParentEvent
+Id:148040
+
+
+
+	ChildBranches3
+Name:Give yourself All the Wide Zee at 20
+Id:127069
+Description:Won't this be fun?
+
+		DefaultEvent
+Name:There, 40 it is.
+Id:148043
+Description:That'll let you explore.
+
+		ParentEvent
+Id:148040
+
+
+
+	ChildBranches4
+Name:Give yourself All the Wide Zee at 40
+Id:127070
+Description:Won't this be fun?
+
+		DefaultEvent
+Name:There, 60 it is.
+Id:148044
+Description:That'll let you explore.
+
+		ParentEvent
+Id:148040
+
+
+
+	ChildBranches5
+Name:Give yourself All the Wide Zee at 60
+Id:127071
+Description:Won't this be fun?
+
+		DefaultEvent
+Name:There, 80 it is.
+Id:148045
+Description:That'll let you explore.
+
+		ParentEvent
+Id:148040
+
+
+
+	ChildBranches6
+Name:Give yourself Iron 50
+Id:127072
+Description:Need some help exploring?
+
+		DefaultEvent
+Name:There, that should help
+Id:148046
+Description:Hooray, lots of Mirrors!
+
+		ParentEvent
+Id:148040
+
+
+
+	ChildBranches7
+Name:Give yourself Veils 50
+Id:127073
+Description:Mmm, veils.
+
+		DefaultEvent
+Name:50 Veils
+Id:148047
+Description:There you go!
+
+		ParentEvent
+Id:148040
+
+
+
+	ChildBranches8
+Name:Give yourself Mirrors 50
+Id:127097
+Description:Need some help exploring?
+
+		DefaultEvent
+Name:There, that should help
+Id:148083
+Description:Hooray, lots of Iron!
+
+		ParentEvent
+Id:148040
+
+
+
+	ChildBranches9
+Name:Hearts 50
+Id:127099
+Description:What it says on tin.
+
+		DefaultEvent
+Name:Yay!
+Id:148086
+Description:There you go!
+
+		ParentEvent
+Id:148040
+

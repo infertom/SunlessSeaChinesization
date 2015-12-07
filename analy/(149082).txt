@@ -1,0 +1,56 @@
+Name:The Other Autopsy
+Id:149082
+Description:She breaks the locks and pries off the lid. 
+<br/>
+<br/>
+The body inside is her own: or rather, it has her nose, her cheekbones, her long fingers. Its hair is longer and something about its eyes make it appear more dissolute. But it is, or at least it could be, her twin. 
+<br/>
+<br/>
+"Her death was my fault," says the Acolyte bleakly. "So of course she's come back to me."
+
+
+
+	ChildBranches1
+Name:Help her
+Id:127811
+Description:This one won't be easy.
+
+		DefaultEvent
+Name:The unbound knot
+Id:149085
+Description:The growth is not in such a difficult place that she has any difficulty finding it, but the Acolyte works slowly and grimly. She talks angrily to the corpse. She talks to it about their childhood together. She calls it sister. She resents it for dying, considers it careless, but also blames herself.
+<br/>
+<br/>
+The metal ball is lumpy and hard, under the breastbone.
+
+		ParentEvent
+Id:149082
+
+
+
+	ChildBranches2
+Name:Discourage her from doing this autopsy
+Id:127810
+Description:Her leader must have locked this particular box for her own protection.
+
+		DefaultEvent
+Name:Snapped sympathy
+Id:149083
+Description:You offer a reasoned argument. She offers dockyard invective. Whatever her twin's body signifies, she means to discover it. When you won't help her, she throws you out. 
+<br/>
+<br/>
+From outside the building, you can hear the banging of instruments, and no singing at all.
+
+		ParentEvent
+Id:149082
+
+		SuccessEvent
+Name:A connection and peace
+Id:149084
+Description:You offer a reasoned argument. She doesn't want to listen, at first. She moves the body to its marble slab and lays out her array of scalpels. But while you talk, she does not begin the incisions, and after a time she lays down the blades and slumps beside the marble table.
+<br/>
+<br/>
+It is a long evening. She weeps. She cleans up the body and puts it in clean clothes. You help her wrap it in silk and return it to its coffin. 
+<br/>
+<br/>Some other servant of the Masters can investigate, but this task is not for her.
+

@@ -1,0 +1,136 @@
+Name:9 - The City
+Id:150989
+Description:It stinks here, awfully. 
+A Miasma
+Tower Bridge - whored by haunters.
+Rookery - Bill Sikes - one of your men find his body, but they do not know it. Killed in the Fall
+The birds have changed again - no-toed pigeons.
+Women teased a ray
+Moorings in quincunxes, laid down by Templars
+
+
+
+	ChildBranches1
+Name:Some things arranged neatly 
+Id:128940
+Description:You think that it is a sign of intelligence - rather, just a 
+
+		DefaultEvent
+Id:150990
+
+		ParentEvent
+Id:150989
+
+
+
+	ChildBranches2
+Name:Camp under traitors gate
+Id:128976
+Description:Light a fire there
+Read the inscription
+The men know where they are - it is on a beach. 
+
+		DefaultEvent
+Name:
+Id:151028
+Description:heads on spikes
+
+		ParentEvent
+Id:150989
+
+
+
+	ChildBranches3
+Name:I froze over
+Id:128977
+Description:So clean
+
+		DefaultEvent
+Id:151029
+
+		ParentEvent
+Id:150989
+
+
+
+	ChildBranches4
+Name:I remember the fire
+Id:128978
+Description:A few died.
+Was trying to see what was going on. 
+
+		DefaultEvent
+Id:151030
+
+		ParentEvent
+Id:150989
+
+
+
+	ChildBranches5
+Name:Cleopatra's Needle
+Id:128979
+Description:
+
+		DefaultEvent
+Id:151031
+
+		ParentEvent
+Id:150989
+
+
+
+	ChildBranches6
+Name:Save some of your men from dying
+Id:128980
+Description:Cholera, lime juice. 
+
+		DefaultEvent
+Id:151032
+
+		ParentEvent
+Id:150989
+
+
+
+	ChildBranches7
+Name:slaughterhouse
+Id:128981
+Description:Cesspits.
+
+Oh, to be a mountain stream.
+
+Beach of bones.
+
+		DefaultEvent
+Id:151033
+
+		ParentEvent
+Id:150989
+
+
+
+	ChildBranches8
+Name:fish are bedsores underneath
+Id:128987
+Description:move - tickling, collapse
+
+		DefaultEvent
+Id:151039
+
+		ParentEvent
+Id:150989
+
+
+
+	ChildBranches9
+Name:London Bridge
+Id:129015
+Description:Caesar crossed me - he won't do that again
+
+		DefaultEvent
+Id:151067
+
+		ParentEvent
+Id:150989
+

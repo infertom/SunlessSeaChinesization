@@ -1,0 +1,80 @@
+Name:Speak to the Lady in Lilac
+Id:155208
+Description:She can be surprisingly elusive. It's not a big ship. But you can usually find her in the end.
+
+
+
+	ChildBranches1
+Name:Invite her to dine with you
+Id:131668
+Description:...and talk about why she came to zee at all.
+
+		DefaultEvent
+Name:A matter of philosophy
+Id:155209
+Description:She smiles coyly. "'Why?' is the question with the longest tale. You wanted me here, didn't you? But why did you want me here? Perhaps you remembered something about me - something about our business dealings, or about a certain business in Vienna - "
+<br/><br/>
+Your breathing is shallow. The Lady in Lilac looks concerned. "You look unwell. Here, lie down. Let me - "
+
+		ParentEvent
+Id:155208
+
+		RareDefaultEvent
+Name:A place of pillars
+Id:155210
+Description:She excuses herself from eating. "My stomach is a little unsettled. The motion of the zee, I think... well, honestly, I've always wanted to see Irem. I do hope we'll travel that way. I know it's not a common destination. But what a place! All the glories of the horizon - "
+<br/><br/>
+Your head spins. Perhaps you've spent too long below deck. You excuse yourself and stagger upstairs to get some air.
+
+
+
+	ChildBranches2
+Name:Increase your Hearts
+Id:131669
+Description:"I can advise you, certainly. But let's talk about what you already know." [Spend a Secret to improve your Hearts, unless it's higher than 100.]
+
+		DefaultEvent
+Name:A closer understanding
+Id:155211
+Description:She smiles warmly: she pats your hand. "There, you see? You know as much as I do. If not more. I'm just glad I could lend an ear."
+
+		ParentEvent
+Id:155208
+
+
+
+	ChildBranches3
+Name:Ask her to stay with you...
+Id:131670
+Description:...to stave off the night's cold. You are shivering. Perhaps you're fevered. But she glows with warmth.
+
+		DefaultEvent
+Name:Surfacing slowly
+Id:155212
+Description:You fumble awake through a thick haze of dried dreams. Someone was here with you, last night: but there's only one plate on the cabin table. Your hands tremble. You're weak and desperately thirsty. What happened here? Perhaps nothing at all, perhaps only the endless phantasms of the Unterzee. You clutch at memories. They slip away like wet driftwood.
+
+		ParentEvent
+Id:155208
+
+
+
+	ChildBranches4
+Name:Introduce Maybe's Daughter to the Lady in Lilac
+Id:146195
+Description:Do they have something in common?
+
+		DefaultEvent
+Name:"Who do you mean?"
+Id:180263
+Description:The Daughter looks around, bewildered. And, indeed, the Lady in Lilac isn't there.
+
+		ParentEvent
+Id:155208
+
+		SuccessEvent
+Name:A long silence
+Id:180264
+Description:It's hard to tell who looks more surprised: the Lady, or the Daughter.
+<br/><br/>
+At last, the Daughter croaks uncertainly: "...Mother?"
+

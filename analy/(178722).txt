@@ -1,0 +1,23 @@
+Name:Your Father's Bones: Safe Harbour
+Id:178722
+Description:You are home, and so is he.
+
+
+
+	ChildBranches1
+Name:VICTORY! ...Retire with your Father's Bones restored
+Id:145323
+Description:You have the grim bundle wrapped respectfully in oilskins. Arrange a funeral.
+
+		DefaultEvent
+Name:A quiet afternoon
+Id:178724
+Description:Rain at funerals is decorous. The Neath chooses to grace this afternoon with one of its thin and melancholy showers. Water-drops glisten on the shovel, the coffin, the pale expanse of the vicar's forehead. Not many Londoners remember your father, but the sense of occasion - the long quest! the final return to rest! - has brought out a sizeable crowd. Mourners line up to shake your hand. When they speak, you hear only the zee.
+<br/><br/>
+Afterwards, you give the servants an evening off. The house is empty. The clock ticks. The roof-beams creak companionably. You can still hear the zee. 
+<br/><br/>
+[This captain's career is complete.]
+
+		ParentEvent
+Id:178722
+

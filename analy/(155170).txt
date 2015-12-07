@@ -1,0 +1,19 @@
+Name:A sudden calm
+Id:155170
+Description:The smoke pouring from the deck hatch ceases. Your Chief Engineer emerges.
+
+
+
+	ChildBranches1
+Name:"What now?"
+Id:131643
+Description:The roar of the engines has subsided.
+
+		DefaultEvent
+Name:A shrug
+Id:155171
+Description:"It's over, whatever happened. And look. I found this." In your engineer's cupped hands lies a pile of waxy pallets. "Hell-droppings. Some sort of by-product of the... you know what? I have no idea at all."
+
+		ParentEvent
+Id:155170
+

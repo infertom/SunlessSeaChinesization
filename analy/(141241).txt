@@ -1,0 +1,32 @@
+Name:A Correspondence of Sorts
+Id:141241
+Description:A monolith leans sideways.
+
+
+
+	ChildBranches1
+Name:Search
+Id:122720
+Description:
+
+		DefaultEvent
+Name:
+Id:141242
+Description:
+
+		ParentEvent
+Id:141241
+
+
+
+	ChildBranches2
+Name:Loot
+Id:122722
+Description:
+
+		DefaultEvent
+Id:141244
+
+		ParentEvent
+Id:141241
+

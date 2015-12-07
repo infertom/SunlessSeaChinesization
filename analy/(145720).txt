@@ -1,0 +1,98 @@
+Name:Choose an Ambition
+Id:145720
+Description:What does winning mean to you?
+
+
+
+	ChildBranches1
+Name:Wealth
+Id:125596
+Description:You know how it is to be poor. Now you want a mansion, servants, fine clothes. A family, perhaps.
+
+		DefaultEvent
+Name:Beyond the dreams...
+Id:145721
+Description:The Unterzee is full of riches. Death and darkness, too, but it's worth the gamble.
+<br/><br/>
+ [To win, gather a substantial retirement fund, upgrade your lodgings to a mansion, and retire.]
+
+		ParentEvent
+Id:145720
+
+
+
+	ChildBranches2
+Name:Your Father's Bones
+Id:125597
+Description:Your father was lost at zee. You never knew him, but you've often dreamed of him. Find and return his remains to London for a decent burial.
+
+		DefaultEvent
+Name:Full fathom five?
+Id:145722
+Description:Find where he fell, and bring him home.
+<br/><br/>
+[When you've found your father's bones, you can retire to victory. Explore Fallen London to find your first clue.]
+
+		ParentEvent
+Id:145720
+
+
+
+	ChildBranches3
+Name:The Uttermost East
+Id:125598
+Description:Find what lies beyond the map's edge. [This is now a hidden victory condition.]
+
+		DefaultEvent
+Name:
+Id:145723
+Description:--
+
+		ParentEvent
+Id:145720
+
+
+
+	ChildBranches4
+Name:Fulfilment
+Id:125599
+Description:Gather a hundred tales. Learn all you can of the zee. Write a masterpiece. Retire.
+
+		DefaultEvent
+Name:
+Id:145724
+Description:[Whenever you return to Fallen London, you have the option of retiring: but you'll need to write your masterwork first.]
+
+		ParentEvent
+Id:145720
+
+
+
+	ChildBranches5
+Name:A Private Kingdom
+Id:125600
+Description:Establish a settlement where you are absolute ruler. A utopia, perhaps. Perhaps. [This is not available in this build.]
+
+		DefaultEvent
+Name:
+Id:145725
+Description:Find a suitable location - somewhere hospitable, but uninhabited.
+
+		ParentEvent
+Id:145720
+
+
+
+	ChildBranches6
+Name:NORTH
+Id:125601
+Description:A seventh, hidden, self-destructive ambition, or no ambition at all. 
+
+		DefaultEvent
+Name:
+Id:145726
+Description:
+
+		ParentEvent
+Id:145720
+

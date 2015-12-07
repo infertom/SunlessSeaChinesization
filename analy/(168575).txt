@@ -1,0 +1,36 @@
+Name:Royal Prerogatives
+Id:168575
+Description:"I have been singing your praises to Leopold." Isery's eyes warm at the name. You could almost envy the Pirate-King. Almost. "I would like to introduce you to him, yes - I think it is time."
+<br><br>
+They make a mime of thoughtfulness, though each word they say is carefully measured. "But when one meets a king, one needs exactly the right sort of gift. It's only polite."
+
+
+
+	ChildBranches1
+Name:You agree to the courtesies
+Id:139084
+Description:"Fetch me someone who has very recently been up to the Surface. Leopold rather fancies Surface-memories, you know? Ah, maybe you don't. But it is true, nonetheless."
+
+		DefaultEvent
+Name:
+Id:168578
+Description:Your Patron dismisses you with the advice that the Cumaean Canal is the likeliest place to source such a particular gift. 
+
+		ParentEvent
+Id:168575
+
+
+
+	ChildBranches2
+Name:You politely decline
+Id:139085
+Description:You are not entirely sure you wish an introduction to the Pirate-King, and you are not terribly keen on the transport of unwilling gifts, as it were. [Refusal will lock you out of this quest]
+
+		DefaultEvent
+Name:
+Id:168579
+Description:You see something wild and dangerous in Isery's eyes, but it is quickly replaced by genial disappointment. You are certain that your services will not be required again, and you cannot help the sense that you have been granted an unlikely reprieve.
+
+		ParentEvent
+Id:168575
+

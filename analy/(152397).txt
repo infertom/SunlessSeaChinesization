@@ -1,0 +1,147 @@
+Name:The Charitable Hospital
+Id:152397
+Description:The Charitable Hospital is a long, galleried building divided into a series of curtained wards with their own light sources and mirror-series.
+<br/><br/>
+A Dour-Faced Nurse glances at you expectantly. "Which ward are you here to visit?" 
+
+
+
+
+	ChildBranches1
+Name:The Fungal Infections Ward
+Id:129865
+Description:They keep it cool and closed-off. The doctors and nurses all wear masks when they enter. How bad could a fungal infection be?
+
+		DefaultEvent
+Name:
+Id:152398
+Description:The Dour-Faced Nurse ties a mask around your face before leading you into the ward, which is set over two floors. The first thing you notice are the patients' constant, wracking coughs. "We give them syrups and remedies," the Nurse tells you, "but Lung-Bloom is a chronic condition."
+<br/><br/>
+Coughing is the only symptom in the milder cases, but as you walk further in you begin to see hands and feet covered in mold, and then chests budding with little mushroom-cups and lichen and even a young girl with a fringed, red-orange fungal flower blooming in place of an eye.
+<br/><br/>
+"It's the Fungus-Harvester's disease," the Dour-Faced Nurse tells you sadly, pulling you away. "It only gets worse in the heat and light, but what can we do?"
+
+
+		ParentEvent
+Id:152397
+
+
+
+	ChildBranches2
+Name:The Mirrorless Room
+Id:129866
+Description:The ward is locked several times over, and the Dour-Faced Nurse looks uncomfortable when you mention it.
+
+
+		DefaultEvent
+Name:
+Id:152399
+Description:"That is where we keep the Mirror-Mad," she says with a shudder. "The mirrors...whispered to them. And instead of going to the Sun-Priests, they whispered back."
+<br/><br/>
+And you just <i>abandon them</i> in a locked room? "We don't despise them. They are given food and water. Tending the Mirror-Mad uses up almost as much fuel as Mihir's temple, because they can only be lit with direct lamp-light. We don't dare let them near any mirrors." 
+<br/><br/>
+She shudders again. "The Mirror-Mad are worse than Taamas. They no longer serve Mihir but...other powers. Those that speak in dreams and visions." She refuses to say anything else.
+
+
+		ParentEvent
+Id:152397
+
+
+
+	ChildBranches3
+Name:The Open Ward
+Id:129867
+Description:You see patients sprawled on their beds, playing card-games and chatting to visitors. Most of them have minor injuries.
+
+
+		DefaultEvent
+Name:
+Id:152400
+Description:"Most of these wounds happened outside the city - on hunting expeditions or trade missions," the Dour-Faced Nurse explains severely, raising her voice. "Which is why most of these malingerers are Guards."
+<br/><br/>
+The patient nearest to her pretends to swoon. "But what would I do, away from your gentle, tender gaze, O Fair Nurse?" He clasps his hands to his bosom. "Surely I would wither and perish?"
+<br/><br/>
+"We'll see who withers when I give you your sponge-bath," she retorts, and her patient draws up his blankets meekly, though his mouth still curves up in a smile.
+
+		ParentEvent
+Id:152397
+
+
+
+	ChildBranches4
+Name:Return to the City Centre
+Id:129906
+Description:You are finished here.
+
+		DefaultEvent
+Name:
+Id:152451
+Description:
+
+		ParentEvent
+Id:152397
+
+
+
+	ChildBranches5
+Name:Offer the services of the Brisk Campaigner
+Id:138175
+Description:You've won her trust; she's prepared to come ashore.
+
+		DefaultEvent
+Name:
+Id:166996
+Description:The Dour-Faced Nurse watches you carefully as you assist the Campaigner in cleaning wounds and, changing bandages. She gives you a satisfied nod.
+<br/><br/>
+The Guards are pleased to have a new attendant, and call you Nurse Taamas with warm, welcoming mockery which makes you feel part of their crew. They try the same thing with the Campaigner, but only very briefly. You see the Campaigner and the Nurse exchange a glance of challenging, cordial respect.
+<br/><br/>
+"Good work," the Dour-Face Nurse says at the end of your shift, handing you each a cup of steaming mushroom-tea. It revives you greatly. Do you detect a hint of treesap-liquor at the bottom of the cup? And something else - something of the South - 
+
+		ParentEvent
+Id:152397
+
+
+
+	ChildBranches6
+Name:Offer the services of the Haunted Doctor
+Id:138176
+Description:You've won his trust; he's prepared to come ashore.
+
+		DefaultEvent
+Name:
+Id:166997
+Description:The Dour-Faced Nurse watches you carefully as you assist the Doctor in cleaning wounds and, changing bandages. She gives you a satisfied nod.
+<br/><br/>
+The Guards are pleased to have a new attendant, and call you Nurse Taamas with warm, welcoming mockery which makes you feel part of their crew. The Doctor essays a cautious smile. You see the Nurse watch him consideringly.
+<br/><br/>
+"Good work," the she says at the end of your shift, handing you each a cup of steaming mushroom-tea. It revives you greatly. Do you detect a hint of treesap-liquor at the bottom of the cup? And something else - something of the South - 
+
+		ParentEvent
+Id:152397
+
+
+
+	ChildBranches7
+Name:Offer your services
+Id:129868
+Description:You have some skills; you could help the Dour-Faced Nurse tend the patients on the Open Ward.
+
+
+		DefaultEvent
+Name:
+Id:152401
+Description:Apparently they do things very differently in Varchas. Or maybe your anatomy is a little bit rusty. After you make a few fumbling attempts to put in a catheter, the Dour-Faced Nurse declares you a menace, and banishes you from the ward.
+
+
+		ParentEvent
+Id:152397
+
+		SuccessEvent
+Name:
+Id:152402
+Description:The Dour-Faced Nurse watches you carefully as you clean wounds, change bandages and measure out precise dosages of cordials and remedial syrups. She gives you a satisfied nod when she sees for herself the steadiness of your hands, the sureness of your intent. 
+<br/><br/>
+The Guards are pleased to have a new attendant, and call you Nurse Taamas with warm, welcoming mockery which makes you feel part of their crew.
+<br/><br/>
+"Good work," the Dour-Face Nurse says at the end of your shift, handing you a cup of steaming mushroom-tea. It revives you greatly. Do you detect a hint of treesap-liquor at the bottom of the cup? And something else - something of the South - 
+

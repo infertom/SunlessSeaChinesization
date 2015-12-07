@@ -1,0 +1,50 @@
+Name:The Haunted Doctor shrinks from a sorrow-spider
+Id:143343
+Description:How did that horrible creature get aboard the ship?
+
+
+
+	ChildBranches1
+Name:Smash the sorrow-spider with a flung boot
+Id:146362
+Description:How did that horrible creature get aboard the ship?
+
+		DefaultEvent
+Name:A relief
+Id:180522
+Description:The Haunted Doctor breathes easier. He rummages for a hidden bottle, drinks deep. "I apologise, [q:Addressed As]. It is not that I am a cowardly man, merely..."
+<br /><br />
+He sighs. "I was not Neath born. When I ventured here, I knew nothing of Clay Men; had hardly imagined I might one day share a hansom cab with a charismatic devil. I had never even heard tell of the sorrow-spiders whose webs catch men's minds as easily as their bodies."
+<br /><br />
+"Have you visited the Observatory, where they nest? I suspect not." His hand trembles. "It was a full year I found myself there, with the Lady. She wrapped me in silk and her children kept me warm. She gave me her sight, and all she asked in return was my eye."
+<br /><br />
+"It was a dream I can not call a nightmare, yet one I woke from with shivers and a revelation. If it is in light that such sorrow breeds, only in darkness could there be hope. In the Liberation of Night, I believed I saw hope for us all. I was... misguided. But that story, you know."
+<br /><br />
+"Please. I would return to my duties."
+
+		ParentEvent
+Id:143343
+
+
+
+	ChildBranches2
+Name:Call a zailor to take care of the nasty thing
+Id:147533
+Description:A captain has more important concerns.
+
+		DefaultEvent
+Name:A relief
+Id:182324
+Description:The Haunted Doctor breathes easier. He rummages for a hidden bottle, drinks deep. "I apologise, [q:Addressed As]. It is not that I am a cowardly man, merely..."
+<br /><br />
+He sighs. "I was not Neath born. When I ventured here, I knew nothing of Clay Men; had hardly imagined I might one day share a hansom cab with a charismatic devil. I had never even heard tell of the sorrow-spiders whose webs catch men's minds as easily as their bodies."
+<br /><br />
+"Have you visited the Observatory, where they nest? I suspect not." His hand trembles. "It was a full year I found myself there, with the Lady. She wrapped me in silk and her children kept me warm. She gave me her sight, and all she asked in return was my eye."
+<br /><br />
+"It was a dream I can not call a nightmare, yet one I woke from with shivers and a revelation. If it is in light that such sorrow breeds, only in darkness could there be hope. In the Liberation of Night, I believed I saw hope for us all. I was... misguided. But that story, you know."
+<br /><br />
+"Please. I would return to my duties."
+
+		ParentEvent
+Id:143343
+

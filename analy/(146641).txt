@@ -1,0 +1,104 @@
+Name:The Burning White Light of Varchas
+Id:146641
+Description:The walled city of Varchas is a tangle of green vines and luminescent fungal flowers slow-blooming around mouldering stone. A quincunx of carved stepped-towers rise over the walls and pour burning white light into the bleak sky. 
+<br/><br/>
+A rough, shadowed path leads from the docks to the Mirrored Gates of Varchas. Two towering carved-stone lamps throw their light on the angled mirrors, and a blue-cloaked Guard stands in the reflected pool of light. 
+<br/><br/>
+The city is a beacon against the tree-hushed, sprawling darkness of the Elder Continent. In the far distance a vast mountain glimmers.
+
+
+
+	ChildBranches1
+Name:Choke on the smell
+Id:126187
+Description:It is overpowering, sweet. It comes from the fungus growing wild all over the city's stones. 
+
+		DefaultEvent
+Name:
+Id:146642
+Description:The flowers have white-waxy leaves which leave powdery traces on your fingers. The light coming from the city has the same camphorous quality. And the smell: perfume worn too many days on the body; unread books left to turn to ink-stained pulp, a garden drowned and rotting in still water.
+
+		ParentEvent
+Id:146641
+
+
+
+	ChildBranches2
+Name:The zailors wave you over
+Id:129707
+Description:They are sitting on some upturned crates on the docks, playing a game with mirrored chips and stylised snakes made of bone. 
+
+		DefaultEvent
+Name:
+Id:152169
+Description:“You're not thinking of going <i>in there</i>?” The zailors gawk at you in in unconcealed horror.
+<br/><br/>
+They take turns telling you gruesome stories of Varchas which they no doubt invented whole-cloth. Some are convinced that the Varchaasi render zailors into tallow to light their city; others say they steal shadows and sell them to their masters. All of them are convinced that they blind any strangers who dare to gaze too long upon their city's secrets.
+<br/><br/>
+“We're just waiting to be paid, and then we're off,” one of the zailors says, nervously fingering a mirror-chip. “I've only got one eye left, and I'd like to keep it.”
+
+		ParentEvent
+Id:146641
+
+
+
+	ChildBranches3
+Name:Ask the Guard a few questions
+Id:129708
+Description:Never a bad idea to gather a little intelligence, before heading into unknown waters. Or cities, as the case may be.
+
+		DefaultEvent
+Name:
+Id:152170
+Description:The blue-cloaked Guard only acknowledges your existence when you step out of the darkness of the path and into the light from the lamps.
+
+		ParentEvent
+Id:146641
+
+
+
+	ChildBranches4
+Name:Tell the Guard you wish to enter
+Id:129710
+Description:Well, what else are gates for, if not to go <i>through</i>?
+
+		DefaultEvent
+Name:
+Id:152173
+Description:She makes a mark in her ledger before ringing a brass bell. The mirrors of the gates rearrange to give you space to pass, but never once allow shadow to touch the Guard.
+<br/><br/>
+“Our ways are not yours, Taamas. Remember that, and walk in the light of Mihir.”
+
+		ParentEvent
+Id:146641
+
+
+
+	ChildBranches5
+Name:Put a blemmigan ashore
+Id:147565
+Description:Will the Guard permit it?
+
+		DefaultEvent
+Name:A careless shrug
+Id:182372
+Description:The guard watches as the blemmigan whirls into the darkness. She shakes her head. "More of your outland pollution, Taamas? Mihir will see to it, I imagine."
+
+		ParentEvent
+Id:146641
+
+
+
+	ChildBranches6
+Name:Compile a Port Report
+Id:147654
+Description:The Admiralty will want to know.
+
+		DefaultEvent
+Name:The Mirrored City and its glories
+Id:182510
+Description:Tone down the details of the light and its brilliance. You don't want to inspire envy in the Admiralty staff.
+
+		ParentEvent
+Id:146641
+

@@ -1,0 +1,24 @@
+Name:The place that is no place
+Id:159715
+Description:The Unterzee has no northern shore. Space is forbidden. Time contracts to a single frozen instant. There is only one way North.
+
+
+
+	ChildBranches1
+Name:The High Gate
+Id:134388
+Description:You huff and fumble your way through darkness. The stokers labour below, as in an old sick dream. Fuel evaporates. Zailors stiffen to statues.
+
+		DefaultEvent
+Name:Safety?
+Id:159716
+Description:This is not a good place to be... but at least it <i>is</i> a place. The High Gate, the one way North. For a while there, you were somewhere beyond places. Perhaps you've survived.
+
+		ParentEvent
+Id:159715
+
+		RareDefaultEvent
+Name:Safety?
+Id:180736
+Description:This is not a good place to be... but at least it <i>is</i> a place. Frostfound, the castle where riddles fight questions to the death. For a while there, you were somewhere beyond places. Perhaps you've survived.
+

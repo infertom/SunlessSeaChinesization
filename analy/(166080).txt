@@ -1,0 +1,59 @@
+Name:Tomb-Colonists in the Chelonate
+Id:166080
+Description:"A big, dead, big, hollow, big, stinking, big, reptile! For the first time in twenty years, I do not miss my once-acute sense of smell. Still! I expect good hunting."
+
+
+
+	ChildBranches1
+Name:Send the tomb-colonists to visit Storm's Temple
+Id:137590
+Description:The Chelonites worship the god called Storm with frightful, bloody rites. Those are the only rites Storm pays attention to. It should keep them distracted.
+
+		DefaultEvent
+Name:Distant thunder
+Id:166081
+Description:"What a charming place that was! If you like skin, and shouting. Actually, I like both those things, so thank you terribly much."
+
+		ParentEvent
+Id:166080
+
+		RareDefaultEvent
+Name:Possibly a fracas
+Id:175342
+Description:"Come now, Captain, I don't understand what the fuss was about. It most certainly wasn't a brawl. It was barely even a scuffle. Look, let me show you what I did to him. Yes? You see? Well, no, he won't be getting up any time soon, but it's not fatal, is it? My, those priests are cross. I do think priests get crosser than sensible people."
+
+
+
+	ChildBranches2
+Name:Let them go hunting with Chelonites
+Id:143195
+Description:The tomb-colonists are grinning and bobbing up and down like a gang of small children. It'd be very dangerous. That's probably why they're so happy.
+
+		DefaultEvent
+Name:Disappointment
+Id:175339
+Description:"Oh, yes, we killed a couple of angler-crabs. (Here's a claw-tip for you.) But no one was hurt, not so's you'd notice. We hardly even lost any limbs. I've seen rougher rugger matches."
+
+		ParentEvent
+Id:166080
+
+		RareDefaultEvent
+Name:Delight!
+Id:175346
+Description:"You should have been there, Captain! Well, perhaps it's best you weren't. There was a lot of blood, and there was a cataclysmic quantity of slime. And, oh, some deaths. Quite a lot of deaths. I suppose that's zee-monsters for you. Oho! Here's a little something for you. Grace found it embedded in my back."
+
+
+
+	ChildBranches3
+Name:A Bandage-Colony Reveal'd!
+Id:143196
+Description:Your bandage-colony has drawn undue attention!
+
+		DefaultEvent
+Name:Shouts of rage
+Id:175341
+Description:Polythreme is known to the Chelonate, it seems. Their Sniffers and Sounders have identified the bandage-colony as a 'hearts-licker spy'. The colony is torn to pieces by a very determined mob. A tomb-colonist who gets in their way suffers the same fate. The others remain prudently below decks.
+
+		ParentEvent
+Id:166080
+

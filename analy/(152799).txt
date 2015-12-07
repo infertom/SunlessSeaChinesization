@@ -1,0 +1,59 @@
+Name:The Vengeance of Jonah
+Id:152799
+Description:It's a cramped little place, but much better-lit than most places in the tomb-colonies. The scents of the dishes are multitudinous and extraordinary. Are they good? They might be. They might be good. It's difficult to tell.
+
+
+
+	ChildBranches1
+Name:Recruit the Bandaged Poissonnier
+Id:130128
+Description:The Bandaged Poissonnier has long wished to travel - but you'll need to outfit the galley to his exacting standards. [This will recruit him as a Cook.]
+
+		DefaultEvent
+Name:Avid enthusiasm
+Id:152806
+Description:"Ah, my captain! The things we will catch! that we will consume! that we will experience! We will discover the Seventh Sensation, you and I. The taste that one tastes with the heart. You there! Sailor! Careful with the braising-alembic! It's worth more than your wretched soul."
+
+		ParentEvent
+Id:152799
+
+
+
+	ChildBranches2
+Name:Offer a Strange Catch
+Id:130127
+Description:The Vengeance of Jonah is liberal in its approach to edibility. [They will pay a small fee and return some of the material to you as Supplies.]
+
+		DefaultEvent
+Name:An adequate success
+Id:152804
+Description:The final product is edible, if you close your eyes. It's probably better pickled.
+
+		ParentEvent
+Id:152799
+
+		SuccessEvent
+Name:A find!
+Id:152805
+Description:Oh, yes, this one is interesting. Certain of the organs may be consumed only if boiled in the beast's own venom. They're remarkably nutritious. Although the taste does rather linger. Good Lord, it does linger. Move on, taste. Move on.
+
+
+
+	ChildBranches3
+Name:Sample today's special
+Id:130125
+Description:The food here is exceptional. You need not fear poisoning or boredom. Definitely not boredom. [This is <i>usually</i> a more effective way of reducing Terror than purchasing 'a dusty glass of wine', and will also reduce Hunger.]
+
+		DefaultEvent
+Name:Good, but...
+Id:152800
+Description:You eat with gusto and leave with relief. But that night you dream of the Writhing River: that watercourse where parabola-flax grows and nightmares spawn. Perhaps the Vengeance of Jonah has been purchasing their spices from behind mirrors again...
+
+		ParentEvent
+Id:152799
+
+		SuccessEvent
+Name:A meal which defies description
+Id:152809
+Description:The Bandaged Poissonnier, owner of the Vengeance of Jonah, has identified seven flavours which are pleasant, seven which are unpleasant, and seven which are neither. The flavours of this meal are chiefly of the first kind.
+

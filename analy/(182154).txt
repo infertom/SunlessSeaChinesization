@@ -1,0 +1,34 @@
+Name:The crew of the Eater is dead
+Id:182154
+Description:The worms lie quiescent. The Chelonites are slain. Take it as a prize-ship, bones and zee-worms and all..? One look at your bo'sun dissuades you. He shakes his head slowly.
+
+
+
+	ChildBranches1
+Name:Seize its cargo
+Id:147408
+Description:The Eater of Names has long plundered unwise strangers in the name of Death and the Great Shell. Perhaps they've kept something of use.
+
+		DefaultEvent
+Name:
+Id:182155
+Description:
+
+		ParentEvent
+Id:182154
+
+
+
+	ChildBranches2
+Name:Seize its figurehead
+Id:147409
+Description:The colour is gant: that colour which remains when all else has been consumed.
+
+		DefaultEvent
+Name:A grisly relic
+Id:182156
+Description:They must have taken this from the zee near the Gant Pole, the place that draws dying monsters. The memories of slow deep death adhere to it like rags of skin to bone. Perhaps you'll find a use for it.
+
+		ParentEvent
+Id:182154
+

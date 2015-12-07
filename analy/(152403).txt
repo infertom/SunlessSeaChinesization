@@ -1,0 +1,29 @@
+Name:The Pilgrimage to Amaradri
+Id:152403
+Description:It seems as though half the city has joined the Pilgrimage to the Mountain of Light; the other half lines the streets and hangs out from upper-story windows to watch their friends and loved ones depart. Musicians play stirring tunes on polished brass-instruments and little calabash-lyres, all undercut with the rhythmic sound of drums.
+<br/><br/>
+A towering machine piled high with fungus is wheeled to the front of the procession. The drivers sit in a lamp-lit cabin at the front, their faces grim. The Agnihotri raises his hand, and a hush falls over all of Varchas.
+<br/><br/>
+The Mirrored Gates slide open, rays of light reflecting jaggedly. Outside, the Elder Continent is dark and hushed and vast. You have the dizzying feeling that it is vaster and onyx-blacker than the Unterzee, somehow, but that cannot be.
+
+
+
+	ChildBranches1
+Name:"Wish us luck, Taamas!"
+Id:129869
+Description:The Agnihotri is next to you, at the very front of the procession. His aging face looks suddenly youthful and taut; his eyes glimmer with purpose. You can only nod weakly.
+
+
+		DefaultEvent
+Name:
+Id:152404
+Description:The Agnihotri laughs wildly, and then shouts a command, and the machine rumbles out of the city gates. It lays down two thick rows of fungus to either side of it. The Lamp-Lighters dart to the very edge of the darkness, and light the fungus with their torches. 
+<br/><br/>
+It blazes up, illuminating the path inland in brilliant, white, rot-scented light. The people of Varchas cheer so loudly you think your eardrums will burst. 
+<br/><br/>
+The pilgrims stream slowly out of the city in a glimmering procession, leaving it half-empty behind them.
+
+
+		ParentEvent
+Id:152403
+

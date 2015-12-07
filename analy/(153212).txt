@@ -1,0 +1,66 @@
+Name:Tomb-Colonists in Polythreme
+Id:153212
+Description:"...this is the city where the stones of the streets cry out. Excellent. If I wanted silence, I would have stayed in Venderbight, where even the bats hesitate to squeak. I look forward to a number of considerable headaches."
+
+
+
+	ChildBranches1
+Name:Arrange a fine meal at a restaurant ashore
+Id:130380
+Description:The dead are always hungry. Stuff their mouths with bolete-cake, and they'll stay out of trouble.
+
+		DefaultEvent
+Name:The well-fed dead
+Id:153213
+Description:They walk a little straighter, when they return. They creak a little less. "Living cake!" exclaims one cheerfully. "My head is swimming with vigour and joy. I must consume more live food. Do you know, I can almost see why cannibalism."<br/><br/>
+"So where are we going next?"
+
+		ParentEvent
+Id:153212
+
+
+
+	ChildBranches2
+Name:Let them go off and purchase new bandages
+Id:143193
+Description:Every stain tells a story, or so the Venderbight fashion has it. But some of these stories are getting a little tired; and the living bandages of Polythreme will make fine souvenirs.
+
+		DefaultEvent
+Name:The gladdest of rags
+Id:175337
+Description:"Don't I look darling? It <em>is</em> a little bit like being tied up with serpents. But one gets used to it. Mm. One <em>really</em> gets used to it. And now where are we going?"
+
+		ParentEvent
+Id:153212
+
+		RareDefaultEvent
+Name:Voices raised in song
+Id:175351
+Description:"We've made friends! Here's my big friend! And here's my little friend. Yes, I've been drinking. You'd have been drinking too. Where have you brought us? It's like Hell, but noisier. Here. Here, you look after my friends. I had to swap someone. Never mind. We won't miss him."
+<br/><br/>
+"So where are we going next?"
+
+
+
+	ChildBranches3
+Name:Recruit a Bandage-Colony
+Id:143194
+Description:Clothes-colonies - living assemblages of garments - walk Polythreme, upright as any citizen of London. The more raggedy ones could pass for tomb-colonists...[If you're missing a tomb-colonist, this may be useful.]
+
+		DefaultEvent
+Name:A furtive conversation
+Id:175338
+Description:"Yesss. Yesss, We can be one of your dead men. No. No, we require no food. A payment? For our trouble? How delightful. We'll sstay out of the way..."
+<br/><br/>
+"Tell uss. Where are we going? Will there be... people? We feel sso empty."
+
+		ParentEvent
+Id:153212
+
+		RareDefaultEvent
+Name:A furtive conversation
+Id:175340
+Description:"Yesss. Yesss, We can be one of your dead men. No. No, we require no food. A payment? For our trouble? How delightful. We'll sstay out of the way...."
+<br/><br/>
+"Tell uss. Where are we going? Will there be... people? We feel sso empty."
+

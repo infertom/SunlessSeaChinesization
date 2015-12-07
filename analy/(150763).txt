@@ -1,0 +1,34 @@
+Name:The Hungry Dead
+Id:150763
+Description:Your Cook is outraged! One of the tomb-colonists has woken from his coffined rest and found his way to the stores. When the Cook came across him, he had consumed a half-wheel of cheese and an alarming quantity of suet.
+
+
+
+	ChildBranches1
+Name:Fling the villain overboard!
+Id:129137
+Description:He can walk home.
+
+		DefaultEvent
+Name:Shouts of protest!
+Id:151249
+Description:Two burly zailors heave him into the brine. His enraged shouts are lost in the roar of the ship's engines. You instruct your First Officer to make no mention of the incident in the log.
+
+		ParentEvent
+Id:150763
+
+
+
+	ChildBranches2
+Name:Return him to the hold
+Id:129138
+Description:Perhaps he'll stay put this time.
+
+		DefaultEvent
+Name:Expostulating all the way
+Id:151250
+Description:"If you had provided me with more commodious quarters! - if this ship did not pitch so abominably! - a man grows bored, you know! - death is deathly dull!" And so forth and so forth. It is a relief when the coffin lid closes. If only you could nail it shut.
+
+		ParentEvent
+Id:150763
+

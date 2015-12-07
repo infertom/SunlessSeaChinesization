@@ -1,0 +1,50 @@
+Name:An Unexpected Letter
+Id:150991
+Description:Who sent it, and what does it say?
+
+
+
+	ChildBranches1
+Name:Your sweetheart -
+Id:128941
+Description:"...return to London as soon as you may," your sweetheart says. "You are a father." [Choose this option if you sired the child.]
+
+		DefaultEvent
+Name:
+Id:150992
+Description:A new life! Go quickly.
+[You have a child! Return to London to look after them, and they may become a Scion, allowing you to take two Legacies.]
+
+		ParentEvent
+Id:150991
+
+
+
+	ChildBranches2
+Name:Your sweetheart -
+Id:128982
+Description:" a surprise for you on your next return to London. I have taken in a foundling." [Choose this option if you're unlikely to be either a father or mother.]
+
+		DefaultEvent
+Name:
+Id:151034
+Description:What are they thinking? Is this some scheme of theirs, or honest affection? [You have a child! Return to London to look after them, and they may become a Scion, allowing you to take two Legacies.]
+
+		ParentEvent
+Id:150991
+
+
+
+	ChildBranches3
+Name:You.
+Id:129007
+Description:"...when I next return to London, I will bring an additional recruit: your child." [Choose this option if you're giving birth to a child.]
+
+		DefaultEvent
+Name:
+Id:151059
+Description:Your infant is born at sea. You take to your cabin for a much shorter period than the ship's doctor would like. You are walking long before you should. But you have a ship to run. [You have a child! Look after them, and they may become a Scion, allowing you to take two Legacies.]
+
+		ParentEvent
+Id:150991
+

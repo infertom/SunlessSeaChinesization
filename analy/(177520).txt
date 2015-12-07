@@ -1,0 +1,65 @@
+Name:Your Father's Return
+Id:177520
+Description:Your father leans on the rail. "Oh, hush," he says. "I'm not going below now. I want to zee London. See London." He gives a rum-infused chuckle. "Bet you the Widow already knows I'm here."
+<br/><br/>
+And, in fact, by the time you tie up, a man with a Widow-y look is already leaning meaningfully on the bollard. "Good afternoon, Captains," he says.
+
+
+
+	ChildBranches1
+Name:Pay your father's debt
+Id:144565
+Description:"My regards to your employer. Would she be so gracious as to accept this small gift?"
+
+		DefaultEvent
+Name:A happy ending?
+Id:177521
+Description:The money changes hands. The Widow's man bows and departs. Your father embraces you delightedly. "I have the best family in the world!" he crows. He turns away, sags over the side and vomits decorously into the harbour. He grins apologetically.
+<br/><br/>
+Your quest is done; in your own small way, you have conquered the Unterzee. Your father's reputation was considerable, in the days before he fell into drink and debt. Together, you are a legend: the elder captain who was thought lost, and the younger captain who retrieved him, against all odds. You are besieged with biographies, invitations, offers of investment. It is true that your father is malodorous, ill-behaved and mercenary, but it is true, too, that he is affectionate in his way, full of astonishing tales, and fundamentally harmless. 
+<br/><br/>
+[You have forged a dynasty to be proud of. If you didn't already have a Scion, you do now. And congratulations! You are victorious!]
+
+		ParentEvent
+Id:177520
+
+
+
+	ChildBranches2
+Name:Abandon your father
+Id:144571
+Description:Your father stands up suddenly straighter. "To Hell with it," he says. "Enough of this nonsense. I've ducked the consequences long enough. I'm here now." 
+<br/><br/>
+The effect of this noble speech is a little spoilt by his caroming drunkenly off the rail as he staggers down the gang-plank.
+
+		DefaultEvent
+Name:Never again
+Id:177530
+Description:And that's the last you see of your father. You never find out what the Widow does to him. A lingering death? Exile to the tomb-colonies? Indentured service? You are free of your quest, but you have the sense of great works left undone.
+<br/><br/>
+[Your quest has failed, but perhaps you can fill the hollow in your heart with money. You have not lost the game, but can now win only through the Life of Luxury Ambition. Go to your Lodgings to learn more.]
+
+		ParentEvent
+Id:177520
+
+
+
+	ChildBranches3
+Name:An unexpected arrival
+Id:144572
+Description:The Blind Bruiser taps the Widow's man on the shoulder. "Fancy us both being here at this time in this place. But I suppose it is not so very great a coincidence, this Captain 'ere being under my employer's protection, as it were. I 'ope your employer remembers our treaties and arrangements."
+<br/><br/>
+[The Blind Bruiser's intervention has ensured that you need only pay 3000 Echoes. Some of the debt will be forgiven.]
+
+		DefaultEvent
+Name:A happy ending?
+Id:177531
+Description:The money changes hands. The Widow's man bows and departs. Your father embraces you delightedly. "I have the best family in the world!" he crows. He sags over the side and vomits decorously into the harbour. He grins apologetically.
+<br/><br/>
+Your quest is done; in your own small way, you have conquered the Unterzee. Your father's reputation was considerable, in the days before he fell into drink and debt. Together, you are a legend: the elder captain who was thought lost, and the younger captain who retrieved him, against all odds. You are besieged with biographies, invitations, offers of investment. It is true that your father is malodorous, ill-behaved and mercenary, but it is true, too, that he is affectionate in his way, full of astonishing tales, and fundamentally harmless. 
+<br/><br/>
+[You have forged a dynasty to be proud of. If you didn't already have a Scion, you do now. And congratulations! You are victorious!]
+
+		ParentEvent
+Id:177520
+

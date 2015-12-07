@@ -1,0 +1,79 @@
+Name:Your Comatose Ferret
+Id:147256
+Description:It lies across your desk like a lumpy scarf.
+
+
+
+	ChildBranches1
+Name:Play with your Ferret
+Id:126586
+Description:Attract its attention.
+
+		DefaultEvent
+Name:A weary roll of the eye
+Id:147257
+Description:Play, that eye-roll says. Play. I played once, in the happy warrens of London, before you installed me in this floating coffin and made me eat dried food. Damn your play. It is an eloquent eye-roll.
+
+		ParentEvent
+Id:147256
+
+		RareDefaultEvent
+Name:Ouch!
+Id:149030
+Description:The Comatose Ferret resents the disturbance. It springs to life like a figure in an enchanted painting in a story, sinking a sudden fang into your thumb. 
+
+
+
+	ChildBranches2
+Name:Consume your Comatose Ferret
+Id:128493
+Description:It looks more and more like a plumply enticing furry sausage. But it is, also, adorable. What to do?
+
+		DefaultEvent
+Name:A conspiracy with the cook
+Id:150244
+Description:Your Ferret goes uncomplainingly to the pot. It's nice to think that even at the end, it served loyally: but you suspect it simply can't be bothered to complain. It barely takes the edge off your hunger, but every little helps.
+
+		ParentEvent
+Id:147256
+
+
+
+	ChildBranches3
+Name:Play with your Ferret
+Id:132035
+Description:Today, your Ferret seems a little livelier.
+
+		DefaultEvent
+Name:A single circuit
+Id:155803
+Description:The Ferret rises from its pillow and moves to explore the cabin! It moves like a meandering stream of treacle. It noses at furniture, disdains boots. It returns to its pillow. There is nothing, its expression says - nothing at all - nothing for me here.
+
+		ParentEvent
+Id:147256
+
+		RareDefaultEvent
+Name:A cheerful nip
+Id:155804
+Description:The Ferret raises its head and snaps at your hand. It moves so slowly that you cannot imagine it hoped to bite you properly. It sets its head at an angle. The angle says: Yes. I know how <i>you</i> taste.
+
+
+
+	ChildBranches4
+Name:Play with your Ferret
+Id:132036
+Description:Today, the Ferret is wary. There is a fey glint in its eye.
+
+		DefaultEvent
+Name:A sort of hunt
+Id:155805
+Description:A rat! The Ferret rises like a serpent and streaks across the room like a discharged spark. At least: in theory, it does. In practice, it orients its head towards the rat, which disappears instantly in a puff of squeak.
+
+		ParentEvent
+Id:147256
+
+		RareDefaultEvent
+Name:The attraction of reflection
+Id:155806
+Description:The Ferret admires itself in a mirror: the sleek fur of its leg. It rolls its lip to admire its teeth. Or is that what it's doing? Is it yawning? Or mesmerised by the mirror? Impossible to say.
+

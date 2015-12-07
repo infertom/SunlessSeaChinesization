@@ -1,0 +1,129 @@
+Name:Sovereign Island
+Id:175471
+Description:Today, the sprawling palace is called the Wildweald Court. Tomorrow, who knows? The world of the Pentecost apes is one of cruel whimsy, where stolen traditions last only as long as their amusement.
+
+
+
+	ChildBranches1
+Name:Gain access to the Court
+Id:143282
+Description:The gates are guarded by two armoured monkeys that would look adorable if not for the blood on their bayonets. Humans are not welcome without an invitation or a worthy gift for the Emperor.
+
+		DefaultEvent
+Name:The Wildweald Court
+Id:175472
+Description:The stench and heat as the gates open are a sucker-punch to your senses. Inside, the stagnant air of the windowless wood palace hangs with sweat and tastes of hair.
+<br /><br />
+Everything is filthy, and every surface used; the apes as likely to swing across the roof as walk the floors. In prized oases of relative calm, the high-souled conduct themselves with the poise of highborn lords and ladies. Around them, their barely uplifted lessers scamper around exhausted, taking orders and cruelties from all who care to dispense them. In the middle are countless more; a sea of apes longing for advancement and fighting for what they have with tooth, claw and low cunning.
+
+		ParentEvent
+Id:175471
+
+
+
+	ChildBranches2
+Name:Back to the boat
+Id:144130
+Description:There is more zailing to be done today.
+
+		DefaultEvent
+Name:The guards stare as you row away
+Id:176738
+Description:It will take some effort to ingratiate yourself here. Perhaps if you could find something on one of the other islands...
+
+		ParentEvent
+Id:175471
+
+
+
+	ChildBranches3
+Name:Gather Strategic Information for the Admiralty
+Id:144907
+Description:What remains of the Empire of Hands? Spies are not required when the misery flows so freely.
+
+		DefaultEvent
+Name:The Empire's darkest day
+Id:178089
+Description:The Emperor promised that all would be part of the Great Exodus. Those he betrayed can look forward to little but starvation and collapse.
+
+
+		ParentEvent
+Id:175471
+
+
+
+	ChildBranches4
+Name:Attempt to enter the Wildweald Court
+Id:144908
+Description:The soldiers once again bar your passage.
+
+		DefaultEvent
+Name:An Empire betrayed
+Id:178090
+Description:Outsiders are no longer welcome in Court.
+
+		ParentEvent
+Id:175471
+
+
+
+	ChildBranches5
+Name:Back to the boat
+Id:145108
+Description:Once again, Port Stanton beckons.
+
+		DefaultEvent
+Name:Lights above, as below
+Id:178419
+Description:The false-stars look down, the little glim-lanterns in the water stare up. Neither is needed to guide you back to the relative quiet of Port Stanton.
+
+		ParentEvent
+Id:175471
+
+
+
+	ChildBranches6
+Name:The Delightful Adventuress
+Id:145477
+Description:They released her. How thoughtful.
+
+		DefaultEvent
+Name:She sees you over the crowd
+Id:179007
+Description:"Ah!" she shouts. <i>"Kapitano!"</i> She strides through the crowd, her hair and clothes encrusted with dry bits of egg and tomato and things better not even recognised. "Kapitano, I wanted you to know, I bear you no grudges! Have you ever been to a place called, oh, Saviour's Rocks? The monkeys tell me it is most interesting!"
+<br /><br />
+You have run faster in the past. But not often.
+
+		ParentEvent
+Id:175471
+
+
+
+	ChildBranches7
+Name:Attempt to enter the Wildweald Court
+Id:147110
+Description:The soldiers once again bar your passage.
+
+		DefaultEvent
+Name:An Empire in mourning
+Id:181696
+Description:Outsiders are no longer welcome in Court.
+
+		ParentEvent
+Id:175471
+
+
+
+	ChildBranches8
+Name:Gather Strategic Information for the Admiralty
+Id:147112
+Description:What remains of the Empire of Hands? Spies are not required when the misery flows so freely.
+
+		DefaultEvent
+Name:The Empire's darkest day
+Id:181698
+Description:All its hopes rested in the Zeppelin. Now that it is no more, there is little to look forward to except starvation.
+
+		ParentEvent
+Id:175471
+

@@ -1,0 +1,271 @@
+Name:Port Cecil
+Id:143364
+Description:Rumpled convolutions of coral fill the water, glimmering with silvery light. The harder you look, the more you see shapes amid the chaos, almost as if they were sculpted. This one could be a crenellated castle: that one, a horse's head.
+<br/><br/>
+ A neat little port huddles into the side of a coral island - prosaic Imperial docks and houses tucked away in a baroque organic chaos. In that curious silvery light, among the frozen chaos of coral, the scene has the unreal air of a pencil sketch, crumpled and discarded.
+
+
+
+	ChildBranches1
+Name:Explore the coral knoll around Port Cecil
+Id:124084
+Description:Sea laps dark around silvery coral. Humps and columns rise from the coral - a bewildering maze. Go carefully.
+
+		DefaultEvent
+Name:
+Id:143365
+Description:
+
+		ParentEvent
+Id:143364
+
+
+
+	ChildBranches2
+Name:Explore the coral knoll around Port Cecil
+Id:127757
+Description:Sea laps dark around silvery coral. Humps and columns rise from the coral - a bewildering maze. Go carefully.
+
+		DefaultEvent
+Name:
+Id:148996
+Description:Someone has carved a sinuous shape into the jumbled limestone of the reef...
+
+		ParentEvent
+Id:143364
+
+
+
+	ChildBranches3
+Name:Explore the coral knoll around Port Cecil
+Id:127760
+Description:Sea laps dark around silvery coral. Humps and columns rise from the coral - a bewildering maze. Go carefully.
+
+		DefaultEvent
+Name:
+Id:148999
+Description:
+
+		ParentEvent
+Id:143364
+
+
+
+	ChildBranches4
+Name:Explore the coral knoll around Port Cecil
+Id:127761
+Description:Sea laps dark around silvery coral. Humps and columns rise from the coral - a bewildering maze. Go carefully.
+
+		DefaultEvent
+Name:
+Id:149000
+Description:
+
+		ParentEvent
+Id:143364
+
+
+
+	ChildBranches5
+Name:Explore the coral knoll around Port Cecil
+Id:127763
+Description:Sea laps dark around silvery coral. Humps and columns rise from the coral - a bewildering maze. Go carefully.
+
+		DefaultEvent
+Name:
+Id:149002
+Description:
+
+		ParentEvent
+Id:143364
+
+
+
+	ChildBranches6
+Name:A contact in the labyrinth
+Id:130492
+Description:The Admiral gave you directions to take to meet your contact. Left, right, down, into the labyrinth of coral outside Port Cecil. Over the silvered vein. Past the castellations to the Unfinished Court.
+
+		DefaultEvent
+Name:Rubbery torment
+Id:153414
+Description:Here is a Rubbery Man: one of the squid-faced bipedal things that infest the sadder hovels of Fallen London. It looks ill, or infected. The pearly glow of the coral throbs from a seam along its shoulder, its arm - pulses in its face-fronds. "Otharooth," it pipes, cheerfully. It hands you a page of notes smeared with tangerine goo. Can Rubbery Men write? The hand is elegant and disciplined - times and dates precisely recorded.
+
+		ParentEvent
+Id:143364
+
+
+
+	ChildBranches7
+Name:Gather intelligence
+Id:131309
+Description:What happens here?
+
+		DefaultEvent
+Name:Chess, dreams, silver light
+Id:154677
+Description:The older inhabitants of Port Cecil carry coral encrustations like a disease: splotched with silvery light. They like to go up into the limestone heights behind the harbour, to lay their heads against the pillars and towers, stare at the roof of the Neath, dream, open-eyed. Sometimes, they speak of things far away: the Khanate's work, the smuggler wars, the Fathomking's secrets. Perhaps it's not all invented...
+
+		ParentEvent
+Id:143364
+
+
+
+	ChildBranches8
+Name:Put a blemmigan ashore
+Id:133949
+Description:Are you certain?
+
+		DefaultEvent
+Name:Mesmeric silver
+Id:158941
+Description:The blemmigan doesn't hesitate. It scurries to the rail and leaps to a coral hillock. The coral trembles, folds, and subsides beneath the water. The blemmigan is gone. A mashed tendril floats on the surface.
+
+		ParentEvent
+Id:143364
+
+
+
+	ChildBranches9
+Name:Drop off the Chequered Character
+Id:137242
+Description:He waits eagerly by the rail. He lifts his head to inhale. "I can already smell the chess," he announces.
+
+		DefaultEvent
+Name:Thank you? Farewell?
+Id:165532
+Description:He says neither of these things. He drops a sweaty bundle of banknotes in your hand, and hares off up the hill, fingers twitching to begin a game. Game-players, eh.
+
+		ParentEvent
+Id:143364
+
+
+
+	ChildBranches10
+Name:An Extra Move
+Id:137244
+Description:As you reach the cross-roads in Port Cecil, a voice whispers: "Pawn to Bishop Six." A rearing shape the size of a cottage - rather like a mitred bishop, indeed - stands six yards to your right. A crevice in its coral side might be a cave-mouth.
+
+		DefaultEvent
+Name:A stronger silver
+Id:165535
+Description:You squeeze through the crevice, into a narrow space like a stair. Irregular steps lead down. The silver light is strong here, and it grows stronger with each step downwards.
+
+		ParentEvent
+Id:143364
+
+
+
+	ChildBranches11
+Name:Sell your Apocyan Chess-Piece
+Id:137638
+Description:If you have no other use for it, one of the chess-addicts certainly will.
+
+		DefaultEvent
+Name:"Mine! Mine!"
+Id:166156
+Description:She capers away, chanting moves, leaping diagonally.
+
+		ParentEvent
+Id:143364
+
+
+
+	ChildBranches12
+Name:Chess
+Id:137649
+Description:The chess-players watch you carefully...
+
+		DefaultEvent
+Name:
+Id:166175
+Description:"No, no," one tells you. "No, no. There's only one left who will play against you. You'll need an extra move to find it."
+
+		ParentEvent
+Id:143364
+
+
+
+	ChildBranches13
+Name:Gather Scintillack
+Id:127771
+Description:The best of the coral will fetch a high price in London. But walk the reefs of the Principles, and you risk delusion and despair. Take your crew, and go carefully.
+
+		DefaultEvent
+Name:Polypoid whispers
+Id:149018
+Description:It's against local law and custom to break coral from the reef, and you've seen the scars of those who tried - the acid-burns, the blind silver eyes. So you're looking for loose fragments. Today the zee is calm, and you find a good few candidates. They lie shining softly like droplets of moon.
+<br/><br/>
+But after a little while, you become concerned that they're eyes: that each is watching you. When you close your fist around one, it examines your blood with amused delight. When you put them together in your pocket, they clatter and gossip together. Of course, you think. They broke from the Shining Mind: they have its vitality, but not its weariness or experience. You will have to lock them in a separate boxes, lest they peep at you when you're bathing, and see who you are. The thought of their sight on your skin fills you with horror. What if your skin turned clear? What if they saw your bones?
+<br/><br/>
+You come back to yourself when you see one of your zailors fall on his back and start kicking delightedly in the air like a beetle. "Gravity!" he cries. "I have fallen!" You hasten back to the ship with your haul of coral, before it can do any further damage.
+
+		ParentEvent
+Id:143364
+
+		SuccessEvent
+Name:Fragments of silver
+Id:149019
+Description:Where the zee washes across the coral's edge, it glows a rich purple. Each time it washes across your boots, you expect it to leave stains. You edge along the slippery coral, picking up lumps of brighter-glowing stuff here and there: and though the zee doesn't stain, eventually it begins to whisper to you: phrases so clear that you catch yourself looking over your shoulder in case your crew have spoke. They have not. They're looking around, just as you are.
+<br/><br/>
+<i/>Between stars</i>, the zee says. 
+<i>Descend the chain.</i> When it runs out across the coral, it sounds almost like a soft chuckle. <i>I rest here</i>, it tells you. <i>I forget.</i>
+
+
+
+	ChildBranches14
+Name:Chess
+Id:124085
+Description:Chess is popular in the Principles. The port is full of exiles, drunks and washed-up zee-traders. They all play, often obsessively.
+<br/><br/>
+Be careful. The chess-pieces are carved from scintillack. Here in the Principles, that can be very dangerous.
+
+		DefaultEvent
+Name:A loss
+Id:143366
+Description:Your opponent shakes your hand. "Time to go" she tells you. "But don't worry. You'll be back." Her touch lingers. Her fingers are cold.
+
+		ParentEvent
+Id:143364
+
+		RareDefaultEvent
+Name:A distraction
+Id:149022
+Description:You don't often look at chess-pieces: not <i>really</i> look. The Bishops, with their hooks. The Night, with its mane and teeth. The Kin and the Cream, white mingled with red. The Roots that pin the corner of the board down, to keep you safe from your opponent. You lift a Paw to toy with it: touch its velvety pads.
+<br/><br/>
+"Checkmate," your opponent says. She grins. "Look too closely, did we? You need to be careful with scintillack chess-sets."
+<br/><br/>
+Her face is blank and white as the dome of a chess-pawn. Get out. Get back to the ship, until the waking-dream of the coral clears.
+
+		SuccessEvent
+Name:A disciplined success
+Id:149020
+Description:Odd thoughts bubble up each time you touch a chess-piece. This one longs for home. That one has a secret desire for revenge against the slayer of its rank-mate. This will be a queen one day. Those would do better as metal: you taste the metal. You ignore these thoughts, and move methodically to a victory over your opponent. He blinks. "Checkmate?" he asks helplessly. [Win enough games, and something else will occur.]
+
+		RareSuccessEvent
+Name:One more game
+Id:149021
+Description:You don't know how long you've been playing. You won a match, another. The rough coral tips of the chess-pieces are smeared with blood: yours, your opponent's. But you have begun to realise that your moves recapitulate the movements of the powers of the Neath: the Flukes and their shapelings. The Bazaar that lurks in London. Mt Nomad, that prowls the sea. Salt, Stone, Storm. With every move you take, the shape of it becomes clearer in your mind, sharper.
+<br/><br/>
+"Checkmate," you say. One more game? Your first officer is tugging at your arm. Ignore them. You have chess to play. [Win enough games, and something else will occur.]
+
+
+
+	ChildBranches15
+Name:Gather Scintillack
+Id:137635
+Description:The best of the coral will fetch a high price in London. But walk the reefs of the Principles, and you risk delusion and despair. Take your crew, and go carefully.
+
+		DefaultEvent
+Name:Something has changed
+Id:166151
+Description:The Shining Mind has dissolved: you know why, and how. The coral is fading. You find nothing, although the water is tinged with mindless contentment...
+
+		ParentEvent
+Id:143364
+
+		SuccessEvent
+Name:Something has changed
+Id:166152
+Description:The Shining Mind has dissolved: you know why, and how. The coral is fading. You find only a single scintillant lump.
+

@@ -1,0 +1,55 @@
+Name:Clay stevedores
+Id:148062
+Description:Not much later, you are standing in the mist watching a parade of Clay Men. They hoist the boxes on their shoulders and march away, surprisingly quiet, towards the building with the steeple.
+<br/>
+<br/>
+An Austere Acolyte leads them, her lamp swinging on a chain.
+
+
+
+	ChildBranches1
+Name:Follow because you haven't yet been paid
+Id:127084
+Description:These folk seem disorganised. Who's to say they'll remember to bring you payment?
+
+		DefaultEvent
+Name:The etiquette of bill-collecting
+Id:148063
+Description:You follow the procession at a polite distance, but not so polite as to suggest that you'd be willing to go away.
+
+		ParentEvent
+Id:148062
+
+
+
+	ChildBranches2
+Name:Follow because you're curious
+Id:127085
+Description:The shipment would appear to be something other than provisions in the ordinary sense.
+
+		DefaultEvent
+Name:Thumping cargo
+Id:148064
+Description:One of the clay men stumbles and his box slips from his shoulder. There is a sound as though a sleeper's head, inside, had thumped against the lid. But no one wakes, and the box is soon back in position.
+
+		ParentEvent
+Id:148062
+
+
+
+	ChildBranches3
+Name:Follow because the singing has got into your bones
+Id:127086
+Description:The Austere Acolyte sings all the time when she is not speaking. The words of the song bother and fascinate and compel.
+
+		DefaultEvent
+Name:Fever dreams
+Id:148065
+Description:You walk close enough to the Acolyte to hear the next verse. It concerns the smell of hot brick, the chime of ashes falling on the grate, and the pleasure of braiding pokers together on a winter's night when there is nothing else to do. 
+<br/>
+<br/>
+At least, you think that's what it means. When you go back over the words in your head, you're not sure they make even that much sense.
+
+		ParentEvent
+Id:148062
+

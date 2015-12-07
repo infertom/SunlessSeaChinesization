@@ -1,0 +1,98 @@
+Name:Provide what you have promised
+Id:172690
+Description:The tomb-colonists of Venderbight have few pleasures remaining. Their new home is an echoing palace of rare dust. Perhaps you can help, a little.
+
+
+
+	ChildBranches1
+Name:Provide wine, and join the celebration
+Id:141553
+Description:Your former passenger, and their friends, would be delighted if you'd raise a glass with them.
+
+		DefaultEvent
+Name:A hiatus
+Id:172691
+Description:You are somewhere dark. Something happened. There are moths. What are all these things? <i>What are all these things?</i>
+
+		ParentEvent
+Id:172690
+
+
+
+	ChildBranches2
+Name:Reassure the Shady Sort
+Id:141554
+Description:The Shady Sort turns to you. "I didn't ask. How much... how much is he changed? Is it very bad beneath the bandages?" Perhaps you can reassure her.
+
+		DefaultEvent
+Name:More tact than truth
+Id:172692
+Description:Her fingers clench the rail. "Good," she says. "Good." She doesn't speak again until she's on shore, in his arms. He pays you in Echoes; she, in pages from her journal.
+
+		ParentEvent
+Id:172690
+
+
+
+	ChildBranches3
+Name:Provide a family reunion
+Id:141555
+Description:Your passenger has been taciturn, but now he breaks his silence. "A word of advice," he says. "Write your will carefully." Should you ask him what he means?
+
+		DefaultEvent
+Name:Reunion
+Id:172693
+Description:"Every time I die, my daughter inherits my estate," he says mournfully. "Again. This time she had me fed to eels. Who knows what it'll be next time? But we do love each other." He watches the waving figure on the quayside for a moment. "It's always good to see her."
+<br/><br/>
+His daughter pays you with a sheaf of banknotes. The old tomb-colonist watches her hand over the money in silence. They embrace, rather cautiously.
+
+		ParentEvent
+Id:172690
+
+
+
+	ChildBranches4
+Name:Provide wine
+Id:141557
+Description:Your former passenger waits on dock. They've brought friends. Thirsty friends.
+
+		DefaultEvent
+Name:Muted satisfaction
+Id:172696
+Description:They're a little disappointed you won't join them. "So few fresh faces," one sighs. "So few faces, in fact." But they show their gratitude with a sheaf of bank-notes and a curious box...
+
+		ParentEvent
+Id:172690
+
+
+
+	ChildBranches5
+Name:Never mind what he means
+Id:141588
+Description:You're not being paid enough to listen to his maunderings.
+
+		DefaultEvent
+Name:Reunion
+Id:172748
+Description:"Perhaps you'll have a daughter, some day," he mutters. Then he falls grimly silent.
+<br/><br/>
+His daughter pays you with a sheaf of banknotes. The old tomb-colonist watches her hand over the money in silence. They embrace, rather cautiously.
+
+		ParentEvent
+Id:172690
+
+
+
+	ChildBranches6
+Name:Tell the Shady Sort the truth
+Id:141589
+Description:Tell her that no one enters Venderbight as a colonist, unless they pass the Skin-Check. Tell her that he is much changed, and for the worse.
+
+		DefaultEvent
+Name:Silence
+Id:172749
+Description:She says nothing. Her face grows paler and paler as you speak. Now she looks like nothing so much as a wax figure. She walks jerkily down the gangplank to meet her friend. He pays you. She says nothing.
+
+		ParentEvent
+Id:172690
+

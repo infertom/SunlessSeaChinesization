@@ -1,0 +1,49 @@
+Name:Medical details from the Acolyte
+Id:149001
+Description:There is a great deal in what she says that you don't think you've heard any doctor mention before.
+
+
+
+	ChildBranches1
+Name:Make copious notes
+Id:127762
+Description:This information might be valuable.
+
+		DefaultEvent
+Name:What word was that again?
+Id:149003
+Description:She talks so quickly, and in such long words, that it's hard work getting it all down. The next day on review the notes look like they were taken down by a drunk man. What's this bit? Idiography? 
+<br/>
+<br/>
+And did she really say that the heart is able to turn into a form of cabbage?
+
+		ParentEvent
+Id:149001
+
+		SuccessEvent
+Name:Quick handwriting
+Id:149004
+Description:Fortunately you are a quick hand with a pen. It might not make much sense to you, but to the right buyer in the right port, it's bound to be worth something.
+
+
+
+	ChildBranches2
+Name:Draw your own conclusions
+Id:127766
+Description:To someone with sufficient medical knowledge, this is all quite enlightening.
+
+		DefaultEvent
+Name:But if the artery grows there, then...
+Id:149008
+Description:The more you concentrate, the less sense it makes. There are two or three ideas clear enough to hang on to, but the rest is imponderable. You are not sure that what the Acolyte says is even true.
+
+		ParentEvent
+Id:149001
+
+		SuccessEvent
+Name:Close study, rewarded
+Id:149009
+Description:The explanation chimes with certain things you've heard before. The fructification of the lungs under stress. The case of the woman with the steel spine. The concentration of mysteries in the eyeballs of those who read too much. 
+<br/>
+<br/>The Acolyte talks on happily, indifferent to the passage of time, while a gaunt man comes and carries away a crate of black pellets bound for delivery to the Masters.
+

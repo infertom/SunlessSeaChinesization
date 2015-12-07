@@ -1,0 +1,34 @@
+Name:The Eater of Names is destroyed
+Id:153582
+Description:The worms are screaming. The boat is shattered. Wild-eyed Chelonite zealots leap into the zee. None of them try to swim. As far as you can tell, they're diving straight down, with no intention of coming back up.
+
+
+
+	ChildBranches1
+Name:Seize its cargo
+Id:130590
+Description:The Eater of Names has long plundered unwise strangers in the name of Death and the Great Shell. Perhaps they've kept something of use.
+
+		DefaultEvent
+Name:
+Id:153583
+Description:
+
+		ParentEvent
+Id:153582
+
+
+
+	ChildBranches2
+Name:Seize its figurehead
+Id:131990
+Description:The colour is gant: that colour which remains when all else has been consumed.
+
+		DefaultEvent
+Name:A grisly relic
+Id:155742
+Description:They must have taken this from the zee near the Gant Pole, the place that draws dying monsters. The memories of slow deep death adhere to it like rags of skin to bone. Perhaps you'll find a use for it.
+
+		ParentEvent
+Id:153582
+

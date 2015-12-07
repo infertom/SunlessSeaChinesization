@@ -1,0 +1,163 @@
+Name:The Final Voyage of the Nocturne
+Id:167539
+Description:You'd never get her back to Fallen London, but she might just survive the trip to Saviour's Rocks.
+
+
+
+	ChildBranches1
+Name:Repair the Nocturne
+Id:138508
+Description:These supplies and a little zailor ingenuity will have her ready for the trip in no time. 
+
+		DefaultEvent
+Name:Ship-shape, Venderbight fashion
+Id:167540
+Description:Water drips into the cargo hold, the engine screams in protest, and most of the guns are too rusted over to fire. Still, she's ready to sail, if treated gently.
+
+		ParentEvent
+Id:167539
+
+
+
+	ChildBranches2
+Name:Slow sailing
+Id:138602
+Description:If you didn't know better, you'd think you weren't even moving.
+
+		DefaultEvent
+Name:The wake barely disturbs the zee
+Id:167687
+Description:Bringing supplies was wise. A good book might have been wiser.
+
+		ParentEvent
+Id:167539
+
+		RareDefaultEvent
+Name:The wake barely disturbs the zee
+Id:167747
+Description:Things seem calm. So why is there an increasingly unspoken fear that something is coming?
+
+
+
+	ChildBranches3
+Name:A moment's reflection
+Id:138605
+Description:The Former Captain of the Nocturne sits in his one-time cabin, remembering the taste of mushroom wine.
+
+		DefaultEvent
+Name:His body is broken, but his mind remains sharp
+Id:167691
+Description:For now, at least. Wrapped in fresh bandages to cover his hollow eyes and his borrowed clothes hanging off his emaciated arms, he looks like the kind of corpse even a tomb colonist would think twice to be seen with. Being in his old cabin however does appear to be soothing what pain the wine cannot. He will be ready, if trouble strikes.
+
+		ParentEvent
+Id:167539
+
+		RareDefaultEvent
+Name:He murmurs of a dream of tortures not yet complete
+Id:167746
+Description:Wrapped in fresh bandages to cover his hollow eyes and with borrowed clothes hanging off his emaciated arms, he looks like the kind of corpse even a tomb colonist would think twice to be seen with. When it comes to his ship though, his mind is still firm. He will be a great help should things go awry.
+
+
+
+	ChildBranches4
+Name:A crew member screams in agony
+Id:138630
+Description:It echoes through the empty corridors.
+
+		DefaultEvent
+Name:A terror from the deep
+Id:167740
+Description:"The spiders- the duplicitous spiders will pay their due - " he whispers, nails digging deep enough into his skull to draw blood. "Abandon the vessel. Absolve yourself in the depths. This shall be your only... your only warn - "
+<br /><br />
+He collapses, unconscious. Outside, a heavy wave sends the Nocturne rolling. The cracking of its hastily patched hull echoes as it strains to keep out the water.
+
+		ParentEvent
+Id:167539
+
+		RareDefaultEvent
+Name:A terror from the deep
+Id:169590
+Description:"The spiders - the duplicitous spiders will pay their due - " she whispers, nails digging deep enough into her skull to draw blood. "Abandon the vessel. Absolve yourself in the depths. This shall be your only... your only warn - "
+<br /><br />
+She collapses, unconscious. Outside, a heavy wave sends the Nocturne rolling. The cracking of its hastily patched hull echoes as it strains to keep out the water.
+
+
+
+	ChildBranches5
+Name:A monster from the depths!
+Id:138631
+Description:It rises, the Avaricious Lorn-Fluke. Encrusted with weeds and long-forgotten treasures, it heads towards the Nocturne with a singular purpose.
+
+		DefaultEvent
+Name:There is no talking it down.
+Id:167741
+Description:Battle begins!
+
+		ParentEvent
+Id:167539
+
+
+
+	ChildBranches6
+Name:A crewman yelps in sudden fright
+Id:139019
+Description:It's probably nothing. Probably...
+
+		DefaultEvent
+Name:"Shadow, cap'n. Just a sha... Won't happen again."
+Id:168483
+Description:He shuffles to the engine room, still shivering.
+
+		ParentEvent
+Id:167539
+
+		RareDefaultEvent
+Name:"Shadow, cap'n. Just a sha... Won't happen again."
+Id:169591
+Description:She shuffles to the engine room, still shivering.
+
+
+
+	ChildBranches7
+Name:Look out to the zee
+Id:138604
+Description:The Nocturne's lights are low, but the creatures of the zee can see even tiny glimmers without squinting.
+
+		DefaultEvent
+Name:Was that something moving, out in the dark?
+Id:167690
+Description:No, it's nothing. Or not something to worry about anyway. Perhaps the ripples of a fallen stalactite.
+
+		ParentEvent
+Id:167539
+
+		RareDefaultEvent
+Name:All is quiet
+Id:167745
+Description:Just the friendly lingering terror of the zee. Occasionally, a half-heard echo of somebody else's problems far away. A few relaxing moments to savour.
+
+		SuccessEvent
+Name:A dark shape far away
+Id:167744
+Description:How long has that been there? You squint, but it dives beneath the waves too quickly to identify. Perhaps it was never even there at all.
+
+
+
+	ChildBranches8
+Name:A leak in the cargo bay!
+Id:139020
+Description:It's small, but persistent. 
+
+		DefaultEvent
+Name:A basic patch job
+Id:168484
+Description:There's still a drip, but it's under control.
+
+		ParentEvent
+Id:167539
+
+		SuccessEvent
+Name:A swift, efficient repair
+Id:168485
+Description:It won't hold, but it doesn't have to. Not for long.
+

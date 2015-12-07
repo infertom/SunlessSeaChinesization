@@ -1,0 +1,104 @@
+Name:The Delightful Adventuress
+Id:176037
+Description:Her feet have trodden lands most in the Neath have never even heard of. Her eyes have seen every opportunity for fame and glory while there.
+
+
+
+	ChildBranches1
+Name:An Evening with the Delightful Adventuress
+Id:143651
+Description:Whoever she is, she knows how to pack a hall. Not a seat is empty as she takes the stage.
+
+		DefaultEvent
+Name:"The fine cuisine of the Chelonate! The darling Clay Men! All but a prelude, my dears..."
+Id:176038
+Description:Her stories tend towards the fanciful and conveniently unprovable, but the Delightful Adventuress has the credulous audience spellbound for hours.
+<br /><br />
+Many of her tales of monsters and lost cities have a common theme. She visited them ahead of a certain Lady Leonora Fortescue, the quite <i>adorable</i> Daring Archeologist with whom she sparked a bracing rivalry back at finishing school. The rest are tales, bitter as the sourest grapes, of being cheated of triumphs by the very same Fortescue, whose fanciful fictions are fit only for the penny dreadfuls!
+<br /><br />
+By the end, her stories are notably more bitter than boastful. She still receives a standing ovation.
+
+		ParentEvent
+Id:176037
+
+
+
+	ChildBranches2
+Name:A business proposition
+Id:143921
+Description:The Delightful Adventuress' masked Clay Man Barnabas escorts you to the Principal of Benthic's study, where she sits sipping brandy by the fire.
+
+		DefaultEvent
+Name:"Ah, my dear kapitano!"
+Id:176464
+Description:Firelight glints in her eyes as she raises the glass. "I hear you are recently returned from the Empire of... oh, Monkeys? <i>Hands.</i> Yes, of course. It is a rare breed that can make such a voyage. Foolhardy too, perhaps."
+<br /><br />
+She sips her brandy. "I wish to charter your no doubt fine vessel to that primitive little island chain. There, I shall find what I need to show up the infernal Leonora Fortescue once and for all, and you..." <br /><br />The Delightful Adventuress squints, sizing you up. "Sufficient compensation will not be a difficulty. A most mutually beneficial arrangement, you will agree."
+
+		ParentEvent
+Id:176037
+
+
+
+	ChildBranches3
+Name:Accept
+Id:143922
+Description:It is a long voyage, but you know the way.
+
+		DefaultEvent
+Name:"Splendid."
+Id:176465
+Description:The Delightful Adventuress drains her glass dry. "Then we shall see you upon the morrow for the voyage. Barnabas, pack my valise. Adventure awaits!"
+
+		ParentEvent
+Id:176037
+
+
+
+	ChildBranches4
+Name:Refuse
+Id:143923
+Description:You have more important business to attend to.
+
+		DefaultEvent
+Name:The Delightful Adventuress' face turns icy
+Id:176466
+Description:"A pity," she declares, draining her glass. "Barnabas, escort our fearful captain back to the street. Should they change their mind, inform them that we shall be here until the brandy is gone. They are dismissed."
+<br />
+[The Delightful Adventuress' assistance is needed to continue your exploration of the Empire of Hands]
+
+		ParentEvent
+Id:176037
+
+
+
+	ChildBranches5
+Name:Agree to take the Delightful Adventuress
+Id:143924
+Description:Whatever she wants in the Empire, her money is good.
+
+		DefaultEvent
+Name:"Ah, the prodigal kapitano."
+Id:176467
+Description:The Delightful Adventuress seems unsurprised by your return. "Prepare my valise!" she orders her Clay Man valet. "The Empire awaits after all!"
+
+		ParentEvent
+Id:176037
+
+
+
+	ChildBranches6
+Name:The answer remains no
+Id:143925
+Description:For a moment, you considered changing your mind.
+
+		DefaultEvent
+Name:You put down the invitation
+Id:176468
+Description:If you do change it, you know where to find her.
+<br />
+[The Delightful Adventuress' assistance is needed to continue your exploration of the Empire of Hands]
+
+		ParentEvent
+Id:176037
+

@@ -1,0 +1,424 @@
+Name:Your Lodgings
+Id:143503
+Description:Here you may catch up with your correspondence, rest, or retire altogether from sea-faring life. The better your Lodgings, the better the quality of your retirement. Naturally.
+
+
+
+	ChildBranches1
+Name:Rest in a Room Above the Blind Helmsman
+Id:124177
+Description:If you don't have the Echoes to go out roistering, best stay at home. [This will reduce your Terror, heal a Wound, and give you a Restful Night.]
+
+		DefaultEvent
+Name:
+Id:143504
+Description:The rats keep you awake of nights with their muttering and skirmishing, but the bed is warm and the door has a lock.
+
+		ParentEvent
+Id:143503
+
+
+
+	ChildBranches2
+Name:Purchase an Elegant Townhouse
+Id:124190
+Description:A good address on Hollow Street. It won't be cheap.
+
+		DefaultEvent
+Name:Zailors' service
+Id:143525
+Description:You have your crew cart your things from the Blind Helmsman to your new address. If anyone respectable calls, they'll pass as servants. [Resting is now more expensive, but more effective.]
+
+		ParentEvent
+Id:143503
+
+
+
+	ChildBranches3
+Name:Rest in your Elegant Townhouse
+Id:124191
+Description:A pleasant interlude. [Resting here will reduce your Terror, heal two Wounds, and give you two Restful Nights.]
+
+		DefaultEvent
+Name:Sleep early, rise late
+Id:143526
+Description:Take the air in Tyrant's Gardens. Take coffee at Caligula's Coffee House. Take advantage of a zee-captain's reputation. You could get used to this.
+
+		ParentEvent
+Id:143503
+
+
+
+	ChildBranches4
+Name:Purchase a Zeeside Mansion
+Id:124192
+Description:Something up by the Prickfinger Wastes, but not too near the Carnival. Something with a view.
+
+		DefaultEvent
+Name:Grand estate
+Id:143527
+Description:The mansion has fallen on sad times, but your crew get it ship-shape: painting walls, polishing floors, rousting out the occasional nest of eye-stealing sorrow-spiders. [Resting is now more expensive, but very much more effective at reducing Terror.]
+
+		ParentEvent
+Id:143503
+
+
+
+	ChildBranches5
+Name:Rest in your Zeeside Mansion
+Id:124193
+Description:The life of quality. [Resting here will reduce Terror, heal all Wounds and give you three Restful Nights.]
+
+		DefaultEvent
+Name:
+Id:143528
+Description:Breakfast in the breakfast-room; lunch on the lawn; dinner at Dante's Grill. Why exactly is it you go to sea again? Oh yes. The bills.
+
+		ParentEvent
+Id:143503
+
+
+
+	ChildBranches6
+Name:Consider Retirement from Zeefaring Life
+Id:124194
+Description:[This allows you to review options which will end the game.You can safely scrutinise them without choosing one.]
+
+		DefaultEvent
+Id:143529
+
+		ParentEvent
+Id:143503
+
+
+
+	ChildBranches7
+Name:Write the Zong of the Zee
+Id:126095
+Description:You have assembled a store of lore and a collection of antiquities. Your knowledge of the zee rivals that of any captain of history. Write it all down. [This will create the Zong of the Zee, which allows you to retire happily if you have the correct Ambition, and is a pretty nifty item in its own right.]
+
+		DefaultEvent
+Name:A final draft!
+Id:146482
+Description:You labour mightily: and a stack of pages rewards your labour. Regard it with pride. It is all your voyages, condensed into a handily foldable format.
+<br/><br/>
+Your publisher suggests an epigraph for you, from the latest amended Bible to emerge from St Cyriac's College: "The waters were gathered together, the floods slept in the Sun's blindness, and the depths rose like the Moon, in the light at the edge of the sea."
+
+		ParentEvent
+Id:143503
+
+
+
+	ChildBranches8
+Name:Long-awaited prize money
+Id:127008
+Description:A letter! "[q:Addressed As] - we have assessed the...dah dah dah... in accordance with the law of the Zee... dah dah dah... pleased to enclose a money-order for..."
+
+		DefaultEvent
+Name:Spend it on something nice
+Id:147904
+Description:From the total value of the prizes you've sent home, the Crown and the Bazaar have deducted prize tax, prize tariffs, running costs, repairs and 'misery surcharge'. Nevertheless, a good sum remains. Spend it in good health.
+
+		ParentEvent
+Id:143503
+
+
+
+	ChildBranches9
+Name:A calling card
+Id:127503
+Description:A smoky flake of hand-lettered vellum. The Wistful Deviless has come to visit.
+
+		DefaultEvent
+Name:
+Id:148611
+Description:
+
+		ParentEvent
+Id:143503
+
+
+
+	ChildBranches10
+Name:Read the morning papers
+Id:128214
+Description:The Unexpurgated Gazette, the Magazine Formerly Known as the London Magazine, the Spiteful Trumpeter. News.
+
+		DefaultEvent
+Name:News from home
+Id:149770
+Description:The Echo Bazaar, that enigmatic marketplace, has increased its tax on love stories. The Traitor Empress has forbidden singing in the street outside her palace. The anarchists of the Calendar Council have inexplicably dynamited a drinking-fountain. The Ministry of Public Decency has located and destroyed a nest of gallblighter wasps...
+
+		ParentEvent
+Id:143503
+
+		RareDefaultEvent
+Name:News from abroad
+Id:149823
+Description:The Khanate is threatening war. (They always are.) London's colonies on the Carnelian Coast want independence. (They always do.) The Unterzee, the papers report, has undergone another Alteration. (Not yet it hasn't: you'd know.) Oho! A promotional coupon from Mrs Plenty's Provisioners for a half-cask of salt herring. You could use that.
+
+
+
+	ChildBranches11
+Name:Back to the rest of the city
+Id:128251
+Description:[Or you could click the London! card on the right.]
+
+		DefaultEvent
+Name:
+Id:149827
+Description:
+
+		ParentEvent
+Id:143503
+
+
+
+	ChildBranches12
+Name:Visitors
+Id:130990
+Description:"Ain't you tall. Well, it comes to us all. Tall, locked up, or et, we used to say upstairs. Remember that?"
+
+		DefaultEvent
+Id:154192
+
+		ParentEvent
+Id:143503
+
+
+
+	ChildBranches13
+Name:--
+Id:130991
+Description:"Our mutual friends have been busy. It's a good thing, darling, that you have been so far away."
+
+		DefaultEvent
+Id:154193
+
+		ParentEvent
+Id:143503
+
+
+
+	ChildBranches14
+Name:Soldier - old comrade
+Id:130992
+Description:"Those days in the swamp. Ah, they were simpler - eh, the nonsense. They were just muddier."
+
+		DefaultEvent
+Id:154194
+
+		ParentEvent
+Id:143503
+
+
+
+	ChildBranches15
+Name:Priest - Heterodox Thinker
+Id:130993
+Description:"Shall I set up the board?"
+
+		DefaultEvent
+Id:154195
+
+		ParentEvent
+Id:143503
+
+
+
+	ChildBranches16
+Name:Scholar - ??
+Id:131647
+Description:
+
+		DefaultEvent
+Id:155177
+
+		ParentEvent
+Id:143503
+
+
+
+	ChildBranches17
+Name:Write a Will
+Id:132093
+Description:The Court of Chancery, as a roaring lion, walketh about seeking whom it may devour. Ensure it doesn't get its lion-tentacles on your property when you're gone. [Should you die, this will ensure that your heir retains your Lodgings, and any Heirlooms you've accumulated.]
+
+		DefaultEvent
+Name:Baseborn & Fowlingpiece
+Id:155879
+Description:The lawyer peers at you like a vulture composed of crocodiles. "Come now," she creaks. "There's a few years in you yet. But your caution does you credit. Sign here. No, no, ink is fine. This isn't the Brass Embassy."
+
+		ParentEvent
+Id:143503
+
+
+
+	ChildBranches18
+Name:Convert a Collection of Outlandish Artefacts into an Heirloom
+Id:132094
+Description:Individually, these Artefacts are interesting. Together, they're unique. [This is a way to pass on money to your next character. You'll need to pay a small fee to write these treasures into your will.]
+
+		DefaultEvent
+Name:An elaborate collection
+Id:155880
+Description:At least if they're sold, they'll be sold together.
+
+		ParentEvent
+Id:143503
+
+
+
+	ChildBranches19
+Name:Sell off an Heirloom
+Id:132095
+Description:Yes, yes, it's a piece of history. How much is it worth? [You will usually get slightly less than the item was originally worth. Warning! If you die without a Will in place, your next character will not inherit these.]
+
+		DefaultEvent
+Name:A necessary measure
+Id:155881
+Description:You've sold it for what it will fetch. Perhaps even for what it's worth.
+
+		ParentEvent
+Id:143503
+
+
+
+	ChildBranches20
+Name:Adorn your Lodgings with Captivating Treasures
+Id:132249
+Description:Convert Captivating Treasures into Heirlooms, and they'll adorn your lodgings until the day you die. After that, your family will probably sell them. [This is a way to pass on money to your next character. You can have no more than 12 Heirlooms - or 16 in a Mansion - and you'll need to pay a small fee to write these treasures into your will.]
+
+		DefaultEvent
+Name:
+Id:156127
+Description:Let's hope the silly young fool appreciates the lengths you went to.
+
+		ParentEvent
+Id:143503
+
+
+
+	ChildBranches21
+Name:Time with your Family
+Id:142616
+Description:Your sweetheart comes and goes. They have their own, complicated business. But they always return to your shared home, and your child.
+
+		DefaultEvent
+Name:
+Id:174439
+Description:
+
+		ParentEvent
+Id:143503
+
+
+
+	ChildBranches22
+Name:See your Child
+Id:142720
+Description:Where is the little creature?
+
+		DefaultEvent
+Name:
+Id:174596
+Description:
+
+		ParentEvent
+Id:143503
+
+
+
+	ChildBranches23
+Name:Sell your Mansion
+Id:146662
+Description:Do you really need a Mansion? You don't have so very many things, do you? [This will sell your Townhouse: after moving expenses and fees, you'll be 7500 Echoes richer. You must have no more than 12 Heirlooms - that's all you can fit in a Townhouse.]
+
+		DefaultEvent
+Name:A simpler life
+Id:181056
+Description:Penstock, the land agent, looks over the Mansion with a gloomy eye. "Roof's going," he suggests. "But it's a good size, I suppose."
+
+		ParentEvent
+Id:143503
+
+
+
+	ChildBranches24
+Name:Sell your Townhouse
+Id:146663
+Description:Times are hard. Perhaps you should return to a simpler life. [This will sell your Townhouse: after moving expenses and fees, you'll be 500 Echoes richer. You must also sell off any Heirlooms first.]
+
+		DefaultEvent
+Name:A lesson in humility
+Id:181057
+Description:Penstock's Land Agency processes the paperwork and remits you your payment. A room at the Blind Helmsman awaits. It smells like onions.
+
+		ParentEvent
+Id:143503
+
+
+
+	ChildBranches25
+Name:An invitation to Benthic College
+Id:147073
+Description:Your travels have caught someone's attention.
+
+		DefaultEvent
+Name:
+Id:181648
+Description:
+
+		ParentEvent
+Id:143503
+
+
+
+	ChildBranches26
+Name:The Delightful Adventuress
+Id:147076
+Description:She still seeks passage to the Empire of Hands.
+
+		DefaultEvent
+Name:
+Id:181652
+Description:
+
+		ParentEvent
+Id:143503
+
+
+
+	ChildBranches27
+Name:A neatly wrapped brown paper package
+Id:147079
+Description:The corners are crisp and tight. The address has been printed in large block letters with scrupulous care. The sender has applied double the necessary number of postage stamps. They must have been very determined it get here. There is no return address.
+
+		DefaultEvent
+Name:Gratitude
+Id:181655
+Description:The wrappings fall away. In a glass case, a stuffed Postal Rat is locked in mortal combat with a preserved blemmigan. The taxidermist's skill is evident: there is tension and fury in the line of each their tiny bodies. There is also a note.
+<br/><br/>
+"I was charged to deliver this elsewhere, but you did me a service I must repay. If the Bazaar can abandon its duty for a greater cause, so too may I. "
+
+		ParentEvent
+Id:143503
+
+
+
+	ChildBranches28
+Name:Peruse your Comprehensive Port Report in private
+Id:147219
+Description:Perhaps you are unwilling or unable to take it to the Admiralty... [This will give you a single Secret rather than a fee.]
+
+		DefaultEvent
+Name:Much to sift through
+Id:181867
+Description:The Empire of Hands: no equal to London, but certainly a power in waiting. A labyrinth of simian complexities! Consider the opportunities.
+<br />
+Someone else has also considered the opportunities. You have an invitation...
+[Something new awaits in your Lodgings]
+
+		ParentEvent
+Id:143503
+

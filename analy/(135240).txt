@@ -1,0 +1,69 @@
+Name:_REUSE
+Id:135240
+Description:
+
+
+
+	ChildBranches1
+Name:Salvo
+Id:119004
+Description:
+
+		DefaultEvent
+Id:135241
+
+		ParentEvent
+Id:135240
+
+
+
+	ChildBranches2
+Name:Flare
+Id:119005
+Description:
+
+		DefaultEvent
+Id:135242
+
+		ParentEvent
+Id:135240
+
+
+
+	ChildBranches3
+Name:Evade
+Id:119006
+Description:
+
+		DefaultEvent
+Id:135243
+
+		ParentEvent
+Id:135240
+
+
+
+	ChildBranches4
+Name:Emergency Repairs
+Id:119007
+Description:
+
+		DefaultEvent
+Id:135244
+
+		ParentEvent
+Id:135240
+
+
+
+	ChildBranches5
+Name:NOW!
+Id:119014
+Description:This unlocks if your Illumination reaches 10. It does double damage. Your enemy should use it preferentially.
+
+		DefaultEvent
+Id:135254
+
+		ParentEvent
+Id:135240
+

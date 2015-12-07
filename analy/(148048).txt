@@ -1,0 +1,105 @@
+Name:At the top of the stairs 
+Id:148048
+Description:You have: a long heavy box; a winding path ahead that runs perhaps a quarter mile through the mist; a crew that is beginning to mutter about having to do landlubber work.
+<br/>
+There's a warehouse just to your right, but the sign says deliveries are to be taken onward. Says it rather emphatically, as a matter of fact.
+
+
+
+	ChildBranches1
+Name:Send ahead to the building for extra hands
+Id:127077
+Description:If they want the boxes delivered, they can do it themselves.
+
+		DefaultEvent
+Name:Telling it as it is
+Id:148054
+Description:The closer you get, the less the building with the spire looks like a church. The walls are soot-blackened and made of brick. There are no windows, only narrow vents up near the roof. From these comes a low and cheerful singing.
+<br/>
+<br/>
+At last you are close enough to bang on the door. 
+<br/>
+<br/>
+An Austere Acolyte answers it. She is dressed in black from head to foot. Her gloves are thick leather and her goggles are double glass. She continues singing right up to the moment that she has to acknowledge you.
+<br/>
+<br/>
+"Leave the boxes - " 
+<br/>
+<br/>
+She stops, pushing the goggles away from her eyes. She has noticed, perhaps for the first time, that there are no boxes.
+<br/>
+<br/>
+"Deliveries come all the way up here," she says, before singing again.
+<br/>
+<br/>
+You indicate that your crew is unaccustomed to that sort of work.
+<br/>
+<br/>
+She looks as exasperated as a person can while continuing to sing about rabbit's feet and edible emeralds, but at last she says she'll see to it, if you can lead her servants to the correct landing.
+
+		ParentEvent
+Id:148048
+
+
+
+	ChildBranches2
+Name:Break into the warehouse and leave the box there
+Id:127074
+Description:The sign says DELIVERIES, but doesn't mean that the deliverers are obliged to comply.
+
+		DefaultEvent
+Name:What's this?
+Id:148049
+Description:The lock turns out to be surprisingly well made. Likewise the hinges on the doors. The iron is very thick. It is also much colder than the ambient air should make it. Whatever they've got stored in this warehouse, they don't mean to have strangers meddling with it.
+
+		ParentEvent
+Id:148048
+
+		SuccessEvent
+Name:Was it worth it?
+Id:148051
+Description:The lock is made of a thick heavy metal, and bitter cold to the touch. For some time you think you might fail, if the mechanism is actually frozen solid. But just when you think your pick is about to snap, the lock gives way.
+<br/>
+<br/>
+Not that it does you any good. The warehouse is so full already that when you open the door, a box falls out, glass shattering within. Pale silver liquid leaks around your feet and runs in rivulets over the stone of the path. A moment later it sets up, hard and cold as frost. 
+<br/>
+<br/>
+SOOTHE & COOPER EXPORTS, says the stenciling on the boxes.
+
+
+
+	ChildBranches3
+Name:Carry the box on to the building with the spire
+Id:127076
+Description:Going the extra distance might mean you can charge more for your efforts.
+
+		DefaultEvent
+Name:Delivery profoundly not included
+Id:148052
+Description:The path is slippery and lined with mushrooms. You and your crew struggle with the boxes, but they get lumpier and more awkward. The mist gets into your clothes. The building with the spire looks further away now than it did when you started on the path. 
+
+
+		ParentEvent
+Id:148048
+
+		SuccessEvent
+Name:A grudging reward
+Id:148053
+Description:The path is slippery and lined with mushrooms. You and the crew have to stop seven or eight times to set down the boxes and blow on your hands.
+<br/>
+<br/>
+The closer you get, the less the building with the spire looks like a church. The walls are soot-blackened and made of brick. There are no windows, only narrow vents up near the roof. From these a low singing can be heard, a song so cheerful that your crew look at one another and frown. It is the song of someone keeping the monsters at bay.
+<br/>
+<br/>
+At last you are close enough to bang on the door. 
+<br/>
+<br/>
+An Austere Acolyte answers it. She is dressed in black from head to foot. Her gloves are thick leather and her goggles are double glass.
+<br/>
+<br/>
+"Leave the boxes at the door," she says to you, and then she turns back toward the building, singing her song. Something about candied kittens and flaming violets and the coming of spring. Judging by the rhyme, she's inventing the words as she goes along.
+<br/>
+<br/>
+You stop her and explain that you expect your extra work to be rewarded. She makes a grudging gesture, but complies.
+
+

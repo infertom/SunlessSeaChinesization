@@ -1,0 +1,38 @@
+Name:Speak to the Wistful Deviless
+Id:148772
+Description:She slouches unhappily by the rail. The zee-air doesn't suit her. "It smells clean," she complains.
+
+
+
+	ChildBranches1
+Name:Invite her to supper in your quarters
+Id:127610
+Description:Devils make interesting, if perilous, conversationalists.
+
+		DefaultEvent
+Name:
+Id:148773
+Description:She complains that you have only human spirits, not the cloying poisonous stuff that devils favour, but she drinks it liberally regardless. She seems more wistful than usual: regretting her departure from Mount Palmerston, or nervous about what lies ahead? Finally you realise that she's drunk. She's saying something about the old days -
+<br/><br/>
+"... we built our hives on the edge of dream," she slurs, "while men were monkeys still. Monkey-souls are poor unripe things - like this wine of yours - but they serve as consolation. I require consolation, [q:Addressed As]. I do."
+<br/><br/>
+She looks directly into your eyes. "You're very pretty," she says. Then she falls face-down in the remains of her chops and stewed mushrooms, and begins to snore. By the time you call assistance to have her taken back to her cabin, her drool has badly charred the table-top, and the room stinks of charred varnish.
+
+		ParentEvent
+Id:148772
+
+
+
+	ChildBranches2
+Name:Invite her to supper in your quarters
+Id:128329
+Description:Devils make interesting, if perilous, conversationalists.
+
+		DefaultEvent
+Name:"Er... I'm busy..."
+Id:149963
+Description:She brushes past you and is gone. Was she embarrassed? Does that happen with devils?
+
+		ParentEvent
+Id:148772
+

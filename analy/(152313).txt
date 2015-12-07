@@ -1,0 +1,153 @@
+Name:Shepherd Isles
+Id:152313
+Description:"Course," the Bearded Watchman tells you, "there are no actual shepherds on the Shepherd Isles. Sheep are mostly illegal here. No indeed, it's just the name of the genterman that found the islands."
+<br/><br/>
+Greybeards sitting in the village square nod solemnly. "No sheep," one says. "But plenty o' tales. Ask us anything."
+
+
+
+	ChildBranches1
+Name:Tales of the Standing Stones
+Id:129812
+Description:The bearded villagers are happy to talk about the local sights. Well, sight.
+
+		DefaultEvent
+Name:"A long way from home..."
+Id:152314
+Description:"You heard of the Pillared Sea, where Irem lies? Wise man from Irem came here, oh, eighty year ago. He planted three pillars. They were as big as fingers when I were young. Now they're as you see them. In my son's time, they'll be big as dock-cranes."
+
+		ParentEvent
+Id:152313
+
+		RareDefaultEvent
+Name:"True as I stand here..."
+Id:152454
+Description:"They were Sisters, from the Sisterhood over on Abbey Rock. Came here huntin' a renegade, who served the god called stone. Ran her to ground here, and she called on the god. And the god struck 'em all to pillars of rock! Stand close and quiet, and you'll hear 'em weepin'." 
+
+
+
+	ChildBranches2
+Name:A picnic at the standing stones
+Id:129813
+Description:The bearded villagers will sell you mutton stew and kefir, and stone bottles of cold fresh spring-water, and row you over to the stones.
+
+		DefaultEvent
+Name:A peaceful afternoon
+Id:152315
+Description:Your zailors watch the fireflies shimmer, swap shanties, pass round the grog and shy stones at the more vampirically inclined zee-bats. Grasses nod in the breeze. Across the dark water, the lights of Abbey Rock glow watchfully.
+
+		ParentEvent
+Id:152313
+
+		RareDefaultEvent
+Name:An odd find
+Id:152490
+Description:Your zailors watch the fireflies shimmer, swap shanties, pass round the grog and shy stones at the more vampirically inclined zee-bats. Grasses nod in the breeze. Across the dark water, the lights of Abbey Rock glow watchfully. Your bo'sun hands you something. "Found a rock," he reports laconically. "Pretty sure it's dead."
+
+
+
+	ChildBranches3
+Name:Tales of the Three Graves
+Id:129816
+Description:Who sleeps beneath the turf, over on that island to the north-west?
+
+		DefaultEvent
+Name:"Hunters at rest..."
+Id:152319
+Description:"The Chelonate, right - they're hunters. They killed a turtle the size of London and built their city in its shell. A ship from the Chelonate came by, hunting the Midnight Whale. Three of them had died cowards, so their bodies couldn't go into the zee. They paid us for the land, in whale-ivory. I still got a piece, but I keeps it safe."
+
+		ParentEvent
+Id:152313
+
+		RareDefaultEvent
+Name:"Up from the zee-bed..."
+Id:152456
+Description:"You know the Drownies? The zailors what won't rest? Well, they rest here. I seen 'em come up out of the water all white and dripping, and dig themselves into the ground. They take turns. I think they miss the feel of the earth."
+
+
+
+	ChildBranches4
+Name:Tales of Thornwell Croft
+Id:129817
+Description:What about that isle to the North, the one that isn't bridged?
+
+		DefaultEvent
+Name:"The wrong kind of people..."
+Id:152320
+Description:"The ones that farm up there - they're us. Me and you. All the other versions of us. One with a trick leg, one that married his cousin, one that was buried alive. Characters out of another history. They're waiting up there and plotting, gathering allies. Waiting to make their history ours. So don't go there. You won't find 'em anywise, being that they hides in the barn."
+
+		ParentEvent
+Id:152313
+
+		RareDefaultEvent
+Name:"That old devil called Light..."
+Id:152457
+Description:"We did have a bridge, but the Ship of Lights came through here once. Hull of shining brass, lamps like stars. All those damned on deck at once! Couldn't tell if they were laughing or screaming. Ploughed through the bridge and kept on going. Everyone who tries to rebuild it? Bursts into flames. So we don't try to rebuild it any more."
+
+
+
+	ChildBranches5
+Name:The rest of the zee
+Id:129818
+Description:"Rest of the zee!" the Bearded Watchman scoffs. "Here's where you need to be. We don't talk about the rest of the zee." But a Snivelling Caitiff draws you aside. "I got something for you," he promises. "But I'll need some of that good stuff from London. A lot of that good stuff." [Mouse over the icons to the right to find out exactly what he needs.]
+
+		DefaultEvent
+Name:Nuncio
+Id:152321
+Description:"An island filled entirely with rats. But that's nothing. You should see the one where the rats and cavies war. These are the cavies' voyages."
+
+		ParentEvent
+Id:152313
+
+		RareDefaultEvent
+Name:Visage
+Id:152323
+Description:"None of them show their faces. That's because half of them are Snuffers. Know what a Snuffer is? The other half don't know. Anyhow, the Visagers take Snuffer-faces and make masks of their own. They can be anyone. I could be one. You could be one."
+
+
+
+	ChildBranches6
+Name:Compile a Port Report
+Id:129907
+Description:"Oh, yes yes my yes. There's been goings on."
+
+		DefaultEvent
+Name:"...in the bleak light o' the false-stars.."
+Id:152452
+Description:"...surface roilin' like a porridge-pot...up with a roar of steam and flash of fire!...three widows swimmin'... TENTACLES!... and then we saw His Highness..."
+<br/><br/>
+(There is rather a lot of this material.)
+
+		ParentEvent
+Id:152313
+
+
+
+	ChildBranches7
+Name:Put a blemmigan ashore
+Id:133951
+Description:Dark and quiet: it should survive.
+
+		DefaultEvent
+Name:A mushroom tale
+Id:158943
+Description:"These!" the Bearded Watchman exclaims. "We used to have these. Long ago. They raised the standing stones, you know. With poetry."
+
+		ParentEvent
+Id:152313
+
+
+
+	ChildBranches8
+Name:Engage an Officer: the Sigil-Ridden Navigator.
+Id:147445
+Description:"I... let me guide your ship. I know all the zee, how it was, how it will be. Please... the headaches only stop when I'm working." [The Navigator is a First Officer who increases Mirrors and Veils.]
+
+		DefaultEvent
+Name:Relief
+Id:182208
+Description:"Thank you. The nonsense here was a distraction for a while, but only the zee can help me now. Ah, my God, the air, the air. It's clearer already. Let me chart a course for you. (Ah, my head. My head.)" [Appoint your new Officer by dragging him from the Officers tab to his slot at the top of the screen. Do this in port, not at sea, or you may unsettle your crew.]
+
+		ParentEvent
+Id:152313
+

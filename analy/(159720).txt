@@ -1,0 +1,7 @@
+Name:Overheard on Deck: Marvellous Hair
+Id:159720
+Description:<b>SLY NAVIGATOR</b> You have marvellous hair. <br/>
+<b>CAMPAIGNER:</b> Go away, please.<br/>
+<b>SLY NAVIGATOR:</b>I only wanted to talk about your hair.<br/>
+<b>CAMPAIGNER:</b>Go away, you ghastly little man, or I'll extract something.
+

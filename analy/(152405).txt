@@ -1,0 +1,22 @@
+Name:The Half-Empty City
+Id:152405
+Description:The atmosphere in Varchas is deflated, melancholy, after the Pilgrims depart.
+
+
+
+	ChildBranches1
+Name:Time to leave
+Id:129870
+Description:You know when to leave; besides, your crew is probably growing restless.
+
+		DefaultEvent
+Name:
+Id:152406
+Description:The Guard gives you a quick grin as she opens the Mirrored Gates for you, and makes a mark in her ledger as you step out of the circle of light.
+<br/><br/>
+The familiar shadowy bleakness of the Neath is comforting against your skin. Your ship awaits.
+
+
+		ParentEvent
+Id:152405
+

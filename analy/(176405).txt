@@ -1,0 +1,62 @@
+Name:Your Father's Bones: Reclaiming a Parcel
+Id:176405
+Description:Huffam told you your father's bones had been sent to 'Mr Voluminous', but misaddressed to 'the wrong door'. So here they must be, somewhere in the crypty windings of the Dead Letter Office.
+
+
+
+	ChildBranches1
+Name:Speak the address
+Id:143888
+Description:"...Ormolu Door, the Echo Bazaar, Beazley's Gate, London."
+<br/><br/>
+"Here you go," the postman says. He shoves the parcel under the grate without looking at you.
+
+		DefaultEvent
+Name:The opposite of Christmas
+Id:176406
+Description:You are in your cabin, now, fingers trembling as you open the parcel. And there it is: a bundle of brown bones, surmounted by a sad little grin. Your father: and a letter, in arrogantly looped handwriting.
+<br/><br/>
+"MY ESTEEMED MR PAGES - I learnt all that I may from this unfortunate soul. I thank you for your suggestion. As per our agreement, I enclose the final outcome, as well as a summary of all useful information gleaned. I will be pleased to repeat the experiment, should you wish to name any further suitable subjects. Regards to the Bazaar. Yours, his Complexity, the most Profound and Voracious, etc. etc. F."
+<br/><br/>
+Two hundred pages of closely written notes in a different script. The secrets revealed therein leave you reeling.
+[You have your father's bones. Bury them in London to win the game.]
+
+		ParentEvent
+Id:176405
+
+
+
+	ChildBranches2
+Name:Claim your parcel from the Dead Letter Office
+Id:144429
+Description:You tell your story to the drooping, cadaverous postman behind the grating. He doesn't give any sign of interest or understanding. By the time you've finished your story, you're wondering if he might be dead. Perhaps no one has got around to closing those yellowed and staring eyes. But at last he jerks into life. "What was the name again?"
+
+		DefaultEvent
+Name:So close
+Id:177269
+Description:"I'm sorry," the postman yawns. "I have something under 'Voluminous'; but you'll need to specify the address before I can release it."
+<br/><br/>
+You begin to protest that it's your father's body that they're holding, but the postman takes refuge in bureaucracy. You do learn that it wasn't addressed to your home; your family home; the Harbourmaster; or any other address you can think of.
+<br/><br/>
+The postman drums his fingers dispassionately on the oilskin package, just inches away behind the arm-thick iron bars. He sees you crane your neck, and turns it address-side down. "Sorry-we-can't-be-of-any-more-assistance," he chants. Just as you're turning to leave, he adds: "It does list the Fathomking as the return address. Perhaps you can ask him?"
+<br/><br/>
+[Find the Fathomking's Hold, somewhere in the south or central Unterzee, to continue.]
+
+		ParentEvent
+Id:176405
+
+
+
+	ChildBranches3
+Name:A scarred stone
+Id:145310
+Description:Your father's first name - "ELIAS". He's the only Elias here. But the rest of the name has been smashed away, with one clean blow of a chisel. The rest is only pale scarred rock.
+
+		DefaultEvent
+Name:
+Id:178708
+Description:[Find the Fathomking's Hold, somewhere in the south or central Unterzee, to continue.]
+
+		ParentEvent
+Id:176405
+

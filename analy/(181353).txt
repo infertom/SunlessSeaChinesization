@@ -1,0 +1,13 @@
+Name:Overheard on Deck: A Thousand Years
+Id:181353
+Description:SIGIL-RIDDEN NAVIGATOR: Is it true you people live forever?
+ADVENTURESS: That's not a good question to ask.<br/>
+SIGIL-RIDDEN NAVIGATOR: I'm sorry.
+<br/>
+ADVENTURESS: Oh, what the hell. No, we don't live for ever. But we can live a thousand years. <i>Some</i> of us can live a thousand years.<br/>
+SIGIL-RIDDEN NAVIGATOR: Then I'm even sorrier.
+<br/>
+ADVENTURESS:Great Stone, man, you're depressing! Can you cheer up a little? Please?<br/>
+SIGIL-RIDDEN NAVIGATOR: No... no, I really can't.
+<br/>
+

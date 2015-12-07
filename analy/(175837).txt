@@ -1,0 +1,493 @@
+Name:A Monkey Foundling
+Id:175837
+Description:Shipwrecked as a baby, raised by the Empire of Hands. She now plays between the worlds of apes and men, neither quite one nor entirely of the other.
+
+
+
+	ChildBranches1
+Name:Demand that she put those down, at once!
+Id:145552
+Description:At once, you shout! Or there will be trouble!
+
+		DefaultEvent
+Name:The anger only makes it funnier
+Id:179120
+Description:The Monkey Foundling sticks out her tongue, grins, and scampers off into the forest on all fours, your stolen possessions in a leather bag slung over her back. Her giggling echoes from deep in the forest as you splash after her in your goosebumps.
+
+		ParentEvent
+Id:175837
+
+
+
+	ChildBranches2
+Name:A desperate swim!
+Id:145553
+Description:Curse these relaxed limbs!
+
+		DefaultEvent
+Name:The Monkey Foundling makes things interesting
+Id:179121
+Description:She waits, grinning innocently, until you emerge from the hot spring with nothing but your strategically placed hands for modesty. Before you can get close enough though, she bolts from her crouched position and into the forest on all fours; a scampering run that turns every rock and fallen tree into a springboard.
+
+		ParentEvent
+Id:175837
+
+
+
+	ChildBranches3
+Name:Chase the Monkey Foundling
+Id:145554
+Description:D__n it, you can not return to the crew like this!
+
+		DefaultEvent
+Name:Into the forest
+Id:179122
+Description:The branches scrape against your skin, the damp mud squidges between your toes. There is no sign of the Monkey Foundling, but her tracks are easily followed.
+
+		ParentEvent
+Id:175837
+
+
+
+	ChildBranches4
+Name:Fie upon them, let them stare!
+Id:145556
+Description:Let their tongues volunteer them for a whipping.
+
+		DefaultEvent
+Name:An awkward return
+Id:179124
+Description:You stride back on board your ship, eyes locked straight ahead and daring anyone to comment. They do not. In the days that follow however, word is brusquely spread throughout the crew that anyone else heard singing That Song will be swimming the rest of the way home.
+<br /><br />
+That Song soon becomes a bawdy staple in the Singing Mandrake. It is not a fame to be envied.
+
+		ParentEvent
+Id:175837
+
+
+
+	ChildBranches5
+Name:A forest clearing
+Id:145562
+Description:The footprints lead here. She has not even attempted to hide them. It is as if she wants you to follow...
+
+		DefaultEvent
+Name:Ouch!
+Id:179133
+Description:Your hand slaps to your stinging buttock. The little stone lands in the dirt as a familiar giggle comes from above. You look to see the Monkey Foundling dangling upside down from a branch by her legs; a blowpipe in hand and bag just out of your reach. Tantalisingly so...
+<br /><br />
+Taking a deep breath, you politely... very politely... request that she <i>return your d__ned clothes now.</i> The Monkey Foundling listens, and gives it some thought, tapping her blowpipe against her lips as she decides.
+<br /><br />
+"Say... please," she grins.
+
+		ParentEvent
+Id:175837
+
+
+
+	ChildBranches6
+Name:Please.
+Id:145563
+Description:There. It is said.
+
+		DefaultEvent
+Name:The Monkey Foundling thinks for a moment
+Id:179136
+Description:"Pretty please?"
+
+		ParentEvent
+Id:175837
+
+
+
+	ChildBranches7
+Name:Pretty please.
+Id:145564
+Description:With an imaginary cherry on top, if she likes.
+
+		DefaultEvent
+Name:The Monkey Foundling has never heard of cherries
+Id:179137
+Description:"Pretty, pretty please?" she adds, stifling a giggle.
+
+		ParentEvent
+Id:175837
+
+
+
+	ChildBranches8
+Name:Pretty, pretty, pretty, pretty, please?
+Id:145565
+Description:D__n it, it is freezing! How much longer?
+
+		DefaultEvent
+Name:The Monkey Foundling is poker-faced
+Id:179138
+Description:"Pretty, pretty, pretty, <i>pretty</i> please?"
+
+		ParentEvent
+Id:175837
+
+
+
+	ChildBranches9
+Name:Pretty, pretty, pretty, pretty, PRETTY, PRETTY PLEASE!
+Id:145566
+Description:Your anguished plea echoes through the trees.
+
+		DefaultEvent
+Name:A gift from the Monkey Foundling
+Id:179139
+Description:You appear to have pretty, pretty pleased her, and she decides you deserve a reward. She fishes in her bag and generously throws you...
+<br /><br />
+A sock. A single solitary sock.
+<br /><br />
+She learns a few new swear words as she races off across the branches, near doubled-up with laughter.
+
+		ParentEvent
+Id:175837
+
+
+
+	ChildBranches10
+Name:Enough of this nonsense
+Id:145568
+Description:Let the crew do their worst. You're done here.
+
+		DefaultEvent
+Name:A shameful return
+Id:179142
+Description:The crew is incapable of holding back its glee as you return from the Ash Isthmus with nothing but the dignity your two hands can muster, and a new found understanding of how difficult it is to form even perfunctory clothing out of leaves and vine.
+<br /><br />
+If there is a bonus, it is that the smirks and jokes of the next few days do more to take the edge off zailing than a bottle of Morelways' finest. It will be a good while yet though before it is your <i>authority</i> that first springs to mind when they see you giving orders.
+
+		ParentEvent
+Id:175837
+
+
+
+	ChildBranches11
+Name:Give her a taste of her own medicine
+Id:145572
+Description:Pranks? You'll show her how they're done.
+
+		DefaultEvent
+Name:You kick the tree as hard as you can
+Id:179147
+Description:The Monkey Foundling's eyes widen in surprise as her balance slips. She fights to recover, but her bare feet slip on the trunk and she falls; falls with a cut-off scream as she disappears into the foul marsh-slime. For a moment there is only silence and a few fading ripples, but then she explodes out; first gasping for air, and then laughing and laughing as she splashes to shore in a noxious splatter of brown and green.
+<br /><br />
+She turns and salutes you, white teeth shining under all the muck. This time, she beckons before she scampers into the woods, leaving a stinky trail in her wake.
+<br /><br />
+Whatever game this was, you suspect you just won it.
+
+		ParentEvent
+Id:175837
+
+
+
+	ChildBranches12
+Name:Enough, you say! Enough!
+Id:145575
+Description:You are bruised, stinking and tired. She wins.
+
+		DefaultEvent
+Name:A foul return
+Id:179151
+Description:The stinking marsh-slime is washed away by a second trip to the hot spring, but the stench remains. The crew's laughing faces as they see your naked boarding are soon replaced by screwed up noses and a need to be absolutely anywhere else. You are confined to your cabin on pain of mutiny until it has been dealt with; a process of scrubbing and soaping until it is a wonder you have any skin left.
+<br /><br />
+Your new nickname amongst the crew is... not flattering. No more need be said. On the plus side, your humiliation does serve to raise crew morale for a good while, as well as spawn at least one new legend of a terrible mudbeast known only to those who dare venture this far East.
+
+		ParentEvent
+Id:175837
+
+
+
+	ChildBranches13
+Name:The Monkey Foundling dances
+Id:145576
+Description:She pirouettes on a tree-stump, saluting as you approach.
+
+		DefaultEvent
+Name:Ambush!
+Id:179152
+Description:A screeching Pentecost ape drops from the branches. The shock on the Monkey Foundling's face makes it clear; this is not part of her little game. Its rage is focused entirely on her, the Ghost of the Ash Isthmus, and the bright soul with which it can uplift itself to glory.
+<br /></br />
+It limps from some trap earlier, its fur blood-soaked and glistening. It lunges at the Monkey Foundling, who half rolls, half falls off the stump and yelps as it catches her by the leg. She rolls; shrieks her own howl as she lashes back with a kick that shatters fang and splits its lip. This only further enrages the frothing ape. It strikes!
+
+		ParentEvent
+Id:175837
+
+
+
+	ChildBranches14
+Name:Help the Monkey Foundling
+Id:145577
+Description:She meant you no real harm. She was only playing.
+
+		DefaultEvent
+Name:Rock beats ape
+Id:179153
+Description:You reach for a stone and bring it crashing down on the distracted ape's head. Its skull cracks, dampness spreading. It collapses to the ground, hard.
+<br /><br />
+It is not a child's face that looks up at you. Still, you reach a hand down. The Monkey Foundling just stares at it for a moment, something human returning as the adrenaline fades. For a moment it almost looks as though she will take it. But no. She leaps up on her own, bounding away towards the dark safety of her jungle.
+<br /><br />
+And then stops. Hesitates. She looks back, and tilts her head, beckoning you to follow. It is a look that suggests the game is over, but perhaps not yet quite finished.
+
+		ParentEvent
+Id:175837
+
+
+
+	ChildBranches15
+Name:Bah, the little wench has it coming
+Id:145578
+Description:She can't torture you and then expect your assistance.
+
+		DefaultEvent
+Name:Tooth and claw and rock
+Id:179154
+Description:The Monkey Foundling strains, her strength nowhere near enough to defeat an ape without a tactical advantage. Her right hand searches blind for something, anything, to use as a weapon. It closes on a rock. With everything her tiny frame has, she drives it into the side of the monkey's head, and again and again until all that remains is shattered skull and mush.
+<br /><br />
+She stands. Drops it. Shoots you a look of... disappointment? The bitterest. And she bounds effortlessly up the nearest tree and away. 
+
+		ParentEvent
+Id:175837
+
+
+
+	ChildBranches16
+Name:A small hut in the middle of the forest
+Id:145579
+Description:Is this where the Monkey Foundling lives? Why would she lead you here, of all places?
+
+		DefaultEvent
+Name:Playmate of the Monkey Foundling
+Id:179155
+Description:The Monkey Foundling herself is nowhere to be seen, but she has left you something. It sits outside the hut, carefully placed by a large happy-face drawn in the black sand. A little prize, for being such a good sport.
+<br /><br />
+Your <i>clothes</i> however are nowhere to be seen. Of course. As the monkey part of her would no doubt demand, where would the fun be in <i>that?</i>
+
+		ParentEvent
+Id:175837
+
+
+
+	ChildBranches17
+Name:Return to the ship
+Id:145581
+Description:Well. There is no avoiding this any longer...
+
+		DefaultEvent
+Name:An out-of-uniform experience
+Id:179157
+Description:The crew reacts with the expected amount of sympathy to your naked return, which is to say exactly none. By the time you board the ship, every last crew-member is on hand to see and cheer, with more than a couple letting off flares as impromptu fireworks. It is many, many days before the needling ceases and you are able to give an order without first scouring it for innuendo.
+<br /><br />
+On the plus side, it does boost at least the rest of the ship's mood while it lasts, and you have a new treasure for your collection. You have had worse days.
+
+		ParentEvent
+Id:175837
+
+
+
+	ChildBranches18
+Name:The Dark Woods
+Id:145582
+Description:Enough! It is time to teach the brat a lesson!
+
+		DefaultEvent
+Name:A movement in the shadows
+Id:179158
+Description:Here, the trees do not glow. The lights of the false-stars are invisible. You chase the Monkey Foundling, but she is quick and agile and she knows every tree, every rock. Now, she is not playing. Painful stones and thorns zing out of the darkness, leaving sore red welts that stink and make your blood feel thick. By the time you fight your way through, she has... has gone...
+<br /><br />
+Why do you feel so sluggish?
+<br /><br />
+Why are your legs so...
+<br /><br />
+By the time you realise it is something on the thorns, it is too late. You pass out.
+
+		ParentEvent
+Id:175837
+
+
+
+	ChildBranches19
+Name:You slowly drift awake
+Id:145583
+Description:The Monkey Foundling sits on a rock, barely any distance away, idly playing a tune on a small wooden flute.
+
+		DefaultEvent
+Name:You reach to grab her...
+Id:179159
+Description:But your arms won't move. You can't move, not much. You are in a quicksand pit; your head alone still in the air. With sufficient time you can work your way out, yes, though it will be slow and unpleasant, but for now...
+<br /><br />
+The Monkey Foundling sees you awaken and stops playing her music, the flute going into her little bag. She watches you struggle for a while, but then walks off, out of sight. Only for a moment though, before she returns, casually dangling... a wasps nest? It looks like it.
+<br /><br />
+"This <i>my</i> island," she hisses. "You not welcome!"
+<br /><br />
+The world explodes into stinging, buzzing agony as she pushes it down over your head.
+
+		ParentEvent
+Id:175837
+
+
+
+	ChildBranches20
+Name:Back to the ship
+Id:145748
+Description:Agony! Agony! Agony!
+
+		DefaultEvent
+Name:A torturous return
+Id:179457
+Description:As you crawl back onto your ship, it is not your nudity that draws the crew's attention, but your body and face bloated by stings and the bleeding from both your wounds and the many cuts taken while flailing blindly through the forest in search of relief or assistance.
+<br /><br />
+It takes several days bedrest before you can see again, much less squeeze more than one syllable out of your puffed mouth. You do however have the honour of having spawned a whole new legend, of a terrifying blood-horror known only to those who travel East.
+
+		ParentEvent
+Id:175837
+
+
+
+	ChildBranches21
+Name:Back to the ship
+Id:145749
+Description:Agony! Agony! Agony!
+
+		DefaultEvent
+Name:A torturous return
+Id:179458
+Description:As you crawl back onto your ship, it is not your nudity that draws the crew's attention, but your body and face bloated by stings and the bleeding from both your wounds and the many cuts taken while flailing blindly through the forest in search of relief or assistance.
+<br /><br />
+It takes several days bedrest before you can see again, much less squeeze more than one syllable out of your puffed mouth. You do however have the honour of having spawned a whole new legend, of a terrifying blood-horror known only to those who travel East.
+<br /><br />
+If there is one stroke of luck, it is that on examination your wounds are not <i>quite</i> as serious as they seemed back on the island. You live through it. Just. Though for the next few days, that is more curse than blessing.
+
+		ParentEvent
+Id:175837
+
+
+
+	ChildBranches22
+Name:The chase continues!
+Id:145750
+Description:The Monkey Foundling slides down a vine in front of you. She sticks out her tongue and scampers through a break in the trees.
+
+		DefaultEvent
+Name:A marsh of terrible stench
+Id:179459
+Description:It is a place that skunks would think twice of entering, if the Empire of Hands had such creatures. The Monkey Foundling of course is unconcerned, as much at home here as high in the branches or running the forest paths. She almost dances, effortlessly, across a thin fallen tree that crosses the mire; surrounded by the foulest, bubbling mud that has ever invaded your nostrils. She balances in the middle, daring you to try to follow.
+
+		ParentEvent
+Id:175837
+
+
+
+	ChildBranches23
+Name:A mild, yet pointed threat
+Id:145906
+Description:The Monkey Foundling shall have no mischief at the Captain's expense today. Either she puts those down, or you're feeding her to the crew.
+
+		DefaultEvent
+Name:A most relaxing day
+Id:179732
+Description:The Monkey Foundling grudgingly drops your clothes and scampers off to continue her nostalgic trip around the tiny little island she once called home.
+<br /><br />
+Undisturbed, you spend a good hour or more simply relaxing and enjoying the stars. They really are quite beautiful, from the warmth of a good soak.
+<br /><br />
+Oh well. All good things, and all that...
+
+		ParentEvent
+Id:175837
+
+
+
+	ChildBranches24
+Name:Abandoned in the woods
+Id:146077
+Description:There is nothing to do but head back and hope that, one day, you manage to live this down.
+
+		DefaultEvent
+Name:A shameful return
+Id:180053
+Description:The crew is incapable of holding back its glee as you return from the Ash Isthmus with nothing but the dignity your two hands can muster, and a new found understanding of how difficult it is to make even perfunctory clothing out of leaves and vine.
+<br /><br />
+If there is a bonus, it is that the smirks and jokes of the next few days do more to take the edge off zailing than a bottle of Morelways' finest. It will be a good while yet though before it is your <i>authority</i> that first springs to mind when they see you giving orders.
+
+		ParentEvent
+Id:175837
+
+
+
+	ChildBranches25
+Name:Throw a rock at the little wench
+Id:145567
+Description:She is playing with you. You are not playing with her.
+
+		DefaultEvent
+Name:The rock flies wild
+Id:179140
+Description:The Monkey Foundling laughs at your frustration. It feeds her amusement. She fires back a stinging pellet from her blowgun.
+
+		ParentEvent
+Id:175837
+
+		SuccessEvent
+Name:It takes her hat clean off
+Id:179141
+Description:Her grin vanishes as she reaches up to where it used to be, and her eyes well up with disappointed tears. She was only enjoying a little light mischief with the funny captain. She meant no real harm by it all.
+<br /><br />
+She blinks. The tears are gone. Very well, her new look says; the look of one used to fending off monkeys after her soul and cannibals wishing a tender meal. If you want to play <i>rough</i>, you shall have your wish.
+
+
+
+	ChildBranches26
+Name:She wants to play? You'll play.
+Id:145571
+Description:Though the crossing is treacherous, particularly when one's hands are torn between modesty and balance.
+
+		DefaultEvent
+Name:You slowly cross the marsh
+Id:179146
+Description:It is slow, slow going. Your muddy feet slide against the thin trunk as it buckles and strains under your weight. Inch by inch, step by step, you slowly make your way across.
+<br /><br />
+Until, bored, the Monkey Foundling suddenly jumps up and down, hard. The tree rolls under your feet; your balance fails. You slip, tumble; are embraced by a marsh whose smell will never leave you. You fight to the surface, streaming brown and dripping green, violently coughing up a gagging throatful of the foul slime.
+<br /><br />
+The Monkey Foundling sits cross-legged in the safety of the trees, holding her nose as she points and laughs.
+
+		ParentEvent
+Id:175837
+
+		SuccessEvent
+Name:You slowly cross the marsh
+Id:179148
+Description:It is slow, slow going. Your muddy feet slide against it, and the thin trunk barely carrying your weight. Inch by inch, step by step, you slowly make your way without slipping. The Monkey Foundling is visibly disappointed, even trying jumping up and down to shake the tree and make you take a messy tumble. But no. Not today.
+<br /><br />
+You cross triumphantly, to her grudging admiration.
+
+
+
+	ChildBranches27
+Name:Pursue the Monkey Foundling
+Id:145570
+Description:She moves effortlessly through the branches above.
+
+		DefaultEvent
+Name:A trap!
+Id:179145
+Description:Your feet step into the coiled rope just as the Monkey Foundling cuts loose the counterweight and you feel yourself flying upside down into the trees. Of <i>course</i> she has traps. The wider Empire has no shortage of would-be invaders, man and monkey alike.
+<br /><br />
+She sits back and enjoys the show as you flail around trying to get free, before apparently taking pity on you. Pity however, turns out to be casually and without warning cutting through the rope dangling you in the air and sending you falling back with a surprised thump to the muddy forest floor. It knocks the air out of your lungs, but you are otherwise unharmed. She pauses for a moment to make sure, before her grin spreads back again and she races off to continue the game.
+
+		ParentEvent
+Id:175837
+
+		RareDefaultEvent
+Name:A trap!
+Id:179460
+Description:Your feet just recognise the looped rope in time to jump over it, avoiding what would otherwise have been a nasty trip into the air. The Monkey Foundling looks disappointed. Your heart does not bleed for her.
+
+		SuccessEvent
+Name:A trap!
+Id:179461
+Description:You just spot the looped rope in time to jump over it, avoiding what would otherwise have been a nasty trip into the air. The Monkey Foundling looks disappointed. This is not one of your regrets.
+

@@ -1,0 +1,326 @@
+Name:The First Curator's Manse
+Id:157004
+Description:“No more light,” the Obsequious Steward cautions you. "The Curator is terribly afraid of moths." He opens the door, and you step into near-darkness. A pair of luminous lamp-lighter bees buzz in a latticed ivory tube. There is no other source of light.
+<br/><br/>
+ A bandaged shape no larger than a child lies crumpled on a couch. It lifts its head with obvious effort. It takes several seconds for you to distinguish its voice from the soft buzz of the bees.
+
+
+
+	ChildBranches1
+Name:Accept the commission
+Id:132783
+Description:"Thank you. This poor flesh... thirsts for colours..."
+
+		DefaultEvent
+Name:No more words
+Id:157010
+Description:It collapses, rustling, back on to the couch. Even the effort of speaking seems to have diminished it a little. The audience is over. As the door opens, it shrinks from the finger of light that reaches across the floor.
+<br/><br/>
+Outside, the Obsequious Steward nods. "The book? Yes, the book." He hands you a slim, illustrated volume. "The Curator is old - old as dust. We will all be grateful if you do it this one last favour."
+
+		ParentEvent
+Id:157004
+
+
+
+	ChildBranches2
+Name:Give it your Lump of Blue Scintillack
+Id:133352
+Description:"Oh... bright as... bright as waking..."
+
+		DefaultEvent
+Name:Cage-frail fingers
+Id:157975
+Description:The Curator cups its hands over the lump of glowing coral. Its face, you see now, is masked with copper. Its fingers wither in the light. A curl of smoke rises. But It only clutches the coral tighter. "The sea," it whispers. "I smell the sea."
+<br/><br/>
+<i>You</i> smell scorched dust. But here's your payment, in rubies of antique cut. The Curator seems happy.
+
+		ParentEvent
+Id:157004
+
+
+
+	ChildBranches3
+Name:Give it your Ray-Drenched Cinder
+Id:133353
+Description:"I smell - stars..."
+
+		DefaultEvent
+Name:A cavity
+Id:157976
+Description:Beside the Curator's couch waits a humped machine of iron and brass. "There," it wheezes, straining to raise its arm. A recess, approximately the size of the cinder, waits.
+<br/><br/>
+You place the cinder there and close the lid. Faint atonal music, like the pricking of starlight, drifts from within. "I will never see Parabola," the Curator wheezes. "But perhaps you will. Take this mirror. It was born in a volcano..." Dark glass, serpent-carved.
+
+		ParentEvent
+Id:157004
+
+
+
+	ChildBranches4
+Name:Show it your Weeping Scar
+Id:133354
+Description:"Let me...see..."
+
+		DefaultEvent
+Name:It sinks back, exhausted.
+Id:157977
+Description:"Disappointing," it wheezes. "I imagined gant as... hungry grey... more... beige... but... promised. Your payment is there..."
+<br/><br/>
+A human skull sits atop a dusty notebook.
+
+		ParentEvent
+Id:157004
+
+
+
+	ChildBranches5
+Name:Give it your Eyeless Skull
+Id:133355
+Description:"Yes. I want to forget..."
+
+		DefaultEvent
+Name:A waiting pedestal
+Id:157978
+Description:At its direction, you place the skull atop a dripstone pedestal - a stalagmite, once, now carved with crockets and grimacing faces. Irrigo sparks crawl across it. For a moment you forget what you were doing.
+<br/><br/>
+"Thank you," the Curator whispers. "Perhaps you have saved me from the Sanatorium. And perhaps - the emergence - will be less painful -" Its chest pulses feebly. 
+<br/><br/>
+You accept a single huge black pearl. The Curator's fancies grow worse, but it pays well.
+
+		ParentEvent
+Id:157004
+
+
+
+	ChildBranches6
+Name:Give it your Hunter's Eye
+Id:133356
+Description:"I saw it once. I saw it long ago... when first I came here below..."
+
+		DefaultEvent
+Name:The driest of chuckles
+Id:157979
+Description:"My left eye is blind. Should I replace it with this one, it will be no blinder. But perhaps I will see - within - " It raises the hand with the Hunter's Eye towards its concealed face.
+<br/><br/>
+No sound is indescribable, but some should be. This is one. Let us not trouble ourselves with its nuances - its reminders of marsh and gangrene and chrysalid emergence.
+<br/><br/>
+"Take," it says. Its voice is ragged. It gestures at a side-table where a spoire-tusk sits. A pearl tiara is perched jauntily atop the tusk. Both, apparently, are yours.
+
+		ParentEvent
+Id:157004
+
+
+
+	ChildBranches7
+Name:Give it your Pot of Violant Ink
+Id:133357
+Description:"We would have made a better contract. But we hungered for the flesh of gods."
+
+		DefaultEvent
+Name:A stained finger
+Id:157980
+Description:It extends a brittle arm from beneath its coverlet - dips it in the ink - conveys the finger back to its hidden mouth.
+<br/><br/>
+"Ah," it sighs. "The colour will enter my bones. And then, perhaps, the Moth." 
+<br/><br/>
+It's plainly rambling, but at least it hasn't forgotten your reward - a cameo of a bandaged beauty painted on the mummified palm of a mummified hand. All right, not to everyone's taste, but it's terribly well executed.
+
+		ParentEvent
+Id:157004
+
+
+
+	ChildBranches8
+Name:Give it your enigmatic painting
+Id:133358
+Description:"The Fingerkings. Our enemies. The enemies of everyone..."
+
+		DefaultEvent
+Name:A deep sigh
+Id:157981
+Description:"This is the border of Parabola. The dream-country. You know that, don't you? Yes. The devils know that, too..."
+<br/><br/>
+It becomes motionless - for so long that you wonder if it is finally truly dead. At last it expels a rattling breath and points wordlessly at a cloisonné mask on a trophy-stand, half-visible in the gloom. "Elder Continent," it wheezes. "Made within sight of the Mountain. Wear it and think... of me..."
+
+		ParentEvent
+Id:157004
+
+
+
+	ChildBranches9
+Name:Receive a final reward
+Id:133622
+Description:It reaches up to clasp your hand. "I am... grateful. You don't know what you've done to me. Accelerated... the growth beneath the flesh. Spared me the sanatorium. Here... my... dissolution..."
+
+		DefaultEvent
+Name:A birth
+Id:158396
+Description:The Curator moves faster than you've ever seen - flinging its arms back, as if in delight. Its chest pulses, then crumbles inwards. It cries out softly, and turns its masked face to watch you. Its chest crumbles like damp clay. Something damp and sleekly shining pushes out. Antennae rustle. Faceted eyes glisten.
+<br/><br/>
+The Curator's hand reaches up to caress the creature, and then goes still forever. It frees itself, flexing damp wings. A moth of prodigious size. Its wings are figured with patterns in familiar colours - peligin, viric, irrigo...
+
+		ParentEvent
+Id:157004
+
+
+
+	ChildBranches10
+Name:Depart for now
+Id:133751
+Description:You have no further business with the Curator just now.
+
+		DefaultEvent
+Name:Out of the gloom
+Id:158608
+Description:The Obsequious Steward bows obsequiously. The flickering lights of Venderbight seem bright after the Curator's lair.
+
+		ParentEvent
+Id:157004
+
+
+
+	ChildBranches11
+Name:Give it your Colossal Fluke-Core
+Id:134053
+Description:"Yes. End it. I will find my own ending..."
+
+		DefaultEvent
+Name:A waiting pedestal
+Id:159154
+Description:At its direction, you place the Core in a bath of frothing acid. It dissolves slowly. Irrigo vapours ascend, and snake into your mouth, eyes, heart. For a long minute, you forget who you are. When you return to yourself, no trace of the Fluke remains.
+<br/><br/>
+"Thank you," the Curator whispers. "Perhaps you have saved me from the Sanatorium. And perhaps - the emergence - will be less painful -" Its chest pulses feebly. 
+<br/><br/>
+You accept a single huge black pearl. The Curator's fancies grow worse, but it pays well.
+
+		ParentEvent
+Id:157004
+
+
+
+	ChildBranches12
+Name:Give it your Apocyan Chess Piece
+Id:137640
+Description:"Oh... yes... it also wants... it also wants..."
+
+		DefaultEvent
+Name:Cage-frail fingers
+Id:166159
+Description:The Curator cups its hands over the soft-glowing chess-piece. Its face, you see now, is masked with copper. Its fingers wither in the light. A curl of smoke rises. But It only clutches the chess-piece tighter. "The sea," it whispers. "I smell the sea."
+<br/><br/>
+<i>You</i> smell scorched dust. But here's your payment, in rubies of antique cut. The Curator seems happy.
+
+		ParentEvent
+Id:157004
+
+
+
+	ChildBranches13
+Name:Give it your Mirror-Charm
+Id:146676
+Description:"Yes. Yes, that has passed between... two worlds..."
+
+		DefaultEvent
+Name:A deep sigh
+Id:181075
+Description:"Varchas. I wanted to see Varchas, before I died. The Mirrored City. So... glorious. But that light... would crumble me... like..."
+<br/><br/>
+It becomes motionless - for so long that you wonder if it is finally truly dead. At last it expels a rattling breath and points wordlessly at a cloisonné mask on a trophy-stand, half-visible in the gloom. "Elder Continent," it wheezes. "Made within sight of the Mountain. Wear it and think... of me..."
+
+		ParentEvent
+Id:157004
+
+
+
+	ChildBranches14
+Name:Give it your Mirrorcatch Box Full of Very Angry Dream-Snakes
+Id:146682
+Description:"Oh, my, my, my. They are... cross..."
+
+		DefaultEvent
+Name:A tomb-dry chuckle
+Id:181082
+Description:"They won't stay... imprisoned long. But longer than... I will..."
+<br/><br/>
+It becomes motionless - for so long that you wonder if it is finally truly dead. At last it expels a rattling breath and points wordlessly at a cloisonné mask on a trophy-stand, half-visible in the gloom. "Elder Continent," it wheezes. "Made within sight of the Mountain. Wear it and think... of me..."
+
+		ParentEvent
+Id:157004
+
+
+
+	ChildBranches15
+Name:Give it a Star-Shell
+Id:147119
+Description:"What is... that?"
+
+		DefaultEvent
+Name:Almost unreal
+Id:181705
+Description:"Disappointing," it wheezes. "It looks... imagined... almost... unreal. A memory. But... enough. Your payment is there..."
+<br/><br/>
+A human skull sits atop a dusty notebook.
+
+		ParentEvent
+Id:157004
+
+
+
+	ChildBranches16
+Name:Show it a sketch of the Figurehead of the Eater of Names
+Id:147407
+Description:"Oh! ...oh... I know..."
+
+		DefaultEvent
+Name:
+Id:182152
+Description:"Satisfactory," it wheezes. "There will be another Eater, in time. But this trophy - I will taste.. Your reward."
+<br/><br/>
+A human skull sits atop a dusty notebook.
+
+		ParentEvent
+Id:157004
+
+
+
+	ChildBranches17
+Name:Listen to a whispered request
+Id:132780
+Description:“Zee-Captain. Silk-skin. Not much left of me. I will go… into the Grand Sanatorium. Bring me colours. Seven colours. Pay. Well.”
+
+		DefaultEvent
+Name:Seven colours?
+Id:157005
+Description:“Cosmogone. Irrigo. Peligin. Steward has… list… Find them here and there, across the wide black zee...”
+
+
+		ParentEvent
+Id:157004
+
+		SuccessEvent
+Name:Seven colours?
+Id:157006
+Description:“Cosmogone. Irrigo. Peligin. Steward has… list… Find them here and there, across the wide black zee...”
+
+
+
+
+	ChildBranches18
+Name:Ask about the Grand Sanatorium
+Id:132782
+Description:One hears the name whispered, here and there in the arcades of Venderbight.
+
+		DefaultEvent
+Name:A long low chuckling
+Id:157008
+Description:“Oh, silk-skin. You don’t want to know...” The chuckling becomes a cough. "We don't die here below. Not unless we go to zee. So we needed something else: somewhere to end..."
+
+		ParentEvent
+Id:157004
+
+		SuccessEvent
+Name:A long low chuckling
+Id:157009
+Description:“Oh, silk-skin. You don’t want to know...” The chuckling becomes a cough. "We don't die here below. Not unless we go to zee. So we needed something else: somewhere to end..."
+

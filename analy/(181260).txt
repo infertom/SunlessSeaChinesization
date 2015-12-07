@@ -1,0 +1,56 @@
+Name:An Interview with the Avuncular Broker
+Id:181260
+Description:He meets you on the balcony of a shoreside coffee-house. His handshake is effusive. His smile and cummerbund are broad. He urges you to squares of sticky baklava, and a tiny glass of black coffee sweetened with a sprig of mint.
+<br/><br/>
+"I trust you won't mind answering a few questions?" He asks, opening a notebook. "To ensure we're on the same page, so to speak." The interview is scandalously personal. What business has he to ask such things?
+
+
+
+	ChildBranches1
+Name:Answer truthfully
+Id:146786
+Description:Though it means giving up a secret.
+
+		DefaultEvent
+Name:An unexpected tactic
+Id:181261
+Description:He blinks in surprise. "Goodness. I must admit, I expected you to lie. Never mind, never mind. Knowing you as well as I do now," he studies his notebook, too embarrassed to meet your eye, "I think we can do business." [You may accept the Broker's Commission in Adam's Way.]
+
+		ParentEvent
+Id:181260
+
+
+
+	ChildBranches2
+Name:Depart immediately
+Id:147121
+Description:How dare you, sir!
+
+		DefaultEvent
+Name:
+Id:181708
+Description:
+
+		ParentEvent
+Id:181260
+
+
+
+	ChildBranches3
+Name:Lie to him
+Id:146848
+Description:There are things he doesn't need to know.
+
+		DefaultEvent
+Name:Disappointing news
+Id:181348
+Description:"A pleasure to meet you. I'm sure we'll be in touch." That doesn't sound promising.
+
+		ParentEvent
+Id:181260
+
+		SuccessEvent
+Name:A good impression
+Id:181707
+Description:He seems immensely pleased by your answers. "Capital! The task I have in mind demands someone of discretion, insight, and the ability to lie convincingly. I think we can do business."  [You may accept the Broker's Commission in Adam's Way.]
+

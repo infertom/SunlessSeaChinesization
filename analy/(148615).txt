@@ -1,0 +1,156 @@
+Name:The Brass Embassy
+Id:148615
+Description:This is Hell's foothold in London. It's warm, bright and handsome. Every window blazes with light. (There is a screech, abruptly cut off, from the Excruciation Annex.)
+
+
+
+	ChildBranches1
+Name:Pass on the Wistful Deviless' information
+Id:127507
+Description:The Deviless has provided intelligence from inside the Brimstone Convention, the aristocrat-exiles of Hell. Hell will, no doubt, be interested...
+
+		DefaultEvent
+Name:A warm welcome
+Id:148616
+Description:An Urbane Devil ushers you into a copper-panelled interview room. There are hunting prints on the walls: but the hunters are devils and their quarry, women and men... The Devil listens, fingers steepled, to your story, nodding encouragingly. “That’s terribly helpful of you. Terribly helpful. Could I have the message, please?” He reads it with interest. “Oh, that’s very good. Allow me to offer a consideration to you. Here. For your trouble. Bring me more, and I’ll give you something else. But, ah, do you mind performing some independent verification? You know how expats can get. Sometimes their imagination runs away with them. Anyway, here’s a little present for your source...."
+
+		ParentEvent
+Id:148615
+
+
+
+	ChildBranches2
+Name:Pass on your 'independent verification'
+Id:127560
+Description:It doesn't mean much to you, but perhaps it will to your interlocutor.
+
+		DefaultEvent
+Name:A traitor
+Id:148698
+Description:"How interesting. And unfortunate. This directly contradicts the Deviless' information. Well, treachery is to be expected: I wish she hadn't been so gauche about it. But that's the Brimstone Convention for you."
+
+		ParentEvent
+Id:148615
+
+		RareDefaultEvent
+Name:A loyalist
+Id:148769
+Description:"I am delighted to say that this information precisely matches what the Deviless has told us. So we can rely on her: unless you are unreliable in your turn." He smiles silkily. "And I'm sure you wouldn't try to deceive Hell, would you?"
+
+
+
+	ChildBranches3
+Name:Pass on the Deviless' second message to the Urbane Devil
+Id:127569
+Description:The Urbane Devil waits, with a friendly smile that exposes his neat white teeth.
+
+		DefaultEvent
+Name:Incendiary material
+Id:148715
+Description:He reads the letter and emits a long, low whistle that resonates oddly in the metal fittings, and gives you the faintest tingle of toothache. "There are some very senior names here. Very senior indeed. She wants to come home, eh? Well, either she's telling us straight, in which case Brimstone will have her baked in a pie, or she's trying to swindle us, in which case, well, I'd like her here so I can warm up my own pie-oven. Either way, yes, the time has come. Bring her here, will you? We'll pay her fare. Thank you so much. You've advanced the cause of Hell today."
+
+		ParentEvent
+Id:148615
+
+
+
+	ChildBranches4
+Name:Pass on the Deviless' second message to the Smiling Devil
+Id:127608
+Description:The Smiling Devil waits, with a friendly smile that exposes his neat white teeth.
+
+		DefaultEvent
+Name:Incendiary material
+Id:148770
+Description:He reads the letter and emits a long, low whistle that resonates oddly in the metal fittings, and gives you the faintest tingle of toothache. "There are some very senior names here. Very senior indeed. We know she's a double-agent for the Brimstone Convention: so this is an attempt to have us turn on our own. It might have succeeded, too, if you hadn't warned us."
+<br/><br/>
+"She wants to come home, eh? Yes. Yes, tell her she can come home directly. Bring her here. We'll settle her hash. You'll be paid."
+
+		ParentEvent
+Id:148615
+
+
+
+	ChildBranches5
+Name:Escort the Deviless to the Brass Embassy
+Id:127611
+Description:"London! Oh, the souls, the souls. I haven't smelt so many since - " She inhales, eyes closed, face rapt. Your hackney-carriage approaches the Embassy.
+
+		DefaultEvent
+Name:A discreet arrival
+Id:148774
+Description:The Urbane Devil meets you and the Deviless by one of the Embassy's lesser entrances. He bows; she bows; they chatter together in one of Hell's hissing, clicking languages, and laugh at a shared joke.
+<br/><br/>
+For a moment you seem forgotten, but she turns back. To thank you? No: to pay you. “All shall be well, now,” she says gleefully, “and all manner of thing shall be well. You’ve done a terrible thing, and I am terribly grateful. Take this.”
+<br/><br/>
+"This" is a smouldering ruby from the throat of Mt Palmerston. It is scorching hot from her touch. She chuckles fondly as you juggle it hastily from hand to hand. "Perhaps I'll see you again. You're so much fun."
+
+		ParentEvent
+Id:148615
+
+
+
+	ChildBranches6
+Name:Escort the Deviless to the Brass Embassy
+Id:127612
+Description:"London! Oh, the souls, the souls. I haven't smelt so many since - " She inhales, eyes closed, face rapt. Your hackney-carriage approaches the Embassy.
+
+		DefaultEvent
+Name:The closing of a door
+Id:148775
+Description:Two stinking goat-demons shamble up: one takes each of the Deviless' arms. She looks at you, and her face writhes into an expression that a human face could not support. Hatred? Satisfaction? Admiration? Something of those, and another emotion, a hot flat reptilian one that only devils understand. "Goodbye," is all she says. The goat-demons guide her down a flight of iron steps, to the basement entrance of the Excruciation Annex.
+<br/><br/>
+The Urbane Devil lounges by one of the Embassy's ornamental lamps, picking his teeth with a splinter of purplish crystal. "Bravo! And that concludes our business. Here." He hands you a flat parcel wrapped in coppery crêpe paper, and bounds off, whistling.
+<br/><br/>
+The parcel contains a beautifully rendered oil-painting of the Deviless, in a gown with a ruffled collar which suggests the sixteenth century. Her eyes are closed.
+
+		ParentEvent
+Id:148615
+
+
+
+	ChildBranches7
+Name:Sell a Crate of Human Souls to the Brass Embassy
+Id:129692
+Description:On the one hand, devils pay a little better than the merchants of Wolfstack Docks. On the other hand, you are literally selling other people's souls to devils.
+
+		DefaultEvent
+Name:"Tasty!"
+Id:152150
+Description:"Ah, the fizz of them. Like champagne made from puppies. Thank you, dear friend."
+
+		ParentEvent
+Id:148615
+
+
+
+	ChildBranches8
+Name:Why did you come here?
+Id:134542
+Description:"Yes? Have you been to the Republic, then? Did you want to... tell me something?"
+
+		DefaultEvent
+Name:The street is spinning
+Id:159966
+Description:There was something in your throat. It crowded your mouth - it was hard and knobbled as horn or coal. It spoke - rapid gleeful sentences in one of the languages of Hell. It cut your lips when it crawled from your mouth -
+<br/><br/>
+You're in the street outside the Embassy. There's a lump of scintillack in your hand. "For memories," the Urbane Devil told you.
+
+		ParentEvent
+Id:148615
+
+
+
+	ChildBranches9
+Name:Sell a shipment of red honey to the Brass Embassy
+Id:139737
+Description:Maybe it'll wean them off souls? Worth a try, for the price they're paying.
+
+		DefaultEvent
+Name:"Ahh, delicious."
+Id:169650
+Description:"I think I smell a memory of innocence in this one. No. It's despair. They have a similar bouquet, you know."
+
+		ParentEvent
+Id:148615
+

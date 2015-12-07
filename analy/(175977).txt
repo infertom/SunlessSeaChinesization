@@ -1,0 +1,214 @@
+Name:Hearthsake Village
+Id:175977
+Description:It was not madness that drove these pirates to cannibalism, but years of being shipwrecked without the comfort of meat. After a while, any meat would do.
+
+
+
+	ChildBranches1
+Name:Dine at the Captain's Table
+Id:143604
+Description:All are welcome to share the pirates' wealth, provided they have the stomach for it. And the table manners.
+
+		DefaultEvent
+Name:A toast to a forsaken yesterday
+Id:175978
+Description:The Boisterous Pirate clears his throat, and all go quiet as he stands. "TO HER ENDURING MAJESTY!" he shouts. "TO THE EVER SHINING LIGHTS OF HOME!"
+<br /><br />
+A cheer rises as the pirates raise their mugs; drain them dry. But there is something quiet in the silence. They have long decided that what they have done here disqualifies them from ever again walking on Wolfstack Docks, from singing in the Mandrake... and from meeting the eyes of those they loved. It is not fear that keeps them from asking the visiting captain for safe passage back home. It is agreement, unanimous.
+<br /><br />
+The Boisterous Pirate slams his hands together in an echoing slap. "AMEN," he declares, as everyone reaches for the meats that have them salivating so.
+
+		ParentEvent
+Id:175977
+
+		RareDefaultEvent
+Name:A feast of forbidden flesh
+Id:178535
+Description:It is not a table, but a long plank from the pirates' old vessel, stretched along the sand and set with bone cutlery whittled from their fallen. Once grace is duly spoken, everyone dives into the bounty, snatching up thigh and heart and strips of tender meat dripping in well-crisped fat.
+<br /><br />
+"NOT WITH YOUR FINGERS, BOY!" the Boisterous Pirate booms at one hungry soul with juice dripping from his lips. "WE ARE HARDLY SAVAGES!"
+<br /><br />
+He considers his pirates. "WE ARE <i>HARDLY EVER</i> SAVAGES!" he corrects, exploding with a laugh that threatens to shake the table clear.
+
+
+
+	ChildBranches2
+Name:The Lost Treasure Hunter
+Id:143613
+Description:He joined the pirates to see the zee. Now he just hopes to one day see something he recognises.
+
+		DefaultEvent
+Name:Adventuring supplies
+Id:175989
+Description:He came well prepared for this journey, unless your idea of preparations happens to include a compass, a map not written in riddles, a sextant, and a spare set of spectacles to compensate for severe myopia.
+
+		ParentEvent
+Id:175977
+
+		RareDefaultEvent
+Name:"Ahoy!"
+Id:178355
+Description:"How goes your search?" he asks. "Find anything?"
+<br /><br />
+It is a voice that so badly wants the answer to be "No."
+
+
+
+	ChildBranches3
+Name:Return to the boat
+Id:143642
+Description:They seem a friendly sort, and are shocked at the idea that they would ever be such poor hosts as to eat a guest. But then, they have no shortage of supplies...
+
+		DefaultEvent
+Name:Back to Port Stanton
+Id:176020
+Description:The zee is quiet. The journey is pleasingly uneventful. You have not been eaten by cannibal pirates. All things considered, a successful trip.
+
+		ParentEvent
+Id:175977
+
+
+
+	ChildBranches4
+Name:Poison the Cannibal Pirates
+Id:143643
+Description:Their leader's toasts guarantee they will all at least drink some wine. This vintage will have a particular kick.
+
+		DefaultEvent
+Name:An evening of careful abstinence
+Id:176021
+Description:"A TOAST!" bellows the Boisterous Pirate, leading a new round of quaffing from atop the table. "TO THE GOOD CAPTAIN! TO HER ENDURING MAJESTY! MAY WE EAT, DRINK AND BE MERRY, FOR TOMORROW WE -"
+<br /><br />
+His face freezes. His grip on the mug slips. His legs fall limp and he crashes down onto the table. The wood cracks; bone cutlery flies. He lies grey-faced, staring you in the eye with a dying look born not of hate, but of the deepest disappointment.
+<br /><br />
+Envoys from the Wildweald Court are soon at the scene to collect the supplies and burn down the village.
+
+		ParentEvent
+Id:175977
+
+
+
+	ChildBranches5
+Name:Return to the boat
+Id:143968
+Description:Time to head back to Port Stanton.
+
+		DefaultEvent
+Name:A smooth, easy trip
+Id:176517
+Description:Your arms are beginning to get used to the rowing.
+
+		ParentEvent
+Id:175977
+
+		RareDefaultEvent
+Name:A smooth, easy trip
+Id:178823
+Description:The Boisterous Pirate even instructs his men to prepare you a little something for the voyage home. Fortunately, it is a something that has never been a someone.
+
+
+
+	ChildBranches6
+Name:The Lost Treasure Hunter
+Id:145076
+Description:He is holding onto what remains of his supplies now, for his next adventure.
+
+		DefaultEvent
+Name:He looks up, eyes gleaming
+Id:178356
+Description:"I have it!" he declares. "The Fountain of Youth! That's what the treasure was telling me! See how it glows? It's a map! I just need a ship and a crew, and-"
+<br /><br />
+You back away, leaving him to it.
+
+		ParentEvent
+Id:175977
+
+
+
+	ChildBranches7
+Name:A council of war
+Id:145478
+Description:Since when was the village full of Pentecost apes?
+
+		DefaultEvent
+Name:"AH! THERE YOU ARE! ABOUT TIME TOO!"
+Id:179008
+Description:With the might of the Empire now gone, the Boisterous Pirate and his crew are preparing an assault on what was the Wildweald Court. Many of the betrayed monkeys have joined them in an odd attempt at rebellion.
+<br /><br />
+"AT THE VERY LEAST, WE'LL GO OUT FIGHTING, YES?!" he booms, clapping you hard enough on the shoulder. "AND WHO KNOWS? MAYBE ONE DAY WE'LL MAKE OURSELVES A PROPER HOME OF THIS PLACE YET!"
+<br /><br />
+You leave them to it. He has this in hand.
+
+		ParentEvent
+Id:175977
+
+
+
+	ChildBranches8
+Name:Join a raid on the Empire of Hands
+Id:143614
+Description:The cannibals often raid the mainland for both supplies and sport. "THE MORE THE MERRIER!" you are told.
+<br />
+[Be careful. You stand a chance of getting Wounded.]
+
+		DefaultEvent
+Name:The monkeys put up a better fight than expected
+Id:175990
+Description:"GOOD GAME, WELL PLAYED!" booms the Boisterous Pirate, as you sail back to the village. "EXERCISE! FRESH AIR! WHAT MORE COULD ANYONE WANT!?" 
+<br /><br />
+You ponder the question with the pirates as you treat a few minor scratches. 'More than one gun between us' seems the general consensus.
+
+		ParentEvent
+Id:175977
+
+		RareDefaultEvent
+Name:Tooth and claw
+Id:178372
+Description:The raid goes well, until one of the monkeys lands a hit with a bayonet that rips open a searing tear. That is not, however, the painful part. The painful part is after the Boisterous Pirate notices.
+<br /><br />
+"QUITE A TROPHY!" he booms, jabbing it jovially with a finger. "HAVE NO FEAR! HAVE YOU BACK ON YOUR FEET IN A JIFFY, SO WE WILL! GET ME THE IODINE!"
+<br /><br />
+As much as you protest, there is no stopping him. He has two of his pirates lie on top of you to hold you still as he uncorks the bottle and <i>lavishes</i> it upon the raw flesh.
+
+		SuccessEvent
+Name:Taken unawares!
+Id:178373
+Description:"LADS! LADDESSES! LADDITES!" booms the Boisterous Pirate, "CHAAAAAAAAAAAAAAAAAARGE!"
+<br /><br />
+At his signal, you and the pirates burst from the undergrowth and take a monkey patrol by surprise. They fight well for primates, but not well enough.
+<br /><br />
+"FILTHY BUGGERS!" declares the Boisterous Pirate, throwing one over his shoulder and indicating that another pirate should load up their supplies and weapons. "BUT TONIGHT, WE DINE LIKE ROYALTY!"
+
+
+
+	ChildBranches9
+Name:Severely wounded!
+Id:145094
+Description:The Cannibal Pirates are generous, but they are also <i>cannibals</i>. You need to recover, now!
+
+		DefaultEvent
+Name:Fever takes you in the night
+Id:178392
+Description:"I DECLARE A TOAST!" thunders the Boisterous Pirate, leading the memorial banquet. "TO OUR FALLEN COMRADE, WHEREVER THEY NOW ZAIL! TO HER ENDURING MAJESTY WHOSE VIRTUE GUIDES US ALL! TO THE MEAT THAT KEEPS US STRONG!"
+<br /><br />
+He raises his mug. The other cannibals sit with him around a table carefully laden with your choice cuts and offal, prepared with solemn dignity and a few fine spices.
+<br /><br />
+"JOIN ME," he booms, bringing the other pirates to their feet, mugs overflowing. "TO CAPTAIN- Ah. CAPTAIN..."
+<br /><br />
+He pauses, abashed. "Mmm. You know, now I think about it, I never <i>did</i> get the poor bugger's name..."
+
+		ParentEvent
+Id:175977
+
+		RareDefaultEvent
+Name:You claw your way back to health
+Id:178393
+Description:It takes everything you've got, but you hold tight onto life. The Boisterous Pirate is nothing but encouraging throughout, though you can't help but catch the occasional hopeful look from the others.
+
+		SuccessEvent
+Name:You claw your way back to health
+Id:179887
+Description:It takes everything you've got, but you hold tight onto life. The Boisterous Pirate is nothing but encouraging, though through the flap of your invalid tent you occasionally see others staring and pondering other kinds of fresh, juicy cuts.
+<br /><br />
+They are disappointed. After a couple of days rest, you are back on your feet; hungry, but alive.
+

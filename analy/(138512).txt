@@ -1,0 +1,89 @@
+Name:Auroral Rupture
+Id:138512
+Description:A light grows in the far south-west. It begins like a distant bonfire, but very rapidly, it becomes brighter, brighter. It looks remarkably like sunrise. Some of your crew fall to their knees: others duck behind cover or shield their eyes. One cries, "Dawn Machine waking!"
+
+
+
+	ChildBranches1
+Name:Take cover
+Id:120982
+Description:Keep your eyes on the ground. This is something uncanny.
+
+		DefaultEvent
+Name:Safety in darkness
+Id:138514
+Description:Light sheets over you. Your hair crackles as if a storm were rising. You squint your eyes shut, but the radiance around you is bright enough that you see the pink of your eyelids..
+<br/><br/>
+The light fades, suddenly. Men and women cry out, curse. One weeps.
+
+		ParentEvent
+Id:138512
+
+
+
+	ChildBranches2
+Name:Carnelian Exile
+Id:120983
+Description:"Shield yourself," she whispers. "Let me watch it." [This is not available in the current build.]
+
+		DefaultEvent
+Id:138515
+
+		ParentEvent
+Id:138512
+
+
+
+	ChildBranches3
+Name:Look around you, but not directly at the light
+Id:120984
+Description:Anything like sunlight is rare, down here. What will you see?
+
+		DefaultEvent
+Name:All the colours
+Id:138516
+Description:All the colours rise in the rocks, the water, the crystal veins of the roof. The Unterzee is a rich grassy emerald: the faces of your crew flash clear and and strong. You have seen nothing like it since you left the Surface. In this place, it is utterly wrong. 
+<br/><br/>
+The light fades, suddenly. Men and women cry out, curse. One weeps.
+
+		ParentEvent
+Id:138512
+
+
+
+	ChildBranches4
+Name:Veils
+Id:120985
+Description:
+
+		DefaultEvent
+Id:138517
+
+		ParentEvent
+Id:138512
+
+
+
+	ChildBranches5
+Name:Look into the light
+Id:120981
+Description:Curiosity is deadlier than any number of sharks.
+
+		DefaultEvent
+Name:A stolen dawn
+Id:138513
+Description:The radiance to the south-west is white-gold like a Surface morning. There is warmth on your face. Your eyes water. Your skin stings and tingles. Something is very wrong here.
+<br/><br/>
+The light fades, suddenly. Men and women cry out, curse. One weeps.
+
+		ParentEvent
+Id:138512
+
+		SuccessEvent
+Name:
+Id:149485
+Description:The radiance to the south-west is white-gold like a Surface morning. There is warmth on your face. Your eyes water. Your skin stings and tingles. You catch a glimpse of geometries in the heart of it - complex faceted shapes that reconfigure like the wheels of an orrery -
+
+<br/><br/>
+The light fades, suddenly. Men and women cry out, curse. One weeps.
+

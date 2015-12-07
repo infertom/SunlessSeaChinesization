@@ -1,0 +1,32 @@
+Name:An Old Friend
+Id:155190
+Description:"I was hoping I could do more than just keep you company," she remarks. "I do have a little medical training."
+
+
+
+	ChildBranches1
+Name:"Well, we can always use another surgeon - "
+Id:131656
+Description:Smile and extend your hand.
+
+		DefaultEvent
+Id:155191
+
+		ParentEvent
+Id:155190
+
+
+
+	ChildBranches2
+Name:"Wait - "
+Id:131664
+Description:"What are you doing here? You never came aboard - "
+
+		DefaultEvent
+Name:Into the air
+Id:155201
+Description:You snap awake. No one is here. Only the lamp swings, as if the cabin door had just closed, or, more likely, as if a wave had rocked the ship.
+
+		ParentEvent
+Id:155190
+

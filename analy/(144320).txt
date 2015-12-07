@@ -1,0 +1,32 @@
+Name:You've destroyed a Republican Dreadnought
+Id:144320
+Description:The ship is yours! What will you do with her?
+
+
+
+	ChildBranches1
+Name:Record any Observations
+Id:132005
+Description:If you've gathered enough, you may learn something...
+
+		DefaultEvent
+Id:155761
+
+		ParentEvent
+Id:144320
+
+
+
+	ChildBranches2
+Name:Investigate the hold
+Id:140804
+Description:What treasure did these villains take?
+
+		DefaultEvent
+Name:
+Id:171489
+Description:
+
+		ParentEvent
+Id:144320
+

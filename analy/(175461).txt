@@ -1,0 +1,278 @@
+Name:Zailing the Empire of Hands
+Id:175461
+Description:Communal wooden boats offer free passage to all travellers willing to row between islands.
+
+
+
+	ChildBranches1
+Name:A Scouting Trip: Sovereign Island
+Id:143275
+Description:A wooden palace stretches across the whole island, passage to it lit by a field of tiny glim buoys.
+
+		DefaultEvent
+Name:The heart of the Empire
+Id:175462
+Description:Many boats circle the island, all keeping their distance. The one that gets closest is an extended rowboat painted in yellows, whites and reds. Four servant monkeys strain at the oars, while its true passenger sits in comfort behind a gauze curtain. Just for a moment an eye catches yours, but only for a moment. It would not do for a high-souled ape to see something so beneath its notice.
+
+
+		ParentEvent
+Id:175461
+
+
+
+	ChildBranches2
+Name:A Scouting Trip: The Ash Isthmus
+Id:143276
+Description:Neither man nor ape claims this volcanic remnant between islands. Haunted, they say. Ridiculous.
+
+		DefaultEvent
+Name:Of apes and monkeys
+Id:175463
+Description:The trip offers a little time to think on the Penties. Technically, they are monkeys rather than apes, but it is not tactful to remind them of this. To their high-souled faces, the accepted name is 'Pentecost apes'. In private though, 'the b___y monkeys' is about as common. It is, one might say, an <i>ad hominoid</i> insult.
+
+		ParentEvent
+Id:175461
+
+
+
+	ChildBranches3
+Name:A Scouting Trip: Fountainhead Island
+Id:143277
+Description:Ancient secrets peek out of the trees. Any may visit, but few Penties ever bother to make the pilgrimage.
+
+		DefaultEvent
+Name:A young ancient empire
+Id:175464
+Description:The Empire of Hands is hardly as old as they pretend, but mimicry and theft infuses their whole culture. If the Penties have come to think that rulers should be buried in ancient temples, then it is ancient temples they will build. It would hardly be the first time their attempts to mirror humanity have entirely missed the point.
+
+
+		ParentEvent
+Id:175461
+
+
+
+	ChildBranches4
+Name:A Scouting Trip: Hearthsake Island
+Id:143278
+Description:A thin pillar of greasy yet appetising smoke rises from the only human settlement in the Empire.
+
+		DefaultEvent
+Name:The Blumenbach Quarantine
+Id:175465
+Description:The Admiralty has never stated precisely why it seeks to keep the Empire confined, though most opposition to it fades once said opposers actually encounter a Pentecost ape. They have been easy to corral, however. Though they do not lack wit, there is not an inventive bone in their hairy bodies, and no amount of stolen humanity has taught them the art of creating engines.
+
+		ParentEvent
+Id:175461
+
+
+
+	ChildBranches5
+Name:Travel to Sovereign Island
+Id:143661
+Description:They still demand a gift worthy of the Emperor to open up their court. Perhaps on another island...
+
+		DefaultEvent
+Name:A quiet, yet exhausting, affair
+Id:176056
+Description:It has been a long while since you spent this much time behind oars. Your muscles will be glowing by the time you finish your business in the Empire.
+
+		ParentEvent
+Id:175461
+
+		RareDefaultEvent
+Name:A hunting party powers through the water
+Id:178339
+Description:You barely row out of the way in time, for it has no intention of turning or slowing. The chattering of angry monkeys fades into the darkness as they head for the other islands in search of food.
+
+
+
+	ChildBranches6
+Name:Travel to Fountainhead Island
+Id:143662
+Description:Ancient tombs and buried treasure await on this island.
+
+		DefaultEvent
+Name:An old zee-zhanty finds your tongue as you row
+Id:176057
+Description:<i>"...and left him treading water, all for the sake of the night he'd shared, with the rubb'ry cap'n's daughter..."</i>
+
+		ParentEvent
+Id:175461
+
+		RareDefaultEvent
+Name:Splash. Splash. Splash. Splash.
+Id:178334
+Description:The sound of the oars would almost be hypnotic if your arms weren't burning so hard twith the effort.
+
+
+
+	ChildBranches7
+Name:Travel to Hearthsake Village
+Id:143663
+Description:The cannibals always have a seat at their table, and the Lost Treasure Hunter has much to trade.
+
+		DefaultEvent
+Name:A journey into temptation
+Id:176058
+Description:The delicious smell of the cannibals' cooking stretches much of the way across the passing. It would make a vegetarian salivate and reach for a fork.
+
+		ParentEvent
+Id:175461
+
+		RareDefaultEvent
+Name:A cold expanse of water
+Id:178335
+Description:It is strange, after so long in a real ship, to be so close to the surface of the zee that you could run your hand through it. Not that this would be a good idea.
+
+
+
+	ChildBranches8
+Name:Travel to The Ash Isthmus
+Id:143664
+Description:Small, but perfectly formed.
+
+		DefaultEvent
+Name:A softly spreading wake stretches out behind
+Id:176059
+Description:The silence is peaceful here. No engine rumbling, no sounds of crew at work. Just your own heavy breathing as you row, and the rhythmic splash of waters.
+
+		ParentEvent
+Id:175461
+
+		RareDefaultEvent
+Name:Damp, with sore arms
+Id:178337
+Description:These rowboats are not well maintained, if maintained at all. Water dribbles in from a small leak throughout, until it feels that there is as much zee within as without.
+
+
+
+	ChildBranches9
+Name:Travel to the Wildweald Court
+Id:143666
+Description:Your invitation stands unless you violate their sacred laws. Unless of course, they find it funny.
+
+		DefaultEvent
+Name:The guards nod and open the gates for you
+Id:176062
+Description:There is no welcome. They stare at the ground throughout.
+
+		ParentEvent
+Id:175461
+
+
+
+	ChildBranches10
+Name:Travel to the Wildweald Court
+Id:143965
+Description:Your invitation stands unless you violate their sacred laws. Unless of course, they find it funny.
+
+		DefaultEvent
+Name:The guards salute as you approach the gates
+Id:176513
+Description:You are making waves, it seems. The good kind.
+
+		ParentEvent
+Id:175461
+
+
+
+	ChildBranches11
+Name:Travel to Sovereign Island
+Id:144909
+Description:The Zeppelin is gone. The Court remains.
+
+		DefaultEvent
+Name:An angry mob
+Id:178091
+Description:Pentecost apes from across the Empire are massing outside the Wildweald Court, screaming for answers and comfort those inside cannot give.
+
+		ParentEvent
+Id:175461
+
+		RareDefaultEvent
+Name:An angry mob
+Id:178338
+Description:Pentecost apes from across the Empire are massing outside the Wildweald Court, screaming for answers and comfort those inside cannot give.
+
+
+
+	ChildBranches12
+Name:Travel to Fountainhead Island
+Id:145063
+Description:The Vault has been conquered, but perhaps more mysteries remain.
+
+		DefaultEvent
+Name:Sliding through the darkness
+Id:178328
+Description:The oars slip gently through the zee. After so much practice, it is like zailing through the air.
+
+		ParentEvent
+Id:175461
+
+		RareDefaultEvent
+Name:A return to this mysterious island
+Id:178336
+Description:From a distance, you can almost see the jungles growing. It would take a lifetime to find anything buried here without some kind of map.
+
+
+
+	ChildBranches13
+Name:The Ash Isthmus
+Id:145759
+Description:There is nothing more to be done here.
+
+		DefaultEvent
+Name:Strange. This should have been Impossible.
+Id:179478
+Description:Oh well. Nothing is going happen either way.
+
+		ParentEvent
+Id:175461
+
+
+
+	ChildBranches14
+Name:Hearthsake Island
+Id:145760
+Description:There is nothing more to be done here.
+
+		DefaultEvent
+Name:Strange. This should have been Impossible.
+Id:179479
+Description:Oh well. Nothing is going happen either way.
+
+		ParentEvent
+Id:175461
+
+
+
+	ChildBranches15
+Name:Fountainhead Island
+Id:145761
+Description:There is nothing more to be done here.
+
+		DefaultEvent
+Name:Strange. This should have been Impossible.
+Id:179480
+Description:Oh well. Nothing is going happen either way.
+
+		ParentEvent
+Id:175461
+
+
+
+	ChildBranches16
+Name:Look for a rowboat
+Id:146091
+Description:They all appear to be in use at the moment.
+
+		DefaultEvent
+Name:You make a note to return later
+Id:180080
+Description:Until then, business awaits elsewhere. If only the monkeys had proper ships, their islands would have proper docks capable of handling yours. Oh well.
+<br />
+[You will need the help of someone in Fallen London to continue exploring the Empire of Hands. Check your Lodgings after submitting your Port Report.]
+
+		ParentEvent
+Id:175461
+

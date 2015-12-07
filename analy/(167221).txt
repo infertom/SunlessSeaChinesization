@@ -1,0 +1,61 @@
+Name:The Webbed Port
+Id:167221
+Description:Blackness, webs, spiders, slaves. What remains of the Nativity remains for the sorrow-spiders' convenience and at their diminishing pleasure. Soon it will be absorbed. Lost. Forgotten. A brave survivor promises to sell you Fuel and Supplies if you swear to leave. He will not sail with you. He will wait for any other ship.
+
+
+
+	ChildBranches1
+Name:Compile a Port Report
+Id:138298
+Description:The Admiralty will want to know about this. They perhaps do not need to know all the details.
+
+		DefaultEvent
+Name:It takes little time to prepare
+Id:167222
+Description:It appears the price of silk is likely to rise quite quickly in the near future.
+
+		ParentEvent
+Id:167221
+
+		RareDefaultEvent
+Name:Detected!
+Id:167308
+Description:A shriek from a shadow. A rattle of legs. The half-finished Report falls from your hand as you race back to the safety of your ship.
+
+
+
+	ChildBranches2
+Name:Put a blemmigan ashore
+Id:147563
+Description:Dark and dank: just how they like it.
+
+		DefaultEvent
+Name:An unseemly brawl
+Id:182370
+Description:The blemmigan whirls across the quay and under an upturned boat, occasioning some alarm. Gone from your life! Your duty is done!
+<br/><br/>
+Not quite. With a furious insectile screech, sorrow-spiders converge on the boat. The blemmigan is driven into the open! It smashes one spider-carapace with its beak, vaults another spider in a flash of fungal dexterity, fences tendril-to-chelicerae with a third as they both dash up a wall. Then it's gone into the webs, its hyphal slimes protecting him from their sticky adhesions. Spiders pour after it. Who will know its end? Not you. You had nothing to do with this. If anyone asks, you were probably never even here.
+
+		ParentEvent
+Id:167221
+
+
+
+	ChildBranches3
+Name:Leave the Nativity
+Id:139716
+Description:You've done all you can do here. Still, at least you can tell yourself that you have the high moral ground.
+
+		DefaultEvent
+Name:You do have the moral high ground, right?
+Id:169608
+Description:One day, perhaps you will convince yourself.
+
+		ParentEvent
+Id:167221
+
+		SuccessEvent
+Name:You do have the moral high ground, right?
+Id:169609
+Description:Yes, you successfully convince yourself. Right!
+

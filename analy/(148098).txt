@@ -1,0 +1,68 @@
+Name:Speak to the Longshanks Gunner
+Id:148098
+Description:"Orright, Captain. What do yer want me to shoot at now?" [The Longshanks Gunner is not the most distinguished of officers, but she'll do until you find someone better.]
+
+
+
+	ChildBranches1
+Name:Increase your Iron
+Id:127108
+Description:"I'll swap yer." [Spending a Secret will improve your Iron, but no higher than 50.]
+
+		DefaultEvent
+Name:Days with the Regiment
+Id:148099
+Description:The Gunner ran with the Regiment, the urchin-gang who keep a cannon in a high clock-tower. But the urchin-gangs reject adults, and now she plies her skills at sea. From the way she stumbles over the story, she still misses them.
+
+		ParentEvent
+Id:148098
+
+
+
+	ChildBranches2
+Name:Ask her what she wants from life
+Id:146425
+Description:Why did she come to zee?
+
+		DefaultEvent
+Name:"Khan's Shadow!"
+Id:180631
+Description:"It's like the Flit at zee, right? No one to tell yer what to say or do. And no one to kick yer downstairs, just 'cos you got a little bit tall. I'll be a faithful officer, but put me ashore at the Shadow, and I won't forget yer."
+<br/><br/>
+[Khan's Shadow is east of the Khanate proper, in the east-central Unterzee.]
+
+		ParentEvent
+Id:148098
+
+
+
+	ChildBranches3
+Name:Proposition the Longshanks Gunner
+Id:146500
+Description:"I always liked you. Back when we was still on the roof-tops." [The Gunner has grown bored of subtlety. Ensure your Iron is at least twenty points higher than your Veils.] 
+
+		DefaultEvent
+Name:A tousled heap
+Id:180761
+Description:You bear her laughing to the bunk, where you both do your best to stifle the laughter. (It wouldn't do to have the crew overhear. An affair with an officer would cause trouble.) The Gunner is lean, forthright and energetic: you are exhausted by the time you both drift off to sleep.
+<br/><br/>
+[Opportunities for other trysts with the Gunner will occur while you're at sea, substantially reducing Terror. However, if you have a lover in port, they might find out.]
+
+		ParentEvent
+Id:148098
+
+
+
+	ChildBranches4
+Name:Exchange a secret smile
+Id:146622
+Description:No one must know.
+
+		DefaultEvent
+Name:Later...
+Id:180992
+Description:[Opportunities for other trysts with the Gunner will occur while you're at sea - but not quite yet.]
+
+		ParentEvent
+Id:148098
+

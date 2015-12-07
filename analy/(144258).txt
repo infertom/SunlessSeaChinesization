@@ -1,0 +1,43 @@
+Name:Imperial Dreadnought
+Id:144258
+Description:...
+
+
+
+	ChildBranches1
+Name:Fight, if turned pirate
+Id:124667
+Description:
+
+		DefaultEvent
+Id:144259
+
+		ParentEvent
+Id:144258
+
+
+
+	ChildBranches2
+Name:Flee, if turned pirate
+Id:124668
+Description:
+
+		DefaultEvent
+Id:144260
+
+		ParentEvent
+Id:144258
+
+
+
+	ChildBranches3
+Name:Talk
+Id:124669
+Description:
+
+		DefaultEvent
+Id:144261
+
+		ParentEvent
+Id:144258
+

@@ -1,0 +1,145 @@
+Name:Vienna
+Id:151453
+Description:The capital of the Dual Monarchy has seen better days. The palaces still glitter, but the mood is uneasy. Every third wall seems daubed with graffiti, only rarely in German: UNITY OR DEATH and REMEMBER LONDON and THE LIBERATION OF NIGHT.
+<br/><br/>
+Radical elements have taken to smashing the gas-lamps with flung stones. At least that means it's decently dark at night.
+
+
+
+	ChildBranches1
+Name:Establish a business relationship
+Id:129256
+Description:The proud and glittering Café Ferstel has long been a centre of intellectual life. But its coffee has deteriorated in quality. Offer a sample to the Melancholic Proprietor.
+
+		DefaultEvent
+Name:"Aaaahhh..."
+Id:151454
+Description:The Proprietor's sorrowful expression vanishes. His eyebrows bristle. Even his ears seem to prick up. "My friend, this is extraordinary. What flavours do I detect? Cinnamon? Jasmine? is that... bat guano? The vitality of this substance! The energy!"
+<br/><br/>
+His enthusiasm dissipates abruptly. "Yes. Yes, I suppose it will do. I'll pay you eighty kronen - whatever that is in your peculiar subterranean currency - for every sack you bring me. Perhaps it will do this poor old place some good. Anything's possible, I suppose."
+
+		ParentEvent
+Id:151453
+
+
+
+	ChildBranches2
+Name:Deliver coffee to the Café Ferstel
+Id:130776
+Description:Gas-lamps glow; waiters swoop; chess-players hunch over their tables. The Melancholic Proprietor looks up from his moustache wax. "Aha," he says gloomily. "My only remaining friend. I'm glad you're not dead yet."
+
+		DefaultEvent
+Name:The black blood of the Ferstel
+Id:153901
+Description:"Each day - " the Proprietor waves at the bustling blaze of the Café " - we draw a little nearer to bankruptcy. Your coffee helps delay our demise, if only by a week or two. I am grateful, I suppose. Here: this is all I can afford to pay you."
+
+		ParentEvent
+Id:151453
+
+
+
+	ChildBranches3
+Name:"Psst! Friend! Strike a blow for freedom, will you?"
+Id:130777
+Description:A Fidgety Agitator beseeches you to take supplies below, to London, for the cause of Revolution.
+
+		DefaultEvent
+Name:Esoteric glassware
+Id:153902
+Description:"Our sisters and brothers below are performing experiments in light. For, you know, the Liberation." The Agitator clasps your shoulder. "These are hard to find in the Neath. So hard. You'll be advancing our cause by months. Please. For freedom from all tyrants."
+
+		ParentEvent
+Id:151453
+
+
+
+	ChildBranches4
+Name:Report the Fidgeting Agitator to the authorities
+Id:130778
+Description:His idealism burns worryingly bright. Besides, you might turn a profit from informing on him.
+
+		DefaultEvent
+Name:A dinner with a gentleman from the Bureau
+Id:153903
+Description:A fierce old fellow listens intently to your account, and dispatches agents to arrest the Agitator. "We are grateful," he says. "I shall not insult you by offering you payment. But I must invite you to dine with me before you leave."
+<br/><br/>
+No payment? But the dinner conversation is rich with valuable information. Perhaps the old fellow is using you as a pawn in some scheme of his own. No matter: the Admiralty would love to hear this.
+
+		ParentEvent
+Id:151453
+
+
+
+	ChildBranches5
+Name:Another favour for the Agitator
+Id:147487
+Description:"Over here, friend! The Work proceeds. But you can help it proceed faster."
+
+		DefaultEvent
+Name:Supplies, London-bound
+Id:182263
+Description:"One day, my friend, we will extinguish the Sun, who is the king of all kings. But one step at a time, eh? One step at a time."
+
+		ParentEvent
+Id:151453
+
+
+
+	ChildBranches6
+Name:Dine with your friend from the Bureau
+Id:147488
+Description:"Back so soon? A charming surprise! How is life in the netherworld? Do you perhaps have something else for me?"
+
+		DefaultEvent
+Name:Nine courses, and a rare liqueur
+Id:182264
+Description:"You enjoyed the ham hock? I will have Cook provide you with something to take away. Well, thank you for your company. Most pleasant. And most enlightening."
+
+		ParentEvent
+Id:151453
+
+
+
+	ChildBranches7
+Name:Back to Naples
+Id:147489
+Description:The Midnight Express. The eight o'clock train is less crowded, but dangerously exposed to sunlight. Besides, you have your return ticket.
+
+		DefaultEvent
+Name:The hum of the rails
+Id:182265
+Description:Fall asleep in a carriage with two gossiping bankers. Wake with your head on a snoring soldier's shoulder. Fortunately he doesn't seem to have noticed.
+
+		ParentEvent
+Id:151453
+
+
+
+	ChildBranches8
+Name:No sign of your contact
+Id:147491
+Description:Where is the Fidgeting Agitator?
+
+		DefaultEvent
+Name:Your work is done
+Id:182267
+Description:Of course. The Great Work is complete. Perhaps he's gone below to celebrate it.
+
+		ParentEvent
+Id:151453
+
+
+
+	ChildBranches9
+Name:The Ferstel's carcass
+Id:147493
+Description:The Café Ferstel is a fire-ravaged wreck! A hand-lettered sign hangs from the blackened, twisted frame of the entrance door.
+
+		DefaultEvent
+Name:A notice from the Melancholy Proprietor
+Id:182269
+Description:"FRIENDS, RESPECTED CLIENTS - for months I have lived in the twin shadow of Revolution and Destitution. Each day, their terrors have weighted my soul with lead. The fear of it has been too much to bear. Consequently, I have set my Café afire. I regret the inconvenience. I will wait at home for the police. Farewell."
+
+		ParentEvent
+Id:151453
+

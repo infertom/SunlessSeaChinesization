@@ -1,0 +1,183 @@
+Name:Whither
+Id:143319
+Description:Behind the great arch over the Bay, the Pale Wastes stretch, white and silent as the face of the moon. From here, you might almost imagine they were snow. North of the city, the salt-pools fizz with unlikely colour.
+
+
+
+	ChildBranches1
+Name:Explore the town
+Id:127781
+Description:Whither is a quiet, chilly town of grey stone and closed courtyards. The people are neither exactly unfriendly nor exactly hospitable: they have the irritating habit of answering a question with a question. Here and there, there are odd sights tucked away...
+
+		DefaultEvent
+Name:
+Id:149039
+Description:
+
+		ParentEvent
+Id:143319
+
+
+
+	ChildBranches2
+Name:Explore the town
+Id:127782
+Description:Whither is a quiet, chilly town of grey stone and closed courtyards. The people are neither exactly unfriendly nor exactly hospitable: they have the irritating habit of answering a question with a question. Here and there, there are odd sights tucked away...
+
+		DefaultEvent
+Name:
+Id:149040
+Description:
+
+		ParentEvent
+Id:143319
+
+
+
+	ChildBranches3
+Name:Whither
+Id:127784
+Description:Whither is a quiet, chilly town of grey stone and closed courtyards. The people are neither exactly unfriendly nor exactly hospitable: they have the irritating habit of answering a question with a question. Here and there, there are odd sights tucked away...
+
+		DefaultEvent
+Name:
+Id:149042
+Description:
+
+		ParentEvent
+Id:143319
+
+
+
+	ChildBranches4
+Name:Gather intelligence
+Id:127988
+Description:The citizens of Whither enjoy questions: so much so that they always answer a question with another question. This can make intelligence-gathering frustrating.
+
+		DefaultEvent
+Name:
+Id:149369
+Description:"Are you asking for any particular reason?" "At what time of day?" "Is that your hat?" "Might it be six?" It could be six. Eventually you cobble together enough implication and supposition to compose a report.
+
+		ParentEvent
+Id:143319
+
+
+
+	ChildBranches5
+Name:A Riddling Contact
+Id:130378
+Description:"Who seeks the ships?" "Is the Khanate our true enemy?" "What is the nature of sleep?" Ah yes. Whitherns only answer a question with a question. It's an annoying habit in a spy. Perhaps you can piece the report together.
+
+		DefaultEvent
+Name:Simple enough
+Id:153210
+Description:He's using a combination of codes and puzzles. Nothing that would inconvenience anyone who pays attention. Idiot. Still, you have your information now.
+
+		ParentEvent
+Id:143319
+
+
+
+	ChildBranches6
+Name:A Riddling Contact
+Id:130379
+Description:Your contact's riddles make little sense to you. Perhaps you can combine them with the lore you've already learnt - [This will use up the Fragments.]
+
+		DefaultEvent
+Name:A long struggle
+Id:153211
+Description:Eventually you've teased the meaning out of his words. It's like trying to convince a cat to release a ball of wool. He's cat-smug, too. At last you have your information.
+
+		ParentEvent
+Id:143319
+
+
+
+	ChildBranches7
+Name:Put a blemmigan ashore
+Id:133914
+Description:What questions might a blemmigan ask?
+
+		DefaultEvent
+Name:It is not enthusiastic
+Id:158888
+Description:It doesn't say anything, of course - but its opinion is apparent. "What the hell are you thinking?", perhaps. Ice, salt and dust are not to its taste.
+
+		ParentEvent
+Id:143319
+
+
+
+	ChildBranches8
+Name:Explore the Town
+Id:147420
+Description:Whither is a quiet, chilly town of grey stone and closed courtyards. The people are neither exactly unfriendly nor exactly hospitable: they have the irritating habit of answering a question with a question. Here and there, there are odd sights tucked away...
+
+		DefaultEvent
+Name:A walk by the shore
+Id:182170
+Description:The black zee whispers on the beach. Another soft sound is audible above the waves...
+
+		ParentEvent
+Id:143319
+
+
+
+	ChildBranches9
+Name:Explore the town
+Id:147421
+Description:Whither is a quiet, chilly town of grey stone and closed courtyards. The people are neither exactly unfriendly nor exactly hospitable: they have the irritating habit of answering a question with a question. Here and there, there are odd sights tucked away...
+
+		DefaultEvent
+Name:The wind speaks
+Id:182171
+Description:You fall into a reverie as you wander the shore. There are words in the wind: a story of sorts, of a gate in the North, of a pale light that began there, of a drowned light that will end there, of a high wilderness that other ships may sail. You lift your eyes. On the wall of a salt-works, someone has scrawled IS THERE A SEA MORE SUNLESS?
+
+		ParentEvent
+Id:143319
+
+
+
+	ChildBranches10
+Name:Shore leave in Whither
+Id:124055
+Description:The folk of Whither are quiet and sly and mystical. They subsist on cave-fish and the dust-burrowing beasts of the Waste. Their beer, however, is adequate.
+
+		DefaultEvent
+Name:"Keep a low profile."
+Id:143321
+Description:Your advice to your crew goes unheeded. One of them grows irritated at the Whithern habit of answering a question with a question. She punches the mayor's nephew in the nose, and is hauled off to gaol. You ask about the date of their release. When the Whithern constables respond with "What is the price of time?", "How can one measure freedom?" and "Why do you want to know?", you are sorely tempted to follow your crewman's example, but restrain yourself. You are forced, however, to sail without her.
+
+		ParentEvent
+Id:143319
+
+		SuccessEvent
+Name:"Keep a low profile."
+Id:143700
+Description:Your crew follow your example faithfully. One drinks a little too much pale Whithern beer and has to be fished from the harbour, but they spend a relatively decorous night gambling for salt and bone, and return refreshed.
+
+
+
+	ChildBranches11
+Name:Help Maybe's Daughter search for her mother
+Id:146192
+Description:"I don't know why anyone would come here. But she does. Something about questions." The Daughter shivers. "You know: she asks people about love? All the time? And writes down the answers in her nasty little book. Love." The Daughter's mouth twists.
+
+		DefaultEvent
+Name:"NOTHING."
+Id:180257
+Description:"I have been asking QUESTIONS for THREE HOURS and every time I ask a QUESTION they reply with a QUESTION and I THINK I MIGHT - "
+<br/><br/>
+"Well, I might, but I didn't. I just picked their pockets. I think that's entirely reasonable under the circumstances, don't you? Here's your share. Let's go and look somewhere else."
+
+		ParentEvent
+Id:143319
+
+		SuccessEvent
+Name:"No luck. But - "
+Id:180258
+Description:You follow the Daughter's stunned gaze. A woman in a lilac gown leans in the doorway of a salt-merchant. Her features bear an unmistakable resemblance to your officer's. "We should talk," she says to the Daughter, quite calmly.
+<br/><br/>
+The Daughter assembles the rags of her composure with remarkable speed. "Excuse us," she says...
+

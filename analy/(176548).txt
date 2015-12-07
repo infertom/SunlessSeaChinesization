@@ -1,0 +1,19 @@
+Name:ZLIMBO'D - UNUSED CLOSER
+Id:176548
+Description:Meeting with the Monkey Emperor to celebrate.
+
+
+
+	ChildBranches1
+Name:But for now, just a quick cut
+Id:143994
+Description:Cut!
+
+		DefaultEvent
+Name:Zeppelin is complete
+Id:176549
+Description:Add Exotic effect for good measure.
+
+		ParentEvent
+Id:176548
+

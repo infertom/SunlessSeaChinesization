@@ -1,0 +1,237 @@
+Name:The Web of Stone
+Id:167215
+Description:The last remnants of an ancient citadel, now home to the spider-council of Saviour's Rocks. Eyeless Weavers and Widows busy themselves tending to the spiders and their Tree of Seasons, showing neither interest or concern at your presence. You will be Summoned.
+
+
+
+	ChildBranches1
+Name:Spy on the Weavers and Widows
+Id:138295
+Description:To spy on the blind is no challenge, but the glares of the sorrow-spiders all around make it clear that while here, you will never not be under observation.
+
+		DefaultEvent
+Name:A family of red and green
+Id:167216
+Description:The cultists politely ignore you as you watch them at work; the Weavers in red, tending the webs, the Widows in green, caring for their masters by reducing grisly foodstuffs to paste and feeding the more senior members of the spider-council by hand.
+<br /><br />
+If there is any reason for these assignments, it is impossible to tell. Certainly, there is an assortment of male Widows and female Weavers amongst the cultists' ranks.Perhaps the sorrow-spiders have as much interest in human gender as in spider-gender.
+
+		ParentEvent
+Id:167215
+
+
+
+	ChildBranches2
+Name:Summoned by the spider-council
+Id:138353
+Description:It is time. You have been called.
+
+		DefaultEvent
+Name:The Tree of Seasons runs black with sorrow
+Id:167301
+Description:From the eyes of the statue pours a poisonous conclave, a thousand lesser sorrow-spiders perching on every rock, brick and outcropping. The Emissary of Spiders rises from his meditation at the base, his robe festooned with the most senior members of the council that they might whisper their will in his ear. They speak, of course. Most eloquently, in fact. That does not mean they will lower themselves to speak to you. Not directly.
+<br /><br />
+"Excellent. Excellent." The Emissary of Spiders bows slightly. "My mephitic masters bid you welcome. I believe we have business to discuss."
+
+		ParentEvent
+Id:167215
+
+
+
+	ChildBranches3
+Name:Behold the Tree of Seasons
+Id:138361
+Description:The heart of the spider-council. Few have laid eyes upon it, and most of those have had said eyes ritually removed to birth new sorrow-spiders shortly afterwards.
+
+		DefaultEvent
+Name:Pride of the sorrow-spiders
+Id:167313
+Description:Branches of webs hang in their thousands from the colossal statue of some being as far from an angel as an angel from a man. The spider-council has made its home in the chipped out eyes, surrounded by its lessers and a precious collection of ensnared unfortunates. Hundreds of these captives dangle in silk cocoons, the sane and still-living tended to just enough to serve their full measure of both use and suffering.
+
+		ParentEvent
+Id:167215
+
+
+
+	ChildBranches4
+Name:Burn the Tree of Seasons
+Id:138362
+Description:The Weavers and Widows have torches to warm them during their work. Now you will use them to put an end to it! D__n the consequences!
+
+		DefaultEvent
+Name:Time slows to a crystal moment
+Id:167314
+Description:Wait. Are you making a terrible mistake?
+
+		ParentEvent
+Id:167215
+
+
+
+	ChildBranches5
+Name:Attempt to rest until summoned
+Id:138376
+Description:Amongst an army of poisonous spiders and deranged cultists? Still not as rough as the flophouses of Spite.
+
+		DefaultEvent
+Name:An uneasy rest
+Id:167331
+Description:There is little to be had. Every time you close your eyes for more than a moment, you feel the hairs of a sorrow-spider on your skin or an exploratory rub of a mandible against your eyes. But time slowly passes even so, and eventually, time is what it is.
+
+		ParentEvent
+Id:167215
+
+
+
+	ChildBranches6
+Name:Hospitality of the sorrow-spiders
+Id:138377
+Description:A polite Widow indicates her fellow disciples' willingness for you to take a meal with them.
+
+		DefaultEvent
+Name:A feast of gods
+Id:167332
+Description:The sorrow-spiders often resort to cannibalism when food is low. It is on occasion the Weavers and Widows' privilege to share that bounty, that they may be a greater part of the whole. At least the poison has been removed, and the legs are surprisingly effective when pressed into duty as impromptu toothpicks.
+
+		ParentEvent
+Id:167215
+
+		RareDefaultEvent
+Name:"Where is the horse that pulled our cart?"
+Id:167336
+Description:This is one of many questions for which an answer can serve no good. The meat is not especially tender, but it is at least filling.
+
+
+
+	ChildBranches7
+Name:A new initiate
+Id:138452
+Description:A naked young man lies on a stone platform, his shaking hands squeezed tight by his brothers and sisters to be.
+
+		DefaultEvent
+Name:An eye for an I, said the spider to the fly
+Id:167447
+Description:There is no chanting and no singing. There is just a low-pitched noise from the cultists' throats as a sorrow-spider climbs up the initiate's body. He quivers as it reaches his face, drips of excited poison dripping into his lips. Strong, caring, but above all else, firm fingers peel back his eyelids and hold them wide.
+<br /><br />
+A scream. A mouth silenced with bundled cloth. An embrace. A note raised high and loud, until the Tree of Seasons itself seems to shake in the cacophony.
+<br /><br />
+A Widow gently kisses his new brother on the forehead, wrapping a silk blindfold around his hollow eyes.
+
+		ParentEvent
+Id:167215
+
+
+
+	ChildBranches8
+Name:Further investigate the Tree of Seasons
+Id:138939
+Description:The sorrow-spiders have taken many prisoners.
+
+		DefaultEvent
+Name:There is no escape but death
+Id:168334
+Description:The captives have long since ceased moaning, though some still quiver as sorrow-spiders crawl across their bodies, milking their secrets. A Venturing Cartographer who travelled too far east. A Lady of Means, from a voyage eighteen years prior. The Captain of the wrecked ship Nocturne. A broken Devil, old enough to have forgotten the smell of brimstone. Their eyes long since harvested to birth the sorrow-spiders' progeny, they hang immobile in darkness, dreaming of oblivion.
+
+		ParentEvent
+Id:167215
+
+
+
+	ChildBranches9
+Name:Spying: On the grand spider-council
+Id:138607
+Description:A group of Weavers and Widows is quietly discussing something. You might be able to listen in.
+
+		DefaultEvent
+Name:The cultists go quiet
+Id:167695
+Description:Did they hear your footsteps? Did something else alert them? Either way, you will hear nothing.
+
+		ParentEvent
+Id:167215
+
+		RareDefaultEvent
+Name:The sorrow-spiders hiss angrily
+Id:167696
+Description:They do not appreciate outsiders trying to steal their secrets. They guard them ferociously.
+
+		SuccessEvent
+Name:"Before the harvest, an orchard must grow."
+Id:167697
+Description:They speak of a chaos brought under control by a spider-council formed from the blinded eye of a great zee-beast. They speak of the strained partnership it maintains with those who could so easily be enslaved. They speak of a Tree of Epochs, to be birthed in forbidden light, its branches stretching through the Neath to become the perfect geometry of sorrow.
+
+
+
+	ChildBranches10
+Name:Spying: On a deal with a... ?
+Id:138608
+Description:A group of Weavers and Widows is quietly discussing something. You might be able to listen in.
+
+		DefaultEvent
+Name:The cultists go quiet
+Id:167698
+Description:Did they hear your footsteps? Did something else alert them? Either way, you will hear nothing.
+
+		ParentEvent
+Id:167215
+
+		RareDefaultEvent
+Name:The sorrow-spiders hiss angrily
+Id:167700
+Description:They do not appreciate outsiders trying to steal their secrets. They guard them ferociously.
+
+		SuccessEvent
+Name:"A secret shared is no secret at all."
+Id:167699
+Description:They speak of a century of stolen secrets, and a almost as long regretted promise made to a great zee-beast. They speak of its greed for knowledge, for which it willingly blinded another creature with the light of the stars. They speak of secrets, eagerly grasped, reluctantly relinquished. They speak of the curse of curiosity. In hushed tones, they speak of a trap, yet to be baited.
+
+
+
+	ChildBranches11
+Name:Spying: On the Tree of Ages
+Id:138609
+Description:A group of Weavers and Widows is quietly discussing something. You might be able to listen in.
+
+		DefaultEvent
+Name:The cultists go quiet
+Id:167701
+Description:Did they hear your footsteps? Did something else alert them? Either way, you will hear nothing.
+
+		ParentEvent
+Id:167215
+
+		RareDefaultEvent
+Name:The sorrow-spiders hiss angrily
+Id:167703
+Description:They do not appreciate outsiders trying to steal their secrets. They guard them ferociously.
+
+		SuccessEvent
+Name:"The council that sits, the council that sails."
+Id:167702
+Description:They speak of a ship sent forth from Saviour's Rocks to catch secrets in its webs. They speak of its triumph, stealing a star-blinded eye of the deep. They speak of a greater eye still; unseen, unseeing, finally attainable.
+
+
+
+	ChildBranches12
+Name:Spying: On the subject of eyes
+Id:138610
+Description:A group of Weavers and Widows is quietly discussing something. You might be able to listen in.
+
+		DefaultEvent
+Name:The cultists go quiet
+Id:167704
+Description:Did they hear your footsteps? Did something else alert them? Either way, you will hear nothing.
+
+		ParentEvent
+Id:167215
+
+		RareDefaultEvent
+Name:The sorrow-spiders hiss angrily
+Id:167706
+Description:They do not appreciate outsiders trying to steal their secrets. They guard them ferociously.
+
+		SuccessEvent
+Name:"But what is it that truly births the masters of sorrow? A thing of the jelly... or the soul?"
+Id:167705
+Description:They speak of the secret origins of councils; of apples blinded by Correspondence becoming cores. They speak of the grand council that is, and the greater council that is to come; the Tree of Epochs that will turn joy into sorrow and from that sorrow hatch eschaton.
+

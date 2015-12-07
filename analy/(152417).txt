@@ -1,0 +1,57 @@
+Name:The Falling City
+Id:152417
+Description:The walled city of Varchas is a tangle of green vines and luminescent fungal flowers slow-blooming around mouldering stone. A quincunx of carved stepped-towers rise over the walls and pour burning white light into the bleak sky. 
+<br/><br/>
+A rough, shadowed path leads from the docks to the Mirrored Gates of Varchas. But there is no fire burning in the towering stone-lamps beside the gates, and no blue-cloaked Guard.
+<br/><br/>
+Varchas is barred to visitors.
+
+
+
+
+	ChildBranches1
+Name:A distant roar
+Id:129878
+Description:Is that rioting you hear, from inside the city?
+
+
+		DefaultEvent
+Name:
+Id:152418
+Description:Whatever it is, it does not bode well. Varchas is in uproar, and you can hear the clash of steel and the animal sounds of men and women heaving against each other and shouting. As you watch, the light from one of the Five Towers of the city flickers out. There is a tremendous crash, like a mirror breaking into a thousand, thousand pieces, and then a horrible hush.
+<br/><br/>
+You turn back towards your ship. No wonder they are not open to visitors.
+
+		ParentEvent
+Id:152417
+
+
+
+	ChildBranches2
+Name:Put a blemmigan ashore
+Id:147573
+Description:There is no guard to prevent it.
+
+		DefaultEvent
+Name:Into the darkness
+Id:182381
+Description:The blemmigan whirls into silent safety. As if Varchas didn't have enough troubles. Never mind. It'll probably cancel out.
+
+		ParentEvent
+Id:152417
+
+
+
+	ChildBranches3
+Name:Compile a Port Report
+Id:147656
+Description:The gates are closed.
+
+		DefaultEvent
+Name:Only a few details
+Id:182512
+Description:You can't tell the Admiralty much. But they will want to know, at least, that Varchas remains closed.
+
+		ParentEvent
+Id:152417
+

@@ -1,0 +1,52 @@
+Name:The Silent House
+Id:149699
+Description:The house seems empty: all is still. Why, then, do you have the sense that there's not much time remaining?
+
+
+
+	ChildBranches1
+Name:Loot the house
+Id:128176
+Description:Musical instruments, curios, jewellery. Even Phoebe's paintings will sell. It's robbery, not salvage, but if you don't, someone else may.
+
+		DefaultEvent
+Name:Uncertain loyalties
+Id:149701
+Description:The crew spread out to spread out whatever they can. They're not happy: few of them signed on to be robbers. They return with their arms full of both junk and treasures. The sisters have, or had, an awful lot of junk. Outside, the sea soughs.
+
+		ParentEvent
+Id:149699
+
+		RareDefaultEvent
+Name:One too few.
+Id:149705
+Description:The crew spread out to spread out whatever they can. They're not happy: few of them signed on to be robbers. They return with their arms full of both junk and treasures. The sisters have, or had, an awful lot of junk. You count heads, and find you're one man short... the others shift and mutter. The sea soughs outside.
+
+
+
+	ChildBranches2
+Name:Search the house
+Id:128175
+Description:Discover whatever you can about what happened here.
+
+		DefaultEvent
+Name:An empty house?
+Id:149700
+Description:Bedrooms, bathrooms, the breakfast room, the servant's stairs: all empty of life. The long-case clock at the top of the stairs ticks like a heart. Outside, the sea sighs.
+
+		ParentEvent
+Id:149699
+
+		SuccessEvent
+Name:A distant song
+Id:149702
+Description:You cock your head and listen. Someone is singing - a woman's voice - "Soft o'er the fountain, lling'ring falls the southern moon..."
+<br/><br/>The sound takes you up the winding stairs you to the turret at the back of the house. You try the door at the top: locked. The sound ceases.
+It was Phoebe's voice. You call out to her. What's happened?
+<br/><br/>
+"We wanted their stories," she explains, reasonably. "We only wanted their stories in the beginning. We get so starved for stories out here. But then Lucy - Lucy - " she breaks down in sobbing.
+<br/><br/>
+"Want us to break down the door?" your bo'sun whispers. While you're considering the answer, one of your crew swears and points. Smoke is leaking from beneath the door.
+<br/><br/>
+"I deserve an ending!" Phoebe calls out. When you press your hand to the door, you can feel the heat on your palms.
+

@@ -1,0 +1,27 @@
+Name:A Delightful Welcome
+Id:176054
+Description:The Delightful Adventuress leans over the rail of the ship, sniffing the humid air with evident distaste. "What a filthy, damp little place. Oh well, we shall endure."
+<br /><br />
+At the sight of the Mayor hobbling up, she straightens. A thin, insincere smile spreads across her face. "Ah! You there! My good primitive!" she calls, striding down the ramp and clasping his arm tight. "Now then, I come in search of your First Emperor's Vault, and for that I shall be needing a few things. Some of your finest workers, and tools, and some food. Do you understand me?"
+<br /><br />
+She shakes her head, barely waiting for a response. "F-o-o-d," she repeats. <i>"Komprenas?</i> Oh dear, I see we shall be here for a while. Listen, I hear you fellows rather like souls. Shall we discuss that like higher primates?"
+
+
+
+	ChildBranches1
+Name:Payment for the journey
+Id:143660
+Description:Barnabas stays to settle up while his mistress negotiates the value of her soul with the Mayor.
+
+		DefaultEvent
+Name:A man with no face
+Id:176055
+Description:Barnabas removes his mask with what looks to be a silent moment of great relief. Underneath is... nothing, just a flat surface where his face should have been. Ah. An <i>Unfinished</i> Clay Man: one of those flawed products of Polythreme that follow their own rules. If only you'd known that before he boarded. Of course, that's why the Adventuress never mentioned it.
+<br /><br />
+He silently presents you with your agreed fee, dips his head in a polite bow, and lumbers back to his mistress. It appears she has struck a deal with the Mayor.
+<br />
+[The Delightful Adventuress will establish a basecamp on Fountainhead Island. She welcomes your assistance, as one who has proven to be not entirely useless.]
+
+		ParentEvent
+Id:176054
+

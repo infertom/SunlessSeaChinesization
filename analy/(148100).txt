@@ -1,0 +1,36 @@
+Name:Speak to the Plausible Surgeon
+Id:148100
+Description:"Hello, my dear, my dear. Sit down carefully. Just let me tidy away these implements. We don't want any carelessness, do we?"
+
+
+
+	ChildBranches1
+Name:Increase your Pages
+Id:127109
+Description:"Ohoho, we'd like to talk about <i>secrets</i>, would we? Secrets are my very <i>favourite</i>." [Spending a Secret will improve your Pages, but no higher than 50.]
+
+		DefaultEvent
+Name:Personal attention
+Id:148101
+Description:He likes to sit very close when he speaks, the Plausible Surgeon. He speaks familiarly of diseases and hauntings, as if he knew their first names, but chose not to disclose them out of courtesy and discretion. This makes some of his advice confusing, but you do learn intriguing details.
+
+		ParentEvent
+Id:148100
+
+
+
+	ChildBranches2
+Id:146431
+
+		DefaultEvent
+Name:"The Chelonate!"
+Id:180638
+Description:"You know it? They collect corpses." He shifts in his seat. "Vast, noble, complicated <i>corpses</i>. What I could learn! What I could see!"
+<br/><br/>
+"My dearest Captain - if we ever find ourselves in the Chelonate, I do hope you might see fit to release me from our arrangement."
+<br/><br/>
+[The Chelonate can be found somewhere in the far East of the Unterzee.]
+
+		ParentEvent
+Id:148100
+

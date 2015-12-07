@@ -1,0 +1,44 @@
+Name:Rebellious murmurs
+Id:141724
+Description:Plates are empty, cups are dry. Your crew's loyalty is less certain by the day.
+
+
+
+	ChildBranches1
+Name:Discipline
+Id:124815
+Description:Promise them that if they cross you, they'll never see their homes again.
+
+		DefaultEvent
+Name:Jeers
+Id:144487
+Description:"Take down that man's name!" your First Officer raps. The troublemaker who jeered you is hauled off into the brig. The crew wear the mulish expressions you know too well, of zailors forced to obey... for now.
+
+		ParentEvent
+Id:141724
+
+		SuccessEvent
+Name:Fears
+Id:144488
+Description:When you've done, there is absolute silence from the crew. The engines roar below: the ship surges on. "Dismissed!" your First Officer growls.
+
+
+
+	ChildBranches2
+Name:Inspiration
+Id:122983
+Description:Promise that if they trust you a little longer, they'll see their homes again soon.
+
+		DefaultEvent
+Name:A glum response
+Id:141725
+Description:No cheers, no renewed enthusiasm. Time is running out.
+
+		ParentEvent
+Id:141724
+
+		SuccessEvent
+Name:A flicker of hope
+Id:144489
+Description:A hungry light burns in their eyes, but they're with you still. For now...
+

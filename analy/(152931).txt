@@ -1,0 +1,64 @@
+Name:Light-Ship
+Id:152931
+Description:Its clear bright beam warms the way.
+
+
+
+	ChildBranches1
+Name:Speak to the Crew
+Id:130198
+Description:They long for news of home...
+
+		DefaultEvent
+Name:Tea beneath the light
+Id:152932
+Description:In the bleaching glare of the lens, among the smells of oil and metal, you sip tea and chat. The zee's terror recedes.
+
+		ParentEvent
+Id:152931
+
+
+
+	ChildBranches2
+Name:Purchase Fuel
+Id:146861
+Description:They have a little spare, but it's twice the usual price.
+
+		DefaultEvent
+Name:A rattling load
+Id:181365
+Description:Your zailors chat uneasily while the light-crew load the coal.
+
+		ParentEvent
+Id:152931
+
+
+
+	ChildBranches3
+Name:Put a blemmigan aship
+Id:147284
+Description:It's unlikely to flourish, but you'll have done your duty.
+
+		DefaultEvent
+Name:Oil and light
+Id:181961
+Description:The blemmigan scampers off into the innards of the ship. Warm, but steely; quiet, but brightly lit. Surely it'll live a lonely, unfruitful life?
+
+		ParentEvent
+Id:152931
+
+
+
+	ChildBranches4
+Name:"Oh, no. No no no!"
+Id:147355
+Description:"We've heard about you. You're Captain Mushroom. You, Captain Mushroom, can turn right around and get back on your ship."
+
+		DefaultEvent
+Name:No longer welcome
+Id:182074
+Description:The light-ship crew line the rail as you leave, jeering and flinging fungus, which bounces harmlessly off your ship's hull. Charmless fellows.
+
+		ParentEvent
+Id:152931
+

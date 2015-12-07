@@ -1,0 +1,101 @@
+Name:The Guard House
+Id:152384
+Description:A modest stone building with bas-relief lintels and wide, unshuttered windows. The stylized sun of Mihir flutters from a silk flag above the portico.
+<br/><br/>
+It is a scene of controlled chaos. You can see the white-cloaked Guards bustling to and fro within, shouting companionably to each other while a stream of Fungus-Carters, merchants and ordinary citizens petition them.
+
+
+
+	ChildBranches1
+Name:What's going on?
+Id:129858
+Description:Is it a particularly busy day, or are they always so besieged?
+
+
+		DefaultEvent
+Name:
+Id:152385
+Description:"We are preparing for the pilgrimage to Amaradri - the Mountain of Light," a young Guard tells you, stamping yet another merchant's application. "It always turns into a bit of a festival. Everyone wants permission to go, and so they come to harangue us when the Sun-Priests turn them away."
+<br/><br/>
+Is it a religious pilgrimage? "Well, a bit," she makes a face. "Every merchant in the city suddenly becomes very devoted to Mihir when pilgrimage season comes, anyway!"
+<br/><br/>
+[When you have completed certain stories in the City, the Pilgrimage will begin, opening new opportunities.]
+
+		ParentEvent
+Id:152384
+
+
+
+	ChildBranches2
+Name:A Dream of Smoke
+Id:129859
+Description:Perhaps the guards will have some advice?
+
+
+		DefaultEvent
+Name:
+Id:152386
+Description:The young Guard gives you a look of utter bafflement. "Dreams? Mirrors?" She raises her eyebrows exaggeratedly.
+<br/><br/>
+One of her companions, clearly a wit, adds, "Guards don't dream in Varchas; the Master-at-Arms confiscates all your sleeping-hours when you sign up."
+<br/><br/>
+The young Guard shakes her head. "Perhaps you should talk to the priests at the Temple of Mihir. They are well-versed in such matters."
+
+		ParentEvent
+Id:152384
+
+
+
+	ChildBranches3
+Name:Hint at the Jewel-Turbaned Youth's activities
+Id:129860
+Description:You can leave out the bit where you told the gathering a forbidden story, and glide over any naming any particular names.
+
+		DefaultEvent
+Name:
+Id:152387
+Description:"Darkness-touched troublemakers!" The young Guard curses. "So far all they do is talk and smoke water-pipe and grumble, but I fear that they have strayed from the light of Mihir."
+<br/><br/>
+She sighs exaggeratedly. "Still, my superiors think that they are harmless. Perhaps this will change their minds. Mihir look down upon you for telling us, Taamas."
+
+		ParentEvent
+Id:152384
+
+
+
+	ChildBranches4
+Name:Return to the City Centre
+Id:129908
+Description:You are done here.
+
+		DefaultEvent
+Name:
+Id:152453
+Description:There is more of Varchas to explore.
+
+		ParentEvent
+Id:152384
+
+
+
+	ChildBranches5
+Name:Train with the guards
+Id:129861
+Description:There is a formation of new recruits doing basic forms in the courtyard.
+
+		DefaultEvent
+Name:
+Id:152388
+Description:You slip into the line unremarked, but accidentally break one of the recruit's noses with a wild strike. The Sergeant banishes you from the training grounds with a harsh glare.
+
+
+		ParentEvent
+Id:152384
+
+		SuccessEvent
+Name:
+Id:152389
+Description:The Sergeant does not object when you slip into line, but he doesn't treat you with any particular gentleness either. You practice hand-to-hand combat for a few hours, and end up on your back more often than not; they fight in an unfamiliar, light-footed style. A few of the more advanced recruits duel with curving, twin-bladed scimitars.
+<br/><br/>
+"Interesting," the Sergeant grunts, at the end of your session. You are bruised and possibly concussed, but quite satisfied with your morning: and you think they may have learnt something in turn.
+

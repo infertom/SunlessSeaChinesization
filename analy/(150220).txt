@@ -1,0 +1,34 @@
+Name:Placeholder Beastie
+Id:150220
+Description:I do not exist, but you can fight me if you like.
+
+
+
+	ChildBranches1
+Name:Fight!
+Id:128480
+Description:
+
+		DefaultEvent
+Name:
+Id:150221
+Description:
+
+		ParentEvent
+Id:150220
+
+
+
+	ChildBranches2
+Name:Flee!
+Id:128481
+Description:
+
+		DefaultEvent
+Name:
+Id:150222
+Description:
+
+		ParentEvent
+Id:150220
+

@@ -1,0 +1,209 @@
+Name:Shadowy work in Khan's Heart
+Id:146643
+Description:Your Network needs something, to prosper. What is it? [If you provide this successfully, your Network level may increase.]
+
+
+
+	ChildBranches1
+Name:A blessing
+Id:128869
+Description:Spies are more superstitious even than zailors. This one awaits an omen.
+
+		DefaultEvent
+Name:
+Id:150906
+Description:This is a scarf, from a traveller lost in the East. This is a clock, repaired on Irem. This is the dream that Salt has sent you, whispered in the ear of your agent. It may be nothing but delusions... but it's what your agent wanted. When she's finished weeping, she goes about her business. All shall be well, and all manner of thing shall be well.
+
+		ParentEvent
+Id:146643
+
+
+
+	ChildBranches2
+Name:Bait!
+Id:128875
+Description:Use a mouse to catch a rat. [Gain Vital Intelligence by tapping your network in Khan's Heart. Succeed or fail, this will use up the Intelligence.]
+
+		DefaultEvent
+Name:Boldness rewarded
+Id:150913
+Description:The White-and-Golds snap up your bait. Their spycatcher is too eager in pursuing more. You pass him plausible nonsense; and he's hooked.
+
+		ParentEvent
+Id:146643
+
+		RareDefaultEvent
+Name:Outratted!
+Id:173061
+Description:The Khanate has its share of canny operators. They take what you offer and leave you lorn as a Fluke.
+
+
+
+	ChildBranches3
+Name:Prisoner's Honey
+Id:128888
+Description:Khan's Heart is a darkly gleaming miracle of a city. But it's no paradise. Someone is looking for paradise.
+
+		DefaultEvent
+Name:A peerless taste
+Id:150928
+Description:Your Khaganian dupe knows the taste of honey, now. They know what its like to walk in dream-palaces and rapture-gardens. They'll never be free of you.
+
+		ParentEvent
+Id:146643
+
+
+
+	ChildBranches4
+Name:It just might work
+Id:128905
+Description:Oh God. This old trick again. Well, sometimes it works. And all it needs is a sack of coffee beans, a shakerful of Mutersalt and the name of the newest spy in town...
+
+		DefaultEvent
+Name:This one weird old trick
+Id:150947
+Description:The room is booked. The dinner is arranged. The special dish is prepared. The sign is made. The boatman is bribed. The bat is drugged. And it goes off flawlessly.
+
+		ParentEvent
+Id:146643
+
+		RareDefaultEvent
+Name:Calamity!
+Id:173781
+Description:The room is booked. The dinner is arranged. The special dish is prepared. The sign is made. The boatman is bribed. The bat is drugged. And it all falls apart when the lamp-oil catches fire. Well, that's a professional hazard, and then some...
+
+
+
+	ChildBranches5
+Name:Someone has a habit
+Id:128907
+Description:They call it red honey, or gaoler's honey. It is made in utmost secret, by very bad people. It's, ah, quite wonderful on the tongue. [This will increase your Network substantially, although not past 7.]
+
+		DefaultEvent
+Name:A hard bargainer
+Id:150949
+Description:Over the years, your contact has learnt to control her appetites. She wants what you can offer, but she won't throw in anything extra.
+
+		ParentEvent
+Id:146643
+
+		RareDefaultEvent
+Name:Desperation
+Id:173799
+Description:In the chilly spaces of the Garden Tower, your contact pleads for a taste. Just for a taste. You give them much more, and their gratitude is boundless.
+
+
+
+	ChildBranches6
+Name:Seek another opportunity
+Id:129020
+Description:Perhaps you simply can't obtain what you need. Let the opportunity pass. Come back later. [This will allow you to choose another mission when you come back - usually, but not always, a different one. It will cost Something Awaits You.]
+
+		DefaultEvent
+Name:Times change
+Id:151074
+Description:Spies' desires are capricious and diverse.
+
+		ParentEvent
+Id:146643
+
+
+
+	ChildBranches7
+Name:A dream of the Sun
+Id:129040
+Description:Someone misses home. Bring them news of the Surface.
+
+		DefaultEvent
+Name:A closely-written report
+Id:151111
+Description:You speak of the sirocco scents of the Mediterranean, the heart-filling shape of mountains against the evening. Each word you give them is repaid threefold.
+
+		ParentEvent
+Id:146643
+
+
+
+	ChildBranches8
+Name:A collector
+Id:142457
+Description:Your agent has a contact in the Leopard. But the sons and daughters of the Leopard are always hungry for treasures. [This will increase your Network substantially, although not past 7.]
+
+		DefaultEvent
+Name:Satisfaction
+Id:174187
+Description:Your gift is deemed sufficient. This Leopard princeling will be prepared to pass on gossip from Khan's Glory. Discreetly. Courteously. When the time is right.
+
+		ParentEvent
+Id:146643
+
+		RareDefaultEvent
+Name:Delight!
+Id:174188
+Description:Your little gift finds a warm welcome. The Leopard princeling has placed it in their private Heaven-shrine, you hear. You also hear something very striking about the rivalry between the Leopard and the Taimen. Memorise it closely.
+
+
+
+	ChildBranches9
+Name:A Diplomatic Agent
+Id:129019
+Description:The Voracious Diplomat, in London, can provide the kind of specialist assistance you need.
+
+		DefaultEvent
+Name:No word
+Id:151071
+Description:The Agent disappears into the teeming streets of Khan's Glory like a beetle into leaf-mould. You wait. And wait. And wait...
+
+		ParentEvent
+Id:146643
+
+		SuccessEvent
+Name:
+Id:151072
+Description:One of the White-and-Golds - the enforcers of the Khanate's order - came a little too close to your network. That was a mistake. The crabs didn't leave much. The Diplomat's people are ruthless. And your project continues.
+
+		RareSuccessEvent
+Name:Extensive information
+Id:151073
+Description:Other networks are active here - even surface ones. Within a day, your new agent has sent information on their operations. ('Amateurs', she comments, cheerfully.)
+
+
+
+	ChildBranches10
+Name:Cash
+Id:128874
+Description:Spies have an extraordinary appetite for funds. Bribes, hush-money, peculiar equipment...
+
+		DefaultEvent
+Name:Intercepted!
+Id:150912
+Description:The White-and-Golds found your courier. No doubt they'll find a satisfying use for your funds.
+
+		ParentEvent
+Id:146643
+
+		SuccessEvent
+Name:An accounting
+Id:151109
+Description:A long and sometimes confusing list of what they need it for. It's plausible, at least.
+
+
+
+	ChildBranches11
+Name:Your cunning is required
+Id:128876
+Description:This will need your personal attention.
+
+		DefaultEvent
+Name:Not quite exceptional
+Id:150914
+Description:An easy mistake. Anyone could have made it. You can't be expected to keep track of everything. But now someone's keeping track of you.
+
+		ParentEvent
+Id:146643
+
+		SuccessEvent
+Name:A craftsman!
+Id:151110
+Description:"If you ever want to retire from sailoring," offers one spy, "you've found your niche." Perhaps it's flattery. But you've done well tonight.
+

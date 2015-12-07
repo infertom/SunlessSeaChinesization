@@ -1,0 +1,34 @@
+Name:A stowaway!
+Id:176473
+Description:The quartermaster has been complaining of food going missing of late, and now you know why. The Monkey Foundling sits smiling innocently behind a crate, mouth surrounded by fresh crumbs and in a bed of... wait, your stolen clothes? Yeah, you seemed fun, she says. She desperately wants to explore the zee with you.
+
+
+
+	ChildBranches1
+Name:Let her stay
+Id:143929
+Description:She can earn her keep doing odd jobs for now. Your treasures need polishing. Your mug needs filling. In time, maybe you can make an Officer out of her.
+
+		DefaultEvent
+Name:"Yay!"
+Id:176474
+Description:The Monkey Foundling hugs you tight. And asks, eyes sparkling, where you keep the <i>weapons...</i>
+
+		ParentEvent
+Id:176473
+
+
+
+	ChildBranches2
+Name:Refuse
+Id:143998
+Description:The zee is no place for a child.
+
+		DefaultEvent
+Name:The Monkey Foundling bursts into tears
+Id:176554
+Description:But you hold firm. One day, she will have the chance to set to zee, like you did. For now, you will see her safe to an orphanage back in Fallen London. That pleasant one under the handsome townhouse, of course. Definitely not the other one. 
+
+		ParentEvent
+Id:176473
+

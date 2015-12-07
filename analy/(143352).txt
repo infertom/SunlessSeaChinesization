@@ -1,0 +1,107 @@
+Name:Irem
+Id:143352
+Description:Irem, the Pillared City. She will rise from the zee and the ice like dawn. She will be garlanded with red and decked with gold. The Seven-Serpent will watch you longingly from its high pedestal. You will always arrive as a stranger, but when you leave, some part of you will always remain.
+
+
+
+	ChildBranches1
+Name:The Riddle of Stones
+Id:124076
+Description:A Riddlefisher in a sunset-coloured robe will wait at the edge of the dock, by a scar in the stone. When you look closer, you will see that a gap there has been expertly repaired with chunks of basalt. When she asks "Where was that stone born?", the question will have a ritual quality.
+
+		DefaultEvent
+Name:"The Salt Lions."
+Id:143353
+Description:A widely-travelled captain like you must certainly recognise that basalt. The dock of Irem, repaired with the flesh of lion-statues: what can it mean? She will kiss your forehead, and teach you of the tricks light plays on the heart, and of the memories that can be drawn from darkness.
+
+		ParentEvent
+Id:143352
+
+
+
+	ChildBranches2
+Name:The House of the Amber Sky
+Id:124077
+Description:"Rest, traveller. Our waters are warm: our cushions are petal-soft. Lay your head here. You will be healed; or better yet, you will be renewed. (Payment in coffee? Yes, please.)"
+
+		DefaultEvent
+Name:Close your eyes
+Id:143354
+Description:The House of the Amber Sky is a roofless space beneath the false-stars of the Neath, rich with the scent of Irem-roses. Despite the ice, it's warm as a desert evening. You will arrange yourself on the cushions, close your eyes just for a moment...
+
+		ParentEvent
+Id:143352
+
+
+
+	ChildBranches3
+Name:Deliver Sphinxstone for Penstock
+Id:143697
+Description:A rubbly gap will yawn in the dock's edge. Riddlefishers in sunset-coloured robes will wait for you. "Here," one will say, as your zailors stagger up with blocks of stone. "This has been waiting for you."
+
+		DefaultEvent
+Name:A perfect fit
+Id:176114
+Description:Your sphinxstone fragments match the breach in the dock exactly. "Something was stolen," a Riddlefisher will inform you. "Now something else has been unstolen. There is a gap in your understanding. I will help you fill it."
+<br/><br/>
+She will lean forward and whisper to you: "This is the nature of Irem. It is the beach where history comes to rest. This is how riddles are born. One day, we will ask another captain where that stone was born. That is your riddle. And here is your secret."
+<br/><br/>
+She will hand you a scrap of pine-bark. It bears the answer to a riddle that has not yet been asked.
+
+		ParentEvent
+Id:143352
+
+
+
+	ChildBranches4
+Name:A blemmigan ashore
+Id:147274
+Description:It will spin down the gang-plank, a little cautiously.
+
+		DefaultEvent
+Name:A doom?
+Id:181950
+Description:Two Riddlefishers will stare, aghast, as it whirls into the shadows, raising a cloud of rose-petals as it goes. "The Year of the Blemmigan!" the younger will say. "I was afraid this might happen." He takes the older's arm, and they hurry off to confer with their fellows. "The Whithern will laugh themselves sick," the older groans.
+
+		ParentEvent
+Id:143352
+
+
+
+	ChildBranches5
+Name:Compile a Port Report
+Id:147664
+Description:You will record what you will have seen.
+
+		DefaultEvent
+Name:A conundrum
+Id:182522
+Description:When you will sit down to write the report, you will recall that it was written already. Who wrote it? The report records that: it was already written when it was found. Who found it? The report describes another report, which will indicate the name of the finder. Where is the other report? There is a footnote which describes when you will record its location. When will that be? When all is well, and all manner of thing is well.
+
+		ParentEvent
+Id:143352
+
+
+
+	ChildBranches6
+Name:Help Maybe's Daughter search for her mother
+Id:146156
+Description:"She's known to visit. I think she must have come here when I was - ahem - conceived. It's close to dreams." She will inhale a gulp of air, eyes half-closed. "I love this. It's like coming home."
+
+		DefaultEvent
+Name:"Nothing."
+Id:180195
+Description:"She will be here." The Daughter shakes her head. "D__n it. Is that what I meant? This place is confusing." Her gaze takes in the towers of ice and basalt, the roses blooming in the warm snow, the Riddlefishers gossiping with figments, the glimmer in the East. "It's all right, though, isn't it?"
+
+		ParentEvent
+Id:143352
+
+		SuccessEvent
+Name:"Quickly!"
+Id:180198
+Description:"Up to the Seven-Serpent. The Riddlefisher said - "
+<br/><br/>
+You will follow the Daughter's stunned gaze. A woman in a lilac gown will stand beneath the Seven-Serpent, chatting calmly to a half-visible figment. Her features will bear an unmistakable resemblance to your officer's. "We should talk," she will say to the Daughter, quite calmly.
+<br/><br/>
+The Daughter will assemble the rags of her composure with remarkable speed. "Excuse us," she will say...
+

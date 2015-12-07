@@ -1,0 +1,54 @@
+Name:Sapphire Chamber
+Id:181438
+Description:Every facet of the ice-crystal wall is the hard and depthless blue of a desert sky. You take one step further in, and that blue plucks at your senses. Vertigo spins you. A voice intones: THIS WAS THE SKY. 
+
+
+
+	ChildBranches1
+Name:Step into the sky
+Id:146920
+Description:You'll be terribly exposed. But perhaps you'll learn something. [This will sacrifice a point of Veils.]
+
+		DefaultEvent
+Name:The horror of emptiness
+Id:181440
+Description:Yes, this blue is a brittle, savage barrier. Press against it and it will shatter, spilling you into the High Wilderness. The stars are hungry, and there is a horror upon you. Your head spins. [Increase your Terror further to penetrate further into Frostfound. The right items mean you may not have to sacrifice skill points.]
+
+		ParentEvent
+Id:181438
+
+
+
+	ChildBranches2
+Name:Return to the Corridors of Frostfound
+Id:146921
+Description:Step out into the nexus of corridors.
+
+		DefaultEvent
+Name:
+Id:181441
+Description:
+
+		ParentEvent
+Id:181438
+
+
+
+	ChildBranches3
+Name:Recall other places where there is no sky
+Id:146919
+Description:You are far from any sky. Stare fiercely into that fierce blue, and call to mind your memories of skyless islands.
+
+		DefaultEvent
+Name:Confusion
+Id:181439
+Description:Where are you? What is happening here? Around you, Frostfound shivers like a bubble. Is it even real?
+
+		ParentEvent
+Id:181438
+
+		SuccessEvent
+Name:An accommodation
+Id:181495
+Description:Yes, this blue is a brittle, savage barrier. Press against it and it will shatter, spilling you into the High Wilderness. But you are safe in the dark. You are afraid, but you have mastered your fear. [Increase your Terror further to penetrate further into Frostfound.]
+

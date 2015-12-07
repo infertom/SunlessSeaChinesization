@@ -1,0 +1,51 @@
+Name:A Glittering Eye
+Id:146639
+Description:You turn, and there's a long, lank, brown man at your shoulder. "Listen," he says. "I have a story for you..."
+
+
+
+	ChildBranches1
+Name:"I - "
+Id:126186
+Description:Something about the grey-beard compels your attention.
+
+		DefaultEvent
+Name:A rambling tale
+Id:146640
+Description:His story has a wedding full of murders, and a leafless forest, and a vast serpent which eats souls. The tale winds on and on - like the serpent - until you are lost in the dizzy toils of its sinister ships and its glamorous corpses...
+<br/><br/>
+You nod awake: he's gone. But not, it seems, before searching your pockets for small change.
+
+		ParentEvent
+Id:146639
+
+
+
+	ChildBranches2
+Name:Turn the situation around.
+Id:126474
+Description:"No. <i>I</i> have stories for <i>you</i>."
+
+		DefaultEvent
+Name:Fresh from the sea
+Id:147078
+Description:He has experienced horror and wonder: but so have you. And your tale is so much the fresher. You wrestle with each others' histories, until at last he concedes. "Here," he says. "This is where it all began. With the astronomer, and the ephemerides." He whispers in your ear...
+
+		ParentEvent
+Id:146639
+
+
+
+	ChildBranches3
+Name:Leave. Don't look back.
+Id:126566
+Description:If once he catches your eye, you'll be lost.
+
+		DefaultEvent
+Name:Flee!
+Id:147220
+Description:You hasten away along the beach. Words drift after you: "...wedding...of its teeth...open children..." Stop your ears. Go!
+
+		ParentEvent
+Id:146639
+

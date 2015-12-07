@@ -1,0 +1,126 @@
+Name:Speak to Maybe's Daughter
+Id:148782
+Description:Perhaps you don't entirely trust her, but she keeps the engines turning, and she's hard to dislike.
+
+
+
+	ChildBranches1
+Name:Increase your Veils
+Id:127618
+Description:[Spend a Secret to improve your Veils, if it is no higher than 100.]
+
+		DefaultEvent
+Name:Complex knowledge
+Id:148783
+Description:She's serious once she gets talking. There's hard edges under the bluff and banter.
+
+		ParentEvent
+Id:148782
+
+
+
+	ChildBranches2
+Name:Answer questions about your past
+Id:127620
+Description:You've kept your secrets long enough. [Unmask yourself! This will allow you to select a Past, Ambition, and form of preferred address - also providing you with a specialist ability bonus.]
+
+		DefaultEvent
+Name:
+Id:148785
+Description:
+
+		ParentEvent
+Id:148782
+
+
+
+	ChildBranches3
+Name:Invite her to dine with you
+Id:127621
+Description:"That's a lovely idea. How about a fish dinner? ...I do have quite particular tastes in fish."
+
+		DefaultEvent
+Name:A knowing smile
+Id:148786
+Description:"I've heard about you. You like to invite your officers to dinner - learn their secrets. Well, you don't need to dig far to find my secret. I wanted to talk to you about it, actually."
+<br/><br/>
+"I've never met my mother. (I know my father. I'm a countess on his side, actually.) I'd like to find her. She's somewhere out at zee. If only..."
+<br/><br/>
+"Really? You'd help me? That's too kind. If you insist. Here: it so happens that I made a list, earlier tonight."
+<br/><br/>
+[Her mother will be found in one of these places: Whither, the Isle of Cats, Irem, the Chelonate, Khan's Shadow, Port Carnelian or the Surface port of Naples. Review this in your Journal, under Learning About: Maybe's Daughter]
+
+		ParentEvent
+Id:148782
+
+
+
+	ChildBranches4
+Name:About her mother...
+Id:146369
+Description:What exactly is the story with her mother?
+
+		DefaultEvent
+Name:"I don't know."
+Id:180531
+Description:"We never met. So we were never close. But I'm not close to many people. Honestly, I think that's her fault: I think she sold something of what I was."
+<br/><br/>
+She sighs. "My family is very, very complicated. I don't like any of them. But I think I like her the least."
+<br/><br/>
+[You can see any ports you've already searched in the 'Maybe' category in your Journal.]
+
+		ParentEvent
+Id:148782
+
+
+
+	ChildBranches5
+Name:Proposition Maybe's Daughter
+Id:147285
+Description:"What a coincidence. I was about to suggest the same thing."  [She has no interest in tediously sincere lovers. Ensure your Veils is at least twenty points higher than your Hearts.]
+
+		DefaultEvent
+Name:Discreet delights
+Id:181962
+Description:The Daughter disrobes you with efficiency and delighted enthusiasm; bares a shapely shoulder; winks. "Oh yes," she says, "I have other tattoos. Let's see what we can find."
+<br/><br/>
+[Opportunities for other trysts will occur while you're at sea, substantially reducing Terror. However, if you have a lover in port, they might find out.]
+
+		ParentEvent
+Id:148782
+
+
+
+	ChildBranches6
+Name:Proposition Nobody's Daughter
+Id:147286
+Description:"Why not?" [She has no interest in tediously sincere lovers. Ensure your Veils is at least twenty points higher than your Hearts.]
+
+		DefaultEvent
+Name:Discreet delights
+Id:181963
+Description:Nobody's Daughter touches you in the right way, in the right places. She responds with visible delight to your own responses. The sounds she produces are thrilling; the press of her flesh is consuming. Why, then, do you feel as if you have been the audience of a very select performance? Be that as it may, it's all sufficiently distracting. The cabin lamp swings, to and fro. The ship churns the sea. Kiss her again.
+<br/><br/>
+[Opportunities for other trysts will occur while you're at sea, substantially reducing Terror. However, if you have a lover in port, they might find out.]
+
+		ParentEvent
+Id:148782
+
+
+
+	ChildBranches7
+Name:Proposition Maybe's Rival
+Id:147287
+Description:"I've been wondering when you'd ask. I think it'll be different now. Since the Bazaar. Want to help me find out?" [She has no interest in tediously sincere lovers. Ensure your Veils is at least twenty points higher than your Hearts.]
+
+		DefaultEvent
+Name:Something new
+Id:181964
+Description:The Rival's hands are cool. Her mouth is hot. The scent of her skin, her hair, is intoxicating. In seconds, you are lost. What is happening here? She draws you, smiling, down. There is an interval of blank delight, shot through with pulses of wracking pleasure.
+<br/><br/>
+"Well," she says, as you recover. "I imagine we'll do <i>that</i> again. I'll see you later." She blows you a kiss and, grinning, departs.
+[Opportunities for other trysts will occur while you're at sea, substantially reducing Terror. However, if you have a lover in port, they might find out.]
+
+		ParentEvent
+Id:148782
+

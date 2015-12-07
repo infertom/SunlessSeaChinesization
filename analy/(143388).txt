@@ -1,0 +1,131 @@
+Name:Wisdom
+Id:143388
+Description:Nuppmiddt built this place as a prison for the Khanate. Now it answers only to its Governor, and its Governor answers to no one.
+
+
+
+	ChildBranches1
+Name:Let the Shady Cook go ashore
+Id:124100
+Description:"Worracoovaprisnz," he says dangerously. "Lemmesithertow!"
+
+		DefaultEvent
+Name:A warm welcome
+Id:143389
+Description:"Oh, yes," the Unctuous Fellow assures you. "We value enthusiasm over... formal qualifications. The knot-oracles are always hungry, but they are also delicate in their tastes. Their - meals - must be prepared assiduously."
+<br/><br/>
+"I understand this fellow is indentured to you? Well, we have collected tremendous stores of knowledge from the oracles. <i>Tremendous</i>. Let me give you some of my notes. And we will of course replenish your stores. Thank you so much."
+<br/><br/>
+The Cook darts eagerly into the prison as soon as the doors are opened. He doesn't even say goodbye.
+
+		ParentEvent
+Id:143388
+
+
+
+	ChildBranches2
+Name:Hand over a Prisoner
+Id:124101
+Description:"Oh, no, we'll pay <i>you</i>," the Unctuous Fellow says. "We can always find a use for another pair of hands. We get lonely, you know. Lonely."
+
+		DefaultEvent
+Name:What awaits your prisoner?
+Id:143390
+Description:Someone, somewhere, is screaming. The Unctuous Fellow clucks sadly. "Gruel on Thursdays. Someone really doesn't like gruel."
+<br/><br/>
+Is it a Thursday? "I don't know. I lose track. Perhaps, then, the gruel's a little nasty. Thank you for your contribution. Here's your payment. Good day."
+
+		ParentEvent
+Id:143388
+
+
+
+	ChildBranches3
+Name:Exchange a Secret for a Prisoner
+Id:146698
+Description:Wisdom has many, many secrets - far more than one might expect them to glean from the prisoners. But a discerning scholar might identify a secret which would tempt even the Governor of the prison. [This is unlikely to be profitable, unless you have someone specific in mind.]
+
+		DefaultEvent
+Name:An audience with the Governor
+Id:181109
+Description:The Unctuous Fellow listens closely to your promises. At last he leads you into the heart of Wisdom, through five gates with locks of brass and iron, to the Governor's office.
+<br/><br/>
+The Governor sits rigid in a high-backed chair. His manner of dress is Khaganian; his face is concealed behind a smooth mask. He coughs frequently as you detail your Enigma, raising his gloved hand to his mouth. The room smells of mould and bat-guano.
+<br/><br/>
+"That's (cough) enough," he says at last. "Choose your prisoner."
+
+		ParentEvent
+Id:143388
+
+
+
+	ChildBranches4
+Name:Put a blemmigan ashore
+Id:147304
+Description:High, smooth walls with no obvious cracks or tendril-holds. Outflow pipes guarded by the zee. If the blemmigan can break in, its talents are wasted on mere propagation.
+
+		DefaultEvent
+Name:Not the approach you expected
+Id:181989
+Description:The blemmigan stands at the gate and gives out a continuous noise, just on the edge of hearing. That's annoying. Really annoying. Just stop, will you? Oh, get back on the ship - they're clearly not letting you in.
+
+		ParentEvent
+Id:143388
+
+
+
+	ChildBranches5
+Name:Compile a Port Report
+Id:147650
+Description:Watch the comings and goings.
+
+		DefaultEvent
+Name:Not so many goings
+Id:182506
+Description:Ships from the Khanate are most common, but you see Chelonite vessels, Polythreme triremes with chained and sulky Unfinished Men, corsairs disposing of their miscreants, even one furtive Iremi skiff. The wardens pay them well for their prisoners.
+
+		ParentEvent
+Id:143388
+
+
+
+	ChildBranches6
+Name:Ransom a Prisoner
+Id:146696
+Description:Wisdom will release prisoners, on payment of an eye-wateringly high redemption fee. It's not entirely clear whether this constitutes bribery, or a legal instance of Khaganian mercy. [This is unlikely to be profitable, unless you have someone specific in mind.]
+
+		DefaultEvent
+Name:"Oh, thank you. Thank you so much."
+Id:181107
+Description:The Unctuous Fellow counts your Echoes lovingly into a brass-bound box, which he locks with a little key, which he places in a much grander box, which he locks with a much grander key. His delight in this process so overwhelms him that he almost forgets to give you your prisoner.
+
+		ParentEvent
+Id:143388
+
+		SuccessEvent
+Name:"Oh, go on. I'm sure you'll bring me a replacement, some day."
+Id:181112
+Description:He is convivial, the Unctuous Fellow. He convives to the extent of a half-bottle of Greyfields First Sporing (a good thing you'd kept it for a special occasion). You have a  pleasant chat about zee-weather and the loneliness of life out here in the Sea of Lilies; and he generously discounts the fee.
+
+
+
+	ChildBranches7
+Name:Rescue a Prisoner
+Id:146697
+Description:Scale the walls. Enter through the outflow pipes. Evade the guards. Secure your rescuee without raising any alarms. Don't get eaten by giant toads. [You'll only get one chance at this. It is unlikely to be profitable, unless you have someone specific in mind.]
+
+		DefaultEvent
+Name:Disaster!
+Id:181108
+Description:You make it up the prison walls, through the pipe, and straight into a cistern. The splashing attracts guards. Their guns wreak havoc before you escape. The pipe-grating is repaired that same night. [Further rescue attempts are impossible.]
+
+		ParentEvent
+Id:143388
+
+		SuccessEvent
+Name:Success!
+Id:181709
+Description:Up the walls, in the gaps between the search-lights. Into the outflow pipe, where the arm-thick bars have rusted enough for you to saw through. Down the corridors in silence, beneath bare light bulbs, past the cells where prisoners plead. One crew-member does, in fact, fall out of the pipe on his return, straight into the mouth of a knot-oracle. It munches him ruminatively while his twitching leg protrudes - rather like a farmer chewing an interesting straw. Unpleasant.
+<br/><br/>
+Still, all things considered, it went rather well. It won't work a second time, though. They're already walling up the pipe.
+

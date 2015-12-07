@@ -1,0 +1,39 @@
+Name:MT NOMAD
+Id:144275
+Description:It blots out the false-stars. It breathes night. In the vitreous midnight of its skin, you see your vessel's reflection ripple, as if it had already consumed you.
+
+
+
+	ChildBranches1
+Name:Fight!
+Id:124679
+Description:Discharge your weapons against its vast bulk. [This is a Nemesis. You may wish to disengage as soon as possible, unless you have a particular reason to fight it.]
+
+		DefaultEvent
+Name:
+Id:144276
+Description:
+
+		ParentEvent
+Id:144275
+
+
+
+	ChildBranches2
+Name:Flee!
+Id:124680
+Description:It's not so very fast, but it predicts your every movement... and it's so close, and so huge. All courses lead to its heart.
+
+		DefaultEvent
+Name:Too close
+Id:144277
+Description:Your prow light gutters and dies. Someone in your crew falls into desperate, unceasing, maniac laughter.
+
+		ParentEvent
+Id:144275
+
+		SuccessEvent
+Name:Free for now
+Id:153595
+Description:"I spoke the words," your First Officer says blankly. "I spoke the words, and the three gods heard us." The mountain is falling away astern. "I don't understand. I don't understand how we escaped."
+

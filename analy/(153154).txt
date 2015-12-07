@@ -1,0 +1,49 @@
+Name:You've destroyed the Milliner-Bats
+Id:153154
+Description:"A bat-swarm, Madam Doctor. But they are - I assure you - feathered. Blue feathers, Madam Doctor. <i>Tremendous</i> feathers. No, Madam Doctor, not proportionate, not indeed. I suspect the bats of theft. Madam Doctor, no! I have not touched a bottle since Tuesday last! No, Madam Doctor! Not the hole! Not the ho - "
+
+
+
+	ChildBranches1
+Name:Scavenge the bat-feathers
+Id:130340
+Description:Are these, in fact, feathered mammals?
+
+		DefaultEvent
+Name:Ersatz plumage
+Id:153155
+Description:They look very like parrot-feathers - but they have been <i>glued</i> to the bats. By the bats themselves? By some unknown bat-farmer with an avian grudge? The answers remain mysterious. But at least you can sell the feathers in London or in Khan's Heart.
+
+		ParentEvent
+Id:153154
+
+
+
+	ChildBranches2
+Name:Gather up the corpses
+Id:147404
+Description:They are succulent with stolen blood. Into the pot!
+
+		DefaultEvent
+Name:An unorthodox diet
+Id:182148
+Description:Those little bones are troublesome, and the flesh a little gamey, but salt them well enough and they're quite edible.
+
+		ParentEvent
+Id:153154
+
+
+
+	ChildBranches3
+Name:Dispose of the corpses
+Id:147406
+Description:Their mere touch leaves you shuddering. [This will slightly reduce Terror.]
+
+		DefaultEvent
+Name:Over the side
+Id:182150
+Description:Their eyes are still fierce in death. Zailors sweep them overboard with brooms, careful not to touch them.
+
+		ParentEvent
+Id:153154
+

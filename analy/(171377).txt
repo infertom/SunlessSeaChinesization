@@ -1,0 +1,39 @@
+Name:You've defeated a Republican Dreadnought
+Id:171377
+Description:The ship is yours! What will you do with her?
+
+
+
+	ChildBranches1
+Name:Investigate the hold
+Id:140803
+Description:What treasure did these villains take?
+
+		DefaultEvent
+Name:
+Id:171488
+Description:
+
+		ParentEvent
+Id:171377
+
+
+
+	ChildBranches2
+Name:Send home with a prize crew
+Id:140802
+Description:Twelve zailors should be enough for a skeleton crew, unless she runs into trouble.
+
+		DefaultEvent
+Name:Into the darkness
+Id:171486
+Description:Your prize is never seen again. Perhaps a heptycheer devours your crew. Perhaps they devour each other. Perhaps they betray you and sail it to the Iron Republic, where laws cannot follow.
+
+		ParentEvent
+Id:171377
+
+		SuccessEvent
+Name:Awaiting your pleasure
+Id:171487
+Description:When you next return to London, return to your Lodgings to claim your prize money...
+

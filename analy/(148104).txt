@@ -1,0 +1,68 @@
+Name:Speak to the Sly Navigator
+Id:148104
+Description:"The zee, Captain. Look at it, out there! It's not our friend. Don't forget that."
+
+
+
+	ChildBranches1
+Name:Increase your Mirrors
+Id:127111
+Description:"Tell me a tale, and I'll tell you another. The zee is full of stories." [Spending a Secret will improve your Mirrors, but no higher than 50.]
+
+		DefaultEvent
+Name:The zee...
+Id:148105
+Description:The Navigator likes to talk about the zee. He has long opinions on its beauties, its dangers, its salinity, its depth and its contents -  and the rest. Every other sentence starts 'The zee...' Zee, zee, zee... After a while you reach the point of semantic satiation, and the word 'zee' means no more to you than the word 'zop'. But you zeem to have learnt something.
+
+		ParentEvent
+Id:148104
+
+
+
+	ChildBranches2
+Name:What does he want?
+Id:146427
+Description:What does he seek at zee?
+
+		DefaultEvent
+Name:"The zee is enough."
+Id:180634
+Description:"But now you mention it... I have always had a desire to see Frostfound. The place where the zee rises to become a castle. The place where questions and riddles do battle for truth." He sighs dreamily, but he is watching you carefully. "Yes. Frostfound."
+<br/><br/>
+[Frostfound can be found in the very north of the zee.]
+
+		ParentEvent
+Id:148104
+
+
+
+	ChildBranches3
+Name:Exchange a secret smile
+Id:146623
+Description:A romance with an Officer might be considered unseemly. You'll need to be discreet.
+
+		DefaultEvent
+Name:Later...
+Id:180993
+Description:[Opportunities for other trysts with the Gunner will occur while you're at sea - but quite yet.]
+
+		ParentEvent
+Id:148104
+
+
+
+	ChildBranches4
+Name:Proposition the Sly Navigator
+Id:146624
+Description:"I do talk nonsense about the zee, I know. But I like it. And I like you." [The Navigator values sincerity. Ensure your Hearts is at least twenty points higher than your Mirrors.]
+
+		DefaultEvent
+Name:Discreet delights
+Id:180994
+Description:The Navigator is rather earnest, and given to displays of slightly unnerving enthusiasm; but like any good navigator, he knows his way around, and understands the importance of timing. You are more than satisfied by the time you both drift off to sleep.
+<br/><br/>
+[Opportunities for other trysts with the Navigator will occur while you're at sea, substantially reducing Terror. However, if you have a lover in port, they might find out.]
+
+		ParentEvent
+Id:148104
+

@@ -1,0 +1,21 @@
+Name:The New Sequence
+Id:173031
+Description:Welcome back. Nothing has changed. There's been a little progress, of course.
+
+
+
+	ChildBranches1
+Name:Progress?
+Id:141759
+Description:Is progress possible without change?
+
+		DefaultEvent
+Name:Now, progress is possible without change.
+Id:173032
+Description:The Great Light is worshipped in the Churches. Certain measures have been set in place at the Bazaar. The Ministry of Public Decency runs much more smoothly now. Most of us are smiling. The gold-and-amber flags of the Sequence snap in the wind. Yes, we have wind now. At least, we will. For now, you may assume it.
+<br/><br/>
+The Machine is grateful. You will be remembered.
+
+		ParentEvent
+Id:173031
+

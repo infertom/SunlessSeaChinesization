@@ -1,0 +1,34 @@
+Name:Your Mountain-sherd
+Id:167499
+Description:It's pretty, but not especially practical. What do you intend for it?
+
+
+
+	ChildBranches1
+Name:Treat it as a Captivating Treasure
+Id:138483
+Description:If you plan to sell it, stop treating it with reverence. [A Captivating Treasure is worth a thousand echoes, but once you've decided that your Mountain-sherd is only a Treasure, you cannot convert it back.]
+
+		DefaultEvent
+Name:A chunk of rock
+Id:167500
+Description:Did it ever carry any light of its own? It has a pretty gemmy fire, that's all. It will be smashed into neat slivers, and embedded in rings and trinkets.
+
+		ParentEvent
+Id:167499
+
+
+
+	ChildBranches2
+Name:Tap it with your fingernail
+Id:148154
+Description:[Defer for now]
+
+		DefaultEvent
+Name:
+Id:183318
+Description:
+
+		ParentEvent
+Id:167499
+

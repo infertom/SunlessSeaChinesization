@@ -1,0 +1,19 @@
+Name:Hydrogen for the Empire of Hands
+Id:176518
+Description:A generous supply of 'devil's breath' is ready for transport to the Empire of Hands' Zeppelin.
+
+
+
+	ChildBranches1
+Name:Collect a shipment
+Id:143969
+Description:No deposit is required. Whatever deal the monkeys have with the Republic, the Republic considers them good for it.
+
+		DefaultEvent
+Name:Smiling devils roll a metal sphere into your hold
+Id:176519
+Description:Return the empty container and they will refill it.
+
+		ParentEvent
+Id:176518
+

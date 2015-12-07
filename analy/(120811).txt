@@ -1,0 +1,19 @@
+Name:A Camp in the Ruins
+Id:120811
+Description:
+
+
+
+	ChildBranches1
+Name:Anarchists
+Id:109946
+Description:
+
+		DefaultEvent
+Name:
+Id:120812
+Description:
+
+		ParentEvent
+Id:120811
+

@@ -1,0 +1,109 @@
+Name:Further conversation with the acolyte
+Id:148992
+Description:The conversation is taking place in a corner of the building, on makeshift furniture fashioned out of emptied coffins. It feels strangely homey. 
+<br/>
+<br/>
+"What about you?" she asks. "Is there any secret you struggle not to tell anyone?"
+
+
+
+	ChildBranches1
+Name:Say no, and mean it
+Id:127754
+Description:Your conscience is clear.
+
+		DefaultEvent
+Name:You shake your head
+Id:148993
+Description:You might have expected her to be disappointed that there's no story, but if anything she looks pleased. Perhaps she has enough dark pasts and sinister allusions around here.
+
+		ParentEvent
+Id:148992
+
+
+
+	ChildBranches2
+Name:Say no dishonestly
+Id:127755
+Description:There's nothing she needs to hear.
+
+		DefaultEvent
+Name:Secrets require lies
+Id:148994
+Description:You issue a simple denial. She frowns as though she doesn't believe you, but she doesn't challenge you either.
+<br/>
+<br/>
+A gaunt man comes to take away the crates of dark pellets, and she gets up to speak with him. It's some time before she comes back to you.
+
+		ParentEvent
+Id:148992
+
+
+
+	ChildBranches3
+Name:Admit that you do have certain secrets
+Id:127756
+Description:Who doesn't?
+
+		DefaultEvent
+Name:A moment in silence
+Id:148995
+Description:The admission is harder than you might have expected. You don't go into detail, and she doesn't press you for further explanations.
+<br/>
+<br/>
+"After all, if it's bad enough, I'll find out in the end," she says, her eyes glittering sideways at you through her goggles.
+
+
+		ParentEvent
+Id:148992
+
+
+
+	ChildBranches4
+Name:Tell the whole horrible truth
+Id:127758
+Description:Perhaps it will interest her.
+
+		DefaultEvent
+Name:Holding nothing back
+Id:148997
+Description:She listens politely as you relate the entire tale in all its gruesome detail. Shattered teeth and cooking tips and all.
+<br/>
+<br/>
+"I've heard of such things before," she says at the end. "You're not the first and won't be the last."
+
+		ParentEvent
+Id:148992
+
+
+
+	ChildBranches5
+Name:Invent something pleasingly awful to tell her
+Id:127767
+Description:Who knows, perhaps she'll believe you.
+
+		DefaultEvent
+Name:A bit flat
+Id:149010
+Description:Your story starts out well: a sibling born under mysterious circumstances, the midwife going mad, your parents keeping you out of the baby's room. Laudanum bottles accumulating in the hallway. Specially commissioned rat-fashioned baby toys designed not to break under any amount of stress.
+<br/>
+<br/>
+But at some point, perhaps during the portion about the tentacles, you lose the confidence of your listener.
+<br/>
+<br/>
+The Austere Acolyte gives a little huff and turns away. "If you didn't want to tell me the truth, you could have just said so."
+
+		ParentEvent
+Id:148992
+
+		SuccessEvent
+Name:One of your best
+Id:149011
+Description:You start with the thing in the cradle. Sucker marks left behind on your mother's arm. The midwife's disappearance. The ciphered message in the news the next day. What happened to your father's leg. The false story before the magistrate, and the bishop's intervention. The charitable funds collected under illegitimate pretenses.
+<br/>
+<br/>
+The tale has everything: the sordid, the blasphemous, the biologically bizarre. 
+<br/>
+<br/>
+The Acolyte listens to it with utter fascination. It is hard to tell whether she is convinced or merely spellbound by the power of your story, but for your purposes, either will do.
+

@@ -1,0 +1,123 @@
+Name:Influence Affairs in Port Carnelian
+Id:180499
+Description:You have an opportunity to guide the fate of London's far-flung colony.
+
+
+
+	ChildBranches1
+Name:Shore up the Governer's rule
+Id:146341
+Description:Port Carnelian is a vital part of Her Enduring Majesty's dominions, and so it shall remain!
+
+		DefaultEvent
+Name:You set to work
+Id:180500
+Description:No longer is Port Carnelian a year behind London's fashions. Now, novelists frequent the tea shops. Poets from Veilgarden haunt the waterfront. A string of painters belonging to the Nocturnal movement pour from visiting ships, determined to capture the ghostly, pastel splendour of the fungal jungle. British flags flutter over every house in the colony. People sing the national anthem in public houses, and mean it. The colony has changed. "Little London" they call it. [Increase your Network to 7 to decide Port Carnelian's fate permanently.]
+
+		ParentEvent
+Id:180499
+
+
+
+	ChildBranches2
+Name:Insert Khanate agents into key positions
+Id:146343
+Description:There are other empires.
+
+		DefaultEvent
+Name:A shift in sympathies
+Id:180503
+Description:You ignore the Governor's household, and look instead to the positions of genuine power in Port Carnelian. The Master of Footage who assigns floorspace in the Blue Bazaar. The owner of the <i>Specularum</i>, the colony's biggest theatre, who decides what people laugh at. A cabal of foremen at the sapphire mines.
+<br/><br/>
+Soon the tea-shop grumblings have taken a rebellious tone. The Khan's favourite play, <i>The Dauntless Trimaran</i> opens to effusive reviews. A sudden craze for airag sweeps the port, and every public house smells of fermented milk. [Increase your Network to 7 to decide Port Carnelian's fate permanently.]
+
+		ParentEvent
+Id:180499
+
+
+
+	ChildBranches3
+Name:Broker an alliance of tigers
+Id:146345
+Description:They are, after all, the rightful rulers of the Carnelian Coast.
+
+		DefaultEvent
+Name:The beginning of something bigger
+Id:180505
+Description:It doesn't take much to rouse the tigers to action. Their grievances are genuine - only their organisational skills were lacking. You form a Restitution Committee, soothing tigerish egos by giving every member a splendid title. "Any other business?" demands the Over-Secretary in Charge of Cultural Conspiracy at the first meeting. One of your agents scribbles terrified minutes.
+<br/><br/>
+Their first act is to organise a march protesting the practice of separate theatre performances for tigers and humans. They can't carry placards and can't agree on slogans, but their roars rattle every window in the colony. [Increase your Network to 7 to decide Port Carnelian's fate permanently.]
+
+		ParentEvent
+Id:180499
+
+
+
+	ChildBranches4
+Name:Secure British sovereignty in the colony
+Id:146346
+Description:Drive out the Khan's agents, and arrange to secure the colony's British allegiance.
+
+		DefaultEvent
+Name:A hidden beast
+Id:180506
+Description:You strike at midnight. A dozen spies, attachés and merchants who have sold their loyalties to the Khan meet quiet, but definite, ends. 
+<br/><br/>
+Over the next week, the Khanate ships that prowled the coast disappear. There is some speculation about this in the letters page of the <i>Carnelian Clarion</i>. No one guesses the truth. Beneath the waves, in the gulping, peligin depths, slides the <i>Irrepressible</i>, the Admiralty's vehemently-denied experimental zubmarine. Let the Khan keep sending his ships. They never see what kills them.
+
+
+		ParentEvent
+Id:180499
+
+
+
+	ChildBranches5
+Name:Stage a coup!
+Id:146347
+Description:Hand the colony to the Khanate.
+
+		DefaultEvent
+Name:Substitution
+Id:180507
+Description:Long months of secrecy, scheming and sabotage culminate in an ignominious - even cursory - transfer of power. Without ceremony or remark, the disgraced Governor and his staff board a tramp steamer. As it chugs out of port, an azure Khanate trimaran slides into its place. 
+<br/><br/>
+In the morning a Taiman flag hangs over the governor's mansion. The White-and-Golds walk the streets of the colony, glancing narrowly left and right. The tea is served without milk, now. The street signs are written in Khaganian characters first, and Roman ones second. The work of the sapphire mines is not interrupted even for a moment, but the tightly-nailed boxes that emerge sail north, now, not west.
+
+
+		ParentEvent
+Id:180499
+
+
+
+	ChildBranches6
+Name:Drive out the foreign powers
+Id:146350
+Description:Restore the Carnelian Coast to the tigers.
+
+		DefaultEvent
+Name:What is old is new again
+Id:180510
+Description:The Carnelian colonists always lived in fear of tigers on the streets after dark. Of a crimson, gorging uprising. In fact, the rebellion is practically bloodless. It turns out that if you put someone in a room with a tiger, they will agree to anything.
+<br/><br/>
+Your agents ensure no doors are locked, and that the garrison has rifles and bullets, but no firing pins. Hapless guards flee as the Banded Prince pads into Heartscross House. You watch the Governor sign the colony over to its original inhabitants. The Prince and his confidants are discussing condiments. The Governor's pen trembles.
+<br/><br/>
+The humans who weren't members of Her Majesty's Foreign Office are permitted to stay. The tigers have grown accustomed to the advantages provided by thumbs and fingers.
+
+		ParentEvent
+Id:180499
+
+
+
+	ChildBranches7
+Name:Bide your time
+Id:146351
+Description:Not yet.
+
+		DefaultEvent
+Name:
+Id:180511
+Description:
+
+		ParentEvent
+Id:180499
+

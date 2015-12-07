@@ -1,0 +1,19 @@
+Name:Scale and Substance
+Id:135252
+Description:The zee looks more inviting by the day. How could you have thought it hostile? It is invigorating; fruitful. You scratch at your arm. Your skin is always itching, up here in the dry. [This card will continue to appear until you bury your father's bones or give in to temptation.]
+
+
+
+	ChildBranches1
+Name:Leave your ship forever
+Id:119013
+Description:Your father came from the sea. You know now that you could take his place there. [This will end the game in a victory, of sorts.]
+
+		DefaultEvent
+Name:A perfect arc
+Id:135253
+Description:You go into the water like a flung knife. The shouts of your crew are curtailed. The water opens like a gate and closes like a lover's arms. Your mouth is full of the taste of salt, and you gulp it down gratefully. Changing, changing. Your skin has begun to peel. It will be gone entirely in days to come. Already the scales peek through, and the claws. You will pass arrow-swift through the spaces that humans never see. You will fill your belly with fish and your mates with children. You will hear the stories of the Flukes, accept the worship of the lesser beasts, feast on the unwary. You are home.
+
+		ParentEvent
+Id:135252
+

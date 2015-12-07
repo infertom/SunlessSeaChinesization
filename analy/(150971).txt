@@ -1,0 +1,79 @@
+Name:A New Arrival
+Id:150971
+Description:You, your sweetheart, and your child. What will your child call you?
+
+
+
+	ChildBranches1
+Name:"Father"
+Id:128924
+Description:Yes: you are the child's father.
+
+		DefaultEvent
+Name:
+Id:150972
+Description:Here it is, small warm apprehensive affectionate creature. Treat it gently. [You may visit your child at your Lodgings, when you gain a Free Evening. You always get Free Evenings when you return to London, but here's one now.]
+
+		ParentEvent
+Id:150971
+
+
+
+	ChildBranches2
+Name:"Mother"
+Id:128925
+Description:Yes: you are the child's mother.
+
+		DefaultEvent
+Name:
+Id:150973
+Description:Here it is, small warm apprehensive affectionate creature. Treat it gently. [You may visit your child at your Lodgings, when you gain a Free Evening. You always get Free Evenings when you return to London, but here's one now.]
+
+		ParentEvent
+Id:150971
+
+
+
+	ChildBranches3
+Name:"Captain"
+Id:128926
+Description:Your relationship will be remote, or complicated, or exceptional.
+
+		DefaultEvent
+Name:
+Id:150974
+Description:Is this even your child - whether blood, or adopted? Perhaps you're just wary of affection. In any case, here it is, small warm apprehensive affectionate creature. Treat it gently. [You may visit your child at your Lodgings, when you gain a Free Evening. You always get Free Evenings when you return to London, but here's one now.]
+
+		ParentEvent
+Id:150971
+
+
+
+	ChildBranches4
+Name:Nothing at all
+Id:128927
+Description:You don't want to raise the child - or you can't afford to. Turn away. Let your sweetheart raise the brat, if they can.
+
+		DefaultEvent
+Name:An empty space
+Id:150975
+Description:The dockside crowd folds around the two of them like a magician's trick. You will not see them again.
+
+		ParentEvent
+Id:150971
+
+
+
+	ChildBranches5
+Name:Improve your lodgings first
+Id:142461
+Description:You can't raise a child in a room above a pub. Well, people do, but your sweetheart expects better.
+
+		DefaultEvent
+Name:
+Id:174197
+Description:
+
+		ParentEvent
+Id:150971
+

@@ -1,0 +1,54 @@
+Name:In Amber
+Id:148601
+Description:Some disturbance of the undersea has brought sunken ruins up out of the water. But these stones were lost beneath more than the sea: they are half-encased in a smooth translucent orange substance, like amber...
+<br/><br/>
+Even as you watch the ruins groan and shiver. The convulsions that brought them up will soon take them below again.
+
+
+
+	ChildBranches1
+Name:Chip some of the amber away to sell
+Id:127494
+Description:It's very like the 'deep amber' sold in London - the stuff the squid-faced Rubbery Men exude. This may be a good haul.
+
+		DefaultEvent
+Name:A half-gold haul
+Id:148602
+Description:You and your crew swarm over the ambery stuff with hammers and chisels, smashing off hunks and chunks. It powders easily (emitting an unexpected lemony fragrance) and the rising sea washes quantities of it away - but you fill pockets and sacks with it. At last a rumble rises from below - the amber shudders - and you all scramble clear as it sinks back into the deep. The waters close over it with a tremendous roar and show of foam.
+
+		ParentEvent
+Id:148601
+
+
+
+	ChildBranches2
+Name:Examine the ruins
+Id:127495
+Description:The amber encasing the ancient stones has cracked under the grinding pressures of the earth. You could scramble in and examine them.
+
+		DefaultEvent
+Name:A horrid end
+Id:148603
+Description:You squeeze through the fissures in the amber shell to explore the ruins within - but almost at once, the earth begins to rumble, and the ruins to sink. You scramble clear, but the amber snaps shut like a clam as you scramble clear, catching a zailor from Spite by the ankle. She screams a thin, tearing, desperate scream and struggles to free herself: in vain. The waters close over the ruin as it sinks, and the screaming ends abruptly.
+
+		ParentEvent
+Id:148601
+
+		SuccessEvent
+Name:Of their bones...
+Id:149475
+Description:You squeeze through the fissures in the amber shell to explore the ruins within. The dwellings are low and windowless - thick-walled, flat-roofed - like those in desert countries. Nothing like anything in the Neath. You find shattered pots, glass beads, and bones, all mired in amber.<br/><br/>
+"Something wrong about these bones - " one of your zailors mutters uneasily, a seasoned woman with a little surgeon's training. She's right. The shape of the skull is not precisely human: the arms-bones have splayed out like twigs off a branch. Another exclaims as he finds the bones of a small animal, coiled together like a knot of serpents. <br/><br/>"Shapelings!" someone hisses - you think that's what they say - but none of your crew will admit to speaking.
+<br/><br/>
+There's a rumbling from below. You all scramble desperately for the exits in the amber casing, squeezing through one by one, just in time. The amber snaps shut and the ruins sink again beneath the waves with a tremendous roar and show of foam.
+
+		RareSuccessEvent
+Name:Of their bones...
+Id:149476
+Description:You squeeze through the fissures in the amber shell to explore the ruins within. The dwellings are low and windowless - thick-walled, flat-roofed - like those in desert countries. Nothing like anything in the Neath. You find shattered pots, glass beads, and bones, all mired in amber.<br/><br/>
+Among the rest you find a shining black haematite ornament the size of two fists: a bulbous thing, graven with concentric circles. Stubby protrusions, crudely worked, hang below like wax driblets. You realise, as you turn it in your hand, what it looks like: one of the domes of the great Echo Bazaar in London.
+<br/><br/>
+"Something wrong about these bones - " one of your zailors mutters uneasily, a seasoned woman with a little surgeon's training. She's right. The shape of the skull is not precisely human: the arms-bones have splayed out like twigs off a branch. Another exclaims as he finds the bones of a small animal, coiled together like a knot of serpents. <br/><br/>"Shapelings!" someone hisses - you think that's what they say - but none of your crew will admit to speaking.
+<br/><br/>
+There's a rumbling from below. You all scramble desperately for the exits in the amber casing, squeezing through one by one, just in time. The amber snaps shut and the ruins sink again beneath the waves with a tremendous roar and show of foam. You still have the haematite sculpture in your hand...
+

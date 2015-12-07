@@ -1,0 +1,79 @@
+Name:Who were you?
+Id:125090
+Description:Now you're a captain: now you belong to the Unterzee. But who were you, before?
+
+
+
+	ChildBranches1
+Name:A street urchin!
+Id:112664
+Description:Your urchin-gang cast you out when you grew too tall. You took to sea rather than graduate to larger crimes. That last big score was enough to buy a ship. [This will give you a bonus to Veils, the skill of subtlety and evasion.]
+
+		DefaultEvent
+Name:Low cunning on the high seas
+Id:125091
+Description:Your friend, another longshanks, knows a little of gunnery. Only a little, but she can help. [Talk to him to find out why she went to zee.]
+
+		ParentEvent
+Id:125090
+
+
+
+	ChildBranches2
+Name:A poet!
+Id:112665
+Description:Educated and articulate, you seek sensation at sea. How lucky you had a legacy to spend. Your long-vanished father had a rich patron, it seems. [This will give you a bonus to Pages, the skill of trickery and knowledge.]
+
+		DefaultEvent
+Name:A wise soul
+Id:125092
+Description:Experience? You have intuition! And your friend, the Sly Navigator. He's a little vague, but he probably knows what he's doing. Perhaps you can find someone better, eventually. [Talk to the Navigator to find out why he went to zee.]
+
+		ParentEvent
+Id:125090
+
+
+
+	ChildBranches3
+Name:Veteran of the Campaign of '68
+Id:112666
+Description:You fought in the invasion of Hell. London's armies lost. You survived. Your loot and your pension have bought you a command. [This will give you a bonus to Iron, the skill of causing direct damage.]
+
+		DefaultEvent
+Name:Stern and exacting
+Id:125093
+Description:They will not trifle with you. You promised a job to your acquaintance, the Shady Cook: he'll do until you find someone less disgusting. [Talk to him to find out why he went to zee.]
+
+		ParentEvent
+Id:125090
+
+
+
+	ChildBranches4
+Name:An ordained priest
+Id:125021
+Description:You fell from grace. There is nothing left ashore for you. An anonymous benefactor has found this way out for you. Perhaps, at zee, you can overcome your appetites. [This will give you a bonus to Hearts, the skill of healing and morale.]
+
+		DefaultEvent
+Name:
+Id:144821
+Description:You know an engineer who doesn't have much time left. She'd like to die at sea. [Talk to her to find out if she'd like to die anywhere in particular.]
+
+		ParentEvent
+Id:125090
+
+
+
+	ChildBranches5
+Name:A natural philosopher
+Id:125022
+Description:Your peculiar theories on time, blood and starlight brought you down to the Neath, the cavern where London lies... and now they take you out to zee. [This will give you a bonus to Mirrors, the skill of detection and perception.]
+
+		DefaultEvent
+Name:
+Id:144822
+Description:Your acquaintance, the Plausible Surgeon, will serve as ship's doctor: until you find someone better. [Talk to him to find out why he went to zee.]
+
+		ParentEvent
+Id:125090
+

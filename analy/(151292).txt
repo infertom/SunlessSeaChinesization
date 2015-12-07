@@ -1,0 +1,39 @@
+Name:A sorrowful duty
+Id:151292
+Description:"Good evening again. I am sorry to say that my sources have informed us that you are no longer in possession of the little gift that we entrusted to you... but neither 'ave you delivered it. Consequently we must visit a reckoning on you and yours. 'old still." Behind the Blind Bruiser, a gang of ruffians clap iron-shod cudgels into their hands.
+
+
+
+	ChildBranches1
+Name:Offer compensation!
+Id:129163
+Description:Perhaps you can still escape without worse consequences.
+
+		DefaultEvent
+Name:A heavy sigh
+Id:151293
+Description:"You may be grateful that I am afflicted again tonight by a megrim of the 'ead. It is caused by my heavy responsibilities no doubt and it disinclines me to exertion. I suppose this will cover it. Let us consider the matter closed. For now."
+
+		ParentEvent
+Id:151292
+
+
+
+	ChildBranches2
+Name:A battle on the dockside!
+Id:129164
+Description:The forces of the law are conspicuous by their absence. Paid off, no doubt. This doesn't look good.
+
+		DefaultEvent
+Name:Overrun!
+Id:151294
+Description:They are numerous, determined and brutal. They storm the ship: break bones, crack skulls, fling helpless men to the Drownies below, leave crippled zailors behind them.
+
+		ParentEvent
+Id:151292
+
+		SuccessEvent
+Name:You see them off!
+Id:151295
+Description:Not entirely without casualties. One zailor will never zail again. But they retreat, at last, hurling threats and curses.
+

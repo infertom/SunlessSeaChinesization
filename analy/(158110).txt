@@ -1,0 +1,138 @@
+Name:The Uttershroom
+Id:158110
+Description:Climb the fungal-fibre ladders to its summit. Shaggy, suspicious villagers scratch a living here, amidst endless clouds of spores and scurrying mobs of plant-animal hybrids. None of them ever leave. "Monsters," one explains darkly. "Zee full of monsters."
+
+
+
+	ChildBranches1
+Name:Visit the village
+Id:133440
+Description:Hospitable? Not exactly. But they usually don't chase you off with sticks, and they usually let you sit beside their mildew-smelling fire.
+
+		DefaultEvent
+Name:A day of stories
+Id:158111
+Description:The central contradiction of shroomer existence: they hate the Uttershroom, but they'd do anything to avoid leaving. ("Monsters!") Today, they're telling the story of how they came here. It features a shipwreck; a 'rain of orange jewels'; 'the Mother's blessing'. There's a great deal about adversity and survival: and wistful hints about their homeland. Somewhere to the west...
+
+		ParentEvent
+Id:158110
+
+
+
+	ChildBranches2
+Name:Trade honey
+Id:133828
+Description:"Honey," a shroomer explains. "Everyone wants honey." Life on the Uttershroom is unvarying and occasionally deadly poisonous. The shroomers are desperate for the diversion that prisoner's honey can bring, but vague about what they can pay in return. Supplies, though, at least.
+
+		DefaultEvent
+Name:Blemmigans!
+Id:158751
+Description:The shroomers pile up slabs of sweet mauve shroom-flesh. It's nourishing, although it does taste rather like muddy horse. They also generously throw in a blemmigan - a whistling, eyeless, mobile, fungus-thing.
+<br/><br/>
+"Problems? Throw it in sea. No room? Throw it in sea." She shrugs. "Probably it swim. If not, plenty of room in sea."
+
+		ParentEvent
+Id:158110
+
+
+
+	ChildBranches3
+Name:Another gift
+Id:133829
+Description:"Ho! Zeegoer. Here. Shroom has something else for you. No more limbs. Seed now."
+
+		DefaultEvent
+Name:Something red
+Id:158752
+Description:It twitches with uneasy life. "Mother's egg," the shroomer incants eagerly. "Mother's fruit. Touch it. Yes. It will make you strong as Mother. Place it somewhere damp. One day, it will be Daughters."
+
+		ParentEvent
+Id:158110
+
+
+
+	ChildBranches4
+Name:Gather intelligence
+Id:133832
+Description:What happens here, on top of a mushroom the size of Marlborough?
+
+		DefaultEvent
+Name:A slow survey
+Id:158757
+Description:The villagers live a shabby but sufficient life. The Uttershroom provides. They are secretive, taciturn, incurious. Ships rarely visit.
+
+		ParentEvent
+Id:158110
+
+		RareDefaultEvent
+Name:A slow survey
+Id:158777
+Description:The villagers live a shabby but sufficient life. The Uttershroom provides. They are secretive, taciturn, incurious. Ships rarely visit.
+<br/><br/>
+A gaggle of blemmigans - purple-tentacled fungus things - follows you down the rope to your ship, whistling cheerfully. Blemmigans are vicious little monsters, usually, but the ones on the Uttershroom seem friendly. If they trouble you, you could probably throw them overboard.
+
+
+
+	ChildBranches5
+Name:Trade honey for supplies and blemmigan
+Id:133860
+Description:"Ah! You return again? You want more blemmigan? We have more blemmigan. Many, many blemmigan. Always more blemmigan."
+
+		DefaultEvent
+Name:Always more blemmigan
+Id:158805
+Description:Here are the piled slabs of mauve fungus-flesh. Atop them, like an attentive dog on a plinth, a watchful blemmigan. "They want new places," the shroomer explains. "Too many blemmigan here. Plant them in six more new places. Mother will be pleased."
+
+		ParentEvent
+Id:158110
+
+
+
+	ChildBranches6
+Name:Visit the village
+Id:133906
+Description:Hospitable? Not exactly. But they usually don't chase you off with sticks, and they usually let you sit beside their mildew-smelling fire.
+
+		DefaultEvent
+Name:A day of spores
+Id:158880
+Description:The Uttershroom releases spores according to its own inscrutable schedule. Today, the air is soupy-thick. They coat your hair. They clog your throat. They gather like sleep in the corners of your eyes. Conversation with the shroomers is impossibly hard. You return to the ship, where you find a tiny purple mushroom growing already in your ear...
+
+		ParentEvent
+Id:158110
+
+
+
+	ChildBranches7
+Name:A gift
+Id:144235
+Description:"Psst. Psst. Zeegoer. Here. Shroom has something for you. Fell long ago. Best elsewhere now."
+
+		DefaultEvent
+Name:A Ray-Drenched Cinder?
+Id:176915
+Description:The shroomer won't touch it with her bare skin. Wise. Nor should you. It's scorched and twisted the fungus-flesh that it lies on - its cosmogone glow has dyed the air around it. "Mother of Mushrooms is grateful," explains the shroomer. "You've cast her far. She gives you a jewel."
+
+		ParentEvent
+Id:158110
+
+
+
+	ChildBranches8
+Name:Search the shroom-top
+Id:146496
+Description:Fibrous huts, spore-fogs, that endless damp purple smell. Is there anything else?
+
+		DefaultEvent
+Name:Buried... treasure?
+Id:180752
+Description:You pick idly at a scar on the mushroom-rind, and the whole thing peels away. Beneath, in an odd little pocket, lie bundles of ancient, mouldy cloth. Stygian Ivory, like the stuff the Chelonate sell, and something very like a Chelonate harpoon. Did the proud Chelonites come here once? Are they the ancestors of these sorry villagers?
+
+		ParentEvent
+Id:158110
+
+		RareDefaultEvent
+Name:Secret sweetness
+Id:180753
+Description:There's something different about this patch of mushroom-rind. It's crumbly, friable... you dig into it, and a rich, apply smell emerges from beneath. You've found a pocket of different fungus-stuff - pale green and delicious. Your crew scoops it into buckets. Embedded in it are... fruit? Solacefruit! They grow in swamps, far from here. That's peculiar.
+

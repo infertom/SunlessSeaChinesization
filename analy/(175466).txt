@@ -1,0 +1,298 @@
+Name:Ash Isthmus
+Id:175466
+Description:Black beaches give way to an oasis of gently glowing trees and the scent of rotting flowers.
+
+
+
+	ChildBranches1
+Name:Enter the forest
+Id:143279
+Description:Parasynthetic vegetation thrives in the Empire of Hands' fertile soil and cool humidity.
+
+		DefaultEvent
+Name:Into the woods
+Id:175467
+Description:Wide natural paths run between clumps of trees, softly lit by a dim green glow and the occasional glimmer of false-stars through the canopy. Only the cracking of leaves and the soothing sounds of water break the serenity of this volcano-forged paradise.
+
+		ParentEvent
+Id:175466
+
+
+
+	ChildBranches2
+Name:Relax in a hot spring
+Id:143433
+Description:Steam and a hint of sulphur gently rise from a secluded natural pool flanked by trees and mushrooms.
+
+		DefaultEvent
+Name:A moment for yourself
+Id:175685
+Description:You slip out of your itchy clothes and into the welcoming caress of hot, deep water. The salts and sweats of zailing life melt away as you simply float, bare and free. Above, false-stars glimmer bright enough to be worth wishing on. All around, the glow of the trees casts ambient calm on the silent peace. How long has it been since you had a moment like this? Since London? Longer?
+
+		ParentEvent
+Id:175466
+
+
+
+	ChildBranches3
+Name:Return to the boat
+Id:143435
+Description:There's nothing here that will concern the Admiralty.
+
+		DefaultEvent
+Name:Perhaps you shall return
+Id:175687
+Description:For now though, the rest of the Empire of Hands beckons.
+
+		ParentEvent
+Id:175466
+
+
+
+	ChildBranches4
+Name:No, no thoughts. Not right now...
+Id:143436
+Description:Let this moment be yours and yours alone, not wasted on worldly concerns.
+
+		DefaultEvent
+Name:Nothing but relaxation
+Id:175688
+Description:The heat wraps around your bare skin like a lover's embrace as you lean back and float in the deep pool. There is no responsibility here. No guilt. No sea monsters. No tomb-colonists or sorrow-spiders or tentacles or nightmares in the dark. Just a moment of peace, to enjoy and celebrate for what it is. Just-
+<br /><br />
+Wait! What was that? Sounded like... giggling?
+
+		ParentEvent
+Id:175466
+
+
+
+	ChildBranches5
+Name:A thought for your lover...
+Id:143459
+Description:What is the Likely Lass doing right now? Are you on her mind like she is on yours?
+
+		DefaultEvent
+Name:Oh, those nights in Wolfstack Docks!
+Id:175733
+Description:The noise! The passion! The delightful filth! The hot water hugs you tight as you remember her touch, your last words before departing, that half-smile almost but not quite blossoming into completeness. How long will it be before you feel the touch of skin on skin once again? Or wake to see her sleeping brow, always so furrowed, as soft and calm as the zee itself-
+<br /><br />
+Wait! What was that? Sounded like... giggling?
+
+		ParentEvent
+Id:175466
+
+
+
+	ChildBranches6
+Name:A thought for your lover...
+Id:143460
+Description:What is the Dapper Chap doing right now? Are you on his mind like he is on yours?
+
+		DefaultEvent
+Name:Oh, those nights in Wolfstack Docks!
+Id:175734
+Description:The noise! The passion! The delightful filth! The hot water hugs you tight as you remember his touch, your last words before departing, the tip of his hat to both greet and say farewell. How long will it be before you feel the touch of skin on skin once again, or wake to see that hat sitting at the end of the bed while he-
+<br /><br />
+Wait! What was that? Sounded like... giggling?
+
+		ParentEvent
+Id:175466
+
+
+
+	ChildBranches7
+Name:A thought for the East...
+Id:143461
+Description:Few zailors are resourceful enough to get this far, where the stories end and the myths begin.
+
+		DefaultEvent
+Name:Out on the edge of civilisation
+Id:175735
+Description:From here, the lights of home are just a memory. The zee is blacker, its tales more guarded. It is not enough to simply keep zailing; none who try ever return home. Perhaps that is the price demanded by Salt, as you've overheard the crew darkly murmur when they think no one hears. That doesn't mean that-
+<br /><br />
+Wait! What was that? Sounded like... giggling?
+
+		ParentEvent
+Id:175466
+
+
+
+	ChildBranches8
+Name:A thought for your child...
+Id:143462
+Description:One day, will you bring them here, to this place? Or will it be you hearing tales of adventure in impossible lands?
+
+		DefaultEvent
+Name:Your legacy to the world, come what may
+Id:175736
+Description:Their story is yet to be written. Perhaps the zee beckons them as it did you. Perhaps it does not. Salt cannot run in everyone's veins. Will they be the toast of the Singing Mandrake? Run with the scoundrels of the Flit? You cannot be as much of their life as they may or may not wish you to be, but that doesn't mean they-
+<br /><br />
+Wait! What was that? Sounded like... giggling?
+
+		ParentEvent
+Id:175466
+
+
+
+	ChildBranches9
+Name:A thought for the future...
+Id:143463
+Description:Ambition brought you this far in your journey, and, one way or another, ambition will end it. But have you changed on your journeys? Has it?
+
+		DefaultEvent
+Name:Every day, another step closer
+Id:175737
+Description:There are as many reasons to take to the zee as there are zailors. For money. Power. The joy of exploration. To head NORTH, and d__m the consequences. Most never come close to fulfilling their ambition, but you... you are different. You know what you want, and with a sturdy crew by your side, you will achieve it. Perhaps none will remember your name afterwards. That does not mean you cannot leave your mark-
+<br /><br />
+Wait! What was that? Sounded like... giggling?
+
+		ParentEvent
+Id:175466
+
+
+
+	ChildBranches10
+Name:A thought for the zee...
+Id:143464
+Description:As mysterious and deadly as the first day you set zail on her, she remains your mistress and your kingdom.
+
+		DefaultEvent
+Name:The endless adventure
+Id:175738
+Description:You could travel a lifetime and never see all her secrets. Perhaps it has been longer. Time moves differently out here, in the still blackness and changeless light of candles and false-stars. Had you a chance to start over, what would you have done differently? What paths might you have followed? What deeds could you still-
+<br /><br />
+Wait! What was that? Sounded like... giggling?
+
+		ParentEvent
+Id:175466
+
+
+
+	ChildBranches11
+Name:A thought for the past...
+Id:143469
+Description:Zee captains are born and zee captains are raised. You think back on the day you learned it was your path.
+
+		DefaultEvent
+Name:Memories of a time long ago
+Id:175753
+Description:Do you even remember how long you have been at zee? It could have been a lifetime, in the perpetual gloom under ever-changing false-stars. You remember the first step on your very own ship, the first breath of that zee-air. The first sight of the endless black with all its wonder and terror. You remember-
+<br /><br />
+Wait! What was that? Sounded like... giggling?
+
+		ParentEvent
+Id:175466
+
+
+
+	ChildBranches12
+Name:Return to the boat
+Id:143524
+Description:There's nothing here that concerns you right now.
+
+		DefaultEvent
+Name:A slow ride back to Port Stanton
+Id:175848
+Description:The rest of the Empire of Hands beckons.
+
+		ParentEvent
+Id:175466
+
+
+
+	ChildBranches13
+Name:Caught!
+Id:143525
+Description:A tiny blonde girl perches, watching, on a rock. Her innocent grin is spiced with mischievous glee.
+
+		DefaultEvent
+Name:She moves like a monkey
+Id:175849
+Description:But she giggles like an imp; at the look on your face at being caught bathing in her hot spring... and the one that floods onto it as she scoops up your clothes.
+
+		ParentEvent
+Id:175466
+
+
+
+	ChildBranches14
+Name:Return to the boat
+Id:143526
+Description:You are not about to let your guard down again.
+
+		DefaultEvent
+Name:You return to the rowboat
+Id:175850
+Description:Now you look carefully, you can see the traps hidden in the forest. All things considered, it is for the best the 'Ghost of the Ash Isthmus' saw you as a playmate instead of an invader. There are reasons both humans and the smarter apes leave her to her own devices.
+
+		ParentEvent
+Id:175466
+
+
+
+	ChildBranches15
+Name:The Monkey Foundling's Hut
+Id:145746
+Description:She does not seem to be here right now. A pair of Pentecost apes are though, glaring at you with equal parts malice and their usual avarice.
+
+		DefaultEvent
+Name:Chased away!
+Id:179455
+Description:The two Pentecost apes attack, snarling and hissing. Their raw ferocity forces a retreat, though they do not follow and press the advantage. Once you are through the trees, the chase ends. Peering through the foliage, you see them quietly return to their strange vigil.
+
+		ParentEvent
+Id:175466
+
+
+
+	ChildBranches16
+Name:The Monkey Foundling's Hut
+Id:145747
+Description:She is inside, snoring. A pair of Pentecost apes stand vigil outside, glaring at you with equal parts malice and their usual avarice for souls.
+
+		DefaultEvent
+Name:Sometimes the zee gives back
+Id:179456
+Description:The apes snarl and leap, ready to rend with tooth and claw. But something stops them. They fall silent at the sight of the locket hanging from your neck. It is not clear if they desire it, are afraid of it, or are simply confused.
+<br /><br />
+You open it, snapping the rust. Inside is a faded picture of a sleeping blonde baby; red ribbon tied around her blanket as tight as she now keeps it around her arm.
+<br /><br />
+The larger ape comes close; stares at the photo. The smaller one has to look away. It is said, oft with a scowl, that the Pentecost apes will take anything from the souls they steal. Language. Habits. Gestures. It is rarely considered that, sometimes, they may take the best.
+<br /><br />
+Inside the hut, the Monkey Foundling sleeps soundly, completely unaware of her protectors in the forest.
+<br /><br />
+It is time to leave her to her dreams.
+
+		ParentEvent
+Id:175466
+
+
+
+	ChildBranches17
+Name:Hunt for supplies
+Id:143434
+Description:Not many of the plants and berries here are familiar, but some of them at least look similar to ones that were being eaten back in Port Stanton.
+
+		DefaultEvent
+Name:Spit!
+Id:175686
+Description:A single drop of juice hitting your tongue is enough to confirm that no, this is not fit for human consumption. Dying of thirst would be a mercy in comparison.
+
+		ParentEvent
+Id:175466
+
+		RareDefaultEvent
+Name:A very bad berry
+Id:175691
+Description:The vomiting is long and thunderous. Fortunately, that is the worst of it - and it could so easily have been worse.
+
+		SuccessEvent
+Name:A meal of berries
+Id:175689
+Description:Some are sweet, some are sour. None are as tempting as a plate of salted pork with the worms already picked out, but they fill a corner or two perfectly acceptably.
+
+		RareSuccessEvent
+Name:Berries of the gods!
+Id:175692
+Description:These red berries aren't just sweet, they melt into your tongue like sugar. The rest of the crew would never forgive you if you didn't bring some back.
+

@@ -1,0 +1,19 @@
+Name:Warm congratulations
+Id:152909
+Description:"Welcome home! You may ask how it is I am here to meet you, and I may remark that we have eyes in the Wastes and eyes in the Hill. In fact we have more eyes than a knot-oracle, and they're all glad to see you. And, of course, your cargo."
+
+
+
+	ChildBranches1
+Name:Hand over the cargo
+Id:130186
+Description:and claim your payment.
+
+		DefaultEvent
+Name:"Oh, very good, very good."
+Id:152910
+Description:"Please accept this small token of my thanks and please also accept my thanks. And my patron's thanks. Which we being persons of honour what understands the true nature of dealings is much more important. Still, spending money is always good, isn't it? And a captain must eat and so must a ship, which is why if you look under the pier there you will find a few 'elpful contributions of fuel and so forth. Until next time."
+
+		ParentEvent
+Id:152909
+

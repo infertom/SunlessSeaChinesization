@@ -1,0 +1,99 @@
+Name:Your Father's Bones: the Next Step
+Id:177221
+Description:Do you have what your contact wants?
+
+
+
+	ChildBranches1
+Name:Slivvy, the Urchin who Talks to the Wind
+Id:144402
+Description:He wants mutersalt from Whither to 'calm his tongue'.
+
+		DefaultEvent
+Name:"F-f-fanks."
+Id:177222
+Description:"You ever been to the Chelonate? Dirty great city in a t-t-turtle's shell. The Bone Men there - the priests of Storm - they've got what's left of your father. Good luck getting him back. They're all mad as butter."
+<br/><br/>
+"How do I know?" He makes a fist, slowly lifts it to indicate the roof of the Neath, far above. "In the Chelonate, they talk to Storm. And Storm, he talks to me. The God-in-the-Roof... he's a fearsome old thing. Don't p-p-piss him off, that's my advice. And if you don't want to piss him off, don't piss the Bone Men off. Or me, come to that."
+<br/><br/>
+[Find the Chelonate on its turtle shell, in the far east of the Unterzee, to continue.]
+
+		ParentEvent
+Id:177221
+
+
+
+	ChildBranches2
+Name:Mr Huffam
+Id:144403
+Description:He wants news, to cover his cost and risks. Frankly, his price is not high, if the Masters of the Bazaar really are involved. But Huffam has a generous soul. You should at least pay for the coffee.
+
+		DefaultEvent
+Name:Another coffee in Caligula's
+Id:177223
+Description:This time, Huffam is waiting in a shadowed nook by the kitchen, half-hidden beneath a pile of manuscripts. "Your father," he whispers, "was surrendered to the postal service. Yes, yes, it's undignified, although the postmen of London are honourable and tenacious. The package should have found its way back to the Bazaar. But something went wrong." He leans forward. "The package is in Nuncio."
+<br/><br/>
+Nuncio! The island where postmen go when they have seen too much. The island of letters not only dead but buried. Nuncio...
+<br/><br/>
+"The Master's ally addressed the package," Huffam adds, "to a 'Mr Voluminous'. But at the wrong door." He is already gathering his manuscripts to go. "Good luck. And - one piece of advice. Be courteous to the Powers of the deep zee. You never know when you might benefit."
+<br/><br/>
+[Find Nuncio, somewhere in the central or eastern Unterzee, to continue.]
+
+		ParentEvent
+Id:177221
+
+
+
+	ChildBranches3
+Name:The Dark-Spectacled Admiral
+Id:144404
+Description:You've earned the Admiralty's favour. The Dark-Spectacled Admiral will see you now.
+
+		DefaultEvent
+Name:
+Id:177224
+Description:
+
+		ParentEvent
+Id:177221
+
+
+
+	ChildBranches4
+Name:The Bishop of St Fiacre
+Id:144405
+Description:The Bishop wants Darkdrop Coffee, from the Elder Continent. If you have it, he will see you now.
+
+		DefaultEvent
+Name:Eccentric appetites
+Id:177225
+Description:"Do you know of the place called Avid Horizon?" the Bishop asks. "It is a place of many natures. One nature is this: it is a place of confession. One tormented by his conscience may mark his name on the piers of the dock there, seeking absolution, or at least punishment. Your father's name is there, and his crime. Find it, and you will find his resting place."
+<br/><br/>
+He sips from a tiny cup of freshly brewed coffee. "This is really very good. So I will give you two final pieces of advice. Firstly, beware Mount Nomad. And secondly, the Fathomking has been given authority over all things lost at sea. If you need more assistance, ask him."
+<br/><br/>
+The Bishop smiles at you over his coffee-cup. "He will ask a little more from you than I have."
+<br/><br/>
+[Go to Avid Horizon, in the north of the Unterzee, to continue.]
+
+		ParentEvent
+Id:177221
+
+
+
+	ChildBranches5
+Name:The Gracious Widow
+Id:144406
+Description:Do you have the scintillack she requires for her tonics?
+
+		DefaultEvent
+Name:
+Id:177226
+Description:"Your father's last voyage took him to Visage. Have you been to Visage? Each Visager has a mask, and a role. The Assigner of Corpse's role is to dispose of foreign cadavers. I am certain he will know where your father lies." You can hear the smile in her voice. "Find the Assigner, and find your father."
+<br/><br/>
+As you bid her goodbye, she coughs. You can feel the air tighten; you can sense her attention on you. "One more thing. Your father owed me a debt. I have, you see, an additional interest in the disposition of his bones, and his belongings. I hope you will be frank with me, when you return. Hush. Say nothing now. Think on it."
+<br/><br/>
+[Find Visage, usually in the south of the Unterzee, to continue.]
+
+		ParentEvent
+Id:177221
+

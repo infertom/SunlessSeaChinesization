@@ -1,0 +1,47 @@
+Name:The Not-So Delightful Adventuress
+Id:176494
+Description:Barnabas stoically stands by his seething mistress, ensuring the monkeys do not take their fun too far. His bruised loyalty does not however stretch to interfering with the opportunistic monkey selling ammunition.
+
+
+
+	ChildBranches1
+Name:Decline the opportunity
+Id:143949
+Description:That is a revenge for monkeys. You are better than that. Or more fiscally responsible, at least.
+
+		DefaultEvent
+Name:You leave the Delightful Adventuress to her fate
+Id:176497
+Description:It is doubtful that she will be here for long. Theft is not a huge crime to the monkeys, particularly when they got their share anyway. They will most likely free her as soon as her outrage ceases amusing them.
+<br /><br />
+Of course, this far East she will be waiting a long time for another ship to take her back to Fallen London.
+
+		ParentEvent
+Id:176494
+
+
+
+	ChildBranches2
+Name:Buy a tomato
+Id:143947
+Description:Heavy and squishy, in just the right stages of rot. Juices drip down your hand as you squeeze its soft skin.
+
+		DefaultEvent
+Name:A complete miss!
+Id:176495
+Description:The rotten tomato flies wild, splattering against the wall. The monkeys howl in disappointment. The Delightful Adventuress' lips curl in a sneer of contempt.
+
+		ParentEvent
+Id:176494
+
+		RareDefaultEvent
+Name:A classic miss!
+Id:178172
+Description:The rotten tomato flies wild, missing the Delightful Adventuress but splattering hard into the face of passing mandarin. The shrieks of shock and outrage from his once-perfectly powdered lips leave the monkeys screaming with laughter.
+
+
+		SuccessEvent
+Name:A direct hit!
+Id:178171
+Description:The rotten tomato splatters into the Delightful Adventuress' face, dripping from her hair and chin as she splutters incoherent rage. The monkeys cheer wildly.
+

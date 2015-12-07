@@ -1,0 +1,34 @@
+Name:STARVATION WALKS THE SHIP!
+Id:144484
+Description:Day by day, you all grow weaker. Each sip of fresh water is carefully rationed. Zailors squabble over scraps of leather. Each morning, bodies are found stiff and cold.
+
+
+
+	ChildBranches1
+Name:Consign their bodies to the zee
+Id:124814
+Description:The zee, too, is hungry.
+
+		DefaultEvent
+Name:A silver lining
+Id:144485
+Description:Black water closes over their tarpaulin shrouds. At least there'll be a little more left for the rest of you.
+
+		ParentEvent
+Id:144484
+
+
+
+	ChildBranches2
+Name:Feast on their remains.
+Id:124895
+Description:You are past the edge of desperation. They have died: you will live.
+
+		DefaultEvent
+Name:A red night
+Id:144602
+Description:The higher-minded - or less hungry - crew lock themselves away. You, and the less scrupulous, stalk the ship's corridors, gathering the emaciated remains of your once-fellows. It's not what you'd call good eating. But it'll make a sustaining stew.
+
+		ParentEvent
+Id:144484
+

@@ -1,0 +1,39 @@
+Name:An Oasis of Sorts
+Id:141253
+Description:A quiet hollow. A stream of sweet dark water. A grove of parasynthetic fruit trees, boughs heavy with symbiotic fungus.
+
+
+
+	ChildBranches1
+Name:Resupply, but keep away from the stream
+Id:122728
+Description:Trees rarely attack. Fish, as any zailor knows, are chancier.
+
+		DefaultEvent
+Name:Gall-fruits and fresh water
+Id:141254
+Description:A tranquil hour gathering the lumpy, sweet-tasting stuff from the trees and refilling your water casks. Best mark the spot.
+
+		ParentEvent
+Id:141253
+
+
+
+	ChildBranches2
+Name:Fish in the stream
+Id:122729
+Description:Now and again, lazy, menacing ripples disturb the surface. There's more in there than sticklebacks.
+
+		DefaultEvent
+Name:Almost a monster
+Id:141255
+Description:The strangling horror that emerges from the water is - you learn later - four feet eight inches in length. Consequently it falls short of the five feet six inches which would qualify it as a monstrosity under Department of Menace Eradication guidelines. This is little comfort to the screaming seaman in whom it embeds its many mouths. You extinguish its horrid life with a flurry of gaff-hooks, but too late for him...
+
+		ParentEvent
+Id:141253
+
+		SuccessEvent
+Name:Well-laden
+Id:151640
+Description:You return to the ship with gall-fruit, gloam-carp and freshly filled water-casks. This has been a good day.
+

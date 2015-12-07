@@ -1,0 +1,267 @@
+Name:Speak to the Doctor
+Id:147407
+Description:He is soft-voiced. Courteous. Rarely makes eye-contact, but often stares at other people's eyes from afar.
+
+
+
+	ChildBranches1
+Name:Chat about science
+Id:126690
+Description:...over a light dinner of zee-trout and bracket-gruel.
+
+		DefaultEvent
+Name:The nature of nature
+Id:147408
+Description:"Sunlight is - in certain senses literally, quite literally, law. Without sunlight, the earth would spin off into space. And the absence of sunlight down here means the absence of a dozen laws. Death operates unreliably (though more reliably on the zee, as you know). Geography is uncertain and shifting. And dreams - dreams - "
+<br/><br/>
+He had grown animated - now he seems distracted. He apologises, and composes himself.
+<br/><br/>
+"It was a particular interest of mine. Luminosity. The anatomy of the eye. The many liberations of night... excuse me. This gruel is a little too rich for my tastes."
+
+		ParentEvent
+Id:147407
+
+
+
+	ChildBranches2
+Name:Chat about politics
+Id:126691
+Description:...over roast lizard and cabbage in the Khaganian style.
+
+		DefaultEvent
+Name:Freedoms
+Id:147409
+Description:"It's true: I fell in with - restless elements. The usual reasons, of course. Watching the Bazaar devour London, year by year. The iniquities of the rich and the pities of the poor. But more than that - I thought London needed darkness. Do you know what I mean? I thought the city was safer in the dark. Do you understand me? I applied my arts to that end. If you do, I need say no more, and if you don't, I should say no more - "
+
+		ParentEvent
+Id:147407
+
+
+
+	ChildBranches3
+Name:Answer questions about your past
+Id:127502
+Description:You've kept your secrets long enough. [Unmask yourself! This will allow you to select a Past, Ambition, and form of preferred address - also providing you with a specialist ability bonus.]
+
+		DefaultEvent
+Name:
+Id:148610
+Description:
+
+		ParentEvent
+Id:147407
+
+
+
+	ChildBranches4
+Name:Check on the Determined Doctor
+Id:127615
+Description:He has not caused any more trouble, but remains a cause for concern.
+
+		DefaultEvent
+Name:A man distracted
+Id:148779
+Description:The guard reports that the Doctor has barely spoken since returning to work. He certainly has not smiled. He goes through the motions solely in the hope of being left alone, away from the scorn and suspicion of the crew. His patients leave mended, more or less, but their sutures are poorly stitched, their medications miscounted, and their bones carelessly set.
+<br /><br />
+The crew grumbles. A word must be had.
+
+		ParentEvent
+Id:147407
+
+
+
+	ChildBranches5
+Name:Increase your Hearts
+Id:128184
+Description:The Haunted Doctor has read widely. [Spend a Secret to improve your Hearts, unless it's higher than 100.]
+
+		DefaultEvent
+Name:An educational lesson
+Id:149719
+Description:The Doctor is methodical and scrupulous. You spend an informative afternoon, and learn much. However, when you ask detailed questions on the anatomy of the eye, he grows reticent, and soon ends the conversation, complaining of a headache...
+
+		ParentEvent
+Id:147407
+
+
+
+	ChildBranches6
+Name:Ask about his medical career
+Id:146352
+Description:He looks up from a wounded zailor. "No, no, I mustn't. No. I have no stories I would wish... you would wish to hear." He sniffs. "Unless... Would that be... zee-trout?"
+
+		DefaultEvent
+Name:A dour companion
+Id:180512
+Description:The Doctor pushes more food around his plate than he puts into his mouth, and what he eats, he chews until all taste has been squeezed out. Between bites, he sips only water, evading all questions where opinion is sought.
+<br /><br />
+It is only when the subject turns to his trade that something flickers inside him, old memories of pain and pride. "I fear it was my training that let me see the world for what it was - its corpus infested by malignancies with human faces. How could I dare face Hippocrates in the hereafter if I just stood by and did nothing? <i>Nothing!"</i>
+<br /><br />
+His eye meets yours for the first time; fierce, damned. "If two drops of medicine can cure the body, could two drops of poison cure the world? For a moment, it actually seemed that easy."
+<br /><br />
+The fire fades. He pushes back his chair. "Pardon me, [q:Addressed As]. I fear I have had my fill for today."
+
+		ParentEvent
+Id:147407
+
+
+
+	ChildBranches7
+Name:Invite him to drink with you
+Id:146353
+Description:The Haunted Doctor has kept to himself since dinner. Perhaps some wine will help him open up.
+
+		DefaultEvent
+Name:The art of poison
+Id:180513
+Description:"I let most of them slip away peacefully, a drop of laudanum still on their tongues. For that sop to my conscience, I am most ashamed of all."
+<br /><br />
+The wine flows as the Haunted Doctor talks candidly of his past - of a status that allowed him to the bedsides of many of London's most infamous, and the black medicine bag that carried the tools of both his trades - doctor, and anarchist-poisoner.
+<br /><br />
+"I was a fool," he adds. "A <i>child.</i> Just a boy on a crusade, drinking in the rhetoric of the Calendar Council, thinking myself more than a mere poisoner. What I did, I do not regret. Would though that I had seen their true hearts before giving myself so freely to perdition."
+<br /><br />
+He raps his leather eyepatch. The sound is hollow; sickly. "It is a disappointment I well deserved. The Lady taught me that much, at least. I... No. Another time, perhaps. The hour grows late. I thank you for the company."
+<br/><br/>
+[The Doctor may have more to say after you've visited a place that touches his old interests.]
+
+		ParentEvent
+Id:147407
+
+
+
+	ChildBranches8
+Name:A request from the Haunted Doctor
+Id:146354
+Description:He asks it quietly, almost with embarrassment, as he sutures a crewman's wound.
+
+		DefaultEvent
+Name:A visit to Khan's Shadow?
+Id:180514
+Description:"Our recent conversations have left me... nostalgic," the Haunted Doctor admits. His voice shakes slightly, though his fingers do not. "Should a suitable opportunity arise, I would remind myself that there are still those who dare to dream of a better world. It has been too long since I warmed my hands on such passion."
+<br /><br />
+He snips the thread. His work is, as ever, immaculate.
+
+		ParentEvent
+Id:147407
+
+
+
+	ChildBranches9
+Name:A Long Talk: Cold Reality
+Id:146355
+Description:His problem is that he lives in a fantasy world. A glimpse of life's complexity might show him his folly.
+
+		DefaultEvent
+Name:A realist is born...
+Id:180515
+Description:It is not with anger but curiosity that you ask him what he hoped to achieve by betraying your trust. What plans could the anarchs have that would upend the very table where the Great Game is played? In the privacy of your cabin you let him in on your little corner of it. More. You give him your blessing to make use of anything he sees, if he truly believes it will achieve something worthwhile.
+<br /><br />
+He looks up. Pushes away the offered intelligence... which of course still has to be burned, as protocol demands. Something in his eye has gone, possibly forever. "You are right, of course. I will return to my duties. There at least I can still hope to serve."
+<br /><br />
+"Here. They gave me this in the Shadow. It is not fitting that I keep it. May you use it better than I would."
+
+		ParentEvent
+Id:147407
+
+
+
+	ChildBranches10
+Name:A Long Talk: Inner Emptiness
+Id:146356
+Description:His problem is caring too much. In the blackest reaches of the zee, he will learn that such frivolities as hope and purpose are just night-lights for the naive.
+
+		DefaultEvent
+Name:A nihilist is born...
+Id:180516
+Description:By the last greasy flickers of a dying candle, you stand on deck with the Doctor and stare into the abyss. The question is not whether anything stares back, but whether it will choose to remain hidden. As you talk, the fellow's shoulders sink. He leans against the rail, considering the depths. Any arguments he might have made are swallowed by the emptiness.
+<br /><br />
+He looks up. Something in his eye has gone, possibly forever. "You are right, of course. I will return to my duties. There at least I can still hope to serve."
+<br /><br />
+"Here. They gave me this in the Shadow. It is not fitting that I keep it. May you use it better than I would."
+
+		ParentEvent
+Id:147407
+
+
+
+	ChildBranches11
+Name:A Long Talk: For London!
+Id:146357
+Description:His problem is that he keeps choosing unworthy causes. Perhaps he can be pushed to a worthy one for once.
+
+		DefaultEvent
+Name:A patriot is born...
+Id:180517
+Description:Over a meal of zee-trout and wine, you do your best to bring him round. Is the world perfect? No. Neither Surface nor Neath will ever make that claim. Is all well in London? Hardly. He is not wrong there. However, you point out, he has a better chance than most to put his unquestioned skills to use in the name of <i>all</i> her people. And his regrets? Well, to do something terrible for one's country is barely a matter for shame at all!
+<br /><br />
+He looks up. Something in his eye has gone, possibly forever. "You are right, of course. Perhaps I shall put about inquiries the next time we are in port. For now though, I will return to my duties. There at least I know that I can serve with a measure of honour."
+<br /><br />
+"Here. They gave me this in the Shadow. It is not fitting that I keep it. May you use it better than I would."
+
+		ParentEvent
+Id:147407
+
+
+
+	ChildBranches12
+Name:Enough! His services are no longer required
+Id:146358
+Description:He leaves the ship at the next suitable port.
+
+		DefaultEvent
+Name:A vacancy to fill
+Id:180518
+Description:The Doctor finishes work on his final patient and walks himself to the brig without objection or recrimination. He leaves his fate in your hands, thanking you for having let him perform at least a little more good while here.
+
+		ParentEvent
+Id:147407
+
+
+
+	ChildBranches13
+Name:Dine with the Determined Doctor
+Id:146367
+Description:He will bring the wine, he tells you. Do you happen to have any more of that delightful zee-trout? No matter!
+
+		DefaultEvent
+Name:Your sorbet slowly melts, untouched
+Id:180529
+Description:"...and no, they are not <i>restless elements!</i>" He slams his hands down on the table. "Do you not <i>see</i>, [q:Addressed As]! Every year, the Bazaar... she <i>devours</i> us! From within! The rich dream honey-dreams, while the poor shovel lacre with their bare hands in the streets - just to earn a few Echoes to buy food... and above it all the Masters and the - "
+<br /><br />
+He never does get around to answering your actual question, of whether he enjoyed his main course.
+
+		ParentEvent
+Id:147407
+
+
+
+	ChildBranches14
+Name:Increase your Hearts
+Id:146393
+Description:The Determined Doctor has read widely. [Spend a Secret to improve your Hearts, unless it's higher than 100.]
+
+		DefaultEvent
+Name:A distracted lesson
+Id:180567
+Description:"Eyes! What I could tell you about <i>eyes!</i>" As the subject bounces from that to politics, to the intricacies of sunlight, to the complex breeding cycle of sorrow-spiders, it becomes impossible to keep up.
+<br /><br />
+Still, he is a man who intimately knows all of his subjects. You definitely leave feeling that you have learned something important, if perhaps not exactly what.
+
+		ParentEvent
+Id:147407
+
+
+
+	ChildBranches15
+Name:Increase your Hearts
+Id:146394
+Description:The Disillusioned Doctor has read widely. [Spend a Secret to improve your Hearts, unless it's higher than 100.]
+
+		DefaultEvent
+Name:A slow afternoon's study
+Id:180568
+Description:The Doctor speaks with the knowledge of a dusty textbook, and the enthusiasm to match. He drones about the nature of eyes in ways that make it hard to remember them capable of witnessing great beauty or weeping at equal sadness. Mid-way through, even he loses interest and spends what remains of the lesson doing little but staring thoughtfully out to zee.
+
+		ParentEvent
+Id:147407
+

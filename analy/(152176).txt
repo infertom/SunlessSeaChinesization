@@ -1,0 +1,47 @@
+Name:A Delegation
+Id:152176
+Description:
+
+
+
+	ChildBranches1
+Name:Favour the Chief Engineer
+Id:129712
+Description:He seems grumpy but honest. Also you've seen what rat-made weapons can do, and you'd rather not be on the receiving end of them. 
+
+		DefaultEvent
+Name:A Rat in the Making
+Id:152177
+Description:You extend a hand to the Chief Engineer, who shakes it grimly. The Seneschal hisses and chatters her teeth in disgust, but keeps her distance. 
+
+"You've made the right choice," says the Chief Engineer. "Let me show you around." 
+
+		ParentEvent
+Id:152176
+
+
+
+	ChildBranches2
+Name:Favour the Seneschal
+Id:129717
+Description:
+
+		DefaultEvent
+Id:152182
+
+		ParentEvent
+Id:152176
+
+
+
+	ChildBranches3
+Name:Refuse the choice
+Id:129718
+Description:
+
+		DefaultEvent
+Id:152183
+
+		ParentEvent
+Id:152176
+

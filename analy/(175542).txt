@@ -1,0 +1,34 @@
+Name:The Bright-Eyed Sequencer
+Id:175542
+Description:"That stone's full of old memories. The Bazaar has been drinking them." She nods at the spires that loom over London, the dark limbs that sprawl through the streets. "I have a better destination. Help us bring light here below, and we will reward you - reward you richly."
+
+
+
+	ChildBranches1
+Name:Accept
+Id:143331
+Description:"Rich reward." "Light." These are happy words.
+
+		DefaultEvent
+Name:A brilliant smile
+Id:175543
+Description:"Captain, thank you. You are clear of eye and clear of spirit. Bring the Sphinxstone south, to the Grand Geode. It was an Admiralty base, once. Now it's something wonderful." She kisses you warmly on the cheek. "We'll see you soon."
+
+		ParentEvent
+Id:175542
+
+
+
+	ChildBranches2
+Name:Refuse
+Id:143688
+Description:Those bright bright eyes: the unmistakable mark of the Dawn Machine. None understand the Dawn Machine, but all fear it. Who knows what its motives are? Or hers?
+
+		DefaultEvent
+Name:A bright and brittle smile
+Id:176103
+Description:"Not an admirer of Progress, I see. Well then: keep your stone, keep your memories. 'None so blind as those who will not rise.'"
+
+		ParentEvent
+Id:175542
+

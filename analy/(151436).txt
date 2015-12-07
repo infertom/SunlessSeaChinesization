@@ -1,0 +1,35 @@
+Name:Put a Prisoner ashore
+Id:151436
+Description:They're taking up valuable space in your hold. Sacrifice them to justice, or profit?
+
+
+
+	ChildBranches1
+Name:Hand over a prisoner for sentencing
+Id:129246
+Description:The High Court of Admiralty will determine their fate.
+
+		DefaultEvent
+Name:The gates clang shut
+Id:151437
+Description:"Justice is served," intones a Constable. You could wish he makes it sound less like dinner. Nevertheless, you've dealt with the matter honestly: your crew are a little reassured.
+
+		ParentEvent
+Id:151436
+
+
+
+	ChildBranches2
+Name:Sell a prisoner to the Orphanage
+Id:129253
+Description:The Orphanage lies deep in the lightless labyrinths of the districts of Spite. It accepts guests of all ages.
+
+		DefaultEvent
+Name:A black-painted carriage
+Id:151450
+Description:Two stern neddy men - the Masters' enforcers - drag the weeping prisoner down the gang-plank. "Don't worry," one of them says. "You'll love it in the Orphanage. Everyone loves it in the Orphanage, eventually." They chuckle.<br/><br/>
+Your bo'sun won't meet your eyes for the rest of the watch.
+
+		ParentEvent
+Id:151436
+

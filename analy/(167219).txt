@@ -1,0 +1,97 @@
+Name:The Festival of Silk
+Id:167219
+Description:Once a year, the Nativity explodes with forbidden music and colour. Silks the envy of any in the Neath stream from every ship in a rainbow of red, green and gold.
+
+
+
+	ChildBranches1
+Name:Eat, drink, be merry!
+Id:138297
+Description:It's almost as if there are no spiders at all!
+
+		DefaultEvent
+Name:The mushroom wine flows free
+Id:167220
+Description:A spider on your head? There's a spider on YOUR head. No, no really. But with this much still to drink before dawn, who even cares?
+
+		ParentEvent
+Id:167219
+
+		RareDefaultEvent
+Name:What's this? A dead one of those!
+Id:167908
+Description:It is a hilarious joke! But nobody laughs. They don't even look. Do they shift slightly away from you? Some people just don't understand comedy.
+
+
+
+	ChildBranches2
+Name:Enjoy the entertainments
+Id:138658
+Description:As the mushroom wine flows, the atmosphere becomes increasingly like home.
+
+		DefaultEvent
+Name:She peels them away, one at a time
+Id:167797
+Description:A crowd has gathered around a lithe dancer clothed in veils. They flutter into the audience one by one, caught and clutched and their perfume drunk deep by the rowdy audience. The hollering soon changes though as, still clothed in little but scandal, she disappears behind a conveniently placed bit of painted scenery and an obese dockworker emerges to finish the job. 
+<br /><br />
+Nobody feels a desire to sniff his silks. Though he does still gets his share of cat-calls.
+
+		ParentEvent
+Id:167219
+
+		RareDefaultEvent
+Name:A dive into silks
+Id:167907
+Description:There is a huge pile of it placed in the tallest ship in the Nativity's frozen flotilla, atop which a well-nailed plank now stretches for those that dare walk it. Spurred by the mocking challenges of the traders, you find yourself facing a drop a good deal higher than it looked from the ground. But there's no backing out now. The silks open up to greet you; cool, soft, embracing.
+
+
+
+	ChildBranches3
+Name:The Emissary of Spiders
+Id:138659
+Description:As the festival draws to a close, he waits by the Reaches to present your hard-earned reward.
+<br />
+[This will end the Festival of Silk]
+
+		DefaultEvent
+Name:"A gift, from the pestiferous masters."
+Id:167798
+Description:The Nocturne? The Lorn-Fluke? Of such things, he will not speak. But his masters appear quite content with how things have resolved, even volunteering a prize secret from their own collection as payment.
+<br /><br />
+"Curiosity can be such a curse, can it not?" says the Emissary of Spiders. "If you are to be absorbed by an enigma I would heartily recommend it be this. A far safer one than any other you shall find here, to be sure."
+<br /><br />
+He bows. And, stroking the sorrow-spider on his shoulder, he returns to his masters, where a tortured Lorn-Fluke already screams for the sake of a secret that never was and another the spiders will never tell.
+
+		ParentEvent
+Id:167219
+
+
+
+	ChildBranches4
+Name:Spin a few zee-ztories
+Id:138661
+Description:The drunken crowd cheers at the promise of tales of adventure, the more fanciful the better.
+
+		DefaultEvent
+Name:Did you hear the one about...
+Id:167800
+Description:...a ring of rostygold forged by leaders of the Iron Republic that can only be destroyed by being dropped into Mt Palmerston? "Why not just tie it to a trained zee-bat?" demands a Pedantic Listener. The crowd jeers, but the mood is still spoiled.
+
+		ParentEvent
+Id:167219
+
+		RareDefaultEvent
+Name:Did you hear the one about...
+Id:167803
+Description:...the Traitor Empress and the Cantigaster? Scandalous! They don't believe a single solitary word of it, but the way you tell it fills your mug many times over.
+
+		SuccessEvent
+Name:Did you hear the one about...
+Id:167801
+Description:...your torrid affair with a gorgeous mermaid... or was it a merman... while sailing the Carnelian Coast? Pah, they scoff. A more blatant falsehood they have never heard! But not one of them actually says to stop.
+
+		RareSuccessEvent
+Name:Did you hear the one about...
+Id:167804
+Description:...a whole new world to the East, where the moon pines for the heart of the ocean? The crowd is transfixed by stories of their forbidden romance; how she strokes its surface to create the waves and it reflects her face that it might share her smile.
+

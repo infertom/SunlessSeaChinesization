@@ -1,0 +1,195 @@
+Name:The Chandler of Souls
+Id:176484
+Description:High-souled apes prize quality over quantity, seeking beneficial spiritual alchemy. The Chandler lacks the finesse of devils, but he assures you this is not a problem. Your soul is his concern, your comfort is not.
+
+
+
+	ChildBranches1
+Name:Sell to the Ambitious Page
+Id:143939
+Description:She will likely not keep it for longer than it takes to trade up. For now though, it serves her purposes.
+<br />
+[The Ambitious Page can offer 400 Echoes]
+
+		DefaultEvent
+Name:The arrangements are made
+Id:176485
+Description:You are led into a small room and politely asked to first disrobe, and then permit yourself to be bound in a metal contraption only a few degrees or sharp edges from being a torture device. The Chandler assures you that you have nothing to worry about, before welcoming in not simply the Page, as agreed, but group of young Pentecost apes hoping to be his latest apprentice.
+<br /><br />
+Who amongst them knows why ether is involved, he asks, allowing the eldest to do the honours. She looks at you. She looks at the bottle of ether. She looks at the rag. She grins. And she pushes it, bone-dry, into your mouth.
+<br /><br />
+The answer, it turns out, involves screaming. Much.
+<br /><br />
+Later, you awaken under rags, aching, with a strange feeling of loss. It is done. Your mind licks at the strange emptiness as a tongue might a missing tooth.
+<br /><br />
+The Chandler of Souls has your payment. He returns his cut, less in apology than in the hope that you will remain quiet.
+
+		ParentEvent
+Id:176484
+
+
+
+	ChildBranches2
+Name:Sell to the Veiled Concubine
+Id:143940
+Description:She seeks uplifting from the servant classes to the low-aristocracy.
+<br />
+[The Veiled Concubine can offer 850 Echoes]
+
+		DefaultEvent
+Name:The arrangements are made
+Id:176486
+Description:In her incense-perfumed chamber in a quiet corner of the palace, the Veiled Concubine awaits. She bids you to disrobe and lie face-down on a bed of cushions, where she rubs relaxing scented oils into your back. Her furred fingers massage away tensions so deep as to be in your bones. It is not long before you slip peacefully, content, into a sleep deeper than the zee itself.
+<br /></br >
+Too soon, for it would always have been too soon, you awaken in a bed of silks. It is done. Your mind licks at the strange emptiness as a tongue might a missing tooth.
+
+		ParentEvent
+Id:176484
+
+
+
+	ChildBranches3
+Name:Sell to the Mayor of Port Stanton
+Id:143941
+Description:With it, he will have the five souls needed to petition for membership of the Court.
+<br />
+[The Mayor can offer 175 Echoes]
+
+		DefaultEvent
+Name:The arrangements are made
+Id:176487
+Description:The devils call it Abstraction. It is said to be a beautiful ceremony. The methods of the Pentecost apes are rather more functional. At least for this quality of soul.
+<br /><br />
+You are led into a small room and ordered, not asked, to disrobe. You permit yourself to be bound in a metal contraption only a few sharp edges from being a torture device. Your head is locked forwards, unable to turn to see what is causing the screeching sounds of metal on rust. Something cold pricks your back. An ether-soaked rag is pressed against your mouth.
+<br /></br >
+Later, you awaken bruised, with a headache and feeling of loss. It is done. Your mind licks at the strange emptiness as a tongue might a missing tooth.
+
+		ParentEvent
+Id:176484
+
+
+
+	ChildBranches4
+Name:Sell to the Monkey Baronet
+Id:143942
+Description:There is something in your eyes he approves of. He wishes to see if he can replicate it in his own polished-silver mirror.
+<br />
+[The Monkey Baronet can offer 1000 Echoes]
+
+		DefaultEvent
+Name:The arrangements are made
+Id:176488
+Description:You are the guest of honour at an evening soiree, where he and fellow high-souled apes all but dote on your stories of the zee. Under its quarantine, residents of the Empire of Hands have no choice but to smuggle themselves any real distance, and that is hardly a journey for a high-souled ape. Do you not agree?
+<br /><br />
+The apes prove surprisingly fine company, the wine and opiates flowing free. Souls are not even discussed once, not even when the last guest has gone and it is time for business to be concluded. Your host waits for you to drain your glass of both wine and drugs, catching you easily as you slump in your chair.
+<br /><br />
+You awaken on a couch under a blanket, your clothes on a nearby chair - freshly washed, pressed and awaiting your departure. It is done. Your mind licks at the strange emptiness as a tongue might a missing tooth.
+
+		ParentEvent
+Id:176484
+
+
+
+	ChildBranches5
+Name:A gift for the Emperor
+Id:143943
+Description:If it pleases him to accept, of course.
+<br />
+[This trade is a gamble, based on the Emperor's mood]
+
+		DefaultEvent
+Name:The arrangements are made
+Id:176489
+Description:You are led into a small room and politely asked to first disrobe, and then permit yourself to be bound in a metal contraption only a few sharp edges from being a torture device. An ether-soaked rag is pressed to your face as the spirifage process is carried out.
+<br /><br />
+You awaken on a small bed. It is done. Your mind licks at the emptiness as a tongue might a missing tooth.
+<br /><br />
+As you dress, a young monkey arrives with a letter clearly written and signed by the Exquisite Seneschal. He thanks you on behalf of his Emperor for such a fine gift, and hopes you will accept this token of gratitude.
+
+		ParentEvent
+Id:176484
+
+		RareDefaultEvent
+Name:The arrangements are made
+Id:178126
+Description:You are led into a small room and politely asked to first disrobe, and then permit yourself to be bound in a metal contraption only a few sharp edges from being a torture device. An ether-soaked rag is pressed to your face as the spirifage process is carried out.
+<br /><br />
+You awaken on a small bed. It is done. Your mind licks at the emptiness as a tongue might a missing tooth.
+<br /><br />
+As you dress, a young monkey arrives with a letter clearly written and signed by the Exquisite Seneschal. He thanks you on behalf of his Emperor for such a fine gift, and hopes you will accept this token of gratitude.
+
+
+
+	ChildBranches6
+Name:No sale. Not for now.
+Id:143944
+Description:Whether the offers are insufficient or you simply thought twice, you'll be keeping your soul.
+
+		DefaultEvent
+Name:The Chandler of Souls bows
+Id:176490
+Description:Should you change your mind, he is here.
+
+		ParentEvent
+Id:176484
+
+
+
+	ChildBranches7
+Name:A gift for the Emperor
+Id:143945
+Description:If it pleases him to accept, of course.
+<br />
+[This trade is a gamble, based on the Emperor's mood]
+
+		DefaultEvent
+Name:The arrangements are made
+Id:176491
+Description:You are led into a small room and politely asked to first disrobe, and then permit yourself to be bound in a metal contraption only a few sharp edges from being a torture device. An ether-soaked rag is pressed to your face as the spirifage process is carried out.
+<br /><br />
+You awaken on a small bed. It is done. Your mind licks at the emptiness as a tongue might a missing tooth.
+<br /><br />
+As you dress, a young monkey arrives with a letter clearly written by the Exquisite Seneschal, but signed by the Emperor's own hand. He thanks you for such a fine gift, and hopes that you will accept this as a token and demonstration of the Empire of Hands' gratitude.
+
+		ParentEvent
+Id:176484
+
+		RareDefaultEvent
+Name:The arrangements are made
+Id:178125
+Description:You are led into a small room and politely asked to first disrobe, and then permit yourself to be bound in a metal contraption only a few sharp edges from being a torture device. An ether-soaked rag is pressed to your face as the spirifage process is carried out.
+<br /><br />
+You awaken on a small bed. It is done. Your mind licks at the emptiness as a tongue might a missing tooth.
+<br /><br />
+As you dress, a young monkey arrives with a letter clearly written by the Exquisite Seneschal, but signed by the Emperor's own hand. He thanks you for such a fine gift, and hopes that you will accept this as a token and demonstration of the Empire of Hands' gratitude.
+
+
+
+	ChildBranches8
+Name:A gift for the Emperor
+Id:144932
+Description:If it pleases him to accept, of course.
+<br />
+[This trade is a gamble, based on the Emperor's mood]
+
+		DefaultEvent
+Name:The arrangements are made
+Id:178129
+Description:You are led into a small room and politely asked to first disrobe, and then permit yourself to be bound in a metal contraption only a few sharp edges from being a torture device. An ether-soaked rag is pressed to your face as the spirifage process is carried out.
+<br /><br />
+You awaken on a small bed. It is done. Your mind licks at the emptiness as a tongue might a missing tooth.
+<br /><br />
+As you dress, a young monkey arrives with a letter written and signed by the Exquisite Seneschal. It is not flattering. Your gift will grudgingly be placed with the Emperor's treasures, as politeness demands, but you are asked to only send gifts appropriate to his stature in future.
+
+		ParentEvent
+Id:176484
+
+		RareDefaultEvent
+Name:The arrangements are made
+Id:178130
+Description:You are led into a small room and politely asked to first disrobe, and then permit yourself to be bound in a metal contraption only a few sharp edges from being a torture device. An ether-soaked rag is pressed to your face as the spirifage process is carried out.
+<br /><br />
+You awaken on a small bed. It is done. Your mind licks at the emptiness as a tongue might a missing tooth.
+<br /><br />
+As you dress, a young monkey arrives with a letter written and signed by the Exquisite Seneschal. She thanks you on behalf of her Emperor for your gift, and hopes you will accept this token of gratitude.
+

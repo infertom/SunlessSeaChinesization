@@ -1,0 +1,19 @@
+Name:The Khanate Ascendant
+Id:172905
+Description:FOR SHAME, cry the headlines. EMPRESS TWICE-TRAITOR. Today, Parliament ratifies the Cliency Act, accepting Khanate protection and beginning the dissolution of the Navy.
+
+
+
+	ChildBranches1
+Name:Examine the new landscape
+Id:141685
+Description:Find a comfortable seat in a coffee-house. Review the papers. Meet your contacts. Ask your questions very quietly
+
+		DefaultEvent
+Name:Everything and nothing
+Id:172906
+Description:The Taimen - the most feared clan in the Khanate - has taken control of the Ministry of Public Decency.The Admiralty's doors are locked. Patriots do not prosper. The White-and-Golds, the Khaganian secret police, have been seen in the streets...
+
+		ParentEvent
+Id:172905
+

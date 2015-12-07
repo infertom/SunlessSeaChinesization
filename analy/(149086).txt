@@ -1,0 +1,57 @@
+Name:Shades of Black
+Id:149086
+Description:When the Acolyte gets to the center, she pushes the ball towards you. As an afterthought she lets you borrow her goggles as well.
+<br/>
+<br/>
+The secret, when you can focus enough to make it out, is this:
+<br/>
+<br/>
+The Austere Acolyte's twin was not her twin, not her sister at all. The Acolyte never had a sister. This being took up wearing a mirror of her face, early in her childhood. It was drawn by her early promise, by the likelihood of her success.
+
+
+
+	ChildBranches1
+Name:Tell her the truth
+Id:127812
+Description:What a relief it would be for her to know she wasn't to blame for a sister's death.
+
+		DefaultEvent
+Name:Not what she expected
+Id:149087
+Description:The news does not comfort her. When she hears it, she takes the scalpel back up and continues the autopsy, dismantling the corpse down to the small organs. She won't talk. She won't sing. 
+<br/>
+<br/>
+The pellet of dark matter sits on its tray.
+
+		ParentEvent
+Id:149086
+
+
+
+	ChildBranches2
+Name:Invent a comforting lie
+Id:127813
+Description:How lonely she would be to learn that her childhood's companion was not her sister at all.
+
+		DefaultEvent
+Name:Insufficient invention
+Id:149088
+Description:You start in on a story about a misguided love affair, a Bearded Poet, a massive heist of Prisoner's Honey. But you know too little of their shared history, and inevitably you make a mistake.
+<br/>
+<br/>
+After that the Acolyte looks at the little black pellet herself. And then she won't speak to you any more.
+
+		ParentEvent
+Id:149086
+
+		SuccessEvent
+Name:What she wants to hear
+Id:149089
+Description:You come up with something vague but soothing about a long-running weakness of the heart, a medical concern the twin did not dare confide even to her clever doctor sister because it could not be healed. You tell how the twin loved her sister so much that she did not want to let the Acolyte to feel guilty when, inevitably, true death came for her. 
+<br/>
+<br/>
+You tell it with some pauses, hesitation, restraint, as though all these strange feelings were true and were even your own. As though you were the one who did not want to see the Acolyte hurt.
+<br/>
+<br/>
+The Acolyte weeps gratefully. You help her wrap the body again for disposal and you put the pellet aside, with tongs, to go to the dump. Nothing messy is left behind.
+

@@ -1,0 +1,119 @@
+Name:Speak to your nacreous acquaintance
+Id:165527
+Description:It drips eagerly. Perhaps if it comes to your cabin you should put down some sort of matting.
+
+
+
+	ChildBranches1
+Name:Increase your Hearts
+Id:137238
+Description:[Spend a Secret to improve your Hearts, unless it's higher than 150.]
+
+		DefaultEvent
+Name:"Fderr."
+Id:165528
+Description:"Flif your hanf on the ftool. Farphaf! Ophen your eyess,"
+<br/><br/>
+The Outcast has gnostic secrets of profound culinary import to impart. Even its lesser revelations are enough to touch your dreams with the dread of drowning. Perhaps fortunately, it gets so excited when it talks about the greater revelations that you don't have any idea what the hell it's on about.
+
+		ParentEvent
+Id:165527
+
+
+
+	ChildBranches2
+Name:Invite it to dine with you
+Id:137240
+Description:You'll need a suitable morsel.
+
+		DefaultEvent
+Name:An untidy dinner
+Id:165530
+Description:Where did it learn to cook? Not in its amber-smeared home-tunnels, because it obviously prefers its food raw. Between gulps and flabbers, it attempts to chat.
+<br/><br/>
+It's hard to decipher its words. Its mouth is full of fish-flesh; its mind is alien; and besides, it's terribly shy. Consequently, the evening is not a great success.
+<br/><br/>
+But you learn a little of its past. It was abandoned in Port Cecil for Rubbery crimes - crimes whose nature quite slip the surly bonds of language. The Principles found it an apt tool, and has been its patron ever since. It begins to say "I ushed to love - " and then suddenly excuses itself.
+
+		ParentEvent
+Id:165527
+
+
+
+	ChildBranches3
+Name:Invite it to dine with you
+Id:137241
+Description:You'll need a suitable morsel.
+
+		DefaultEvent
+Name:It shakes its head firmly, tentacles slapping its neck
+Id:165531
+Description:"Shalt-Flions," it lisps. "Shaltsh Ftention." It turns an earnest eye to you. Apparently it wants to visit the Salt-Lions before it will speak further to you. At least no other crew were around to witness a Rubbery Man rejecting a human invitation.
+
+		ParentEvent
+Id:165527
+
+
+
+	ChildBranches4
+Name:Invite it to dine with you
+Id:137644
+Description:You'll need a suitable morsel.
+
+		DefaultEvent
+Name:A jubilant dinner
+Id:166165
+Description:The Survivor still struggles with human language, but its shyness, for now, is gone. It gestures widely with the fork (not long ago, it was embarrassed to pick up a fork). It speaks of its plans to visit Flute Street below London, where its relatives dwell: to bring them gifts of knowledge which will erase its crimes.
+<br><br>
+It tells you stories of travel through the void on the vast-shelled black back of a messenger thing. It shares jokes from its spawn-world, Axile. None of the jokes make any sense, but they linger on the surfaces of your thought like graffiti scrawled in a language you knew when you were very young...
+
+		ParentEvent
+Id:165527
+
+
+
+	ChildBranches5
+Name:Proposition the Nacreous Survivor
+Id:146906
+Description:It is not unknown for romantic tastes at sea to grow <i>specialised</i>.
+
+		DefaultEvent
+Name:Sadness?
+Id:181422
+Description:The Outcast shakes its head. "Nishe," it manages. "But - I belong to Prinshiplesh. Excush. Excush." It leaves, with a single longingly glaucous glance.
+
+		ParentEvent
+Id:165527
+
+
+
+	ChildBranches6
+Name:Smile at your nacreous lover
+Id:146909
+Description:Be discreet. Your crew would be horrified.
+
+		DefaultEvent
+Name:Later...
+Id:181425
+Description:[Opportunities for other trysts will occur while you're at sea - but not quite yet.]
+
+		ParentEvent
+Id:165527
+
+
+
+	ChildBranches7
+Name:Proposition the Nacreous Survivor
+Id:146910
+Description:It bends its face. You've known it long enough to understand that this is an affectionate smile. Are you sure about this? [The Survivor can only evince the proper responses in the presence of sufficient Scintillack.]
+
+		DefaultEvent
+Name:Glimmering intensities
+Id:181426
+Description:Flesh meets membrane. Apertures pulse. The Survivor enfolds you like a tide. The narcotic pleasures of union engulf you! Again and again, you rise to impossible spasms of unknown emotion, until you subside into a pool of mingled exudate. "Sho... sho..." the Survivor pants, its glabrous flanks heaving.
+<br/><br/>
+[For God's sake don't let anyone find out about this. Especially your crew. Especially any lover you might have in port.]
+
+		ParentEvent
+Id:165527
+

@@ -1,0 +1,101 @@
+Name:A Contest of Riddles
+Id:146635
+Description:Fisherfolk, zailors, a shady couple of likely-pirates - and is that a Drownie down by the water's edge? They sit round a fire at the zee's edge passing around a bottle of something viscously black. They're wagering on riddles. Will you join them?
+
+
+
+	ChildBranches1
+Name:Walk away
+Id:126475
+Description:Riddles are for children.
+
+		DefaultEvent
+Name:Unanswered questions
+Id:147079
+Description:You pass on. The Drownie laughs at a pirate's joke, and the fire sinks low and blue.
+
+		ParentEvent
+Id:146635
+
+
+
+	ChildBranches2
+Name:Bet an Echo on one of the simpler riddles.
+Id:126184
+Description:One of the fishermen is bursting to try it.
+
+		DefaultEvent
+Name:"A whale's eye?"
+Id:146636
+Description:The fisherman chuckles and pounds the ground with a fist. "City folk!" he crows. "City folk. Pay up."
+
+		ParentEvent
+Id:146635
+
+		SuccessEvent
+Name:"A cat's shadow."
+Id:147080
+Description:The fisherman grumbles, but pays up.
+
+
+
+	ChildBranches3
+Name:Seek a real challenge, for ten Echoes
+Id:126476
+Description:Here's a sardonic woman with a pair of matched knives, a silver hoop earring and a Khanate accent. She has a real riddle.
+
+		DefaultEvent
+Name:"The ashes of a fire?"
+Id:147081
+Description:She shakes her head slowly. "Good try. Not good enough."
+
+		ParentEvent
+Id:146635
+
+		SuccessEvent
+Name:"The last day of summer."
+Id:147082
+Description:She tips her hat to you. "Fair's fair. Take this. I found it off Wolf's Rift. I'd pickle it, if I were you." Whatever it was, it has a single sad and swollen eye, a slick greyish integument and claws like a raven. It smells like sewage.
+
+
+
+	ChildBranches4
+Name:Attempt one of the Riddles of Pearl
+Id:126477
+Description:At the Fathomking's feasts, the guests challenge one another to answer these riddles. You need not pay the penalty they do. But you will need to stump up a hundred Echoes to challenge the Drownie.
+
+		DefaultEvent
+Name:"A crown of kelp?"
+Id:147083
+Description:The Drownie reaches out to take your coins, smiling like a sated shark.
+
+		ParentEvent
+Id:146635
+
+		SuccessEvent
+Name:"A silver bubble of breath."
+Id:147084
+Description:The Drownie performs a curious bobbing bow, and produces something from its sodden clothing: a serpentine bundle bound with seaweed, wriggling slightly. It rolls lugubrious eyes towards you. "A zouvenir from the zee's bed," the Drownie says. "Keep it damp."
+
+
+
+	ChildBranches5
+Name:Attempt one of the Great Riddles of Irem
+Id:126478
+Description:Who is this, in lion-coloured furs at the firelight's edge? "I carry one of the Great Riddles of Irem," she intones. Her eyes glisten. "One thousand Echoes, against a jewel from the Pillared Sea."
+
+		DefaultEvent
+Name:"The belly of the horizon."
+Id:147085
+Description:"True," the stranger (the Iremi?) says. "But wrong."
+
+		ParentEvent
+Id:146635
+
+		SuccessEvent
+Name:"Home."
+Id:147086
+Description:"Ah," the stranger (the Iremi?) breathes. "Yes. The key fits the lock. Take this."
+<br/><br/>
+Jewel? It's a silver hand, beautifully shaped to every crease of skin. "The rest is lost," the riddle-wielder says. "Now you have this, it's lost too."
+

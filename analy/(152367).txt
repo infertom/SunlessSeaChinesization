@@ -1,0 +1,109 @@
+Name:At the Mansion of the Jewel-Turbaned Youth
+Id:152367
+Description:You are not entirely sure what you were expecting from the Jewel-Turbaned Youth's Invitation. Perhaps a candle-lit dinner and a genteel seduction; it turns out to be an evening of card-games and chilled wine with his rather eclectic collection of friends.
+<br/><br/>
+But as the wine is drunk and the cards are played, the gathering takes on a certain <i>political</i> tone. A raggedly-dressed Artisan begins complaining of the Agnihotri's trade restrictions; a Novice Priest points out contradictions in Mihir's mantras; a Stone-Carver questions whether his daughter should also have to follow in the same profession.
+<br/><br/>
+"Will you," the Jewel-Turbaned Youth stares at you, licking his lips, "will you tell us <i>a story</i>?"
+
+
+
+	ChildBranches1
+Name:Decline firmly
+Id:129847
+Description:It is not wise to become involved in <i>politics</i>, especially politics that are not your own. You will leave, and not return.
+
+		DefaultEvent
+Name:
+Id:152368
+Description:The Jewel-Turbaned Youth reaches out to stop you, and then lets his arm drop. "You are lucky, to be free to wander the Neath at your will," he tells you softly. "One day, perhaps we Varchaasi will also do the same."
+<br/><br/>
+Perhaps they will; it is, however, none of your concern. A burden lifts.
+
+		ParentEvent
+Id:152367
+
+
+
+	ChildBranches2
+Name:Tell them of yourself
+Id:129848
+Description:It might be nice to be honest, especially to a group of people you'll never have to meet again. 
+
+
+		DefaultEvent
+Name:
+Id:152369
+Description:You wet your throat with tart wine, and fix your eyes on a carved lintel and begin your own, somewhat convoluted tale. At the end they look slightly dissatisfied, slightly relieved. "We were hoping," the Jewel-Turbaned Youth clears his throat, "that you would tell us, um," he pitches his voice lower, "<i>lies</i>."
+<br/><br/>
+You are a little insulted; after all, it's not as if you make a habit of telling strangers of your past! "I mean no insult," he adds placatingly. "We only have true stories here in Varchas, and no inventions. No made-up tales."
+
+
+		ParentEvent
+Id:152367
+
+
+
+	ChildBranches3
+Name:Return to the City Centre
+Id:129910
+Description:You are finished here for now, but the invitation will remain open.
+
+		DefaultEvent
+Name:
+Id:152458
+Description:There is more of Varchas to explore.
+
+		ParentEvent
+Id:152367
+
+
+
+	ChildBranches4
+Name:Invent a fanciful tale
+Id:129849
+Description:It's practically a zailor's profession.
+
+		DefaultEvent
+Name:
+Id:152370
+Description:Perhaps the wine is muddling your tongue; or maybe the fungus-smell is too distracting. You can't seem weave the threads of your story together into a whole. Your hero, a dashing zee-Captain, turns unexpectedly into a Drownie and so you pack him off to the Tomb-Colonies, much to everyone's confusion.
+
+
+		ParentEvent
+Id:152367
+
+		SuccessEvent
+Name:
+Id:152371
+Description:Your crew would have enjoyed this tale, and probably added their own asides and embellishments. Still, you couldn't have hoped for a more appreciative audience. They gasp and moan and shudder guiltily as your story comes to a climax.
+<br/><br/>
+Afterwards the Jewel-Turbaned Youth takes you by the hand; his own is shaking, and his skin is clammy. "We - are forbidden from the trickery of story-telling in Varchas," he tells you hoarsely. "I have never heard anything so sublime."
+
+
+
+	ChildBranches5
+Name:Tell a wanderer's tale
+Id:129850
+Description:Full of zee-salt and darkness and the creaking of ships.
+
+		DefaultEvent
+Name:
+Id:152372
+Description:The room's blazing light shrivels the shadows from your zee-story, and leaves it limp and ragged and overexposed. How can you tell explain what it is to sail the bleak Unterzee to these Varchaasi, who have never felt darkness and hunger press as close as a lover?
+
+		ParentEvent
+Id:152367
+
+		SuccessEvent
+Name:
+Id:152373
+Description:Your story sucks the light away from the room and tumbles into bleakness; your voice rises and falls like the lap of waves against an iron hull. 
+<br/><br/>
+When you return to yourself, the Varchaasi are weeping into each others' arms. The Novice Priest presses his forehead to the ground and prays desperately for Mihir to forgive him.
+<br/><br/>
+The Jewel-Turbaned Youth embraces you tightly, and you can feel the pounding of his heart against your own. "Your story was like being touched by darkness," he whispers in fascinated revulsion. "It has made me apostate. I will...I will no longer walk in Mihir's light."
+<br/><br/>
+You suggest that perhaps, it was just a zee-story, but he only shakes his head and sobs harder.
+
+

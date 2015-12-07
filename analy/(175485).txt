@@ -1,0 +1,367 @@
+Name:Port Stanton
+Id:175485
+Description:Soul-hungry monkeys reluctantly tend this trading post, waiting for an opportunity to escape. Bloated fleas hop from ape to man and man to ape, gorging themselves without a care for which is which.
+
+
+
+	ChildBranches1
+Name:Compile a Port Report
+Id:143289
+Description:Now that the Admiralty has been brought up to date, this will be far quicker. Unfortunately, also less profitable.
+
+		DefaultEvent
+Name:Letters from the Wildweald Court
+Id:175486
+Description:You write down your latest discoveries and seal them, ready for delivery on return to Fallen London.
+
+		ParentEvent
+Id:175485
+
+
+
+	ChildBranches2
+Name:Prepare a Comprehensive Port Report
+Id:143294
+Description:Few have reason to brave the waters this far East, especially with the trade embargo. The Admiralty will pay especially well for up-to-date intelligence.
+
+		DefaultEvent
+Name:The islands of the Empire
+Id:175494
+Description:All of them warrant further attention. For now though, it would be best to see if your initial discoveries can whet the interest of anyone back home.
+
+		ParentEvent
+Id:175485
+
+
+
+	ChildBranches3
+Name:Shore leave
+Id:143296
+Description:The parasynthetic jungle holds many dangers. Step carefully. There is no authority beyond the fence.
+
+		DefaultEvent
+Name:The locals call this Shell Beach
+Id:175497
+Description:It is a place of death, where the bones and still-rotting carcasses of man and ape alike are left to the thirst of the zee. The charnel history of the Empire of Hands stretches out amongst the flies and the maggots; of the apes who would be men and their stolen civilisation.
+<br /><br />
+Something glints. Around the neck of a skeleton, a locket. You pocket it, though it does not look like it is worth much. The zee infamously takes much. Sometimes though, it gives back. Perhaps this will prove to be such a time for some hopeful soul out there.
+
+		ParentEvent
+Id:175485
+
+
+
+	ChildBranches4
+Name:An Audience with the Calculating Mayor
+Id:143298
+Description:He may keep you waiting, but he will find time in his busy schedule if there is a chance of profiting from it.
+
+		DefaultEvent
+Name:A chance for profit
+Id:175500
+Description:The second-hand worldliness in the Calculating Mayor's four-souled eyes glints as he sees you enter.
+
+		ParentEvent
+Id:175485
+
+
+
+	ChildBranches5
+Name:The Zeppelin
+Id:143299
+Description:Intense work is underway across the bridge.
+
+		DefaultEvent
+Name:Turned away
+Id:175501
+Description:Two monkey guards wielding rifles and rusty bayonets block the bridge. This is not for your eyes, outsider. Avert them. Walk away. Walk faster. <i>Good</i> human.
+
+		ParentEvent
+Id:175485
+
+
+
+	ChildBranches6
+Name:Put a blemmigan ashore
+Id:143320
+Description:Blemmigans and monkeys on the same island? Nothing bad can come of this.
+
+		DefaultEvent
+Name:An eager departure
+Id:175529
+Description:The blemmigan disappears into the dense jungle. It should thrive in the Empire's cold
+humidity.
+
+		ParentEvent
+Id:175485
+
+
+
+	ChildBranches7
+Name:Recover your soul
+Id:143333
+Description:Some d__ned monkey took it? Even a devil would have the manners to ask! Well, they will not keep it for long!
+
+		DefaultEvent
+Name:A painstaking hunt
+Id:175545
+Description:Pentecost apes steal souls, but also traits and mannerisms from their victims. You just need to find the one that looks the most familiar.
+
+		ParentEvent
+Id:175485
+
+
+
+	ChildBranches8
+Name:An Audience with the Flea-Ridden Mayor
+Id:143366
+Description:He is not busy. No appointments are required.
+
+		DefaultEvent
+Name:King of an empty castle
+Id:175593
+Description:The Flea-Ridden Mayor scratches himself on a chair made of crates, surrounded by boxes of long-rotten trade goods. As a five-souled ape, he would be able to petition for membership of Court. For now, the trade embargo has left him trapped on the outside; a three-souled overseer with no talent for order.
+
+		ParentEvent
+Id:175485
+
+
+
+	ChildBranches9
+Name:An Audience with the Esteemed Mayor
+Id:143367
+Description:He leaves you waiting for several minutes. As the newest member of the Wildweald Court, it would not do to be seen getting friendly with outsiders.
+
+		DefaultEvent
+Name:The king of Port Stanton
+Id:175594
+Description:"Ah, my dearest human..." trills the Esteemed Mayor, relaxing as a concubine picks the nits from his hair. She presents the latest to him, but he graciously gives her permission to eat it herself. Such is the generosity of a five-souled monkey.
+
+		ParentEvent
+Id:175485
+
+
+
+	ChildBranches10
+Name:An Audience with the Civilised Mayor
+Id:143368
+Description:Talk business? Why, yes, yes, of course we shall. But after a cup of tea. One must do these things correctly.
+
+		DefaultEvent
+Name:A polite welcome
+Id:175595
+Description:"Darling, do come in," the Civilised Mayor purrs. "Whatever can I do for you?" The soul of the Delightful Adventuress sits comfortably in him, a four-souled ape of cold ambition and very few scruples.
+
+		ParentEvent
+Id:175485
+
+
+
+	ChildBranches11
+Name:The Zeppelin
+Id:143960
+Description:You now have permission to visit and bring supplies.
+
+		DefaultEvent
+Name:The guards allow you through
+Id:176508
+Description:Many monkeys are working on the Zeppelin. Many more are feverishly pretending to, banging nails into blocks of wood or smoothing out smooth cloth in an attempt to convince their overseers that they're helping.
+
+		ParentEvent
+Id:175485
+
+
+
+	ChildBranches12
+Name:The Zeppelin
+Id:143961
+Description:The great work of the Pentecost apes is complete. Soon, they will escape their quarantine.
+
+		DefaultEvent
+Name:The most precious thing in the Empire
+Id:176509
+Description:The Emperor is not a trusting ape. His guards are stationed all around the Zeppelin. None will get close without his explicit permission.
+
+		ParentEvent
+Id:175485
+
+
+
+	ChildBranches13
+Name:The Zeppelin
+Id:143962
+Description:Pieces of cloth and ash still regularly blow into port.
+
+		DefaultEvent
+Name:The end of a dream
+Id:176510
+Description:The Penties put everything they had into this. What remains of the Soaring Glory will soon be little but a memorial to the apes that would be men.
+
+		ParentEvent
+Id:175485
+
+
+
+	ChildBranches14
+Name:Shore leave
+Id:144865
+Description:The parasynthetic jungle holds many dangers. Step carefully. There is no authority beyond the fence.
+
+		DefaultEvent
+Name:A return to Shell Beach
+Id:178032
+Description:The bones and rotting carcasses stretch out in all their macabre glory. Deep strata of maggots squish and crunch underfoot as you search for treasures amongst the dead.<br /><br />Aha! Here is a trinket that any other searchers have missed. You rub it clean and slip it into a pocket.
+
+		ParentEvent
+Id:175485
+
+		RareDefaultEvent
+Name:A return to Shell Beach
+Id:178046
+Description:The bones and rotting carcasses stretch out in all their macabre glory. Deep strata of maggots squish and crunch underfoot as you search for treasure. Today though, you find nothing to take with you but bad memories.
+
+
+
+	ChildBranches15
+Name:Shore leave
+Id:144866
+Description:The parasynthetic jungle holds many dangers. Step carefully. There is no authority beyond the fence.
+
+		DefaultEvent
+Name:Buried treasure... being buried?
+Id:178033
+Description:Deep in the forest, an important looking ape in yellow robes oversees two lesser monkeys as they dig a hole in the ground. Having dropped a strange looking idol into the pit and covered it up, one scrapes a deep X over it, while the other slides a map into a bottle, corks it, and scampers off to throw it into the zee.
+<br /><br />
+Curious. However, any treasure hunter who may find the map and follow it here will be out of luck.
+
+		ParentEvent
+Id:175485
+
+
+
+	ChildBranches16
+Name:Shore leave
+Id:144867
+Description:The parasynthetic jungle holds many dangers. Step carefully. There is no authority beyond the fence.
+
+		DefaultEvent
+Name:A chance to gather supplies
+Id:178034
+Description:With the help of a few crewmembers, you gather several crates of fruits and berries from the thick jungle. In exchange for a share, the monkeys of Port Stanton are oddly happy to help you sift through and find the best. Much of the crew subsequently suffers from terrible diarrhoea. The two things are, perhaps, unrelated.
+
+		ParentEvent
+Id:175485
+
+
+
+	ChildBranches17
+Name:Shore leave
+Id:144868
+Description:The parasynthetic jungle holds many dangers. Step carefully. There is no authority beyond the fence.
+
+		DefaultEvent
+Name:A hunting party!
+Id:178035
+Description:Monkey soldiers scour the jungle for fresh meat. The Empire has little of it, but the unsouled monkeys are considered fair prey by their civilised, ensouled betters. So to are any humans who might disappear without too much trouble. Once back at court, both will be served up and heralded the finest venison, veal, chicken and pork for a Court that knows what it is supposed to like... but not what it actually <i>tastes</i> like.
+<br /><br />
+You hide in the bushes until the hunting party has gone, and slip away undetected in the other direction.
+
+		ParentEvent
+Id:175485
+
+
+
+	ChildBranches18
+Name:Shore leave
+Id:144869
+Description:The parasynthetic jungle holds many dangers. Step carefully. There is no authority beyond the fence.
+
+		DefaultEvent
+Name:A walk in the woods
+Id:178036
+Description:An ambush! The twisting paths of the jungle have led far from port, into a dark claustrophobia of trees and mushrooms. The party of savage one-soul apes backs you into a corner, its leader sniffing you with an avaricious hunger. It grins. It lunges.
+<br /><br />
+Hours later, you awaken. Something is... missing.
+
+		ParentEvent
+Id:175485
+
+
+
+	ChildBranches19
+Name:Shore leave
+Id:144870
+Description:The parasynthetic jungle holds many dangers. Step carefully. There is no authority beyond the fence.
+
+		DefaultEvent
+Name:Deep in the island
+Id:178037
+Description:An ambush! The twisting paths of the jungle have led far from port, into a dark claustrophobia of trees and mushrooms. The party of savage one-soul apes backs you into a corner, its leader sniffing you with an avaricious hunger. Is it the smell that tells it that you have no soul for them today? Or something else?
+<br /><br />
+The ways of the Pentecost apes are mysterious, and this one feels no need to share them. It simply hisses in your face before bidding its minions follow it away.
+
+		ParentEvent
+Id:175485
+
+
+
+	ChildBranches20
+Name:Poke around the shore
+Id:144872
+Description:The parasynthetic jungle holds many dangers. Step carefully. There is no authority beyond the fence.
+
+		DefaultEvent
+Name:An aborted journey
+Id:178039
+Description:The path through the jungle soon becomes dark and treacherous, the predatory eyes of desperate monkeys staring from behind every bush and tree. Exploring this island will have to wait for a more auspicious day.
+
+		ParentEvent
+Id:175485
+
+
+
+	ChildBranches21
+Name:An Audience with the Civilised Mayor
+Id:144957
+Description:Talk business? Why, yes, yes, of course we shall. But after a cup of tea. One must do these things correctly.
+
+		DefaultEvent
+Name:A most civilised welcome
+Id:178176
+Description:"Darling, do come in," the Civilised Mayor purrs. "Whatever can I do for you?" The essence of the Delightful Adventuress sits comfortably in him, a four-souled ape of flexible ethics and cold ambition.
+
+		ParentEvent
+Id:175485
+
+
+
+	ChildBranches22
+Name:Help your navigator sell his soul
+Id:147451
+Description:"Perhaps one of these apes will make better use of it." He carries his meagre belongings in a pack over his shoulder.
+
+		DefaultEvent
+Name:Goodbye
+Id:182214
+Description:There is no perceivable difference in him following the sale of his soul. The proceeds furnish him with a tiny, anonymous shack and a modest store of gewgaws to sell to traders who call at the creaking jetty. He shakes your hand at his door. "Thank you for your indulgence, [q:Addressed As]. You will find my equipment and charts in my cabin. I hope they lead you on happier journeys." 
+<br/><br/>
+He rubs at the sigil that now sprawls across the right side of his face, forgets what he was about to say, and goes inside. You do not see him again.
+
+		ParentEvent
+Id:175485
+
+
+
+	ChildBranches23
+Name:Gather Strategic Information for the Admiralty
+Id:148311
+Description:The Admiral commissioned you to gather information. Here at the Empire's edge, that's difficult, but you could pick up a few scraps. [This will give you an Intriguing Snippet: if you can penetrate the court on Sovereign Island, you may be able to do better.]
+
+		DefaultEvent
+Name:Words on the wind
+Id:183582
+Description:The barely-souled monkeys of Port Stanton mutter together in a dozen bastardised dialects: invented stories, gossip twenty years old, intimate revelations from the scraps of subconscious knowledge that adhere to souls. The effect is of sampling a rich, fascinating stew that might just possibly contain rat-droppings. The Admiral would regard this mission as a failure, but others might be interested.
+
+		ParentEvent
+Id:175485
+

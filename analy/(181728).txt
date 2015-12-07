@@ -1,0 +1,19 @@
+Name:Dreaming of tigers
+Id:181728
+Description:"Excuse me: there's a problem," a tiger tells you. "That box of Very Angry Dream-Snakes - it was available because of a bug. Its presence will break a storyline."
+
+
+
+	ChildBranches1
+Name:Give up the box
+Id:147133
+Description:It's your only option, and you'll be reimbursed.
+
+		DefaultEvent
+Name:"Thank you!"
+Id:181729
+Description:"These mistakes slip through, you know. All fixed now. Here's a little extra. Sorry for the trouble."
+
+		ParentEvent
+Id:181728
+

@@ -1,0 +1,49 @@
+Name:A Buzzing Beggar
+Id:149969
+Description:"Zzouls, my friend," a masked figure entreats you. "Zzouls. Do you have zzouls? I miss them zo. Let me pay you for them."
+
+
+
+	ChildBranches1
+Name:Yes, you have zouls. Souls.
+Id:128333
+Description:Offer it a crate of human souls.
+
+		DefaultEvent
+Name:"Zouls!"
+Id:149970
+Description:It is delighted with the souls. It cradles them to its chest: it whispers. It tosses you a bag of coins. "I am indebted! If we zee each other again - if - if only - then bring me more zouls? Just a few more zouls."
+
+		ParentEvent
+Id:149969
+
+
+
+	ChildBranches2
+Name:No zouls for you!
+Id:128334
+Description:Curse and push the Buzzing Beggar aside.
+
+		DefaultEvent
+Name:An uncertain shape
+Id:149971
+Description:It leaps away with commendable agility: Its knees, you think, bend the wrong way. Its arm beneath the sleeve, where you laid a hand on it, felt more like wood or lacquer than flesh. It scuttles away into the darkness.
+
+		ParentEvent
+Id:149969
+
+
+
+	ChildBranches3
+Name:Refuse more politely
+Id:128336
+Description:No zouls today.
+
+		DefaultEvent
+Name:"I zee. I zee. I understand."
+Id:149973
+Description:"Perhaps - another time - you'll bring me zouls? I might be here. Or perhaps, I will not."
+
+		ParentEvent
+Id:149969
+

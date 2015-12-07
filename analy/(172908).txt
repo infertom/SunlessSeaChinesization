@@ -1,0 +1,19 @@
+Name:London in Glory
+Id:172908
+Description:In the streets and pubs of London, there is an air of jubilation. Has the Empress had an unexpected daughter? Has Parliament successfully abolished fog? There is singing.
+
+
+
+	ChildBranches1
+Name:Listen to the song
+Id:141687
+Description:...is that your name?
+
+		DefaultEvent
+Name:"A light in farthest dar-kness..."
+Id:172909
+Description:It's a cheaply printed, badly written, painfully catchy popular song. But it has your name in it! Your deeds for Empire, secret or not, have won glory for London - and won you glory with it. The Navy's reputation is a little less tarnished. The parks of London, a little less dank. The seas, a little safer. Over the next few days, your hall is crammed with gifts from admirers.
+
+		ParentEvent
+Id:172908
+

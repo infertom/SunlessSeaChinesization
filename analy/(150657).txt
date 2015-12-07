@@ -1,0 +1,44 @@
+Name:Horrors Below
+Id:150657
+Description:Zailors at the rail call softly. Something swims beneath the ship. "I saw it looking up at us!", one says, his voice a-tremble.
+
+
+
+	ChildBranches1
+Name:Call them away
+Id:128736
+Description:Don't look.
+
+		DefaultEvent
+Name:A shudder in the hull
+Id:150658
+Description:Whatever's down there, it's better not to know. They'll forget soon enough.
+
+		ParentEvent
+Id:150657
+
+
+
+	ChildBranches2
+Name:Bring out the nets
+Id:128737
+Description:Well then, let's catch it!
+
+		DefaultEvent
+Name:Empty nets
+Id:150660
+Description:No sign of the beast. "Empty nets, empty hold, empty house," the lookout says. You glare at him, but the damage is done.
+
+		ParentEvent
+Id:150657
+
+		SuccessEvent
+Name:What is it?
+Id:150661
+Description:It comes dripping from the sea, sleek as a seal, but its eyes are faceted. One zailor covers his ears. "I swear," he says afterwards, "I heard it scream like a woman."
+
+		RareSuccessEvent
+Name:"Canst thou draw out Leviathan with a hook?"
+Id:150662
+Description:Your crew attempt to dissuade you, but you are determined. The nets and harpoons come out, and you busy yourself...the sea roils! The ship pitches wildly! Below the ship, for an instant, you see a vast eye glare up, golden as a lost sun. Sailors cry out and fall to their knees.It closes, and the sea is dark again.
+

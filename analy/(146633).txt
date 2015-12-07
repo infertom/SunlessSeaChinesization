@@ -1,0 +1,27 @@
+Name:A Lonely Desert Beach
+Id:146633
+Description:There is no habitation in sight, no market, very little in the way of a maintained dock. A stretch of sand thickens into damp, black earth, from which sprout stunted... Palms? Not quite: tall fungal growths with frond-like caps, as if someone sculpted the idea of a tree from a mushroom. 
+<br>
+<br>
+These growths appear sparse near the beach, but clump closer together the farther inland one goes, clustering tightly into a sort of forest around the base of the island's central hill.
+<br>
+<br>
+You can see, off in the distance, dots of fire flecking the horizon, and hear clamour, shouts, and shot; if you look to the quay, you can make out the unusual shapes of two tiny figures. 
+
+
+
+	ChildBranches1
+Name:Disembark
+Id:126183
+Description:See what awaits you. 
+
+		DefaultEvent
+Name:War?
+Id:146634
+Description:As you step on to the quay, you hear clamour, shouts, and shot; you can see, off in the distance, smoke rising from beyond the hill, and dots of fire flecking the horizon. 
+
+<br><br>Two tiny figures stand a little further down the quay, unmoving, rather as if awaiting your approach.
+
+		ParentEvent
+Id:146633
+

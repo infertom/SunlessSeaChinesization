@@ -1,0 +1,178 @@
+Name:Port Cavendish
+Id:168435
+Description:A scatter of yellow-lit honey-dens and brightly painted alehouses. To the south-east rises the stone tower of Cavendish Abbey, its ramparts hung with crimson-and-gold banners. There are zailors from all across the Neath hauling cargo, dicing and brawling good-naturedly on the docks. 
+<br><br>
+The air carries the sound of zee-shanties sung with more enthusiasm than skill, and the smell of roses edged with brimstone.
+
+
+
+	ChildBranches1
+Name:Compile a Port Report
+Id:138988
+Description:Though the Isle seems, at present, beyond the reach of the Admiralty's laws, that does not mean that the Admiralty lacks interest in their activities.
+
+		DefaultEvent
+Name:Roses and kings
+Id:168436
+Description:You spend half a day observing the docks and note an astonishing number and variety of ships. Was that a Khanate trimaran nestled beside a vessel from the Iron Republic? The dockhands complain loudly that they have never been busier. The Catties talk ceaselessly and carelessly about smuggling and piracy, but even the most hardened zailors lower their voices when they mention 'the King'. They go even quieter when they talk about the Rose Garden. You make careful notes; perhaps the Admiralty will understand what they mean, even if you don't.
+
+		ParentEvent
+Id:168435
+
+
+
+	ChildBranches2
+Name:A Piratical Welcome
+Id:139091
+Description:"Welcome to the Isle of Cats," the Wide-Eyed Dockmaster says brightly. "Would you like to bribe me not to write down your details in this nice official ledger?"
+
+		DefaultEvent
+Name:
+Id:168589
+Description:You hand over the coins and she tips you a sharp smile before waving you to the nearest alehouse. The entire process is straightforwardly corrupt, and pleasingly efficient.
+
+		ParentEvent
+Id:168435
+
+
+
+	ChildBranches3
+Name:The Honeyed Tongue
+Id:139670
+Description:It is both brothel and honey-den, run by someone the Catties refer to as the King's Claw.
+
+		DefaultEvent
+Name:
+Id:169542
+Description:
+
+		ParentEvent
+Id:168435
+
+
+
+	ChildBranches4
+Name:Cavendish Abbey
+Id:139671
+Description:The crimson-clad Melliferous Sisters patrol its ramparts, and tend their hives of lamplighter bees.
+
+		DefaultEvent
+Name:
+Id:169543
+Description:
+
+		ParentEvent
+Id:168435
+
+
+
+	ChildBranches5
+Name:A Walk in the Rose Garden
+Id:139704
+Description:What use is a key, if you don't open things with it?
+
+		DefaultEvent
+Name:
+Id:169589
+Description:
+
+		ParentEvent
+Id:168435
+
+
+
+	ChildBranches6
+Name:Buy a shipment of red honey
+Id:139709
+Description:You could sell it for a profit elsewhere. If you were inclined to take your chances with the Revenue Men.
+
+		DefaultEvent
+Name:
+Id:169598
+Description:The Melliferous Sister seems reluctant to sell the honey to you, until you show her your silver Key to the Cage Gardens. "You are an intimate of the Pirate-King!" she exclaims. "Well, why didn't you say so in the first place?"
+
+		ParentEvent
+Id:168435
+
+
+
+	ChildBranches7
+Name:A Gift of Glass
+Id:144373
+Description:An emaciated man in lion-coloured robes clutches your sleeve. "Please," he says. "I'm damned. I can't touch the truth. Take this." He points to an unpromising-looking crate, sitting beside a bollard.
+
+		DefaultEvent
+Name:Life and light
+Id:177171
+Description:"The Sun orders time, do you see? Down here we can only touch time with our fingers. The devils know that. In Irem - In Irem - "
+<br/><br/>
+His eyes well with tears. Abruptly he turns and plunges into the crowd. You're left with the crate.
+
+		ParentEvent
+Id:168435
+
+
+
+	ChildBranches8
+Name:Put a blemmigan ashore
+Id:147560
+Description:What will they make of it? What will it make of them?
+
+		DefaultEvent
+Name:Gone in an instant
+Id:182367
+Description:The blemmigan disappears into the crowd, darting between legs in a violet flash. Pirates shriek, harlots curse. 
+<br/><br/>
+An hour later, you see it perched atop an alehouse roof, tentacles awave, slurringly extemporising an impudent villanelle. A small crowd of locals is cheering.
+
+		ParentEvent
+Id:168435
+
+
+
+	ChildBranches9
+Name:Sell Sunlight
+Id:144375
+Description:Sunlight! that most dangerous of pleasures. Here in Port Cavendish, there's an appetite for dangerous pleasures. But will you be able to negotiate with the sippers of sunlight?
+
+		DefaultEvent
+Name:Smoke and mirrors
+Id:177174
+Description:In back-rooms and cellars, in tangles behind warehouses, you make careful arrangements. The deal is only to take place at second hand: your intermediary will meet theirs. Unfortunately, their intermediary palms off yours with an empty crate, not the original Mirrorcatch Box. You're five hundred Echoes richer, but you'll need another box if you're to do this run again.
+
+		ParentEvent
+Id:168435
+
+		SuccessEvent
+Name:A good price
+Id:177175
+Description:"Yes. Yes, I'll pay. Where is it? Quickly!"
+<br/><br/>
+You wait outside while your customer basks in the sunlight. Once it starts to fade, you re-enter the room and retrieve your box.
+
+
+
+	ChildBranches10
+Name:Help Maybe's Daughter search for her mother
+Id:146189
+Description:"She comes here, I know. She's always been fond of cats. Well, my father was something of a cat. And a very noble one, at that."
+
+		DefaultEvent
+Name:"No luck."
+Id:180251
+Description:"But, oh dear me, do you know someone picked my pocket?" She chuckles happily. "I never noticed a thing! Fingers like spider-hatchlings."
+<br/><br/>
+She rolls a coin between her fingers. "So I tracked him down and congratulated him. And bought him a drink. And one thing led to another. And now he's asleep upstairs at the Rose and Tiger, and I'm down here with his purse. Would you like some money? It's so much fun, money." (You begin to realise how drunk she must be.)
+<br/><br/>
+"Anyway, no luck. But we'll find her. I can find <i>anyone</i>." She tries, and fails, to snap her fingers.
+
+		ParentEvent
+Id:168435
+
+		SuccessEvent
+Name:"She was here last week, but - "
+Id:180252
+Description:You follow the Daughter's stunned gaze. A woman in a lilac gown leans in the doorway of a honey-den. Her features bear an unmistakable resemblance to your officer's. "We should talk," she says to the Daughter, quite calmly.
+<br/><br/>
+The Daughter assembles the rags of her composure with remarkable speed. "Excuse us," she says...
+

@@ -1,0 +1,54 @@
+Name:Speak to the Scarred Sister
+Id:149717
+Description:She's usually in the sick-bay, or up on deck, listening to the wind, watching for the rare storms of the Unterzee.
+
+
+
+	ChildBranches1
+Name:Invite her to dine with you
+Id:128183
+Description:...and talk about storms.
+
+		DefaultEvent
+Name:Morose and uncommunicative
+Id:149718
+Description:She picks at her food. "I used to sit in my turret and listen to the wind," she tells you. "I wondered why we had wind down here, you know. There's an account, in a journal - " She bends her head and stabs at her plate. Perhaps she's thinking of her books, burnt with Hunter's Keep.
+
+		ParentEvent
+Id:149717
+
+		RareDefaultEvent
+Name:A confidence
+Id:149721
+Description:"I wanted us to move to Hunter's Keep," she confesses, "because I had a romantic notion about storms. The funny thing is, the notion turned out right. You know that zailors talk about the God in the Roof? He's real. I used to hear him in my dreams." She leans closer. Behind the bandages, in the lamplight, her eyes are dark as ink. "He's terribly cross."
+
+
+
+	ChildBranches2
+Name:Increase your Hearts
+Id:128185
+Description:[Spend a Secret to improve your Hearts, unless it's higher than 100.]
+
+		DefaultEvent
+Name:Memory
+Id:149720
+Description:She knows a remarkable amount for one so young. "I have a good memory. But I think sometimes," she tells you, "that it comes at a price. I've almost forgotten my own name. But I remember everything else. And my name isn't so very important, is it?"
+
+		ParentEvent
+Id:149717
+
+
+
+	ChildBranches3
+Name:Invite her to dine with you...
+Id:128186
+Description:...and ask her to talk about what happened at Hunter's Keep.
+
+		DefaultEvent
+Name:An abandoned meal
+Id:149722
+Description:You broach the subject half-way through the cook's starter. Without a word, she pushes her plate away, stands, and leaves.
+
+		ParentEvent
+Id:149717
+

@@ -1,0 +1,23 @@
+Name:The Light of Mihir Shines Bright
+Id:152415
+Description:The Sun-Priests come to you, flanked by guards. "I think," the oldest one says thoughtfully, "that it is time for you to go, Taamas. You have caused enough disruption in our glorious city."
+
+
+
+
+	ChildBranches1
+Name:You nod
+Id:129877
+Description:It's good advice; best to leave before the Agnihotri returns from the Pilgrimage. You have learnt a great deal here. The affairs of Varchas touch on the mysteries of the Continent.
+
+		DefaultEvent
+Name:
+Id:152416
+Description:"Walk in the light of Mihir, Taamas." The Guard at the gate barely even looks up as she lets you out of the city; it burns beacon-bright behind you. 
+<br/><br/>
+You walk down the dark, pebbled path that leads to the docks, feeling the familiar shadowy bleakness of the Neath cool your skin. Your ship awaits.
+
+
+		ParentEvent
+Id:152415
+

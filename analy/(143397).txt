@@ -1,0 +1,88 @@
+Name:Your Father's Bones: A Cold Trail
+Id:143397
+Description:Your father: lost at zee so very long ago. The trail was cold, but now, you have a lead.
+
+
+
+	ChildBranches1
+Name:Meet with Slivvy, the Urchin who Speaks to the Wind
+Id:124106
+Description:The urchins of London lair in the Flit, a creaking roof-maze high above the streets. (A bad altitude, as everyone knows.) Slivvy hears things. Slivvy knows things. A week ago, he mentioned that your father was 'as strong a swimmer as you...'
+
+		DefaultEvent
+Name:A troubled tongue
+Id:143398
+Description:Slivvy's face is disfigured by a wine-stain birthmark, and he struggles with a stutter. (Marks of the lightning's kiss, one night when he got too bold in a storm, they say.) "Y-y-yes. I've been waiting f-f-for you. I just wants me a little mutersalt. Something to c-c-calm me tongue. Bring it, and I'll tell you who has your father."
+<br/><br/>
+[Go north along the coast to Whither, and bring back Mutersalt for Slivvy.]
+
+		ParentEvent
+Id:143397
+
+
+
+	ChildBranches2
+Name:Mr John Huffam
+Id:124107
+Description:Editor of the Unexpurgated London Gazette. He's published your poetry from time to time. One week ago, he casually mentioned that your turn of phrase is very like your father's...
+
+		DefaultEvent
+Name:A Coffee at Caligula's
+Id:143399
+Description:Huffam curls his fingers round his steaming cup, a protection against the dank cold of the morning. "Oh, yes, I knew him. A man of some talent, your father. But he turned that talent to... ah... love poetry. Ghost-writing it, if you understand me. And, as you may know, love poetry draws the attention of a particular Power." He glances out of the window. You follow his gaze to where the spires of the Echo Bazaar rise above London. Huffam leans forwards.
+<br/><br/>
+"The Masters of the Bazaar," he says very quietly, "took an interest in your father. So although I liked him, and although I like you, I will need something to set against the risk. Bring me news - news from the zee."<br/><br/>
+[Bring Huffam a Zee-Ztory, a Tale of Terror and a Memory of Distant Shores, and he'll tell you more. They can be found in many places around the zee, or purchased far away in Irem.]
+
+		ParentEvent
+Id:143397
+
+
+
+	ChildBranches3
+Name:The Dark-Spectacled Admiral
+Id:141594
+Description:One week ago, the Admiral grew incautious after one brandy too many in the Parthenaeum Club. He made references to your father's 'deplorable end', and expressed his regret that he had not prevented it. You are not a member of the Parthenaeum, but their head waiter once served in your regiment...
+
+		DefaultEvent
+Name:The Admiralty
+Id:172756
+Description:You meet your friend, the head waiter, and learn that the Admiral has not returned since. Perhaps he regrets his outspokenness. You'll have to find him in his lair at the Admiralty. [Win three levels of Admiralty's favour, and visit the Admiralty Survey Office, to speak with the Admiral.]
+
+		ParentEvent
+Id:143397
+
+
+
+	ChildBranches4
+Name:The Bishop of St Fiacre
+Id:141595
+Description:This cadaverous and sinister prelate interviewed you in person, just before you were cast out of the priesthood. He seemed surprisingly sympathetic. "After what happened with your father," he said, "I suppose I shouldn't be surprised." What did he mean? 
+
+		DefaultEvent
+Name:A candle-lit room
+Id:172757
+Description:The Bishop's face is stern and shadowed. "I do not condone you what you have done," he says, "but many of us have - what shall I say? - eccentric appetites. Yes, I will assist you, but you must help me satisfy one of my own cravings. Darkdrop Coffee is difficult to find in London. Bring me - oh, let us say, two sacks of beans. Bring me this, and I shall share with you what I know."
+<br/><br/>
+[You can find Darkdrop Coffee in Port Carnelian and Adam's Way along the coast to the south, and sometimes other places. Return with two sacks to learn more from the Bishop.]
+
+		ParentEvent
+Id:143397
+
+
+
+	ChildBranches5
+Name:The Gracious Widow
+Id:141596
+Description:It is said that she controls half the crime in London. It is said that she is five hundred years old. It is said that she can distil spirits that delight the tongue and melt the flesh. It is said that she has paid for a memorial headstone to be set up for your father. What does she know?
+
+		DefaultEvent
+Name:The night under the earth
+Id:172758
+Description:The Widow receives you in utter darkness, blank as a bandage laid across your eyes. This is usual, for the Widow. "Yes," she says (and her voice is oddly youthful), "I have an interest in your father. I had hoped news of the headstone would bring someone looking: and here you are. I have an idea where his bones might be. Perhaps you will help me recover them. But I would like you to cover my expenses, first. I need something for my tonics: scintillack. You can find it in Port Cecil, I understand. You may go."
+<br/><br/>
+[Bring a unit of Scintillack from Port Cecil for the Widow. Port Cecil can be found in the centre of the Unterzee, near the Khanate.]
+
+		ParentEvent
+Id:143397
+

@@ -1,0 +1,39 @@
+Name:A little proposal
+Id:150379
+Description:"Good evening, [q:Addressed As]. And what a marvellous evening it is if you don't mind my saying so and given it is my impression you are an obliging sort, I imagine you will not mind at all."
+<br/><br/>
+"And since you are so very obliging, perhaps you wouldn't mind making a little detour via Mount Palmerston with a few articles of cargo, if you happen to be in the area? The Cheery Man will of course cover your expenses for this trifling inconvenience."
+[You will need at least one unit of space in your hold.]
+
+
+
+	ChildBranches1
+Name:Accept the commission
+Id:128571
+Description:It is only, after all, a trifling inconvenience.
+
+		DefaultEvent
+Name:
+Id:150380
+Description:"If you would be so kind to deliver this little gift to our friends in Mt Palmerston then they will see we gets to hear about it. And when you come back we'll cover your expenses. Bomb vwoyi-arge, as my aunt who was French by birth if not by inclination used to like to say."
+<br/><br/>
+[Mt Palmerston is generally somewhere north-east of London.]
+
+		ParentEvent
+Id:150379
+
+
+
+	ChildBranches2
+Name:Refuse the commission
+Id:128572
+Description:Your hold is full. Your affairs are complex. Mt Palmerston is far away and full of devils.
+
+		DefaultEvent
+Name:"I have to say you've made me very sad."
+Id:150381
+Description:The Blind Bruiser wags a scarred finger. "Of course though I do understand. The Unterzee is terrible dangerous as every zailor knows and you needs to be careful of unforeseen consequences." He nods ponderously. "Unforeseen consequences," he repeats. "Well, good day to you."
+
+		ParentEvent
+Id:150379
+

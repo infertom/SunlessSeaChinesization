@@ -1,0 +1,32 @@
+Name:Ruins: Treasure
+Id:143954
+Description:
+
+
+
+	ChildBranches1
+Name:No
+Id:124465
+Description:
+
+		DefaultEvent
+Name:
+Id:143955
+Description:
+
+		ParentEvent
+Id:143954
+
+
+
+	ChildBranches2
+Name:Yes
+Id:124466
+Description:
+
+		DefaultEvent
+Id:143956
+
+		ParentEvent
+Id:143954
+

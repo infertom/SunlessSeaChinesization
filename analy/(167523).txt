@@ -1,0 +1,306 @@
+Name:The Secret of the Nocturne
+Id:167523
+Description:Under the webs and years of grinding salt, the Nocturne remains untouched. But what do the sorrow-spiders want from its carcass?
+
+
+
+	ChildBranches1
+Name:Search the regular cabins
+Id:138558
+Description:Perhaps it was not the Nocturne itself, but a passenger that drew the sorrow-spiders' interest?
+
+		DefaultEvent
+Name:If so, it is not clear why
+Id:167608
+Description:Unless they long for musical instruments, half-finished poetry, or a clock that is not even right once a day, there is little here they might want.
+
+		ParentEvent
+Id:167523
+
+		RareDefaultEvent
+Name:If so, it is not clear why
+Id:167613
+Description:Unless they long for a collection of most pornographic wood-carvings, a forbidden novel of love in the Second City, or the pickled body of a zee-bat, there is little here that they might want.
+
+
+
+	ChildBranches2
+Name:Into the darkest reaches
+Id:138560
+Description:Every corner, every inch... the Nocturne's secret will be found.
+
+		DefaultEvent
+Name:Paraphernalia, rot, nothing!
+Id:167611
+Description:What do those accursed spiders want? Why could they not be more specific?
+
+		ParentEvent
+Id:167523
+
+		RareDefaultEvent
+Name:Baggage, dust, nothing!
+Id:167615
+Description:What do those accursed spiders want? Why could they not be more specific?
+
+
+
+	ChildBranches3
+Name:A Young Scholar's Notebook
+Id:138561
+Description:Aha! In theory at least, a most illuminating tome!
+
+		DefaultEvent
+Name:Being a Detailed Study of the Lost Creatures of the Deeper Uncharted Unterzee by K. L. Stalveis 
+Id:167612
+Description:It is an unfinished treatise, the few completed sections a masterwork in turning forbidden knowledge into tiresome ephemera. The pictures however show great underwater beasts unlike any you have ever before heard witnessed. A theme of tentacles and madness persists throughout, until in the end even the once-copperplate handwriting is simply a scrawl. 
+<br /><br />
+Surely, this must be it. If not, whatever the sorrow-spiders seek is too well hidden or has long since been taken by one unfearing of Salt's wrath.
+
+		ParentEvent
+Id:167523
+
+
+
+	ChildBranches4
+Name:Take nothing. Touch nothing.
+Id:138912
+Description:To rob a half-drowned ship of valuables is against the code of the zee... even if nobody is watching.
+
+		DefaultEvent
+Name:There will be reward later
+Id:168231
+Description:For now, all that matters is the search.
+
+		ParentEvent
+Id:167523
+
+
+
+	ChildBranches5
+Name:Explore the lower levels
+Id:138913
+Description:You are alone here... right?
+
+		DefaultEvent
+Name:Empty corridors, untouched rooms
+Id:168232
+Description:The sorrow-spiders took little from the Nocturne save its crew. Their attack froze it in time, from the broken glass of a long-dried out brandy decanter to the still damp charcoal in the extinguished engines.
+
+		ParentEvent
+Id:167523
+
+		RareDefaultEvent
+Name:A movement in the dark!
+Id:168233
+Description:What was that? A ghost? No. Just the flickering of a candle. At least the crew did not see it. simply being here has them superstitious enough.
+
+
+
+	ChildBranches6
+Name:Search the stateroom
+Id:138914
+Description:As close to luxury as one can expect on the zee. Whoever stayed here was blessed indeed.
+
+		DefaultEvent
+Name:Soft pillows. Warm sheets.
+Id:168234
+Description:An acquired taste for those who value comfort. No secrets however, at least none on open display.
+
+		ParentEvent
+Id:167523
+
+		RareDefaultEvent
+Name:The Diary of a Perfidious Composer
+Id:168235
+Description:A scandalous document to be sure! It does not however contain anything the sorrow-spiders are likely to consider relevant to their interests.
+
+
+
+	ChildBranches7
+Name:Check in with the rest of the crew
+Id:138915
+Description:They are being quiet. Entirely too quiet.
+
+		DefaultEvent
+Name:Nothing but darkness
+Id:168236
+Description:Everyone had best hurry. These candles will not last forever. Nor will the solitude.
+
+		ParentEvent
+Id:167523
+
+		RareDefaultEvent
+Name:Their eyes stare into the shadows
+Id:168245
+Description:Find anything? No, nothing. There is nothing here. We should leave. We are not welcome here...
+
+
+
+	ChildBranches8
+Name:A moment's fear
+Id:138909
+Description:A sliver of ice down the spine. A hot sweat. The sense of something watching, from within or without.
+
+		DefaultEvent
+Name:Ghosts of the Nocturne
+Id:168221
+Description:It is said that the Nocturne was sunk by the Tree of Ages, the fist of the sorrow-spiders. If any ship was going to have ghosts, it would be this one. What else could it be?
+
+		ParentEvent
+Id:167523
+
+		SuccessEvent
+Name:Ghosts of the Nocturne?
+Id:168226
+Description:It is said that the Nocturne was sunk by the Tree of Ages, the fist of the sorrow-spiders. If any ship was going to have ghosts, it would be this one. But no. This feels older than mere death, and somehow... further away. At least, further away for now.
+
+
+
+	ChildBranches9
+Name:A sudden cold shiver
+Id:138713
+Description:Is there someone behind you? No, further than that. Much further. But getting closer.
+
+		DefaultEvent
+Name:An unseeing eye is watching
+Id:167906
+Description:There are probably no ghosts on the Nocturne. That does not preclude there being some kind of curse.
+
+		ParentEvent
+Id:167523
+
+		SuccessEvent
+Name:An unseeing eye is watching
+Id:168227
+Description:Somewhere in the darkness. It seeks your fear. It shall not have it. Not today. Not today...
+
+
+
+	ChildBranches10
+Name:Send a pair of scouts in first
+Id:138911
+Description:It is unlikely that anything is lurking, but...
+
+		DefaultEvent
+Name:A long, long wait
+Id:168223
+Description:A flare goes up from the Nocturne. It's safe. The wait has not however been good for crew morale.
+
+		ParentEvent
+Id:167523
+
+		RareDefaultEvent
+Name:A missing crewman
+Id:168229
+Description:A flare goes up from the Nocturne. It's safe. But inside, only one scout remains. The other thought to help herself to a little treasure. Her partner was more Salt-fearing. That at least explains the quiet splash sound a while earlier. A pity, but not one crewman would have advocated anything else.
+
+		SuccessEvent
+Name:A long, long wait
+Id:168228
+Description:A flare goes up from the Nocturne. It's safe.
+
+
+
+	ChildBranches11
+Name:Lead the boarding party
+Id:138910
+Description:Gaining entrance will mean hacking through a forest of old spider-webs. You will show the crew there is nothing to fear.
+
+		DefaultEvent
+Name:A forest of nightmares
+Id:168222
+Description:The dry webbing winds round your limbs and gets in your mouth as you hack through it. Why do the sorrow-spiders feel so compelled to leave their mark like this? What do they hope to catch out here?
+
+		ParentEvent
+Id:167523
+
+		SuccessEvent
+Name:Cutting through a forest of nightmares
+Id:168230
+Description:As unpleasant as it is, it's nothing a good axe can't take care of. Why do the sorrow-spiders feel so compelled to leave their mark like this? What do they hope to catch out here?
+
+
+
+	ChildBranches12
+Name:Search the Captain's cabin
+Id:138557
+Description:Who could better know the ship's secrets?
+
+		DefaultEvent
+Name:A ship of memories, not clues
+Id:167606
+Description:Along with the scattered bottles of mushroom wine, his logs tell the tale of a ship with an interesting history. There is nothing about anything it may have discovered this far from home however. At least, not in any form a fellow zailor might observe.
+
+		ParentEvent
+Id:167523
+
+		RareDefaultEvent
+Name:The true story of the Perfidious Composer
+Id:167607
+Description:Along with the scattered bottles of mushroom wine, his logs tell the tale of a ship with an interesting history. This was a scandal that crossed the zee back to Fallen London, many years ago. There remains enough interest for it to be worth a few Echoes.
+
+		SuccessEvent
+Name:An escape from the Surface
+Id:168237
+Description:Along with the scattered bottles of mushroom wine, his logs tell the tale of a ship with an interesting history. This one speaks of an earlier Captain's bravery, venturing to the Surface to ferry back lost souls who thought the sun still considered them friends. It is a pity that he returned entirely alone.
+
+
+
+	ChildBranches13
+Name:Search the cargo hold
+Id:138499
+Description:You don't know what you're looking for, you don't know if you'll know it when you see it, you don't know why it's important... but at least you know it's here. Isn't it?
+
+		DefaultEvent
+Name:The Nocturne had many passengers...
+Id:167524
+Description:A true zailor takes on as few passengers as possible, unless they're nailed up in the hold like the better-behaved tomb-colonists. The Nocturne had musicians and poets and scholars on board when it met its fate. Their baggage contains little of interest though; or at least, nothing particularly relevant.
+
+		ParentEvent
+Id:167523
+
+		RareDefaultEvent
+Name:A sudden sharp shower
+Id:167605
+Description:You can only be glad no one is here to see it as a crate of seven year old zeewater bursts open at your touch, soaking you to the skin.
+
+		SuccessEvent
+Name:The Nocturne had many passengers
+Id:168240
+Description:Their belongings tell many stories. None of them however seem to be one the sorrow-spiders would take a direct interest in.
+
+		RareSuccessEvent
+Name:A secret, to be sure
+Id:168241
+Description:One that speaks of at least one unfortunate encounter in the Nocturne's history. Not, however, one a sorrow-spider would likely find notable.
+
+
+
+	ChildBranches14
+Name:A little bonus
+Id:138563
+Description:The Nocturne's passengers left no shortage of delightful artefacts behind when they were taken. The crew would not approve. But the crew is not watching right now.
+
+		DefaultEvent
+Name:A sudden taste of blood and salt
+Id:167617
+Description:What was that? It was probably nothing. These extra coins will do far more good in your pocket than at the bottom of the zee.
+
+		ParentEvent
+Id:167523
+
+		RareDefaultEvent
+Name:A few coins nobody will miss or notice
+Id:167618
+Description:These coins will do far more good in your pocket than at the bottom of the zee. It would be better not to take anything larger though. The crew would be... distracted.
+
+		SuccessEvent
+Name:A few coins nobody will miss or notice
+Id:168460
+Description:These coins will do far more good in your pocket than at the bottom of the zee. It would be better not to take anything larger though. The crew would be... distracted.
+
+		RareSuccessEvent
+Name:A sudden taste of blood and salt
+Id:168463
+Description:What was that? It was probably nothing. These coins will do far more good in your pocket than at the bottom of the zee.
+

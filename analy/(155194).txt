@@ -1,0 +1,94 @@
+Name:A Visit to Clathermont's Tattoo Parlour
+Id:155194
+Description:You're a real zailor now, after all. You could go to one of those tobacco-and-pray places by the docks, but the prices at Clathermont's are reasonable, and his daughters are real artists. But what sign will you choose?
+
+
+
+	ChildBranches1
+Name:The Dauntless Hand
+Id:131658
+Description:Commemorate your daring. [This will increase your Iron by 2 permanently, and cure up to 25 points of Terror.]
+
+		DefaultEvent
+Name:A new you
+Id:155195
+Description:The gold needle pricks. Lily Clathermont hums. The design is complete: scales, mapping your fingers like a gauntlet. Wear it proudly.
+
+		ParentEvent
+Id:155194
+
+
+
+	ChildBranches2
+Name:The Wheel of Mists
+Id:131659
+Description:Commemorate your zailor's zkills. [This will increase your Veils by 2 permanently, and cure up to 25 points of Terror.]
+
+		DefaultEvent
+Name:
+Id:155196
+Description:The gold needle pricks. Lily Clathermont hums. The design is complete: a ship's wheel, but with a curious elaboration to the design, like an optical illusion. "We are not the messenger but the message," Lily intones. You frown. She dimples. "Oh, all right, that's just something Mr C. says to sound impressive. I don't know what it means. But I like the design."
+
+		ParentEvent
+Id:155194
+
+
+
+	ChildBranches3
+Name:The Unflinching Eye
+Id:131660
+Description:You've seen such sights... [This will increase your Mirrors by 2 permanently, and cure up to 25 points of Terror.]
+
+		DefaultEvent
+Name:
+Id:155197
+Description:The gold needle pricks. Lily Clathermont hums. At the end of the process, the tattoo's gaze is so expressive you almost expect it to blink: you are almost hesitant to look your own arm in the eye.
+
+		ParentEvent
+Id:155194
+
+
+
+	ChildBranches4
+Name:The Splendour
+Id:131661
+Description:Something to recall brighter days. [This will increase your Hearts by 2 permanently, and cure up to 25 points of Terror.]
+
+		DefaultEvent
+Name:
+Id:155198
+Description:The gold needle pricks. Lily Clathermont hums. The design is complete: a kind of radiance. "To remember the Sun by," she says, wistfully.
+
+		ParentEvent
+Id:155194
+
+
+
+	ChildBranches5
+Name:The Gambit
+Id:131662
+Description:Some of Clathermont's tattoos are coded messages for spies. Perhaps you have a hidden motive. [This will increase your Pages by 2 permanently, and cure up to 25 points of Terror.]
+
+		DefaultEvent
+Name:
+Id:155199
+Description:The gold needle pricks. Lily Clathermont hums. Is that... butter on the chess knight's head? She shrugs. "The ways of the Great Game are tangled." She doesn't seem to be mocking you. A pop-eyed Pole across the parlour sees your new tattoo, hisses and ducks his head in respect.
+
+		ParentEvent
+Id:155194
+
+
+
+	ChildBranches6
+Name:Remain unblemished
+Id:131663
+Description:If you wanted your memories on your skin, you'd be a squid. [This will reduce Terror to zero, once only.]
+
+		DefaultEvent
+Name:Free and clear
+Id:155200
+Description:You have no need of ink or needles. Your skin is your own, and so is your destiny.
+
+		ParentEvent
+Id:155194
+

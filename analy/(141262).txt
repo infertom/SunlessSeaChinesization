@@ -1,0 +1,46 @@
+Name:A Privateer Encampment
+Id:141262
+Description:This was an empty cliff-top above the bleak waves. Now it blazes with colour! Striped tents, coloured flames, the music of pianola and kettle-drum! Moustachioed women and languorous men play chess, carve bones, eat cats and polish their terrifying brass weapons. These are Iron Republic privateers: pirates whose practices contravene the very laws of nature.
+
+
+
+	ChildBranches1
+Name:Attack
+Id:122734
+Description:They are numerous, but lost to wine and music. You will have the element of surprise, but it's very hard to know exactly what those weapons will do.
+
+		DefaultEvent
+Name:An unfair fight
+Id:141263
+Description:The privateers run, yell, and fall! But now one seizes a weapon like a trombone inscribed with blasphemies. It conjures an appalling vibration which converts your zailors to screaming jellies. Another crouches behind a rock: she employs a kind of mortar which rains down lethal pine-cones. They smell delightful, but their perfume causes pine-needles to erupt in green masses from your ears, mouths and necks. Your crew is lost to bewildered terror: you flee as the triumphant privateers celebrate amid flares of red light.
+
+		ParentEvent
+Id:141262
+
+		SuccessEvent
+Name:A disorienting battle
+Id:146209
+Description:Your first volley does satisfyingly grievous damage, but a half-dozen privateers snatch up weapons. One is a sort of Gatling gun. One appears to fire bubbles composed of rainbow meat. A third makes it rain in your heart. The fourth weapon explodes in a shower of fat purple sparks that chirp like canaries and chew their way through everything in the encampment - privateers, tents, loot. The battle is over before it's begun, but by the time it's safe to approach, the sparks have devoured many of the privateers' treasures...
+
+
+
+	ChildBranches2
+Name:Creep close and eavesdrop
+Id:122735
+Description:The Republic is privy to the gossip of Hell. Creep close, and you may learn impossible secrets.
+
+		DefaultEvent
+Name:A hive of murderous bees
+Id:141264
+Description:The Republicans conspire gleefully in a tangled and multifarous pidgin - French, English, Polythremic, the languages of Hell. You can make out words here and there - "liver" - "thunder" - "expunge" - "consume" - but it's hard to resolve them into sense. The longer you listen, the less sense it makes, until you begin to fear what effect their infernal whispering is having. When your bo'sun turns to whisper to you, and you hear only the bleating of a goat, you realise it's time to retreat...
+
+		ParentEvent
+Id:141262
+
+		SuccessEvent
+Name:Fragments of meaning
+Id:146210
+Description:They are speaking of a raid on the Khan's Glory, from which they stole 'pieces of prayer' - of a boast that a rival band made about stealing the Empress' wedding-dress - of a sort of spiced meat which fills the heart with love. But they speak, too, almost coherently, of privateer lairs in the Western Wall, of passwords in use, of Brass Embassy protocols and of tuning-techniques for drawing lost souls close...
+<br/><br/>
+A buzzing rises in your brain as you listen, until your eyes become unfocused and your tongue feels thick and heavy. You creep away before anything worse can happen. But this is an odd and useful miscellany of facts.
+

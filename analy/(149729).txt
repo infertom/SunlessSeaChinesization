@@ -1,0 +1,134 @@
+Name:Drydock
+Id:149729
+Description:Repairs needed?
+
+
+
+	ChildBranches1
+Name:Leadbeater & Stainrod Shipyard
+Id:128191
+Description:L&H will do you a fair job for a decent price, but they have a reputation for cutting corners. [If you're badly damaged and short of money, this is worth a go.]
+
+		DefaultEvent
+Name:All shall be well!
+Id:149730
+Description:All shall be well and all manner of thing shall be well, probably.
+
+		ParentEvent
+Id:149729
+
+		RareDefaultEvent
+Name:All shall be well!
+Id:149735
+Description:All shall be well and all manner of thing shall be well, probably.
+
+
+
+	ChildBranches2
+Name:Cotterell & Hathersage Shipyard
+Id:128192
+Description:C&H has a reputation for reliable work for a slightly higher price. [This will completely repair your Hull.]
+
+		DefaultEvent
+Name:The work is complete!
+Id:149731
+Description:All shall be well and all manner of thing shall be well.
+
+		ParentEvent
+Id:149729
+
+
+
+	ChildBranches3
+Name:Admiralty Yards
+Id:128193
+Description:You may call in some of your Admiralty favours to have cheap, good-quality work done on your ship. [This will completely repair your Hull.]
+
+		DefaultEvent
+Name:Rapid efficiency
+Id:149732
+Description:All shall be well and all manner of thing shall be well. Very quickly.
+
+		ParentEvent
+Id:149729
+
+
+
+	ChildBranches4
+Name:Good enough for now
+Id:128249
+Description:Your ship is in acceptable shape, thank you!
+
+		DefaultEvent
+Name:
+Id:149825
+Description:
+
+		ParentEvent
+Id:149729
+
+
+
+	ChildBranches5
+Name:Construct the Serpentine
+Id:129811
+Description:The Magician will supervise the work himself... at night. [The Serpentine is a fuel-efficient engine of 1800 Power that increases both Veils and Hearts by 5.]
+
+		DefaultEvent
+Name:The Serpent's Prison
+Id:152312
+Description:"I have set him within a cage of fire. He can look all he likes. He can rage all he wants. His hungers will drive us across the sea.
+
+		ParentEvent
+Id:149729
+
+
+
+	ChildBranches6
+Name:Employ rattus faber engineers
+Id:128194
+Description:The rats of Fallen London are remarkably skilled engineers; and they know ships well. They are not, however, reliable. Payment is in kind, not currency. [This will repair some of your Hull. How much? Difficult to say.]
+
+		DefaultEvent
+Name:An unfortunate turn of events
+Id:149733
+Description:Rats sweep over your ship like tide! Day and night, their tiny tools click. Your crew step over them cautiously. Unfortunately, some complex rat-vendetta is at play here: warring rat-families decide to use your ship as a battleground. They're quite well-behaved about it, and the damage is minimal - but an unfortunate passing zailor gets a rat-bullet through the eye and drowns in the Thames. You protest, but the contract is clear - there is an exception for 'ocular perturbations.'
+
+		ParentEvent
+Id:149729
+
+		RareDefaultEvent
+Name:Open warfare
+Id:169525
+Description:The rats are hardly an hour into their work when the trouble begins. Someone's surly, speechless rat-steed eats someone else's packed lunch. Someone's hot-blooded friend eats the rat-steed. The rats exchange cross words, then blows, then shots. The ensuing battle sweeps over your ship, and disappears down the dock. At least they didn't have time to eat much.
+
+		SuccessEvent
+Name:A benevolent infestation
+Id:149734
+Description:Rats sweep over your ship like tide! Day and night, their tiny tools click. Your crew step over them cautiously. Eventually the rat-tide withdraws. How good a job have they done?
+
+		RareSuccessEvent
+Name:Something like Christmas
+Id:169526
+Description:You wait for the rats to arrive. And wait. And wait. A whole night passes. That morning, you stamp down the gangplank in a state of some irritation... to find the ship in eerily perfect condition. Only one crate of supplies is missing. The rat-foreman seems as confused as you. He looks at his feet and sketches a sign with his finger, a looping conundrum of a symbol. He mutters something under his rat-breath. "Fungus"?
+
+
+
+	ChildBranches7
+Name:Visit the Admiralty fuel stores
+Id:146421
+Description:If you've done good work, the Admiralty will issue you with a book of little chitties. [This will exchange 1 point of Admiralty's Favour for 2-3 Fuel.]
+
+		DefaultEvent
+Name:Success, eventually
+Id:180625
+Description:The good: free fuel. The bad: a half-hour argument with the quartermaster, who insists that your chitties have not been stamped by the Office of Incongruous Requests. Eventually, she grudgingly permits you to load your fuel-cart.
+
+		ParentEvent
+Id:149729
+
+		SuccessEvent
+Name:Success!
+Id:180626
+Description:The quartermaster is not usually friendly, but you have enough zailor's jokes and harbour gossip to set her laughing nostalgically. She is remarkably liberal about the measurement of fuel.
+

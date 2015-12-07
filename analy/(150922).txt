@@ -1,0 +1,212 @@
+Name:4 - Therapy storylet
+Id:150922
+Description:You aren't aware of it, you just try to fix it.
+Admit to truth.
+Talk about you - maybe your ancestors played in me. 
+
+
+
+	ChildBranches1
+Name:Its various worries #1
+Id:128883
+Description:
+
+		DefaultEvent
+Id:150923
+
+		ParentEvent
+Id:150922
+
+
+
+	ChildBranches2
+Name:various worries #2
+Id:128973
+Description:
+
+		DefaultEvent
+Id:151025
+
+		ParentEvent
+Id:150922
+
+
+
+	ChildBranches3
+Name:various worries #3
+Id:128974
+Description:Left its own confession.
+
+		DefaultEvent
+Id:151026
+
+		ParentEvent
+Id:150922
+
+
+
+	ChildBranches4
+Id:128991
+
+		DefaultEvent
+Id:151043
+
+		ParentEvent
+Id:150922
+
+
+
+	ChildBranches5
+Id:128992
+
+		DefaultEvent
+Id:151044
+
+		ParentEvent
+Id:150922
+
+
+
+	ChildBranches6
+Id:128993
+
+		DefaultEvent
+Id:151045
+
+		ParentEvent
+Id:150922
+
+
+
+	ChildBranches7
+Id:128994
+
+		DefaultEvent
+Id:151046
+
+		ParentEvent
+Id:150922
+
+
+
+	ChildBranches8
+Id:128995
+
+		DefaultEvent
+Id:151047
+
+		ParentEvent
+Id:150922
+
+
+
+	ChildBranches9
+Id:128996
+
+		DefaultEvent
+Id:151048
+
+		ParentEvent
+Id:150922
+
+
+
+	ChildBranches10
+Id:128997
+
+		DefaultEvent
+Id:151049
+
+		ParentEvent
+Id:150922
+
+
+
+	ChildBranches11
+Id:128998
+
+		DefaultEvent
+Id:151050
+
+		ParentEvent
+Id:150922
+
+
+
+	ChildBranches12
+Id:128999
+
+		DefaultEvent
+Id:151051
+
+		ParentEvent
+Id:150922
+
+
+
+	ChildBranches13
+Id:129000
+
+		DefaultEvent
+Id:151052
+
+		ParentEvent
+Id:150922
+
+
+
+	ChildBranches14
+Id:129001
+
+		DefaultEvent
+Id:151053
+
+		ParentEvent
+Id:150922
+
+
+
+	ChildBranches15
+Id:129002
+
+		DefaultEvent
+Id:151054
+
+		ParentEvent
+Id:150922
+
+
+
+	ChildBranches16
+Id:129003
+
+		DefaultEvent
+Id:151055
+
+		ParentEvent
+Id:150922
+
+
+
+	ChildBranches17
+Id:129005
+
+		DefaultEvent
+Id:151057
+
+		ParentEvent
+Id:150922
+
+
+
+	ChildBranches18
+Name:Catalogue her
+Id:129006
+Description:
+
+		DefaultEvent
+Id:151058
+
+		ParentEvent
+Id:150922
+

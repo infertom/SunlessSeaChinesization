@@ -1,0 +1,100 @@
+Name:The Zeppelin Under Construction
+Id:175483
+Description:The Pentecost apes work feverishly to complete the craft that will take them on their Great Exodus. They will pay for resources, but at less than London prices.
+
+
+
+	ChildBranches1
+Name:Contribute Souls to the Zeppelin
+Id:143288
+Description:The Wildweald Court needs them to make efficient workers out of its low-souled population.
+<br />
+[Working with the Delightful Adventuress will unlock a way to gather enough souls to complete the Zeppelin.]
+
+		DefaultEvent
+Name:The delivery is made
+Id:175484
+Description:The monkeys pay you for your goods. You will receive a reward when the entire Zeppelin has been completed.
+
+		ParentEvent
+Id:175483
+
+
+
+	ChildBranches2
+Name:Contribute Supplies to the Zeppelin
+Id:143668
+Description:It will be a long journey. The monkeys will need many supplies, both to survive it and to establish a new home.
+<br />
+[The Exquisite Seneschal may have a distasteful way of acquiring many of the Supplies required, for free.]
+
+		DefaultEvent
+Name:The delivery is made
+Id:176065
+Description:The monkeys pay you for your goods. You will receive a reward when the entire Zeppelin has been completed.
+
+		ParentEvent
+Id:175483
+
+
+
+	ChildBranches3
+Name:Contribute Fuel to the Zeppelin
+Id:143669
+Description:Without regular fuel and hydrogen, it won't get far.
+<br />
+[A respected visitor to the Wildweald Court can arrange a more efficient supply of Fuel from elsewhere.]
+
+		DefaultEvent
+Name:The delivery is made
+Id:176066
+Description:The monkeys pay you for your goods. You will receive a reward when the entire Zeppelin has been completed.
+
+		ParentEvent
+Id:175483
+
+
+
+	ChildBranches4
+Name:The Zeppelin is complete
+Id:143670
+Description:It is time to return to the Exquisite Seneschal for your reward. The apes will handle the final details.
+
+		DefaultEvent
+Name:Escorted to the Wildweald Court
+Id:176067
+Description:The overseers dispatch a pair of spare monkeys to row you to Sovereign Island. The trip is endlessly more pleasurable without having to do the rowing. By the time you arrive, the Exquisite Seneschal has already summoned the court. Monkeys of every status line the Silent Gallery, awaiting the pleasure of the Emperor.
+
+		ParentEvent
+Id:175483
+
+
+
+	ChildBranches5
+Name:Back to Port Stanton
+Id:143959
+Description:You have nothing for the Zeppelin right now.
+
+		DefaultEvent
+Name:The monkeys continue their work
+Id:176507
+Description:There is much of it yet to be done.
+
+		ParentEvent
+Id:175483
+
+
+
+	ChildBranches6
+Name:Deliver Hydrogen to the Zeppelin
+Id:143970
+Description:Straight from the Iron Republic.
+
+		DefaultEvent
+Name:Another proud infernal export
+Id:176520
+Description:With hydrogen to fill the Zeppelin, the fuel required to power it will go much further. As indeed will the Zeppelin once it has been completed. The overseer pays you your delivery fee.
+
+		ParentEvent
+Id:175483
+

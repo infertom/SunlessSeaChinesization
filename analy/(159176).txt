@@ -1,0 +1,114 @@
+Name:The Salt Lions
+Id:159176
+Description:Two basalt beasts, cathedral-sized. They frown eternally at each other across the black waves. The north one carries an encampment: creeping human figures eat away at its features like rot, pick-pick-picking. There's a supply dock below.
+
+
+
+	ChildBranches1
+Name:Visit the Unmakers
+Id:134065
+Description:Muscular pick-wielders rest on camp-stools, watching you approach, passing hip-flasks around. An Unctuous Overseer beckons you to sit.
+
+		DefaultEvent
+Name:Fungal tisane and teacakes
+Id:159177
+Description:"We get funding from the Bazaar, it's true, but... Station IV? I wouldn't call us Station IV. It's a little grandiose. The stones are stuffed with secrets, but most of them are used as garden statuary, or occult ballast. Most of them. Some go down to the places under the Bazaar... More teacakes?"
+
+		ParentEvent
+Id:159176
+
+
+
+	ChildBranches2
+Name:Carry Sphinxstone to London
+Id:134078
+Description:The Unmakers are here to reduce the Salt-Lions to rubble, one block at a time. Help them in their work by carrying the rubble back to London. [You will need a deposit, and 20 units of spare cargo space.]
+
+		DefaultEvent
+Name:
+Id:159203
+Description:"If the stones weep," an Unmaker advises you, "ignore them. Unless they flood your hold, of course. Then you should probably drop them overboard. Don't tell anyone I said that."
+
+		ParentEvent
+Id:159176
+
+
+
+	ChildBranches3
+Name:Salt's Rites
+Id:134478
+Description:The face of the northern sphinx is all but gone. Lost faces are sacred to Salt, they say. You are drawn there. To what end? Salt's voice is distant, but clear...
+
+		DefaultEvent
+Name:Into the zee
+Id:159874
+Description:Dive from the sphinx's face, down, a clean arc into the zee's chilly darkness. Float there in the quiet, until your lungs are bursting, until light blooms behind your eyes. Rise gasping to the prickle of false-stars, the shocked faces of your crew. You've brought something with you.
+
+		ParentEvent
+Id:159176
+
+
+
+	ChildBranches4
+Name:"Shalt-Flions"
+Id:137501
+Description:You've brought the Nacreous Outcast here. With luck, it knows why.
+
+		DefaultEvent
+Name:Moist wide eyes
+Id:165949
+Description:"Shaltsh Ftentshion," it insists. "Godshly!" It gestures at the face of the northern sphinx. It brandishes the cruet. [You'll need Salt's Attention to continue. You can gain it in Whither, among other places.]
+
+		ParentEvent
+Id:159176
+
+
+
+	ChildBranches5
+Name:"Shalt-Flions"
+Id:137502
+Description:You've brought the Nacreous Outcast here. With luck, it knows why.
+
+		DefaultEvent
+Name:Unexpected grace
+Id:165950
+Description:The face of the northern sphinx is all but gone, but the Nacreous Outcast scrambles doggedly up. It pauses at the top, and then flips into the air - an arc as precise as a compass-line, down into the darkness of the zee. It's gone with barely a splash.
+<br/><br/>
+You wait. There is no reason for alarm. It can probably breathe water. You wait longer. There is a certain degree of decorous alarm. Longer still, and the alarm manifests in the form of zailors clustering casually by the rail - only casually, because no one would admit any concern for the fate of a Rubbery Man.
+<br/><br/>
+The Rubbery Man surfaces! It mounts the steps to the quay, with the ceremonious delight of a vicar mounting the steps to a pulpit. It holds a sphinxstone chess-piece aloft in its hand... "Principles," it wheezes.
+
+		ParentEvent
+Id:159176
+
+
+
+	ChildBranches6
+Name:Put a blemmigan ashore
+Id:147301
+Description:Blemmigans have populated harsher environments.
+
+		DefaultEvent
+Name:Scenting something familiar?
+Id:181986
+Description:The blemmigan scales the face of the north lion, squeezing fine tendrils into the narrowest of cracks, pressing on to the Unmakers' encampment. You leave it groping blindly at the laces of a tent, twittering softly.
+
+
+		ParentEvent
+Id:159176
+
+
+
+	ChildBranches7
+Name:Compile a Port Report
+Id:147669
+Description:Time, basalt, dissolution.
+
+		DefaultEvent
+Name:Notes for the Admiralty
+Id:182527
+Description:Record the activities of the Unmakers, such as they are. Write of stone and silence.
+
+		ParentEvent
+Id:159176
+

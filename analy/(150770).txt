@@ -1,0 +1,49 @@
+Name:The Crawling Stars
+Id:150770
+Description:The lookout shouts! Far above, the false-stars in the cavern roof are shifting: a rare and ominous event. What now?
+
+
+
+	ChildBranches1
+Name:"Eyes on the deck!"
+Id:129140
+Description:Forbid them to look. You can't really stop them, but you can at least discourage discussion. They won't like it, but it's safer.
+
+		DefaultEvent
+Name:Grumbles and mutters
+Id:151252
+Description:"First Officer! Take that man's name!" But they quieten soon enough.
+
+		ParentEvent
+Id:150770
+
+
+
+	ChildBranches2
+Name:Record the change and assign a name
+Id:129139
+Description:If the new shape seems well-omened, your crew may be cheered. Who knows?
+
+		DefaultEvent
+Name:A Darkness
+Id:151251
+Description:Three of the false-stars wink out altogether, as suddenly as closed eyes. The pattern that remains is as hopeless and meaningless as cast dice. Somewhere, a zailor begins to sob.
+
+		ParentEvent
+Id:150770
+
+		RareDefaultEvent
+Name:The Alarming Pig
+Id:151254
+Description:"Pigs," one zailor sighs. "It's always pigs." What's wrong with pigs...? The bo'sun shakes a solemn head. "Never ask about pigs at zee," he insists.
+
+		SuccessEvent
+Name:The Zee-Bat
+Id:151253
+Description:"Bats is luck!" a gap-toothed stoker avers. All agree. Leathery but lucky.
+
+		RareSuccessEvent
+Name:The Rayed Wheel
+Id:151255
+Description:One zailor claims it resembles the sun; another, 'a Hindoo mandala-cross!' A third suggests 'the rose-window of Chartres Cathedral.' This excites mockery. Nevertheless, the reaction is positive.
+

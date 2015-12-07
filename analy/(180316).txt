@@ -1,0 +1,258 @@
+Name:Nuncio Beach
+Id:180316
+Description:Every lap of the wave drags up some new letter or parcel. The face of the water is dotted with them, as far as you can see in this blackness, carried by a powerful current.
+
+
+
+	ChildBranches1
+Name:Seed blemmigans among the rocks
+Id:146233
+Description:Perhaps they'll find the environment appealing.
+
+		DefaultEvent
+Name:Rapid rewriting
+Id:180317
+Description:The seed propagates alarmingly fast here. Within a few minutes, there are blemmigans scrambling in between bits of shale and over the faces of the scattered correspondence on the shore. They digest stamps, addresses, sealing wax. Where their tentacles pass over an envelope, they leave behind new replacement directions. Deliverable directions. But who knows whether the new addresses are better than the old blurred ones?
+
+		ParentEvent
+Id:180316
+
+
+
+	ChildBranches2
+Name:Collect material for the Dead Letter Office
+Id:146234
+Description:That's where all this flotsam belongs. So it can be sorted.
+
+
+
+		DefaultEvent
+Name:Will of its own
+Id:180318
+Description:You make your way along the shore with a big sack. Many of the envelopes are too damp to read, their addresses permanently lost. But a surprising number are still legible. There are also parcels. Here and there is a crate, a message in a wine bottle, a sealed cask that has bobbed up out of a shipwreck. 
+<br/><br/>
+Your sack ought to get heavy, with all these contents, but it pulls upwards and away, straining inland towards the Dead Letter Office like an unmanageable dog.
+
+		ParentEvent
+Id:180316
+
+
+
+	ChildBranches3
+Name:Argue with the man holding a broom
+Id:146235
+Description:He is determined. He keeps shoving letters into the sea. The sea keeps shoving them back.
+
+		DefaultEvent
+Name:No luck
+Id:180319
+Description:It's pointless, of course. You try to tell him this, shouting into the shore wind. He stops and stares at you with blind eyes for a minute or two, then returns to his occupation.
+<br/><br/>
+Can he even see the messages he is so desperate to send back out into the water?
+
+		ParentEvent
+Id:180316
+
+
+
+	ChildBranches4
+Name:Assist the man holding a broom
+Id:146246
+Description:Both of you together still won't achieve anything, but maybe he'd feel better.
+
+
+		DefaultEvent
+Name:Surprisingly soothing
+Id:180335
+Description:In the long term what you are doing won't make the slightest bit of difference. Every sodden bit of paper you fling out to sea will come back in a few hours.
+<br/><br/>
+But for now, you manage to clear a little patch of shore, a few feet on each side. The stones are bare. As they should be.
+<br/><br/>
+Your companion turns his head towards the sound of your work and gives you a little nod.
+
+		ParentEvent
+Id:180316
+
+
+
+	ChildBranches5
+Name:Rescue a ticking parcel
+Id:146851
+Description:It says REFUSED BY RECIPIENT. What could possibly go wrong?
+
+		DefaultEvent
+Name:Tickticktick
+Id:181351
+Description:Inside layers and layers of wadded cotton is an elegant anniversary clock: gilded rat-work gears under a glass dome, sapphired face, scintillack-embellished hands. Designed to run for a year and a day before stopping. Most likely a wedding gift.
+<br/><br/>
+The winding key is not included. An oversight? Or is this a wedding gift from someone who did not expect the marriage to last?
+<br/><br/>
+Whatever the giver's intention, it hardly matters now. Even without its key, the clock's works and jewels will fetch a nice price.
+
+		ParentEvent
+Id:180316
+
+
+
+	ChildBranches6
+Name:Rescue a squashy parcel
+Id:146852
+Description:"Accepting No Further", says a red scrawl across the wrapping.
+
+		DefaultEvent
+Name:A funny smell
+Id:181352
+Description:And little wonder. The string of rats within may once have been fresh and (to certain tastes) delectable. It is now rather the worse for decay. Giving the parcel's contents a hasty burial is the best you can hope to do.
+<br/><br/>
+Just before you dispose of it, though - note the recipient's name and address. A name of some power, worth remembering.
+
+		ParentEvent
+Id:180316
+
+
+
+	ChildBranches7
+Name:Rescue a parcel that won't stop meowing
+Id:146853
+Description:Extraordinary. There aren't even any air holes.
+
+		DefaultEvent
+Name:Ow!
+Id:181354
+Description:The parcel's contents are not at all pleased to make your acquaintance. A yellow glare, a flash of claws, a distinctive odour: then the horrible animal is out of sight. You'd like to believe it will come to regret mauling you, but, alas, it's likely to regard this rat-infested island as a paradise.
+<br/><br/>
+Your left cheek will never be quite the same.
+
+		ParentEvent
+Id:180316
+
+
+
+	ChildBranches8
+Name:Rescue a dripping parcel
+Id:146854
+Description:The dripping is probably seawater. Probably.
+
+		DefaultEvent
+Name:Shiny
+Id:181356
+Description:Drowning-pearls. Dozens of them. And an explanation of how they were harvested that turns the hair. The divers lost among the deep coral. The beasts that had to be fought off during harvesting. The growing terror aboard ship.
+<br/><br/>
+"All that has been done, was done according to your Lordship's Will," concludes the letter-writer. In anger, in pride, in unquestioning submission? Impossible to say.
+
+		ParentEvent
+Id:180316
+
+
+
+	ChildBranches9
+Name:Have your Rattus Faber take a look at the ticking parcel
+Id:146855
+Description:Safer it than you.
+
+		DefaultEvent
+Name:Deadline
+Id:181358
+Description:Your assistant gets into the parcel with a certain excitable gleam in its eye. Paper and layers of wadded cotton fly everywhere.
+<br/><br/>
+Within is an elegant anniversary clock, designed to run for a year and a day before stopping. It's lovely, with sapphires on the clock face and scintillack-embellished hands.
+<br/><br/>
+"It'll run another day," says your assistant, pointing out some coiled metal as though you could read its meaning. "Then - click. Stops. Can't be rewound. And look down here: inlaid inscription in Nevercold Brass. If you ask me, someone sold their soul to devils, and this clock is to measure how long they get to enjoy... whatever they bought."
+
+		ParentEvent
+Id:180316
+
+
+
+	ChildBranches10
+Name:Take soundings
+Id:146862
+Description:Perhaps there is some evidence of the great hollowness underneath these shores.
+
+		DefaultEvent
+Name:Depth below
+Id:181366
+Description:Striking the ground causes the stones to shift and rattle. It is hard at first to hear anything more than that. 
+<br/><br/>
+But if you try long enough, and strike hard enough, the whole beach shivers like the surface of a drum. The flotsam letters quiver and align themselves in concentric circles around the point of impact. 
+<br/><br/>
+The next wave brings ashore three or four times the usual freight.
+
+		ParentEvent
+Id:180316
+
+
+
+	ChildBranches11
+Name:Take soundings
+Id:146863
+Description:Perhaps there is some evidence of the great hollowness underneath these shores.
+
+		DefaultEvent
+Name:Depth below
+Id:181367
+Description:Striking the ground causes the stones to shift and rattle. It is hard at first to hear anything more than that. 
+<br/><br/>
+But if you try long enough, and strike hard enough, the whole beach shivers like the surface of a drum. The flotsam letters quiver and align themselves in concentric circles around the point of impact. The blemmigans - are they bowing? Their tentacles ripple all at once, at any rate.
+<br/><br/>
+The next wave brings ashore three or four times the usual freight.
+
+		ParentEvent
+Id:180316
+
+
+
+	ChildBranches12
+Name:Watch the tide come in
+Id:146878
+Description:Even water obeys the fiery words.
+
+		DefaultEvent
+Name:The Pull
+Id:181385
+Description:There's a new day's wash of post. Some is recently mailed, and some has been in the water a very long time. If it cannot be delivered, then at least it can be categorised and archived against the day when a recipient arrives - even if it seems that no recipient will ever come, because one can never be quite certain.
+<br/><br/>
+The tide carries in a fish larger than you, stranding it ashore. It opens its jaws and coughs out a parcel in brown paper. One pair bespoke gentlemen's Avid Gloves, Special Delivery, teeth freshly sharpened, compliments of the tailor...
+<br/><br/>
+The next wave pulls the fish back out to sea.
+
+		ParentEvent
+Id:180316
+
+
+
+	ChildBranches13
+Name:Back to the docks
+Id:147077
+Description:You've finished here for now.
+
+		DefaultEvent
+Name:
+Id:181653
+Description:
+
+		ParentEvent
+Id:180316
+
+
+
+	ChildBranches14
+Name:Study the odd currents here
+Id:146247
+Description:The water that brings flotsam ashore does not follow the usual patterns.
+
+		DefaultEvent
+Name:Squinting and guesswork
+Id:180336
+Description:It's no use. A few hours of exploration, of squinting out to sea and flinging shiny floats into the water, produces no better understanding than before.
+
+		ParentEvent
+Id:180316
+
+		SuccessEvent
+Name:On all sides
+Id:180337
+Description:You make a complete circuit of the island. The whole shoreline is alike: all of it covered in debris, all of it washing steadily inland from every direction. Not the work of some directional current. It's more as though the whole Unterzee were draining into Nuncio.
+<br/><br/>
+Except, of course, that force did not affect your ship, when you came this way. It does not stop ships leaving. Evidently it works only on the post.
+

@@ -1,0 +1,36 @@
+Name:Climbing out
+Id:181372
+Description:The climb out is slow and takes a long time. Could you possibly have come down this far? Surely not. Your breath grows ragged and your legs cramp.
+
+
+
+	ChildBranches1
+Name:Ascend
+Id:146867
+Description:There's no way out but up.
+
+		DefaultEvent
+Name:At the surface
+Id:181373
+Description:The Dead Letter Office is still here, its machine still working, its baskets still filling with missed invitations and misplaced wills. Shouldn't it have been blasted away, destroyed by the force of what lies beneath?
+
+		ParentEvent
+Id:181372
+
+
+
+	ChildBranches2
+Name:Sit down a moment
+Id:146901
+Description:The rest of the spiral will still be there after you've got your breath.
+
+		DefaultEvent
+Name:Visions? Dreams?
+Id:181416
+Description:You relax against a shelf. It isn't comfortable at all, as the edge of a metal box is prodding you between the spine and the shoulder blade, and somewhere off to your right is a sound like hoarse breathing. It doesn't matter.
+<br/><br/>
+In the dimness you see, or remember, or dream, a silver tree growing in a courtyard. The reverie lasts only a few heartbeats before you're properly awake again.
+
+		ParentEvent
+Id:181372
+

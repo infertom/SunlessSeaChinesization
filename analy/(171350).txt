@@ -1,0 +1,74 @@
+Name:You've defeated a War Trimaran
+Id:171350
+Description:Shattered, listing. Seize what you can.
+
+
+
+	ChildBranches1
+Name:Seize and loot her!
+Id:140723
+Description:Take what you can. Imprison or cut down any Khaganians that remain.
+
+		DefaultEvent
+Name:What's in the hold?
+Id:171353
+Description:See what remains. You've won no favour with the Khanate here today - take whatever you can.
+
+		ParentEvent
+Id:171350
+
+
+
+	ChildBranches2
+Name:Let her go
+Id:140724
+Description:...if you're desperate not to antagonise the Khanate. This is a privateer which attacked you, or a rogue naval vessel - you're within your rights - but mercy will repair your reputation, if the Khanate dislikes you already.
+
+		DefaultEvent
+Name:Surprise and confusion
+Id:171354
+Description:Your opponents are not delighted with the outcome. Their ship may lie beyond repair - perhaps they'll have to take to the boats. But the surviving officers shake your hand grudgingly, and wish you well.
+
+		ParentEvent
+Id:171350
+
+
+
+	ChildBranches3
+Name:Record any Observations
+Id:140725
+Description:If you've gathered enough, you may learn something...
+
+		DefaultEvent
+Name:A bounty of experience!
+Id:171355
+Description:Tactics, manoeuvres, weapons. So similar, and yet so different. You can learn from this.
+
+		ParentEvent
+Id:171350
+
+		RareDefaultEvent
+Name:A bounty of intelligence!
+Id:171356
+Description:Tactics, manoeuvres, weapons... and a few items of particular interest to the Admiralty.
+
+
+
+	ChildBranches4
+Name:Send home with a prize crew
+Id:140770
+Description:Eight zailors should be enough for a skeleton crew, unless she runs into trouble.
+
+		DefaultEvent
+Name:Into the darkness
+Id:171434
+Description:Your prize is never seen again. Perhaps a heptycheer devours your crew. Perhaps they devour each other. Perhaps they betray you and sail it to the Iron Republic, where laws cannot follow.
+
+		ParentEvent
+Id:171350
+
+		SuccessEvent
+Name:Awaiting your pleasure
+Id:171435
+Description:When you next return to London, return to your Lodgings to claim your prize money...
+

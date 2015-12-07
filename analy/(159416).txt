@@ -1,0 +1,344 @@
+Name:The Wisp-Ways
+Id:159416
+Description:Narrow waterways and quaggy paths. Marsh-lights and mud. Now and then, parasynthetic mosses like shaggy curtains. Now and then, a questing tentacle. [Each event will take you further into the swamp. Go deep enough, and you'll find something interesting.]
+
+
+
+	ChildBranches1
+Name:Three skeletons on a hummock
+Id:134246
+Description:They sprawl companionably around a long-dead fire, as if they simply couldn't be bothered to get up.
+
+		DefaultEvent
+Name:Skirting round
+Id:159499
+Description:Nothing remains of their clothes or possessions. They've been long-robbed of their purses as well as their flesh. Each carries only a sardonic grin and a robe of creepers...
+
+		ParentEvent
+Id:159416
+
+
+
+	ChildBranches2
+Name:Darkness between the trees
+Id:134248
+Description:"Come closer," the wind says in the branches. "Here is peace."
+
+		DefaultEvent
+Name:There is peace
+Id:159501
+Description:In the dappled grey and black, nothing threatens you.
+
+		ParentEvent
+Id:159416
+
+		RareDefaultEvent
+Name:One short
+Id:159521
+Description:Nothing troubles you as you pass. But when you count heads on the far side of the shadows, you're missing a zailor...
+
+
+
+	ChildBranches3
+Name:Leave
+Id:134249
+Description:Enough is too much. You are more mud than flesh now. [The further into the swamps you are, the more Terror you may gain]
+
+		DefaultEvent
+Name:The roofs of the College
+Id:159502
+Description:Hours later, you squelch out into relative safety. You need a bath. How you need a bath. Thank God that a steamer is never short of hot water.
+
+		ParentEvent
+Id:159416
+
+
+
+	ChildBranches4
+Name:Follow gliding lights
+Id:134251
+Description:A knot of seven wisps weaves ahead, beckoning you to follow. "Seven is lucky," a zailor mutters. "Except when it's unlucky seven." That's helpful.
+
+		DefaultEvent
+Name:Lost!
+Id:159505
+Description:The wisps illuminate a promising trail. Its promises are false.
+
+		ParentEvent
+Id:159416
+
+		RareDefaultEvent
+Name:Byways
+Id:159509
+Description:The light from the wisps touches glistening tree-bark, beetles in motionless, glossy clumps, bracket-fungus yellow as parchment, the eyes of marsh-rats. And here - a path.
+
+
+
+	ChildBranches5
+Name:Ignore the lights
+Id:134252
+Description:You have your candles. Wisps are uncertain.
+
+		DefaultEvent
+Name:Struggling on
+Id:159506
+Description:Islands, eh. Why can't they be made of water? If they can't be made of water, why does there have to be so much d__ned mud?
+
+		ParentEvent
+Id:159416
+
+
+
+	ChildBranches6
+Name:An abandoned fort
+Id:134254
+Description:A half-fallen fortress of basalt blocks on a low hill. The creatures of the swamp have stayed clear: there is insufficient mud, perhaps.
+
+		DefaultEvent
+Name:A respite
+Id:159508
+Description:You mount a guard on the walls - build a fire of stinking peat - upend your boots to evict sulky tadpoles. The swamps around you resound with sobbing whoops and screeching creaks - but nothing shows itself. Time passes.
+
+		ParentEvent
+Id:159416
+
+
+
+	ChildBranches7
+Name:A conversation between birds
+Id:134255
+Description:Birds are rare in the Neath, but the thickets here are full of feathered flutterings. These birds speak in human voices.
+
+		DefaultEvent
+Name:Gossip!
+Id:159510
+Description:They're imitating the voices of the scholars of the Mangrove College - familiar scratchy grumbles and rumbling complaints. You hear old crimes, new loves, hushed confessions of plagiarism...
+
+		ParentEvent
+Id:159416
+
+		RareDefaultEvent
+Name:Gossip!
+Id:165473
+Description:Your own voice echoes back from the low branches of a thorn-cypress. You're speaking poetry: a limping line about the still waters of the swamp. Or, rather, a black bird with fierce sad eyes is speaking poetry in your voice. You extend a hand: it hops calmly to land on your wrist, still declaiming.
+
+
+
+	ChildBranches8
+Name:Seething trees
+Id:134256
+Description:Branches thrash - leaves foam. The trees here writhe with fear.
+
+		DefaultEvent
+Name:Onwards
+Id:159511
+Description:On through the laced shade of the groaning oaks. At the back, a zailor whimpers in fear. "They're dying," someone says. "They're dying." Then you're through.
+
+		ParentEvent
+Id:159416
+
+
+
+	ChildBranches9
+Name:No One's Orchard
+Id:134257
+Description:"...the bark was scarified with marks resembling writing. A lump of flint lay at the base of the tree..."
+
+		DefaultEvent
+Name:Solacefruit
+Id:159512
+Description:"...was the flint a tool, or merely a rock? It was impossible to be certain. The solacefruit, too, which grew on the tree - they are parasitic, and they will grow wherever they choose, but their colours mimicked the bark. Perhaps this was their native tree. Impossible to be certain..."
+
+		ParentEvent
+Id:159416
+
+
+
+	ChildBranches10
+Name:An Arbefaction
+Id:134258
+Description:"...limbs twined with vines - flesh already lignifying into dark wood. The corpse's mouth hung open. Where its face dissolved into the bark, its expression was stil visible..."
+
+		DefaultEvent
+Name:Rapture
+Id:159513
+Description:"...rapture! Whatever had happened to this poor soul, whoever they had been, they had welcomed their end. Solacefruit hung in parasitic clusters from its woody torso. Had they occurred before, or after, the corpse's transformation? We found, too, a mask, one of those worn by the folk of Visage - a green-and-gold Livery Bird, one of the humble trapper-caste..."
+
+		ParentEvent
+Id:159416
+
+
+
+	ChildBranches11
+Name:The Pillar of Riddles
+Id:134259
+Description:"...a sandstone pillar, engraved in a spiral. Atop it sat an animal of some kind. As we approached..."
+
+		DefaultEvent
+Name:The Skull and the Spiral
+Id:159514
+Description:"...no! not a pale-fleshed beast, but a skull, grinning ruefully atop the pillar as if apologising for the quality of its welcome. We spent the afternoon deciphering the inscription, which had elements in common with Aramaic. I say 'deciphering' - it was a looped set of riddles which left us with as many questions as answers. It cryptically described the exploits of the woman whose skull remained atop the Pillar, and her progress into the East, far past Irem..."
+
+		ParentEvent
+Id:159416
+
+
+
+	ChildBranches12
+Name:The Grove of Eyes
+Id:134260
+Description:"...huge willows. The grove was carpeted with moss. Where our feet crushed it, a sweet wild scent rose. The trees stirred..."
+
+		DefaultEvent
+Name:A perilous treasure
+Id:159515
+Description:"...parasitic solacefruit, which grows on whatever tree takes its fancy. It clustered on their trunks like the primitive eyes of certain insects. We plucked it cautiously. Inside one fruit I found no stone, rather a diamond the size of the top joint of my little finger. But as I plucked it, the trees trembled again, and their roots began to rise from the mud! - be assured we did not remain..."
+
+		ParentEvent
+Id:159416
+
+
+
+	ChildBranches13
+Name:The Burial, Interrupted
+Id:134265
+Description:"...abandoned as if only moments before - but pale fungus had grown on the woollen cap where it remained by the grave-side, and the potted meat was a grail of putrescence. We peered over the grave's edge..."
+
+		DefaultEvent
+Name:FOR DELIVERY
+Id:159530
+Description:"...a coffin? A coffin, with an unusual stencilled label. Atop it rested a gauntlet of sorts, marvellously articulated in it scales, delicate as a lady's glove, of silvery metal. When I lifted it, it was ice-cold to the touch..."
+
+		ParentEvent
+Id:159416
+
+
+
+	ChildBranches14
+Name:Blue
+Id:134266
+Description:"...stuttering slivers of heaven-coloured light, as if the sky had stumbled... mysterious and glorious until we found the source, at which point my crew began to chuckle..."
+
+		DefaultEvent
+Name:The Goat
+Id:159531
+Description:"A bleating billy with moss-matted fur staggered to and fro, eyes wide. A chain hung from its neck. The chain bore a lump of piercingly blue scintillack, the source of the stutters of light as the billy staggered along the path. We freed the billy and retrieved the Scintillack. A rare piece like this is valuable..."
+
+		ParentEvent
+Id:159416
+
+
+
+	ChildBranches15
+Name:A conversation between birds
+Id:134269
+Description:Birds are rare in the Neath, but the thickets here are full of feathered flutterings. These birds speak in human voices.
+
+		DefaultEvent
+Name:Gossip!
+Id:159535
+Description:They're imitating the voices of the scholars of the Mangrove College - familiar scratchy grumbles and rumbling complaints. You hear old crimes, new loves, hushed confessions of plagiarism...
+
+		ParentEvent
+Id:159416
+
+
+
+	ChildBranches16
+Name:Amphigator!
+Id:134192
+Description:A thrashing reptile rears from the swamp...twice! A head at each end!
+
+		DefaultEvent
+Name:A smothered scream!
+Id:159417
+Description:You level your weapons and fire! The amphigator retreats, gouting dark blood, but not before one of its jaws snatches a crewman...
+
+		ParentEvent
+Id:159416
+
+		SuccessEvent
+Name:Gunsmoke and shouting
+Id:159503
+Description:At last the amphigators retreat. None of you are hurt. Onwards, into more mist and further mud.
+
+
+
+	ChildBranches17
+Name:A mirror-surfaced pool
+Id:134247
+Description:The banks are too crowded with mangroves for you to pass. Wade through it cautiously.
+
+		DefaultEvent
+Name:A disappearance
+Id:159500
+Description:Your zailors wade in, guns held above their heads. Ripples spread, intersect, travel on into darkness. Bats chirp with derision as you pass. All seems quiet: but when you leave the pool, a leech the colour of milky jade is clamped, pulsing, to your thigh. Its colour is shifting rapidly to a rosy pink. Already you feel weaker. Dispatch it!
+
+		ParentEvent
+Id:159416
+
+		SuccessEvent
+Name:Safe passage
+Id:159517
+Description:Your zailors wade in, guns held above their heads. Ripples spread, intersect, travel on into darkness. Bats chirp with derision as you pass. You pick your way carefully, very aware of a watchful appetite waiting in the pool.
+
+
+
+	ChildBranches18
+Name:A shimmering web
+Id:134253
+Description:Half-material strands of blue-black light hang between the trees. Something strayed out of the realm of dreams to spin this. Its touch drinks life. Find a way around.
+
+		DefaultEvent
+Name:A long way around
+Id:159507
+Description:You crash ill-temperedly through spined weeds and stinging mosses. Blue-furred apelings hoot mockingly. The mud bubbles like a dying soldier. Someone's missing. Someone's missing!
+
+		ParentEvent
+Id:159416
+
+		SuccessEvent
+Name:A way around
+Id:159522
+Description:There! A narrow way between the thorn-cypresses. Ignore the pendulous bellies of the watch-grubs where they hang silent in the branches. Cut a path through the shadows.
+
+
+
+	ChildBranches19
+Name:A fort infested
+Id:134267
+Description:Up ahead, a low hill and a half-fallen fortress of basalt blocks. It pullulates with pale blemmigans. Avoid.
+
+		DefaultEvent
+Name:A swarm!
+Id:159532
+Description:You're almost out of sight when a boil of blemmigans leaps whistling from the rocks beside the path! It's only a hunting party, and you fight them off with the loss of one zailor. More are coming. Run!
+
+		ParentEvent
+Id:159416
+
+		SuccessEvent
+Name:Safe and silent
+Id:159533
+Description:You skirt the fort, stealthy as cats. The lilac menaces remain unaware of your presence.
+
+
+
+	ChildBranches20
+Name:A calamity of ants
+Id:134250
+Description:Shining bodies burst from the pitcher-plants around you. A thick mat of ants swarms in ambush. Flee!
+
+		DefaultEvent
+Name:Falling behind
+Id:159504
+Description:One zailor trips, and the ants pour over him like oil. His screams pursue you through the trees.
+
+		ParentEvent
+Id:159416
+
+		SuccessEvent
+Name:Away!
+Id:165525
+Description:You leap and dash - you slap the horrid things from your calves - you suck bitten fingers and stare around, panting. You're out of danger.
+

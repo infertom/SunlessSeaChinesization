@@ -1,0 +1,112 @@
+Name:The Scuttering Reaches
+Id:166936
+Description:Intricate webs stretch into a darkness where the shadows are never entirely still. Gossamer threads stolen by the breeze tickle the goosebumps on your skin. A thousand unseen eyes promise a million more.
+
+
+
+	ChildBranches1
+Name:Visit the Web of Stone
+Id:138951
+Description:You know the way. Perhaps the sorrow-spiders have further tasks for a trustworthy zailor.
+
+		DefaultEvent
+Name:A blockade of silk
+Id:168374
+Description:You are no longer welcome across the webbed bridge. The sorrow-spiders have no more need of you.
+
+		ParentEvent
+Id:166936
+
+
+
+	ChildBranches2
+Name:Bring light into the darkness
+Id:138147
+Description:The sorrow-spiders avoid the candlelight, but not out of any sense of fear. Though far from tolerant of outsiders, they care little enough for their abandoned webs to turn a blind eye to at least a little scavenging. Up to a point.
+
+		DefaultEvent
+Name:Terror without
+Id:166937
+Description:As the lights of the Nativity fade and the candles starts to flicker, the darkness of the Reaches becomes unbearable. Empty-handed but alive, you hurry back to the relative warmth and safety of the port.
+
+
+		ParentEvent
+Id:166936
+
+		RareDefaultEvent
+Name:A message in a web?
+Id:166942
+Description:How curious! In the depths of a seemingly abandoned cave, the word HUMBLE is scrawled across a wall in letters of finest silk. Next to it, a second web reads RADIANT. And next to that... wait... LOOK UP?
+<br /><br />
+Fortunately, the sorrow-spider that drops down onto your face is just a little too slow. As it messily spreads out under your boot, the terrified little piglet in the corner seems overjoyed that its long nightmare is finally over. Almost as overjoyed as the crew will be to find their rations this evening finally feature some pig.
+
+		SuccessEvent
+Name:A scrap of success!
+Id:166943
+Description:Venturing into many caves and crannies, you gather enough silk to fill a crate. The audible hostility in the air by the end though makes it clear the sorrow-spiders will only overlook so much of this.
+
+		RareSuccessEvent
+Name:A prize of silk!
+Id:166944
+Description:Never let it be said the Scuttering Reaches are without treasures. The desiccated body of a careless Widow is tangled in an ancient web, his satchel of fully processed silk still hanging from his shoulder. Recovering it is grisly, but worth it.
+
+
+
+
+	ChildBranches3
+Name:Return to the sorrow-spiders' territory
+Id:138148
+Description:The silence of the Reaches is broken by a low hiss that drills through your bones and teeth. The hate of the sorrow-spiders is the sound of uncountable legs beating a singular war-drum. Nothing good can come of this.
+
+		DefaultEvent
+Name:Rage of the sorrow-spiders
+Id:166938
+Description:For a few precious minutes, it seems the sorrow-spiders are held at bay by the sad green glow. The second it flickers, that fantasy dies. It was not the dark they were waiting for, merely a signal. Fortunately you are still just... just... close enough to your ship to escape unscathed, save a few haunting memories. Not everyone however is so lucky.
+
+		ParentEvent
+Id:166936
+
+		RareDefaultEvent
+Name:Anger of the sorrow-spiders
+Id:166940
+Description:For a few precious minutes, it seems the sorrow-spiders are held at bay by the increasingly sad candlelight. Soon enough though, you find yourself surrounded. As the light flickers, a sea of hatred pours in from all sides to fill the new darkness.
+
+		SuccessEvent
+Name:Wrath of the sorrow-spiders
+Id:166984
+Description:For a few precious minutes, it seems the sorrow-spiders are held at bay by the candlelight. The second it flickers, that fantasy dies. It was not the dark they were waiting for, merely a signal. Fortunately you are still just... just... close enough to your ship to fight through unscathed, save for a few haunting memories of teeth and hair and venom to replay in many a nightmare to come.
+
+
+
+	ChildBranches4
+Name:Risk exploring without candles
+Id:138181
+Description:In this wasteland, only the false-stars in the roof of the Neath illuminate the webs and ruins the sorrow-spiders call home. You may still stumble upon something though. Or indeed, into something.
+
+		DefaultEvent
+Name:Stumbling through the dark
+Id:167007
+Description:The Reaches are no place to explore without some form of light. The endless sorrow-spiders surrounding you are less keeping their distance than enjoying the free show.
+<br /></br />
+It soon becomes clear; this is a fool's errand. Being no fool, at least not today, you return to port empty-handed and shivering, but at least unscathed.
+
+		ParentEvent
+Id:166936
+
+		RareDefaultEvent
+Name:Caught!
+Id:167008
+Description:Stumbling over rock and long abandoned stone, you find yourself twisted in a web that wraps tight around your limbs. Hairy legs brush across your frozen face and skin as the sorrow-spiders investigate their prize; their harvest of the precious soft apples delayed only until the futile thrashing gives way to terrified exhaustion.
+<br /><br />
+But instead, you wake to find yourself on the ground, the web cut and your captors nowhere to be seen. Someone has rescued you, but who? Why? And from where comes the sick, lingering fear that you may come to regret this act of anonymous generosity?
+
+		SuccessEvent
+Name:A party of Weavers
+Id:167210
+Description:Deep in the darkness by a bridge of webs, a small group of Weavers gather silk from their acrimonious masters' abandoned webs. Their lack of sight hardly seems to affect the silent precision of the work, all done to a rhythm drummed by something only they can hear. When they leave though, they take all of their harvest with them save for a few useless scraps.
+
+		RareSuccessEvent
+Name:A party of Weavers
+Id:167211
+Description:Deep in the darkness by a bridge of webs, a small group of Weavers gather silk from their acrimonious masters' abandoned webs. Their lack of sight hardly seems to affect the silent precision of the work, all done to a rhythm drummed by something only they can hear. Rejected silks are simply left on the ground, their inferiority not visible to regular eyes.
+

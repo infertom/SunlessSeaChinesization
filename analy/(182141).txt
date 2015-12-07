@@ -1,0 +1,36 @@
+Name:Station III again
+Id:182141
+Description:All is as it was. Machinery still hums behind high steel walls. The lamps, once more, are low.
+
+
+
+	ChildBranches1
+Name:Deliver a Long-Box
+Id:147400
+Description:The only way past the walls is an unimposing, but sturdy-looking, triple-locked gate of silvery metal. A sign beside it reads DELIVERIES. [You'll need a Long-Box to enter Station III and explore further.]
+
+		DefaultEvent
+Name:
+Id:182142
+Description:
+
+		ParentEvent
+Id:182141
+
+
+
+	ChildBranches2
+Name:Put a blemmigan ashore
+Id:147594
+Description:What will it do, in this place of oil and metal?
+
+		DefaultEvent
+Name:A creeping plague
+Id:182421
+Description:The blemmigan sidles furtively into a pipe that protrudes from the wall. All is still. You see no more of it.
+<br/><br/>
+As you turn to go, greasy smoke puffs suddenly from the pipe's end. You smell burning grease. Nevertheless, perhaps, it survived.
+
+		ParentEvent
+Id:182141
+

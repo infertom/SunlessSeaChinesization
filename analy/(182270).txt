@@ -1,0 +1,44 @@
+Name:A Consultation in the Chapel
+Id:182270
+Description:You enter to see your Navigator shaking a Smiling Priest by the collar. "It led me here! Tell me what it means! Look at it. Look at it!" The Priest disentangles himself as politely as possible.
+<br/><br/>
+"I'm sure we can find a path to put you on, my friend." He examines the sigil with the professional air of a collector. "But we will need your help in return."
+
+
+
+	ChildBranches1
+Name:Pay a price
+Id:147494
+Description:"Our stores are running low. If we cannot feed our congregation, our mission must end. Can you provide? The fresher the better." Your Navigator has nothing. He pleads for your help.
+
+		DefaultEvent
+Name:A new destination
+Id:182271
+Description:The priest gives your offering a satisfied nod. He whispers a few words over them. A blessing? See them writhe!
+<br/><br/>
+Your Navigator twitches impatiently. "The sigil - what does it mean? Who carved it on me? What did I do to deserve it?" The Smiling Priest raises a hand. "You are on a journey, my  friend. You must take one step at a time. I've seen your sigil before, carved in the ice at Frostfound. Go there. You will answer your first question. That will lead you to the next."
+<br/><br/>
+The Navigator's thanks are muted. He plods back to your ship. Before you leave, the Smiling Priest gives you a wink.
+
+		ParentEvent
+Id:182270
+
+
+
+	ChildBranches2
+Name:Pay another price
+Id:147495
+Description:The priest slips his arm around your shoulders. "For you, a lesser payment," he whispers. "Post no guards on your ship tonight. Ask no questions. And in the morning, perhaps you'd like to join us for breakfast." A red and white smile.
+
+		DefaultEvent
+Name:A new destination
+Id:182272
+Description:The Chapel's congregation are soft-footed. No one on board hears them come or go. In the morning, a crewman's bed is empty. You divert your crew's concerns. Later, you take part in a late, warm, red breakfast in the church's crypt.
+<br/><br/>
+When you emerge with the Smiling Priest, your Navigator hurries forwards from a pew. "The sigil - what does it mean? Who carved it on me? What did I do to deserve it?" The Smiling Priest raises a hand. "You are on a journey, my  friend. Take one step at a time. I've seen your sigil before, carved in the ice at Frostfound. Go there. You will answer your first question. That will lead you to the next."
+<br/><br/>
+The Navigator's thanks are muted. He plods back to your ship. Before you leave, the Smiling Priest gives you a wink.
+
+		ParentEvent
+Id:182270
+

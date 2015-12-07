@@ -1,0 +1,147 @@
+Name:Nuncio
+Id:143367
+Description:Taciturn functionaries walk the docks, in the uniforms of postmen. An enormous crowned statue casts a chilling shadow.The shadows gleam with rats' eyes. Their ceaseless chittering rolls like the tide.
+
+
+
+	ChildBranches1
+Name:Go to the postmen's tavern
+Id:146219
+Description:The Inky Blotter, it's called. The sign doesn't look like much.
+
+		DefaultEvent
+Name:Warmer inside than it looks
+Id:180300
+Description:Faces turn in your direction, but no one seems surprised to have a new arrival on the island.
+
+		ParentEvent
+Id:143367
+
+
+
+	ChildBranches2
+Name:Try a shift at the Dead Letter Office
+Id:146227
+Description:There is a sign of a cancelled stamp over the door.
+
+		DefaultEvent
+Name:Extensive tour
+Id:180309
+Description:Blunt Thomas takes you around the office: a small collection room where those retrieving letters may state their business. A much larger set of back offices where newly arrived letters and parcels are collected and sorted. A dank, briny smell that never goes away, presumably because so many of the parcels spent time in the water before they arrived here.
+<br/><br/>
+In the back room is a machine manned (ratted?) by a Postal Rat, a Rattus Faber in a pinstriped hat. It shovels sludge-damp letters into the machine's hopper and they come out dried, cleaned, pressed, and sorted into slots by size and quality of paper.
+
+		ParentEvent
+Id:143367
+
+
+
+	ChildBranches3
+Name:Do some more shiftwork at the Dead Letter Office
+Id:146231
+Description:It seems to be the chief occupation hereabouts.
+
+		DefaultEvent
+Name:The bell chimes above the door
+Id:180314
+Description:The fellow manning Collections looks awake for half a second when you come in, until he realizes you're here to relieve him.
+
+		ParentEvent
+Id:143367
+
+
+
+	ChildBranches4
+Name:Explore along the beach
+Id:146232
+Description:There's a long stretch of shale, dotted with washed-up kegs and barrels and smaller flotsam.
+
+		DefaultEvent
+Name:Shifty going
+Id:180315
+Description:The rocks slip and slither underfoot, but you keep your balance.
+
+		ParentEvent
+Id:143367
+
+
+
+	ChildBranches5
+Name:Assemble a Port Report
+Id:146243
+Description:Most of the inhabitants were Londoners once, but that doesn't mean they are now.
+
+		DefaultEvent
+Name:Uniform behaviour
+Id:180332
+Description:Cataloguing all the peculiarities of the place takes many pages. The tailor who imports gilt buttons and braid just to be able to keep everyone's uniform in condition. The fashion of wearing a postbag with nothing inside. (Wearing it open; wearing it upside down, torn apart, or as a hat; wearing it any way that will show it doesn't have letters in it.) 
+<br/><br/>
+Then there are the sitting rooms papered in cancelled stamps. The bergamot-pomegranate curd on toast. The commerce in rat-corpses. The hatred of cats. The absolute custom against ever issuing a paper invitation for any event no matter how formal. 
+<br/><br/>
+It's the familiarity, the not-quite-London-ness of the place that makes it all so... odd.
+
+		ParentEvent
+Id:143367
+
+
+
+	ChildBranches6
+Name:Assemble a Port Report
+Id:146896
+Description:You may not be very familiar with the locals yet, but you can provide a preliminary overview.
+
+		DefaultEvent
+Name:Surface details
+Id:181411
+Description:There's the statue in the middle of the island. That's hard to miss. There's the way everyone wears a uniform, and the way they call each other by their ranks in the postal service. There's the way the port authorities refer to Regulations. There's the jargon, the curious habit of referring to any used-up thing as 'cancelled', as though the whole world were made of stamps. 
+<br/><br/>
+You write about vestigial bureaucracy and about trappings of order retained far from home.
+
+		ParentEvent
+Id:143367
+
+
+
+	ChildBranches7
+Name:Assemble a Port Report
+Id:146897
+Description:Those who live here deserve a better justification in the eyes of the world.
+
+		DefaultEvent
+Name:The Admiralty won't understand
+Id:181412
+Description:But you can do your best to explain it all anyway. The theology of postal work, the Pull, the scarred obedience of postmen. The attention to detail that is both petty and sacred. The anguish. The camaraderie among the sufferers. The willingness to endure visitors, even visitors who do not understand their tribulations and ask foolish, ill-informed questions.
+
+		ParentEvent
+Id:143367
+
+
+
+	ChildBranches8
+Name:Assemble a Port Report
+Id:146898
+Description:The true depravity of the place has never been fully understood.
+
+		DefaultEvent
+Name:A portrait gallery
+Id:181413
+Description:You turn your pen to personalities. The graceless, bullying manner of Blunt Thomas. The Hairless Postwoman, never very far from her pint of ale or the fire. The thoughtless machine-work of the Postal Rat, who is so eager to know nothing about the true nature of the Dead Letter Office. You show the postmen as you know they secretly understand themselves: unworthy of their uniforms, outcast from the rest of the Postal Service, a disgrace to their Regulations.
+
+		ParentEvent
+Id:143367
+
+
+
+	ChildBranches9
+Name:Assemble a Port Report
+Id:146899
+Description:Starting with the beach and the never-ending tide.
+
+		DefaultEvent
+Name:Half marine chart, half poem
+Id:181414
+Description:Never mind who lives here now, or how they came. Nuncio is older than its inhabitants. Its Pull is a glad fury, defying distance and weight and normal currents, so that the messages between beings may survive even when the writers themselves are bones on the sea floor.
+
+		ParentEvent
+Id:143367
+

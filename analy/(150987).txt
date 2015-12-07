@@ -1,0 +1,159 @@
+Name:8 - Upper Reaches
+Id:150987
+Description:Llud 
+
+Beli Maw
+
+All reeds and rushes.
+
+Ferns, liverwort, algae.
+
+A personal bridge.
+
+
+
+	ChildBranches1
+Name:A dead baby in it
+Id:128939
+Description:
+
+		DefaultEvent
+Id:150988
+
+		ParentEvent
+Id:150987
+
+
+
+	ChildBranches2
+Name:I would always rather have been a boat - moving on.
+Id:128949
+Description:
+
+		DefaultEvent
+Id:151000
+
+		ParentEvent
+Id:150987
+
+
+
+	ChildBranches3
+Name:Heres the island where Shelley let off fireworks
+Id:128950
+Description:
+
+		DefaultEvent
+Id:151001
+
+		ParentEvent
+Id:150987
+
+
+
+	ChildBranches4
+Name:Look at this prehistoric boat
+Id:128965
+Description:That came in on the tide - your boat.
+
+		DefaultEvent
+Id:151016
+
+		ParentEvent
+Id:150987
+
+
+
+	ChildBranches5
+Name:The Swimmer
+Id:128966
+Description:Deakin)
+
+		DefaultEvent
+Id:151017
+
+		ParentEvent
+Id:150987
+
+
+
+	ChildBranches6
+Name:Crowds on the riverbanks for some reason.
+Id:128967
+Description:
+
+		DefaultEvent
+Id:151018
+
+		ParentEvent
+Id:150987
+
+
+
+	ChildBranches7
+Name:Remembers the Rhine again
+Id:128968
+Description:I got worse after I left the Rhine behind. 
+
+Mention Pangaea
+
+Before the ice age, now.
+
+A discrete drainage line, millions of years ago
+
+		DefaultEvent
+Id:151019
+
+		ParentEvent
+Id:150987
+
+
+
+	ChildBranches8
+Id:128969
+
+		DefaultEvent
+Id:151020
+
+		ParentEvent
+Id:150987
+
+
+
+	ChildBranches9
+Id:128970
+
+		DefaultEvent
+Id:151021
+
+		ParentEvent
+Id:150987
+
+
+
+	ChildBranches10
+Name:Eton, WIndsor
+Id:128972
+Description:They have moved
+Schoolboys
+I gave them diseases.
+
+		DefaultEvent
+Id:151024
+
+		ParentEvent
+Id:150987
+
+
+
+	ChildBranches11
+Name:You keep finding things
+Id:128975
+Description:Looking under them - have I left my own confession. 
+
+		DefaultEvent
+Id:151027
+
+		ParentEvent
+Id:150987
+

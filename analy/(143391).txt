@@ -1,0 +1,229 @@
+Name:The Mangrove College
+Id:143391
+Description:A steaming sprawl of parasynthetic vegetation - and a village. Barely a village. Holed walls, roofs in disrepair, stilts leaning dangerously. It looks to have been assembled by drunks in a hurry. Dock carefully.
+
+
+
+	ChildBranches1
+Name:Pick up a passenger
+Id:124102
+Description:The Mangrove College is named for its scholars and philosophers. They have long abandoned civilised comforts for the life of the mind. Sometimes, they want those civilised comforts back.
+
+		DefaultEvent
+Name:A Chequered Character
+Id:143392
+Description:"The Principles. Port Cecil. Black and white and silver... please, take me there. Sooner, later, it doesn't matter. I know how complex the moves can be."
+
+		ParentEvent
+Id:143391
+
+		RareDefaultEvent
+Name:A Shady Sort
+Id:165946
+Description:"The Corsair's Forest, please. Gaider's Mourn. No, I'm not in a hurry, but I think I might stay below decks. I don't carry the fee on me: you'll have to trust me for it when we arrive. Thank you. A pleasure."
+
+
+
+	ChildBranches2
+Name:Eat, drink, be merry
+Id:124103
+Description:The philosophers of the College are not hospitable, but this whole shoreline is bursting with fruit and edible fungus. Reach up and it falls into your hand. Pick it up, and it's already fermented.
+
+		DefaultEvent
+Name:An explosion of tastes
+Id:143393
+Description:Tart morels and morel tart. The salty tang of zeeweed stew. A crawling berry that the locals assure you is a motile plant, not an insect. Eat your fill, and drink contemplatively.
+
+		ParentEvent
+Id:143391
+
+
+
+	ChildBranches3
+Name:Gather supplies
+Id:124453
+Description:You don't have time to stop and rest, but you can gather plenty of supplies. The College members will grumble, but there's enough to go around
+
+		DefaultEvent
+Name:Wonderful things
+Id:143938
+Description:Your crew strips a stretch of shoreline bare. It'll have burgeoned again by next week, no doubt.
+
+		ParentEvent
+Id:143391
+
+
+
+	ChildBranches4
+Name:Into the Wisp-Ways
+Id:134239
+Description:The swamps around the village are full of mud, crocodiles and vegetable treasures, including the notorious parasite called 'solacefruit'. The fogs and spreading branches occlude all light. [Take plenty of candles if you venture in.]
+
+		DefaultEvent
+Name:Raise your lanterns high
+Id:159489
+Description:[You can leave at any time, but if you get in far enough, you'll generally find something interesting.]
+
+		ParentEvent
+Id:143391
+
+
+
+	ChildBranches5
+Name:Unpick the Mysteries of other Lands
+Id:134243
+Description:The scholars of the College are hungry for lore. They'll help you put the pieces together. [This will convert these items to a Secret.]
+
+		DefaultEvent
+Name:A dozen strands, a single knot
+Id:159496
+Description:It all makes sense now! Or sense enough, at least.
+
+		ParentEvent
+Id:143391
+
+
+
+	ChildBranches6
+Name:Unpick the Mysteries of the Zee
+Id:134244
+Description:Some of the 'philosophers' of the College have the grizzled air of old zailors. Retired mariners? Or pirates who've come here to avoid attention?
+
+		DefaultEvent
+Name:Vivid stories
+Id:159497
+Description:A Wary Hermit, her eyes bright, helps you sift truth from nonsense. By the end of it, she sighs with longing. 'The zee...' she says. "But no. I'm here for good."
+
+		ParentEvent
+Id:143391
+
+
+
+	ChildBranches7
+Name:Meet your contact
+Id:134317
+Description:An Enigmatic Gentleman lives a comfortable life in the largest hut. He won't see you without an appointment, but the Admiralty has arranged that appointment.
+
+		DefaultEvent
+Name:An island of civilisation
+Id:159601
+Description:Once inside the hut, you might imagine yourself back in London. Bright candle-light, thick carpets (a little spotted with damp), even wallpaper (similarly spotted). Two philosophers wait on you both, a little sulkily. The Enigmatic Gentleman will say nothing until you've both eaten dinner (a fine, if eclectic meal: cavern-trout, swamp-fruits, spices from Adam's Way and Whither, served on Delft ware at a lacquered Ming table). When you're done, he gives you a carefully itemised list of ship sightings, some excellent port and a little something to take away. "Remember me to the Admiral," he says fondly.
+
+		ParentEvent
+Id:143391
+
+
+
+	ChildBranches8
+Name:Compile a Port Report
+Id:134539
+Description:Sages, scholars, philosophers, naturalists, poets, dreamers - here to pursue their rarefied ideals in a land of muddy fecundity.
+
+		DefaultEvent
+Name:All shall be well
+Id:159961
+Description:The thinkers of the Mangrove College continue their untroubled and sedentary existence. New schools of philosophy are born and die like bubbles. Extraordinary poetries are written in water. The occasional retired pirate tries, and fails, to get invited to salons.
+
+		ParentEvent
+Id:143391
+
+
+
+	ChildBranches9
+Name:Pick up an Absent Friend for Venderbight
+Id:141590
+Description:The directions take you to a frondy hovel in the shade of a swamp-oak. When you knock, the whole thing quivers as if it's come unmoored.
+
+		DefaultEvent
+Name:
+Id:172750
+Description:A tall woman - imposing despite a layer of mud - opens the door. "Has he sent word?" she asks. She grins delightedly. "Let's be off. To Venderbight! Don't spare the engines. It's been too long."
+
+		ParentEvent
+Id:143391
+
+
+
+	ChildBranches10
+Name:Engage an Officer: Maybe's Daughter
+Id:146152
+Description:"Hello! Where are you headed? On second thoughts, I don't mind. Can I come aboard? Yes, I'm an engineer, but I'm an engineer in a hurry." [Maybe's Daughter is an Engineer who increases Veils, Iron and Engine Power.]
+
+		DefaultEvent
+Name:Welcome aboard!
+Id:180187
+Description:"If anyone comes looking for me, well, I'm not accepting callers. Can I trust you to pass that on? You don't want them distracting me from my duties."[Appoint your new Officer by dragging her from the Officers tab to her slot at the top of the screen. Do this in port, not at sea, or you may unsettle your crew.]
+
+		ParentEvent
+Id:143391
+
+
+
+	ChildBranches11
+Name:Go beachcombing
+Id:146956
+Description:Ships come and go to and from the Mangrove College, often in secret. What might they have flung overboard?
+
+		DefaultEvent
+Name:
+Id:181494
+Description:
+
+		ParentEvent
+Id:143391
+
+
+
+	ChildBranches12
+Name:Put a blemmigan ashore
+Id:147299
+Description:The college is already a crumbling mess more plant than village. Unleashing a blemmigan here will only hasten the decline. No matter.
+
+		DefaultEvent
+Name:Into the wild
+Id:181984
+Description:It shows no interest in the village - it disappears straight into the jungle. There, little blemmigan. Thrive. Thrive and multiply. 
+
+		ParentEvent
+Id:143391
+
+
+
+	ChildBranches13
+Name:Gather supplies
+Id:147373
+Description:You don't have time to stop and rest, but you can gather plenty of supplies. The College members will grumble, but there's enough to go around
+
+		DefaultEvent
+Name:Wonderful things
+Id:182101
+Description:Your crew strips a stretch of shoreline bare. It'll have burgeoned again by next week, no doubt.
+
+		ParentEvent
+Id:143391
+
+		RareDefaultEvent
+Name:A rush of purple!
+Id:182102
+Description:Your crew returns sooner than you expected. One is nursing a badly bitten arm. Another bleeds from a scalp wound. A third is missing altogether. "Swarmed by blemmigans, captain," a survivor tells you, shivering. "Never saw the little monsters coming."
+
+
+
+	ChildBranches14
+Name:Pick up a passenger
+Id:147439
+Description:The Mangrove College is named for its scholars and philosophers. They have long abandoned civilised comforts for the life of the mind. Sometimes, they want those civilised comforts back.
+
+		DefaultEvent
+Name:A Chequered Character
+Id:182199
+Description:"The Principles. Port Cecil. Black and white and silver... please, take me there. Sooner, later, it doesn't matter. I know how complex the moves can be."
+
+		ParentEvent
+Id:143391
+
+		RareDefaultEvent
+Name:A Shady Sort
+Id:182200
+Description:"The Corsair's Forest, please. Gaider's Mourn. No, I'm not in a hurry, but I think I might stay below decks. I don't carry the fee on me: you'll have to trust me for it when we arrive. Thank you. A pleasure."
+

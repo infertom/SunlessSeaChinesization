@@ -1,0 +1,49 @@
+Name:Returning to London
+Id:154183
+Description:The lights of London welcome you home. [This storylet only appears when you've been at sea for a little while.]
+
+
+
+	ChildBranches1
+Name:Collect messages from the Harbourmaster
+Id:130986
+Description:All the clatter and song of the dockside: it soothes the soul. Are there messages for you?
+
+		DefaultEvent
+Name:What's this?
+Id:154184
+Description:Let's see...
+
+		ParentEvent
+Id:154183
+
+
+
+	ChildBranches2
+Name:Collect messages from the Harbourmaster
+Id:131555
+Description:All the clatter and song of the dockside: it soothes the soul. Are there messages for you?
+
+		DefaultEvent
+Name:What's this?
+Id:155038
+Description:Let's see...
+
+		ParentEvent
+Id:154183
+
+
+
+	ChildBranches3
+Name:A breath of relief
+Id:131695
+Description:As soon as the gang-plank touches the quay-side, the terrors of the deep zee lighten. Walk taller: smile more readily. But what dreams may cling?
+
+		DefaultEvent
+Name:Coming home
+Id:155250
+Description:[Terror is always reduced to 50 when you return to London, if it's higher. However, if your Terror was high, you may suffer Nightmares later...]
+
+		ParentEvent
+Id:154183
+

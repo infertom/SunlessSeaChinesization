@@ -1,0 +1,19 @@
+Name:Everything remains deathly quiet
+Id:167306
+Description:Not a sound can be heard from the port. Not a single light flickers beyond the docks.
+
+
+
+	ChildBranches1
+Name:Investigate the Nativity
+Id:138358
+Description:What happened to the Festival of Silk? What happened to the traders? The crew is finally calm enough to investigate.
+
+		DefaultEvent
+Name:Gone. At least, the lucky ones.
+Id:167307
+Description:A few survivors stumble around, slaves of the sorrow-spiders. The 'generous neighbours' now feast on the corpses of those who fought back against their invasion, weaving webs to completely absorb the Nativity into the Scuttering Reaches. By the docks, the Emissary of Spiders' crucified body hangs from webbing in a clear statement to all that the Accord of Grace that once protected travellers has ended. The sorrow-spiders have no more use for human inefficiencies.
+
+		ParentEvent
+Id:167306
+

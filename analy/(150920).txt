@@ -1,0 +1,381 @@
+Name:3 - Walking
+Id:150920
+Description:Onto next place - use supplies.
+Like a coda.
+Keep intro text short.
+
+
+
+	ChildBranches1
+Name:Mudlark - what do you find?
+Id:128882
+Description:
+
+		DefaultEvent
+Id:150921
+
+		ParentEvent
+Id:150920
+
+
+
+	ChildBranches2
+Name:Look Up - Where Are We? #1
+Id:128884
+Description:False stars
+
+		DefaultEvent
+Id:150924
+
+		ParentEvent
+Id:150920
+
+
+
+	ChildBranches3
+Name:Look Up - Where Are We? #1
+Id:128885
+Description:A Pseudomoon
+
+		DefaultEvent
+Id:150925
+
+		ParentEvent
+Id:150920
+
+
+
+	ChildBranches4
+Name:Look Up - Where Are We? #1
+Id:128886
+Description:Cavern Wall
+Endorphins when we look up
+
+		DefaultEvent
+Id:150926
+
+		ParentEvent
+Id:150920
+
+
+
+	ChildBranches5
+Name:How Close To The Mountain?
+Id:128887
+Description:Check where we are?
+Where are we on the river
+The response rhymes.
+
+		DefaultEvent
+Id:150927
+
+		ParentEvent
+Id:150920
+
+
+
+	ChildBranches6
+Name:Where Are We #3
+Id:128890
+Description:Cavern roof low, with something written on it. 
+
+		DefaultEvent
+Id:150931
+
+		ParentEvent
+Id:150920
+
+
+
+	ChildBranches7
+Name:Where are we #4
+Id:128891
+Description:neath-stars in constellations
+
+		DefaultEvent
+Id:150932
+
+		ParentEvent
+Id:150920
+
+
+
+	ChildBranches8
+Name:where are we #5 
+Id:128892
+Description:A pseudomoon
+
+		DefaultEvent
+Id:150933
+
+		ParentEvent
+Id:150920
+
+
+
+	ChildBranches9
+Name:where are we #6
+Id:128896
+Description:hole in cavern roof #1
+I have no sense of myself. 
+
+		DefaultEvent
+Id:150937
+
+		ParentEvent
+Id:150920
+
+
+
+	ChildBranches10
+Name:where are we #7
+Id:128897
+Description:Cavern roof #2
+
+		DefaultEvent
+Id:150938
+
+		ParentEvent
+Id:150920
+
+
+
+	ChildBranches11
+Name:Down one of the rivers.
+Id:128900
+Description:To storylet 11
+
+		DefaultEvent
+Id:150941
+
+		ParentEvent
+Id:150920
+
+
+
+	ChildBranches12
+Name:What are you carrying?
+Id:128902
+Description:
+
+		DefaultEvent
+Id:150944
+
+		ParentEvent
+Id:150920
+
+
+
+	ChildBranches13
+Name:Percieved past actions
+Id:128904
+Description:just gets dribbly
+A victim in particular. Talks about them. 
+
+		DefaultEvent
+Name:
+Id:150946
+Description:
+
+		ParentEvent
+Id:150920
+
+
+
+	ChildBranches14
+Name:A repeated action - do you notice it?
+Id:128909
+Description:
+
+		DefaultEvent
+Id:150951
+
+		ParentEvent
+Id:150920
+
+
+
+	ChildBranches15
+Name:What had it hit, as it travelled?
+Id:128912
+Description:
+
+		DefaultEvent
+Id:150955
+
+		ParentEvent
+Id:150920
+
+
+
+	ChildBranches16
+Name:how much has broken up.
+Id:128913
+Description:
+
+		DefaultEvent
+Id:150956
+
+		ParentEvent
+Id:150920
+
+
+
+	ChildBranches17
+Name:counting bridges.
+Id:128914
+Description:This was when you had upset me.
+
+		DefaultEvent
+Id:150957
+
+		ParentEvent
+Id:150920
+
+
+
+	ChildBranches18
+Name:None of the crew worship it.
+Id:128930
+Description:
+
+		DefaultEvent
+Id:150978
+
+		ParentEvent
+Id:150920
+
+
+
+	ChildBranches19
+Id:128942
+
+		DefaultEvent
+Id:150993
+
+		ParentEvent
+Id:150920
+
+
+
+	ChildBranches20
+Name:One of the crew pisses
+Id:128943
+Description:Airs Of The Unterzee
+But does not check to see if it has killed anything. 
+
+		DefaultEvent
+Id:150994
+
+		ParentEvent
+Id:150920
+
+
+
+	ChildBranches21
+Name:Markets, banks, walls, temples.
+Id:128944
+Description:
+
+		DefaultEvent
+Id:150995
+
+		ParentEvent
+Id:150920
+
+
+
+	ChildBranches22
+Name:reeds, villages, etc.
+Id:128945
+Description:Further Up The River.
+
+		DefaultEvent
+Id:150996
+
+		ParentEvent
+Id:150920
+
+
+
+	ChildBranches23
+Name:camp around a natural gas fire.
+Id:128946
+Description:
+
+		DefaultEvent
+Id:150997
+
+		ParentEvent
+Id:150920
+
+
+
+	ChildBranches24
+Name:I try to speak to you directly.
+Id:128947
+Description:
+
+		DefaultEvent
+Id:150998
+
+		ParentEvent
+Id:150920
+
+
+
+	ChildBranches25
+Id:128952
+
+		DefaultEvent
+Id:151003
+
+		ParentEvent
+Id:150920
+
+
+
+	ChildBranches26
+Name:Heal your hurt crew.
+Id:128953
+Description:Use supplies.
+
+		DefaultEvent
+Id:151004
+
+		ParentEvent
+Id:150920
+
+
+
+	ChildBranches27
+Id:128988
+
+		DefaultEvent
+Id:151040
+
+		ParentEvent
+Id:150920
+
+
+
+	ChildBranches28
+Id:128990
+
+		DefaultEvent
+Id:151042
+
+		ParentEvent
+Id:150920
+
+
+
+	ChildBranches29
+Id:129013
+
+		DefaultEvent
+Id:151065
+
+		ParentEvent
+Id:150920
+

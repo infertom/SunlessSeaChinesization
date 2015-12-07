@@ -1,0 +1,22 @@
+Name:Summons to the Low Building
+Id:149074
+Description:The Acolyte sends you a message, requesting assistance with a difficult autopsy. The message emphasizes silence and discretion.
+
+
+
+	ChildBranches1
+Name:Find out what she wants
+Id:127807
+Description:Perhaps there will be something in it for you.
+
+		DefaultEvent
+Name:A locked coffin
+Id:149075
+Description:The coffin is banded with iron and triple locked. LEAVE FOR THE CHIEF, it's labelled.
+<br/>
+<br/>
+The Austere Acolyte is standing over it with a crowbar and a fixed expression.
+
+		ParentEvent
+Id:149074
+

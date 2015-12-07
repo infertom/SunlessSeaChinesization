@@ -1,0 +1,88 @@
+Name:Dark News
+Id:151470
+Description:A Grave Courier paces the quayside as your ship ties up. "[q:Addressed As]," she hails you - "I was commissioned to give this into your hand."
+
+
+
+	ChildBranches1
+Name:A letter from the Dapper Chap
+Id:129263
+Description:The writing is so ragged with haste that you barely recognise it. "Beloved - " it begins. A long smear of blood obscures the very next line.
+
+		DefaultEvent
+Name:
+Id:151471
+Description:"...body and soul, into the... waking dreams which tear my skin... before the whirlpool draws you in too. Beloved, I must leave you. Although we will not meet again - " The very bottom of the letter is missing, torn entirely across. You look up, but the courier is gone.
+<br/><br/>
+The curse of the god called Salt has fallen on you. The Dapper Chap is gone.
+
+		ParentEvent
+Id:151470
+
+
+
+	ChildBranches2
+Name:An official notice from the Foreign Office
+Id:129264
+Description:You scan it quickly and catch the Likely Lass' name...
+
+		DefaultEvent
+Name:"...the business of the Crown..."
+Id:151472
+Description:"...cannot disclose details of her ultimate fate, but I regret that, in all likelihood, it was bright and cold and lonely. More I cannot say: but it was her last request that this message be delivered, and she won my respect long ago. I enjoin you to ignore any overtures or messages from captains of the bright ships: we have learnt not to meddle with the affairs of the Dawn Machine..."
+<br/><br/>
+The curse of the god called Salt has fallen on you. The Likely Lass is gone.
+
+		ParentEvent
+Id:151470
+
+
+
+	ChildBranches3
+Name:A letter from the Dapper Chap
+Id:129265
+Description:The writing is so ragged with haste that you barely recognise it. "Beloved - " it begins. A long smear of blood obscures the very next line.
+
+		DefaultEvent
+Name:They are one
+Id:151473
+Description:"...body and soul, into the... waking dreams which tear my skin... before the whirlpool draws you in too. Beloved, I must leave you. We must both leave you - " The very bottom of the letter is missing, torn entirely across. You look up, but the courier is gone.
+<br/><br/>
+The curse of the god called Salt has fallen on you. The Dapper Chap is gone... with your child.
+
+		ParentEvent
+Id:151470
+
+
+
+	ChildBranches4
+Name:An official notice from the Foreign Office
+Id:143197
+Description:You scan it quickly and catch the Likely Lass' name...
+
+		DefaultEvent
+Name:"...the business of the Crown..."
+Id:175343
+Description:"...cannot disclose details of her ultimate fate, but I regret that, in all likelihood, it was bright and cold and lonely. It is with infinite regret that I must inform you that your child shared this fate. More I cannot say: but it was her last request that this message be delivered, and she won my respect long ago. I enjoin you to ignore any overtures or messages from captains of the bright ships: we have learnt not to meddle with the affairs of the Dawn Machine..."
+<br/><br/>
+The curse of the god called Salt has fallen on you. The Likely Lass is gone. Your child, too.
+
+		ParentEvent
+Id:151470
+
+
+
+	ChildBranches5
+Name:Appalling news
+Id:146488
+Description:Something has happened to your family.
+
+		DefaultEvent
+Name:Mysterious occurrences
+Id:180737
+Description:"...vanished, every one, all on the same night. On the wall of the room where your heir slept, we found this message painted: TRAVELLER RETURNING. No other trace remains. The Constables are baffled. My most heartfelt condolences..."]
+[Your dynasty has been wiped out at a stroke.If you have a sweetheart or child, they remain untouched... for now.]
+
+		ParentEvent
+Id:151470
+

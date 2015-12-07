@@ -1,0 +1,149 @@
+Name:The Silent Gallery
+Id:176492
+Description:The Exquisite Seneschal attends her Emperor's needs, handling the chaotic administration of the Court.
+
+
+
+	ChildBranches1
+Name:A Plan: Supplies for the Zeppelin
+Id:143946
+Description:The Exquisite Seneschal may have an unpalatable way of gathering supplies, but only for a trusted friend.
+
+		DefaultEvent
+Name:A final meal
+Id:176493
+Description:The cannibal pirates of Hearthsake Island have long been a thorn in the Empire's paw. With a few little drops of this vial, you could deal with them for good. Their supplies would be very welcome for the voyage.
+
+		ParentEvent
+Id:176492
+
+
+
+	ChildBranches2
+Name:A Plan: Fuel for the Zeppelin
+Id:143953
+Description:The Exquisite Seneschal looks for a trusted agent to establish a relationship with the Iron Republic.
+
+		DefaultEvent
+Name:A deal with the devils
+Id:176501
+Description:The Exquisite Seneschal provides you with a signed contract in a language it is unlikely any human can read. If you take it to the Iron Republic, they will provide you with Hydrogen. It will take several trips to fully supply the Zeppelin, but there will be no charge.
+
+		ParentEvent
+Id:176492
+
+
+
+	ChildBranches3
+Name:Report the Zeppelin's completion
+Id:143954
+Description:Everything is ready. It is time to tell the Emperor.
+
+		DefaultEvent
+Name:The Exquisite Seneschal summons the court
+Id:176502
+Description:The Silent Gallery fills with excited Pentecost apes of every status, the air buzzing despite both threats and their best efforts.
+
+		ParentEvent
+Id:176492
+
+
+
+	ChildBranches4
+Name:Return to the Court
+Id:143955
+Description:The Exquisite Seneschal has work to be getting on with.
+
+		DefaultEvent
+Name:You return to the chaos outside
+Id:176503
+Description:You could live here all your life and never get used to the noise and smell. The prospect is not a tempting one.
+
+		ParentEvent
+Id:176492
+
+
+
+	ChildBranches5
+Name:Ask for help translating the Vault inscriptions
+Id:143957
+Description:The Exquisite Seneschal often finds herself looking to the past for assistance. She may have an idea.
+
+		DefaultEvent
+Name:A chip of the past
+Id:176505
+Description:The Exquisite Seneschal looks around cautiously, and bids you follow her into a small room behind the Emperor's throne. She fishes for a small wooden box, and from it produces what looks like a shard of salt, the glimmer of red honey inside.
+<br /><br />
+"The memory of an architect, long dead. They were scribes also. This is not like the honey you may know. It is frozen. Saved. Let it melt into your tongue. Should anybody see you, it will be said you stole it." She glares. "From the Emperor."
+
+		ParentEvent
+Id:176492
+
+
+
+	ChildBranches6
+Name:Gain the Emperor's Favour
+Id:143999
+Description:Steal the Zeppelin? Now there's an idea. A shame it is so well guarded. You would need to get behind him if you want to stab him in the back.
+
+		DefaultEvent
+Name:An offer is made
+Id:176555
+Description:The Exquisite Seneschal bows politely. You have done quite enough for the Court, she assures you. None could possibly ask for a finer friend to-
+<br /><br />
+"The human may... approach."
+<br /><br />
+The Seneschal's powdered face turns a shade paler.
+
+		ParentEvent
+Id:176492
+
+
+
+	ChildBranches7
+Name:A Destination: The Elder Continent
+Id:144933
+Description:Before the Zeppelin can depart, the monkeys must agree on a destination. Suggest they head South.
+
+		DefaultEvent
+Name:Endless adventure!
+Id:178131
+Description:Just think of it! The Elder Continent, in all its wonder and majesty! There, a monkey can be free... to build, to farm, to swing in the trees that at least they know are there and almost certainly don't bite. You're filling their heads with third-hand stories - myths and nonsense - but they drink it up. As you leave, they are already arguing about which legendary creatures sound the most delicious.
+
+		ParentEvent
+Id:176492
+
+
+
+	ChildBranches8
+Name:A Destination: Past the Uttermost Edge
+Id:144934
+Description:Before the Zeppelin can depart, the monkeys must agree on a destination. Suggest they head East.
+
+		DefaultEvent
+Name:Uncharted zee!
+Id:178132
+Description:Who knows what lies beyond the darkness? The Pentecost apes would not simply be explorers, but pioneers - the first known travellers, out in darknesses where none have even heard of humans! Probably! It's not a tale you can tell with any real conviction, but it boosts their ego. As you leave, they are already arguing over the wardrobe that they will need to give the best impression on their future friends and slaves.
+
+		ParentEvent
+Id:176492
+
+
+
+	ChildBranches9
+Name:Take your place in the Great Exodus
+Id:145770
+Description:The Emperor promised that you would join him.
+
+		DefaultEvent
+Name:A sharp vision of the future
+Id:179496
+Description:Yes. Yes, you can see it now. Boarding the Soaring Glory, filled with excitement. Then, rifles in your face. The rest of the journey a captive, and on the other side, a slave. You cannot be sure, of course. It seems unlikely though that the Emperor would actually make such a serious exception in his burning hatred for humanity.
+<br /><br />
+Still, he does have to keep face, for now. You could use his Favour to board and steal the Zeppelin, and remain master of your own destiny.
+<br /><br />
+A far more tempting proposition...
+
+		ParentEvent
+Id:176492
+

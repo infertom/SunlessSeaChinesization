@@ -1,0 +1,67 @@
+Name:Monumental Ruins
+Id:149035
+Description:The builders of this place worked with great slabs of Neath-wall stone, carved with blank-eyed, unsmiling faces and blocky, stoic serpents.
+
+
+
+	ChildBranches1
+Name:Picnic
+Id:127779
+Description:Creepers climb the shattered pyramid. An owl blinks at you from an idol's mouth. In the undergrowth, a cave-lizard munches decorously on a white cricket. This place seems peaceful. Rest a while.
+
+		DefaultEvent
+Name:Wine and sea-bread
+Id:149037
+Description:You and your comrades find stones to perch on, and munch laverbread, truffles and herring. Someone passes a bottle of Greyfields: an adequate vintage. White crickets buzz in the weeds. A shiver of wind passes, and then the air is still, with that absence of chill that passes for warmth down here. Two zailors compare tattoos. Your head swims pleasantly with the wine.
+
+		ParentEvent
+Id:149035
+
+		RareDefaultEvent
+Name:Unwanted guests
+Id:149124
+Description:A Complacent Stoker sits on a comfortable-looking stone. It rolls over, tipping him into an unseen pit of sorrow-spiders, who swarm him over, pump him full of venom and fight over his eyes. By the time you've recovered his body for burial, the peace of the afternoon is quite soured.
+
+
+
+	ChildBranches2
+Name:--
+Id:127780
+Description:Don't forget Anarchist camp option - but tie to larger arc.
+
+		DefaultEvent
+Id:149038
+
+		ParentEvent
+Id:149035
+
+
+
+	ChildBranches3
+Name:Search warily
+Id:127778
+Description:The Neath is rarely gentle. Treat this place as enemy territory.
+
+		DefaultEvent
+Name:Only shadows
+Id:149036
+Description:This place was deserted long ago. You find traces of gilt on a shattered altar; remnants of vermilion paint on a rotting ritual mask. Nothing else.
+
+		ParentEvent
+Id:149035
+
+		RareDefaultEvent
+Name:A bad end
+Id:149126
+Description:An incautious zailor trips over a stone and drops into an unseen pit of sorrow-spiders. They swarm him over, pump him full of venom and fight over his eyes. By the time you've recovered his body for burial, the other zailors are eager to return to the ship...
+
+		SuccessEvent
+Name:A treasure!
+Id:149123
+Description:You're not the first to come here. Someone's left a long oak casket under a carpet of creepers.
+
+		RareSuccessEvent
+Name:Ancient stones
+Id:149125
+Description:You can just about interpret these glyphs. They speak of a god who 'lives in the roof' - a 'walking dream of storm', a 'memory of rage'. The god, the glyphs claim, destroyed this temple.
+

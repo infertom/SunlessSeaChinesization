@@ -1,0 +1,58 @@
+Name:Rat Corsairs
+Id:143960
+Description:Ah, the gully: the ambusher's favourite terrain feature. It looked like such a short and easy way. But now a sudden flood of black and white fur confronts you: a starving torrent of rattus faber corsairs! Their chief addresses you in a piping unhuman voice: "Easy there, me giants! We're in dire need, here. Lend us help, and we'll pay well for it. No need to fight." (But you notice his rat-hand is on the hilt of his rat-cutlass.)
+
+
+
+	ChildBranches1
+Name:Give them what they want
+Id:124469
+Description:They're only rats, but they're a lot of rats, and they have what looks like a ratling-gun. And they'll exchange drowning-pearls for supplies to repair and restock.
+
+		DefaultEvent
+Name:A wary exchange
+Id:143961
+Description:"Ye're not bad for a door-filler. Not bad at all. A pleasure doing business. Should you ever find yerself beneath the floor-boards of Khan's Glory, look me up. Calm seas!"
+
+		ParentEvent
+Id:143960
+
+
+
+	ChildBranches2
+Name:Wretched Mog
+Id:126066
+Description:The Wretched Mog has been riding on a Gap-Toothed Gunner's shoulder. Now it arches its back and hisses like a hatful of scalding serpents.
+
+		DefaultEvent
+Name:Fearful symmetry
+Id:146442
+Description:Ratwork rifles roar! Zailors stamp! The gully is filled with screeching and zalty oaths. And the Mog is everywhere. Rats scatter like chaffy grain. Its mouth drips crimson: its eyes blaze yellow. At last you stand triumphant, and the rats are fled or dead. You draw a string of drowning-pearls from the weskit of the rat-captain. His eyes are already filming with death, but he hisses savagely "To the Seven Cats with yer..."
+<br/><br/>
+A single zailor is dead. His throat has been torn from ear to ear. It doesn't look like a rat-bite. You glance at the Mog. It is washing its face with a casual paw.
+
+		ParentEvent
+Id:143960
+
+
+
+	ChildBranches3
+Name:Refuse the trade
+Id:124470
+Description:You need your supplies. And they're vermin. [But rat-bites fester: you might lose crew.]
+
+		DefaultEvent
+Name:An ignoble rout
+Id:143962
+Description:There were more rats than you realised! You stamp or shoot dozens to death, but they're everywhere now, dropping like toothy fruit from hiding-places on the gully's edge. You retreat in terrible disorder.
+
+		ParentEvent
+Id:143960
+
+		SuccessEvent
+Name:Davids and Goliaths
+Id:146444
+Description:Ratwork rifles roar! Zailors stamp! The gully is filled with screeching and zalty oaths. At last you stand triumphant, and the rats are fled or dead. You draw a string of drowning-pearls from the weskit of the rat-captain. His eyes are already filming with death, but he hisses savagely "To the Seven Cats with yer..."
+<br/><br/>
+Poor Tilman has been bitten almost to the bone. The wound is filthy. You clean it as best you can, but he won't last the week.
+

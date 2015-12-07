@@ -1,0 +1,84 @@
+Name:Truth in Dreams?
+Id:146619
+Description:The Neath, the cavern that holds the Unterzee, is prowled by dreams. There's a story that it was once the skull of a dead god. Perhaps that would explain it.
+
+
+
+	ChildBranches1
+Name:Listen to your dreams
+Id:126175
+Description:What will you learn?
+
+		DefaultEvent
+Name:A dream of sand
+Id:146622
+Description:The ship crosses a desert, not a zee. Black sand whispers against the hull - sand like grains of glittering night. Your crew sit on deck at a long table lined with candles, eating a rich red feast. "A reckoning," one remarks, as she spears a gobbet of meat with her fork, "is not to be postponed indefinitely." To the North, a light bulges hernially above the horizon: a searing kind of sunlight...
+
+		ParentEvent
+Id:146619
+
+
+
+	ChildBranches2
+Name:Listen to your dreams
+Id:126177
+Description:What will you learn?
+
+		DefaultEvent
+Name:A dream of spires
+Id:146624
+Description:Mirror-faceted pillars rise around you like trees in a forest - more so, because each glows with a shifting green light. The zee laps at the base of the pillars. A voice from above cries out in seven languages, and you understand each one: "Once was this the face of Irem! It will be taken from us!"
+
+		ParentEvent
+Id:146619
+
+
+
+	ChildBranches3
+Name:Listen to your dreams
+Id:126178
+Description:What will you learn?
+
+		DefaultEvent
+Name:Flight
+Id:146625
+Description:Five zailors dice for the corpse of a zee-bat. (It is ill luck for a zailor to kill a zee-bat). One wins it, but in his hand, it becomes a freshly cut Surface flower. His fellows cry out in envy and greed. They fall on him, and there comes a great rending of white petals. More petals fall, obscuring the masts, the ship, the Neath, the false-stars of the roof. It is very cold. You will have to set a fire -
+
+		ParentEvent
+Id:146619
+
+
+
+	ChildBranches4
+Name:Listen to your dreams
+Id:126179
+Description:What will you learn?
+
+		DefaultEvent
+Name:Descent
+Id:146626
+Description:You walk through streets of buildings trapped in amber, flooded with treacly light. Rubbery Men, their face-tentacles twitching complacently, swirl around you in crowds. They give you a wide berth: something drips from your hands. Not blood. It's pale as milk. A bell tolls. You turn in through an ornate arch, and all the lights go out - but not before you see the spined shape throned in a pool at the chamber's heart.
+
+		ParentEvent
+Id:146619
+
+
+
+	ChildBranches5
+Name:Sleep deeply
+Id:126174
+Description:Dose yourself with blackspore, and you're less likely to dream.
+
+		DefaultEvent
+Name:The edge of sleep
+Id:146620
+Description:Wake, sleep, wake again. The engines growl like wolves. The sea chews at the hull. Everything is hungry.
+
+		ParentEvent
+Id:146619
+
+		SuccessEvent
+Name:Restful slumber
+Id:146621
+Description:No dreams. Only the cool press of night.
+

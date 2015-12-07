@@ -1,0 +1,44 @@
+Name:Trinkets? Just Trinkets?
+Id:167909
+Description:When the crate from Saviour's Rocks explodes into an infestation of prematurely hatched sorrow-spiders... it does not entirely come as a surprise.
+
+
+
+	ChildBranches1
+Name:Throw them overboard!
+Id:138714
+Description:There is no place for sorrow-spiders on this vessel.
+
+		DefaultEvent
+Name:Can sorrow-spiders swim?
+Id:167910
+Description:If so, they will be swimming a long time to get to their destination. Unfortunately they don't go without something of a fight.
+
+		ParentEvent
+Id:167909
+
+		SuccessEvent
+Name:Can sorrow-spiders swim?
+Id:167912
+Description:If so, they will be swimming a long time to get to their destination.
+
+
+
+	ChildBranches2
+Name:The cook will be pleased
+Id:138715
+Description:The rest of the crew, perhaps not so much.
+
+		DefaultEvent
+Name:If anyone asks, it's foreign cuisine
+Id:167911
+Description:The crew will accept that. As long as the poison sacs are removed first. They saw what happened to the crew member the sorrow-spiders managed to sting.
+
+		ParentEvent
+Id:167909
+
+		SuccessEvent
+Name:If anyone asks, it's foreign cuisine
+Id:167913
+Description:The crew will accept that. As long as the poison sacs are removed first.
+

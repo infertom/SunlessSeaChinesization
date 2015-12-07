@@ -1,0 +1,94 @@
+Name:A Civilised Exchange of Gifts
+Id:178092
+Description:It is unlikely that the Admiralty itself would consider this a mere bending of the rules, but it provides a veneer of respectability that the mandarins crave.
+
+
+
+	ChildBranches1
+Name:A gift of souls
+Id:144910
+Description:Pentecost apes can't get enough of souls. If there is one thing everyone knows about them, it's that. And where you're from, you can buy them by the crate.
+
+		DefaultEvent
+Name:The air turns cold
+Id:178093
+Description:Wholesale souls? Do you take them for savages? Devils? Your pitiful charity is utterly rejected, with a slam of clenched paw on table. Outside these walls, yes, their brethren may thirst for any random soul. Inside however only the finest alchemy will suffice - refined, distilled, perfected. How <i>dare</i> you think anything else? No! Take your tuppence-a-soul rejects and begone!
+
+		ParentEvent
+Id:178092
+
+
+
+	ChildBranches2
+Name:A gift of red honey
+Id:144911
+Description:It is so hard to come by, muses the mandarin idly fondling a pot of rare Violant Ink. A pity. The Exquisite Seneschal is known to have uses for it.
+
+		DefaultEvent
+Name:A deliberate accident
+Id:178094
+Description:Did you pick up the Pot of Violant Ink instead of the honey you were showing to him? How clumsy! At least you have the perfect substance should you feel the urge to write a polite apology note at some later date.
+
+		ParentEvent
+Id:178092
+
+
+
+	ChildBranches3
+Name:A gift of cinders
+Id:144912
+Description:A mandarin grants you a glimpse of a Judgements' Egg. Very rare. Most prized. Almost as much as the Cinders traded only between the highest of high-souled apes.
+
+		DefaultEvent
+Name:A most unfortunate distraction
+Id:178095
+Description:A Judgements' Egg is a soul of a sort, though not one even the Pentecost apes would try to absorb. Strangely, as you show the mandarin your cinder and she shows you her egg, she is called away by an unheard voice. How strange. You had better hold onto this. For safe-keeping, of course.
+
+		ParentEvent
+Id:178092
+
+
+
+	ChildBranches4
+Name:A gift of wine
+Id:144913
+Description:The berries of the Empire of Hands make a bitter wine, apologises the mandarin. They were always such a treat, the vintages of London. Before the unpleasantness.
+
+		DefaultEvent
+Name:A libation is poured
+Id:178096
+Description:The Empire of Hands does however brew a most fine coffee, muses the mandarin. It looks a little like the kind you would find back home. It smells like it. It tastes utterly indistinguishable. Pure coincidence, he declares, gesturing for more.
+
+		ParentEvent
+Id:178092
+
+
+
+	ChildBranches5
+Name:A gift of prisoner's honey
+Id:144916
+Description:This far East, it is so hard to come by, say the mandarins. Then they sigh, as one. Is it so wrong, they ask, to seek a brief escape into dream now and again?
+
+		DefaultEvent
+Name:A monkey is introduced, with the soul of a poet
+Id:178100
+Description:Ordinarily, that is not meant quite so literally. His words alone transport you into another world, through a veil of sad tears and out into a reality that feels somewhat warmer. At the mandarin's nod, he leaves signed copies of his work behind. A gift, for one of a land where such stories are prized and properly appreciated.
+
+		ParentEvent
+Id:178092
+
+
+
+	ChildBranches6
+Name:With apologies, no gifts today
+Id:144920
+Description:You do not have anything worthy of such company. Or at least, that is the lie it feels safest to tell them.
+
+		DefaultEvent
+Name:The mandarins bow, stiffly and pointedly
+Id:178107
+Description:It was, they do not feel the need to say, their pleasure.
+
+		ParentEvent
+Id:178092
+

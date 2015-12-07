@@ -1,0 +1,48 @@
+Name:Your Father: Bones?
+Id:177526
+Description:Decades ago, your father took refuge from his debtors, in Visage and in the bottle. "Of course I don't much like it," he explains. "But you know how expensive it can get, zee-captaining. The price of fuel alone! The Widow financed my last voyage, and the Widow never forgets. Wait. You haven't spoken to the Widow, have you?"
+<br/><br/>
+"Well, bugger."
+
+
+
+	ChildBranches1
+Name:Take a stranger's bones home
+Id:144568
+Description:"Look - there's a zailor got eaten by crabs just last week. Bones are clean as a pauper's plate, and I haven't Assigned them yet. Take them home. Pretend they're mine. Please? And perhaps we can, you know, catch up one day."
+
+		DefaultEvent
+Name:A suitable substitute
+Id:177527
+Description:You bid him a clandestine farewell behind the midden, and he hands you a bundle of bones in burlap. There is an awkward silence. "I hear stories. I hear you're a natural philosopher," he says brightly. "That's... natural."
+<br/><br/>
+You look back once from the rail of your ship, as your crew gathers to congratulate you, sombrely, on your find. An old man in a rose-coloured lion-mask is watching you from the harbour. The crowd folds round him, and he's gone.
+<br/><br/>
+Whatever happens next - whatever you think of him - you finished what you set out to do, and that's changed you.
+<br/><br/>
+[Return to London and visit your Lodgings to complete the game.]
+
+		ParentEvent
+Id:177526
+
+
+
+	ChildBranches2
+Name:Take your father home
+Id:144569
+Description:"How much do you owe the Widow? About six thousand? I can cover that. Come on. Let's go home."
+<br/><br/>
+[Returning to London will end the game in a win, if you have enough money. Be sure you have at least six thousand Echoes on hand when you enter harbour, or your quest will fail.]
+
+		DefaultEvent
+Name:A blaze of bibulous delight
+Id:177528
+Description:Your father is overjoyed to be returning to London; overjoyed to be leaving his decades-old role as a wrangler of foreign corpses. You can't help noticing the spark of calculation that ignites in his eye when he realises that his child can spare six thousand Echoes.
+<br/><br/>
+"I'll just stay out of the way," he says, cheery and a little slurred. "Let me know if I can help."
+<br/><br/>
+[Returning to London will end the game in a win, if you have enough money. Be sure you have at least six thousand Echoes on hand when you enter harbour, or your quest will fail.]
+
+		ParentEvent
+Id:177526
+

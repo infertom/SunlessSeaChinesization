@@ -1,0 +1,45 @@
+Name:--Scenario Template
+Id:149061
+Description:--
+
+
+
+	ChildBranches1
+Name:No
+Id:127799
+Description:
+
+		DefaultEvent
+Name:
+Id:149062
+Description:
+
+		ParentEvent
+Id:149061
+
+
+
+	ChildBranches2
+Name:Yes
+Id:127800
+Description:
+
+		DefaultEvent
+Id:149063
+
+		ParentEvent
+Id:149061
+
+
+
+	ChildBranches3
+Name:Neither
+Id:127801
+Description:
+
+		DefaultEvent
+Id:149064
+
+		ParentEvent
+Id:149061
+

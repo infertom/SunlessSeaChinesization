@@ -1,0 +1,21 @@
+Name:Picnic with the Acolyte
+Id:151667
+Description:You see her one more time.
+
+
+
+	ChildBranches1
+Name:See how she's doing
+Id:129368
+Description:Her eyes are expressive if she ever takes off those goggles.
+
+		DefaultEvent
+Name:Change of career
+Id:151668
+Description:Sitting on a blanket overlooking the choppy water, with a bottle of Greyfields at her side, she tells you she thinks her time here is coming to an end. That it's time to go back into medicine for the living, or at least the less-dead.
+<br/><br/>
+If you come to this port again, she won't be here.
+
+		ParentEvent
+Id:151667
+

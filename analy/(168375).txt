@@ -1,0 +1,19 @@
+Name:A fellow captain's compassion
+Id:168375
+Description:The Former Captain of the Nocturne has arrived in his new home. Only his memories can torture him now.
+
+
+
+	ChildBranches1
+Name:Welcome to Venderbight
+Id:138952
+Description:At least it's better than the Tree of Seasons.
+
+		DefaultEvent
+Name:One last drink at journey's end
+Id:168376
+Description:An evening of swapping stories later, the Former Captain of the Nocturne disappears into the Tomb Colonies. His zong of the zee is finally written in full. It is time to return to your own.
+
+		ParentEvent
+Id:168375
+

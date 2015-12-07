@@ -1,0 +1,122 @@
+Name:Visit to the Smith's Emporium
+Id:149033
+Description:The rooms run back into the rock of the island, chamber after chamber of long-barreled machinery.
+
+
+
+	ChildBranches1
+Name:Commission a Weapon
+Id:127777
+Description:Though the smith is initially reluctant to build for anyone but his Usual Customers (whoever those might be), he admits that he is interested in testing a private project... [This is not yet possible.]
+
+		DefaultEvent
+Name:You ask...
+Id:149034
+Description:And he provides.
+
+		ParentEvent
+Id:149033
+
+
+
+	ChildBranches2
+Name:Ask the smith about life on the island
+Id:127792
+Description:He doubtless has his own perspective.
+
+		DefaultEvent
+Name:A disinclination to talk
+Id:149052
+Description:He tells you that folk here keep to themselves. He says he doesn't go to up to the building with the steeple, and the acolytes hardly ever come down here. It sounds like a solitary sort of life. He claims he prefers it that way.
+<br/>
+<br/>
+When he turns back to his work, you see the chain of heartmetal links he wears around his neck, and the closed locket that hangs from it.
+
+		ParentEvent
+Id:149033
+
+
+
+	ChildBranches3
+Name:Ask the smith about how he got here
+Id:127793
+Description:Might be an interesting tale.
+
+		DefaultEvent
+Name:Metaphor? Or very strange truth?
+Id:149053
+Description:"Swam," he says. He stares you in the eye.
+<br/>
+<br/>
+It's so impossible it's laughable, but he doesn't seem to be joking. He picks up his hammer. The interview is over for now.
+
+		ParentEvent
+Id:149033
+
+
+
+	ChildBranches4
+Name:Ask him about the heartmetal suit
+Id:127795
+Description:Pretend you heard a rumour about it, if you don't want to admit to snooping.
+
+		DefaultEvent
+Name:The way home
+Id:149056
+Description:"Oh, that. When it's done, I can go home, right?" he says. "Walk around where people are, safe enough, if I just have something to keep the grief out."
+<br/>
+<br/>
+After that the conversation gets into intricacies of engineering. He draws you a sketch of how the wrist joint will have to be made, the skin oiled and covered with a fine foil of beaten heartmetal.
+
+		ParentEvent
+Id:149033
+
+
+
+	ChildBranches5
+Name:Ask the smith to construct an assembly-housing for the Cannoneer's weapon
+Id:130146
+Description:Why is the smith so willing to help? Just how many outstanding favours are owed? The Cannoneer shrugs the question off, smiling. "I made a lot of bombs, back in the day. A lot of bombs. For a lot of people. Who don't like me to talk about it!! I think that's why the University threw me out. I never dared go back and ask, though."
+
+		DefaultEvent
+Name:A shining horror
+Id:152837
+Description:For seven days the smith works. Only the Cannoneer is permitted within. Your zailors place bets on whether they'll blow themselves up, and whether the explosion will eradicate Station III as well.
+<br/><br/>
+There are no explosions. At last the Cannoneer opens the smithy door, grinning: a tired, but dazzling, grin. He gestures to the Seal: the armature that constrains it now is now meshed with silvery heartmetal. The glyphs flicker frantically, like trapped insects. The weapon emits a constant, low, barely audible growl. The air in the room is stiflingly hot.
+<br/><br/>
+"Behold!" the Cannoneer says. "The Memento Mori!"
+<br/><br/>
+The grin dissipates. "It's... finished. I'm not sure what to do now."
+<br/><br/>
+[Mount the Memento Mori on your ship, or sell it to one of the warlike zee-nations. Some will give you better prices than others. You may tilt the balance of power on the zee.]
+
+		ParentEvent
+Id:149033
+
+
+
+	ChildBranches6
+Name:Search the place on your own
+Id:127794
+Description:Who knows what might be in the back storage areas?
+
+		DefaultEvent
+Name:Drills and polish
+Id:149054
+Description:There might be something interesting behind one of these doors, but you've picked the wrong one. This is a supply closet, full of polish rags and drills, boxes of square-headed nails.
+
+		ParentEvent
+Id:149033
+
+		SuccessEvent
+Name:Armor
+Id:149055
+Description:Heavy cannon. Harpoons of a metal wicked enough to pierce the most rubbery hide. Sheets of flat heartmetal suitable for hammering onto the hull of a vessel. Grapeshot of heartmetal fragments. Some of the inventory is already packed for export.
+<br/>
+<br/>
+In the last of all the rooms is a dress-maker's dummy. It wears a diver's outfit of oiled skin, which looks about the smith's own size, covered all over with overlapping scales of heartmetal. 
+<br/>
+<br/>
+On the shelf beneath is a right-hand glove of the same design. But the suit is as yet incomplete.
+

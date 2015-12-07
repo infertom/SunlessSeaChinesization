@@ -1,0 +1,34 @@
+Name:The Boxmakers
+Id:144268
+Description:A Heavy-Lidded Fellow in a satin smock will smile at you. "One of ours," he will say. "We made it to order, for a zee-captain, to guard her legacy. She might tell you the phrase. We do not."
+
+
+
+	ChildBranches1
+Name:You will give them the box
+Id:124674
+Description:"We will keep it safe for the zee-captain, in case she returned, long ago. When it was opened, it will be safe. We will compensate you."
+
+		DefaultEvent
+Name:Four bales of shining linen
+Id:144269
+Description:You will leave the box in a petal-drift and walk away. "Good," the Heavy-Lidded Fellow will say. "That which is never opened is always precious. That which is always precious is always worth the price. You have not regretted what you will do."
+
+		ParentEvent
+Id:144268
+
+
+
+	ChildBranches2
+Name:You will ask them where to find the captain
+Id:124675
+Description:"Are you sure you want to know?" the Heavy-Lidded Fellow will ask. "Perhaps she doesn't want to tell you the key-phrase, no matter how much you offer. Perhaps she wants her box back."
+
+		DefaultEvent
+Name:"Which is the cat's chiefest claw?"
+Id:144270
+Description:"What cage imprisons nothing?" the Fellow will say. "Where do petals begin? Where do stories end?" He beams at you. Actually, for an Iremi riddle, that's almost helpful.
+
+		ParentEvent
+Id:144268
+

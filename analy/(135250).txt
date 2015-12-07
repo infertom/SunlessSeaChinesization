@@ -1,0 +1,72 @@
+Name:The Wistful Deviless comes calling
+Id:135250
+Description:She is as elegant as ever - a little careworn, though. You almost think she looks older; but she will never look older.
+<br/><br/>
+“I miss the peace of that place,” she says. “Palmerston. There was a little wind that walked in the grey-grass on the mountain’s slopes. It carried the smell of ashes. I hated it, because it reminded me of home - but now - now, I wake, and I think I hear it. At the Convention, I had a purpose. We were going to destroy so many things. I lost faith in that purpose, but I have no more faith here. I should never have made you bring me here.”
+
+
+
+
+	ChildBranches1
+Name:Sympathy for the deviless
+Id:119012
+Description:Console her as best you can.
+
+		DefaultEvent
+Name:Caustic tears
+Id:135251
+Description:Her tears make a singed wreck of your handkerchief. It's fortunate that she isn't actually weeping on your shoulder. "I don't have a home," she snuffles. "I can't have a home. I should never have been hatched..." You pat her consolingly and wait for her to finish. It takes a while. She seems embarrassed when she leaves: irritated, even, as if she blames you.
+<br/><br/>
+The remnants of the handkerchief are oddly beautiful, actually, like a singed snowflake. You can probably auction it...
+
+		ParentEvent
+Id:135250
+
+
+
+	ChildBranches2
+Name:No sympathy for the deviless
+Id:127504
+Description:All her problems - every single one - are problems of her own making. Tell her to stiffen her back and stop moping.
+
+		DefaultEvent
+Name:A thoughtful pause
+Id:148612
+Description:"Easy to say," she remarks eventually, "but that doesn't make it bad advice." She stubs her cigarette out on your table. "No, you're right. This isn't the first home we lost, and it won't be the last. If I wanted to settle down, I'd still be tincturing the hive in Parabola. We all would." She gives you her toothiest grin. "All right. I have lives to ruin. Perhaps I'll see you again. Don't drown."
+
+		ParentEvent
+Id:135250
+
+
+
+	ChildBranches3
+Name:A marriage proposal for the deviless
+Id:127505
+Description:Do you have feelings for her? Or is this a strategy on your part?
+
+		DefaultEvent
+Name:Incredulous laughter
+Id:148613
+Description:"That's very good," she wheezes, mopping her streaming eyes. "Oh, I thought I would never laugh again." She pats your arm with a taloned hand. "This has put a spring in my step, honestly. Here." She hands you a box of Ophidian Candies, purified from serpent venom. "I was going to eat the whole box to cheer myself up, but perhaps you can find a use for them now. Bon voyage!" She is still giggling as she leaves.
+
+		ParentEvent
+Id:135250
+
+
+
+	ChildBranches4
+Name:Offer to take her back to Palmerston
+Id:127506
+Description:If that's what she wants
+
+		DefaultEvent
+Name:Outrage
+Id:148614
+Description:She rises from her seat in a single fluid motion, nostrils wide, eyes glaring. For a moment you think she's going to slap your face. "And you people call us cruel," she hisses. She slams the door on her way out.
+<br/><br/>Devils, eh.<br/><br/>
+Later that same afternoon, you receive a package with the seal of the Brass Embassy. It carries an unsigned note in a hand you don't recognise, which reads only: "Top marks." The package contains a double-bladed brass paper-knife...
+
+
+		ParentEvent
+Id:135250
+

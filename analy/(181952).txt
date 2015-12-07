@@ -1,0 +1,53 @@
+Name:The Poissonnier's Predicament
+Id:181952
+Description:Your cook wants to go ashore. He claims he needs to collect a book of recipes, but he is short on details and long on guilty fidgeting. He asks for his back pay in Drowning-Pearls. "They will ease my way past the White-and-Golds." Bribes.
+
+
+
+	ChildBranches1
+Name:Allow him his privacy
+Id:147276
+Description:Whatever he's up to, it's not your business.
+
+		DefaultEvent
+Name:Private business
+Id:181953
+Description:He disappears into the canalled streets. An hour passes. Two. The dockside lamps buzz. A water-taxi bobs by, carrying a silk-swathed Minister and his blushing, black-suited lover. Over the side of your ship, a zailor sings a music-hall ballad as he chisels barnacles from her flanks.
+<br/><br/>
+Your cook returns. Did he find what he was looking for? "I believe so," he says. His voice is hollow, but determined. His hands are empty. As he boards the ship he stops, and catches your elbow. "Captain, a word of advice: do not divide yourself. Learn what matters to you. Pursue it avidly. It is kinder not to give in the first place, than it is to take back what you have given." 
+
+		ParentEvent
+Id:181952
+
+
+
+	ChildBranches2
+Name:Follow him in secret
+Id:147277
+Description:You will need Drowning-Pearls of your own.
+
+		DefaultEvent
+Name:Bearing witness
+Id:181954
+Description:He makes his way through the rainbowed streets, dropping pearls into the hands of the White-and-Golds who accost him. You cross the bridges, bribe the same guards. You leave the colours of the Copper Quarter behind for the simple blue lamps of the Porcelain Quarter. They buzz more loudly, and flicker more often. Machinery rumbles behind whitewashed walls. If you are found here, you will be killed.
+<br/><br/>
+The Poissonnier peers through a narrow window, where a woman and a young man bicker over noodles. The woman's hair is beginning to grey; the young man has narrow cheeks and dark, sullen eyes. He storms into another room; she throws up her hands. The Poissonnier notices you, and slips away from the window. His voice is stiff. "Captain. My behaviour must have seemed very suspicious. I am sorry to have caused concern. Let us return to the ship. I should not have come." You return in silence; he refuses to answer questions.
+
+		ParentEvent
+Id:181952
+
+
+
+	ChildBranches3
+Name:Forbid his leave
+Id:147278
+Description:Now is not the time.
+
+		DefaultEvent
+Name:"So be it."
+Id:181955
+Description:He is disappointed, but accedes.
+
+		ParentEvent
+Id:181952
+

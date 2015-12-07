@@ -1,0 +1,32 @@
+Name:Ruins: Tranquil
+Id:143951
+Description:
+
+
+
+	ChildBranches1
+Name:No
+Id:124463
+Description:
+
+		DefaultEvent
+Name:
+Id:143952
+Description:
+
+		ParentEvent
+Id:143951
+
+
+
+	ChildBranches2
+Name:Yes
+Id:124464
+Description:
+
+		DefaultEvent
+Id:143953
+
+		ParentEvent
+Id:143951
+

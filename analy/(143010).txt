@@ -1,0 +1,51 @@
+Name:The Thing in the Kitchen
+Id:143010
+Description:The Yellow-Eyed Maid clings to the ceiling like a lizard, fierce and wiry in her ragged uniform. She hisses furiously. When you advance a step, she scurries away to the far end of the room, still on the ceiling, weeping. 
+
+
+
+	ChildBranches1
+Name:Coax her down
+Id:123837
+Description:Whoever and whatever she is, she's suffering.
+
+		DefaultEvent
+Name:What do maids eat?
+Id:143014
+Description:The diet of domestic servants is a mystery to you. Of traumatised, ceiling-clinging maids who may not even be human, still less so. You offer her milk, bread, wine, ship's biscuits. She shakes her head and cries like a wounded fox.
+
+		ParentEvent
+Id:143010
+
+		SuccessEvent
+Name:Down she comes
+Id:149703
+Description:
+You try to question her. "Those poor zailors!" she spits. You realise that in all the time you spent at Hunter's Keep, she had never spoken. "The poor zailors! I didn't come here for this! Damn them to the well!"
+<br/><br/>
+She's finished the meat. She returns to the ceiling in a single inhuman bound.
+
+
+
+	ChildBranches2
+Name:Catch her with a net
+Id:123835
+Description:She's dangerous. And somehow, you suspect you may not have much time.
+
+		DefaultEvent
+Name:Remarkable agility!
+Id:143011
+Description:She runs round the ceiling like a squirrel - drops to hiss and claw at one of your zailors - retreats into the scullery - slithers through the window there and returns through the chimney, black with soot. You glare at each other, panting.
+
+		ParentEvent
+Id:143010
+
+		SuccessEvent
+Name:Hauled down
+Id:149704
+Description:It's like trying to get a jaguar out of a tree. Three of your crew are badly bitten, but at last you restrain her and she lies on the table, glaring and growling. What now?
+<br/><br/>
+You try to question her. "Those poor zailors!" she spits. You realise that in all the time you spent at Hunter's Keep, she had never spoken. "The poor zailors! I didn't come here for this! Damn them to the well!"
+<br/><br/>
+With a serpentine wriggle, she's free of the net. She returns to the ceiling in one inhuman leap.
+

@@ -1,0 +1,19 @@
+Name:Outfitter
+Id:154478
+Description:
+
+
+
+	ChildBranches1
+Name:Highest-end equipment
+Id:131174
+Description:Eschatologue with all the trimmings.
+
+		DefaultEvent
+Name:
+Id:154479
+Description:
+
+		ParentEvent
+Id:154478
+

@@ -1,0 +1,187 @@
+Name:In Naples
+Id:153894
+Description:Even by night, the Port of Naples is alive with shouts and laughter and work-songs, the roar of engines. Brick warehouses loom over the moon-dazzled bay. By day, you try to stay below decks. The sun hits like a hammer, and the wind always seems to come straight from the struggling sewers of the slums.
+
+
+
+	ChildBranches1
+Name:Spend time ashore
+Id:130770
+Description:All the urges of the flesh may be satisfied here. And when that's done, perhaps your crew will find time to pray.
+
+		DefaultEvent
+Name:Hot nights and echoing cathedrals
+Id:153895
+Description:Naples is hotter, louder, livelier, tastier, sandier, windier, foreigner than London. After a day, your crew adore the place. After a week, you imagine, they'll loathe it.
+
+		ParentEvent
+Id:153894
+
+
+
+	ChildBranches2
+Name:Purchase Fuel
+Id:130772
+Description:It's not so cheap, up here, far from Hell.
+
+		DefaultEvent
+Name:
+Id:153897
+Description:
+
+		ParentEvent
+Id:153894
+
+
+
+	ChildBranches3
+Name:Purchase Supplies
+Id:130773
+Description:Up here, food grows freely under the sky, and the taste of it will make a Neather weep.
+
+		DefaultEvent
+Name:All the fruits
+Id:153898
+Description:Zailors lick their lips as the provisions come aboard. Warm rye bread, ripely blushing tomatoes, wheels of creamily irresistible cheese, cured hams that set the coxswain's nose twitching like a rabbit's. You'll eat well tonight.
+
+		ParentEvent
+Id:153894
+
+
+
+	ChildBranches4
+Name:Buy a train ticket to Vienna
+Id:130774
+Description:Parabola-linen crumbles in sunlight. The mushroom wines of the Neath are not kindly received in the wine-shops of Italy and France. Prisoner's honey loses all its virtue. But in the coffee-houses of Vienna, Darkdrop Coffee is the new sensation. It's not so very far by train. You could travel by night.
+
+		DefaultEvent
+Name:The rattle of the rails
+Id:153899
+Description:Rome, Florence, Venice. The sleeping countryside curls around you under the night sky, so like and so unlike the Neath. At Udine things go wrong, and you cut through Slovenia. Vienna: the station alive with soot and shouting! The station-officials with their whistles and their official brass buttons.
+
+		ParentEvent
+Id:153894
+
+
+
+	ChildBranches5
+Name:Share news from below
+Id:130785
+Description:You have stories of lost London.
+
+		DefaultEvent
+Name:Disbelief and fascination
+Id:153911
+Description:A silent Empress in a shuttered palace. Robed merchant-princes in a spired Bazaar. Serpents hiding in mirrors. No one believes a word, but you get a lot of dinner invitations and a number of gifts. Your stories are serialised in the worst kind of magazine. A well-wisher sends you coal.
+
+		ParentEvent
+Id:153894
+
+
+
+	ChildBranches6
+Name:Return to Avernus
+Id:130786
+Description:It's time to go home. You cannot survive the sunlight forever.
+
+		DefaultEvent
+Name:Along the coast at evening
+Id:153912
+Description:The bloody glory of a new sunset. Gulls crying above the foreland. The sirocco rising, smudging the smoke of your engines across a sky of dusty rose. Have you survived another day?
+
+		ParentEvent
+Id:153894
+
+
+
+	ChildBranches7
+Name:Sell your ship
+Id:130787
+Description:Ill luck or mismanagement has left you with no fuel for your ship, and no means to buy more.
+
+		DefaultEvent
+Name:Your journey is over
+Id:153913
+Description:You disappear into the teeming slums of Naples. Perhaps you purchase a ticket below, and live out your life in London. Perhaps you're knifed for the price of a meal. Perhaps the Sun kills you: the citizens of Fallen London are terribly fragile, up here beneath the sky. In any case, you are a captain no longer.
+
+		ParentEvent
+Id:153894
+
+
+
+	ChildBranches8
+Name:Goodbye to the Scarred Sister?
+Id:130813
+Description:She taps you timidly on the elbow. "You've been good to me. But here on the surface - I want to see my homeland. Will you pay my fare?"
+
+		DefaultEvent
+Name:A walk to the station
+Id:153965
+Description:You see her to the train. The bo'sun carries her bag. The street is busy with travellers, families, beggars: the dust of the road rises up to make you cough, all three of you. Phoebe has been very quiet, but now, suddenly, she starts to speak.
+<br/><br/>
+"We have family in Greece. Or had. Long ago. My grandmothers kept the Mystery and watched the Judgements, up in the mountains above Corinth. When the Bazaar came to Earth, they saw an opportunity, and so they came below - " She shakes her head. "It didn't end well for us."
+<br/><br/>"I wish I could have told you more, only there's so little left of me now. I must have my last few secrets, or I'll just blow away on the wind. But... I want you to have this."
+<br/><br/>'This' is a slim volume entitled 'A Dream of Red'. A romantic novella? She kisses your cheek, shakes your hand, and she's gone.
+
+		ParentEvent
+Id:153894
+
+
+
+	ChildBranches9
+Name:The ship is empty
+Id:131650
+Description:Where are you, all of you?
+
+		DefaultEvent
+Name:Scorched by the sun
+Id:155182
+Description:Deserted or dead. Gone into the crowds. Slumped over the rail, your Neath-adapted life cindered by the true Sun. Drowned. Gone.
+
+		ParentEvent
+Id:153894
+
+
+
+	ChildBranches10
+Name:Carry cargoes around the Mediterranean
+Id:130771
+Description:Your ship is designed for the calmer, deadlier waters of the Unterzee, but she's sea-worthy, just about. If you're lucky, you might turn a profit.
+
+		DefaultEvent
+Name:Storms and desertions
+Id:153896
+Description:A half-day out of Sicily, a squall drives you almost on to the rocks. You're not weather-wise, here above. Late fees eat up half your fee, and the roll-call is short. Did the missing zailors slip ashore, or did the sun wither them?
+
+		ParentEvent
+Id:153894
+
+		SuccessEvent
+Name:Grain and olive oil
+Id:153959
+Description:An interlude of noisy gulls and baking afternoons. It's restful after the terrors of the zee below, but your crew are troubled by the strangeness of it. Some go missing - perhaps they slip ashore, perhaps the sun withers them altogether.
+
+
+
+	ChildBranches11
+Name:Help Maybe's Daughter search for her mother
+Id:146193
+Description:"She returns to the Surface, again and again. Parnassus, they say. Mongolia. But she always passes through here first."
+
+		DefaultEvent
+Name:"Nothing."
+Id:180259
+Description:"But she's been here. She loves the Surface. (I don't. Perhaps it's because I was born in Parabola. Pretend I didn't say that.) I have a few more clues. We'll find her soon."
+
+		ParentEvent
+Id:153894
+
+		SuccessEvent
+Name:Met by moonlight
+Id:180260
+Description:"She was here last week, but - "
+<br/><br/>
+You follow the Daughter's stunned gaze. A woman in a lilac gown leans in the doorway of a draper's. Her features bear an unmistakable resemblance to your officer's. "We should talk," she says to the Daughter, quite calmly.
+<br/><br/>
+The Daughter assembles the rags of her composure with remarkable speed. "Excuse us," she says...
+

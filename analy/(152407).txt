@@ -1,0 +1,122 @@
+Name:A Plague of Broken Mirrors
+Id:152407
+Description:Cracked glass and doused lamps everywhere! There are pools of shadow visible in the formerly shadowless city, and Varchaasi huddle together and avoid the dark spaces with fear twisting their faces.
+<br/><br/>
+You see Vaarchasi clashing with white-cloaked Guards in the streets, shouting slogans. They call themselves Neathers, and wear pieces of broken mirror around their necks.
+<br/><br/>
+Even the Temple of Mihir has not escaped their anger. Across the stone threshold the Neathers have arranged thousands of glittering pieces of broken mirror into the words: WE HAVE ALREADY FALLEN.
+<br/><br/>
+The Pilgrims are still away, and with them the Agnihotri and his council of Sun-Priests. It is the perfect moment for a revolution.
+<br/><br/>
+And what will you do?
+
+
+
+	ChildBranches1
+Name:Zail Away
+Id:129871
+Description:This is none of your concern, and it should stay that way.
+
+		DefaultEvent
+Name:
+Id:152408
+Description:Probably a wise choice. It is not as though you owe these people anything, after all. The Guard at the Mirrored Gates looks a little surprised that you are leaving, but says nothing as she makes the mark in her ledger.
+<br/><br/>
+"Walk in the light of Mihir, Taamas," she calls after you, her voice threaded through with terror. 
+<br/><br/>
+You step into the darkness beyond the edge of the city's illumination as her words echo in your ears. Your ship is moored at the dock, and vast glorious blackness of the Unterzee awaits you.
+
+		ParentEvent
+Id:152407
+
+
+
+	ChildBranches2
+Name:Hear out the Neathers
+Id:129872
+Description:What, exactly, do they hope to achieve?
+
+		DefaultEvent
+Name:
+Id:152409
+Description:You are barely surprised to find that the Jewel-Turbaned Youth is the leader of the Neathers. "This is all because of you, Taamas!" He tells you brightly. "Your very presence in Varchas made us think, and wonder, and <i>imagine</i>."
+<br/><br/>
+He turns to the other Neathers, and holds up the shard of broken mirror hanging around his neck by a thin thread. "We deny the tyranny of Mihir and his Priests and his high-born Fire-Keepers! We refuse to isolate ourselves from the rest of the Neath any longer! We refuse to fear the dark, and cower in the light!" His voice raises to a roar. "WE ARE FALLEN!"
+<br/><br/>
+The Neathers shout their enthusiasm, and hold up their mirror-shards like banners. "WE ARE FALLEN!" they cry.
+<br/><br/>
+Well, they are certainly enthusiastic. But does that mean they are right?
+
+		ParentEvent
+Id:152407
+
+
+
+	ChildBranches3
+Name:Hear out the Sun-Priests
+Id:129873
+Description:They are all in council at the Temple of Mihir.
+
+
+		DefaultEvent
+Name:
+Id:152410
+Description:The Temple of Mihir is a war-room. "We cannot let Varchas fall into darkness," the oldest Sun-Priest addresses the assembled Guards and citizens. "The Neathers have not simply turned away from Mihir's gaze, but they <i>actively conspire with his enemies</i>." A sussuration goes through the crowd as the Sun-Priest holds up a shard of broken mirror. 
+<br/><br/>
+"They are in thrall to the Parabolan powers who whisper through mirrors and entice through dreams and trickery. They are breaking the mirrors and dousing the lamps."
+<br/><br/>
+If they are <i>breaking</i> mirrors, you point out, how then can they be in league with mirror-lords?
+<br/><br/>
+The Sun-Priest gives you a pitying look. "Oh, Taamas. What happens when you break a mirror?" He snaps the shard he is holding, and holds the broken pieces in either hand. They glint jaggedly. "You simply <i>make more mirrors</i>."
+<br/><br/>
+Perhaps he is telling the truth. Or perhaps he merely fears the Neathers, and their desire to curtail the power of the Temple to which he is sworn.
+
+
+		ParentEvent
+Id:152407
+
+
+
+	ChildBranches4
+Name:Side with Mihir's Priests
+Id:129874
+Description:Tell the Sun-Priests where to find the Jewel-Turbaned Youth.
+
+
+		DefaultEvent
+Name:
+Id:152411
+Description:Even without the Agnihotri and the ruling council of Sun-Priests, the Temple of Mihir is swift to act. The Jewel-Turbaned Youth and the leaders of the Neathers are dragged into the burning light of the temple by a dozen Guards.
+<br/><br/>
+The Sun-Priests form a ring in the middle of the temple, under the the statue of Mihir's watchful, carnelian-eyed gaze.
+<br/><br/>
+The Sun-Priests begin to chant, faster and faster, faster and faster until your heart begins to hammer in time to their words. They douse lamp after lamp until they create a perfect circle of darkness bounded by their joined hands.
+<br/><br/>
+One by one, the Sun Priests throw the revolutionaries into the shadow. The Jewel-Turbaned Youth is the last to be thrown in, and he is weeping piteously.
+<br/><br/>
+"You are Taamas now," the Sun-Priests declare. "You have no name. The darkness has taken it from you. Mihir has turned his gaze away."
+<br/><br/>
+Then they break the circle, relight the lamps and simply turn away.
+
+		ParentEvent
+Id:152407
+
+
+
+	ChildBranches5
+Name:Join the Neather Revolution
+Id:129875
+Description:Cracking mirrors and dousing lamps; how hard could it be?
+
+		DefaultEvent
+Name:
+Id:152412
+Description:Not very hard, as it turns out. The Neathers are grim and committed and have years of pent-up grievances to air. The Jewel-Turbaned Youth leads the Neathers through the city; everywhere they pass mirrors are shattered and lamps are extinguished. Every now and then he pauses and gazes into the mirror-shard dangling from his neck. 
+<br/><br/>
+You help them break the Western Principal Mirror, and other groups of Neathers across the city break the Eastern, Southern, Northern Mirrors. You raise your voice in a cheer as the Eternal Flame in the Temple of Mihir is put out. Your throat is raw. 
+<br/><br/>
+Darkness falls in Varchas, City of Broken Mirrors. Screams and hoarse shouts and terrible, withering laughter rise up into the sky, a fearful counterpoint to the jagged celebrations of the Neathers.
+
+		ParentEvent
+Id:152407
+

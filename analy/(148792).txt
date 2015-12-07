@@ -1,0 +1,47 @@
+Name:Speak to the Carnelian Exile
+Id:148792
+Description:She has the discomfiting - even irritating - habit of answering your questions just before you finish speaking.
+
+
+
+	ChildBranches1
+Name:Increase your Mirrors
+Id:127626
+Description:[Spend a Secret to improve your Mirrors, unless it's higher than 100.]
+
+		DefaultEvent
+Name:Thoughtful, focused, advice
+Id:148793
+Description:She says little, but each word is placed like a pin in a map.
+
+		ParentEvent
+Id:148792
+
+
+
+	ChildBranches2
+Name:Answer questions about your past
+Id:127628
+Description:You've kept your secrets long enough. [Unmask yourself! This will allow you to select a Past, Ambition, and form of preferred address - also providing you with a specialist ability bonus.]
+
+		DefaultEvent
+Name:
+Id:148795
+Description:
+
+		ParentEvent
+Id:148792
+
+
+
+	ChildBranches3
+Name:Invite them to dine with you
+Id:127629
+Description:[Not yet. This Officer's story will open on Thursday 26th February.]
+
+		DefaultEvent
+Id:148796
+
+		ParentEvent
+Id:148792
+

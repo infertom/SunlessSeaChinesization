@@ -1,0 +1,181 @@
+Name:Ashore in Visage
+Id:168605
+Description:On the lower slopes: stone buildings, flat roofs, archways. In the architecture there lingers a memory of lotus and palm frond. The hill above is a face, forever looking up at the ceiling of the Unterzee. No one inhabits its cheeks or the hollows of its eyes.
+
+
+
+	ChildBranches1
+Name:Check in at the Customs House
+Id:139100
+Description:One may not wander Visage at will.
+
+		DefaultEvent
+Name:A changing room
+Id:168606
+Description:All visitors must pass, one by one, through a room guarded by a person in the mask of a Moon-Moth.
+
+		ParentEvent
+Id:168605
+
+
+
+	ChildBranches2
+Name:Visit the Library of Parts
+Id:139103
+Description:So called because all the books are fragmentary, perhaps.
+
+		DefaultEvent
+Name:Stoop at the lintel, enter the dark
+Id:168609
+Description:A room of heavy stone, guarded by a golden statuette of a woman with outstretched arms. The scroll niches, sorted to correspond to a variety of masks: the jackal and the lioness, the crocodile and dung beetle. 
+<br/><br/>
+A woman in the mask of a lotus blossom is standing at a lectern, reading in silence.
+
+		ParentEvent
+Id:168605
+
+
+
+	ChildBranches3
+Name:Visit the Flood Court
+Id:139104
+Description:The Moon-Moth speaks as though you should already know what that is.
+
+		DefaultEvent
+Name:High water
+Id:168610
+Description:The Flood Court is a long stone room with two ranks of columns on each side. Currently the court is ankle-deep in water, though water stains on the stone show that the flood has often reached higher, sometimes up to the height of your waist.
+<br/><br/>
+In a raised niche at the far end of the room sits a statue of a man with the head of a ram. He holds a jar from which water flows out onto the floor.
+
+		ParentEvent
+Id:168605
+
+
+
+	ChildBranches4
+Name:Visit the House of the Chief Geometer
+Id:139105
+Description:It is understood to be an honour.
+
+		DefaultEvent
+Name:Lines in wet ground
+Id:168611
+Description:Each morning the man in the cobra mask draws lines in the mud flat with a pointed steel rod. This apportions to each inhabitant a small trapezoidal area from which to harvest mushrooms and to scrape salt. No plot is ever preserved from one day to the next. 
+<br/><br/>
+This man is the Chief Geometer, the Keeper of Directions, Master of Land Measures and Sea Measures. 
+
+		ParentEvent
+Id:168605
+
+
+
+	ChildBranches5
+Name:Visit the Temple of Apis
+Id:139106
+Description:All the denizens of Visage go there sooner or later.
+
+		DefaultEvent
+Name:The wounded god
+Id:168612
+Description:In the center of the temple is a black bull with a white diamond on its face. It is tied in place with heavy ropes, and it is wounded in the thigh. From this wound it bleeds copiously without dying.
+
+		ParentEvent
+Id:168605
+
+
+
+	ChildBranches6
+Name:Visit the Side of the Face
+Id:139107
+Description:The stone cheek of Flourishing-of-Years is visited as a pilgrimage by the inhabitants of Visage, and if you are in good favour, you too may go. 
+
+		DefaultEvent
+Name:At the proper time
+Id:168613
+Description:You must, of course, wait until your work with this day's crop of frogs and locusts is complete. It would not be suitable to bring them along.
+
+		ParentEvent
+Id:168605
+
+
+
+	ChildBranches7
+Name:Enter the Hollow of the Ear
+Id:139108
+Description:[This is a journey of several steps, and may conclude your current visit.]
+
+		DefaultEvent
+Name:A proud nose
+Id:168614
+Description:It is a festival day. The great stone face has been illuminated from forehead to chin with blazing torches, so that the profile is visible from the side more clearly than you have ever seen it. 
+<br/><br/>
+"Flourishing-of-Years is awake," says the genderless figure in the crocodile mask. 
+
+		ParentEvent
+Id:168605
+
+
+
+	ChildBranches8
+Name:Trade masks with the Moon-Moth
+Id:139269
+Description:It has been making subtle overtures for some time. You only now understand them.
+
+		DefaultEvent
+Name:It is keen to go
+Id:168905
+Description:It draws you aside into a closet in the Customs House. "Had enough of Visage," it tells you frankly. "Here, you take my mask and pretend to be me, and I'll trade in the visitor mask and get on some departing ship. Get my life back."
+<br/><br/>
+Its face - no, now you see, her face - is aging but unlined. A lifetime of never needing to use a facial expression.
+
+		ParentEvent
+Id:168605
+
+
+
+	ChildBranches9
+Name:End your performance and leave the island
+Id:139878
+Description:You can't stay in character forever.
+
+		DefaultEvent
+Name:A shame about the Moth
+Id:169901
+Description:You say farewell to the Moon-Moth. It makes gestures you now recognise as agitation. Perhaps there was some other plan for you here, but no one consulted you about it. You have other things to attend to.
+<br/><br/>
+Your last sight of Visage: the Moth smoothing the folds from your robe and hanging your mask on a peg for the next visitor.
+
+		ParentEvent
+Id:168605
+
+
+
+	ChildBranches10
+Name:End your performance and leave the island
+Id:139896
+Description:You can't stay in character forever.
+
+		DefaultEvent
+Name:Calmer
+Id:169925
+Description:When the other citizens are distracted, you find your way to the familiar Customs House and rid yourself of mask and robe. There is satisfaction in laying aside a role well performed.
+
+		ParentEvent
+Id:168605
+
+
+
+	ChildBranches11
+Name:The Assigner of Corpses?
+Id:144563
+Description:One of these masked strangers is the Assigner of Corpses, if the Gracious Widow is to be believed. But which?
+
+		DefaultEvent
+Name:
+Id:177517
+Description:
+
+		ParentEvent
+Id:168605
+

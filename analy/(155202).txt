@@ -1,0 +1,39 @@
+Name:Sleep when you're dead?
+Id:155202
+Description:You're hurt. You should really be in bed.
+
+
+
+	ChildBranches1
+Name:Spend time in bed
+Id:131665
+Description:[This will heal a Wound.]
+
+		DefaultEvent
+Name:Time, the healer
+Id:155203
+Description:The sounds of the ship at zee. The toll of the watch-bell. Your eyes drift closed.
+
+		ParentEvent
+Id:155202
+
+
+
+	ChildBranches2
+Name:Tough it out
+Id:131666
+Description:Stuff and nonsense! March round the deck shouting courageously! [This will slightly reduce Terror, but may occasionally injure you further.]
+
+		DefaultEvent
+Name:
+Id:155204
+Description:Zailors are basically impressed by buccaneering machismo, except sometimes when buccaneering machismo kills their captain stone dead. On this occasion, you are not dead.
+
+		ParentEvent
+Id:155202
+
+		RareDefaultEvent
+Name:(Ouch.)
+Id:155205
+Description:A stitch has given way. You grasp the rail for support. Your vision swims.
+

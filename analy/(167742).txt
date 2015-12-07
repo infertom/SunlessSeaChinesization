@@ -1,0 +1,286 @@
+Name:Battle with an Avaricious Lorn-Fluke
+Id:167742
+Description:Something has awakened its enigmatic enmity. It turns its full attention upon the Nocturne.
+
+
+
+	ChildBranches1
+Name:The Lorn-Fluke hesitates...
+Id:138633
+Description:You haven't beaten it, but you have surprised it.
+
+		DefaultEvent
+Name:Reinforcements from a nightmare!
+Id:167751
+Description:The uncertainty only lasts for a second, before the ancient and angry Lorn-Fluke loses all entertainment in its sport and moves in for the kill. The buzzing air sings of the Correspondence, of terror that drives men to a watery grave with a sense of gratitude. It-
+<br /></br >
+An ambush! Focused on its prey, the Lorn-Fluke misses the other ship entirely as it speeds out of the dark; a webbed octomaran seething with legs and life. By the time it senses it, it is too late. The hideous vessel is bearing down on it too fast and too hard to be evaded.
+<br /><br />
+The Tree of Ages has it right where it wanted it.
+
+		ParentEvent
+Id:167742
+
+
+
+	ChildBranches2
+Name:The Nocturne shudders
+Id:138634
+Description:She can't take much more of this!
+
+		DefaultEvent
+Name:The Tree of Ages
+Id:167752
+Description:Sensing victory, the Lorn-Fluke moves in for the kill. The buzzing air sings of the Correspondence, and terror that drives men to a watery grave in gratitude. It-
+<br /></br >
+An ambush! Focused on its prey, the Lorn-Fluke misses the other ship entirely as it speeds out of the dark; a webbed octomaran seething with legs and life. By the time it realises, it is too late. The hideous vessel is bearing down on it too fast and too hard to be evaded.
+<br /><br />
+The Tree of Ages has it right where it wanted it.
+
+		ParentEvent
+Id:167742
+
+
+
+	ChildBranches3
+Name:Ramming speed!
+Id:138641
+Description:Desperate times call for desperate action!
+
+		DefaultEvent
+Name:A mighty crash!
+Id:167774
+Description:But it's the Nocturne that takes the worst of it, crippling herself on the spines!
+
+		ParentEvent
+Id:167742
+
+		RareDefaultEvent
+Name:A mighty collision!
+Id:167775
+Description:And the Avaricious Lorn-Fluke takes the worst of it, its shattered spines falling like starlight.
+
+
+
+	ChildBranches4
+Name:The Lorn-Fluke submerges!
+Id:138954
+Description:Try to out-flank it and land a hit!
+
+		DefaultEvent
+Name:Terror from the deep
+Id:168378
+Description:Burning light! Fear! The crash of hull against rock!
+
+		ParentEvent
+Id:167742
+
+		RareDefaultEvent
+Name:The Lorn-Fluke rises into the barrage
+Id:168379
+Description:Its terror attack is drowned out by the pounding of the guns!
+
+
+
+	ChildBranches5
+Name:Open fire!
+Id:138632
+Description:The guns of the Nocturne still have some kick.
+
+		DefaultEvent
+Name:A miss!
+Id:167743
+Description:The Lorn-Fluke lashes back with an attack of pure spite.
+
+		ParentEvent
+Id:167742
+
+		RareDefaultEvent
+Name:It ignores it!
+Id:167748
+Description:The Lorn-Fluke absorbs the attack, hitting back hard enough to crack the side of the hull.
+
+		SuccessEvent
+Name:A hit!
+Id:167749
+Description:The Lorn-Fluke is winded, if not wounded.
+
+		RareSuccessEvent
+Name:A cracking of spines!
+Id:167750
+Description:The electric terror in the air breaks, interrupted by a scream beyond human hearing or comprehension.
+
+
+
+	ChildBranches6
+Name:Hold fast!
+Id:138635
+Description:It's hold your own or be cast into the deeps!
+
+		DefaultEvent
+Name:A hit!
+Id:167753
+Description:The Nocturne trembles with the force of something beyond a mere impact. A blinding light behind your vision whispers dire promises of the future.
+
+		ParentEvent
+Id:167742
+
+		RareDefaultEvent
+Name:A direct hit!
+Id:167756
+Description:The Nocturne shudders. She can't take much more of this punishment.
+
+		SuccessEvent
+Name:The blow glances off!
+Id:167754
+Description:No damage! But the Nocturne can't take much more of this punishment!
+
+		RareSuccessEvent
+Name:The Lorn-Fluke hits, but your crew is ready!
+Id:167755
+Description:Before a drop of water can make it through the hull, they're repairing the damage.
+
+
+
+	ChildBranches7
+Name:Mirrors!
+Id:138636
+Description:Out-fight it? Impossible. Out-think it? Perhaps!
+
+		DefaultEvent
+Name:Where did it go?
+Id:167757
+Description:The lights flicker, losing the target. Just for a moment. Long enough for it to strike.
+
+		ParentEvent
+Id:167742
+
+		RareDefaultEvent
+Name:It dives, out of sight!
+Id:167760
+Description:Where is it? You've lost it! Wait, it's-
+
+		SuccessEvent
+Name:Its evasion does it no good!
+Id:167758
+Description:Was that the crack of a spine breaking off as it brushed against the hull?
+
+		RareSuccessEvent
+Name:It surfaces, straight into a barrage!
+Id:167759
+Description:The blackness of the zee is your constant companion as well. It will take more than that to outflank you.
+
+
+
+	ChildBranches8
+Name:Open fire!
+Id:138637
+Description:The guns of the Nocturne still have some kick.
+
+		DefaultEvent
+Name:A miss!
+Id:167761
+Description:The Lorn-Fluke lashes back with an attack of pure spite.
+<br />
+[The presence of the Captain of the Nocturne is providing a considerable boost to skill checks, though this is still a formidable opponent.]
+
+		ParentEvent
+Id:167742
+
+		RareDefaultEvent
+Name:It ignores it!
+Id:167764
+Description:The Lorn-Fluke absorbs the attack, hitting back hard enough to crack the side of the hull.
+<br />
+[The presence of the Captain of the Nocturne is providing a considerable boost to skill checks, though this is still a formidable opponent.]
+
+		SuccessEvent
+Name:A hit!
+Id:167762
+Description:The Lorn-Fluke is winded, if not wounded.
+<br />
+[The presence of the Captain of the Nocturne is providing a considerable boost to skill checks.]
+
+		RareSuccessEvent
+Name:A cracking of spines!
+Id:167763
+Description:The electric terror in the air breaks, interrupted by a scream beyond human hearing or comprehension.
+<br />
+[The presence of the Captain of the Nocturne is providing a considerable boost to skill checks.]
+
+
+
+	ChildBranches9
+Name:Hold fast!
+Id:138638
+Description:It's hold your own or be cast into the deeps!
+
+		DefaultEvent
+Name:A hit!
+Id:167765
+Description:The Nocturne trembles with the force of something beyond a mere impact. A blinding light behind your vision whispers dire promises of the future.
+<br />
+[The presence of the Captain of the Nocturne is providing a considerable boost to skill checks, though this is still a formidable opponent.]
+
+		ParentEvent
+Id:167742
+
+		RareDefaultEvent
+Name:A direct hit!
+Id:167768
+Description:The Nocturne shudders. She can't take much more of this punishment.
+<br />
+[The presence of the Captain of the Nocturne is providing a considerable boost to skill checks, though this is still a formidable opponent.]
+
+		SuccessEvent
+Name:The blow glances off!
+Id:167766
+Description:No damage! But the Nocturne can't take much more of this punishment!
+<br />
+[The presence of the Captain of the Nocturne is providing a considerable boost to skill checks.]
+
+		RareSuccessEvent
+Name:The Lorn-Fluke hits, but your crew is ready!
+Id:167767
+Description:Before a drop of water can make it through the hull, they're repairing the damage.
+<br />
+[The presence of the Captain of the Nocturne is providing a considerable boost to skill checks.]
+
+
+
+	ChildBranches10
+Name:Mirrors!
+Id:138639
+Description:Out-fight it? Impossible. Out-think it? Perhaps!
+
+		DefaultEvent
+Name:Where did it go?
+Id:167769
+Description:The lights flicker, losing the target. Just for a moment. Long enough for it to strike.
+<br />
+[The presence of the Captain of the Nocturne is providing a considerable boost to skill checks, though this is still a formidable opponent.]
+
+		ParentEvent
+Id:167742
+
+		RareDefaultEvent
+Name:It dives, out of sight
+Id:167772
+Description:Where is it? You've lost it! Wait, it's-
+<br />
+[The presence of the Captain of the Nocturne is providing a considerable boost to skill checks, though this is still a formidable opponent.]
+
+		SuccessEvent
+Name:Its evasion does it no good!
+Id:167770
+Description:Was that the crack of a spine breaking off as it brushed against the hull?
+<br />
+[The presence of the Captain of the Nocturne is providing a considerable boost to skill checks.]
+
+		RareSuccessEvent
+Name:It surfaces, straight into a barrage!
+Id:167771
+Description:The blackness of the zee is your constant companion as well. It will take more than that to outflank you.
+<br />
+[The presence of the Captain of the Nocturne is providing a considerable boost to skill checks.]
+

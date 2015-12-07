@@ -1,0 +1,34 @@
+Name:You've destroyed a Crack Pirate Steam-Pinnace
+Id:171399
+Description:The ship is yours! What will you do with her?
+
+
+
+	ChildBranches1
+Name:Loot and scuttle her
+Id:140752
+Description:She's a vile old vessel, and these zees aren't safe. Take what you can and move on.
+
+		DefaultEvent
+Name:Lean pickings
+Id:171402
+Description:These pinnaces don't sail far from their hidden harbours, but here's something at the back of the hold -
+
+		ParentEvent
+Id:171399
+
+
+
+	ChildBranches2
+Name:Record any Observations
+Id:140753
+Description:If you've gathered enough, you may learn something...
+
+		DefaultEvent
+Name:Desperate innovations
+Id:171403
+Description:These pirates have done perverse and perilous things to their engine to keep it running at such a pace. You probably don't want to do those things. But you can learn from them...
+
+		ParentEvent
+Id:171399
+

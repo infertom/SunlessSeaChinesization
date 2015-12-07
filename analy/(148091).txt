@@ -1,0 +1,215 @@
+Name:Observing the Latest Autopsies
+Id:148091
+Description:There are many, many boxes piled up under the steepled roof.
+
+
+
+	ChildBranches1
+Name:The Confessor
+Id:127102
+Description:This one's a priest with a white collar.
+
+		DefaultEvent
+Name:Borrowed secrets
+Id:148092
+Description:This one doesn't have just one sphere, but dozens of them, the size of a pebble or the size of a grape. They grow around his ears from where he's spent his life listening. They grow under his tongue. 
+<br/>
+<br/>
+None of them please the Acolyte. She drops all the black nodules into a sieve and picks through the collection with tongs, but in the end she throws them all away.
+
+		ParentEvent
+Id:148091
+
+
+
+	ChildBranches2
+Name:The Professor
+Id:127103
+Description:Here's a corpse with professorial clothes and too many lines in his forehead.
+
+		DefaultEvent
+Name:The Heretic
+Id:148093
+Description:She has to saw open the skull to get at this one's secret. It is lodged like a peach pit between the halves of his brain, not perfectly spherical but squashed and lumpy.
+<br/>
+<br/>
+"It's a pity," she tells you afterward, pushing back her goggles. "It's such a flawless secret. You rarely see one of such high quality. He'd come to the unshakeable intellectual conviction that souls are only a kind of gaseous vapour. He didn't dare tell anyone for fear of losing his position, but he had too much integrity of mind to stop believing it merely because of the inconvenience. 
+<br/>
+<br/>
+"Shame it's not the sort of thing the Masters are looking for."
+
+		ParentEvent
+Id:148091
+
+
+
+	ChildBranches3
+Name:The drinker
+Id:127104
+Description:She has a red nose and sad, sunken eyes.
+
+		DefaultEvent
+Name:In the gut
+Id:148094
+Description:The secret grows in the gut of this one. It's surrounded by shell on shell on shell, but the thing itself is not much larger than a grain of sand.
+<br/>
+<br/>
+The Austere Acolyte shakes her head. "It's really nothing worth telling. A childhood embarrassment!" she says in disgust. "Most people would have forgotten all about it."
+
+		ParentEvent
+Id:148091
+
+
+
+	ChildBranches4
+Name:The sister
+Id:127105
+Description:Her clothes are virtuous and her hands are neatly folded on her breast.
+
+		DefaultEvent
+Name:Itching
+Id:148095
+Description:When the Austere Acolyte pulls the corpse's hands away from her chest, you see: the nodules grow in both palms, flattened ovals under the skin.
+<br/>
+<br/>
+The Acolyte's big nutcracker struggles to get any purchase on these, dense and narrow as they are, but she manages in the end. She is singing about a beach of sugar sand, and an ocean of caramel.
+<br/>
+<br/>
+She spends a long time with the goggles, and the song goes quiet then. 
+<br/>
+<br/>
+With a sigh the Acolyte throws the secrets aside. "She wanted to kill her sister's husband. She didn't commit the murder, but her hands itched to push him from the balcony of their townhouse."
+<br/>
+<br/>
+Even from here you sense the breathtaking hatred, as involuntary as lust. The precision of the murderous fantasies. Surprise, because she was not accustomed to such feelings. Fear at learning she was capable of them. Self-justification that such feelings were deserved. Heady excitement at having any emotion that ran so strong. Then hate again—
+<br/>
+<br/>
+"Your pony is made of fresh baked bread," sings the Acolyte in your ear. You're back in your body. You find yourself standing very close to the noxious black pellet, as though you were about to scoop it up and eat it.
+<br/>
+<br/>
+"...and butter is its saddle," she sings soothingly, leading you away to the far side of the room. There you sit until she has disposed of the thing, which is of no use to anyone.
+
+
+		ParentEvent
+Id:148091
+
+
+
+	ChildBranches5
+Name:The wife
+Id:127106
+Description:She has a silver ring on her hand.
+
+		DefaultEvent
+Name:An old sort of secret
+Id:148096
+Description:The ball is big as a grapefruit this time, and rides high under the woman's diaphragm. The operation is quick, and the Acolyte plainly expects what she finds.
+<br/>
+<br/>
+"Thirty-five years in love with someone other than her husband, but she never said a word of it, and no one guessed, not even the lady in question."
+<br/>
+<br/>
+You have learned by now to recognise the Acolyte's tone of voice when she's pleased. She seals the black pellet into a jar and stamps the wax with an export stamp.
+
+		ParentEvent
+Id:148091
+
+
+
+	ChildBranches6
+Name:The Fashionable Lady
+Id:127115
+Description:Her gown scoops low and there is a lump at her cleavage as large as a golf ball.
+
+		DefaultEvent
+Name:Famously ill
+Id:148112
+Description:The Austere Acolyte works quickly this time, and her songs (of chessmen toasting by the fire, of a seedling growing out of a chocolate liqueur) sound genuinely cheerful.
+<br/>
+<br/>
+"I'd heard of this case before she even reached us," the Acolyte tells you afterwards. "She liked to faint on sofas and sip mysterious silver medicines and tell everyone she was suffering from some dread disease. The only secret she had was that she wasn't as interesting as she wanted everyone to think."
+
+		ParentEvent
+Id:148091
+
+
+
+	ChildBranches7
+Name:The Rubbery Man
+Id:127116
+Description:Most of the corpses are human, but not all.
+
+		DefaultEvent
+Name:Which means...?
+Id:148113
+Description:The operation is long and slow. The Acolyte has to cut into several parts of the Rubbery Corpse, because several things that look like strange lumps turn out to be ordinary Rubbery anatomy. At last she finds and extracts the piece.
+<br/>
+<br/>
+Rather than the usual black lump, the Rubbery Man keeps his dark secrets in amber form. The Acolyte cannot make anything of it, and sets it aside in a tray for her superiors to look at.
+
+		ParentEvent
+Id:148091
+
+
+
+	ChildBranches8
+Name:A historian
+Id:127117
+Description:The slim figure on the table has ink-stained fingers and a face that defies gender.
+
+		DefaultEvent
+Name:Inky pasts
+Id:148114
+Description:"A slice of cheddar edged in lace," sings the Austere Acolyte as she works.
+<br/>
+<br/>
+Later, though, she seems sad as she plucks out the dark harvest and drops it in its jar.
+<br/>
+<br/>
+"They were in love with a writer who was dead before they were born," says the Acolyte. "And kept it a secret from embarrassment. The Masters will like that."
+
+		ParentEvent
+Id:148091
+
+
+
+	ChildBranches9
+Name:A foreigner
+Id:127118
+Description:The woman has a square jaw and a patterned apron.
+
+		DefaultEvent
+Name:All the weight there is
+Id:148115
+Description:The woman's metal ball is not round or oval. It has grown to fit exactly in the spaces between her organs, and from the outside of the corpse you would not guess it was there at all. It takes a long time to carve it out. 
+<br/>
+<br/>
+The Acolyte tells you, when she can: how, when a certain government was deposed, the woman and all her family were thrown out of their houses and made to walk in winter two hundred miles to another country. How her baby brother died on the road. How she came to another country, and married, and never told her children or her grandchildren what she had seen, because she did not want to poison them with grief.
+<br/>
+<br/>
+Not a story for the Masters, but more steel than you've ever seen in one body before.
+
+		ParentEvent
+Id:148091
+
+
+
+	ChildBranches10
+Name:A young man
+Id:127120
+Description:He lived just long enough to grow a mustache.
+
+		DefaultEvent
+Name:All the weight there is
+Id:148117
+Description:"Bibles bound in crocodile leather," sings the Acolyte as she works. Not quite up to her usual form, you think.
+<br/>
+<br/>
+The sphere is small and perfectly round and has grown inside one of the chambers of the young man's heart.
+<br/>
+<br/>
+"Poisoned his older brother," the Acolyte explains after. "When he was very young. Everyone accepted it was an accident, but he wasn't quite sure it was."
+
+		ParentEvent
+Id:148091
+

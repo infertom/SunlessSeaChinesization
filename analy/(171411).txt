@@ -1,0 +1,54 @@
+Name:You've defeated a Rat-Barge
+Id:171411
+Description:The ship is yours! What will you do with her?
+
+
+
+	ChildBranches1
+Name:Loot and scuttle her
+Id:140759
+Description:She's a vile old vessel, and these zees aren't safe. Take what you can and move on.
+
+		DefaultEvent
+Name:Lean pickings
+Id:171414
+Description:These pinnaces don't sail far from their hidden harbours, but here's something at the back of the hold -
+
+		ParentEvent
+Id:171411
+
+
+
+	ChildBranches2
+Name:Record any Observations
+Id:140760
+Description:If you've gathered enough, you may learn something...
+
+		DefaultEvent
+Name:Desperate innovations
+Id:171415
+Description:These pirates have done perverse and perilous things to their engine to keep it running at such a pace. You probably don't want to do those things. But you can learn from them...
+
+		ParentEvent
+Id:171411
+
+
+
+	ChildBranches3
+Name:Send her home with a prize crew
+Id:140758
+Description:Two zailors should be enough for a skeleton crew, and she's fast enough to avoid most trouble.
+
+		DefaultEvent
+Name:Into the darkness
+Id:171412
+Description:Your prize is never seen again. Perhaps a heptycheer devours your crew. Perhaps they devour each other. Perhaps they betray you and sail it to the Iron Republic, where laws cannot follow.
+
+		ParentEvent
+Id:171411
+
+		SuccessEvent
+Name:Awaiting your pleasure
+Id:171413
+Description:When you next return to London, return to your Lodgings to claim your prize money...
+

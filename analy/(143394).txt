@@ -1,0 +1,41 @@
+Name:"I want to go away to sea."
+Id:143394
+Description:Your child wants to sign on with a ship. Already? But time passes quickly - and most quickly on the Unterzee. How many years have you been at zee? Don't ask. Time operates slyly, out in the dark.
+
+
+
+	ChildBranches1
+Name:Permit it
+Id:124104
+Description:A family tradition! If your child survives. Many zailors don't. You of all people know that. [This is how you gain a Scion, allowing your next captain to choose two legacies.]
+
+		DefaultEvent
+Name:All is well... for now
+Id:143395
+Description:"NEW YEAR'S DAY, 189- : Quartermaster's Assistant, of legal age, signed on recommendation of legal guardian. Give equal treatment."
+<br/><br/>
+[You have a Scion. When you die, the next generation may take up the torch. In the meantime, they will still live at home... probably.]
+
+		ParentEvent
+Id:143394
+
+
+
+	ChildBranches2
+Name:Forbid it
+Id:124105
+Description:You know what happens at zee. No child of yours will risk that. But will they listen? [This will reassure you, setting Terror to zero and reducing Nightmares.]
+
+		DefaultEvent
+Name:Salt's savour
+Id:143396
+Description:Your child listens carefully to everything you have to say; nods acquiescently; runs off in the night; and signs aboard a visiting Iron Republic fire-carrack. You won't see them again. But perhaps they'll remember you after you're gone...
+
+		ParentEvent
+Id:143394
+
+		SuccessEvent
+Name:Grudging acquiescene
+Id:174454
+Description:You paint the horrors of the hungry waves in bloody colours. At last your child's ardour is dampened. They'll stay away from the zee... for now at least. Your heart is lightened.
+

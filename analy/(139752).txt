@@ -1,0 +1,34 @@
+Name:Shipwrecked!
+Id:139752
+Description:Your ship founders! There are screams - a flood of dark water - the unforgettable sound of a ship's spine breaking - 
+
+
+
+	ChildBranches1
+Name:Slip beneath the waves
+Id:121753
+Description:Perhaps you'll be remembered in song.
+
+		DefaultEvent
+Name:No more
+Id:139753
+Description:Sleep.
+
+		ParentEvent
+Id:139752
+
+
+
+	ChildBranches2
+Name:Slip beneath the waves
+Id:132097
+Description:You are gone. But you've provided for your heir...
+
+		DefaultEvent
+Name:
+Id:155883
+Description:Sleep.
+
+		ParentEvent
+Id:139752
+

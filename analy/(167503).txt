@@ -1,0 +1,19 @@
+Name:Report back to the Web of Stone
+Id:167503
+Description:Hospitality or not, you sense it would be a very bad idea to return empty-handed. A Weaver stands ready to receive the good news.
+
+
+
+	ChildBranches1
+Name:The Secret of the Nocturne
+Id:138485
+Description:Here is what they sent you to find. Hopefully.
+
+		DefaultEvent
+Name:She bids you follow her into the Reaches
+Id:167504
+Description:There is no cart this time. This will be a long walk.
+
+		ParentEvent
+Id:167503
+

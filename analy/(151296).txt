@@ -1,0 +1,144 @@
+Name:The House of the Question
+Id:151296
+Description:North-west of Whither town, the House of the Question stands alone. Here the initiates of the House make offerings to the three gods of the deep zee, and perhaps a fourth who is not a god. It's the one place in Whither where you can sometimes get a straight answer... for a price.
+<br/><br/>
+[Gaining the Attention of a god is useful chiefly for lifting curses.]
+
+
+
+	ChildBranches1
+Name:Gain Storm's Attention
+Id:129165
+Description:Storm's shrine is red with blood and wine. Feed it.
+
+		DefaultEvent
+Name:A bloody rite
+Id:151297
+Description:The initiates of the House perform the sacrifice. It seems a great deal messier than it needs to be. One catches your quizzical gaze. "Storm's a messy eater," she confides. "You should know what you're getting into. But he's heard your name now."
+
+		ParentEvent
+Id:151296
+
+
+
+	ChildBranches2
+Name:Gain Stone's Attention
+Id:129166
+Description:A flame burns eternally in the shrine of Stone, bright god of home and healing. Bring fuel for her flame, and a token from the South where she rules.
+
+		DefaultEvent
+Name:Sweet scents and song
+Id:151298
+Description:The initiates fling handfuls of scented salts into the flames and chant in the language of the Elder Continent. You hear your name wound into the chant. At last, the preceptress nods to you. "She has your face."
+
+		ParentEvent
+Id:151296
+
+
+
+	ChildBranches3
+Name:Gain Salt's Attention
+Id:129167
+Description:The walls around Salt's shrine are written over with tales. Bring it a story.
+
+		DefaultEvent
+Name:No echo
+Id:151299
+Description:Your words sink into the silence like stones into quicksand. The initiate listens, eyes closed, committing every detail to memory. "Leave now. If you see where I write your story, it's the worst kind of luck."
+
+		ParentEvent
+Id:151296
+
+
+
+	ChildBranches4
+Name:Ask about the Drowned Man
+Id:129168
+Description:The initiates of the House are reluctant to speak of him, but you may be able to bribe them enough to gain a few tenuous snippets.
+
+		DefaultEvent
+Name:The end and the beginning
+Id:151300
+Description:"He is not a god. He came from the North, where it is too cold for gods, and to the North he will return. If you go North, nothing of you will remain."
+
+		ParentEvent
+Id:151296
+
+		RareDefaultEvent
+Name:The law and the loss
+Id:151304
+Description:"The Drowned Man's brothers - aye, and sisters - gave him to the knives and the lacre. Here we have no lacre, only snow. Snow comes from the North. Lacre comes from pain. We have it a little easier."
+
+
+
+	ChildBranches5
+Name:Lift Storm's Curse
+Id:129169
+Description:"This is going to be pretty grim," an initiate warns you. "And if you close your eyes, we'll have to start from the beginning. Storm takes cursing seriously."
+
+		DefaultEvent
+Name:It's not pretty
+Id:151301
+Description:The initiates give themselves to the frenzy. The sacrifice that you brought takes hours to die. Your clothes are steeped seven times in blood. The curse is gone, they tell you: but it'll be a long time before the smell is.
+
+		ParentEvent
+Id:151296
+
+
+
+	ChildBranches6
+Name:Lift Stone's Curse
+Id:129170
+Description:Stone is not a vengeful god, but her memory is long. She will require rich offerings. The initiates want paying, too. "You've brought the parts," one tells you, "but you need to cover the labour too."
+
+		DefaultEvent
+Name:A roaring flame
+Id:151302
+Description:The initiates build a pyre of riches: all that linen up in smoke, length by length, all that scintillack cracked and sizzling. You'd heard that scintillack screamed when burnt, and now you know it's true. "I think she's forgiven you," the preceptress whispers at last. "Don't do it again."
+
+		ParentEvent
+Id:151296
+
+
+
+	ChildBranches7
+Name:Lift Salt's Curse
+Id:129171
+Description:No one will answer you when you speak of Salt's Curse. It takes you half a day to glean what it might demand of you. But at least if they can't speak of it, they can't quote you a price.
+
+		DefaultEvent
+Name:An awakening
+Id:151303
+Description:You were due to go to the House today, weren't you? But it's the third watch already. No - you had gone. There were the words - the bells - and then - you can remember almost nothing. "All shall be well," someone told you, "and all manner of thing shall be well." Clutched in your hand is a single white petal, as fresh as if plucked just now on the Surface. It's the token of the curse's ending.
+
+		ParentEvent
+Id:151296
+
+
+
+	ChildBranches8
+Name:Be cleansed of the cannibal taint
+Id:129172
+Description:
+
+		DefaultEvent
+Id:151305
+
+		ParentEvent
+Id:151296
+
+
+
+	ChildBranches9
+Name:Defy the Gods
+Id:129819
+Description:Spit on the floor. Curse the priests. Overturn an altar. [This will increase your Iron and Hearts by 5 each, up to 110, and set your Terror to 0: but you will never be able to remove any god's curse, or benefit in certain other ways.]
+
+		DefaultEvent
+Name:It's done!
+Id:152322
+Description:Your crew are cheered by your courageous impiety. They have their superstitions, but a captain who blackens the eye of the gods themselves is a captain of verve and vigour. Later, though, when the night draws in, they whisper and make the signs against evil...
+
+		ParentEvent
+Id:151296
+

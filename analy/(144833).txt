@@ -1,0 +1,805 @@
+Name:The Admiralty Survey Office
+Id:144833
+Description:The Admiralty's picket fleets and intelligence networks are long gone. The Survey Office pays zee-captains a small sum for recent information. [Visit and investigate ports to gain Port Reports, and trade them in here. The first time you trade in a Port Report, you'll gain Admiralty's Favour.]
+
+
+
+	ChildBranches1
+Name:Demeaux Island
+Id:125031
+Description:"You've been to Demeaux's Gate?"
+
+		DefaultEvent
+Name:Submitted!
+Id:144834
+Description:
+
+		ParentEvent
+Id:144833
+
+
+
+	ChildBranches2
+Name:Gaider's Mourn
+Id:125032
+Description:"You have something to tell us about the pirate fleets of the Forest?"
+
+		DefaultEvent
+Name:Submitted!
+Id:144835
+Description:
+
+		ParentEvent
+Id:144833
+
+
+
+	ChildBranches3
+Name:Hunter's Keep
+Id:127981
+Description:"I trust the sisters are keeping well? They are citizens of her Enduring Majesty, notionally."
+
+		DefaultEvent
+Name:Submitted!
+Id:149362
+Description:
+
+		ParentEvent
+Id:144833
+
+
+
+	ChildBranches4
+Name:Mt Palmerston
+Id:127982
+Description:"The Brimstone Convention. They trouble me, Captain."
+
+		DefaultEvent
+Name:Submitted!
+Id:149363
+Description:
+
+		ParentEvent
+Id:144833
+
+
+
+	ChildBranches5
+Name:Port Cecil
+Id:127983
+Description:"The Principles of Coral. I have no idea why anyone thought that settlement was a good idea."
+
+		DefaultEvent
+Name:Submitted!
+Id:149364
+Description:
+
+		ParentEvent
+Id:144833
+
+
+
+	ChildBranches6
+Name:Quaker's Haven
+Id:127984
+Description:"Been trying the original Rubbery Lumps, have we?"
+
+		DefaultEvent
+Name:Submitted!
+Id:149365
+Description:
+
+		ParentEvent
+Id:144833
+
+
+
+	ChildBranches7
+Name:Venderbight
+Id:127985
+Description:"What have the nearly-dead been up to, then?"
+
+		DefaultEvent
+Name:Submitted!
+Id:149366
+Description:
+
+		ParentEvent
+Id:144833
+
+
+
+	ChildBranches8
+Name:Whither
+Id:127986
+Description:"I refuse to ask any questions. I don't want to give them the satisfaction."
+
+		DefaultEvent
+Name:Submitted!
+Id:149367
+Description:
+
+		ParentEvent
+Id:144833
+
+
+
+	ChildBranches9
+Name:Leave the Admiralty
+Id:127987
+Description:"You don't have anything else for us?
+
+		DefaultEvent
+Name:Done
+Id:149368
+Description:Out into the foggy street. Turn your collar up.
+
+		ParentEvent
+Id:144833
+
+
+
+	ChildBranches10
+Name:Ask to speak to the Dark-Spectacled Admiral
+Id:128238
+Description:"Do you have an appointment?"
+
+		DefaultEvent
+Name:No appointment, but -
+Id:149806
+Description:"Hm. Apparently I'm to show you in anyway. Very well."
+
+		ParentEvent
+Id:144833
+
+
+
+	ChildBranches11
+Name:Ask to speak to a higher authority
+Id:128239
+Description:"Do you have an appointment?"
+
+		DefaultEvent
+Name:Not as such...
+Id:149807
+Description:"Once you've proven yourself, perhaps." [Survey three ports and return, to win the Admiralty's approval.]
+
+		ParentEvent
+Id:144833
+
+
+
+	ChildBranches12
+Name:Hunter's Keep's End
+Id:129802
+Description:"I trust the sisters are keeping well? They are citizens of her Enduring Majesty, notionally."
+
+		DefaultEvent
+Name:Open shock
+Id:152300
+Description:"This is - ghastly news. The poor girls. We had warned them they weren't safe, but it had been so long, I thought - well, it's done. Thank you. I will have to look into the matter of a supply post - "
+
+		ParentEvent
+Id:144833
+
+
+
+	ChildBranches13
+Name:Station III
+Id:129835
+Description:"Excuse me. Just let me call a colleague in - "
+
+		DefaultEvent
+Name:Omitted
+Id:152349
+Description:"This is my colleague Mr Villein, of the Ministry of Public Decency. Mr Villein, this good captain's report is here. If you would care to - yes, the fire is already lit. Let us - there we go. Now only ashes remain, and it might have caused such a lot of trouble."
+<br/><br/>
+"Thank you, Captain. We appreciate your discretion. Here is your payment. You need not trouble yourself further in this affair."
+
+		ParentEvent
+Id:144833
+
+
+
+	ChildBranches14
+Name:Abbey Rock
+Id:129836
+Description:"We categorise it as a military installation, you know. Although that has occasioned some quite vigorous debate."
+
+		DefaultEvent
+Name:Submitted!
+Id:152350
+Description:
+
+		ParentEvent
+Id:144833
+
+
+
+	ChildBranches15
+Name:Shepherd Isles: submit as unsubstantiated hearsay
+Id:129837
+Description:"We do hear some unlikely tales of that place."
+
+		DefaultEvent
+Name:Friendly scoffing
+Id:152351
+Description:"I agree: it does seem implausible. So many of the stories from that place do. Still, there is a little gold of truth in the mud of rumour, from time to time. Your payment, [q:Addressed As]".
+
+		ParentEvent
+Id:144833
+
+
+
+	ChildBranches16
+Name:Ask if there's anything in particular they need
+Id:130370
+Description:"Well, if we can be assured of your discretion - "
+
+		DefaultEvent
+Name:"This port - "
+Id:153201
+Description:"Speak to our agent there, and return. We'll see that you're rewarded." [Visit the port below and return to London. You can check the details in your Journal at any time.]
+
+		ParentEvent
+Id:144833
+
+
+
+	ChildBranches17
+Name:Ask if there's anything in particular they need
+Id:130371
+Description:"Well, if we can be assured of your discretion - "
+
+		DefaultEvent
+Name:"The Admiral will see you now."
+Id:153202
+Description:The Admiral deals directly with more sensitive commissions.
+
+		ParentEvent
+Id:144833
+
+
+
+	ChildBranches18
+Name:Strategic Information!
+Id:130372
+Description:"What's that? Indeed, indeed! I'll send you up directly to speak to the Admiral himself - "
+
+		DefaultEvent
+Name:
+Id:153204
+Description:
+
+		ParentEvent
+Id:144833
+
+
+
+	ChildBranches19
+Name:The Cumaean Canal
+Id:130784
+Description:"Well, if you've been there, I suppose we may as well hear about it. The fee is nominal, though."
+
+		DefaultEvent
+Name:Submitted!
+Id:153910
+Description:
+
+		ParentEvent
+Id:144833
+
+
+
+	ChildBranches20
+Name:Godfall
+Id:131301
+Description:"Pirate-monks. I honestly have no idea what we're supposed to do about pirate-monks. What are they up to?"
+
+		DefaultEvent
+Name:Report submitted!
+Id:154667
+Description:
+
+		ParentEvent
+Id:144833
+
+
+
+	ChildBranches21
+Name:Pigmote Isle
+Id:131303
+Description:"I'm not certain I heard you correctly."
+
+		DefaultEvent
+Name:Report submitted!
+Id:154669
+Description:"Are you quite certain this is the report you wish to make? So be it."
+
+		ParentEvent
+Id:144833
+
+
+
+	ChildBranches22
+Name:Chapel of Lights
+Id:131304
+Description:"There's something about the Unterzee that breeds heresy and dissent. I rather think we might need to send the Bishop of Southwark out for a good bit of Christian shouting."
+
+		DefaultEvent
+Name:Report submitted!
+Id:154670
+Description:
+
+		ParentEvent
+Id:144833
+
+
+
+	ChildBranches23
+Name:Avid Horizon
+Id:131305
+Description:"I hope you intend to tell me that everything is quiet there?"
+
+		DefaultEvent
+Name:Report submitted!
+Id:154671
+Description:
+
+		ParentEvent
+Id:144833
+
+
+
+	ChildBranches24
+Name:Khan's Heart
+Id:131339
+Description:"Been to the Salt Steppes, eh? Yes, this kind of material is always of interest. How a nation could be so barbarian and so decadent at once is beyond me. But they're terribly dangerous."
+
+		DefaultEvent
+Name:Report submitted!
+Id:154717
+Description:
+
+		ParentEvent
+Id:144833
+
+
+
+	ChildBranches25
+Name:The Uttershroom
+Id:133868
+Description:"You've spent time in Myceligaea? Dear me. I am most terribly sorry.
+
+		DefaultEvent
+Name:Submitted!
+Id:158816
+Description:
+
+		ParentEvent
+Id:144833
+
+
+
+	ChildBranches26
+Name:The Iron Republic
+Id:134537
+Description:"Excuse me. I need to unlock this. And this. Oops, and this. Could you place your report inside - ? Yes, I imagine someone will read it, eventually. There's always someone."
+
+		DefaultEvent
+Name:"Wait - "
+Id:159957
+Description:"This is blank. Yes, both sides. No no, I assure you - no, I know, these things happen in the Republic. Consider this an <i>ex gratia</i> payment to cover your costs."
+
+		ParentEvent
+Id:144833
+
+		RareDefaultEvent
+Name:VOOOMF
+Id:159958
+Description:"I... no, I didn't expect that to happen. Well, perhaps it's for the best. Some reports should not be reported. No, no, don't concern yourself. This was my third-best suit, and the Admiralty offers a modest allowance for document-related damage. Perhaps it's best if you leave now, though. Good day."
+
+
+
+	ChildBranches27
+Name:The Mangrove College
+Id:134547
+Description:"Oh yes. The muddy philosophers. Do tell."
+
+		DefaultEvent
+Name:Submitted!
+Id:159974
+Description:
+
+		ParentEvent
+Id:144833
+
+
+
+	ChildBranches28
+Name:Saviour's Rocks
+Id:138333
+Description:"Goodness. We don't often hear news from there. Screaming, sometimes."
+
+		DefaultEvent
+Name:Report submitted!
+Id:167271
+Description:"How curious. No spiders at all, they say? They are indeed blessed!"
+
+
+
+		ParentEvent
+Id:144833
+
+
+
+	ChildBranches29
+Name:Saviour's Rocks
+Id:138334
+Description:"Goodness. We don't often hear news from there. Screaming, sometimes."
+
+		DefaultEvent
+Name:Report submitted!
+Id:167272
+Description:"Destroyed, you say? A tragedy. My wife and I did so enjoy their silken unmentionables..."
+
+		ParentEvent
+Id:144833
+
+
+
+	ChildBranches30
+Name:Isle of Cats
+Id:139574
+Description:"And what does the so-called Pirate-King have to say for himself, these days?"
+
+		DefaultEvent
+Name:Report Submitted!
+Id:169399
+Description:"Ye-es, well. We did rather know about his rose gardens. Not good news that they're prospering though - really should have nipped it in the, if you'll allow me, bud. Ha. And trading with the Khanate? With the Iron Republic? Bother. I may have to have a <i>meeting</i> about this ..." 
+
+		ParentEvent
+Id:144833
+
+
+
+	ChildBranches31
+Name:Visage
+Id:142040
+Description:"Ah, the island that looks up. I don't suppose you found out what it's staring at."
+
+		DefaultEvent
+Name:Report submitted!
+Id:173539
+Description:
+
+		ParentEvent
+Id:144833
+
+
+
+	ChildBranches32
+Name:Polythreme
+Id:142569
+Description:"The King with a Hundred Hearts. What a useful fellow. Without his exports, I'd be delivering my own coal."
+
+		DefaultEvent
+Name:Report submitted!
+Id:174362
+Description:
+
+		ParentEvent
+Id:144833
+
+
+
+	ChildBranches33
+Name:Empire of Hands
+Id:143976
+Description:"Oh, goodness. What are those accursed monkeys up to these days? You didn't bring any of them back with you, did you?"
+
+		DefaultEvent
+Name:Report submitted!
+Id:176528
+Description:"Such a ghastly place." A pause. "You know, there was somebody here asking about it only recently. Delightful lady, as I recall. Most delightful. Yes. I shall take the liberty of forwarding her your address..."
+<br />
+[Something new awaits in your Lodgings]
+
+		ParentEvent
+Id:144833
+
+
+
+	ChildBranches34
+Name:Empire of Hands
+Id:143977
+Description:"Oh, goodness. What are those accursed monkeys up to now? Don't let the Revenue Men catch you trading with them."
+
+		DefaultEvent
+Name:Report submitted!
+Id:176529
+Description:"I do wonder what it was that they did. Everyone says that <i>they</i> know, but I must confess to being curious as to what it was. Oh, well. I'm sure their lordships had reason."
+
+		ParentEvent
+Id:144833
+
+		RareDefaultEvent
+Name:Report submitted!
+Id:176530
+Description:"Wildweald Court? When I started here, it was the Court Eternal. Then the Amaranthine Palace. Then Soulharbour. Then... I do wish they would make up their blasted minds. The filing is most annoying."
+
+
+
+	ChildBranches35
+Name:Port Carnelian
+Id:146281
+Description:"You know, I sometimes wonder whether that place was a good idea. I didn't say that."
+
+		DefaultEvent
+Name:Report submitted!
+Id:180384
+Description:
+
+		ParentEvent
+Id:144833
+
+
+
+	ChildBranches36
+Name:Nuncio
+Id:146850
+Description:"Ah. Yes. The place that lures away postmen. One hears no end of complaints from the Postal Service."
+
+		DefaultEvent
+Name:Report submitted!
+Id:181350
+Description:
+
+		ParentEvent
+Id:144833
+
+
+
+	ChildBranches37
+Name:Frostfound
+Id:147485
+Description:"Is it as beautiful as they say? I doubt it. Poets are notorious liars. But liars make bad poets. A paradox, isn't it? Never mind! Your report?"
+
+		DefaultEvent
+Name:Report submitted!
+Id:182261
+Description:
+
+		ParentEvent
+Id:144833
+
+
+
+	ChildBranches38
+Name:Aestival
+Id:147625
+Description:"I had always wondered if it might be a myth - "
+
+		DefaultEvent
+Name:Report submitted!
+Id:182470
+Description:
+
+		ParentEvent
+Id:144833
+
+
+
+	ChildBranches39
+Name:The Chelonate
+Id:147626
+Description:"Is it still as revolting as they say? What about the smell?"
+
+		DefaultEvent
+Name:Report submitted!
+Id:182471
+Description:
+
+		ParentEvent
+Id:144833
+
+
+
+	ChildBranches40
+Name:Codex
+Id:147628
+Description:"Exiled for giving answers. That's Whither for you. Anything new?"
+
+		DefaultEvent
+Name:Report submitted!
+Id:182473
+Description:
+
+		ParentEvent
+Id:144833
+
+
+
+	ChildBranches41
+Name:The Fathomking's Hold
+Id:147630
+Description:"What's the old monster up to now?"
+
+		DefaultEvent
+Name:Report submitted!
+Id:182475
+Description:
+
+		ParentEvent
+Id:144833
+
+
+
+	ChildBranches42
+Name:Grand Geode
+Id:147634
+Description:"The Grand - yes. Yes, of course, we're generally quite well-informed on that topic, but since you're here, perhaps you may as well let us know what your own impressions were -"
+
+		DefaultEvent
+Name:Report submitted!
+Id:182481
+Description:The Admiralty official takes notes scrupulously, but with an expression of mild terror, like a novice vivisector wincing with a scalpel. The rest of the office studiously busy themselves with other tasks.
+
+		ParentEvent
+Id:144833
+
+
+
+	ChildBranches43
+Name:Khan's Shadow
+Id:147636
+Description:"Oh, these are always fun! Come on, let's hear it."
+
+		DefaultEvent
+Name:Report submitted!
+Id:182483
+Description:Other officials gather round to hear your tales of bloodshed and debauchery - and the jokes about the Khan that the Shadow produces so efficiently and so entertainingly. The one about the Khan and the donkey produces a roar of patriotic laughter, and encourages the Deputy Recorder to unlock the departmental drinks cabinet.
+
+		ParentEvent
+Id:144833
+
+
+
+	ChildBranches44
+Name:Wisdom
+Id:147649
+Description:"Brrr. Did the oracles look hungry?"
+
+		DefaultEvent
+Name:Report submitted!
+Id:182505
+Description:
+
+		ParentEvent
+Id:144833
+
+
+
+	ChildBranches45
+Name:Varchas
+Id:147651
+Description:"The Mirrored City, eh? Still think we're the barbarians, do they?"
+
+		DefaultEvent
+Name:Report submitted!
+Id:182507
+Description:
+
+		ParentEvent
+Id:144833
+
+
+
+	ChildBranches46
+Name:Varchas
+Id:147652
+Description:"Trouble afoot in the City of Light, hm?"
+
+		DefaultEvent
+Name:Report submitted!
+Id:182508
+Description:
+
+		ParentEvent
+Id:144833
+
+
+
+	ChildBranches47
+Name:Varchas
+Id:147653
+Description:"You look troubled, I must say. What's happening out there?"
+
+		DefaultEvent
+Name:Report submitted!
+Id:182509
+Description:
+
+		ParentEvent
+Id:144833
+
+
+
+	ChildBranches48
+Name:Adam's Way
+Id:147662
+Description:"'The Elder Continent'. Hmph. Elder than what? Pile of Mithridate nonsense, if you ask me."
+
+		DefaultEvent
+Name:Report submitted!
+Id:182520
+Description:
+
+		ParentEvent
+Id:144833
+
+
+
+	ChildBranches49
+Name:Irem
+Id:147665
+Description:"Oh God. Oh God. What tense is it written in? Oh God. Look, just read it to my colleague here. He'll give you your fee. I'll be over there when you're done."
+
+		DefaultEvent
+Name:Report submitted!
+Id:182523
+Description:
+
+		ParentEvent
+Id:144833
+
+
+
+	ChildBranches50
+Name:Kingeater's Castle
+Id:147667
+Description:"Ah. Despair's fastness."
+
+		DefaultEvent
+Name:Report submitted!
+Id:182525
+Description:
+
+		ParentEvent
+Id:144833
+
+
+
+	ChildBranches51
+Name:The Salt Lions
+Id:147668
+Description:"The Bazaar has always taken an interest in that place."
+
+		DefaultEvent
+Name:Report submitted!
+Id:182526
+Description:
+
+		ParentEvent
+Id:144833
+
+
+
+	ChildBranches52
+Name:Shepherd Isles: submit as fact
+Id:129834
+Description:"We do hear some peculiar tales of that place."
+
+		DefaultEvent
+Name:You are met with scepticism
+Id:152348
+Description:"Mm. Mm. Candidly, I'm not sure why you saw fit to trouble us with this nonsense. Is there anything else?"
+
+		ParentEvent
+Id:144833
+
+		SuccessEvent
+Name:"Good heavens!"
+Id:152352
+Description:"Here is your payment. This is quite extraordinary. I must rush this upstairs immediately. One moment."
+

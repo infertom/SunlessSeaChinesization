@@ -1,0 +1,72 @@
+Name:Near Adam's Way
+Id:181687
+Description:All ships that approach Adam's Way are intercepted by the Gracious - the Presbyterate's splendidly head-dressed coastguards. A quaint but inviolable tradition governs entry: you must tell them one of three stories. In return you will be permitted to spend a single day in the port. 
+
+
+
+	ChildBranches1
+Name:A tale of a city, recently fallen
+Id:147103
+Description:The Gracious are always eager for news from London.
+
+		DefaultEvent
+Name:A new day
+Id:181688
+Description:Is their interest strategic? Or do they just enjoy hearing about London's miseries? Regardless, they permit you to dock. 
+<br/><br/>
+The day has just begun. In the town's square, a yellow-robed priestess plants a seed in a bed of black soil. No sooner has she patted down the soil than a tiny shoot pokes forth. By mid-morning it will be a sapling; by lunchtime a budding tree. By the evening's end it will wither and fall. You must be back on your ship before then.
+
+		ParentEvent
+Id:181687
+
+
+
+	ChildBranches2
+Name:An unfinished tale
+Id:147104
+Description:The Gracious lean forwards, avidly. 
+
+		DefaultEvent
+Name:A new day
+Id:181689
+Description:The log ends immediately after an intriguing discovery. Did the captain survive? Did she return to her sweetheart? The Gracious are unconcerned. "Endings always disappoint, don't you think?"  
+<br/><br/>
+The day has just begun. In the town's square, a yellow-robed priestess plants a seed in a bed of black soil. No sooner has she patted down the soil than a tiny shoot pokes forth. By mid-morning it will be a sapling; by lunchtime a budding tree. By the evening's end it will wither and fall. You must be back on your ship before then.
+
+		ParentEvent
+Id:181687
+
+
+
+	ChildBranches3
+Name:A tale of Hell
+Id:147105
+Description:The Presbyterate has never explained its interest in devils. They are keen to hear what you learned in Mt Palmerston.
+
+		DefaultEvent
+Name:A new day
+Id:181690
+Description:An exchange of glances. Your ship is waved on, toward the long stone jetty. 
+<br/><br/>
+The day has just begun. In the town's square, a yellow-robed priestess plants a seed in a bed of black soil. No sooner has she patted down the soil than a tiny shoot pokes forth. By mid-morning it will be a sapling; by lunchtime a budding tree. By the evening's end it will wither and fall. You must be back on your ship before then.
+
+		ParentEvent
+Id:181687
+
+
+
+	ChildBranches4
+Name:Why are foreigners only allowed to spend a single day in Adam's Way?
+Id:147106
+Description:"For your own protection," one of them explains, kindly.
+
+		DefaultEvent
+Name:Unsafe
+Id:181691
+Description:The soil of the Elder Continent is dangerous to incomers, they claim. Those who linger can contract unfortunate conditions: hysteria, rapture, animescence.
+<br/><br/>
+And the rumours that Presbyterate law offers no protection to foreigners after dark? "Arrant nonsense."
+
+		ParentEvent
+Id:181687
+

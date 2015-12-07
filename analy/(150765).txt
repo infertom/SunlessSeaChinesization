@@ -1,0 +1,34 @@
+Name:A kind of obsession
+Id:150765
+Description:A stoker approaches you on deck. "Captain," she says, "that thing in the hold. It's dreaming about us. It means us no good. No good at all.
+
+
+
+	ChildBranches1
+Name:Back to work!
+Id:131654
+Description:Chide her for her foolishness and send her away.
+
+		DefaultEvent
+Name:Shaking her head
+Id:155188
+Description:"We'll be sorry. Oh, yes, we'll be sorry yet."
+
+		ParentEvent
+Id:150765
+
+
+
+	ChildBranches2
+Name:Throw it over the side
+Id:131655
+Description:Your crew's morale is more important than... whyever you're keeping it around.
+
+		DefaultEvent
+Name:A cheer!
+Id:155189
+Description:You fling it over the side, still in its container. Will it sink or swim? That's its problem. Your problem is your crew, and they're happy to see it go.
+
+		ParentEvent
+Id:150765
+

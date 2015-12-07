@@ -1,0 +1,34 @@
+Name:"Don't you dare forget me."
+Id:149164
+Description:You stand on the bridge with the Likely Lass' locket in your hand.
+
+
+
+	ChildBranches1
+Name:Keep it
+Id:127857
+Description:It's a risk for both of you. Shore-bound lovers grow lonely, and zee-captains die young.
+
+		DefaultEvent
+Name:Close your hand over the locket
+Id:149165
+Description:The zee-air is cold, but the heat of your blood has warmed the metal of the locket. Keep it close.
+
+		ParentEvent
+Id:149164
+
+
+
+	ChildBranches2
+Name:Throw it away
+Id:127858
+Description:With enough time and effort, you could break her heart, or she yours.
+
+		DefaultEvent
+Name:A shining arc
+Id:149166
+Description:It spins away into the night. Your first officer glances across, curiously. The throb of the engines drowns out the splash.
+
+		ParentEvent
+Id:149164
+

@@ -1,0 +1,39 @@
+Name:The Lorn-Fluke approaches
+Id:144191
+Description:O[xxxxx] THRR [xxxxx] N KUTHE TH[xxxxxx].
+
+
+
+	ChildBranches1
+Name:Fight!
+Id:124623
+Description:Your gunners' ears bleed from the onslaught of its irreducible language. But you defy this alien power!
+
+		DefaultEvent
+Name:
+Id:144192
+Description:
+
+		ParentEvent
+Id:144191
+
+
+
+	ChildBranches2
+Name:Flee!
+Id:124624
+Description:Sometimes, Lorn-Flukes can be bribed with Secrets. But how many Secrets will this one demand?
+
+		DefaultEvent
+Name:[xxxxx] MORE MORE T T T [xxxxx]
+Id:144193
+Description:It devours your Secret and reaches for you again. Perhaps one more Secret will satisfy it: perhaps not -
+
+		ParentEvent
+Id:144191
+
+		SuccessEvent
+Name:Satisfied for now
+Id:149742
+Description:It attacks your Secret with flintily savage syllables, murderous feral shards of alien grammar. The Secret comes apart like grilled cheese, and is devoured. The Fluke whirls and pursues again! but you've won a little time...
+

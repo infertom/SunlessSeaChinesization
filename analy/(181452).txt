@@ -1,0 +1,54 @@
+Name:The Cavity
+Id:181452
+Description:You are bathed in crimson light, thick as cream. It warms your skin and fills your mouth with the taste of iron. THIS IS ONLY A MEMORY OF A MEMORY, a voice intones. THE CRIME IS FORGOTTEN. ITS SHADOW REMAINS.
+
+
+
+	ChildBranches1
+Name:Surrender to the traces of horror
+Id:146928
+Description:Whatever was remembered here is gone - but even its traces still scald the air. You can give in to it, but it will damage you. [This will cost you a point of Hearts.]
+
+		DefaultEvent
+Name:That art
+Id:181454
+Description:All living things are joined in the Chain: men and apes, bees and roses, messengers and stars. When the Red Science breaks it, even time is scarred. Now that scar has touched your spirit.
+
+		ParentEvent
+Id:181452
+
+
+
+	ChildBranches2
+Name:Return to the Corridors of Frostfound
+Id:146929
+Description:
+
+		DefaultEvent
+Name:
+Id:181455
+Description:
+
+		ParentEvent
+Id:181452
+
+
+
+	ChildBranches3
+Name:Compare your own memories of horror
+Id:146927
+Description:Find the similarities - but keep a safe distance. Understand the fear that haunts this place, without surrendering to it.
+
+		DefaultEvent
+Name:Distraction
+Id:181453
+Description:There was a terror you found, out on the zee. You remember it keenly. But what does it mean, this chamber, this place? Frostfound shivers around you. Memory is fragile.
+
+		ParentEvent
+Id:181452
+
+		SuccessEvent
+Name:
+Id:181497
+Description:All living things are joined in the Chain: men and apes, bees and roses, messengers and stars. When the Red Science breaks it, even time is scarred. It happened, and it is a terror on the sky: but it's only another story, like your story. It is past.
+

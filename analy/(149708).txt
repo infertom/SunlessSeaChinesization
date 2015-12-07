@@ -1,0 +1,43 @@
+Name:Phoebe the Arsoniste
+Id:149708
+Description:The fire begins in Phoebe's turret room... but it spreads quickly. Zailors tumble choking from the door as the smoke billows out. The yellow-eyed maid leaps from a window, and streaks across the lawn on all fours.
+
+
+
+	ChildBranches1
+Name:Watch...
+Id:128178
+Description:It's all you can do.
+
+		DefaultEvent
+Name:The death of Hunter's Keep
+Id:149709
+Description:Flames lick about the gables. The spine of the house breaks with a roar as the roof falls in. Sparks fly up towards the false-stars so far above. The death of the house takes hours, but it is total. Only a cindered shell remains. Of Phoebe, you find nothing.
+
+		ParentEvent
+Id:149708
+
+
+
+	ChildBranches2
+Name:Save Phoebe
+Id:128179
+Description:Her mind may be lost to grief and madness, but at least perhaps you can save her flesh from the flames.
+
+		DefaultEvent
+Name:The flames beat you back
+Id:149710
+Description:You and your crew try again and again to reach her. To no avail. The turret collapses: a zailor goes with it, screaming desperately. The spine of the house breaks with a roar as the roof falls in. Sparks fly up towards the false-stars so far above. The death of the house takes hours, but it is total. Only a cindered shell remains. Of Phoebe, you find nothing.
+
+		ParentEvent
+Id:149708
+
+		SuccessEvent
+Name:A desperate rescue
+Id:149711
+Description:A bucket-chain passes up water from the zee: enough to slow the flames a fraction, and to soak the cloths you wrap yourself in. You dash through the flames, your skin crisping, eyebrows sizzling. (Your hair grows back patchy, after.) Phoebe is slumped against the wall: you seize her, sling her over a shoulder, dash out.<br/><br/>
+The spine of the house breaks with a roar as the roof falls in. Sparks fly up towards the false-stars so far above. The death of the house takes hours, but it is total. Only a cindered shell remains. 
+<br/><br/>
+Phoebe weeps when she wakes: racking sobs that shake her body. "You should have left me," is all that she will say, for the longest time. 
+Her face is horribly burned. She goes bandaged, after, like the half-dead of the tomb-colonies. Perhaps she's half-dead herself. It can be difficult to tell, in the Neath.
+

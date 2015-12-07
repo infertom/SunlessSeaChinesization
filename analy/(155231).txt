@@ -1,0 +1,154 @@
+Name:Desperate Measures
+Id:155231
+Description:Without fuel, your ship is just an oddly shaped house located somewhere you really don't want to live. [This will disappear as soon as you have fuel: if you're in a position to purchase some, don't worry about it.]
+
+
+
+	ChildBranches1
+Name:Search your Supplies for something of use
+Id:131685
+Description:There must be something you can repurpose as fuel -
+
+		DefaultEvent
+Name:A kind of success
+Id:155232
+Description:It smells like burning rags, but it'll satisfy the engine's hunger for a little while - 
+
+		ParentEvent
+Id:155231
+
+
+
+	ChildBranches2
+Name:Abandon Ship
+Id:131687
+Description:Draw lots for lifeboat-places. Cast yourself on the mercy of the waves. There is a tiny chance that you'll find your way back to London, without either crew or ship. Perhaps it'll be better if you don't.
+
+		DefaultEvent
+Name:An end to it
+Id:155235
+Description:One by one, your crew abandon themselves to their fate. You are the last.
+
+		ParentEvent
+Id:155231
+
+		RareDefaultEvent
+Name:The luckiest of chances
+Id:181234
+Description:Row, drift, row. Sleep, wake. Gather rain-drips from the cavern roof. Hoik fish from the zee. Until a Royal Navy picket comes within yards of running you down. They come about and pick you up. "Lubbers," you hear a rating mutter.<br/><br/>
+They can put you ashore at the end of the Cumaean Canal.
+
+
+
+	ChildBranches3
+Name:Make a sacrifice to Stone
+Id:146743
+Description:Stone is the kindest of the gods of the zee, but that's not saying very much. She has a great Wound, from which a river of blood flows. Wound yourself in memory of her, and perhaps she'll show mercy.
+
+		DefaultEvent
+Name:The blood flows thick and red
+Id:181185
+Description:The wound is impossibly hard to staunch. Your ship's doctor fusses with bandages. The deck is awash. Your vision becomes cloudy at the corners. Through a roaring buzz in your ears, you see the puzzled doctor hold up a diamond splinter. "This came from the wound."
+<br/><br/>
+Thanks, Stone.
+
+		ParentEvent
+Id:155231
+
+		RareDefaultEvent
+Name:An unlikely find
+Id:181191
+Description:Your ship's doctor bandages the wound efficiently. You pace the deck and ignore the pain as best you can. Your engineer approaches. 
+<br/><br/>
+"Captain - there's more fuel in the bins than I realised. Just a little. I'd looked three times. I'm sure it wasn't there before. But now - it might be enough - "
+
+
+
+	ChildBranches4
+Name:Make a sacrifice to Storm
+Id:146744
+Description:Storm, the god in the roof: angriest of the three. He's as likely to crush you as save you, but you could hardly be worse off, after all.
+<br/><br/>
+He will require a death. Time to draw lots.
+
+		DefaultEvent
+Name:...save you?
+Id:181186
+Description:The blood of the sacrifice is black in the deck-lights. The crew are silent. No one will look at anyone else.
+<br/><br/>
+With a crash like a thunderbolt smashing a cathedral window, a great stalactite strikes the deck! Two things become apparent. Firstly, it has fallen on a second crew-member, crushing them flat. Secondly, it is - improbably - encased in a great bolus of coal...
+
+		ParentEvent
+Id:155231
+
+		RareDefaultEvent
+Name:The Great Wave
+Id:182202
+Description:The blood of the sacrifice is black in the deck-lights. The crew are silent. No one will look at anyone else.
+<br/><br/>
+The zee stirs. It withdraws; flattens unnaturally; rises in a wave as high as a hill! Your ship is borne up, up, up - high enough that you glimpse the roof of the Neath - and then comes smashing down.
+
+
+
+	ChildBranches5
+Name:Make a sacrifice to Salt
+Id:146745
+Description:Salt, the god of horizons and farewells. Who knows what he'll do? Whisper a secret into the dark, and see.
+
+		DefaultEvent
+Name:A white zee-bat
+Id:181187
+Description:It lands on the rail, and cocks its head. It blinks at you, two tiny eyes like chips of crystal. It rises, and is lost in the deep night of the earth. Your gaze follows it.
+<br/><br/>
+When your gaze returns to the ship, you realise that the ship is elsewhere. Gasps from your crew tell you you're not imagining it. Perhaps it's not where you wanted to be. But that's Salt for you.
+
+		ParentEvent
+Id:155231
+
+		RareDefaultEvent
+Name:A visitor
+Id:181189
+Description:You whisper your prayer into the dark. Something has heard it: you're terribly certain of that. Perhaps this is Salt's idea of helping. Or perhaps you're just very unlucky.
+
+
+
+	ChildBranches6
+Name:Fire a distress flare
+Id:146746
+Description:This is very unlikely to work. If it works, you may regret what it brings. The Unterzee is not exactly aswarm with friendly ships.
+
+		DefaultEvent
+Name:Fading glory
+Id:181190
+Description:The flare rises, rises, rises. It bursts in a shower of red and soft white. The sparks descend, soften, fade, are gone. The zee laps the hull.
+<br/><br/>
+"Try again, Wai-en," the bosun murmurs. You blink at him. He shrugs. "Just something they used to say in Spite."
+
+		ParentEvent
+Id:155231
+
+		RareDefaultEvent
+Name:Approaching pirates!
+Id:181195
+Description:An over-bold pirate cutter falls beneath your guns... but not before it's done some damage. Your crew can swim out and recover a little fuel, if your ship stays afloat.
+
+
+
+	ChildBranches7
+Name:A few last Supplies
+Id:131686
+Description:Very little remains to you, but if you're lucky, perhaps there's something you can use - 
+
+		DefaultEvent
+Name:No luck
+Id:155233
+Description:Nothing but barley and bottled ham. This is not good at all.
+
+		ParentEvent
+Id:155231
+
+		SuccessEvent
+Name:Yes!
+Id:155234
+Description:It smells like burning rags, but it'll satisfy the engine's hunger for a little while - 
+

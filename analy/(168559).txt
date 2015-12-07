@@ -1,0 +1,86 @@
+Name:The Voracious Diplomat
+Id:168559
+Description:The Diplomat lairs near Mansion's Pyre, in a second-floor office above a gymnasium for pugilistic ladies and gentlemen. Your conversation is punctuated by distant shouts and blows. The Diplomat smiles fondly at the sounds.
+
+
+
+	ChildBranches1
+Name:Pick up an Agent
+Id:141597
+Description:"I have a friend," the Diplomat says casually, "who would be grateful for passage somewhere else. The Khanate, for instance." [An Agent will allow you to establish an intelligence network, and sometimes to grow it later.]
+
+		DefaultEvent
+Name:A name, an address
+Id:172759
+Description:Both are probably temporary, but they're all you need.
+
+		ParentEvent
+Id:168559
+
+
+
+	ChildBranches2
+Name:Describe recent moves in the Great Game
+Id:141598
+Description:"Oh, yes?"
+
+		DefaultEvent
+Name:Full attention
+Id:172760
+Description:The Diplomat takes no notes: only listens with utmost concentration, fingertips touching, eyes lightly closed. The payment is small, but welcome.
+
+		ParentEvent
+Id:168559
+
+
+
+	ChildBranches3
+Name:Ask about the Diplomat's role
+Id:142293
+Description:What kind of diplomacy is involved?
+
+		DefaultEvent
+Name:A catly grin
+Id:173948
+Description:"The kind of diplomacy that doesn't get written down. I'm attached to the Admiralty, not the Foreign Office. London is not what she was, but she still has interests abroad. I look after them as best I can. I do hope you're patriotic enough not to ask for too many details."
+
+		ParentEvent
+Id:168559
+
+
+
+	ChildBranches4
+Name:Ask about the Dark-Spectacled Admiral
+Id:142294
+Description:Do they work closely together?
+
+		DefaultEvent
+Name:A carefully neutral expression
+Id:173949
+Description:"Well now. The Admiral is a man of principle. Very straightforward. Very traditional in his views. I think it's rather courageous of him to expect the Navy to operate without outside assistance. And he has excellent taste in both chamber-music and wine. I hope that makes my feelings clear."
+
+		ParentEvent
+Id:168559
+
+
+
+	ChildBranches5
+Name:Provide Vital Intelligence
+Id:142304
+Description:"I say! <i>Now</i> I'm listening."
+
+		DefaultEvent
+Name:Etched in memory
+Id:173962
+Description:The Diplomat takes no notes and makes no sign; only listens in absolute silence, and finally nods and declares: "I'll pass this on to where it will do the most good. Thank you."
+[The Voracious Diplomat serves London, but has dangerous allies.]
+
+		ParentEvent
+Id:168559
+
+		RareDefaultEvent
+Name:Etched in memory
+Id:173992
+Description:The Diplomat takes no notes and makes no sign; only listens in absolute silence, and finally nods and declares: "I'll pass this on to where it will do the most good. Thank you."
+[The Voracious Diplomat serves London, but has dangerous allies.]
+

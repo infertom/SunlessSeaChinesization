@@ -1,0 +1,36 @@
+Name:Speak to the Shady Cook
+Id:148102
+Description:"Whatcheront?" He might say more, but a coughing fit takes him. Eventually he straightens up and wipes his mouth, slowly, with his forearm. [The Shady Cook is not the most hygienic of officers, but he'll do until you find someone better.]
+
+
+
+	ChildBranches1
+Name:Increase your Hearts
+Id:127110
+Description:"Vorragerranarigeh?"[Spend a Secret to improve your Hearts, but no higher than 50.]
+
+		DefaultEvent
+Name:"Irroverair."
+Id:148103
+Description:"Sorgalotagubbins. Gamasonssey!"
+
+		ParentEvent
+Id:148102
+
+
+
+	ChildBranches2
+Name:Ask him what he wants from life?
+Id:146423
+Description:Why did the Shady Cook choose to go to zee?
+
+		DefaultEvent
+Name:"Fwrerr."
+Id:180628
+Description:He looks you directly in the eyes. "Seolly." He repeats it, more slowly. "Sea of Lilies." He licks his lips, very slowly. Eventually you have to look away.
+<br/><br/>
+[The Sea of Lilies is somewhere in the east-central Unterzee.]
+
+		ParentEvent
+Id:148102
+

@@ -1,0 +1,35 @@
+Name:A Walk with the Lady of the Cages
+Id:169516
+Description:"Leopold has a particular fascination with the Surface. He still thinks of it as home, in some ways. Endearing, isn't it?" She doesn't wait for your answer. "Personally, I've drunk the memories of so many homes, I couldn't pick a particular one out of the lot. Tricky things."<br><br>
+"Still, it does make him easier to buy birthday presents for. Have I muddled this up? I did say I set up a meeting with the King for you, didn't I? Well. I did."
+
+
+
+	ChildBranches1
+Name:Bring Leopold a Gift
+Id:139654
+Description:"Someone with memories from the Surface. It's not his birthday, exactly. But you'll want to make a good impression." 
+
+		DefaultEvent
+Name:
+Id:169517
+Description:Your Patron dismisses you with the advice that the Cumaean Canal is the likeliest place to source such a particular gift. 
+
+		ParentEvent
+Id:169516
+
+
+
+	ChildBranches2
+Name:You politely decline
+Id:139655
+Description:You are not entirely sure you wish an introduction to the Pirate-King, and you are not terribly keen on the transport of unwilling gifts, as it were. [Refusal will lock you out of further work for Zaira.]
+
+		DefaultEvent
+Name:
+Id:169518
+Description:"I've mucked up the timing, haven't I? Or maybe it's you that's broken. Are you? It's so hard to tell, in this light. I'm supposed to do something, aren't I?" Zaira looks confused for a moment, and then stamps her foot in a charade of rage. "You are banished from my presence! Begone, foul disappointment!" She gives you a wink, before her face clears. "But really, I am rather cross. Yes? Mmm. I probably won't kill you. But one never quite knows, does one?"
+
+		ParentEvent
+Id:169516
+

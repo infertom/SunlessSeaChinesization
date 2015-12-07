@@ -1,0 +1,71 @@
+Name:Cavendish Abbey
+Id:168543
+Description:The Melliferous Sisters make their home in the richly-appointed stone tower of Cavendish Abbey. Their thick gloves and crimson-mesh helmets are worn, less for modesty, and more for practicality. They tend the hives of the lamplighter bees all across the Isle, and make a religious observance of harvesting red honey for the Pirate-King.
+[Your actions will attract the Pirate-King's notice. You need 5 x Pirate-King's Notice to gain an offer from a Patron.]
+
+
+
+	ChildBranches1
+Name:Gossip with a Novice
+Id:139063
+Description:She could, she tells you earnestly, really <i>use</i> a lamentable relic. Best not to ask her what for.
+
+		DefaultEvent
+Name:
+Id:168546
+Description:She is only a recent novice, and barely even inducted into the Lower Apistic Mysteries. Still, she has some useful information to impart: the recent destabilisation of the red honey trade elsewhere has been fortuitous for the Isle of Cats. Honey production can barely meet demand. The Abbess and the Lady of the Gardens are having some kind of dispute over <i>staffing</i>, of all things. 
+
+		ParentEvent
+Id:168543
+
+
+
+	ChildBranches2
+Name:Fuel for the Bee-Smokers
+Id:139094
+Description:The Sister who tends the smokers is the talkative sort.
+
+		DefaultEvent
+Name:
+Id:168596
+Description:The Sister tells you that the Pirate-King went to Abbey Rock fifty years ago and asked the Abbess to send some of her novices to Port Cavendish. You ask why, and she shakes her head. "The better question is: why did the Abbess send her precious novices to a place like this?"
+<br><br>
+You suggest a hefty bribe, or perhaps coercion. The Sister cackles harshly. "The Sisters of the Rock respect strength-of-arms, which of course the Pirate-King knew only too well. He challenged the Abbess to a duel, and won. She didn't have much choice then!" She cackles again. "Ask our Abbess if you don't believe me. She was one of those very novices, sent across the zee!"
+
+		ParentEvent
+Id:168543
+
+
+
+	ChildBranches3
+Name:A Meeting with the Abbess
+Id:139441
+Description:She is always interested in news from London.
+
+		DefaultEvent
+Name:
+Id:169202
+Description:You recite your news to the Abbess, your voice stuttering every now and then in the cool silence of her office. Her face is entirely obscured by her thick veil, and it is impossible to read her reactions. Nonetheless, you must have pleased her - she orders one of her novices to load your ship with casks of mushroom wine.
+<br><br>
+The Abbey overlooks the Rose Garden, and so you make a point to linger at the windows. The roses bloom lush and wanton, each petal the colour of sunset. A tall woman in a golden veil picks her way between the thorned bushes.
+
+		ParentEvent
+Id:168543
+
+
+
+	ChildBranches4
+Name:The Lady of the Gardens' offer
+Id:139442
+Description:Her name, she says, is Zaira. You should use it.
+
+
+
+		DefaultEvent
+Name:
+Id:169203
+Description:
+
+		ParentEvent
+Id:168543
+

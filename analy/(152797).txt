@@ -1,0 +1,173 @@
+Name:Speak to your bandaged cook
+Id:152797
+Description:"My captain! Come into my little galley. Mind that pot of sauce. It is, ahaha, vigorous in the extreme."
+
+
+
+	ChildBranches1
+Name:Increase your Hearts
+Id:130124
+Description:"Let us speak, my captain, of the nature of edibility..."
+
+		DefaultEvent
+Name:Culinary philosophies
+Id:152798
+Description:"To be edible, is to be possible to be consumed. And to be living, is to consume. Thus we find that the nature of the unliving is to <i>be</i> consumed. In fact, therefore, anything that is not living may be consumed - "
+
+		ParentEvent
+Id:152797
+
+
+
+	ChildBranches2
+Name:Dine with the Ba-
+Id:146198
+Description:"Ah, no no no, my captain! <i>You</i> shall dine with <i>me</i>!"
+
+		DefaultEvent
+Name:The great work
+Id:180267
+Description:Your companion barely eats. He has to cut the fish into tiny morsels to squeeze it through the gap in his bandages. Soon the cloth is stained with sauce. He throws down his fork. "Look at me. I am not at my best, no? Believe me, your appetite would not be so strong if I removed my bandages. How long before my fingers fail? Or my tongue pickles?" 
+<br/><br/>
+He swirls his wine. "Captain: a request. I have cooked for barons and bishops. The Khan. The Empress. But there is one for whom I have not cooked. A creature of singular and <i>acroamatic</i> tastes. I want to make him marvel! The chef's art is alchemy, and this would be my philosopher's stone. My immortality. Will you aid me?" [Bring your chef Strange Catches and Live Specimens to further his research.]
+
+
+		ParentEvent
+Id:152797
+
+
+
+	ChildBranches3
+Name:Hand over a Strange Catch for his culinary masterpiece
+Id:147215
+Description:"Hello, little fellow. Let us see what delights you hold." His filleting knife gleams. [This is a matter of luck. He will need at least two useful ingredients.]
+
+		DefaultEvent
+Name:Disappointment
+Id:181861
+Description:"Alas. Too ordinary." The flesh goes onto his shipboard athanor-stove: an edifice of his own invention that combines the functions of roasting and refinement. Steam rises. The crew lick their lips.
+
+		ParentEvent
+Id:152797
+
+		RareDefaultEvent
+Name:Promise!
+Id:181862
+Description:He tastes a morsel on the tip of his knife, and shudders. "An exquisite find, my captain. Like a devil's lips. Searing. Probably fatal. But utterly worth the risk."
+
+
+
+	ChildBranches4
+Name:Turn over a Live Specimen for his culinary masterpiece
+Id:147259
+Description:"Wonderful! The fresher the better! Hold it down a moment. I will need to fetch the larger of my mandolines." [This is a matter of luck. He will need at least two useful ingredients.]
+
+		DefaultEvent
+Name:Excellent, but not exemplary
+Id:181932
+Description:He grunts in disappointment. "It is merely delicious. I need <i>extraordinary</i>. I suppose that -  served as a mousse on lightly-crusted biscuit with a little lemon - it would be acceptable to simpler palates." Your crew enjoy the fruits of his disappointment.
+
+		ParentEvent
+Id:152797
+
+		RareDefaultEvent
+Name:A useful ingredient
+Id:181933
+Description:Tasting it, he makes a strangled noise. Have you poisoned him? "No, no. Or if so, poison of the finest sort! Like bee-stings in sugar! Or honeyed scalpels! Yes, this. This!"
+
+
+
+	ChildBranches5
+Name:He pokes his head from the galley
+Id:147260
+Description:"Have you my mutersalt, captain? My zzoup? I am keen to investigate their possibilities." A braising-alembic bubbles eagerly in the background.
+
+		DefaultEvent
+Name:Supplies
+Id:181934
+Description:"Excellent!" He retreats into his galley and bars the door. Day and night his jugging-crucible blazes. The galley portholes flare crimson across the black zee. He does not answer the door. It's ship's biscuits and barrelled water for a while.
+<br/><br/>
+When he emerges, his bandages are yellow with smoke. "I am victorious! The zzoup defied me, but I have broken it. Chantarelles from some soggy edge of London. Pig stock. A feisty dash of paprika. Lament-onions. Petals from the exile's rose, which grows in Hell. And tears! From a hanged man or a heartbroken priest - I believe either would suffice. The method of the ingredients' combination is singular. I believe I can make use of it. We are charting new culinary frontiers, my captain, but the Fathomking presides over the Drowning Feasts. He is accustomed to excess. We must amaze."
+<br/><br/>
+That night, the crew dine happily on fish stew. The Poissonnier keeps your wine glass topped up, and at the end of dinner approaches you nervously. "I am afraid I have another request, captain. I need something from Khan's Heart. A certain... book of recipes. If we were going that way..." He fidgets with the ends of his bandages, avoiding your gaze. Why is he lying to you? 
+
+		ParentEvent
+Id:152797
+
+
+
+	ChildBranches6
+Name:Give him an Elegiac Cockatoo
+Id:147261
+Description:When the bird sees the galley its poetry becomes doubly heartfelt.
+
+		DefaultEvent
+Name:The final piece
+Id:181935
+Description: "Ah! He is magnificent! Come, my solemn, feathered compatriot. Let us work wonders. We will be the best of friends. For a little while." They vanish inside. The bird's poetry, even muted, does little to improve the mood of the crew. Several days later, the Poissonnier throws a sack of feathers overboard, yet somehow gloomy couplets continue to drift from the galley's porthole. "Ah, captain. All is ready. Although we will need wine. Lots of wine." [Procure 5 crates of Mushroom Wine and make your way to the Fathomking's Hold.]
+
+		ParentEvent
+Id:152797
+
+
+
+	ChildBranches7
+Name:Deliver a Colossal Fluke-Core to the galley
+Id:147262
+Description:The zailors struggle under the weight. Irrigo juices stain the deck.
+
+		DefaultEvent
+Name:The final piece
+Id:181936
+Description:"Marvellous! Bring it in. Forgive me if I do not help. The irrigo is potent, and it would not do for me to forget a vital step in the preparations. Zail for the Fathomking's Hold, my captain! I will begin my work." He snaps his fingers, remembering something. "Oh!  And we will need wine. Lots of wine."[Procure 5 crates of Mushroom Wine and make your way to the Fathomking's Hold.]
+
+		ParentEvent
+Id:152797
+
+
+
+	ChildBranches8
+Name:A squelch, then a quivering thunk
+Id:147289
+Description:The Bandaged Poissonnier has thrown a strange catch across the galley, and then a knife. Is something wrong?
+
+		DefaultEvent
+Name:A limitation
+Id:181966
+Description:"The ingredients are fine, it is my hands that are deficient! There are piquant jewels hiding in the vitals of these creatures, but I cannot extract them! One slip, and the taste is contaminated."
+<br/><br/>
+He paces the galley. "I need to improve my butchery. Can you take me to the Chelonate? No one knows more about gutting than the Bone Men."
+
+		ParentEvent
+Id:152797
+
+
+
+	ChildBranches9
+Name:He has a question about your current destination
+Id:147436
+Description:"Do you think we will pass near Khan's Heart sometime soon?"
+
+		DefaultEvent
+Name:The request
+Id:182196
+Description:"My business there should not take long. I only need to retrieve an old recipe book." He twiddles a loose bandage-end nervously. "It contains certain... ah... formulae and distillations I will need for the feast. Yes." He is an exceptional chef, but a poor liar.
+
+		ParentEvent
+Id:152797
+
+
+
+	ChildBranches10
+Name:He has a request
+Id:147440
+Description:After his visit to the Khanate he is more fixated, less congenial. He corners you below decks, his eyes fervent between his wrappings.
+
+		DefaultEvent
+Name:Is that all?
+Id:182201
+Description:"I need a capstone for the feast, captain. Something unforgettable. I have a vision - no, two! One demands the core of a lorn-fluke. The other requires a certain bird of the Elder Continent: a cockatoo, given to funereal poetry. I have heard a certain southern showman owns such a creature." He waves a casual hand. "Either would do - do not trouble yourself with both." [Acquire a Colossal Fluke-Core or Elegiac Cockatoo.]
+
+		ParentEvent
+Id:152797
+

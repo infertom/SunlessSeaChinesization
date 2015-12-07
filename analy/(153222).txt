@@ -1,0 +1,39 @@
+Name:An Exile Aboard?
+Id:153222
+Description:A Mute Exile wants to join your crew. Will you permit it?
+
+
+
+	ChildBranches1
+Name:Permit it
+Id:130388
+Description:...though other zailors clutch their zee-talismans and make signs against evil. The folk of Whither are uncanny: those who are exiled to Codex must be more so.
+
+		DefaultEvent
+Name:Welcome her aboard
+Id:153223
+Description:She can't, or won't, speak, but it's clear she knows the zee. She'll do well, this one.
+
+		ParentEvent
+Id:153222
+
+
+
+	ChildBranches2
+Name:Refuse it
+Id:130389
+Description:You'll pick your crew more carefully.
+
+		DefaultEvent
+Name:She shrugs and turns away
+Id:153224
+Description:You can't see her face. Does she even care? You're a long way from everywhere that matters.
+
+		ParentEvent
+Id:153222
+
+		RareDefaultEvent
+Name:She spits on the ground
+Id:153225
+Description:...shakes her head, slowly: and makes a complex sign with her hand. The sea crashes on the shore. Someone is watching.
+

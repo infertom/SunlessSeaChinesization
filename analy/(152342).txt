@@ -1,0 +1,96 @@
+Name:Aftermaths
+Id:152342
+Description:You've given the House of Cavy all the assistance you can. What next?
+
+
+
+	ChildBranches1
+Name:Invite a Cavy on board with you.
+Id:129831
+Description:They're reputed to be excellent swimmers. They're adorable enough to boost morale. And if times are lean, well, maybe a guinea pig stew will buy the crew a day or two before they start eating each other.
+
+		DefaultEvent
+Name:Welcome aboard.
+Id:152343
+Description:The Seneschal of course can't abandon her duties, but she makes certain your request is cried out in the village square. The Page squeaks excitedly and seeks permission from her to join your party. 
+<br><br>
+"I will record your doings for the Glory of Cavy," he declares, "and I'd like to see more of the world."
+<br><br>
+You wait for him to gather up some effects and say goodbye to his family before lifting anchor and setting off.
+
+		ParentEvent
+Id:152342
+
+
+
+	ChildBranches2
+Name:The Wide Dark Zee
+Id:129934
+Description:There's nothing left for you here, except the story of the place...
+
+		DefaultEvent
+Name:
+Id:152489
+Description:
+
+		ParentEvent
+Id:152342
+
+
+
+	ChildBranches3
+Name:Intercede on behalf of the Rats.
+Id:129832
+Description:They've been defeated, and you intuit that they had no knowledge of the damage being done to the Cavies by the Eye's theft. Perhaps amends can be made? 
+
+		DefaultEvent
+Name:The right of kings.
+Id:152344
+Description:You appeal to the House of Cavy's grace and good breeding, and praise King Gracegnaw's magnanimity. Perhaps the rats knew not what they did, in stealing the Eye? Perhaps they were only stumbling about in the dark for a light -- as the Cavies were themselves, while lost at sea?
+<br><br>
+The Seneschal and the King exchange a look. The Seneschal murmurs something into the King's ear, and he growls deep in his throat.
+<br><br>
+"You saw only the frond-tip of our suffering, Captain. The rats must answer for every drop of noble blood spilt, and in kind. We will require a great many hearts and livers to repair the health of our great kingdom. Our young shall eat their old, as is meet." 
+<br><br>
+The King's courtiers chitter appreciatively at his wordplay while the Knights separate the screaming young rats from the adults, who have given up trying to fight.
+
+		ParentEvent
+Id:152342
+
+		SuccessEvent
+Name:Thoughtful consideration.
+Id:152345
+Description:You appeal to the House of Cavy's grace and good breeding, and praise King Gracegnaw's magnanimity. Perhaps the rats knew not what they did, in stealing the Eye? Perhaps they were only stumbling about in the dark for a light -- as the Cavies were themselves, while lost at sea?
+<br><br>
+The Seneschal and the King exchange a look. The Seneschal murmurs something into the King's ear, and he purrs decisively.
+<br><br>
+"To err is Murine; to forgive, Cavine." He looks towards the Chief Engineer. "If you will cede all right to Our Lady's Eye and help us place it back in its pool of holy pilgrimage -- and if you agree to terms of tribute -- "
+<br><br>
+"<i>Trade</i>," hisses the Chief Engineer. King Gracegnaw chatters his teeth, but the Seneschal steps forward and raises her voice. "...Perhaps further negotiation is possible." 
+<br><br>
+As you leave, you see the Page timidly approaching an Albino rat to inquire about fishing nets.
+
+
+
+	ChildBranches4
+Name:Steal the Eye
+Id:129833
+Description:Perhaps you think you deserve it as your due; perhaps it's what you wanted all along. In either case, it should be possible to snatch it from under the Cavies' noses while they're busy herding their prisoners. 
+
+		DefaultEvent
+Name:"TRAITOR!"
+Id:152346
+Description:The Seneschal screams against your treachery loud enough to summon a dozen Knights to the spot before you can tamp the Eye's brilliance with a hastily tossed blanket. One barrels bodily into your leg; another other bites your palm; you miss your toss, and are swiftly overcome by the righteous fury of guinea pigs betrayed. 
+<br><br>
+It's all you can do to limp back into the ship and sail away before you suffer further, more permanent damage.
+
+		ParentEvent
+Id:152342
+
+		SuccessEvent
+Name:The blearing of a haughty Lady's Eye
+Id:152347
+Description:Perhaps it's because what you're doing is so inconceivable that the Cavies are slow to react. The Gap-Toothed Knight is the only one attending to Our Lady's Eye when you approach; a nod to your zailors and they seize him, muffling his shout of alarm while you throw some heavy blankets over the bowl of blue scintillack's brilliance. 
+<br><br>
+The Cavies scream their agony in the sudden dim, but the impairment of their vision combined with their recent combat exhaustion renders their rage ineffectual. You sail off with the Eye; the Gap-Toothed Knight will make an entertaining addition to some circus, no doubt, if you don't eat him first.
+

@@ -1,0 +1,32 @@
+Name:The White-and-Golds
+Id:154994
+Description:The keening of the pipes and the rattle of white-painted carriages! The Khanate regards you as unwelcome. The White-and-Golds are coming for you!
+
+
+
+	ChildBranches1
+Name:Flee!
+Id:131525
+Description:Perhaps you can lose them in the alleyways and double back to your ship.
+
+		DefaultEvent
+Name:An unfragrant captain
+Id:154995
+Description:They're almost on you! In a fit of desperation, you dive through an open manhole into the elaborate sewers of the Heart. The White-and-Golds pursue you even there, but the cleanliness of their uniform disinclines them to search as carefully as they might.
+<br/><br/>
+Still, it is a full two days before you dare emerge. In the meantime you've fought rat-crab hybrids, hidden trembling from maintenance teams, and feasted on the grimmest and slimmest of pickings. When you creep back to the docks, your crew are all but ready to sail without you. Their relief on seeing you is tempered by the appalling state of your person.
+<br/><br/>
+[Next time, it might go worse still for you. Visit Khan's Glory and plead with the Taimen Clan for mercy before you return here.]
+
+		ParentEvent
+Id:154994
+
+		SuccessEvent
+Name:Turn and turn again
+Id:154996
+Description:They know the streets far better than you. You take an alley - they've blocked the other end. You scramble up a wall - they're already on the roof. Higher, higher. Up the Garden Tower above the park. Will you dare jump? They think you won't. They've left you no other choice. The black water smashes the light from you.
+<br/><br/>
+You wake, wheezing, on the deck of your ship, as your crew squeeze water from your lungs. It takes a while to be certain you're even alive. How did you come here? The crew fished you from the water, but did you swim all that way alone? Or do you have a benefactor?
+<br/><br/>
+[Next time, it might go worse still for you. Visit Khan's Glory and plead with the Taimen Clan for mercy before you return here.]
+

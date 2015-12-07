@@ -1,0 +1,221 @@
+Name:Quaker's Haven
+Id:143382
+Description:Once, this simple fishing village was part of the London suburbs, before London fell and the waters rushed in. Smoke spirals from cottage chimneys. A lonely hill rises behind town.
+
+
+
+	ChildBranches1
+Name:Explore the shore
+Id:124096
+Description:Wander a little way along the shore from the dock.
+
+		DefaultEvent
+Name:
+Id:143383
+Description:
+
+		ParentEvent
+Id:143382
+
+
+
+	ChildBranches2
+Name:Drinks at the Cock and Magpie
+Id:124097
+Description:There's only one public house on the island. The Cock and Magpie is famed for its local cider and, of course, the zee-food. 
+
+		DefaultEvent
+Name:Cider and cave-dory
+Id:143384
+Description:The trees of the Neath are scraggly and wretched - scraping a living with parasynthesis - but the apples of Mutton Island are tart and powerful, perfect for zider. Zider? Cider! This stuff is stronger than it looks. You stretch out in your seat, stare through the leaded window at your safely moored ship, and find yourself whistling. The landlord gives you a friendly grin and goes back to whetting his cleaver.
+
+		ParentEvent
+Id:143382
+
+		RareDefaultEvent
+Name:Fresh Rubbery Lumps
+Id:146917
+Description:Tonight they're serving Rubbery Lumps, the Mutton Island way! They make them down in London, but they're not the same. These are like gristle if gristle could be golden. Saltier than any decent food should be, but somehow you can't stop eating them.
+<br/><br/>
+'It's the well water, see,' slurs a young man who has been making friends with cider. 'Can't make proper Rubbery Lumps without a proper well. Stands to reason. We look after the well here. Treat it right. And the Drowned Man looks after us.' The landlord comes over, slaps the young fellow, and takes his cider away.
+
+
+
+	ChildBranches3
+Name:Explore the shore
+Id:126365
+Description:Wander a little way along the shore from the dock.
+
+		DefaultEvent
+Name:
+Id:146909
+Description:
+
+		ParentEvent
+Id:143382
+
+
+
+	ChildBranches4
+Name:Explore the shore
+Id:126366
+Description:Wander a little way along the shore.
+
+		DefaultEvent
+Name:
+Id:146910
+Description:
+
+		ParentEvent
+Id:143382
+
+
+
+	ChildBranches5
+Name:Explore the shore
+Id:126369
+Description:Wander a little way along the shore from the dock.
+
+		DefaultEvent
+Name:
+Id:146913
+Description:
+
+		ParentEvent
+Id:143382
+
+
+
+	ChildBranches6
+Name:Chat to the fishermen
+Id:126370
+Description:They sail the zee around the island: they mend their nets by the harbour. They see all that happens here, but you'll need coin to open their mouths.
+
+		DefaultEvent
+Name:Little ships and little secrets
+Id:146918
+Description:Pirates plying the waves. Smugglers at their work. Khanate ships putting in to resupply. Nothing dramatic, but enough to interest the Admiralty.
+
+		ParentEvent
+Id:143382
+
+
+
+	ChildBranches7
+Name:Pick up a Wretched Mog
+Id:126592
+Description:"Mrrow. Mrrrowww." A yellow-eyed, mangy, piebald thing winds around your ankles like a manacle-chain. You've never seen a cat's mouth open that wide. Presumably it's hungry. [This is a Mascot, one variety of Officer.]
+
+		DefaultEvent
+Name:What's that smell?
+Id:147268
+Description:It jumps down from your arms and disappears into the darkness of the ship. An hour later, five brutally executed rats are found on the foredeck. [Appoint your new Mascot by dragging him from the Officers tab to his slot at the top of the screen. If you do this at sea rather than in port, you may affect crew morale.]
+
+		ParentEvent
+Id:143382
+
+
+
+	ChildBranches8
+Name:Put a blemmigan ashore
+Id:133948
+Description:Fertile, quiet and occasionally boggy: Mutton Island is perfect blemmigan country.
+
+		DefaultEvent
+Name:Disapproval
+Id:158940
+Description:A fisherman watches the violet shape scurry off down the beach. "'Tain't right," she says severely. "'Tain't natural. Worse than dandelions."
+
+		ParentEvent
+Id:143382
+
+
+
+	ChildBranches9
+Name:Explore the shore
+Id:147422
+Description:Wander a little way along the shore from the dock.
+
+		DefaultEvent
+Name:
+Id:182172
+Description:
+
+		ParentEvent
+Id:143382
+
+
+
+	ChildBranches10
+Name:Explore the shore
+Id:147437
+Description:Wander a little way along the shore from the dock.
+
+		DefaultEvent
+Name:
+Id:182197
+Description:
+
+		ParentEvent
+Id:143382
+
+
+
+	ChildBranches11
+Name:Visit the hilltop above town
+Id:126368
+Description:There's not much wind on the Unterzee. But Mutton Island suffers eery gusts and buffets from an inexplicably local fragment of weather, and the air on the hilltop sometimes carries interesting scents...
+
+		DefaultEvent
+Name:Peace
+Id:146912
+Description:You stand on the cliff-top, looking over the Island's village. Smoke from the chimneys of the Cock and Magpie drifts straight upwards. There's not a breeze to ruffle your hair nor to lift your collar. Below you, a young woman carries what could be real flowers, handing them out with a curtsey to everyone she meets.
+
+		ParentEvent
+Id:143382
+
+		SuccessEvent
+Name:Toasting the wind
+Id:146914
+Description:<p>You stand on a cliff-top, looking over the little  village. Smoke from the chimney of the Cock and Magpie drifts straight upwards. As you watch, the smoke tilts. The sudden wind thins it to a pencil smudge, then nothing. The wind screams unexpectedly, like a god cut in half. </p>
+
+<p>What a noise! It must be the caves around the island channeling the air. At least, that's the most comforting explanation. Below you, the locals each take nips from a shared flask and make a toast towards the mainland. The wind is a Southerly.</p>
+
+		RareSuccessEvent
+Name:The voice of the wind
+Id:146915
+Description:<p>You stand on a cliff-top, looking over the little whitewashed village. Smoke from the chimney of the Cock and Magpie drifts straight upwards. As you watch, the smoke tilts. The sudden wind thins it to a pencil smudge, then nothing. The wind screams unexpectedly, like a god cut in half. </p>
+
+<p>The scream subsides, giving way to a susurrus that surrounds you suddenly with the illusion of whispering voices. You could swear you hear words - 'in the depths', 'under seven poles', 'nowhere nowhere nowhere nowhere...'</p>
+
+<p>It must be the caves around the island channeling the air. At least, that's the most comforting explanation. Below you, the locals each take nips from a shared flask and make a toast towards the mainland. The wind is a Southerly.</p>
+
+
+
+	ChildBranches12
+Name:A midnight ceremony?
+Id:126367
+Description:A warm night on Mutton Island. A balmy wind blows from the East, rich with promise. There are torches bobbing up the hill. Whatever's happening, it's for locals only, but you could follow them.
+
+		DefaultEvent
+Name:Too late
+Id:146911
+Description:You don't know the hill paths like the locals do, and you have to climb more than walk. Your skin is sheened with sweat by the time you reach the top. The black rocks greet you with empty indifference. If something happened up here, you're too late to see it. Still, the climb was good practice.
+
+		ParentEvent
+Id:143382
+
+		SuccessEvent
+Name:
+Id:146916
+Description:<p>You don't know the cliff paths like the locals do, and you have to climb more than walk. Your skin is sheened with sweat by the time you reach the top. They've started without you. How rude.</p>
+
+<p>An elderly fellow wears a feathered head-dress and not much else: he seems to be leading the ceremony. One assistant holds an ear of corn (where did he find that down here?), another a stone jug, another a clay tablet. The elderly priest addresses them all to his congregation.
+</p>
+<p>
+You catch snatches of it: “The Drowned Man is not a god." (The villagers hiss a reply.) "He came from the North, and to the North he will return." (Another reply.) "The North is too cold for gods." ("Too cold for gods," they intone delightedly.)</p>
+
+<p>Finally, they nod in agreement. The circle turns as one to grab one of their number, a man (or woman?) with a lamp. They carry him (or possibly her) to the precipice and hurl the flailing body over the edge, down into the oily black waves far below.</p> 
+
+<p>Their business done, the locals remove their robes and wander amiably back to town. They all seem quite jolly. Apparently the night's business went well. They retreat to the Cock and Magpie for a pint.</p>
+

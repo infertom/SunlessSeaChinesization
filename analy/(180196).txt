@@ -1,0 +1,104 @@
+Name:Maybe a Mother
+Id:180196
+Description:The Daughter leaves with the woman in lilac. You see nothing of them for the rest of the night. But in the morning, the Daughter returns, her eyes bright with purpose. "Show me your tattoo," she demands.
+
+
+
+	ChildBranches1
+Name:"I don't have a tattoo."
+Id:146157
+Description:You've kept your skin untouched.
+
+		DefaultEvent
+Name:"Aha!"
+Id:180197
+Description:"So you're the messenger, not the message." Perhaps you look confused: she grins. "Messengers are sacred in the Neath, you know. Messengers like the Echo Bazaar. My mother forged an alliance with the Bazaar. That's how she came to learn the Great Signs, the tattoos no one wears." Her grin turns feral. "I'll show her."
+
+		ParentEvent
+Id:180196
+
+
+
+	ChildBranches2
+Name:The Dauntless Hand
+Id:146200
+Description:"You mean this?"
+
+		DefaultEvent
+Name:"Oh!"
+Id:180269
+Description:"Force: force is always the answer. My mother wouldn't tell me. But her other daughters knew her secrets." The Daughter's grin is not quite sane.
+<br/><br/>
+"My mother forged an alliance with the Bazaar. That's how she came to learn the Great Signs, the tattoos no one wears. We must return to London. That is - please can we return to London? Please. We must find Penstock, who watches the secret wicket-gate of the Bazaar. "
+
+		ParentEvent
+Id:180196
+
+
+
+	ChildBranches3
+Name:The Wheel of Mists
+Id:146201
+Description:"You mean this?"
+
+		DefaultEvent
+Name:"Oh!"
+Id:180270
+Description:"I've seen that one before. That's Clathermont work, isn't it? I bet they told you 'we are not the messenger, but the message'. Well, you're the message, today." The Daughter's grin is not quite sane.
+<br/><br/>
+"My mother forged an alliance with the Bazaar. That's how she came to learn the Great Signs, the tattoos no one wears. We must return to London. That is - please can we return to London? Please. We must find Penstock, who watches the secret wicket-gate of the Bazaar. "
+
+		ParentEvent
+Id:180196
+
+
+
+	ChildBranches4
+Name:The Unflinching Eye
+Id:146202
+Description:"You mean this?"
+
+		DefaultEvent
+Name:Aha!
+Id:180271
+Description:"The eye: the eye sees, and the heart understands. My mother wouldn't tell me. But her other daughters knew her secrets." The Daughter's grin is not quite sane.
+<br/><br/>
+"My mother forged an alliance with the Bazaar. That's how she came to learn the Great Signs, the tattoos no one wears. We must return to London. That is - please can we return to London? Please."
+
+		ParentEvent
+Id:180196
+
+
+
+	ChildBranches5
+Name:The Splendour
+Id:146203
+Description:"You mean this?"
+
+		DefaultEvent
+Name:
+Id:180272
+Description:"The Sun! The Sun, from which the Great Signs came. My mother wouldn't tell me. But her other daughters knew her secrets." The Daughter's grin is not quite sane.
+<br/><br/>
+"My mother forged an alliance with the Bazaar. That's how she came to learn the Great Signs, the tattoos no one wears. We must return to London. That is - please can we return to London? Please."
+
+		ParentEvent
+Id:180196
+
+
+
+	ChildBranches6
+Name:The Gambit
+Id:146204
+Description:"You mean this?"
+
+		DefaultEvent
+Name:
+Id:180273
+Description:"The Game! It extends farther than we know. Up to the Surface... and up to the stars. My mother wouldn't tell me. But her other daughters knew her secrets." The Daughter's grin is not quite sane.
+<br/><br/>
+"My mother forged an alliance with the Bazaar. That's how she came to learn the Great Signs, the tattoos no one wears. We must return to London. That is - please can we return to London? Please."
+
+		ParentEvent
+Id:180196
+

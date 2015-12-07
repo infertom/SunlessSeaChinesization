@@ -1,0 +1,34 @@
+Name:An Offer of Assistance
+Id:153572
+Description:"Ahoy, captain! Out of fuel, are we? That was unwise. We can help. For a reasonable price, under the circumstances. (Hee hee.)"
+
+
+
+	ChildBranches1
+Name:Pay the towing fee
+Id:130585
+Description:One hundred Echoes to travel the tiny distance between here and the docks. Well...
+
+		DefaultEvent
+Name:"Stoke away, lads!"
+Id:153573
+Description:The grubby little tug roars into life. You're home!
+
+		ParentEvent
+Id:153572
+
+
+
+	ChildBranches2
+Name:Salvage rights
+Id:146749
+Description:"Well then... we can give you a lift. But we're legally entitled to take your ship and cargo. God bless the Masters of the Bazaar, and their salvage laws. God bless 'em." [This will remove your ship, and replace it with something minimal and a tiny bit of fuel. You'll probably lose your cargo, too, but you'll keep any cash and Lodgings, and at least you'll be alive.]
+
+		DefaultEvent
+Name:Worse things happen at zee
+Id:181198
+Description:...but not much worse.
+
+		ParentEvent
+Id:153572
+

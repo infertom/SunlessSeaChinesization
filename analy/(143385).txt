@@ -1,0 +1,116 @@
+Name:Polythreme
+Id:143385
+Description:Taciturn Clay Men. Evasive clothes-colonies, walking like humans. Cobbles that groan underfoot. On the hills above, a palace-villa of marble - but even that writhes like buried bones in an earthquake.
+
+
+
+	ChildBranches1
+Name:Gather intelligence
+Id:124098
+Description:What news from Polythreme?
+
+		DefaultEvent
+Name:What lives
+Id:143386
+Description:The King with a Hundred Hearts rules from his palace above the city. He is never seen. He makes no treaties with other lands. But there's unrest in the air. The Clay Men you speak to are obedient and humble, but they speak nervously of those who are not: the maimed, the rebellious, the Unfinished...
+
+		ParentEvent
+Id:143385
+
+		RareDefaultEvent
+Name:The city cries out
+Id:154674
+Description:Roads roil, bricks quiver.The windows of all the buildings flash like eyes. The palace above the city swells and roars. This convulsion is how Clay Men are born. Even now, somewhere below, they open their blind-seeming grey eyes.
+
+
+
+	ChildBranches2
+Name:Shore leave!
+Id:124099
+Description:Drink beer that wails from cups that sob. If you like that sort of thing. [Polythreme is an expensive place to reduce Terror.]
+
+		DefaultEvent
+Name:An uneasy respite
+Id:143387
+Description:Under other circumstances, your crew might have been happier.
+
+		ParentEvent
+Id:143385
+
+
+
+	ChildBranches3
+Name:A contact-colony
+Id:130493
+Description:Your contact waits at the Whistling Eye: a masked bundle of grimy satin. The light here is poor, but it seems to have more gloves than it should.
+
+		DefaultEvent
+Name:A muttered plea
+Id:153415
+Description:"Please," wheezes a voice from within the mounds of clothing, "take it. I need to pay my debt." It seems that the clothes - mostly gloves, you see - are more wearing than being worn. The pale and sweating fellow within is a prisoner of his wardrobe! Take the report, though your fingers may shrink from the touch of the living cloth that binds him. Return it to London, and perhaps you'll help him pay what debt he owes.
+
+		ParentEvent
+Id:143385
+
+
+
+	ChildBranches4
+Name:Collect the Cheery Man's cargo
+Id:131049
+Description:A great temple has been wounded. It will be years in the dying. It groans and shivers, and the Clay Men avoid the place out of fear and respect. But you meet one of their number in the shattered chamber where the altar once stood...
+
+		DefaultEvent
+Name:What souls are these?
+Id:154272
+Description:The Clay Man swallows the coins in handfuls - for safety, not out of appetite, you assume - and hands you a crate of whispering souls. Human? The souls back home are all but silent. Perhaps these are the souls of chairs, hats, swords. That's Polythreme for you. [Return to the Blind Bruiser in London. Don't lose your cargo.]
+
+		ParentEvent
+Id:143385
+
+
+
+	ChildBranches5
+Name:Carry Clay Men to London
+Id:131534
+Description:Are they passengers, or cargo? They're certainly the easiest passengers imaginable. Unless - just unless - one turns out to be an Unfinished Man. [You should have 6 units of cargo space available.]
+
+		DefaultEvent
+Name:They troop aboard
+Id:155010
+Description:Each one lies down in its appointed position next to the other, nested snugly, head by foot. "WE ARE FOR LONDON," one explains to you.
+
+		ParentEvent
+Id:143385
+
+
+
+	ChildBranches6
+Name:Put a blemmigan ashore
+Id:133950
+Description:Who knows what the living furniture will make of it?
+
+		DefaultEvent
+Name:Curious alliances
+Id:158942
+Description:The last you see of your violet murder-fungus, it seems to be flirting with a fanged water-pump. Strange bedfellows.
+
+		ParentEvent
+Id:143385
+
+
+
+	ChildBranches7
+Name:An audience with the King with the Hundred Hearts
+Id:137636
+Description:The Clay Broker, leaning on his copper staff, examines you coolly. "The King will see your little friend," he says. "No, he won't see you: not just now." He gestures for you to hand him the Watchful Curio.
+
+		DefaultEvent
+Name:That night
+Id:166153
+Description:That night, the hill of Polythreme quakes. The words on the walls uncurl themselves. The birth-cries are everywhere heard, as Clay Men sit up, opening incurious eyes, awaiting their tithing to London.
+<br><br>
+The Clay Broker waits on the quayside. On the flat palm of his broad hand, the Watchful Curio squats: but it is changed. "Our regards to Stone," is all he says.
+
+		ParentEvent
+Id:143385
+

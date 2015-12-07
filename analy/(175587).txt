@@ -1,0 +1,138 @@
+Name:The Mayor's Shack
+Id:175587
+Description:In better times, being overseer of Port Stanton gave the incumbent their pick of visitors to the Empire. Now, it is as thankless a task as any to be found in the Neath.
+
+
+
+	ChildBranches1
+Name:Sell your soul to the Mayor
+Id:143363
+Description:He doesn't have much to offer, but if you aren't using it...
+<br />
+[The Mayor will pay 200 Echoes for your soul.]
+
+		DefaultEvent
+Name:The deal is struck!
+Id:175588
+Description:There is an official Chandler of Souls who would ordinarily preside over such things, but the Mayor sees no reason why he should receive his customary fee for something that any monkey with a blackjack and a few implements can do. Even an unsouled forest-monkey can steal a soul and almost never cause lasting harm to the victim. Donor. He means donor. Of course.
+<br /></br >
+Later, you awaken under rags, bruised, with a headache and feeling of loss. It is done. Your mind licks at the strange emptiness as a tongue might a missing tooth.
+
+		ParentEvent
+Id:175587
+
+
+
+	ChildBranches2
+Name:Acquire emergency fuel
+Id:143374
+Description:If only there wasn't a trade embargo, you could refuel so cheaply and easily, the Mayor sighs. "Oh, if only!" But, he adds, idly picking his teeth, he might, just maybe, know of some barrels conveniently sitting around...
+<br />
+[This fuel will cost a pricey 50 Echoes per barrel]
+
+		DefaultEvent
+Name:The deal has been done
+Id:175603
+Description:His prices are extortionate, of course. Still, poverty is a better option than being stranded. Hopefully this will be enough to make it to a port where the vendors don't literally lick their lips as they count your money.
+
+		ParentEvent
+Id:175587
+
+
+
+	ChildBranches3
+Name:Acquire emergency fuel
+Id:143385
+Description:The Mayor smiles, steepling his fingers. The zailor in him knows he has you over a barrel, and that barrel contains fuel. The Delightful Adventuress in him concurs.
+<br />
+[This fuel will cost a ludicrous 75 Echoes per barrel]
+
+		DefaultEvent
+Name:Merely Echoes? No blood for good measure?
+Id:175616
+Description:It is not that monkeys have no word for gratitude, simply that in most tongues it translates as an obscenity. But you had no choice. Perhaps a nostalgic part of the soul within him feels bad about this. Probably not.
+
+		ParentEvent
+Id:175587
+
+
+
+	ChildBranches4
+Name:Acquire emergency fuel
+Id:143386
+Description:The Mayor smiles tightly. As a four-soul ape with ambitions, he cannot be seen to be anything but cunning, ruthless, and avaricious to a fault. The part of him that was the Delightful Adventuress only cheers him on.
+<br />
+[This fuel will cost an expensive 60 Echoes per barrel]
+
+		DefaultEvent
+Name:The deal has been done
+Id:175617
+Description:"Always a pleasure," says the Mayor, reaching for his pipe. "Do please enjoy our port. Enjoy it as much as you like. Take a whole afternoon, if you must."
+
+		ParentEvent
+Id:175587
+
+
+
+	ChildBranches5
+Name:Acquire emergency Fuel
+Id:143387
+Description:"Fuel? Got fuel." The Flea-Ridden Mayor nods quickly. "Not cheap. Not free. Can be arranged. London money okay. Put on table. Look on docks. Yes?"
+<br />
+[This fuel will cost a hefty 40 Echoes per barrel]
+
+		DefaultEvent
+Name:The deal has been done
+Id:175618
+Description:The Flea-Ridden Mayor snatches the extortionate fee, toying with it in the candlelight. He nods. "Will send. No questions. More if needed."
+
+		ParentEvent
+Id:175587
+
+
+
+	ChildBranches6
+Name:Acquire fresh Supplies
+Id:144000
+Description:Oddly little of the Empire of Hands' natural bounty is edible. The monkeys will help you find the edible stuff, for a fee.
+
+		DefaultEvent
+Name:A crate of berries, fruits and more
+Id:176556
+Description:Most of them taste unpalatably bitter, but they will do you and your crew no harm in the short term.
+
+		ParentEvent
+Id:175587
+
+
+
+	ChildBranches7
+Name:Excuse yourself
+Id:144149
+Description:The rest of the Empire of Hands awaits.
+
+		DefaultEvent
+Name:The Mayor returns to pretending to work
+Id:176760
+Description:Outside, a crowd of monkeys that has absolutely not being listening in scampers away.
+
+		ParentEvent
+Id:175587
+
+
+
+	ChildBranches8
+Name:Acquire emergency fuel
+Id:144958
+Description:The Mayor smiles tightly. As a four-soul ape with ambitions, he cannot be seen to be anything but cunning, ruthless, and avaricious to a fault. The part of him that was the Delightful Adventuress only cheers him on.
+<br />
+[This fuel will cost an expensive 60 Echoes per barrel]
+
+		DefaultEvent
+Name:The deal has been done
+Id:178177
+Description:"Always a pleasure," says the Mayor, reaching for his pipe. "Do please enjoy our port. Enjoy it as much as you like. Take a whole afternoon, if you must."
+
+		ParentEvent
+Id:175587
+

@@ -1,0 +1,229 @@
+Name:Library of Parts
+Id:169406
+Description:Moon-Moth stands to one side, as your escort and tour guide.
+
+
+
+	ChildBranches1
+Name:Ask about the purpose of this room
+Id:139580
+Description:What sorts of parts are they, anyway?
+
+		DefaultEvent
+Name:Filed under M for Masked
+Id:169407
+Description:Moon-Moth explains. People think it means something like 'library of fragments', but this is wrong.
+<br/><br/>The parts in question are like parts in a play. This is where the denizens of Visage come in order to learn how to perform their masks more accurately, more completely, with a truer spirit.
+
+		ParentEvent
+Id:169406
+
+
+
+	ChildBranches2
+Name:Study the scrolls in a bumbling way
+Id:139581
+Description:They look very old, after all.
+
+		DefaultEvent
+Name:Hearts guarded
+Id:169408
+Description:Taking the nearest, you read it aloud: 'For guarding against the loss of the heart.' 
+<br/><br/>
+Moon-Moth takes it from you, rolls it tightly, and returns it to its niche. "There are as many ways of guarding against the loss of the heart as there are different masks," it explains, in that same light and indifferent voice.
+
+		ParentEvent
+Id:169406
+
+
+
+	ChildBranches3
+Name:Write notes in the margins
+Id:139584
+Description:If your frog glove will hold a pen, that is.
+
+		DefaultEvent
+Name:Halt there!
+Id:169411
+Description:Moon-Moth is startled. Apparently no other Frog has gone so far as to attempt to deface the library's holdings. It gets the pen away from you, expostulating.
+<br/><br/>
+Later you find it writing down a record of what you just did. To be added to the Library of Parts, a recollection of what can be expected from frogs.
+
+		ParentEvent
+Id:169406
+
+
+
+	ChildBranches4
+Name:Steal what scrolls you may
+Id:139589
+Description:There are a large number of them.
+
+		DefaultEvent
+Name:More of a Locust activity
+Id:169419
+Description:You go from niche to niche, putting scrolls into your pockets.
+<br/><br/>
+Moon-Moth intervenes. This is a Locust activity, not proper for you at all. It expects you to spy instead. Then it expects you to be taken to the place of execution and hung upside down. This is what happens to Bats in Visage.
+<br/><br/>
+The penalty for misplaying your role is only a little better than the penalty for being a Bat. You end up scarred and maskless, back at the dock.
+
+		ParentEvent
+Id:169406
+
+
+
+	ChildBranches5
+Name:Praise the literary traditions of Visage
+Id:139590
+Description:The scrolls are so numerous, so neatly shelved, so elegantly illustrated.
+
+		DefaultEvent
+Name:Infiltrator
+Id:169420
+Description:Moon-Moth considers you. Perhaps it thinks you are acting too much like a Frog. Perhaps it thinks this is a Bat gambit to gain favour. Misplaying your role would be bad, and correctly playing the Bat would be worse. 
+<br/><br/>
+Either way, there are penalties. You end up scarred and maskless, back at the dock.
+
+		ParentEvent
+Id:169406
+
+
+
+	ChildBranches6
+Name:Look for books about the ritual in the Ear
+Id:139897
+Description:Perhaps there's more for you to understand.
+
+
+		DefaultEvent
+Name:Scroll after scroll
+Id:169926
+Description:The ritual is listed yearly for dozens, perhaps hundreds, of years. Each ritual records which citizen cleared the door for entry and which masks were present in the procession. 
+<br/><br/>
+There are references, oblique but suggestive, that the ritual began long after the Ear was built, 'when the new people came to Visage.' But why they came, and what happened to the old people, is not recorded.
+<br/><br/>
+And there is never any record about what was said inside the Ear.
+
+		ParentEvent
+Id:169406
+
+
+
+	ChildBranches7
+Name:Look for books about the ritual in the Ear
+Id:139899
+Description:Perhaps there's more for you to understand.
+
+
+		DefaultEvent
+Name:Scroll after scroll
+Id:169929
+Description:You sift through past records. The ritual is listed yearly for dozens, perhaps hundreds, of years. Each ritual records which citizen cleared the door for entry, and which masks were present in the procession. 
+<br/><br/>
+There are references, oblique but suggestive, that the ritual began long after the Ear was built, 'when the new people came to Visage.' But why they came, and what happened to the old people, is not recorded.
+<br/><br/>
+And then, this most recent ritual: it is recorded as having been "corrupted by light."
+<br/><br/> 
+Ah. That will have been you, then.
+
+		ParentEvent
+Id:169406
+
+
+
+	ChildBranches8
+Name:Steal the most valuable-looking scroll for later sale
+Id:139586
+Description:It is the sort of thing a locust might do.
+
+
+
+		DefaultEvent
+Name:As expected...
+Id:169414
+Description:You are not sneaky enough. Moon-Moth sees what you do, and confiscates the sack bulging beneath your carapace. He does not, however, seem angry. What else would the locust do but take whatever is available to be taken? He awaits you outside the library with unruffled calm.
+
+		ParentEvent
+Id:169406
+
+		SuccessEvent
+Name:More and more
+Id:169415
+Description:Gilt-edged scrolls. Papyrus bound with emerald-green silk bands. Poems of the traversal to the realm of the dead. Into your sack they go, leaving the scroll-niches bare.
+<br/><br/>
+Moon-Moth does not see what you do. The carapace of your costume hides everything.
+
+
+
+
+	ChildBranches9
+Name:Read over Lotus-blossom's shoulder
+Id:139587
+Description:What is that she's studying?
+
+		DefaultEvent
+Name:Bud form
+Id:169416
+Description:She appears to be reading poetry, but you catch no more than a few references to petals before she sees that you're lurking. Her body folds in on itself, flower returning to bud form.
+<br/><br/>
+The Moon-Moth does not like you doing this. Does not like it, and accuses you of being a Bat in disguise, and casts you out.
+
+		ParentEvent
+Id:169406
+
+		SuccessEvent
+Name:Bud and bloom
+Id:169417
+Description:She appears to be reading poetry: something about the blossom that folds away beneath the water at night, and blooms again in the daytime. She frowns as she reads, and goes back over and over the same passages, as though committing them to memory. As though it is very important for her to have every syllable by heart.
+<br/><br/>
+She is too absorbed to notice you there, but the Moon-Moth is not. It does not like to see you interfering, and accuses you of being a Bat in disguise, and casts you out.
+
+
+
+	ChildBranches10
+Name:Steal the most valuable-looking scroll for later sale
+Id:139582
+Description:Not very frog-like, but who cares?
+
+		DefaultEvent
+Name:Not your role
+Id:169409
+Description:Your every move is exaggerated, made louder and more bumbling, by your foolish costume. Moon-Moth finds you with one big flappy glove wrapped around a gilt-edged scroll. He takes it away and escorts you back to the customs house.
+<br/><br/>
+"If you are greedy, return to us as a locust," he says. "But do not do locust-deeds from under a frog-mask."
+
+		ParentEvent
+Id:169406
+
+		SuccessEvent
+Name:Flop, flop
+Id:169421
+Description:The trouble about your costume is that it amplifies all of your movements; and since everyone is used to hearing you coming and going, even when you succeed in being stealthy, your silence is notable anyway. So it is a considerable coup that you manage to filch one of the scrolls edged in gilt and illustrated in lapis, and tuck it into the giant rubbery belly of your costume.
+<br/><br/>
+It is probably a coincidence that the Moon-Moth declares your visit to be at an end, shortly afterward.
+
+
+
+	ChildBranches11
+Name:Pick the pockets of the readers
+Id:139588
+Description:While they are looking, you can be acquiring.
+
+		DefaultEvent
+Name:Ignored
+Id:169418
+Description:You dip your fingers into a Crocodile's purse and acquire a few coppers from a Heron. From the way the Heron flinches, you know she knows you're there. Apparently it is the etiquette of the place not to prevent a Locust from stealing.
+<br/><br/>
+Perhaps for the same reason, the coins are no more than tiny copper chips each stamped with an eye sigil. Practically worthless.
+
+		ParentEvent
+Id:169406
+
+		SuccessEvent
+Name:Successful if not wealthy
+Id:169460
+Description:You dip your fingers into a Crocodile's purse and acquire a few coppers from a Heron. The coins here are no more than tiny copper chips each stamped with an eye sigil: the exchange rate must be thousands of these to the Echo, hardly worth taking home.
+<br/><br/>
+But you have acted as a Locust is meant to act, anyhow. There are no scrolls for locusts in the Library of Parts.
+

@@ -1,0 +1,74 @@
+Name:An Intriguing Smell
+Id:143928
+Description:"Who'll try? Who'll buy?" A street-vendor turns skewers on a grill. The mixed scents are nothing like anything sold in London.
+
+
+
+	ChildBranches1
+Name:Try the grilled troglodyte prawns
+Id:124444
+Description:Huge and pale, and their eyes stare bleakly into yours. But they smell fresh.
+
+		DefaultEvent
+Name:Not bad at all
+Id:143929
+Description:Tangy and toothsome. Walk on, chewing cheerfully.
+
+		ParentEvent
+Id:143928
+
+
+
+	ChildBranches2
+Name:"Do you have anything more... robust?"
+Id:127979
+Description:The vendor winks, and produces a usefully anonymous skewer of meat.
+
+		DefaultEvent
+Name:That particular hunger
+Id:149360
+Description:Now satisfied. How rich and red.
+
+		ParentEvent
+Id:143928
+
+
+
+	ChildBranches3
+Name:Try something mysterious
+Id:127974
+Description:What exactly is 'tyrant's treat'? The vendor is vague. It looks something like a charred stick dripping with bluish fluid.
+
+		DefaultEvent
+Name:Hold your nose
+Id:149352
+Description:You follow the vendor's advice, holding your nose as you swallow, but the smell - something like rotting fruit - still makes you gag. The 'stick' is leathery - the blue stuff is rubbery as drying mucus. You fail to keep it down, and disgrace your captaincy there on the street.
+
+		ParentEvent
+Id:143928
+
+		SuccessEvent
+Name:Rare and delicious!
+Id:149353
+Description:Tyrant-moth antennae! You know how to deal with these. You break it into fragments and swallow the dripping fragments each in a gulp, exhaling briskly to savour the vapours afterwards. It's a complex rather than a pleasant flavour, but its tonic effects are marvellous.
+
+
+
+	ChildBranches4
+Name:Try the shredded jillyfish
+Id:124445
+Description:It's not to everyone's taste.
+
+		DefaultEvent
+Name:Force it down
+Id:143930
+Description:Urgh. You'll regret it later. The jillyfish's venom numbs your tongue and roils your stomach.
+
+		ParentEvent
+Id:143928
+
+		SuccessEvent
+Name:Jillyfish: the food of queens
+Id:149354
+Description:Traces of its venom still remain - just enough to make your tongue tingle and alter your consciousness a touch. Your pulse accelerates, and odd thoughts sparkle in the forefront of your mind.
+

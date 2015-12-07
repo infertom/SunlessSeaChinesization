@@ -1,0 +1,15 @@
+Name:Open a Long-Buried Treasure
+Id:145176
+Description:
+
+
+
+	ChildBranches1
+Id:125253
+
+		DefaultEvent
+Id:145177
+
+		ParentEvent
+Id:145176
+

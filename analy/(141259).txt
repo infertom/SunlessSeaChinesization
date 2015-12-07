@@ -1,0 +1,32 @@
+Name:Treachery
+Id:141259
+Description:Occurs only when Terror is high. Your crew turn on you.
+
+
+
+	ChildBranches1
+Name:Talk 'em down
+Id:122732
+Description:easy
+
+		DefaultEvent
+Name:
+Id:141260
+Description:
+
+		ParentEvent
+Id:141259
+
+
+
+	ChildBranches2
+Name:Take 'em down
+Id:122733
+Description:
+
+		DefaultEvent
+Id:141261
+
+		ParentEvent
+Id:141259
+

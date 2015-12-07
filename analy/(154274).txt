@@ -1,0 +1,39 @@
+Name:A pointed enquiry
+Id:154274
+Description:"Good evening again. It seems you do not 'ave the package we expected. Perhaps you still possess the payment, and a suitable sum for interest and to cover the expenses of myself and these stout gentlemen? Otherwise we must visit a reckoning on you and yours." Behind the Blind Bruiser, a gang of ruffians clap iron-shod cudgels into their hands.
+
+
+
+	ChildBranches1
+Name:Return the payment and the interest
+Id:131051
+Description:Perhaps you can still escape without worse consequences.
+
+		DefaultEvent
+Name:A grudging nod
+Id:154275
+Description:"That sets us even. I regret that since you 'ave proven less than reliable my patron will do without your services. Well, let us be philosophical about it, and if we cannot be philosophical, let us be" - he leans briefly closer - "silent."
+
+		ParentEvent
+Id:154274
+
+
+
+	ChildBranches2
+Name:A battle on the dockside!
+Id:131052
+Description:The forces of the law are conspicuous by their absence. Paid off, no doubt. This doesn't look good.
+
+		DefaultEvent
+Name:Overrun!
+Id:154276
+Description:They are numerous, determined and brutal. They storm the ship: break bones, crack skulls, fling helpless men to the Drownies below, leave crippled zailors behind them.
+
+		ParentEvent
+Id:154274
+
+		SuccessEvent
+Name:You see them off!
+Id:154277
+Description:Not entirely without casualties. One zailor will never zail again. But they retreat, at last, hurling threats and curses.
+

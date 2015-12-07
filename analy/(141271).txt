@@ -1,0 +1,63 @@
+Name:A Blemmigan Colony
+Id:141271
+Description:At the heart of a salty little bog, you come upon a pulsing mound of blemmigans! They are a rich dark purple, like viscera, perhaps, or blackberries. They chitter as they swarm: the sound is like pebbles on a beach. Be careful. A single blemmigan is a nuisance. A hundred are a calamity.
+
+
+
+	ChildBranches1
+Name:Your Elegiac Cockatoo takes an interest
+Id:122741
+Description:It leaves your shoulder and circles the blemmigan mound, emitting couplets...
+
+		DefaultEvent
+Name:
+Id:141273
+Description:You hush your men and watch it go. It swoops down on the mound, to the alarm of a little circle of blemmigans who stand at the top like citizens attending a public meeting. Their tentacles whip menacingly as they advance - but the cockatoo says something to give them pause. You strain your ears to hear. Fragments of screeched poetry from your pet vie with the shrill fluting of the blemmigans... are they reciting poetry too? Is this a competition? A greeting?
+<br/><br/>
+Abruptly, your Cockatoo rises, and returns to sit on your shoulder. It preens delightedly and delivers four lines of perfect decasyllabic quatrain on 'those thousand shapes of unforgiven Time'. You have no idea what the hell it's talking about, but the delivery is terribly impressive.
+
+		ParentEvent
+Id:141271
+
+
+
+	ChildBranches2
+Name:Assault the colony
+Id:125841
+Description:Repulsive creatures! Take what you can.
+
+		DefaultEvent
+Name:
+Id:146096
+Description:Fire into the purple mass! Dozens of blemmigans fall, but hundreds remain. They seethe across the bog, leaping across black gaps of standing water, maws agape! Your crew’s volleys falter, and the blemmigans fall on them. You call for a retreat, and your zailors fall back, plucking fang-mawed blemmigans from arms and legs. Several go down under the mass. You'll mourn them later.
+
+		ParentEvent
+Id:141271
+
+		SuccessEvent
+Name:
+Id:146098
+Description:Armed zailors settle behind a rise in the ground at the bog’s edge. On your signal, they open fire into the purple mass! Dozens of blemmigans fall, but hundreds remain. They seethe across the bog, leaping across black gaps of standing water, maws agape! But you direct your crew’s fire with calm and precision, and only a few reach the line. Your crew methodically smash them with rifle-stocks and advance with caution towards the bog. The blemmigans which remained to defend the mound are no match for your weaponry: you take the mound without a single fatality and they die, chittering curses.
+<br/><br/>
+Of course, now you’re possessed of a mound of mud. You find nothing of value, although the blemmigans apparently collected little clay tablets marked with indecipherable chicken-scratchings. Your quartermaster, however, points out that the blemmigan bodies can be rendered into purple dye, which will fetch a good price almost anywhere...
+
+
+
+	ChildBranches3
+Name:Observe the colony
+Id:125842
+Description:Fascinating creatures! Learn what you can.
+
+		DefaultEvent
+Name:Mildly diverting
+Id:146097
+Description:They're some sort of purple mushroom. Unlike most purple mushrooms, they have tentacles and fangs, and they run around a lot. Er... that's as much as you get. Perhaps your mind's not on it.
+
+		ParentEvent
+Id:141271
+
+		SuccessEvent
+Name:A complex situation
+Id:146099
+Description:They do resemble the fruiting bodies of fungus. The mound itself looks fungal. Are they the same organism? And they communicate and co-operate. You watch as they drag a marsh-rat up the side of the mound, bickering over the disposition of its flesh. And you watch as a half-dozen stand on the top of the mound, listening respectfully to the chittering of a seventh. It's improbably reminiscent of a poetry recital. You take notes.
+

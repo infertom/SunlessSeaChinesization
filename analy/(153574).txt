@@ -1,0 +1,36 @@
+Name:The Tree of Ages Uprooted
+Id:153574
+Description:Its carapace cracks like armoured ice. Bulbous, many-legged shapes swarm out, flood the water - the spiders which comprise its flesh, fleeing like rats. It's breaking up!
+
+
+
+	ChildBranches1
+Name:Loot
+Id:130586
+Description:The <i>Tree of Ages</i> carries no cargo, only spider-flesh and venom - but perhaps you have a need for spider-flesh.
+
+		DefaultEvent
+Name:Pulsing relics
+Id:153575
+Description:Here is a writhing organ, there a twitching limb. Your ship slows as it navigates a slick of stinking, dying spider-flesh awash with bluish, copper-smelling blood. You see and learn more than you'd ever wish. There! There, in that tubule-sheath! Haul it out with a boat-hook. What is it?
+<br/><br/>
+There will always be another <i>Tree of Ages</i>. The sorrow-spiders are patient, and numberless. But you have this one's heart.
+
+		ParentEvent
+Id:153574
+
+
+
+	ChildBranches2
+Name:Learn
+Id:131981
+Description:Watch the dissolution. Learn what you can.
+
+		DefaultEvent
+Name:A safe distance?
+Id:155733
+Description:You skirt a slick of stinking, dying spider-flesh awash with bluish, copper-smelling blood. Faces form in the bubbles at its edges. Voices cry out in the languages spoken between the stars. The sorrow-spiders have come far, to lair in this place, and now you have ended their fierce lives. There will be more. There will always be more.
+
+		ParentEvent
+Id:153574
+

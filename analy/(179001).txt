@@ -1,0 +1,23 @@
+Name:A Traitor's Reward
+Id:179001
+Description:In the years that follow, many stories are told of the hideous fate inflicted on the Judas Captain. None are fully true, for no living tongue has the words to so precisely convey such depths of suffering.
+<br /><br />
+It is also more accurately said that somewhere in the Second Empire of Hands stands an ivory shrine, established in gratitude. It soon ceases to be visited, and is quickly lost to the weeds.
+
+
+
+	ChildBranches1
+Name:You fade away into history
+Id:145473
+Description:When the moment comes, it is a blessing.
+
+		DefaultEvent
+Name:A poor homecoming
+Id:179002
+Description:The Emperor thanks you for your service.
+<br/><br/>
+[You were warned not to return to London.]
+
+		ParentEvent
+Id:179001
+

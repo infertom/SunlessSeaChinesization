@@ -1,0 +1,113 @@
+Name:The Centre of Varchas
+Id:152443
+Description:You walk galleried courtyards wreathed with vines and fungal blooms. Long straight roadways criss-cross the length and breadth of Varchas, the stone worn by the wheels of carts and the tread of thousands of slippered feet.
+<br/><br/>
+Lamp-Lighters constantly check the fuel-levels of the sconces, and replace wicks; Fire-Keepers check the coiled-spring mechanisms that control the angle of the mirrors.
+<br/><br/>
+There is much to explore; where will you go next?
+
+
+
+	ChildBranches1
+Name:The Hospital
+Id:129899
+Description:The Hospital lies in the shadow of the Southern Tower.
+
+		DefaultEvent
+Name:
+Id:152444
+Description:Are you feeling a little fevered? Do you hope to learn medical secrets? Or perhaps you just enjoy the moans and flushed faces of the sick and suffering?
+
+		ParentEvent
+Id:152443
+
+
+
+	ChildBranches2
+Name:The Guard House
+Id:129900
+Description:Down a side-street; you can see the sun-blazoned flag from here.
+
+		DefaultEvent
+Name:
+Id:152445
+Description:Just follow the stream of white-cloaks.
+
+		ParentEvent
+Id:152443
+
+
+
+	ChildBranches3
+Name:Temple of Mihir
+Id:129901
+Description:It lies in the Sacred District, at the centre of Varchas.
+
+		DefaultEvent
+Name:
+Id:152446
+Description:The sound of the bells grows louder and more reverberant as you approach.
+
+		ParentEvent
+Id:152443
+
+
+
+	ChildBranches4
+Name:Mansion of the Jewel-Turbaned Youth
+Id:129902
+Description:It is in the Eastern District.
+
+		DefaultEvent
+Name:
+Id:152447
+Description:Well, he did invite you, after all.
+
+		ParentEvent
+Id:152443
+
+
+
+	ChildBranches5
+Name:Entertainments in Varchas
+Id:129903
+Description:There are bars and gaming-houses to the west. 
+
+		DefaultEvent
+Name:
+Id:152448
+Description:Follow the clink of wine-glasses and the companionable shouts.
+
+		ParentEvent
+Id:152443
+
+
+
+	ChildBranches6
+Name:The Pilgrimage to Amaradri
+Id:129904
+Description:The Agnihotri seeks wisdom. The sick are ready to begin a long journey. The young and the restless have made their plans. The swords of the Guard have been renewed. The Pilgrimage is ready to begin.
+
+		DefaultEvent
+Name:
+Id:152449
+Description:It is hard not to be carried along by the excitement and anticipation of the Varchaasi.
+
+		ParentEvent
+Id:152443
+
+
+
+	ChildBranches7
+Name:The Inn
+Id:129914
+Description:At evening, after the fifth bell, each Taamas is assigned a room.
+
+		DefaultEvent
+Name:
+Id:152462
+Description:The light is endless and merciless. Will you sleep?
+
+		ParentEvent
+Id:152443
+

@@ -1,0 +1,89 @@
+Name:Trouble, and romance
+Id:149156
+Description:That night in Wolfstack, you find yourself sharing a table with....
+
+
+
+	ChildBranches1
+Name:A Likely Lass
+Id:127852
+Description:She tipsily claims to be a spy. Whatever she is, she's easy to like, and when the evening ends you're still together...
+
+		DefaultEvent
+Name:An interlude
+Id:149157
+Description:The next morning, she gives you a pewter locket. As you reach for it, she grips it briefly in her fist. "Don't you dare forget me," she says.
+
+		ParentEvent
+Id:149156
+
+
+
+	ChildBranches2
+Name:A Dapper Chap
+Id:127853
+Description:An elegant fellow with a Presbyterate accent and an unexpectedly delighted laugh. By the evening's end, it seems natural that he should accompany you home.
+
+		DefaultEvent
+Name:An interlude
+Id:149158
+Description:The next morning, he gives you a golden locket. "Don't lose it," he says with a grin. Then he grows suddenly grave. "Truly. Don't lose it."
+
+		ParentEvent
+Id:149156
+
+
+
+	ChildBranches3
+Name:Someone whose name you do not afterwards recall
+Id:127854
+Description:Your only love is the zee. You'll take comfort where you find it, but that's all it is.
+
+		DefaultEvent
+Name:A relaxing evening
+Id:149159
+Description:Together, you exorcise the chill of the Neath. When you wake, you're alone, but that's how you've always preferred it.
+
+		ParentEvent
+Id:149156
+
+
+
+	ChildBranches4
+Name:..the Likely Lass
+Id:127859
+Description:"Don't think I came down to the docks just to see you. I've got business here. But, all right, it did cross my mind that you might drop by..."
+
+		DefaultEvent
+Name:A few hours together
+Id:149167
+Description:Shared warmth, new memories. It's harder to say goodbye, this time.
+
+		ParentEvent
+Id:149156
+
+		RareDefaultEvent
+Name:A few hours together
+Id:174193
+Description:Shared warmth, new memories. It's harder to say goodbye, this time.
+
+
+
+	ChildBranches5
+Name:...the Dapper Chap
+Id:127860
+Description:"It's not such a coincidence," he protests. "I had to meet a ship from home. Another one." His eyes meet yours. "But it's good to see you."
+
+		DefaultEvent
+Name:A few hours together
+Id:149168
+Description:Shared warmth, new memories. It's harder to say goodbye, this time.
+
+		ParentEvent
+Id:149156
+
+		RareDefaultEvent
+Name:Something more
+Id:174194
+Description:Shared warmth, new memories. It's harder to say goodbye, this time.
+

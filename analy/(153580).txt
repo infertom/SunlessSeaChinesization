@@ -1,0 +1,19 @@
+Name:Winged Things
+Id:153580
+Description:They're coming out of the walls!
+
+
+
+	ChildBranches1
+Name:Face them down!
+Id:130589
+Description:Begin a Land Battle - this will use slightly different actions from your shipboard ones, but you'll keep all your ship stats.
+
+		DefaultEvent
+Name:
+Id:153581
+Description:
+
+		ParentEvent
+Id:153580
+

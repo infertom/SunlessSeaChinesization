@@ -1,0 +1,75 @@
+Name:So you're the only one who made it...
+Id:149095
+Description:Only you and one other crew-member remain. (What of your officers? Perhaps incapacitated: perhaps worse.) One of you must be the Snuffer.
+
+
+
+	ChildBranches1
+Name:Reveal your true face!
+Id:127818
+Description:Actually... it's you. It's been you for a while now. [We may implement an option to play as a Snuffer who's replaced the actual you, but not just yet.]
+
+		DefaultEvent
+Id:149100
+
+		ParentEvent
+Id:149095
+
+
+
+	ChildBranches2
+Name:Attack
+Id:127816
+Description:
+
+		DefaultEvent
+Name:A fruitless struggle
+Id:149096
+Description:The Snuffer is terribly strong. She smashes away your cutlass with the back of her hand. With her other hand, she peels away her face like the mask it is. Beneath it is a weeping gnarl of hungry red flesh. It's the last thing you ever see.
+
+		ParentEvent
+Id:149095
+
+		RareDefaultEvent
+Name:Gadzooks!
+Id:149102
+Description:"Die, skin-eater!" your comrade yells as he raises the cudgel. "This is for Jaffers!" What?
+<br/><br/>
+You roll away, shouting frantically, "Human! Human! I thought it was you!" Somehow, the pair of you establish a tenuous trust. It seems you are both, in fact, people, and the people-eating thing has gone. No trace of it remains... but a life-boat is missing. Something drove it to abandon you.
+
+
+		SuccessEvent
+Name:A desperate victory
+Id:149097
+Description:You meet beneath the flare of the last bridge glim-lamps. In this half-light, with its stolen face askew, it's hard to imagine how it ever deceived you. It's as strong as strangling kelp, and its breath stinks of blood and hot flint. But you bear it down, wear its resolve away, skewer it through the heart with your boot-knife.
+<br/><br/>
+Roll it overboard. Watch it bob away into the dark. Now you need to work out how to get home.
+
+		RareSuccessEvent
+Name:O misery!
+Id:149103
+Description:You ambush your comrade and smash their skull... and to your dismay, you find that their face is their own. Good God. You're all alone: and you're a murderer.
+<br/><br/>
+No trace of the Snuffer remains... but a life-boat is missing. Something drove it to abandon you. It could be worse.
+
+
+
+
+	ChildBranches3
+Name:Spare him
+Id:127817
+Description:It's just possible that the Snuffer has already left the ship: that you're both human. You could lay down your arms, and trust the other zailor.
+
+		DefaultEvent
+Name:That was unwise
+Id:149098
+Description:You watch for a long time...and then she raises her gaff-hook too. With her other hand, she peels away her face comes like the mask it is. Beneath it is a weeping gnarl of hungry red flesh. It's the last thing you ever see.
+
+		ParentEvent
+Id:149095
+
+		SuccessEvent
+Name:Quite a relief
+Id:149099
+Description:You watch for a long time...and then she lays down her gaff-hook too. You essay a cautious, back-slapping embrace. Where's the Snuffer? No trace of it remains... but a life-boat is missing. Something drove it to abandon you.
+

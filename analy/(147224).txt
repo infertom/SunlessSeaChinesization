@@ -1,0 +1,114 @@
+Name:Mouths to Feed
+Id:147224
+Description:[Your crew needs provisions. You can all tighten your belts, but bad things will begin to happen. This card will remain available as long as Hunger is over 50. Don't let Hunger reach 100.]
+
+
+
+	ChildBranches1
+Name:Feast
+Id:126569
+Description:[This option is only available to those who have already turned cannibal.]
+
+		DefaultEvent
+Name:Appetites satisfied
+Id:147225
+Description:You and your cannibal acolytes have selected your next victim. Behind closed doors, you wait, watch, and strike. You are merciful: your knives are sharp. The rest of the crew will benefit from a nourishing, anonymous stew. Perhaps they know nothing: perhaps they don't want to know.
+
+		ParentEvent
+Id:147224
+
+
+
+	ChildBranches2
+Name:Drink Zzoup
+Id:132106
+Description:The taste is acquired, rather than popular. But no one is likely to be fussy just now.
+
+		DefaultEvent
+Name:A soupcon of superstition
+Id:155899
+Description:"Tastes like sulphur," growls the engineer's mate. But he tucks in with the rest.
+
+		ParentEvent
+Id:147224
+
+
+
+	ChildBranches3
+Name:Consume a Strange Catch
+Id:126570
+Description:It doesn't look appetising, or even safe, but perhaps it's worth the risk...
+
+		DefaultEvent
+Name:Unfit for human consumption
+Id:147226
+Description:A volunteer takes a cautious nibble. "It tastes good," she says. "Rather salmony." She takes a larger bite. "Something like, erk, yark, gork, fruh." By "fruh" she is stone dead on the deck, her face a peculiar mauve. You dispose safely of the rest of the catch.
+
+		ParentEvent
+Id:147224
+
+		SuccessEvent
+Name:Adventures in marine cuisine
+Id:147228
+Description:The Cook converts it to a sort of minimalist bouillabaisse. It's salty and peculiar, but it does something for your crew's hunger...
+
+
+
+	ChildBranches4
+Name:Consume a Live Specimen
+Id:126571
+Description:It's not attractive, but at least it's fresh.
+
+		DefaultEvent
+Name:An escape!
+Id:147227
+Description:As the Cook bears it to the pot, it displays unexpected agility! It escapes, flops frantically across the galley, and is gone through the open port-hole before Cook can reclaim it.
+
+		ParentEvent
+Id:147224
+
+		SuccessEvent
+Name:Noble service
+Id:147229
+Description:The Live Specimen's end is sadly unceremonious. It's come so far, only to be consumed: but now it gives noble service. Cook knocks it on the head with a fisherman's priest and pops it in the pan. The taste is a little ammoniac, but no one complains. Or dies.
+
+
+
+	ChildBranches5
+Name:Bandaged Poissonnier 
+Id:130129
+Description:Ask the Bandaged Poissonnier to render a Strange Catch edible.
+
+		DefaultEvent
+Name:"Alas - "
+Id:152807
+Description:He returns a sad shake of his bandaged head. "Even I, with all my powers, cannot make this safe. Not here. Had I all my knives and vessels of home, perhaps. I have done my best with it, to no avail. But listen. This is what I found nested in its brain-pipe - "
+
+		ParentEvent
+Id:147224
+
+		SuccessEvent
+Name:A particular success!
+Id:152808
+Description:The Poissonnier labours mightily to render the Strange Catch appetising. He succeeds, although with his usual effect: every third mouthful, you wonder whether you enjoy the flavour at all. But, yes, surely. It is spicy and salty and filling. Although, that lurking under-flavour - 
+
+
+
+	ChildBranches6
+Name:Bandaged Chef-Paramount
+Id:147441
+Description:Ask him to render a Strange Catch edible.
+
+		DefaultEvent
+Name:"Alas - "
+Id:182203
+Description:"It cannot be done. I have distilled, I have fermented, I have rarefied, I have sublimated, I have toasted. Every part of this creature - down to its last atom - tastes like the bosun's socks." He holds up a bandaged hand. "Do not ask me how I know. There is nothing I will not do in pursuit of culinary exploration."
+
+		ParentEvent
+Id:147224
+
+		SuccessEvent
+Name:A particular success!
+Id:182204
+Description:His braising-alembic rattles. His athanor-stove roars! He emerges from the galley with a bubbling pot. The crew cheers. As ever, the meal is both delightful and terrifying. Your tongue fizzes. Your eyes water. Your stomach panics, but surrenders hastily. 
+

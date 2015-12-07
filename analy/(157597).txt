@@ -1,0 +1,183 @@
+Name:Speak to the Campaigner
+Id:157597
+Description:"Sit down there. I'll be with you in a moment. Captain."
+
+
+
+	ChildBranches1
+Name:Increase your Hearts
+Id:133117
+Description:"Oh, thank you! This is actually very interesting. Let me see if we can find something useful for you, too." [Spend a Secret to improve your Hearts, unless it's higher than 100.]
+
+		DefaultEvent
+Name:Learning begets learning
+Id:157598
+Description:The Campaigner's knowledge is vast, but her patience... not always vast. She is never discourteous, but you do occasionally catch her looking at the clock.
+
+		ParentEvent
+Id:157597
+
+
+
+	ChildBranches2
+Name:Invite her to dine with you
+Id:133119
+Description:...for a light meal of sea-lily soup and whale-cheese, with a glass of Surface cordial. The Brisk Campaigner's tastes are expensive. The mutersalt ensures that the conversation waits until after-dinner coffee.
+
+		DefaultEvent
+Name:A certain reserve
+Id:157600
+Description:"Medicines; practices; techniques; knowledge. I'm at zee to learn. It's not as if - I don't mean to be discourteous, but you don't pay well. Not compared to the Empress."
+<br/><br/>
+"To learn, then. And there is a particular urgency - " but here she checks herself. It's unusual to see her discomposed, but she is. She searches for words, reconsiders what she has to say, and leaves shortly thereafter. But she smiles and claps you on the shoulder as she passes.
+
+		ParentEvent
+Id:157597
+
+
+
+	ChildBranches3
+Name:A cure for animescence
+Id:134236
+Description:"I have an idea. But I'm going to need flesh from chillier kingdoms. Solacefruit, from the Melting Isles where the Mangrove College lies. And, yes, more mutersalt. I regret that it's not cheap."
+
+		DefaultEvent
+Name:Grim resolution
+Id:159486
+Description:She returns from her workroom, eyes downcast.
+<br/><br/>
+"No. No, my blood still runs too hot. It will increase, day by day. But I wonder if this matter of blood is the key - "
+
+		ParentEvent
+Id:157597
+
+		RareDefaultEvent
+Name:Grim resolution
+Id:165308
+Description:She returns from her workroom, eyes downcast.
+<br/><br/>
+"No. No, still I feel that creeping fire. But there is another possibility. A species there is that understands fire better than any - "
+
+
+
+	ChildBranches4
+Name:Another step
+Id:134237
+Description:"There is an account, in the journals of M. Demeaux, of a devil-rite used for the extinction of flames. The substance called 'zzoup' - it can be eaten, by the unwary at least, but it can be turned to other purposes too - "
+
+		DefaultEvent
+Name:Approaching despair
+Id:159487
+Description:A night, a day and a night pass: and she returns to your cabin, fists clenched, lips tight.
+<br/><br/>
+"Nothing! It has not even won me time! But if my soul is irretrievably contaminated, then perhaps - "
+
+		ParentEvent
+Id:157597
+
+
+
+	ChildBranches5
+Name:"Scintillack and solacefruit."
+Id:134238
+Description:"I have a theory about the properties of fluid light, and their procession through the highways of the heart - "
+
+		DefaultEvent
+Name:Approaching despair
+Id:159488
+Description:A night, a day and a night pass: and she returns to your cabin, fists clenched, lips tight.
+<br/><br/>
+
+"Nothing! It has not even won me time! But if my soul is irretrievably contaminated, then perhaps - "
+
+		ParentEvent
+Id:157597
+
+		RareDefaultEvent
+Name:Delight!
+Id:159490
+Description:The Campaigner secludes herself in her work-room. You are woken next watch by her uncharacteristically frantic hammering on your door. You open it: and in a moment of equally uncharacteristic joy, she seizes and hugs you!
+<br/><br/> "It worked! The process worked! Another few treatments and my soul will be clear of fire. I will certainly publish my success when we next return to London - "
+
+
+
+	ChildBranches6
+Name:"I have one more idea - "
+Id:134240
+Description:"I am uncomfortable with this matter of zee-gods. But I cannot afford discomfort. Can you help me find this last thing? It is rare, I know - "
+
+		DefaultEvent
+Name:A kind of desperate delight
+Id:159491
+Description:Days pass. False-stars fade. The zee is silent. At last you find her, calm and grave, standing at the bow. She turns.
+<br/><br/>
+"I can report success. I can. But I am uncertain now, of the 'I'. Who am I? My old soul is gone forever. I have another: one less combustible.
+<br/><br/>
+"No - there is little more I can say. I promised you I would keep no more of my own secrets, but I am another, now. No, this is not some narrow sleight. This is a holy mystery I would not curse you with. But you have my thanks, always. Always and forever!"
+
+		ParentEvent
+Id:157597
+
+
+
+	ChildBranches7
+Name:Celebrate with the Campaigner
+Id:134242
+Description:The Campaigner has changed. The irises of her eyes, which were brown, are now charred black. The flesh is shrunken on her bones. She's aged ten years. But her back is straight and her voice is clear. "Wine," she says incisively.
+
+		DefaultEvent
+Name:Wine!
+Id:159495
+Description:You and the Campaigner toast her rebirth. ("Not a rebirth," she corrects you. "Perhaps a pre-death. Hush. Don't look at me like that. I am a realist. Have another glass of wine.") She has survived; she has found a cure. ("If anyone could," she points out, "it would be me, after all. You're lucky it was me who fell ill.") Her wisdom has been tested, tempered, and not found wanting. ("Well, quite. But you were an invaluable assistant. A fine vintage, this. Another glash?") You and she are safe: and all shall be well, and all manner of thing shall be well. ("Your very fine health!")
+
+		ParentEvent
+Id:157597
+
+
+
+	ChildBranches8
+Name:Proposition the Brisk Campaigner
+Id:146903
+Description:"Perhaps it's the animescence. Perhaps, yes, all right, I'm afraid of death. But now you come to mention it, I am - restless." [The Campaigner respects insight and has no patience with crassness. Ensure your Mirrors is at least 20 points higher than your Iron.] 
+
+		DefaultEvent
+Name:Delight in the darkness
+Id:181419
+Description:The Campaigner disrobes you both with the precision of a scientist and the urgency of a battlefield surgeon. She is insistent, but generous. But very insistent. By the time she is ready to leave, you are almost unconscious with rapture. She smiles, and taps your nose with her finger. "Very good indeed," she says.<br/><br/>
+[Opportunities for other trysts will occur while you're at sea, substantially reducing Terror. However, if you have a lover in port, they might find out.]
+
+		ParentEvent
+Id:157597
+
+
+
+	ChildBranches9
+Name:Proposition the Indomitable Campaigner
+Id:146904
+Description:"Why not? Why not indeed. You <i>are</i> quite pretty." [Perhaps the Campaigner's brush with death has left her a little giddy.]
+
+		DefaultEvent
+Name:Delight in the darkness
+Id:181420
+Description:The Campaigner disrobes you both with the precision of a scientist and the urgency of a battlefield surgeon. She is insistent, but generous. But very insistent. By the time she is ready to leave, you are almost unconscious with rapture, but she is eager to get back to work. "A wonderful interlude," she says, with real warmth.
+<br/><br/>
+[Opportunities for other trysts will occur while you're at sea, substantially reducing Terror. However, if you have a lover in port, they might find out.]
+
+		ParentEvent
+Id:157597
+
+
+
+	ChildBranches10
+Name:Exchange a secret smile
+Id:146907
+Description:A romance with an Officer might be considered unseemly. You'll need to be discreet.
+
+		DefaultEvent
+Name:Later...
+Id:181423
+Description:[Opportunities for other trysts will occur while you're at sea, substantially reducing Terror. However, if you have a lover in port, they might find out.]
+
+		ParentEvent
+Id:157597
+

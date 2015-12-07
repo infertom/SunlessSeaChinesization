@@ -1,0 +1,81 @@
+Name:Inside the Little Gate
+Id:152551
+Description:The inner port is open to you, now, although it is clear that your welcome is conditional. Don't cause trouble.
+
+
+
+	ChildBranches1
+Name:Surrender a Long-Box for payment
+Id:129973
+Description:The Acolyte is gone, but her colleagues will supply suitable payment.
+
+		DefaultEvent
+Name:A fair exchange
+Id:152552
+Description:You are paid with a fresh Bazaar-draft. What connection does this place have with the Echo Bazaar in London?
+
+		ParentEvent
+Id:152551
+
+
+
+	ChildBranches2
+Name:Return later
+Id:129974
+Description:Other acolytes move between the buildings, singing softly, but none of them seems inclined to speak to you at this moment.
+
+		DefaultEvent
+Name:Back to the dock
+Id:152553
+Description:Down the steep stairs. The song of the acolytes fades behind you, but still you find yourself humming their odd melodies. Perhaps there will be more to do here another time.
+
+		ParentEvent
+Id:152551
+
+
+
+	ChildBranches3
+Name:Deliver a Long-Box to the Acolyte
+Id:130110
+Description:More secrets of the heart.
+
+		DefaultEvent
+Name:A faint smile
+Id:152775
+Description:It's difficult to read her expression behind those goggles. Perhaps she's pleased to see you, or perhaps she's only eager to continue her work.
+
+		ParentEvent
+Id:152551
+
+
+
+	ChildBranches4
+Name:Exchange a Long-Box for a Heartmetal Ingot
+Id:137641
+Description:What use is heartmetal to you? But then, what use is a Long-Box? (Perhaps you imagine the whisper at shoulder - 'What use, indeed, is a heart?'. When you turn, there's only the ragged flirting of the wind.)
+
+		DefaultEvent
+Name:A covert exchange
+Id:166160
+Description:The legalities of trading in heartmetal are vague. If its existence were acknowledged by laws, it might be forbidden. Put it somewhere out of the way.
+
+		ParentEvent
+Id:152551
+
+
+
+	ChildBranches5
+Name:Put a blemmigan ashore
+Id:147592
+Description:What will it do, in this place of oil and metal?
+
+		DefaultEvent
+Name:A creeping plague
+Id:182419
+Description:The blemmigan sidles furtively into a pipe that protrudes from the wall. All is still. You see no more of it.
+<br/><br/>
+As you turn to go, greasy smoke puffs suddenly from the pipe's end. You smell burning grease. Nevertheless, perhaps, it survived.
+
+		ParentEvent
+Id:152551
+

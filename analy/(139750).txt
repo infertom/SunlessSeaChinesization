@@ -1,0 +1,34 @@
+Name:Lost With All Hands
+Id:139750
+Description:No one returns. London will speculate in vain how you might have died. [Your Crew has fallen to 0. Since you're one of your crew, this is the end.]
+
+
+
+	ChildBranches1
+Name:Into darkness
+Id:121752
+Description:You will be mourned.
+
+		DefaultEvent
+Name:A bleak dawn
+Id:139751
+Description:It's over for now - but -
+
+		ParentEvent
+Id:139750
+
+
+
+	ChildBranches2
+Name:Into darkness
+Id:132096
+Description:You will be mourned - but you've provided for your heir.
+
+		DefaultEvent
+Name:A bleak dawn
+Id:155882
+Description:It's over for now - but -
+
+		ParentEvent
+Id:139750
+

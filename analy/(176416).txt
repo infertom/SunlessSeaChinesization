@@ -1,0 +1,55 @@
+Name:Your Father's Bones: at Kingeater's Castle
+Id:176416
+Description:All around the altar, bones lie in brown drifts, like naked fossils. If the Admiral is to believed, your father's bones are here among them. But which? Where?
+
+
+
+	ChildBranches1
+Name:Match the knife to its twin
+Id:143895
+Description:The Fathomking gave you a knife. It is the exact twin of the one he gave to your father. If you can find and match it... there! There, that is the one!
+
+		DefaultEvent
+Name:An unclean thing
+Id:176417
+Description:This is the knife that once lay in the heart of your father. When you take it up - gingerly - a dark and shouting joy rushes through you. Your bones tighten, your eyes sharpen, your blood pounds! Your zailors back away as you raise it, growling with feral energy.
+<br/><br/>
+It fades. You are yourself again, though something remains - something that would devour kings. And this - this pitiable knot of brown bones, picked clean by zee-air and isle-rat - this is your father. Whatever unclean thing he came here for, he failed. Perhaps you can give him peace.
+<br/><br/>
+[Return to London with your Father's Bones to complete the game.]
+
+		ParentEvent
+Id:176416
+
+
+
+	ChildBranches2
+Name:Sift through them
+Id:143897
+Description:The Castle is almost silent. Only far-off waves and the bamboo click of the bones. They are light in your hands. A little greasy to the touch.
+
+		DefaultEvent
+Name:Tales bones tell
+Id:176419
+Description:A dozen or more of the bone-piles wear a knife in their rib-cages. Two of the knives are undistinguished tableware, and one is rosy glass, but most are of a similar type: flint hilts and blades of dark coral. These are the knives that Drownies bear, those unsleeping dead who lure sailors with their song. Their ruler is the Fathomking. Surely he must know something of what happened here.
+<br/><br/>
+[Travel to the Fathomking's Hold to continue.]
+
+		ParentEvent
+Id:176416
+
+
+
+	ChildBranches3
+Name:Too many bones
+Id:145313
+Description:A dozen or more of the bone-piles wear a knife in their rib-cages. Two of the knives are undistinguished tableware, and one is rosy glass, but most are of a similar type: flint hilts and blades of dark coral. These are the knives that Drownies bear, those unsleeping dead who lure sailors with their song. Their ruler is the Fathomking. Surely he must know something of what happened here.
+
+		DefaultEvent
+Name:
+Id:178713
+Description:[Find the Fathomking's Hold, somewhere in the south or central Unterzee, to continue.]
+
+		ParentEvent
+Id:176416
+

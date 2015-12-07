@@ -1,0 +1,148 @@
+Name:The Isle of Codex
+Id:153215
+Description:Codex: a desperate caveful of mute exiles, and an inexplicable colony of shivering, bad-tempered monkeys.
+
+
+
+	ChildBranches1
+Name:Strategic Information for the Admiralty
+Id:130382
+Description:Make the pass-sign to a Mute Exile.
+
+		DefaultEvent
+Name:Nod, nod, shrug
+Id:153216
+Description:She hands you an oilskin pouch. Nine foolscap sheets of beautifully written cipher, gathered from who knows what corners of the Unterzee. You look up: she points across the water towards the distant lights of Whither town. She shakes her head. No home there for her, not now. She points to your ship, and raises her eyebrows.
+
+		ParentEvent
+Id:153215
+
+
+
+	ChildBranches2
+Name:Ask a question of the Mute Exiles
+Id:130384
+Description:
+
+		DefaultEvent
+Id:153218
+
+		ParentEvent
+Id:153215
+
+
+
+	ChildBranches3
+Name:Ask a question of the Shivering Monkeys
+Id:130385
+Description:
+
+		DefaultEvent
+Id:153219
+
+		ParentEvent
+Id:153215
+
+
+
+	ChildBranches4
+Name:Trade writing materials
+Id:130386
+Description:
+
+		DefaultEvent
+Id:153220
+
+		ParentEvent
+Id:153215
+
+
+
+	ChildBranches5
+Name:Trade supplies
+Id:130387
+Description:
+
+		DefaultEvent
+Id:153221
+
+		ParentEvent
+Id:153215
+
+
+
+	ChildBranches6
+Name:Someone wants to return home
+Id:130394
+Description:(to Whither)
+
+		DefaultEvent
+Id:153233
+
+		ParentEvent
+Id:153215
+
+
+
+	ChildBranches7
+Name:Put a blemmigan ashore
+Id:133913
+Description:How do blemmigans deal with the cold?
+
+		DefaultEvent
+Name:Not well
+Id:158887
+Description:It scurries desperately back up the gang-plank, shrilling pathetically. Not a fan of ice, apparently.
+
+		ParentEvent
+Id:153215
+
+
+
+	ChildBranches8
+Name:Acquire a Doomed Monster-Hunter
+Id:144275
+Description:This one has waited all her life for a single answer. Give her that answer, and she will be ready to lay down her life.
+
+		DefaultEvent
+Name:A cracked voice
+Id:177004
+Description:"Thank you! Thank you. This is what I needed. This is enough."
+<br/>
+She coughs rackingly. "I've waited so long to speak, and now - now I have nothing at all to say. Quickly, then. Find me my death."
+
+		ParentEvent
+Id:153215
+
+
+
+	ChildBranches9
+Name:Allow your Navigator to join the Mute Exiles
+Id:147450
+Description:The stones of Codex crawl with sigils. Your Navigator steps into the enfolding silence of the glum, grey shore. His tattoo shivers like a nestling gull.
+
+		DefaultEvent
+Name:Goodbye
+Id:182213
+Description:One of the Mute Exiles brings him a loaf of brown algae-bread. Another gives him a chipped jug of water. The Navigator does not thank you or say goodbye. From the moment he sets foot on the isle, he does not speak at all. But he takes your hand in his, briefly, before turning to the Exiles' cave.
+<br/><br/>
+As you leave, one of the Exiles tugs at your sleeve. He leads you to an unmarked stone the size of a church Bible, produces a chisel and hammer from his robe, and strikes the stone three times. It splits in half. Inside, a sigil the colour of quartz glistens, trapped in the stone like a fossil. The Exile gestures at you to take it. 
+
+		ParentEvent
+Id:153215
+
+
+
+	ChildBranches10
+Name:Compile a Port Report
+Id:147629
+Description:No one will speak. This is a challenge.
+
+		DefaultEvent
+Name:Silently forthright
+Id:182474
+Description:The exiles see many come, fewer leave. Some are even willing to communicate - but their gestures are unfamiliar, the meanings unclear. Even when you can understand, these are answers without questions, as useless as a key without a lock.
+
+		ParentEvent
+Id:153215
+

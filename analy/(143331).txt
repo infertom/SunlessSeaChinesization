@@ -1,0 +1,19 @@
+Name:Explorations complete!
+Id:143331
+Description:Perhaps you can use the information you've gleaned...
+
+
+
+	ChildBranches1
+Name:Prepare a Comprehensive Port Report
+Id:124062
+Description:Few have reason to brave the waters this far East, especially with the trade embargo. The Admiralty will pay especially well for up-to-date intelligence.
+
+		DefaultEvent
+Name:The islands of the Empire
+Id:143332
+Description:All of them warrant further attention. For now though, it would be best to see if your initial discoveries can whet the interest of anyone back home.
+
+		ParentEvent
+Id:143331
+

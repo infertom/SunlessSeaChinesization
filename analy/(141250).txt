@@ -1,0 +1,169 @@
+Name:The View from Above
+Id:141250
+Description:A high place. The zee like a rippled sheet of night-green jade. The roof of the Neath above, bellied with stalactites and pricked with false-star. Look out across the water. What are you thinking of?
+
+
+
+	ChildBranches1
+Name:Your sweetheart
+Id:122726
+Description:An ocean of darkness lies between you and your sweetheart; but you remember them still.
+
+		DefaultEvent
+Name:Brighter hours
+Id:141251
+Description:Light, laughter, warmth. Remember a little while, and then go on with your voyaging.
+
+		ParentEvent
+Id:141250
+
+
+
+	ChildBranches2
+Name:Your future
+Id:122727
+Description:From up here, your future looks glorious. If not exactly bright.
+
+		DefaultEvent
+Name:Better days coming
+Id:141252
+Description:You are the captain of your ship; but never the captain of your fate. One day, though. One day.
+
+		ParentEvent
+Id:141250
+
+
+
+	ChildBranches3
+Name:Your past, as a scholar
+Id:127965
+Description:The years before you came to zee, studying time, blood and starlight. The joy of knowledge. The shame of mockery.
+
+		DefaultEvent
+Name:Climb higher, see farther
+Id:149343
+Description:You understand more every day. The Neath is full of secrets. You can't learn them all... but you can learn more than anyone living.
+
+		ParentEvent
+Id:141250
+
+
+
+	ChildBranches4
+Name:Prayer to the god called Salt
+Id:127966
+Description: You know the words to speak, and here its eyes are on you.
+
+		DefaultEvent
+Name:Something distant
+Id:149344
+Description:Look east, where the zee and the roof are one in the mist. Your gaze unlocks the horizon like a puzzle-box. The Neath is reconfigured and transfigured. It lasts a single heartbeat. 
+
+		ParentEvent
+Id:141250
+
+
+
+	ChildBranches5
+Name:Prayer to the god called Storm
+Id:127967
+Description:You know the words to speak, and here its eyes are on you.
+
+		DefaultEvent
+Name:Something furious
+Id:149345
+Description:Distant thunder growls. A wind rises around you, tugging at your garments, filling you with the glory of the high places. It passes.
+
+		ParentEvent
+Id:141250
+
+
+
+	ChildBranches6
+Name:Prayer to the god called Stone
+Id:127968
+Description:You know the words to speak, and in this place, perhaps her eyes are on you.
+
+		DefaultEvent
+Name:Something bright
+Id:149346
+Description:Turn your eyes south. Wait nine heart-beats. In the heart of the Elder Continent, a tiny fugitive gleam of warmth. It's gone.
+
+		ParentEvent
+Id:141250
+
+
+
+	ChildBranches7
+Name:Your past, as a street-urchin
+Id:127969
+Description:The years before you came to zee, racing across roof-tops, snatching pocket-watches, tussling with rival gangs... the bleak days in the workhouse and the terror of the Constables.
+
+		DefaultEvent
+Name:The high airs
+Id:149347
+Description:Some of the urchins of London have a sort of junk-shop religion. They venerate the wind: they have a prayer for every breeze. it always seemed like nonsense to you, but up here, now, you can begin to see their point...
+
+		ParentEvent
+Id:141250
+
+
+
+	ChildBranches8
+Name:All the wide black zee
+Id:127970
+Description:Where does it end?
+
+		DefaultEvent
+Name:Look north, look east
+Id:149348
+Description:West lie the coasts of home. South is the Elder Continent. But what of the North, beyond the ice? And the East - what vistas open, beyond Irem and the Kingeater's Castle?
+
+		ParentEvent
+Id:141250
+
+
+
+	ChildBranches9
+Name:Your past, as a poet
+Id:127971
+Description:The years before you came to zee. Days of honey and roses in Hollow Street; long walks in Tyrant's Gardens with very special friends.
+
+		DefaultEvent
+Name:New vistas
+Id:149349
+Description:You've found inspiration, and more. If your old companions could see you at the helm of a ship! ..it's better pay than writing, and that's the least of it.
+
+		ParentEvent
+Id:141250
+
+
+
+	ChildBranches10
+Name:Your past, as a soldier
+Id:127972
+Description:The years before you came to zee, fighting the enemies of the reduced Empire, losing good friends in the marshy borderlands of Hell.
+
+		DefaultEvent
+Name:New victories
+Id:149350
+Description:In the Army, you served men too rich to fight and too stupid to leave you alone. Out here, you are the only commander. The ship is your own Empire. You've never felt stronger.
+
+		ParentEvent
+Id:141250
+
+
+
+	ChildBranches11
+Name:Your past, as a priest
+Id:127973
+Description:The years before you came to zee, leading services, dispensing good advice. Putting up with the Bishop of Southwark's insufferable secretary.
+
+		DefaultEvent
+Name:Sea-change
+Id:149351
+Description:This is unlike your old life in almost every way, save this: you are still responsible for the lives and souls of those in your charge. And it seems to come a little more naturally, now...
+
+		ParentEvent
+Id:141250
+

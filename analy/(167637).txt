@@ -1,0 +1,159 @@
+Name:A council of joy
+Id:167637
+Description:The sorrow-spiders have reconvened to hear of your progress. A stench of impatience fills the air.
+
+
+
+	ChildBranches1
+Name:Present the Young Scholar's Notebook
+Id:138573
+Description:You have your doubts about its veracity. Still, if there was a secret to be found on the Nocturne, it surely lies within these pages.
+
+		DefaultEvent
+Name:A sense of apathy prevails
+Id:167638
+Description:"Indeed, a splendid prize, I have no doubt," says the Emissary of Spiders, handing it off to a Widow without even breaking open the pages. "But what of the ship? Did you encounter any... resistance?"
+
+		ParentEvent
+Id:167637
+
+
+
+	ChildBranches2
+Name:The unseeing eye in the dark
+Id:138618
+Description:You were watched. It can not have been a coincidence.
+
+		DefaultEvent
+Name:The spider-council chitters with excitement
+Id:167719
+Description:"Yes. Yes, I fear that we have not been strictly honest in our dealings," the Emissary of Spiders says, with no hint of guilt or remorse, or even a sense that this should come as a surprise.
+<br /><br />
+"Permit me to... share a story. It was, I believe, a century ago that the myopic masters forged a deal with a great beast, an Avaricious Lorn-Fluke. It would provide..." He pauses at the stern bite of a sorrow-spider... "A service, yes. In exchange, secrets. One hundred years of the secrets its service would allow to be harvested."
+<br /><br />
+He leans in. "For the sake of all that is and all that is to come, some secrets can never be shared."
+
+		ParentEvent
+Id:167637
+
+
+
+	ChildBranches3
+Name:Volunteer nothing
+Id:138619
+Description:You're being played. Ominous.
+
+		DefaultEvent
+Name:The spider-council chitters suspiciously
+Id:167720
+Description:"How curious." The Emissary of Spiders is silent for a moment, listening to his masters. He nods. "I fear to tell you that I may have not been entirely honest in our dealings thus far."
+<br /><br />
+"Permit me to... share a story. It was, I believe, a century ago that the myopic masters forged a deal with a great beast, an Avaricious Lorn-Fluke. It would provide..." He pauses, a sorrow-spider biting him sternly... "A service, yes. In exchange, secrets. One hundred years of the secrets its service would allow to be harvested."
+<br /><br />
+He leans in. "But for the sake of all that is and all that is to come, <i>some</i> secrets can <i>never</i> be shared."
+
+		ParentEvent
+Id:167637
+
+
+
+	ChildBranches4
+Name:A secret that worries even the sorrow-spiders?
+Id:138620
+Description:You're getting out of your depth now.
+
+		DefaultEvent
+Name:An abandoned vessel. An abandoned secret.
+Id:167721
+Description:Does this mean the sorrow-spiders discovered something so terrible, or so important, that they decided not even they should know it? That seems most out of character. Unless they were simply waiting until their deal expired to stake a claim...
+<br /><br />
+"I can neither confirm, nor deny, of course," says the Emissary of Spiders. "What matters at this present juncture is the vessel. It must be removed from the geometry, and the reach of the unworthy. The intractable masters demand this be done."
+
+		ParentEvent
+Id:167637
+
+
+
+	ChildBranches5
+Name:Agree
+Id:138621
+Description:They're not telling you something, of course. But you've seen this out so far...
+
+		DefaultEvent
+Name:An excited chittering fills the air
+Id:167722
+Description:The Emissary of Spiders smiles. "Excellent. I eagerly await the news of your success."
+
+		ParentEvent
+Id:167637
+
+
+
+	ChildBranches6
+Name:Refuse
+Id:138622
+Description:They're not telling you something, of course. And you refuse to be the pawn of sorrow-spiders.
+
+		DefaultEvent
+Name:An angry chattering fills the air
+Id:167723
+Description:The Emissary of Spiders silences the chattering with a weary wave. "Our enemies will already consider you their enemy, too. I suggest you make the best of the situation. Lorn-Flukes are not famed for their forgiving nature. But it will be as you wish." [You can continue or ignore the spiders' mission, as you prefer.]
+
+		ParentEvent
+Id:167637
+
+
+
+	ChildBranches7
+Name:Leave the Web of Stone
+Id:138625
+Description:It is time to end this.
+
+		DefaultEvent
+Name:The Emissary of Spiders escorts you to port
+Id:167728
+Description:He looks forward to seeing you at the Festival of Silk, once the task has been completed.
+
+		ParentEvent
+Id:167637
+
+
+
+	ChildBranches8
+Name:Negotiate for the Captain of the Nocturne
+Id:138623
+Description:The sorrow-spiders have him within their Tree of Seasons. Nobody knows a ship better than its captain. His advice would be invaluable on this task.
+
+		DefaultEvent
+Name:Fruits of the zee are not to be relinquished
+Id:167724
+Description:They are angry at the mere thought of giving up one of their prizes. You try every diplomatic trick up your sleeve, but they merely take them as insults.
+
+		ParentEvent
+Id:167637
+
+		SuccessEvent
+Name:A reluctant agreement
+Id:167725
+Description:They are angry at the mere thought of giving up one of their prizes, but you talk them round. Junior sorrow-spiders are dispatched to cut down the former Captain of the Nocturne from the Tree of Seasons. His atrophied limbs and sightless eyes mean he will never command again, but his mind remains sharp enough to be of assistance.
+
+
+
+	ChildBranches9
+Name:Demand the Captain of the Nocturne
+Id:138624
+Description:If they want your help with this, they can start giving you some real assistance, not lies!
+
+		DefaultEvent
+Name:Fruits of the zee are not to be relinquished
+Id:167726
+Description:They are angry at the mere thought of giving up one of their prizes. Your attempt at an ultimatum almost leads to violence, calmed only by the Emissary of Spiders' long experience at handling his masters.
+
+		ParentEvent
+Id:167637
+
+		SuccessEvent
+Name:Unthreatened, yet intimidated
+Id:167727
+Description:They are angry at the mere thought of giving up one of their prizes, but you brow-beat them into it. Junior sorrow-spiders are dispatched to cut down the former Captain of the Nocturne from the Tree of Seasons. His atrophied limbs and sightless eyes mean he will never command again, but his mind remains sharp enough to be of assistance.
+

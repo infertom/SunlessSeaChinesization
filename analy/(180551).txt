@@ -1,0 +1,34 @@
+Name:That night -
+Id:180551
+Description:You walk beside a river of serpents, through a green and fervid jungle, beneath an orange sun: in the company of a tiger. It watches you with weary, humorous eyes.
+
+
+
+	ChildBranches1
+Name:Speak with the tiger
+Id:146383
+Description:"I understand you've become involved in my daughter's intrigues. Well, you look like the sort who can take care of yourself. But let me repay you as best I may - "
+
+		DefaultEvent
+Name:Tiger tales
+Id:180552
+Description:This cat walks in the Mirror-Marches, at the edge of dream. Consequently, it sees many and curious things through mirrors. It shares them with you, as you walk with it beside the Writhing River. When you wake, you remember them clearly.
+
+		ParentEvent
+Id:180551
+
+
+
+	ChildBranches2
+Name:Speak with the tiger
+Id:146384
+Description:"I understand you've become involved in my daughter's intrigues. (And my sister's. Is she really serving as a mascot?) Well, you look like the sort who can take care of yourself. But let me repay you as best I may - "
+
+		DefaultEvent
+Name:
+Id:180553
+Description:This cat walks in the Mirror-Marches, at the edge of dream. Consequently, it sees many and curious things through mirrors. It shares them with you, as you walk with it beside the Writhing River. When you wake, you remember them clearly.
+
+		ParentEvent
+Id:180551
+

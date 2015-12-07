@@ -1,0 +1,281 @@
+Name:Opening a Cache of Curiosities
+Id:140906
+Description:What's inside?
+
+
+
+	ChildBranches1
+Name:Some sort of barrel
+Id:122500
+Description:Tap the bung, carefully.
+
+		DefaultEvent
+Name:A firkin of honey
+Id:140907
+Description:This is what they call prisoner's honey, wrung by the lamplighter bee from the exile's rose. "I wonder 'oo made up all these names," remarks Able Seaman Cargit. "Someone 'oo as read a sight too many books, I'm finking."
+
+		ParentEvent
+Id:140906
+
+		RareDefaultEvent
+Name:It's a cask of wine
+Id:145178
+Description:In the flaring light, it's zee-dark, but the taste is the darkness of autumn. Mushroom wine. An acquired taste, perhaps, but once you've acquired it, who'd go back to grapes? Nasty little bubbles of goo, grapes.
+
+
+
+	ChildBranches2
+Name:A bolt of fabric
+Id:122502
+Description:Shake out a little and let it glimmer in the light.
+
+		DefaultEvent
+Name:Parabola-Linen
+Id:140910
+Description:Parabola is the serpent-place behind mirrors. Or someone made that up. But in that case, where do they weave this sleek and ambery-glimmering cloth?
+
+		ParentEvent
+Id:140906
+
+		RareDefaultEvent
+Name:Spider-silk
+Id:145179
+Description:You can find spider-silk in London, of course. There are troubles there with sorrow-spider infestation, like anywhere in the Neath. But for the real quality, you need to go east, to the Khanate, or to the fang-bristling fastness of Saviour's Rocks...
+
+
+
+	ChildBranches3
+Name:An intriguingly lumpy sack
+Id:125254
+Description:It's probably not a sack full of skulls.
+
+		DefaultEvent
+Name:Darkdrop Coffee
+Id:145180
+Description:"We could run the boilers on this stuff," your second engineer remarks, "if'n we run out of coke." He sees your expression, and hastens to add, "We couldn't. We couldn't. Please don't put the coffee in the firebox, cap'n. It'd be a shocking waste."
+
+		ParentEvent
+Id:140906
+
+		RareDefaultEvent
+Name:Souls
+Id:145181
+Description:A sad little chain of bottled souls. It is hard to be sure if souls have eyes, but when these ones emerge from the sack into the light, they turn their blindly questing faces towards you in what seems like excitement - and then all at once relax. Disappointed, or relieved?
+
+
+
+	ChildBranches4
+Name:A filthy scrap of paper
+Id:125255
+Description:Creased and grimy
+
+		DefaultEvent
+Name:It's a page from a journal
+Id:145182
+Description:"...until the sixth candle was extinguished. Now we all watched the flame as it stood up, as it were on tip-toe, taller and bluer each heart-beat. Its light grew brighter in the moments before it failed, so that I saw the faces of all my companions, drawn and white as if we were already dead. Then the candle-flame drew itself up like a dancer and was extinguished: dark fell upon us all like a wave, and I heard the hatchlings uncoil - "
+
+		ParentEvent
+Id:140906
+
+		RareDefaultEvent
+Name:It's a page from a journal
+Id:145183
+Description:"...on the day we saw the Pillars of Irem. They are not what I expected: Irem is the place one does not expect. That is its nature. You have seen it in your dreams. Yes, you, who found this page long after my death. I knew when I wrote these words that you would read them one day. Irem taught me this, and now Irem's lesson is all that remains of me."
+
+
+
+	ChildBranches5
+Name:An oilskin packet
+Id:125256
+Description:Something valuable, to someone.
+
+		DefaultEvent
+Name:An Unread Log
+Id:145184
+Description:An odd, flat little stab-bound book, bound with red ribbon: but the cover reads LOG OF THE D______. Did some lost captain purchase it in the far bazaars of the Khanate?
+
+		ParentEvent
+Id:140906
+
+		RareDefaultEvent
+Name:Drowning-Pearls!
+Id:145185
+Description:"The Fathomking spits these out," your bo'sun offers. "Coughs 'em up like a cat does a hairball." He catches your sceptical glance. "True as I'm here, captain. There's a fancy word for it and all. Nacribezoar, or I'm a lubber."
+<br/><br/>
+Whatever encyclopaedias the bo'sun has been drinking, these are drowning-pearls all right. They have the heft, the sheen, and the chill...
+
+
+
+	ChildBranches6
+Name:A stout crate
+Id:125264
+Description:Crates! The source of sustenance: the fundamental element of cargo.
+
+		DefaultEvent
+Name:A crate of fuel
+Id:145198
+Description:Coke! Like coal, but more so, as the Department of Infernal Rarefactions would have it.
+
+		ParentEvent
+Id:140906
+
+		RareDefaultEvent
+Name:A crate of supplies
+Id:145285
+Description:Hardtack and water and an unexpected box of nails. A would-be wit remarks that the nails look tastier than the hardtack, until an officer's glare silences her.
+
+
+
+	ChildBranches7
+Name:A rich wild scent
+Id:125316
+Description:Whatever's in these barrels smells... heavenly.
+
+		DefaultEvent
+Name:Peaches!
+Id:145286
+Description:Such peaches! Amber and dawn. A zeaman snaffles one, and is caught when the taste makes him burst into tears. Pack them carefully. Don't bruise them.
+
+		ParentEvent
+Id:140906
+
+		RareDefaultEvent
+Name:Zzoup!
+Id:155898
+Description:Glorious zzoup! The only fine thing ever to come from Mount Palmerston. Do devils make it, or dream it?
+
+
+
+	ChildBranches8
+Name:A tightly-sealed crate
+Id:125317
+Description:Is that the mark of the Iron Republic, Hell's client-state?
+
+		DefaultEvent
+Name:
+Id:145287
+Description:Waxy white lumps, sheened like paraffin. "Hell-droppings," the bo'sun opines. "Don't know what they're made of, but they'll burn long and steady. Better than coke, much."
+
+		ParentEvent
+Id:140906
+
+		RareDefaultEvent
+Name:Candles!
+Id:155897
+Description:What does Hell want with candles? Does it not have enough fires of its own? Was this from, or destined for, the Iron Republic? "Don't ask questions about devils," runs the proverb, "unless you want your soul ripped out by the roots and fed to goats." It's not much of a proverb, actually.
+
+
+
+	ChildBranches9
+Name:A hessian bundle
+Id:125318
+Description:It clinks.
+
+		DefaultEvent
+Name:A brass glove
+Id:145288
+Description:Moulded flames adorn its fingertips and palms. It bears the inscription: HEAT TO INCANDESCENCE BEFORE USE. A devil's toy, certainly. An implement of torture, or a token of affection?
+
+		ParentEvent
+Id:140906
+
+		RareDefaultEvent
+Name:A salt-glass
+Id:147921
+Description:A narrow-waisted timer in a soapstone frame. The timer is filled with blue-white salt crystals. An inscription reads: IS IT TIME YET? From Whither, no doubt. They do enjoy their questions.
+
+
+
+	ChildBranches10
+Name:A lacquered casket
+Id:125319
+Description:It's the size of a small dog, or a large Bible. It's locked, but the lock won't resist a persistently-applied knife-blade, like this - 
+
+		DefaultEvent
+Name:A silver dagger
+Id:145289
+Description:A leaf-bladed dagger? Or a long-handled mirror? Either way, it's deadly, and beautiful, edged with a rainbow of sharp and slender diamonds. Your reflection swims in it dimly. This two-natured thing must come from the many-natured city, farthest Irem...
+
+		ParentEvent
+Id:140906
+
+		RareDefaultEvent
+Name:A many-rayed golden sun
+Id:147927
+Description:A blandly smiling golden face. Rays extend from its edge, curled like leaves or tentacles. From the weight, it's real gold. A single spark crackles on its surface. "Dawn Machine's making," breathes the bo'sun; and the avarice in your crew's eyes curdles to wariness.
+
+
+
+	ChildBranches11
+Name:An intriguingly lumpy sack
+Id:127014
+Description:It's probably not a sack full of skulls.
+
+		DefaultEvent
+Name:Scintillack!
+Id:147912
+Description:Deliciously glittering scintillack harvested from deep coral-nodes. Your crew ooh and aah. One clumsily attempts to filch a single glowing lump.
+
+		ParentEvent
+Id:140906
+
+		RareDefaultEvent
+Name:It is, in fact, a sack full of skulls.
+Id:147913
+Description:Who the hell puts skulls in a sack?
+
+
+
+	ChildBranches12
+Name:Signed and sealed
+Id:127020
+Description:A brown paper package marked with a torn label. Once, perhaps, this was a delivery note.
+
+		DefaultEvent
+Name:Something barely shaped
+Id:147925
+Description:A smoothed lump of bone, narrowed in the centre, bulging at the top. It looks unfinished, but it's traced with spidery lines. A map? A web? Or just something good to touch? Why are you so certain it's human bone?
+
+		ParentEvent
+Id:140906
+
+		RareDefaultEvent
+Name:Something fragile
+Id:147926
+Description:A porcelain ornament - a dog-faced lion or a lion-faced dog, scowling contemplatively from a careful bundle of silk wrappings. Creamy white, blushed with apple-green. Don't drop it.
+
+
+
+	ChildBranches13
+Name:A long locked box
+Id:130148
+Description:Is that a coffin? It carries a delivery label.
+
+		DefaultEvent
+Name:A long strong locked and sealed box
+Id:152839
+Description:WARNING OPENING BOX MAY DESTROY CONTENTS, reads a tag.
+
+		ParentEvent
+Id:140906
+
+
+
+	ChildBranches14
+Name:Day from night
+Id:131299
+Description:A big wicker basket, scrupulously sealed with black wax.
+
+		DefaultEvent
+Name:An Unclear Device!
+Id:154664
+Description:Inside is a lead-lined casket. Wisps of smoky darkness escape it. 'Anarchist work,' the whisper goes up. They eat light, these things. They're useful in battle - but very far from safe.
+
+		ParentEvent
+Id:140906
+
+		RareDefaultEvent
+Name:A Mirrorcatch Box!
+Id:177168
+Description:Inside is an oak chest filled with a mind-twisting matrix of mirrors. Take it to the Surface, and perhaps you can bring sunlight down. But then what will you do with it? It's not permitted in London.
+

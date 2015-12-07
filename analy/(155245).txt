@@ -1,0 +1,19 @@
+Name:Nightmare's End
+Id:155245
+Description:A weight has lifted.
+
+
+
+	ChildBranches1
+Name:Your dreams have passed
+Id:131692
+Description:That's good
+
+		DefaultEvent
+Name:That's good
+Id:155246
+Description:...isn't it?
+
+		ParentEvent
+Id:155245
+

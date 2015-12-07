@@ -1,0 +1,210 @@
+Name:Carnelian Conspiracies
+Id:175552
+Description:Your Network needs something, to prosper. What is it? [If you provide this successfully, your Network level may increase.]
+
+
+
+
+
+	ChildBranches1
+Name:Insight
+Id:143340
+Description:One of your operatives is troubled. Her temper is short; a flaw in a spy. "My ears are full of thunder," she tells you, too loud. Her eyes have turned grey as rain clouds.
+
+		DefaultEvent
+Name:You understand - your own sleep crackles with distant thunder
+Id:175554
+Description:She has suffered since finding a package of gouged Chelonate bones on her doorstep. A curse sent by a rival? <br/><br/>
+You share a bottle of black wine and stories of your dreams. The spears of lightning. The voice of thunder. The prickling weight of the air before the first downpour. Afterwards, she sleeps, soundly. She wakes revivified.
+
+		ParentEvent
+Id:175552
+
+
+
+	ChildBranches2
+Name:Bait!
+Id:143343
+Description:A rival agent besets your network. You need to draw them out.
+
+		DefaultEvent
+Name:Hook, line, sinker
+Id:175558
+Description:No spy could resist these secrets and maintain a shred of professional respect. Your quarry betrays himself. Your agents pursue him into the fungal jungle. The matter ends with knives in the violet shadows, and blood on the stalks.
+
+		ParentEvent
+Id:175552
+
+		RareDefaultEvent
+Name:The Civet strikes!
+Id:175559
+Description:A Slender Factotum takes your bait. Is he your quarry? Your agents coop him up and conduct an improvised, but thorough, interrogation. He is a dupe! Meanwhile, your true target escapes with your secrets. He leaves behind a calling card stamped with a spotted, long-bodied cat. He couldn't be the legendary Civet - could he?
+
+
+
+	ChildBranches3
+Name:An addition to a tiger's library
+Id:143345
+Description:The Governor relies on a cadre of docile native tigers to act as intermediaries with their fellows. One of them has a weakness for pot-boilers.
+
+		DefaultEvent
+Name:'Miss Jenny's Diary'
+Id:175562
+Description:The tiger is pleased. He asks you to read from one of the more explicit volumes. An hour later, he rumbles "One more chapter..." for the third time, lazily flexing his claws.
+
+		ParentEvent
+Id:175552
+
+		RareDefaultEvent
+Name:Knowing your audience
+Id:180495
+Description:The tiger favours plummy heroines, stiff-moustached heroes, and the convoluted social obstacles that keep them apart. Will their yearning passions ever be consummated? You give him a copy of <i>The Footman's Ghost</i>. Its pages practically quiver with repression. The tiger purrs.
+
+
+
+	ChildBranches4
+Name:It just might work
+Id:143352
+Description:An embassy clerk has access to vital documents. Unfortunately, they are inconveniently moral: offended by bribery, impervious to blackmail. But you have a plan.
+
+
+		DefaultEvent
+Name:Where malfeasance does not exist, it must be invented
+Id:175569
+Description:It is patient, precise work. Your agents inject the bottles in the clerk's wine-pantry with prisoner's honey. Week by week, they increment the dosage. His ability to distinguish the waking world from dreams begins to erode. One day, he does something while he's awake that he'd previously only have dared in dreams. Horrified, he tries to conceal his crime. You have him.
+
+		ParentEvent
+Id:175552
+
+		RareDefaultEvent
+Name:Competition
+Id:175570
+Description:Unfortunately, your scheme is stymied by rival agencies. Spies buzz around the clerk (and his fabled filing cabinet) like zee-bats. You seek less well-marked territory.
+
+
+
+	ChildBranches5
+Name:Seek another opportunity
+Id:143357
+Description:Perhaps you simply can't obtain what you need. Let the opportunity pass. Come back later. [This will allow you to choose another mission when you come back - usually, but not always, a different one. It will cost Something Awaits You.]
+
+		DefaultEvent
+Name:Times change
+Id:175578
+Description:Spies' desires are capricious and diverse.
+
+		ParentEvent
+Id:175552
+
+
+
+	ChildBranches6
+Name:An elucidation
+Id:143358
+Description:An asset - once forthcoming - has grown reticent.
+
+		DefaultEvent
+Name:A cautionary tale
+Id:175579
+Description:You tell the asset - who perspires appropriately - of the bloody rites conducted in Storm's temple at Chelonate. How they are always looking for celebrants, willing or otherwise. The requirements are meagre: bones, to break. A voice, to scream.<br/><br/>
+Your asset is eager to change the subject. Here come the secrets they owe you, gushing like spray from a cracked drainpipe.
+
+		ParentEvent
+Id:175552
+
+
+
+	ChildBranches7
+Name:Sate a fervence
+Id:146338
+Description:The Khanate's unofficial representative in Port Carnelian does not speak of his religion. According to this report, though, he reveres Judgements' Eggs. They sell them (reluctantly) in Irem and the Iron Republic. [This will increase your Network substantially, although not past 7.]
+
+		DefaultEvent
+Name:The gods of the gods
+Id:180496
+Description:You show him the Egg, and not even a lifetime of lies can conceal his desire. He values his faith above his Khan. You squeeze him dry, extracting secrets the White-and-Golds have killed to keep. When you leave him, you advise him to look after his new egg. The Dawn Machine is searching for them.
+
+		ParentEvent
+Id:175552
+
+
+
+	ChildBranches8
+Name:An offering to the Banded Prince
+Id:146339
+Description:He dwells in a jungle ruin: an anachronism; a curiosity. His position is romantic, but titular. Or is it? [This will increase your Network substantially, although not past 7.]
+
+		DefaultEvent
+Name:Burning bright
+Id:180497
+Description:The Prince lounges in the arch of a high, glassless window. Kneeling, you recount the tale of how his forebears earned their title. His ears prick as you speak of a war behind mirrors. His eyes open when you mention the Satraps from across a smoking sea. He growls as you describe a battle against a legion of heart-takers, and tiger blood blackening a pebbled beach. <br/><br/>
+You recite his full and original title: <i>the Prince of the Smoking Shore and Duke of all the Isles, Archipelagos and Peninsulae that were once the Sovereignty of the Humbled Satraps</i>. How the truth burns in him! His eyes blaze. Embers spark in his fur. You helpfully beat them out. It will be useful, having royalty in your debt.
+
+		ParentEvent
+Id:175552
+
+
+
+	ChildBranches9
+Name:Echoes
+Id:143342
+Description:Money buys secrets.
+
+		DefaultEvent
+Name:Bait
+Id:175556
+Description:The lead was too good to be true. Your Echoes procure nothing but hearsay. Meanwhile, shrewd eyes watch from dark windows.
+
+		ParentEvent
+Id:175552
+
+		SuccessEvent
+Name:A brisk trade
+Id:175557
+Description:Beneath the bustling arches of the Blue Emporium, merchants sell sapphires, porcelain and pickled puffballs. Your agents trade generous handfuls of coin, and receive secrets in exchange, or coded messages slipped into the goods.
+
+
+
+	ChildBranches10
+Name:Your authority
+Id:143344
+Description:A rival spymaster proposes a meeting.
+
+		DefaultEvent
+Name:A failure to communicate
+Id:175560
+Description:You come together in a rowdy chop-house to haggle across tart wine and fatty plates of meat. Your counterpart is arrogant and aggressive. Before you've finished the second course, you know you'll be at war by pudding.
+
+		ParentEvent
+Id:175552
+
+		SuccessEvent
+Name:The upper hand
+Id:175561
+Description:You sit together at a pantomime. While the excitable audience roars at the stage, you and your counterpart make promises, trade lies, and draw boundaries. The negotiations are fierce, but when you shake hands on them you know you have the better deal. You part ways as the performance degenerates into slapstick. Cream pies begin to fly.
+
+
+
+	ChildBranches11
+Name:A Diplomatic Agent
+Id:143356
+Description:Port Carnelian is choked with spies. Bewildered Surface spies. Earnest spies from London. Elegant spies from the Khanate. Splendid spies from the Presbyterate. But there's always room for a small one.
+
+		DefaultEvent
+Name:No word
+Id:175575
+Description:When you next call on your agent, you find her apartments cold and empty. A lamp has been knocked over. The floor is scuffed.
+
+		ParentEvent
+Id:175552
+
+		SuccessEvent
+Name:On a platter
+Id:175576
+Description:Your agent's opening gambit is to find, chart, and usurp an existing network. It belonged to a Surface spy, and agent of Russia. His interrogation was tedious, padded with tales of a damp Saint Petersburg childhood.
+
+		RareSuccessEvent
+Name:Old enemies
+Id:175577
+Description:Your agent sets two entrenched networks against each other, then takes advantage of their furtive struggle to set up shop. She observes their conflict with professional interest, sending back detailed reports.
+

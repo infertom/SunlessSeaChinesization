@@ -1,0 +1,49 @@
+Name:Assemble Vital Intelligence
+Id:149967
+Description:Time to put the pieces together. [All of these options will give you a single piece of Vital Intelligence, which you can trade to the Admiral, the Diplomat and perhaps elsewhere.]
+
+
+
+	ChildBranches1
+Name:Make sense of a Memory of Distant Shores
+Id:128332
+Description:That telling detail.
+
+		DefaultEvent
+Name:Of course!
+Id:149968
+Description:That's why. That's where. And now you know who.
+
+		ParentEvent
+Id:149967
+
+
+
+	ChildBranches2
+Name:Make sense of a Zee-ztory
+Id:142331
+Description:That teasing hint.
+
+		DefaultEvent
+Name:In hindsight, it's obvious
+Id:174002
+Description:"Light above dark water." The settling of scores. Zailors never forget. Lucky for you.
+
+		ParentEvent
+Id:149967
+
+
+
+	ChildBranches3
+Name:Make sense of Moves in the Game
+Id:142332
+Description:That hidden agenda...
+
+		DefaultEvent
+Name:The bigger picture
+Id:174003
+Description:They thought no one would recognise the pattern. They hadn't counted on you.
+
+		ParentEvent
+Id:149967
+

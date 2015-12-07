@@ -1,0 +1,64 @@
+Name:That Old Fury
+Id:150455
+Description:A zailor has run mad! She roams the ship, cudgel in hand, smashing comrades to the deck. She cries: "He is angry! Oh, he is angry!"
+
+
+
+	ChildBranches1
+Name:Shoot her dead
+Id:128622
+Description:It's the only safe thing to do. She's already killed one man.
+
+		DefaultEvent
+Name:Too late!
+Id:150456
+Description:Guns roar - but she's terribly quick. She downs another zailor before she falls dying to the deck. "Free him," she groans. "Free him!"
+
+		ParentEvent
+Id:150455
+
+		SuccessEvent
+Name:A bitter end
+Id:150459
+Description:Your zailors' weapons roar, and down she goes. You recite a hasty funeral for the poor soul and her wretched victim. But who will be next?
+
+
+
+	ChildBranches2
+Name:Talk her down
+Id:128624
+Description:Call her by name. Remind her who she is, where, why.
+
+		DefaultEvent
+Name:Furious laughter
+Id:150458
+Description:"Oh, I had a name, but he's burnt it! Burnt like paper, like the tree on the hill!" She lunges forwards, bringing another victim to the deck before turning, sprinting to the foredeck, leaping overboard with a wild scream of joy...
+
+		ParentEvent
+Id:150455
+
+		SuccessEvent
+Name:Shhhh
+Id:150460
+Description:Your soft words convince her to lay down her weapon: she stands staring about her, crying like a child, until you lead her away. She sleeps for a day and a night and wakes somewhat recovered. Nothing can be done for her victim.
+
+
+
+	ChildBranches3
+Name:Capture her alive
+Id:129257
+Description:Perhaps you can confine her until the madness passes...
+
+		DefaultEvent
+Name:Futile, futile!
+Id:151458
+Description:She's quick and strong and merciless! She brings another zailor down in a trailing spray of red - 
+
+		ParentEvent
+Id:150455
+
+		SuccessEvent
+Name:Barely contained
+Id:151461
+Description:Your crew brings her down in a shrieking heap. You drag her off below decks. "I am that old fury!" she is howling. For a moment in the glim-light, her eyes seem to swirl the grey of storm-clouds...
+

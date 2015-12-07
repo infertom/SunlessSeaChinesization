@@ -1,0 +1,52 @@
+Name:You've defeated a Glorious Dreadnought
+Id:171372
+Description:The ship is yours! What will you do with her?
+
+
+
+	ChildBranches1
+Name:Scuttle her
+Id:140736
+Description:
+
+		DefaultEvent
+Id:171375
+
+		ParentEvent
+Id:171372
+
+
+
+	ChildBranches2
+Name:Record any Observations
+Id:140737
+Description:If you've gathered enough, you may learn something...
+
+		DefaultEvent
+Name:
+Id:171376
+Description:[Something!]
+
+		ParentEvent
+Id:171372
+
+
+
+	ChildBranches3
+Name:Send home with a prize crew
+Id:140746
+Description:Twenty zailors should be enough for a skeleton crew, unless she runs into trouble.
+
+		DefaultEvent
+Name:Into the darkness
+Id:171390
+Description:Your prize is never seen again. Perhaps a heptycheer devours your crew. Perhaps they devour each other. Perhaps they betray you and sail it to the Iron Republic, where laws cannot follow.
+
+		ParentEvent
+Id:171372
+
+		SuccessEvent
+Name:Awaiting your pleasure
+Id:171391
+Description:When you next return to London, return to your Lodgings to claim your prize money...
+

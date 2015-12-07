@@ -1,0 +1,107 @@
+Name:A Visit to the Bazaar
+Id:180347
+Description:She's down the gang-plank as soon as she's docked. "I need to talk to Penstock," she says. "The land agent. The one at the Bazaar." She hesitates; she bites her lip. "Will you come with me?"
+
+
+
+	ChildBranches1
+Name:Go with her
+Id:146257
+Description:Penstock's Land Agency: a modest office in an immodest location, hard against the eastern flank of the Bazaar - that spired fortress of commerce that towers over London. Penstock stoops like a clerk and coughs like a miner, but his eyes are very wise.
+
+		DefaultEvent
+Name:The Sundered Sea
+Id:180348
+Description:"There is another sea beneath the Bazaar," Penstock declares. "A paler sea. Yes, I would imagine you might make the bargain your mother made. Yes, I helped her go down there. But she took a terrible chance even then... and the Bazaar is not well. Not now. Are you certain?"
+
+		ParentEvent
+Id:180347
+
+
+
+	ChildBranches2
+Name:Let her go alone
+Id:146258
+Description:...to an uncertain fate. You might never see her again.
+
+		DefaultEvent
+Name:She returns
+Id:180349
+Description:She moves with the assurance of an empress, but that's still the same smile. "No," she says. "If you wanted to know, you should have come with me."
+<br/><br/>
+She winks. "I will say I have a new tattoo. But it's not one that anyone, ever, will see."
+
+		ParentEvent
+Id:180347
+
+		RareDefaultEvent
+Name:She never returns
+Id:180351
+Description:A day passes, and a bonded courier arrives. "Mr Penstock asked me to give you this," she says quietly, "and I'm to tell you that your officer's never coming back. That's all."
+<br/><br/>
+"This" is the Daughter's golden necklace. It's not gold, of course; it's silver-gilt.
+
+
+
+	ChildBranches3
+Name:Go with her
+Id:146264
+Description:Penstock's Land Agency: a modest office in an immodest location, hard against the eastern flank of the Bazaar - that spired fortress of commerce that towers over London. You've met Penstock before. He spares you a single regretful glance.
+
+		DefaultEvent
+Name:The Sundered Sea
+Id:180357
+Description:"There is another sea beneath the Bazaar," Penstock declares. "A paler sea. Yes, I would imagine you might make the bargain your mother made. Yes, I helped her go down there. But she took a terrible chance even then... and the Bazaar is not well. Not now." (Another glance at you.) "Are you certain?"
+
+		ParentEvent
+Id:180347
+
+
+
+	ChildBranches4
+Name:Go with her
+Id:146265
+Description:Penstock's Land Agency: a modest office in an immodest location, hard against the eastern flank of the Bazaar - that spired fortress of commerce that towers over London. You've met Penstock before. He cocks an eyebrow at you. "Don't you have business elsewhere?"
+
+		DefaultEvent
+Name:Sundered Sea
+Id:180358
+Description:"There is another sea beneath the Bazaar," Penstock declares. "A paler sea. Yes, I would imagine you might make the bargain your mother made. Yes, I helped her go down there. But she took a terrible chance even then... and the Bazaar is not well. Not now." He looks meaningfully at you. "Which is why she needs help."
+<br/><br/>
+He turns back to the Daughter. "Are you certain?"
+
+		ParentEvent
+Id:180347
+
+
+
+	ChildBranches5
+Name:Go with her
+Id:146266
+Description:Penstock's Land Agency: a modest office in an immodest location, hard against the eastern flank of the Bazaar - that spired fortress of commerce that towers over London. You've met Penstock before. He gives you a long hard look, then turns his attention to the Daughter.
+
+		DefaultEvent
+Name:The Sundered Sea
+Id:180359
+Description:"There is another sea beneath the Bazaar," Penstock declares. "A paler sea. Yes, I would imagine you might make the bargain your mother made. Yes, I helped her go down there. But she took a terrible chance even then... and the Bazaar is not well. Not now." (Another hard stare at you.) "Are you certain?"
+
+		ParentEvent
+Id:180347
+
+
+
+	ChildBranches6
+Name:Go with her
+Id:146267
+Description:Penstock's Land Agency: a modest office in an immodest location, hard against the eastern flank of the Bazaar - that spired fortress of commerce that towers over London. You've met Penstock before. He gives you a warm smile, then turns his attention to the Daughter.
+
+		DefaultEvent
+Name:The Sundered Sea
+Id:180360
+Description:"There is another sea beneath the Bazaar," Penstock declares. "A paler sea. Yes, I would imagine you might make the bargain your mother made. Yes, I helped her go down there. But she took a terrible chance even then... although the Bazaar is healthier than she has been. It might be safer." He smiles at you. "A little safer."
+<br/><br/>
+He turns back to the Daughter. "Are you certain?"
+
+		ParentEvent
+Id:180347
+

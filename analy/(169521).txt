@@ -1,0 +1,90 @@
+Name:Tending the Rose Garden
+Id:169521
+Description:Before you is a garden washed with blood. A sea of petalled crimson. They say these particular exile's roses are of a variety cross-bred with a flower from Hell. That would explain the stench of brimstone, underneath the sweetness. <br><br>
+Winding paths lead to irregular rows of cages, each covered in tangles of thorn and vine. Some of the prisoners inside the cages call out to you, others mutter to themselves, or weep. A few simply stare, hopeless and silent.
+<br><br>
+"Good. You're here." Zaira snips a rose-head with her shears. "I'd like a new addition to the Garden. Could I borrow one of your crew? Well. <i>Have</i> one, really. I doubt you'd want them back, after."
+
+
+
+	ChildBranches1
+Name:Offer her a prisoner instead
+Id:139673
+Description:It was getting tiresome, anyway, having to feed them and listen to them sob.
+
+		DefaultEvent
+Name:
+Id:169545
+Description:"A bit on the scrawny side. But there's a market for depressing memories as well as lovely ones. I suppose that will have to do."
+
+		ParentEvent
+Id:169521
+
+
+
+	ChildBranches2
+Name:Offer her a crewman
+Id:139676
+Description:You just happen to have brought one with you. Handy, that.
+
+		DefaultEvent
+Name:
+Id:169551
+Description:"Memories of salt and zee! Mmm. She'll do nicely. Won't you? Yes, I think so. Yes. Have you had a little accident, my dear? No matter, the flowers like the ammonia."
+
+		ParentEvent
+Id:169521
+
+
+
+	ChildBranches3
+Name:Offer her the Gall-Eyed Engineer
+Id:139677
+Description:Well, it's not like she could go much <i>more</i> insane, is it?
+
+		DefaultEvent
+Name:
+Id:169552
+Description:The Gall-Eyed Engineer's eyes pulse as she looks around the garden; or maybe she's looking at you. "This is like the very edge of tears, and nothing like rain," she breathes. "Your face is a sunset, Captain."
+<br><br>
+"Oh. Yes! You are exactly right. What a way with words you have." Zaira gives the engineer a fond look. "Your memories are going to be quite the prize, I can tell. I shall have to get you to write them down, so we can compare impressions later. Won't that be fun?"
+<br><br>
+You leave them chattering together, after making sure the Engineer's cage is properly locked. Perhaps it is better this way? You tell yourself that you have never seen the Engineer happier.
+
+		ParentEvent
+Id:169521
+
+
+
+	ChildBranches4
+Name:Offer her the Irrepressible Cannoneer
+Id:139678
+Description:You should probably warn her about the Cannoneer's tendency towards explosions.
+
+		DefaultEvent
+Name:
+Id:169553
+Description:"What ho, Captain! Jolly strange garden, this, eh?" You explain matters. To his credit, the Cannoneer only tries to take one swing at you. "I didn't expect - this outcome isn't on any of my lists!"
+<br><br>
+Zaira locks the Cannoneer into the cage personally. "Saltpetre and lit matches. Hot iron. What memories you must have. Sipping them will be like swallowing an explosion, all fire and light." <br><br>
+The Cannoneer refuses to look away from you until you make some excuse to leave. They probably won't even recognise you, the next time you return. That's something, at least.
+
+		ParentEvent
+Id:169521
+
+
+
+	ChildBranches5
+Name:Wait... what?
+Id:139689
+Description:Could you have heard her correctly? You're not going to leave one of your crew in this nightmarish place. [Refusal will lock you out of this quest]
+
+		DefaultEvent
+Name:
+Id:169566
+Description:"Nightmarish? You really think so? Well, you must have odd dreams." Zaira takes a deep breath, and exhales it out all at once. "This place is full of peace. Do I mean peace? Yes, I think I do. Serenity. Stillness. The roses are innocent, even though they half-sprung from hell. You don't find that worth something? Maybe in your position I'd - well. Then I'd be you, and where would that leave <i>us</i>?"<br><br>
+She brightens all of a sudden. "Actually, in much the same place. Isn't the universe an odd thing! Goodbye, captain. We won't meet again."
+
+		ParentEvent
+Id:169521
+

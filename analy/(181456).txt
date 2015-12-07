@@ -1,0 +1,56 @@
+Name:The Amethyst Gallery
+Id:181456
+Description:Perspective confounds you. This place stretches away every direction through a dusty purple haze, as if you float in a cloud. The air is chill and crackling. Vast and shadowy shapes hang lifeless in the distant cloud, fluid staining their hides. Whale-things and beast-things, bigger than dirigibles, bigger than cities. You are a speck in the cloud. Are you still inside Frostfound?
+<br/><br/>
+Once again, there is a voice, lifeless as leaden type. THERE WERE CASUALTIES.
+
+
+
+	ChildBranches1
+Name:Approach the colossi
+Id:146931
+Description:Fear is the way to the heart of Frostfound. You will not escape unscathed. [This will sacrifice a point of Iron.]
+
+		DefaultEvent
+Name:Terror profundi
+Id:181458
+Description:Great sad dead eyes like stagnant crater-lakes. Mouths which could drink rivers. Your entire ship would be a glint on a speck in a pockmark on the least limb of these things. Every time you enter battle, you will remember this.
+
+		ParentEvent
+Id:181456
+
+
+
+	ChildBranches2
+Name:Return to the Corridors of Frostfound
+Id:146932
+Description:
+
+		DefaultEvent
+Name:
+Id:181459
+Description:
+
+		ParentEvent
+Id:181456
+
+
+
+	ChildBranches3
+Name:Recall the zee
+Id:146930
+Description:These things are giants. But you have faced something greater.
+
+		DefaultEvent
+Name:Uncertainty
+Id:181457
+Description:These things cannot be real. The zee is real. What is Frostfound? A delirium of ice. Nothing real.
+
+		ParentEvent
+Id:181456
+
+		SuccessEvent
+Name:An old familiar fear
+Id:181496
+Description:Great sad dead eyes like stagnant crater-lakes. Mouths which could drink rivers. Your entire ship would be a glint on a speck in a pockmark on the least limb of these things. But you are a zee-captain. Your enemy, your companion, is the Unterzee, against which even the eldest of these beasts is nothing.
+

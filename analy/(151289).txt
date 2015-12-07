@@ -1,0 +1,34 @@
+Name:Souls delivered!
+Id:151289
+Description:"What a propitious and encouragin' occasion this is, to meet again, here in this place which has been so very fortunate for us both! Allow me to shake you warmly by the hand since you have demonstrated your unswerving commitment to fair dealing and honest conveyage. Very good. My patron will toast you."
+
+
+
+	ChildBranches1
+Name:Accept payment
+Id:129161
+Description:You do need to cover your costs.
+
+		DefaultEvent
+Name:An encouraging leer
+Id:151290
+Description:"Here is your compensation and a little fuel and a few barrels of biscuits what a certain other captain has widely surrended for the common good. I will take the good word to my patron and if I am a man of my word we will see each other again. Unless a whale eats you of course in which case I 'ope you will not think poorly of me for wishing that we will not."
+
+		ParentEvent
+Id:151289
+
+
+
+	ChildBranches2
+Name:Refuse payment
+Id:129162
+Description:Announce to the Blind Bruiser that this pays your debt, and you're done.
+
+		DefaultEvent
+Name:Noble disappointment
+Id:151291
+Description:"I will not pretend that this has improved my evening. On the contrary it has left me a deep sadness in my 'eart. Notwithstanding 'owsoever I might say that you have acquitted yourself honourably and I do not think my patron will feel the need to pursue the matter further. Not at this time. As long as you keeps your mouth..." - he leans close - "tight snap-shut. Good night."
+
+		ParentEvent
+Id:151289
+

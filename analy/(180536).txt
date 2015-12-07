@@ -1,0 +1,118 @@
+Name:A Difficult Conversation
+Id:180536
+Description:The Determined Doctor stands as the door opens, irons clinking on his wrists. His eye is defiant. The cold sweat on his brow tells a different story.
+
+
+
+	ChildBranches1
+Name:Demand an explanation
+Id:146372
+Description:The question is a single word: Why?
+
+		DefaultEvent
+Name:An impersonal betrayal
+Id:180537
+Description:"Why would a man throw a life-preserver to a drowning child?" The Determined Doctor looks up, revolutionary fervour in his eye. "You were not <i>there,</i> [q:Addressed As], or you would know! Our only salvation is in anarchy... in burning London, bringing down the Khanate, in sealing the Cumaean Canal! Taking back <i>what is ours!"</i>
+<br /><br />
+"They understand that. In the Shadow, they understand."
+
+		ParentEvent
+Id:180536
+
+
+
+	ChildBranches2
+Name:His words mean nothing
+Id:146375
+Description:He will be handed over to the authorities at the next available port. Until then, he stays in the brig.
+
+		DefaultEvent
+Name:Judgement is rendered
+Id:180543
+Description:The Doctor sits down on his uncomfortable bed. He understands, and he accepts his punishment. He will cause you no more trouble.
+
+		ParentEvent
+Id:180536
+
+
+
+	ChildBranches3
+Name:Argue with the Determined Doctor
+Id:146376
+Description:Good grief. Has this man ever found a cause he didn't immediately embrace?
+
+		DefaultEvent
+Name:It is a question worth asking
+Id:180544
+Description:For a moment, it is as if you have gotten through to him. But no. A man who would fall so quickly from worshipping sorrow-spiders into the crooked clutches of the Calendar Council, and still be instantly won over by a bunch of Khaganian anarchs... is a man with an impenetrable shield of homilies and self-justification.
+<br /><br />
+"I did what I must," says the Doctor, his solitary eye staring past your ear. "I could have done no less."
+
+		ParentEvent
+Id:180536
+
+
+
+	ChildBranches4
+Name:Try to deal with the Determined Doctor
+Id:146377
+Description:He only did what he thought was right. If he swears never to repeat this, his honour will hold him to it.
+
+		DefaultEvent
+Name:A principled stand
+Id:180545
+Description:"Please understand, there was no pleasure or satisfaction in what I did. It was only with the bitterest regret and for the greatest good that I betrayed your trust."
+<br /><br />
+"But I cannot swear that, [q:Addressed As]. I must continue to act as my conscience demands, as must you with yours. I will speak no false promises to spare my neck."
+
+		ParentEvent
+Id:180536
+
+
+
+	ChildBranches5
+Name:Pass judgement on the Determined Doctor
+Id:146378
+Description:You have heard enough.
+
+		DefaultEvent
+Name:A verdict is reached
+Id:180546
+Description:The Determined Doctor does his best to look defiant, but is unable to hide his nervous trembling.
+
+		ParentEvent
+Id:180536
+
+
+
+	ChildBranches6
+Name:The Doctor returns to work
+Id:146379
+Description:Under guard, of course. He is, fortunately or not, too good a surgeon to simply discard.
+
+		DefaultEvent
+Name:It does not seem much of a punishment
+Id:180547
+Description:Still, the Doctor's face sinks into gloom. Was he hoping to be a martyr for his latest cause? Is he simply sick that he will be unable to help his anarch friends?
+<br /><br />
+It matters not. The irons around his wrists are removed. He is free to resume his duties, at least for the moment.
+
+		ParentEvent
+Id:180536
+
+
+
+	ChildBranches7
+Name:The Doctor leaves the ship
+Id:146381
+Description:He will spend the rest of this journey in the brig, and be handed over to the authorities at the next friendly port.
+
+
+		DefaultEvent
+Name:Judgement is rendered
+Id:180549
+Description:The Doctor sits down on his uncomfortable bed. He understands, and he accepts his punishment. He will cause you no more trouble.
+
+		ParentEvent
+Id:180536
+

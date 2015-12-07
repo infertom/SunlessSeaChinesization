@@ -1,0 +1,60 @@
+Name:You've destroyed a Tyrant-Moth
+Id:173743
+Description:It's already disintegrating into a sloughy mass, like a slick of rotting leaves.
+
+
+
+	ChildBranches1
+Name:Search for jewels
+Id:142160
+Description:There's an old story...
+
+		DefaultEvent
+Name:Sapphires!
+Id:173746
+Description:Blue jewels are embedded in the rotting fuselage of the moth's remains. You gather as much as you can, splashing frantically in the ship's boat, before it disintegrates altogether, and the remaining jewels are lost.
+
+		ParentEvent
+Id:173743
+
+
+
+	ChildBranches2
+Name:Record any Observations
+Id:142161
+Description:If you've gathered at least 10 Observations, you may learn something...
+
+[NONSENSE BRANCH, REPURPOSE]
+
+		DefaultEvent
+Name:Glints like eyes
+Id:173747
+Description:Glossy black fragments gleamed malevolently in the blankness of the ice. You'd swear it oriented them towards you. Some sort of sensory apparatus? Their glassy blackness recalls Mt Nomad, the predatory terrain feature which haunts the blackness of Void's Approach. What is their connection?
+
+		ParentEvent
+Id:173743
+
+
+
+	ChildBranches3
+Name:Examine it before its final dissolution
+Id:142159
+Description:Those mosaic configurations on its wings. Do they carry meaning?
+
+		DefaultEvent
+Name:Ask a question and you will not be answered
+Id:173744
+Description:You look closer. For a moment, a solution trembles in the space behind your eyes, and then it collapses into helplessness. The moth is a map of the unconsenting sky. You grope for stars. You find only glimmers. Night floods in.
+<br/><br/>
+"Captain!" your first officer is shouting. "Captain!" You blink. The moth is a smear of darkness on darker water. Nothing remains.
+
+		ParentEvent
+Id:173743
+
+		SuccessEvent
+Name:The Mirror of Scales
+Id:173745
+Description:As it comes apart, scenes of gardens swim before you. There are other winged things depicted here: butterflies on flowers, alphabet-winged frost-moths, bees alive with red memory. A mountain rises behind them all. Light grows at its core.
+<br/><br/>
+"Captain!" your first officer is shouting. "Captain!" You blink. The moth is a muddy swirl on the waves.
+

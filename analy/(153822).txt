@@ -1,0 +1,19 @@
+Name:Navigator's Boon
+Id:153822
+Description:You fall into conversation with another zee-captain - one with at least one voyage to their credit.
+
+
+
+	ChildBranches1
+Name:Earnest advice
+Id:130729
+Description:They've paid dearly to learn these lessons. You'll gain from their scars.
+
+		DefaultEvent
+Name:" - Stamford's Expanse, and the Reef - "
+Id:153823
+Description:"...your helmsman's hand shaking, turn back - turn back before the dreams begin. The Flukes are old, as the powers of the zee go, but they're not the very oldest. The Bazaar, too, is a power of the zee - "
+
+		ParentEvent
+Id:153822
+

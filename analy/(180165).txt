@@ -1,0 +1,22 @@
+Name:Meeting the Heartmetal Smith
+Id:180165
+Description:"I don't know where he is!! Can we ask directions?"
+
+
+
+	ChildBranches1
+Name:Ask directions
+Id:146138
+Description:A Clay Man directs you, with a minimum of enthusiasm and even fewer words.
+
+		DefaultEvent
+Name:Easy to overlook
+Id:180166
+Description:The smithy is a long low building that you missed on your first survey of the island. The smith is a quiet man with a pinched face, who works entirely in heartmetal.
+<br/>
+<br/>
+The Cannoneer greets him with a yell of delight. The smith winces, puts down his hammer, pinches the bridge of his nose. "It's you," he says. "Two of you."
+
+		ParentEvent
+Id:180165
+
