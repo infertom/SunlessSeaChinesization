@@ -1,0 +1,15 @@
+﻿{
+               "Description" : "The   noise subsides. You open the door. A thick layer of grey dust coats the room. A hammer lies in the centre. Nothing else remains.",
+               "ExoticEffects" : "",
+               "Id" : 135239,
+               "Name" : "Dust",
+               "QualitiesAffected" : [
+                  {
+                     "AssociatedQuality" : {
+                        "Id" : 111613
+                     },
+                     "Id" : 241027,
+                     "SetToExactly" : 0
+                  }
+               ]
+            }

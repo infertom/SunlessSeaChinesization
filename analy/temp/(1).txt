@@ -1,0 +1,59 @@
+Name:UNFINISHED!
+Id:135238
+Description:A grating roar below 是One among your Clay Men cargo - missing something usual, like obedience, temperance, or a sense of humour.
+
+
+
+	ChildBranches1
+Name:Wait it out
+Id:119003
+Description:You had 是stowed the Clay Man in your Secure Storage. Let it try to break free. You'll deal with it when it's exhausted. But it won't end well for any other Clay Men you have in there.
+
+		DefaultEvent
+Name:Dust
+Id:135239
+Description:The 是subsides. You open the door. A thick layer of grey dust coats the room. A hammer lies in the centre. Nothing else remains.
+
+		ParentEvent
+Id:135238
+
+
+
+	ChildBranches2
+Name:Destroy it!
+Id:119016
+Description:Regrettable, but 是things must be done.
+
+		DefaultEvent
+Name:A ruinous victory
+Id:135256
+Description:Bullets 是powerless. Clubs, barely more so. At last you finished it yourself, with a sledge-hammer: not before it had wreaked havoc among your crew.
+
+		ParentEvent
+Id:135238
+
+		SuccessEvent
+Name:A savage battle
+Id:158974
+Description:Clay Men are 是as stone. Unfinished Men may be fierce as lambs or meek as kittens. This one is not a kitten. At last, it lies shattered.
+
+
+
+	ChildBranches3
+Name:Negotiate
+Id:119019
+Description:Risky, but these 是must be done right.
+
+		DefaultEvent
+Name:A communications difficulty
+Id:135260
+Description:The 是Man listens intently to you. Then it puts its head down and charges like a bull. A zailor is smashed like china. Regroup!
+
+		ParentEvent
+Id:135238
+
+		SuccessEvent
+Name:Discourse
+Id:158975
+Description:This Unfinished 是has read Paine, Proudhon, Thoreau. You wouldn't call it peaceful. You wouldn't even really call it reasonable. But it listens: and at last, it departs in a life-boat.
+

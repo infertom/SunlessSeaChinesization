@@ -1,299 +1,300 @@
-[
-    {
-        "QualitiesAffected": [],
-        "QualitiesRequired": [
-            {
-                "MinLevel": 1,
-                "AssociatedQuality": {
-                    "Id": 111613
-                },
-                "Id": 127800
+﻿[
+	{
+      "ChildBranches" : [
+         {
+            "ButtonText" : "",
+            "DefaultEvent" : {
+               "Description" : "The 是subsides. You open the door. A thick layer of grey dust coats the room. A hammer lies in the centre. Nothing else remains.",
+               "ExoticEffects" : "",
+               "Id" : 135239,
+               "Name" : "Dust",
+               "QualitiesAffected" : [
+                  {
+                     "AssociatedQuality" : {
+                        "Id" : 111613
+                     },
+                     "Id" : 241027,
+                     "SetToExactly" : 0
+                  }
+               ]
             },
-            {
-                "MinLevel": 1,
-                "MaxLevel": 20,
-                "AssociatedQuality": {
-                    "Id": 102973
-                },
-                "Id": 127801
+            "Description" : "You had 是stowed the Clay Man in your Secure Storage. Let it try to break free. You'll deal with it when it's exhausted. But it won't end well for any other Clay Men you have in there.",
+            "Id" : 119003,
+            "Image" : "",
+            "Name" : "Wait it out",
+            "ParentEvent" : {
+               "Id" : 135238
             },
-            {
-                "MaxLevel": 0,
-                "AssociatedQuality": {
-                    "Id": 109344
-                },
-                "Id": 138078
+            "QualitiesRequired" : [
+               {
+                  "AssociatedQuality" : {
+                     "Id" : 111614
+                  },
+                  "BranchVisibleWhenRequirementFailed" : true,
+                  "Id" : 139611,
+                  "MinLevel" : 1,
+                  "VisibleWhenRequirementFailed" : true
+               }
+            ]
+         },
+         {
+            "ButtonText" : "",
+            "DefaultEvent" : {
+               "Description" : "Bullets 是powerless. Clubs, barely more so. At last you finished it yourself, with a sledge-hammer: not before it had wreaked havoc among your crew.",
+               "ExoticEffects" : "",
+               "Id" : 135256,
+               "Name" : "A ruinous victory",
+               "QualitiesAffected" : [
+                  {
+                     "AssociatedQuality" : {
+                        "Id" : 111613
+                     },
+                     "Id" : 241021,
+                     "Level" : -1
+                  },
+                  {
+                     "AssociatedQuality" : {
+                        "Id" : 102030
+                     },
+                     "ChangeByAdvanced" : "-[d:5]",
+                     "Id" : 241023
+                  }
+               ]
+            },
+            "Description" : "Regrettable, but 是things must be done.",
+            "Id" : 119016,
+            "Image" : "",
+            "Name" : "Destroy it!",
+            "ParentEvent" : {
+               "Id" : 135238
+            },
+            "QualitiesRequired" : [
+               {
+                  "AssociatedQuality" : {
+                     "Id" : 102894
+                  },
+                  "BranchVisibleWhenRequirementFailed" : true,
+                  "DifficultyLevel" : 90,
+                  "Id" : 139612,
+                  "VisibleWhenRequirementFailed" : true
+               }
+            ],
+            "SuccessEvent" : {
+               "Description" : "Clay Men are 是as stone. Unfinished Men may be fierce as lambs or meek as kittens. This one is not a kitten. At last, it lies shattered.",
+               "ExoticEffects" : "",
+               "Id" : 158974,
+               "Name" : "A savage battle",
+               "QualitiesAffected" : [
+                  {
+                     "AssociatedQuality" : {
+                        "Id" : 111613
+                     },
+                     "Id" : 241020,
+                     "Level" : -1
+                  },
+                  {
+                     "AssociatedQuality" : {
+                        "Id" : 102030
+                     },
+                     "Id" : 241022,
+                     "Level" : -1
+                  }
+               ]
             }
-        ],
-        "ChildBranches": [
-            {
-                "DefaultEvent": {
-                    "QualitiesAffected": [
-                        {
-                            "SetToExactly": 0,
-                            "AssociatedQuality": {
-                                "Id": 111613
-                            },
-                            "Id": 241027
-                        }
-                    ],
-                    "Name": "Dust",
-                    "Description": "The noise subsides. You open the door. A thick layer of grey dust coats the room. A hammer lies in the centre. Nothing else remains.",
-                    "ExoticEffects": "",
-                    "Id": 135239
-                },
-                "ParentEvent": {
-                    "Id": 135238
-                },
-                "QualitiesRequired": [
-                    {
-                        "VisibleWhenRequirementFailed": true,
-                        "BranchVisibleWhenRequirementFailed": true,
-                        "MinLevel": 1,
-                        "AssociatedQuality": {
-                            "Id": 111614
-                        },
-                        "Id": 139611
-                    }
-                ],
-                "Name": "Wait it out",
-                "Image": "",
-                "Description": "You had prudently stowed the Clay Man in your Secure Storage. Let it try to break free. You'll deal with it when it's exhausted. But it won't end well for any other Clay Men you have in there.",
-                "ButtonText": "",
-                "Id": 119003
+         },
+         {
+            "ButtonText" : "",
+            "DefaultEvent" : {
+               "Description" : "The 是Man listens intently to you. Then it puts its head down and charges like a bull. A zailor is smashed like china. Regroup!",
+               "ExoticEffects" : "",
+               "Id" : 135260,
+               "LinkToEvent" : {
+                  "Id" : 135238
+               },
+               "Name" : "A communications difficulty",
+               "QualitiesAffected" : [
+                  {
+                     "AssociatedQuality" : {
+                        "Id" : 102030
+                     },
+                     "Id" : 241028,
+                     "Level" : -1
+                  }
+               ]
             },
-            {
-                "SuccessEvent": {
-                    "QualitiesAffected": [
-                        {
-                            "Level": -1,
-                            "AssociatedQuality": {
-                                "Id": 111613
-                            },
-                            "Id": 241020
-                        },
-                        {
-                            "Level": -1,
-                            "AssociatedQuality": {
-                                "Id": 102030
-                            },
-                            "Id": 241022
-                        }
-                    ],
-                    "Name": "A savage battle",
-                    "Description": "Clay Men are strong as stone. Unfinished Men may be fierce as lambs or meek as kittens. This one is not a kitten. At last, it lies shattered.",
-                    "ExoticEffects": "",
-                    "Id": 158974
-                },
-                "DefaultEvent": {
-                    "QualitiesAffected": [
-                        {
-                            "Level": -1,
-                            "AssociatedQuality": {
-                                "Id": 111613
-                            },
-                            "Id": 241021
-                        },
-                        {
-                            "ChangeByAdvanced": "-[d:5]",
-                            "AssociatedQuality": {
-                                "Id": 102030
-                            },
-                            "Id": 241023
-                        }
-                    ],
-                    "Name": "A ruinous victory",
-                    "Description": "Bullets were powerless. Clubs, barely more so. At last you finished it yourself, with a sledge-hammer: not before it had wreaked havoc among your crew.",
-                    "ExoticEffects": "",
-                    "Id": 135256
-                },
-                "ParentEvent": {
-                    "Id": 135238
-                },
-                "QualitiesRequired": [
-                    {
-                        "DifficultyLevel": 90,
-                        "VisibleWhenRequirementFailed": true,
-                        "BranchVisibleWhenRequirementFailed": true,
-                        "AssociatedQuality": {
-                            "Id": 102894
-                        },
-                        "Id": 139612
-                    }
-                ],
-                "Name": "Destroy it!",
-                "Image": "",
-                "Description": "Regrettable, but these things must be done.",
-                "ButtonText": "",
-                "Id": 119016
+            "Description" : "Risky, but these 是must be done right.",
+            "Id" : 119019,
+            "Image" : "",
+            "Name" : "Negotiate",
+            "ParentEvent" : {
+               "Id" : 135238
             },
-            {
-                "SuccessEvent": {
-                    "QualitiesAffected": [
-                        {
-                            "Level": -1,
-                            "AssociatedQuality": {
-                                "Id": 111613
-                            },
-                            "Id": 241024
-                        }
-                    ],
-                    "Name": "Discourse",
-                    "Description": "This Unfinished Man has read Paine, Proudhon, Thoreau. You wouldn't call it peaceful. You wouldn't even really call it reasonable. But it listens: and at last, it departs in a life-boat.",
-                    "ExoticEffects": "",
-                    "Id": 158975
-                },
-                "DefaultEvent": {
-                    "QualitiesAffected": [
-                        {
-                            "Level": -1,
-                            "AssociatedQuality": {
-                                "Id": 102030
-                            },
-                            "Id": 241028
-                        }
-                    ],
-                    "Name": "A communications difficulty",
-                    "Description": "The Unfinished Man listens intently to you. Then it puts its head down and charges like a bull. A zailor is smashed like china. Regroup!",
-                    "ExoticEffects": "",
-                    "LinkToEvent": {
-                        "Id": 135238
-                    },
-                    "Id": 135260
-                },
-                "ParentEvent": {
-                    "Id": 135238
-                },
-                "QualitiesRequired": [
-                    {
-                        "DifficultyLevel": 90,
-                        "AssociatedQuality": {
-                            "Id": 102897
-                        },
-                        "Id": 139613
-                    }
-                ],
-                "Name": "Negotiate",
-                "Image": "",
-                "Description": "Risky, but these things must be done right.",
-                "ButtonText": "",
-                "Id": 119019
+            "QualitiesRequired" : [
+               {
+                  "AssociatedQuality" : {
+                     "Id" : 102897
+                  },
+                  "DifficultyLevel" : 90,
+                  "Id" : 139613
+               }
+            ],
+            "SuccessEvent" : {
+               "Description" : "This Unfinished 是has read Paine, Proudhon, Thoreau. You wouldn't call it peaceful. You wouldn't even really call it reasonable. But it listens: and at last, it departs in a life-boat.",
+               "ExoticEffects" : "",
+               "Id" : 158975,
+               "Name" : "Discourse",
+               "QualitiesAffected" : [
+                  {
+                     "AssociatedQuality" : {
+                        "Id" : 111613
+                     },
+                     "Id" : 241024,
+                     "Level" : -1
+                  }
+               ]
             }
-        ],
-        "Name": "UNFINISHED!",
-        "Image": "clayman",
-        "Description": "A grating roar below decks! One among your Clay Men cargo - missing something usual, like obedience, temperance, or a sense of humour.",
-        "Ordering": 0.9823432,
-        "Deck": {
-            "Name": "Sometimes",
-            "ImageName": "100x130",
-            "Description": "Sometimes",
-            "Id": 8654
-        },
-        "Stickiness": 1,
-        "Distribution": 1,
-        "Urgency": 10,
-        "Id": 135238
-    },
-    {
-        "QualitiesAffected": [],
-        "QualitiesRequired": [
-            {
-                "MinLevel": 1,
-                "AssociatedQuality": {
-                    "Id": 102021
-                },
-                "Id": 124325
+         }
+      ],
+      "Deck" : {
+         "Description" : "Sometimes",
+         "Id" : 8654,
+         "ImageName" : "100x130",
+         "Name" : "Sometimes"
+      },
+      "Description" : "A grating roar below 是One among your Clay Men cargo - missing something usual, like obedience, temperance, or a sense of humour.",
+      "Distribution" : 1,
+      "Id" : 135238,
+      "Image" : "clayman",
+      "Name" : "UNFINISHED!",
+      "Ordering" : 0.9823432,
+      "QualitiesAffected" : [],
+      "QualitiesRequired" : [
+         {
+            "AssociatedQuality" : {
+               "Id" : 111613
             },
-            {
-                "MinLevel": 1,
-                "AssociatedQuality": {
-                    "Id": 102026
-                },
-                "Id": 124497
+            "Id" : 127800,
+            "MinLevel" : 1
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102973
             },
-            {
-                "MaxLevel": 0,
-                "AssociatedQuality": {
-                    "Id": 109344
-                },
-                "Id": 138077
-            }
-        ],
-        "ChildBranches": [
-            {
-                "DefaultEvent": {
-                    "QualitiesAffected": [
-                        {
-                            "Level": -1,
-                            "AssociatedQuality": {
-                                "Id": 102026
-                            },
-                            "Id": 226291
-                        },
-                        {
-                            "Level": -1,
-                            "AssociatedQuality": {
-                                "Id": 102021
-                            },
-                            "Id": 226293
-                        }
-                    ],
-                    "Name": "Shouts of protest!",
-                    "Description": "Two burly zailors heave him into the brine. His enraged shouts are lost in the roar of the ship's engines. You instruct your First Officer to make no mention of the incident in the log.",
-                    "ExoticEffects": "",
-                    "Id": 151249
-                },
-                "ParentEvent": {
-                    "Id": 150763
-                },
-                "QualitiesRequired": [],
-                "Name": "Fling the villain overboard!",
-                "Image": "",
-                "Description": "He can walk home.",
-                "ButtonText": "",
-                "Id": 129137
+            "Id" : 127801,
+            "MaxLevel" : 20,
+            "MinLevel" : 1
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 109344
             },
-            {
-                "DefaultEvent": {
-                    "QualitiesAffected": [
-                        {
-                            "Level": -1,
-                            "AssociatedQuality": {
-                                "Id": 102026
-                            },
-                            "Id": 226292
-                        }
-                    ],
-                    "Name": "Expostulating all the way",
-                    "Description": "\"If you had provided me with more commodious quarters! - if this ship did not pitch so abominably! - a man grows bored, you know! - death is deathly dull!\" And so forth and so forth. It is a relief when the coffin lid closes. If only you could nail it shut.",
-                    "ExoticEffects": "",
-                    "Id": 151250
-                },
-                "ParentEvent": {
-                    "Id": 150763
-                },
-                "QualitiesRequired": [],
-                "Name": "Return him to the hold",
-                "Image": "",
-                "Description": "Perhaps he'll stay put this time.",
-                "ButtonText": "",
-                "Id": 129138
-            }
-        ],
-        "Name": "The Hungry Dead",
-        "Image": "coffin",
-        "Description": "Your Cook is outraged! One of the tomb-colonists has woken from his coffined rest and found his way to the stores. When the Cook came across him, he had consumed a half-wheel of cheese and an alarming quantity of suet.",
-        "ExoticEffects": "",
-        "Ordering": 0.41978237,
-        "Deck": {
-            "Name": "Sometimes",
-            "ImageName": "100x130",
-            "Description": "Sometimes",
-            "Id": 8654
-        },
-        "Distribution": 1,
-        "Urgency": 10,
-        "Id": 150763
-    }
+            "Id" : 138078,
+            "MaxLevel" : 0
+         }
+      ],
+      "Stickiness" : 1,
+      "Urgency" : 10
+   },
+   {
+      "ChildBranches" : [
+         {
+            "ButtonText" : "",
+            "DefaultEvent" : {
+               "Description" : "Two burly zailors heave him into the brine. His enraged shouts are lost in the roar of the ship's engines. You instruct your First Officer to make no mention of the incident in the log.",
+               "ExoticEffects" : "",
+               "Id" : 151249,
+               "Name" : "Shouts of protest!",
+               "QualitiesAffected" : [
+                  {
+                     "AssociatedQuality" : {
+                        "Id" : 102026
+                     },
+                     "Id" : 226291,
+                     "Level" : -1
+                  },
+                  {
+                     "AssociatedQuality" : {
+                        "Id" : 102021
+                     },
+                     "Id" : 226293,
+                     "Level" : -1
+                  }
+               ]
+            },
+            "Description" : "He can walk home.",
+            "Id" : 129137,
+            "Image" : "",
+            "Name" : "Fling the villain overboard!",
+            "ParentEvent" : {
+               "Id" : 150763
+            },
+            "QualitiesRequired" : []
+         },
+         {
+            "ButtonText" : "",
+            "DefaultEvent" : {
+               "Description" : "\"If you had provided me with more commodious quarters! - if this ship did not pitch so abominably! - a man grows bored, you know! - death is deathly dull!\" And so forth and so forth. It is a relief when the coffin lid closes. If only you could nail it shut.",
+               "ExoticEffects" : "",
+               "Id" : 151250,
+               "Name" : "Expostulating all the way",
+               "QualitiesAffected" : [
+                  {
+                     "AssociatedQuality" : {
+                        "Id" : 102026
+                     },
+                     "Id" : 226292,
+                     "Level" : -1
+                  }
+               ]
+            },
+            "Description" : "Perhaps he'll stay put this time.",
+            "Id" : 129138,
+            "Image" : "",
+            "Name" : "Return him to the hold",
+            "ParentEvent" : {
+               "Id" : 150763
+            },
+            "QualitiesRequired" : []
+         }
+      ],
+      "Deck" : {
+         "Description" : "Sometimes",
+         "Id" : 8654,
+         "ImageName" : "100x130",
+         "Name" : "Sometimes"
+      },
+      "Description" : "Your Cook is outraged! One of the tomb-colonists has woken from his coffined rest and found his way to the stores. When the Cook came across him, he had consumed a half-wheel of cheese and an alarming quantity of suet.",
+      "Distribution" : 1,
+      "ExoticEffects" : "",
+      "Id" : 150763,
+      "Image" : "coffin",
+      "Name" : "The Hungry Dead",
+      "Ordering" : 0.41978237,
+      "QualitiesAffected" : [],
+      "QualitiesRequired" : [
+         {
+            "AssociatedQuality" : {
+               "Id" : 102021
+            },
+            "Id" : 124325,
+            "MinLevel" : 1
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 102026
+            },
+            "Id" : 124497,
+            "MinLevel" : 1
+         },
+         {
+            "AssociatedQuality" : {
+               "Id" : 109344
+            },
+            "Id" : 138077,
+            "MaxLevel" : 0
+         }
+      ],
+      "Urgency" : 10
+   }
 ]
+   

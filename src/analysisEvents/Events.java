@@ -1,4 +1,6 @@
-package analysis;
+/*
+
+package analysisEvents;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -19,13 +21,14 @@ import com.alibaba.fastjson.JSONObject;
 public class Events {
 	public static void main(String[] args){
 		List<String> allEventTypes = new ArrayList<String>();
-		File fileIn = new File("events.txt");
+		//File fileIn = new File("events.txt");
+		File fileIn = new File("testEvents.txt");
 		Scanner in = null;
 		StringBuilder buffer = new StringBuilder();
 	
 		init(allEventTypes);
 		try {
-			in = new Scanner(fileIn);
+			in = new Scanner(fileIn, "UTF-8");
 			//getEventTypes(in);
 			while ( in.hasNextLine() ) {
 				buffer.append(in.nextLine());
@@ -67,16 +70,18 @@ public class Events {
 	
 	private static void analyEvents(StringBuilder buffer, List<String> allEventTypes) throws FileNotFoundException{
 		String fileName;
-		File fileOut = new File("analy/out.txt");
-		FileOutputStream fileOutputStream = new FileOutputStream(fileOut);
-		PrintStream out = new PrintStream(fileOutputStream);
+//		String filePath = "analy/";
+		String filePath = "analy/temp/";
+		File fileOut;
+		FileOutputStream fileOutputStream = null;
+		PrintStream out = null;
 		int num = 1;
 	
 		JSONArray jsonArray = JSON.parseArray(buffer.toString());
 		for ( Object ob : jsonArray ){
 			JSONObject jsonObject = (JSONObject) ob;
 //			fileName = "analy/" + jsonObject.getString("Name") + "(" + jsonObject.getString("Id") + ")" + ".txt";
-			fileName = "analy/" + "(" + (num++) + ")" + ".txt";
+			fileName = filePath + "(" + (num++) + ")" + ".txt";
 			fileOut = new File(fileName);
 			fileOutputStream = new FileOutputStream(fileOut);
 			out = new PrintStream(fileOutputStream);
@@ -118,3 +123,4 @@ public class Events {
 		out.println();
 	}
 }
+*/
