@@ -10,73 +10,115 @@ public class ChildBranche {
 	private JSONObject childBranche;
 	private List<ChildBrancheEvent> childBrancheEvents = new ArrayList<ChildBrancheEvent>();
 	String title;
-	
+
 	public ChildBranche(Object ob, String title) {
 		super();
 		childBranche = (JSONObject) ob;
 		getEvents();
 		this.title = title;
 	}
-	
-	//获取当前ChildBranche的所有Event
-	private void getEvents(){
-		for ( String type : CONSTANT.EVENTTYPE ){
-			if ( childBranche.containsKey(type) ){
-				ChildBrancheEvent childBrancheEvent = new ChildBrancheEvent(childBranche.getString(type), type);
+
+	public ChildBranche(String str, String title) {
+		super();
+		childBranche = JSON.parseObject(str);
+		getEvents();
+		this.title = title;
+	}
+
+	// 获取当前ChildBranche的所有Event
+	private void getEvents() {
+		for (String type : CONSTANT.EVENTTYPE) {
+			if (childBranche.containsKey(type)) {
+				ChildBrancheEvent childBrancheEvent = new ChildBrancheEvent(
+						childBranche.getString(type), type);
 				childBrancheEvents.add(childBrancheEvent);
+				System.out.println(childBrancheEvent.getDescription());
 			}
 		}
 	}
 
-	//获取Description
-	public String getDescription(){
-		return childBranche.getString("Description");
+	// 获取Description
+	public String getDescription() {
+		if (childBranche.containsKey("Description")) {
+			return childBranche.getString("Description");
+		} else {
+			return "";
+		}
 	}
-	
-	//获取Name
-	public String getName(){
-		return childBranche.getString("Name");
+
+	// 获取Name
+	public String getName() {
+		if (childBranche.containsKey("Name")) {
+			return childBranche.getString("Name");
+		} else {
+			return "";
+		}
 	}
-	
-	//获取Id
-	public String getId(){
-		return childBranche.getString("Id");
+
+	// 获取Id
+	public String getId() {
+		if (childBranche.containsKey("Id")) {
+			return childBranche.getString("Id");
+		} else {
+			return "";
+		}
 	}
-	
-	//获取Title
-	public String getTitle(){
+
+	// 获取Title
+	public String getTitle() {
 		return this.title;
 	}
-	
-	//获取包含片段par的event个数
-	public int getDesNum(String par){
+
+	// 获取包含片段par的event个数
+	public int getDesNum(String par) {
 		int num = 0;
-		String description = childBranche.getString("Description");
-		if ( description.indexOf(par) != -1 ) num++;
-		for ( ChildBrancheEvent e : childBrancheEvents ){
+		String description = this.getDescription();
+		if ( description != null && description.indexOf(par) != -1)
+			num++;
+		for (ChildBrancheEvent e : childBrancheEvents) {
 			num += e.getDesNum(par);
 		}
-		
+
 		return num;
 	}
-	
-	//替换Description
-	public ChildBranche exchangeDescription(String buffer){
-		if ( this.getDesNum(buffer) != 1 ) return this;
-		
-		String description = childBranche.getString("Description");
-		if ( description.indexOf(buffer) != -1 ){
-			this.childBranche.put("Description", buffer);
-		}else{
-			for ( ChildBrancheEvent e : childBrancheEvents ){
-				e.exchangeDescription(buffer);
+
+	// 替换Description
+	public Boolean exchangeDescription(String par, String buffer) {
+		if (this.getDesNum(par) == 1) {
+			String description = childBranche.getString("Description");
+			if (description != null && description.indexOf(par) != -1) {
+				childBranche.put("Description", buffer);
+			} else {
+				for (ChildBrancheEvent e : childBrancheEvents) {
+					e.exchangeDescription(par, buffer);
+				}
 			}
+			return true;
+		} else {
+			return false;
 		}
-		return this;
 	}
-	
-	//获取当前Event的JSONObject
-	public JSONObject getJsonObject(){
+
+	// 获取当前Event的JSONObject
+	public JSONObject getJsonObject() {
+		for (ChildBrancheEvent e : childBrancheEvents) {
+			childBranche.put(e.getTitle(), e.getJsonObject());
+		}
+
 		return childBranche;
+	}
+
+	// 获取info，包含Description，Name，Id
+	public String getInfo() {
+		String temp = "\t" + this.getTitle() + "\n" + 
+					  "Name: " + this.getName() + "\n" +
+					  "Id: " + this.getId() + "\n" +
+					  "Description: " + this.getDescription() + "\n\n";
+		for (ChildBrancheEvent e : childBrancheEvents) {
+			temp += e.getInfo();
+		}
+		temp += "\n\n";
+		
+		return temp;
 	}
 }

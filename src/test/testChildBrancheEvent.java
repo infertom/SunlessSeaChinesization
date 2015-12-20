@@ -6,8 +6,8 @@ import tool.READFILEALL;
 import analysisEvents.ChildBrancheEvent;
 
 public class testChildBrancheEvent {
-	private static String fileInName = "test.txt";
-	static StringBuilder testStr = new StringBuilder();
+	private static String fileInName = "test/testChildBrancheEvent.txt";
+	private static StringBuilder testStr = new StringBuilder();
 	
 	public static void main(String[] args) {
 		testStr = READFILEALL.readFileAl(fileInName);
@@ -30,6 +30,9 @@ public class testChildBrancheEvent {
 		//获取JSONObject
 		JSONObject object = event.getJsonObject();
 		System.out.println(object.toJSONString());
+	
+		//获取info
+		System.out.println("Info\n" + event.getInfo());
 	}
 
 }

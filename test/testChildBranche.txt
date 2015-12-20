@@ -1,0 +1,36 @@
+﻿{
+            "ButtonText" : "",
+            "DefaultEvent" : {
+               "Description" : "The noise subsides. You open the door. A thick layer of grey dust coats the room. A hammer lies in the centre. Nothing else remains.",
+               "ExoticEffects" : "",
+               "Id" : 135239,
+               "Name" : "Dust",
+               "QualitiesAffected" : [
+                  {
+                     "AssociatedQuality" : {
+                        "Id" : 111613
+                     },
+                     "Id" : 241027,
+                     "SetToExactly" : 0
+                  }
+               ]
+            },
+            "Description" : "You had prudently stowed the Clay Man in your Secure Storage. Let it try to break free. You'll deal with it when it's exhausted. But it won't end well for any other Clay Men you have in there.",
+            "Id" : 119003,
+            "Image" : "",
+            "Name" : "Wait it out",
+            "ParentEvent" : {
+               "Id" : 135238
+            },
+            "QualitiesRequired" : [
+               {
+                  "AssociatedQuality" : {
+                     "Id" : 111614
+                  },
+                  "BranchVisibleWhenRequirementFailed" : true,
+                  "Id" : 139611,
+                  "MinLevel" : 1,
+                  "VisibleWhenRequirementFailed" : true
+               }
+            ]
+         }
