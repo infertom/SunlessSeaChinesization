@@ -1,0 +1,55 @@
+(152)
+Name: The Screaming Sage
+Id: 176672
+Description: "Captain, I dream of that engine. I dream of the Sage in its core, screaming. Captain - I dream of joining him."
+
+	ChildBranches 1
+Name: Let it be so
+Id: 147456
+Description: Permit the zailor to join the Sage in the Impeller's heart.
+
+		DefaultEvent
+Name: A brief glory
+Id: 182220
+Description: For a magnificent instant, the zailor is silhouetted against the fire at the Impeller's heart: then he's gone, and the Impeller roars with delight. Perhaps no one saw.
+
+		ParentEvent
+Name: 
+Id: 176672
+Description: 
+
+
+
+	ChildBranches 2
+Name: Refuse
+Id: 147457
+Description: It will not take another life.
+
+		DefaultEvent
+Name: "No!"
+Id: 182221
+Description: "Captain! I must! The sun! The sun!"
+<br/><br/>
+Your crew subdues the wretched zailor, and eventually he calms. But the Impeller speaks in your dreams, and in the dreams of your crew. All is not well. All is very far from well.
+
+		ParentEvent
+Name: 
+Id: 176672
+Description: 
+
+
+
+	ChildBranches 3
+Name: Speak to the Tireless Mechanic
+Id: 147458
+Description: He built the thing. He must be able to manage it.
+
+		DefaultEvent
+Name: "I know, I know."
+Id: 182222
+Description: "It calls to me too. These things will happen. We have employed forces not intended for mortal use. I mean that quite literally. We must take our knocks." He shrugs. He does look regretful.
+
+		ParentEvent
+Name: 
+Id: 176672
+Description:

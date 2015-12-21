@@ -1,0 +1,19 @@
+(497)
+Name: A Gift for the Pirate King
+Id: 168580
+Description: Your Patron is overjoyed at your return. "Eager to meet Leopold, are we?"
+
+	ChildBranches 1
+Name: Courtesies due
+Id: 139087
+Description: Hand over your writhing, tear-stained cargo.
+
+		DefaultEvent
+Name: 
+Id: 168583
+Description: Two attendants drag the prisoner off to the Rose Garden. You do your best to ignore the screaming. Your Patron tells you that it will take some time for your gift's memories to be harvested, and the resultant honey collected. You should return later for your introduction to the Pirate-King.
+
+		ParentEvent
+Name: 
+Id: 168580
+Description:

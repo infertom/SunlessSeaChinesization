@@ -1,0 +1,38 @@
+(321)
+Name: Speak to the Unsettling Sage
+Id: 177524
+Description: "Caaptain, hello. A chaarming ship you haave."
+
+	ChildBranches 1
+Name: Invite the Unsettling Sage to dinner
+Id: 144567
+Description: His tastes are piscine in the extreme.
+
+		DefaultEvent
+Name: A candid discussion
+Id: 177525
+Description: "I am aacustomed," he admits frankly, "to be being used aas a tool. This is whaat your Mechaanic will do: no maatter. I aam in his debt. My people maade me aas a repository of secrets. It will be a relief, when that ends. But until then, I shaall keep the secrets a little longer. Still, your compaany is pleasaant. This is for you."
+<br/><br/>
+He hands you a little nodule of deep amber. It is warm to the touch.
+
+		ParentEvent
+Name: 
+Id: 177524
+Description: 
+
+
+
+	ChildBranches 2
+Name: Tell the Unsettling Sage a story
+Id: 147163
+Description: "Yes. Something about the laands I have not seen..."
+
+		DefaultEvent
+Name: Half-closed eyes.
+Id: 181780
+Description: "Aah. Aah, thaat is good. Yes. Let me tell you something of the sea..."
+
+		ParentEvent
+Name: 
+Id: 177524
+Description:

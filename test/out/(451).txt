@@ -1,0 +1,161 @@
+(451)
+Name: Khan's Shadow
+Id: 152332
+Description: Long ago, the Khanate turned its back on its warrior traditions. It has no place for pirates and would-be nomads: so here, in the Shadow, the exiles make their home, amid a hundred wrecked, grounded, decommissioned ships.
+
+	ChildBranches 1
+Name: Acquire a Doomed Monster-Hunter
+Id: 144273
+Description: The rebel lords of the Khanate are hungry for the secrets of the Dawn Machine. One among their number will volunteer to die for you, should you provide what they need.
+
+		DefaultEvent
+Name: Peligin eyes
+Id: 177002
+Description: He tugs at the brim of his dripping hat. His eyes are the colour of the deepest zee. "I'm ready," he tells you. "No, I need no food. No water. I will feed myself from the zee."
+
+		ParentEvent
+Name: 
+Id: 152332
+Description: 
+
+
+
+	ChildBranches 2
+Name: A gathering of anarchists
+Id: 146368
+Description: That is nothing unusual here, of course. Most nights, half the Shadow hatches plots over cheap wine and old insults. But who is that Officer in the crowd?
+
+		DefaultEvent
+Name: The usual diatribes
+Id: 180530
+Description: The Haunted Doctor stands listening in rapt attention, his remaining eye closed. On a stage made from tables and upturned chairs, an attractive young man and woman take turns raging against injustice and talking of the glorious day when London and the Khanate and all others who dare to elevate themselves above others will face their reckoning. (The irony is, as ever, lost.)
+<br /><br />
+Once the meeting ends he hurries over to thank you, glowing with second-hand fervour.
+<br /><br />
+"I have... missed this," says the Doctor, something strange taking over his face. If you didn't know better, you'd say it was a <i>smile.</i> He heads over to the young woman to try it out, renewed purpose in his stride.
+
+		ParentEvent
+Name: 
+Id: 152332
+Description: 
+
+
+
+	ChildBranches 3
+Name: Let your Longshanks Gunner go ashore
+Id: 146434
+Description: "I'm no more good to yer, Captain. I've got the scent o' freedom, now, and I'm for the city of broken ships."
+
+		DefaultEvent
+Name: A profitable parting
+Id: 180642
+Description: "So I've got a confession to make. I've been moonlighting in the old trade. Not aboard ship. I'd never steal from a shipmate, cap'n, I zwear!" She winks. "But a port here, a port there. Here's some of my haul, and thanks."
+<br/><br/>
+She hands you a collection of clinking objects wrapped in cloth, shoulders a bundle, and, whistling, hurdles the rail to land in a rusting coal-barge. She's gone.
+
+		ParentEvent
+Name: 
+Id: 152332
+Description: 
+
+
+
+	ChildBranches 4
+Name: Put a blemmigan ashore
+Id: 147282
+Description: The exiles are unlikely to be bothered by one more outcast.
+
+		DefaultEvent
+Name: A knack for concealment
+Id: 181959
+Description: The blemmigan disappears into the moist shadows of a nearby wreck. A Shadow watches it go. "Mushrooms," she says cheerfully. "I've missed mushrooms."
+
+		ParentEvent
+Name: 
+Id: 152332
+Description: 
+
+
+
+	ChildBranches 5
+Name: Compile a Port Report
+Id: 147647
+Description: So many malcontents. So little time.
+
+		DefaultEvent
+Name: Closely-written notes
+Id: 182503
+Description: Conniving, debauching, speechifying, drinking, singing, speeching, poeting. Now and then a drunken duel. Very occasionally, a savage ritual murder.
+
+		ParentEvent
+Name: 
+Id: 152332
+Description: 
+
+
+
+	ChildBranches 6
+Name: Sell an exotic weapon to Shadow buccaneers
+Id: 129827
+Description: "Icarus in Black! The masterwork of an Iron Republic Artificer. Captains fear it. Monsters flee it!" [A Hearts success will get you a slightly better price.]
+
+		DefaultEvent
+Name: A fair price
+Id: 152336
+Description: The Icarus is an eccentric weapon, and the Scarred Buccaneer who purchases it may not find success in piracy. But she seems content enough.
+
+		ParentEvent
+Name: 
+Id: 152332
+Description: 
+
+		SuccessEvent
+Name: An excellent price!
+Id: 152337
+Description: The Icarus is an eccentric weapon. The Scarred Buccaneer who purchases it may not find it very much use against the Khanate Navy. But she purrs with delight: it's a trophy to inspire envy in rival buccaneers!
+
+
+
+	ChildBranches 7
+Name: Roister
+Id: 129824
+Description: Carouse? No Shadow would settle for carousing. You'll roister, and like it.
+
+		DefaultEvent
+Name: 5
+Id: 152333
+Description: 9
+
+		ParentEvent
+Name: 
+Id: 152332
+Description: 
+
+		SuccessEvent
+Name: 
+Id: 158973
+Description: 
+
+
+
+	ChildBranches 8
+Name: Help Maybe's Daughter search for her mother
+Id: 146187
+Description: "She was a spy, once, I think. I think she might still be one. Well, a lot of us are. Freelancers, anyway. Look, perhaps you shouldn't say that to anyone at the Admiralty. I do talk nonsense when I'm nervous."
+
+		DefaultEvent
+Name: "No luck."
+Id: 180247
+Description: "She murdered a White-and-Gold here last month. Or someone else in lilac did. It's an unlucky colour here, I think. But let me tell you something else I heard. And then we can look elsewhere. We'll find her."
+
+		ParentEvent
+Name: 
+Id: 152332
+Description: 
+
+		SuccessEvent
+Name: "She was here last week, but - "
+Id: 180248
+Description: You follow the Daughter's stunned gaze. A woman in a lilac gown leans in the doorway of a tea-shop. Her features bear an unmistakable resemblance to your officer's. "We should talk," she says to the Daughter, quite calmly.
+<br/><br/>
+The Daughter assembles the rags of her composure with remarkable speed. "Excuse us," she says...

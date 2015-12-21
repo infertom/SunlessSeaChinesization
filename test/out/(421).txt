@@ -1,0 +1,31 @@
+(421)
+Name: A Stern Reminder from the Admiralty
+Id: 176819
+Description: In the name and by the power of Her Enduring Majesty, a trade embargo and quarantine in <i>absolute perpetuity</i> has hereby been declared on the Empire of Hands.
+<br /><br />
+1. No ship of London is to permit aboard a Pentecost ape without express and prior permission of the Admiralty.
+<br /><br />
+2. Any and all acts of spirifage are prohibited.
+<br /><br />
+3. <i>They know what they did.</i>
+<br /><br />
+Beware of stowaways. Keep a tight grip on your soul.
+<br /><br />
+- Excerpt from Standard Naval Regulations, Vol IV
+
+	ChildBranches 1
+Name: The Flea-Ridden Mayor
+Id: 144183
+Description: With the Regulations in mind, it is a surprise to be greeted by a mere itchy monkey in a tattered yellow robe, barely walking with the help of a ceremonial staff.
+
+		DefaultEvent
+Name: An official greeting
+Id: 176820
+Description: "Hello!" cries the Mayor, in the broken voice of one not yet used to human speech. "Come! Make selves at home! All souls welcome in bountiful Empire of Hands!"
+<br /><br />
+The crew shifts uncomfortably. They know the stories. It will take more than the natural beauty of this place to make most of them risk shore-leave here.
+
+		ParentEvent
+Name: 
+Id: 176819
+Description:

@@ -1,0 +1,185 @@
+(407)
+Name: Chapel of Lights
+Id: 143325
+Description: Furtive faithful gather in the shadows between the many, many candles. A bell tolls in the chapel tower: cracked iron laughter. Beware. The isle is full of voices.
+
+	ChildBranches 1
+Name: Eat of the Chapel's bounty
+Id: 124058
+Description: A Smiling Priest unlocks the door of the store-house for you. "Here," he says. "Eat. But take nothing away with you."
+
+		DefaultEvent
+Name: Rich and red
+Id: 143326
+Description: They have shark-steaks plucked from the sea. Thin slices of cavern-tuna, translucent and delicate as paper. Little crimson cakes flavoured with cinnamon and coated with poppy-seeds. Tomatoes, impossibly ripe and sweet so far from the surface. Gorge yourself. Leave with the juices dripping from your chin.
+
+		ParentEvent
+Name: 
+Id: 143325
+Description: 
+
+		RareDefaultEvent
+Name: Rich and red
+Id: 158778
+Description: They have shark-steaks plucked from the sea. Thin slices of cavern-tuna, translucent and delicate as paper. Little crimson cakes flavoured with cinnamon and coated with poppy-seeds. Devilled pork kidneys on crusty bread. Gorge yourself. Leave with the juices dripping from your chin.
+
+
+
+	ChildBranches 2
+Name: Attend a service at the Chapel
+Id: 124059
+Description: The great bell tolls. The few and ragged faithful gather. Bring your offerings.
+
+		DefaultEvent
+Name: 
+Id: 143327
+Description: seven lessons, each more appalling than the last, with a higher Pages difficulty each time (the first is free). Each gives a Secret, more at the end, if you succeed - each gives Terror whether you succeed or fail. The last requires a crew sacrifice.
+
+		ParentEvent
+Name: 
+Id: 143325
+Description: 
+
+
+
+	ChildBranches 3
+Name: Give a Nightmare to the Well
+Id: 130395
+Description: "The Well drinks colour," the Smiling Priest whispers. "The Well drinks dreams. And the Well is always thirsty." [This will reduce your Nightmare's Strength, but also scar you permanently, and increase your Wounds by 1. Three Wounds will kill you.]
+
+		DefaultEvent
+Name: Water, flint, night
+Id: 153234
+Description: Down, down. Down. "This is for the Drowned Man," they say. "He was eaten. You will only be wounded." Down. The well-water is freezing. There are knives in the walls. You tread water, stay away from the knives... but when they haul you up, you crash again and again against the walls. At the top, they bandage your wounds as you cry out. "Shhh," the Smiling Priest whispers. "Shhh. This is only a taste. But well-borne. Well-borne."
+
+		ParentEvent
+Name: 
+Id: 143325
+Description: 
+
+
+
+	ChildBranches 4
+Name: Bring people from other islands on pilgrimages
+Id: 130396
+Description: especially Mutton Island
+
+		DefaultEvent
+Name: 
+Id: 153235
+Description: 
+
+		ParentEvent
+Name: 
+Id: 143325
+Description: 
+
+
+
+	ChildBranches 5
+Name: Collect the information you were sent for
+Id: 130397
+Description: The Smiling Priest is your contact. Speak to him.
+
+		DefaultEvent
+Name: He beckons you closer
+Id: 153236
+Description: "I know nothing of the movements of fleets, or cargoes, or armies," he tells you. "But your Admiralty will learn the names of those who came here, and what they did. Let me whisper it in your ear - "
+
+		ParentEvent
+Name: 
+Id: 143325
+Description: 
+
+
+
+	ChildBranches 6
+Name: Gather intelligence
+Id: 131310
+Description: What occurs, here between the darkness and the light?
+
+		DefaultEvent
+Name: 
+Id: 154678
+Description: A Smiling Priest in a red cassock tends the chapel. The congregation are shy of light. They come and go in little ships, and it's strangely difficult to count them. Perhaps some of them are imaginary. Still, you note the name of a ship or two -
+
+		ParentEvent
+Name: 
+Id: 143325
+Description: 
+
+
+
+	ChildBranches 7
+Name: Put a blemmigan ashore
+Id: 133943
+Description: Carefully.
+
+		DefaultEvent
+Name: With a backwards glance
+Id: 158935
+Description: It goes cautiously. But it goes. It may be caught and eaten: but you suspect the Chapel's faithful have more appetite for juicier dishes...
+
+		ParentEvent
+Name: 
+Id: 143325
+Description: 
+
+
+
+	ChildBranches 8
+Name: An interview with the Smiling Priest
+Id: 144573
+Description: The stone said: SERVED THE CHAPEL OF LIGHT. How did he serve?
+
+		DefaultEvent
+Name: "Yes."
+Id: 177532
+Description: "Your father served here," the Smiling Priest says off-handedly. "Or perhaps it's more accurate to say that he <i>was</i> served. He surrendered his flesh to save his crew. It was an honest bargain: he called upon us, and the Drowned Man answered. When we had saved them from hunger, your father came here to offer himself to us."
+<br/><br/>
+The Priest's smile is wide and bright. "It was an honourable death, and, I might say, a most appetising one. It was his Grace, the Bishop, who sent you here, was it not? Tell his Grace that our debt to him is paid. Yes; you may have your father's bones. We have taken what we need from him, long ago, and laid him to rest. "
+<br/><br/>
+[You have his bones: his poor bones. Take them to London to complete the game. Perhaps you will keep these secrets to yourself - or perhaps some day you will speak to the Admiralty of what you have learnt here...]
+
+		ParentEvent
+Name: 
+Id: 143325
+Description: 
+
+
+
+	ChildBranches 9
+Name: An interview with the Smiling Priest
+Id: 144574
+Description: The stone said: SERVED THE CHAPEL OF LIGHT. How did he serve?
+
+		DefaultEvent
+Name: "Yes."
+Id: 177533
+Description: "Your father served here," the Smiling Priest says off-handedly. "He brought us savoury morsels: flesh and spirit. When he had done with his crew, he brought them here to us. He was savage in the service of the Drowned Man. We had hoped that one day, his appetites would grow so great that he would pass North. But he failed. Many do."
+<br/><br/>
+The Priest's smile is wide and bright. "It was an mighty death, and, I might say, a most appetising one. Yes; you may have his bones. We have taken what we need from him, long ago, and laid him to rest. Tell the Bishop, if you please, that our debt is paid. Good day."
+<br/><br/>
+[You have his bones: his sinful bones. Take them to London to complete the game. Perhaps you had best keep his secret.]
+
+		ParentEvent
+Name: 
+Id: 143325
+Description: 
+
+
+
+	ChildBranches 10
+Name: Your Sigil-Ridden Navigator races toward the chapel
+Id: 147446
+Description: "This is the place. Hark! The bell!"
+
+		DefaultEvent
+Name: You give chase. 
+Id: 182209
+Description: Within, the air is heavy and hushed.
+
+		ParentEvent
+Name: 
+Id: 143325
+Description:

@@ -1,0 +1,41 @@
+(185)
+Name: Pirate Steam-Pinnace
+Id: 144206
+Description: A nimble, savage little wolf of a vessel!
+
+	ChildBranches 1
+Name: Fight!
+Id: 124633
+Description: 
+
+		DefaultEvent
+Name: 
+Id: 144207
+Description: Their guns roar, and the battle begins!
+
+		ParentEvent
+Name: 
+Id: 144206
+Description: 
+
+
+
+	ChildBranches 2
+Name: Flee!
+Id: 124634
+Description: It's fast. How fast are you?
+
+		DefaultEvent
+Name: Fast enough...
+Id: 144208
+Description: Their captain's as wily as you. Too close, too late. Begin.
+
+		ParentEvent
+Name: 
+Id: 144206
+Description: 
+
+		SuccessEvent
+Name: Not that fast, apparently
+Id: 147901
+Description: You bewilder them in a drift of fog, and you're off into the zee...

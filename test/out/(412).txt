@@ -1,0 +1,290 @@
+(412)
+Name: Gaider's Mourn
+Id: 143340
+Description: The Mourn is a stalagmite vast as a crag, and its foot has no safe harbours. The corsair's citadel nestles halfway up. An intricate system of winches takes the strain... and your ship rises slowly from the zee. Her hull creaks in protest. Grizzled zailors groan and cling to stanchions.
+<br/><br/>
+Higher, higher. Now the Unterzee shimmers like glass below. Children clambering in crevices cheer and wave alarmingly. The winch-motor slows, and you hang in a cradle next to a red-bowed pirate cutter.
+
+	ChildBranches 1
+Name: Explore the Mourn
+Id: 124068
+Description: There's a surprising quantity of actual landscape on the Mourn. It's vertical, admittedly, but once you find the beast-paths and urchin-roads, you can traverse it as you would a rocky moor, with an additional throatful of lurching terror.
+
+		DefaultEvent
+Name: 
+Id: 143341
+Description: 
+
+		ParentEvent
+Name: 
+Id: 143340
+Description: 
+
+
+
+	ChildBranches 2
+Name: Explore the Mourn
+Id: 127642
+Description: There's a surprising quantity of actual landscape on the Mourn. It's vertical, admittedly, but once you find the beast-paths and urchin-roads, you can traverse it as you would a rocky moor, with an additional throatful of lurching terror.
+
+		DefaultEvent
+Name: 
+Id: 148812
+Description: 
+
+		ParentEvent
+Name: 
+Id: 143340
+Description: 
+
+
+
+	ChildBranches 3
+Name: Explore the Mourn
+Id: 127643
+Description: There's a surprising quantity of actual landscape on the Mourn. It's vertical, admittedly, but once you find the beast-paths and urchin-roads, you can traverse it as you would a rocky moor, with an additional throatful of lurching terror.
+
+		DefaultEvent
+Name: 
+Id: 148813
+Description: 
+
+		ParentEvent
+Name: 
+Id: 143340
+Description: 
+
+
+
+	ChildBranches 4
+Name: Explore the Mourn
+Id: 127644
+Description: There's a surprising quantity of actual landscape on the Mourn. It's vertical, admittedly, but once you find the beast-paths and urchin-roads, you can traverse it as you would a rocky moor, with an additional throatful of lurching terror.
+
+		DefaultEvent
+Name: 
+Id: 148814
+Description: 
+
+		ParentEvent
+Name: 
+Id: 143340
+Description: 
+
+
+
+	ChildBranches 5
+Name: Explore the Mourn
+Id: 127645
+Description: There's a surprising quantity of actual landscape on the Mourn. It's vertical, admittedly, but once you find the beast-paths and urchin-roads, you can traverse it as you would a rocky moor, with an additional throatful of lurching terror.
+
+		DefaultEvent
+Name: 
+Id: 148815
+Description: 
+
+		ParentEvent
+Name: 
+Id: 143340
+Description: 
+
+
+
+	ChildBranches 6
+Name: Explore the Mourn
+Id: 127646
+Description: There's a surprising quantity of actual landscape on the Mourn. It's vertical, admittedly, but once you find the beast-paths and urchin-roads, you can traverse it as you would a rocky moor, with an additional throatful of lurching terror.
+
+		DefaultEvent
+Name: 
+Id: 148816
+Description: 
+
+		ParentEvent
+Name: 
+Id: 143340
+Description: 
+
+
+
+	ChildBranches 7
+Name: Another afternoon at the Arrant Limpet
+Id: 127964
+Description: A drinking-den by the dock-cradles is a good place for your crew to find companionship and let off steam... but although Gaider's Mourn is a free port, the corsairs prefer their own, and look askance at 'respectable' Londoners.
+
+		DefaultEvent
+Name: Cold shoulders at the Arrant Limpet
+Id: 149339
+Description: Conversation quietens as the drinkers look round. You've been here too long, and you're attracting the wrong kind of attention. Time to move on.
+
+		ParentEvent
+Name: 
+Id: 143340
+Description: 
+
+
+
+	ChildBranches 8
+Name: Pay the Loitering Docker for his Strategic Information
+Id: 130373
+Description: "Admiralty sent you? Price has gone up. It's not safe here. Ye'll pay the difference, won't ye?"
+
+		DefaultEvent
+Name: A grin
+Id: 153205
+Description: "Ye're a generous soul. Ye'll have yer reward the other side of the River, one day. And here's a little reward for now. Good zailing to ye!"
+<br/><br/>
+The report is barely legible. Perhaps that's part of the code. The Admiralty will know.
+
+		ParentEvent
+Name: 
+Id: 143340
+Description: 
+
+
+
+	ChildBranches 9
+Name: Refuse to pay for the information
+Id: 130377
+Description: "Ye're a rough cove. Come on. This is me living and me life -"
+
+		DefaultEvent
+Name: A shrug
+Id: 153209
+Description: "Ye can't blame me for tryin'. I wants to get home. Sick of this place. London, eh? How is the old monster? - wait, they'll see. Here's yer report. I'm off!"
+<br/><br/>
+The report is barely legible. Perhaps that's part of the code. The Admiralty will know.
+
+		ParentEvent
+Name: 
+Id: 143340
+Description: 
+
+
+
+	ChildBranches 10
+Name: A Shivering Corsair with a package
+Id: 131050
+Description: "Oh, God, they're cold. Take them from me. Take them. Where's my money? Don't you cheat me. Take them, but I want my money."
+
+		DefaultEvent
+Name: A sigh of relief
+Id: 154273
+Description: "Oh, oh, I feel it lifting. It's gone from me! You never saw me." [Return to the Blind Bruiser in London. Don't lose your cargo.]
+
+		ParentEvent
+Name: 
+Id: 143340
+Description: 
+
+
+
+	ChildBranches 11
+Name: Introduce blemmigans to the Mourn
+Id: 133944
+Description: So many nooks, so many crannies, so many villains. It seems only appropriate.
+
+		DefaultEvent
+Name: A wild seed
+Id: 158936
+Description: Off it goes, into the teeming, stinking hollows of the stalagmite. Probably it'll just end up in a pirate's pot. Probably.
+
+		ParentEvent
+Name: 
+Id: 143340
+Description: 
+
+
+
+	ChildBranches 12
+Name: Drop off the Shady Sort
+Id: 137499
+Description: She inhales the air, and smiles, perhaps for the first time. "As I remember it," she remarks. "Less mud. More rum."
+
+		DefaultEvent
+Name: Business concluded
+Id: 165947
+Description: At the winch-head, a deferential fellow in fustian waits. He bows to the Shady Sort. "A pleasure, as ever."
+<br/><br/>
+You, he barely favours with a glance. He presses a heavy purse into your hand. Small coins stained with salt-water, but together they amount to a tidy sum.
+
+		ParentEvent
+Name: 
+Id: 143340
+Description: 
+
+
+
+	ChildBranches 13
+Name: Collect your ill-gotten gains
+Id: 142561
+Description: Have you been sending stolen ships to Corsair's Forest?
+
+		DefaultEvent
+Name: A timely arrival
+Id: 174345
+Description: You find your prize-crew loafing sullenly around the Arrant Limpet. You got here just in time. They haven't spent much of your money.
+
+		ParentEvent
+Name: 
+Id: 143340
+Description: 
+
+		RareDefaultEvent
+Name: Some are born to endless night
+Id: 174346
+Description: Your prize-crew zailors clatter down a stalagmite-stair. They seem pleased to see you; and they even have your money. But some of them are missing. "Serpents, Captain," one says, very quietly. "It were serpents."
+
+
+
+	ChildBranches 14
+Name: An evening at the Arrant Limpet
+Id: 124069
+Description: A drinking-den by the dock-cradles is a good place for your crew to find companionship and let off steam... but although Gaider's Mourn is a free port, the corsairs prefer their own, and look askance at 'respectable' Londoners.
+
+		DefaultEvent
+Name: An ugly conclusion
+Id: 143342
+Description: You never learn who said what, but <i>someone</i> ends up pushed out of a window. It's a long drop out there. The Arrant Limpet trembles dangerously as the brawl gathers momentum.
+
+		ParentEvent
+Name: 
+Id: 143340
+Description: 
+
+		SuccessEvent
+Name: A rousing evening, nevertheless
+Id: 148883
+Description: Your crew teaches the Limpet a whole cycle of epically filthy sea shanties. At one point you could swear you hear your name inserted in one of the more complex verses, but you maintain a diplomatic silence.
+
+
+
+	ChildBranches 15
+Name: Gather intelligence
+Id: 127962
+Description: Gaider's Mourn swarms with pirates, smugglers and captains of uncertain allegiance. You could learn a lot here, but you'll need to go carefully.
+
+		DefaultEvent
+Name: A dislike of spies
+Id: 149333
+Description: You and one of your more villainous-looking zailors join a dice-game. (Villainous-looking: but you know for a fact that she tithes to charity and has a delightful singing voice.) The topic turns promisingly to pillage and ambush, but your zailor is a little too forward with her questions. There is a scuffle, and a stabbing. You escape: she does not.
+
+		ParentEvent
+Name: 
+Id: 143340
+Description: 
+
+		RareDefaultEvent
+Name: Scarecrow, scarecrow
+Id: 149334
+Description: You're eavesdropping on the captain of a lean black cutter when her first mate spots you. In the ensuing fracas, one of your crew is smashed through a flimsy wooden wall. He falls two hundred feet to be impaled on a smaller stalagmite in the shadow of the Mourn, and dies instantly. It's a painless death, but his slowly mummifying corpse will hang there for decades to come. Ships will salute it. Successive generations of children will name it, rename it, fling stones, dare each other to climb the pinnacle and kiss its fleshless hand.
+
+		SuccessEvent
+Name: Incaution
+Id: 149335
+Description: A steaming bath-house on a spur of rock. Water slops over the edge of tubs, out over the edge to join the zee far below. Scarred captains boast drunkenly of the prizes they've taken, and the victims they have marked out. You listen from the shadows.
+
+		RareSuccessEvent
+Name: Unusual activity
+Id: 149336
+Description: The whisper is that a Khanate trimaran resupplied here last week, under a flag of careful truce. That implies something interesting about Khanate fleet movements. The Admiralty would love to know.

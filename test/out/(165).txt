@@ -1,0 +1,104 @@
+(165)
+Name: Deep Within
+Id: 168622
+Description: At last the tunnel opens out. You and all the other congregants spread out in a cavernous space.
+<br/><br/>
+A voice speaks in the darkness, a ritual preparation: "Here at the new year, we gather under the One Mask of Flourishing-of-Years. Her face is turned to the gods.
+<br/><br/>
+"Protected by her mask, we may remove our own. Protected by her script, we may speak outside our parts."
+<br/><br/>
+Here and there is the sound of people fumbling with ties and strings. Your own face feels different with the mask off.
+
+	ChildBranches 1
+Name: Wait, listen
+Id: 139114
+Description: There are things here to learn, perhaps to your advantage.
+
+		DefaultEvent
+Name: Not much for blackmail
+Id: 168623
+Description: You move stealthily through the dark, hearing one knot of conversation and then another.
+<br/><br/>
+The secrets exchanged do not offer much leverage. You can't see the owners of the secrets. Here and there you catch the smallest fragment of something that might serve you on a future occasion: the memory of a voyage east, a half-rumour about the Carnelian Coast, a muttering about the Admiralty.
+
+		ParentEvent
+Name: 
+Id: 168622
+Description: 
+
+
+
+	ChildBranches 2
+Name: Tell one of your own secrets
+Id: 139115
+Description: All this time under the mask. It would be freeing.
+
+
+		DefaultEvent
+Name: Strangely liberating
+Id: 168624
+Description: You begin to speak. Certain weights lift away. You have been in the wrong from time to time, but it is forgivable.
+
+		ParentEvent
+Name: 
+Id: 168622
+Description: 
+
+
+
+	ChildBranches 3
+Name: Fight the urge to panic
+Id: 139116
+Description: The room may have gotten bigger, but you are still trapped like a bug in a bottle.
+
+		DefaultEvent
+Name: Grace
+Id: 168625
+Description: The trouble is, once you've realized that you're trapped, it's hard to unrealize it again.
+<br/><br/>
+Someone squeezes your wrist. Grounds you. The panic goes out again in a rush.
+
+		ParentEvent
+Name: 
+Id: 168622
+Description: 
+
+
+
+	ChildBranches 4
+Name: Fight the urge to giggle
+Id: 139117
+Description: What curious practices they have here.
+
+		DefaultEvent
+Name: Suppressed
+Id: 168626
+Description: You manage to stifle yourself. The only thing that comes out sounds like a sneeze.
+<br/><br/>
+Here and there people are talking around you, telling of childhoods in padded nurseries, silenced under the Scarab-shaped baby mask. Other pasts, too, not all lived on Visage.
+
+		ParentEvent
+Name: 
+Id: 168622
+Description: 
+
+
+
+	ChildBranches 5
+Name: Receive the confidence of a stranger as holy
+Id: 139118
+Description: Those who come as spectators may remain as participants.
+
+
+		DefaultEvent
+Name: Truths
+Id: 168627
+Description: In the deep shadow you hear things that you will never repeat. They are not the most dreadful of secrets or the most evil things you know, but they are entrusted to you as confessions. 
+<br/><br/>
+You needn't guard your face while you listen, because no one can see you. You needn't scheme about how to use the information, because you do not know whose secret this is: it has no use to you, except as a token of connection.
+
+
+		ParentEvent
+Name: 
+Id: 168622
+Description:

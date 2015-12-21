@@ -1,0 +1,58 @@
+(27)
+Name: Roused at Midnight
+Id: 144493
+Description: As the first watch ends, shouts for'ard rouse you! Your bo'sun's face is grim as you emerge on deck. "We lost one. Weighted hisself with pans and went overboard. Took Cook's best kettle, too. Morale is worsening, sir."
+
+	ChildBranches 1
+Name: Distribute an extra rum ration
+Id: 124818
+Description: Zailors are rarely ungrateful for grog.
+
+		DefaultEvent
+Name: Liquid comfort
+Id: 144495
+Description: It hasn't helped with discipline, but the mood aboard is perceptibly better.
+
+		ParentEvent
+Name: 
+Id: 144493
+Description: 
+
+
+
+	ChildBranches 2
+Name: Place a guard on the cookware
+Id: 124898
+Description: Sometimes, it's best just to be seen doing something practical.
+
+		DefaultEvent
+Name: A confused response
+Id: 144605
+Description: This isn't exactly what your crew expected. But you won't be left eating food raw! Even so far from London, there are standards which must be maintained!
+
+		ParentEvent
+Name: 
+Id: 144493
+Description: 
+
+
+
+	ChildBranches 3
+Name: Address the crew
+Id: 124817
+Description: Remind that all shall be well, and all manner of thing shall be well, if only they have courage.
+
+		DefaultEvent
+Name: An unsuccessful homily
+Id: 144494
+Description: Men and women scratch and yawn. A scrawny cat licks itself indelicately. You catch the bo'sun picking his nose. Have they heard this one before?
+
+		ParentEvent
+Name: 
+Id: 144493
+Description: 
+
+		SuccessEvent
+Name: Straightened backs
+Id: 144608
+Description: You're on good form today. You remind them of their bravery, their honour, the glory which will be theirs on the return to London. By the end of the speech, you've almost convinced yourself.

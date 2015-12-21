@@ -1,0 +1,266 @@
+(137)
+Name: Iron Republic
+Id: 143349
+Description: Factory-engines roar like false lions. Blood thunders in the dock-pipes. Crimson lightning skitters across the deck, leaps to the rail, curls there like a cat. The city is reflected in glassy-calm harbour water: the citizens there have the heads of dogs and serpents.
+<br/><br/>
+Hell has brought freedom to the Iron Republic: freedom from all laws, even those of nature.
+
+	ChildBranches 1
+Name: "Listen."
+Id: 124074
+Description: Your fears line up on the quay, waiting, waving like old lovers.
+
+		DefaultEvent
+Name: 
+Id: 143350
+Description: As you touch the dock, your fears leap fondly into your waiting arms. They dissolve. Gather the oily scraps they left. [The higher your Terror, the more Fragments you've received.]
+
+		ParentEvent
+Name: 
+Id: 143349
+Description: 
+
+
+
+	ChildBranches 2
+Name: Allow your zailors time ashore
+Id: 124075
+Description: [Probably this will increase your Terror. Perhaps something else horrible will happen.]
+
+		DefaultEvent
+Name: An open door
+Id: 143351
+Description: The city is a temple where shattered columns<br/>
+Let slip from time to time impossible thoughts;<br/>
+Man finds his way through labyrinths of words<br/>
+capture his own eyes.<br/>
+<br/>
+What happened? Did you pay for it? Why did you pay for it?
+
+		ParentEvent
+Name: 
+Id: 143349
+Description: 
+
+		RareDefaultEvent
+Name: Tea with devils
+Id: 159871
+Description: How you all laughed! Their yellow eyes remain with you, swimming in your vision, as you stagger back to the ship with the skull in the tea-cosy. The eyes remain literally, that is - they coalesce in the palm of your hand each time you open it. Devils and their flirtations. At least you have the tea-cosy.
+
+
+
+	ChildBranches 3
+Name: MARKET OF HUNGERS: The Parliament of Flies
+Id: 134384
+Description: The Market of Hungers, with its spires and sigils. Is it a parody of the Bazaar? Today, flies fill its arcades. Buzz, buzz.
+
+		DefaultEvent
+Name: A new day comes
+Id: 159711
+Description: [Visit the Shops tab. After this visit, the Parliament will no longer be here: the Republic will seek zzoup and supplies instead.]
+
+		ParentEvent
+Name: 
+Id: 143349
+Description: 
+
+		RareDefaultEvent
+Name: The murk folds
+Id: 159776
+Description: [Visit the Shops tab.]
+
+
+
+	ChildBranches 4
+Name: MARKET OF HUNGERS: the Calvary Doctrine
+Id: 134385
+Description: On days such as this, the Market is filled with crucified dragons and laws-in-waiting. They whistle a welcome.
+
+		DefaultEvent
+Name: 
+Id: 159712
+Description: [Visit the Shops tab. After this visit, the Doctrine will no longer be here: the Republic will seek wine and honey instead.]
+
+		ParentEvent
+Name: 
+Id: 143349
+Description: 
+
+		RareDefaultEvent
+Name: 
+Id: 159775
+Description: [Visit the Shops tab. The merchants in their Doctrine-masks will accept Echoes.]
+
+
+
+	ChildBranches 5
+Name: MARKET OF HUNGERS: the Gesundheit Conspiracy
+Id: 134386
+Description: 'HELL PROVIDES' reads the sign above the Market of Hungers, today. Perhaps tomorrow, too.
+
+		DefaultEvent
+Name: 
+Id: 159713
+Description: [Visit the Shops tab. After this visit, the Doctrine will no longer be here: the Republic will seek bone instead.]
+
+		ParentEvent
+Name: 
+Id: 143349
+Description: 
+
+		RareDefaultEvent
+Name: 
+Id: 159774
+Description: Even the air carries sustenance. [Visit the Shops tab.]
+
+
+
+	ChildBranches 6
+Name: MARKET OF HUNGERS: the Expulsus
+Id: 134422
+Description: Today the Republic inhales bone, exhales souls. Are you here to gather the souls?
+
+		DefaultEvent
+Name: 
+Id: 159772
+Description: [Visit the Shops tab. After this visit, the Expulsus will no longer be here: the Republic will seek zzoup and supplies.]
+
+		ParentEvent
+Name: 
+Id: 143349
+Description: 
+
+		RareDefaultEvent
+Name: 
+Id: 159773
+Description: [Visit the Shops tab. After this visit, the Expulsus will no longer be here: the Republic will seek scintillack and the satisfactions of lusts.]
+
+
+
+	ChildBranches 7
+Name: Compile a Port Report
+Id: 134536
+Description: It won't be entirely straightforward. The streets won't lie straight, and the ink freezes whenever you look away from the inkwell.
+
+		DefaultEvent
+Name: Fact and fiction
+Id: 159956
+Description: To record the Republic's events - it's like trying to sing wax or believe water. You do what you can. The third paragraph buds eyes. The date is fundamentally wrong. The full-stops bite. <i>You do what you can. </i>
+
+		ParentEvent
+Name: 
+Id: 143349
+Description: 
+
+		RareDefaultEvent
+Name: New passions
+Id: 159960
+Description: The sensations of the Republic are overwhelming. This is a desire for years. That is a hatred for fountains. Here is an emotion that can only be expressed mathematically. Now you are awash with a nostalgia for the hatching of the egg. Write it down. Write it all down. Perhaps you'll be rid of it.
+
+
+
+	ChildBranches 8
+Name: Compile a Port Report
+Id: 134538
+Description: It won't be entirely straightforward. The streets won't lie straight, and the ink freezes whenever you look away from the inkwell.
+
+		DefaultEvent
+Name: A bitter taste
+Id: 159959
+Description: You've written - you've written something. Your hand cramps. Your mouth is thick with a vile taste, as if you had been eating wasps. Your tongue burns. Your throat is sore. This place is not right.
+
+		ParentEvent
+Name: 
+Id: 143349
+Description: 
+
+
+
+	ChildBranches 9
+Name: Fund a Tittering Artificer's Project
+Id: 144276
+Description: "...nearly ready yes yes <em>nearly ready</em> I need more. You can have the prototype. When it's done. Take it, kill with it. I want to see what damage you can do. Ammunition will be difficult. It will cost you so much. So much. But the weapon. Oh! the weapon!" [This is a Forward-mounted weapon with unusual characteristics.]
+
+		DefaultEvent
+Name: Icarus in Black
+Id: 177005
+Description: "IT IS DONE. The flesh is not important, you see? It's the passion. The lessons. The spirit forged like a spear. All the spears. Into the hearts of monsters. Did I mention I don't like monsters? Monsters! Kill them for me. With my weapon. Go forth, and crack Mt Nomad. Yes."
+
+		ParentEvent
+Name: 
+Id: 143349
+Description: 
+
+
+
+	ChildBranches 10
+Name: Engage an Officer: the Irrepressible Cannoneer
+Id: 146105
+Description: "[q:Addressed As]! Are you looking for a gunner? I'm looking for a ship! Here are my references!! Here are more references!! Here's my design for a whistling shell!! Here's my colleague!! (He'll stay on shore.) Here's my hand!!! Will you take it?" [The Cannoneer is a Gunnery Officer who substantially increases Iron.]
+
+		DefaultEvent
+Name: Welcome aboard!!
+Id: 180105
+Description: "Oh, this is interesting. Room for improvement! There's always room for improvement. Wait: let me make notes. Paper!!" [Appoint your new Officer by dragging them from the Officers tab to his slot at the top of the screen. Do this in port, not at sea, or you may unsettle your crew.]
+
+		ParentEvent
+Name: 
+Id: 143349
+Description: 
+
+
+
+	ChildBranches 11
+Name: Seek a Tittering Artificer's help to awaken the Seal
+Id: 146108
+Description: "I know people here!" the Cannoneer confides. "From the old days. Hm. Perhaps we shouldn't talk about the old days."
+
+		DefaultEvent
+Name: An awakening
+Id: 180109
+Description: The Cannoneer and the Artificer place the Judgements' Egg on the Seal, and apply their instruments. The light in the Artificer's chamber grows dim. This, then, is what it sounds like when a soul screams...
+<br/><br/>
+When they're done, the Egg lies in shards, and the Seal looks little different, but there is a watchfulness about it. The Artificer shakes the Cannoneer's hand. "I've missed working with you," she says. "I've missed it so much."
+<br/><br/>
+The Cannoneer grins that grin. "Nearly done! We can mount it on the bridge, if you like. But we'll need a housing if we want to use it further. It'll have to be heartmetal. I knew a man, long ago... but I hear he went to Station III. (Swam there, the story says.) If you can get us the run of Station III, I can get you in to see him."
+<br/><br/>
+"No, I don't know where Station III is. It's a secret."
+
+		ParentEvent
+Name: 
+Id: 143349
+Description: 
+
+
+
+	ChildBranches 12
+Name: Sell the Memento Mori to a purchaser in the Iron Republic
+Id: 146141
+Description: The Iron Republic has no government, no representatives. But it has plenty of citizens eager to purchase an engine of destruction. [This will gain you a Captivating Treasure, a Mirrorcatch Box, a bowl of Zzoup, thirteen Devilbone Dice and seven Secrets.]
+
+		DefaultEvent
+Name: "YES. GIVE IT TO US."
+Id: 180169
+Description: A Wild-Eyed Prophet-Namer purchases the Memento for a cart-load of weird and sinister objects. "I will use it," she promises you. "I will use it for me."
+
+		ParentEvent
+Name: 
+Id: 143349
+Description: 
+
+
+
+	ChildBranches 13
+Name: Put a blemmigan ashore
+Id: 147279
+Description: How will nature fare in a place which defies its laws?
+
+		DefaultEvent
+Name: Fungal horror
+Id: 181956
+Description: The blemmigan spins boldly down the gang-plank. It seems startled when it meets itself on the quay, twice. Its duplicates bob solicitously, like ambassadors greeting their peers, and continue past it, up into your ship. The first blemmigan vanishes into the crowd. The other two peer up at you as if to say: are we <i>quite</i> finished here?
+
+		ParentEvent
+Name: 
+Id: 143349
+Description:

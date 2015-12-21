@@ -1,0 +1,75 @@
+(344)
+Name: Jillyfish Passing
+Id: 168000
+Description: It was a colossus of toxic tentacles, capped with hardened ramming-goo. Now it's a smear on the ocean's surface. Jillyfish dissolve in minutes once they're dead.
+
+	ChildBranches 1
+Name: Scoop up what's left!
+Id: 138770
+Description: It might be edible. Parts of it might be edible. Parts of it might be anything.
+
+		DefaultEvent
+Name: A barrel of former jellyfish
+Id: 168003
+Description: It will wait in the hold like a cup of dissolved moon. One day, you will eat it. Or, perhaps, it will eat you. And this purple thing. Is it an egg? A heart? A less fortunate traveller, dissolved and shrivelled to mauve ruin? Put it somewhere safe.
+
+		ParentEvent
+Name: 
+Id: 168000
+Description: 
+
+		RareDefaultEvent
+Name: A spreading stain
+Id: 168004
+Description: It might serve for soup, or sauce. Goo sauce. But what's this promising lump of nasty?
+
+
+
+	ChildBranches 2
+Name: Let it disperse
+Id: 138771
+Description: Watch its oil-rainbow colours fade.
+
+		DefaultEvent
+Name: A face?
+Id: 168005
+Description: From above, the jillyfleur's cap does look a little like a woman's face. She dissolves like smeared paint.
+
+		ParentEvent
+Name: 
+Id: 168000
+Description: 
+
+
+
+	ChildBranches 3
+Name: Let it disperse
+Id: 138772
+Description: Watch its oil-rainbow colours fade.
+
+		DefaultEvent
+Name: A face!
+Id: 168006
+Description: It looks very like Flourishing-of-Years - the grand shrine-face of Visage. Something about the eyes, the sternness of the mouth. Perhaps only that it stares at the roof, just as Flourishing-of-Years does. Now it dissolves. You could swear it's mouthing a word. "HOME"...?
+
+		ParentEvent
+Name: 
+Id: 168000
+Description: 
+
+
+
+	ChildBranches 4
+Name: Let it disperse
+Id: 138773
+Description: Watch its oil-rainbow colours fade.
+
+		DefaultEvent
+Name: 
+Id: 168007
+Description: It looks very like Flourishing-of-Years - the grand shrine-face of Visage. Something about the eyes, the sternness of the mouth. Perhaps only that it stares at the roof, just as Flourishing-of-Years does. Now it dissolves. You could swear it's mouthing a word. "HOME"...?
+
+		ParentEvent
+Name: 
+Id: 168000
+Description:

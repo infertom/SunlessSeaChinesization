@@ -1,0 +1,59 @@
+(126)
+Name: A little gift
+Id: 150261
+Description: "A very fine evening to you, captain. My what you might call <i>mentor</i> is very fond of adventurous zee-captains and he would like to offer you what you might call a <i>dispensation</i>. On account of he is so fond of zee-captains."
+<br/><br/>
+Behind the Blind Bruiser, on the dock, stands a dray piled high with fuel and supplies.
+
+	ChildBranches 1
+Name: Accept the 'dispensation'
+Id: 128503
+Description: Do make sure you have fifteen points of space in the hold, or come back later. It would be embarrassing to have to leave it on the dock.
+
+		DefaultEvent
+Name: A courteous nod
+Id: 150262
+Description: "Well, my patron hopes that you find these little gifts to your liking, and he expects that perhaps some day you might choose to call on him at the Medusa's Head. Should that day come, we will make you very welcome and give you any safe conduct what you might require. Good evening to you."
+<br/><br/>
+He salutes, and is gone.
+
+		ParentEvent
+Name: 
+Id: 150261
+Description: 
+
+
+
+	ChildBranches 2
+Name: Enquire further
+Id: 128505
+Description: Who is this 'patron'? Is there a catch?
+
+		DefaultEvent
+Name: An airy wave
+Id: 150265
+Description: "He runs a very fine and very liberal establishment just across the river what is much patronised by zailors and by men of wit and vinegar. An public 'ouse. And there is no obligation to speak of. My patron would hope only that you might remember him kindly and I suppose that if the opportunity should arise for you to return his kindness then I do not imagine he would refuse your offer."
+
+		ParentEvent
+Name: 
+Id: 150261
+Description: 
+
+
+
+	ChildBranches 3
+Name: Refuse
+Id: 128506
+Description: Too good to be true?
+
+		DefaultEvent
+Name: A sorrowful farewell
+Id: 150266
+Description: "I will not deny that I am a little saddened and I think that my patron also will share my sadness. But I understand that you knows your business and that a zee-captain is a free spirit. And I will explain carefully to my patron that you mean no insult by the refusing of his kind gift. Zail zafe."
+<br/><br/>
+The dray creaks off into the dockside crowd.
+
+		ParentEvent
+Name: 
+Id: 150261
+Description:

@@ -1,0 +1,58 @@
+(327)
+Name: A shattered cliff
+Id: 144300
+Description: A ship cannot destroy a mountain. All you have won is life and time while it sinks and heals. But for now, Mt Nomad is silent. And here - the wreck of another, half-consumed ship slides from within. Quickly!
+
+	ChildBranches 1
+Name: Retreat
+Id: 130665
+Description: No more chances. You have your life, and your ship.
+
+		DefaultEvent
+Name: Into the dark
+Id: 153725
+Description: Mt Nomad sinks, groaning. Thre is a great rush of water.
+
+		ParentEvent
+Name: 
+Id: 144300
+Description: 
+
+
+
+	ChildBranches 2
+Name: Record any Observations
+Id: 131983
+Description: If you've gathered at least 10 Observations, you may learn something...
+
+		DefaultEvent
+Name: Cousins in speech
+Id: 155735
+Description: The resemblance is striking. The glossy of Mt Nomad, the fiery signs which crawl on its skin - this is also the aspect of the Echo Bazaar, which squats at the heart of London, whose limbs invade even Wolfstack Docks. Not identical - very far from identical. A cousin? A savage distorted reflection?
+
+		ParentEvent
+Name: 
+Id: 144300
+Description: 
+
+
+
+	ChildBranches 3
+Name: A desperate excursion
+Id: 124695
+Description: Just a few minutes -
+
+		DefaultEvent
+Name: A great rush of foaming water
+Id: 144301
+Description: The mountain collapses inwards! ...and not everyone gets clear. But your hands are filled with bright treasure.
+
+		ParentEvent
+Name: 
+Id: 144300
+Description: 
+
+		SuccessEvent
+Name: A great rush of foaming water
+Id: 144302
+Description: The mountain collapses inwards! ...but you scramble from the wreck of that other ship, your hands filled with bright treasure.

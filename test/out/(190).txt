@@ -1,0 +1,58 @@
+(190)
+Name: Khanate War Trimaran
+Id: 144272
+Description: Your home nation is not technically at war with the Khanate, but the Khanate navy are quite happy to behave like privateers. Khaganian sailors in brave red and gold scurry up and down the decks, readying weapons.
+
+	ChildBranches 1
+Name: Fight!
+Id: 124677
+Description: Show them what Londoners are made of!
+
+		DefaultEvent
+Name: 
+Id: 144273
+Description: 
+
+		ParentEvent
+Name: 
+Id: 144272
+Description: 
+
+
+
+	ChildBranches 2
+Name: Will they recognise your token?
+Id: 128202
+Description: It's worth some sort of respect from the Khanate, but who can say what or how?
+
+		DefaultEvent
+Name: Desperate invention
+Id: 149747
+Description: You tie the horsehead talisman to a signal rocket and a handkerchief-parachute: and fire! The token floats down on to their deck among a shower of charming green stars. When they've worked out that this isn't just a warning shot, they argue over the talisman for a couple of minutes. More bellicose views carry the day, and they're soon in pursuit again, but you've wisely made off in the meantime...
+
+		ParentEvent
+Name: 
+Id: 144272
+Description: 
+
+
+
+	ChildBranches 3
+Name: Peace through piety?
+Id: 124678
+Description: Perhaps you can avoid conflict. What do you know about the Khaganian religion?
+
+		DefaultEvent
+Name: Impractical evocations
+Id: 144274
+Description: You shout the few Khanate prayers you know, and fragments of their tongue. It doesn't do you any sort of good. It occurs to you to wonder whether you'd abandon an attack if the Khaganians were inexplicably yelling the names of saints at you. Probably not.
+
+		ParentEvent
+Name: 
+Id: 144272
+Description: 
+
+		SuccessEvent
+Name: Patchwork ritual
+Id: 149746
+Description: You muster what you remember of Khaganian religion and call on the Deep Blue Heaven, the Lost Wind and the nameless zee-god called Storm. Your invocations are half-lost in the roar of guns, but one of the uniformed officers on the other side begins arguing with another. It wins you enough time to escape.

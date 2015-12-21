@@ -1,0 +1,40 @@
+(263)
+Name: Penstock's Plea
+Id: 176107
+Description: "The Bazaar has been feasting on old memories from the Salt Lions. It only makes her more melancholy, and that's worse for all of us... but especially those who love her."
+<br/><br/>
+"So we've found another use for the Sphinxstone. We can set something right."
+
+	ChildBranches 1
+Name: Reject his plea
+Id: 143691
+Description: He smells of ammonia and sadness. You should go somewhere that does not smell of those things.
+
+		DefaultEvent
+Name: "Please!"
+Id: 176108
+Description: "If you change your mind - I'll still be here. Please. The Bazaar - she has been so sick with stories. Help me. Help her."
+
+		ParentEvent
+Name: 
+Id: 176107
+Description: 
+
+
+
+	ChildBranches 2
+Name: Accept his commission
+Id: 143692
+Description: "Take it far away. We'll tell you where. You will be paid." [If you've already arranged with the Bright-Eyed Sequencer to take it to the Grand Geode, this will cause you to renege.]
+
+		DefaultEvent
+Name: "I'm grateful."
+Id: 176109
+Description: "Here." He presses a crumpled note into your hand. "This is where you should take it. You'll learn something, I think. I had to seek the Masters' help for this - we will all be enmeshed in their plans - but it's worth it. I swear it's worth it."
+<br/><br/>
+He grips your arm, and is gone. You unfold the note.
+
+		ParentEvent
+Name: 
+Id: 176107
+Description:

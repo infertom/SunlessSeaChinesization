@@ -1,0 +1,85 @@
+(455)
+Name: Go up to the crater
+Id: 146569
+Description: They say the road to Hell is paved with good intentions. But the road to the Brimstone Convention is paved with cinders.
+
+	ChildBranches 1
+Name: Up the road
+Id: 126146
+Description: Do they admit visitors to the Brimstone Convention? Probably not. But you never know: they might sell tickets.
+
+		DefaultEvent
+Name: Above the bay
+Id: 146570
+Description: Look down, and see Port Palmerston like a toy and the ruins like gravel. You've come far, but the volcano's cone still rears above you. Rest a little before you go the last half-mile.
+
+		ParentEvent
+Name: 
+Id: 146569
+Description: 
+
+
+
+	ChildBranches 2
+Name: Visiting the Wistful Deviless 
+Id: 126148
+Description: Perhaps it's time for a cup of honey-fungus tea.
+
+		DefaultEvent
+Name: Almost there
+Id: 146573
+Description: Look down, and see Port Palmerston like a toy and the ruins like gravel. You've come far, but the volcano's cone still rears above you. Rest a little before you go the last half-mile.
+
+		ParentEvent
+Name: 
+Id: 146569
+Description: 
+
+
+
+	ChildBranches 3
+Name: Back up the road
+Id: 127571
+Description: The Deviless is gone. What now guards the gate?
+
+		DefaultEvent
+Name: A vile hive
+Id: 148717
+Description: When you come in sight of the cottage, you think for a moment that it's been overgrown with glistening black ivy. A few more steps, and you notice the ivy is shifting in the wind: before you realise that, as is generally the case in the Neath, there is no wind to speak of.
+<br/><br/>
+The 'ivy' heaves like the sea, and the closest portion suddenly lifts and dissolves. The air is filled with a deep and savage buzzing. A cloud of great black bees rises above the cottage: extends a limb in your direction. You back away. You do not run.
+
+		ParentEvent
+Name: 
+Id: 146569
+Description: 
+
+
+
+	ChildBranches 4
+Name: Independent verification
+Id: 127561
+Description: The Brass Embassy has asked you for 'independent verification' of the Deviless' intelligence. It's possible that you might be able to eavesdrop on the Convention, somehow...
+
+		DefaultEvent
+Name: Wake in fright
+Id: 148699
+Description: You scramble up the stones. The ground is warm. You grow tired before you are more than half-way up your mouth is full of ashes. There is a sound in the earth - a profound, complex, overwhelming drone, like the buzzing of a billion billion bees. You bend your head a little closer...and that's all you remember.
+
+<br/><br/>
+When you wake, you're in the Deviless' cottage. Your head is in her lap. "I found you on the slopes," she says. "I thought I'd better bring you in before you heard anything you shouldn't." She smiles. "Strictly speaking, I should burn your ears off. But it's so nice to see you."
+
+
+		ParentEvent
+Name: 
+Id: 146569
+Description: 
+
+		SuccessEvent
+Name: Up the gritty slopes
+Id: 148700
+Description: You scramble up the stones. The ground is warm. You grow tired. Before you are more than half-way up your mouth is full of ashes. There is a sound in the earth - a profound, complex, overwhelming drone, like the buzzing of a billion billion bees.
+<br/><br/>
+you bend your head closer. Closer. You feel the sounds tingling in your teeth and bones now. You can make out words: <i>Judgements. Dream. Zalt. Alliance. Ecstacy.</i> The sound overcomes you, and your vision blurs to red and grey.
+<br/><br/>
+When you wake, you're in the Deviless' cottage. Your head is in her lap. "I found you on the slopes," she says. "I thought I'd better bring you in before you heard anything you shouldn't." She smiles. "Strictly speaking, I should burn your ears off. But it's so nice to see you."

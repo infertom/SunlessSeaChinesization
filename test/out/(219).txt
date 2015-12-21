@@ -1,0 +1,87 @@
+(219)
+Name: The Export in Darkness
+Id: 149012
+Description: Candlelight warms this corner of the building. The Austere Acolyte has pushed her goggles away from her face, and has set out a light meal. A bottle of Greyfields 1882 is open to breathe.
+<br/>
+<br/>
+It is the most comfortable you have seen her yet.
+
+	ChildBranches 1
+Name: Turn the conversation
+Id: 127770
+Description: You've discussed enough serious matters for one evening.
+
+		DefaultEvent
+Name: Small talk
+Id: 149017
+Description: You change the subject to lighter matters, and keep her company with the stories of other ports you've visited, and the creatures you've seen moving in the deep.
+<br/>
+<br/>
+She listens with interest, though to judge by her own stories, she never has been anywhere but here.
+
+		ParentEvent
+Name: 
+Id: 149012
+Description: 
+
+
+
+	ChildBranches 2
+Name: Ask what she thinks of the work she does
+Id: 127768
+Description: Perhaps she'll be willing to confide in you.
+
+		DefaultEvent
+Name: No comment
+Id: 149013
+Description: She opens her mouth as though she's going to say something, but then she thinks better of it. It takes her a minute to come up with something she's actually willing to say.
+<br/>
+<br/>
+"Doesn't harm anyone," she says. "They're already dead."
+
+		ParentEvent
+Name: 
+Id: 149012
+Description: 
+
+		SuccessEvent
+Name: Reasons
+Id: 149014
+Description: She looks away from you, into the glass of mushroom wine.
+<br/>
+<br/>
+"There's a story I heard when I first apprenticed here," she says. "That there was someone who worked here who swallowed one of the black pellets, and it made them impervious to grief. There was nothing they could see that was worse than what they already knew."
+<br/>
+<br/>
+She pours some of the wine out for you. "I think that would be a great strength to have, don't you?"
+
+
+
+	ChildBranches 3
+Name: Express your personal admiration for her
+Id: 127769
+Description: The eyes behind the goggles are an unexpected shade of green.
+
+		DefaultEvent
+Name: A miss
+Id: 149015
+Description: She frowns and gets up, instantly suspicious.
+<br/>
+<br/>
+"What have you really come for?" she demands.
+<br/>
+<br/>
+Nothing you can say persuades her that your compliments were sincere. 
+
+		ParentEvent
+Name: 
+Id: 149012
+Description: 
+
+		SuccessEvent
+Name: First times for everything
+Id: 149016
+Description: She smiles; she lowers her eyes; she is obviously not surprised. The environment is perhaps not very comfortable for this sort of thing, but you make do.
+<br/>
+<br/>
+Later, much later, when you hear her singing at her work again, it's all about a wax shepherdess melting in the fields, and the humid kiss of a steam locomotive. You choose to see this as a compliment.

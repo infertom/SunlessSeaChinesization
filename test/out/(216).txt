@@ -1,0 +1,111 @@
+(216)
+Name: Under the Steeple
+Id: 148080
+Description: The Austere Acolyte directs the arrangement of the long box in the room under the steeple. 
+<br/>
+<br/>
+There are many other boxes there already, stacked in rows: three or four times as many as you have brought. In another corner of the room is a pile of wood from previous boxes already emptied and dismantled.
+<br/>
+<br/>
+Singing to herself about a mountain upholstered in velvet, she takes a crowbar to the box.
+<br/>
+<br/>
+The corpse inside is permanently dead, in a way that the dead of London often are not. Not a drownie, not a tomb colonist, but not coming back, either. It looks pale and ordinary except for the slight distention of the skin over the breastbone. Gently the Acolyte presses there and nods (singing about tulips embroidered with yellow floss). 
+<br/>
+<br/>
+She lifts the body onto a marble slab. Without pause in her lyrics she prepares a scalpel. Your presence does not seem to bother her.
+
+	ChildBranches 1
+Name: Watch
+Id: 127095
+Description: You've never heard of this practice before.
+
+		DefaultEvent
+Name: Metal in metal
+Id: 148081
+Description: The Austere Acolyte extracts, deftly and with very little blood, a heart-sized sphere of silver-grey metal. With a giant nutcracker, she cracks the sphere, and another sphere inside that, and another.
+<br/>
+<br/>
+Finally in the center she comes to something heavy, small, and black. She lifts it out with tongs and looks at it through her goggles. The song falters, but she manages to keep humming, though the words are lost.
+<br/>
+<br/>
+She puts the black and heavy thing into a jar marked with a word of the Correspondence. She closes the jar and seals it with red wax.
+<br/>
+<br/>
+Finally, when the corpse is removed again and the marble slab wiped clean, she comes to pay you.
+<br/><br/>
+"Thank you," she says. "Return another day: I may have something else for you."
+
+		ParentEvent
+Name: 
+Id: 148080
+Description: 
+
+
+
+	ChildBranches 2
+Name: Don't watch
+Id: 127096
+Description: You can wait by the door.
+
+		DefaultEvent
+Name: Shadow in shadow
+Id: 148082
+Description: You stand near the door and wait. Her procedure takes her a long time. There are sounds of cracking and banging, and sounds of singing, though the song gets slower and the lyrics harder to hear. At last there is a pinging sound like something falling a long way into a hollow space.
+<br/>
+<br/> 
+Finally she is done and comes to pay you. "Thank you," she says. "Return another day: I may have something else for you."
+
+		ParentEvent
+Name: 
+Id: 148080
+Description: 
+
+
+
+	ChildBranches 3
+Name: Watch with medical interest
+Id: 127098
+Description: Whatever she is about to do, it's sure to be anatomically informative.
+
+		DefaultEvent
+Name: Metal in metal
+Id: 148084
+Description: The Austere Acolyte extracts, deftly and with very little blood, a heart-sized sphere of silver-grey metal. Despite your keenest observation, you cannot work out how the sphere grew there or what it is for.
+<br/>
+<br/>
+With a giant nutcracker, she cracks the sphere, and another sphere inside that, and another.
+<br/>
+<br/>
+Finally in the center she comes to something heavy, small, and black. She lifts it out with tongs and looks at it through her goggles. The song falters, but she manages to keep humming, though the words are lost.
+<br/>
+<br/>
+She puts the black and heavy thing into a jar marked with a word of the Correspondence. She closes the jar and seals it with red wax.
+<br/>
+<br/>
+Finally, when the corpse is removed again and the marble slab wiped clean, she comes to pay you. "Thank you," she says. "Return another day: I may have something else for you."
+
+		ParentEvent
+Name: 
+Id: 148080
+Description: 
+
+		SuccessEvent
+Name: Excellent precision
+Id: 148085
+Description: The Austere Acolyte makes an incision over the distended place on the body, laying bare a heart-sized sphere of silver metal. It has grown there, apparently over many years, because the ribs of the corpse have curved around it without cracking. She has to break two of the ribs now to take out the ball. Behind it, the heart is intact but bloodless, its colour a milky grey.
+<br/>
+<br/>
+She notices you watching, and halts her song just long enough to say, "They do not always grow in the same place, but over the heart is most common."
+<br/>
+<br/>
+With a giant nutcracker, she cracks the sphere, and another sphere inside that, and another.
+<br/>
+<br/>
+Finally in the center she comes to something heavy, small, and black. She lifts it out with tongs and looks at it through her goggles. The song falters, but she manages to keep humming, though the words are lost.
+<br/>
+<br/>
+She puts the black and heavy thing into a jar marked with a word of the Correspondence. She closes the jar and seals it with red wax.
+<br/>
+<br/>
+Finally, when the corpse is removed again and the marble slab wiped clean, she comes to pay you. Though she doesn't offer any further comment, she seems pleased by your careful attention during the autopsy, and almost smiles when she makes her payment. "A pleasure," she says. "Return another day: I may have something else for you."

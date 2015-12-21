@@ -1,0 +1,41 @@
+(357)
+Name: You've defeated a Behemoustache
+Id: 171428
+Description: The mouth gapes. The eyes are dull.
+
+	ChildBranches 1
+Name: Harvest its flesh and its moustache
+Id: 140768
+Description: The one is oily. The other is both oily and magnificent.
+
+		DefaultEvent
+Name: A luxuriant treasure
+Id: 171432
+Description: Take its teeth as trophies, and its bones for corsets. What of its moustache? So many possibilities! Cut it up for exotic antimacassars; place it over the door of your lodgings as a warning to burglars; sell it to the Young Stags club, back in London, as a mascot. For now, let it remain in the compartment devoted to Outlandish Artefacts.
+
+		ParentEvent
+Name: 
+Id: 171428
+Description: 
+
+		RareDefaultEvent
+Name: A grand loss
+Id: 182151
+Description: Take its teeth as trophies, and its bones for corsets. Regrettably, its moustache is singed beyond repair, and will be lost to posterity. For the next three watches, zailors are seen in mourning black.
+
+
+
+	ChildBranches 2
+Name: Dig around in its innards
+Id: 140769
+Description: Not a pleasant job, but perhaps a profitable one.
+
+		DefaultEvent
+Name: A glob of goo
+Id: 171433
+Description: Intestinal mucus. Oh, good.
+
+		ParentEvent
+Name: 
+Id: 171428
+Description:

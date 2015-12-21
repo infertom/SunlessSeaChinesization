@@ -1,0 +1,38 @@
+(131)
+Name: A little request
+Id: 154202
+Description: "Once more we find ourselves 'ere on the quayside what is I suppose you might say the lip of the well of opportunities. Let us both drink deeply from this well. By which I mean, my patron 'as a task for you. Take a payment across the ocean, and bring back a little package."
+
+	ChildBranches 1
+Name: Agree
+Id: 131000
+Description: "Of course if you return to London without the little package, I will probably 'ave something sharp to say about it."
+
+		DefaultEvent
+Name: "Here's the money. Don't lose it."
+Id: 154203
+Description: "Now bring the package back 'ere. And it is my hearty recommendation that you avoid the ungentle attentions of the Excise. On account of if you return without the package it is of no interest to my patron whether you have lost it or had it taken from you. Good luck, good luck!"
+<br/><br/>
+[If you return to London without an Unstamped Crate of Brilliant Souls before completing this task, there is a risk that the Blind Bruiser will take offence.]
+
+		ParentEvent
+Name: 
+Id: 154202
+Description: 
+
+
+
+	ChildBranches 2
+Name: Refuse 
+Id: 131001
+Description: Announce to the Blind Bruiser that your debt is paid, and you're done.
+
+		DefaultEvent
+Name: Noble disappointment
+Id: 154204
+Description: "I will not pretend that this has improved my evening. On the contrary it has left me a deep sadness in my 'eart. Notwithstanding 'owsoever I might say that you have acquitted yourself honourably and I do not think my patron will feel the need to pursue the matter further. Not at this time. As long as you keeps your mouth..." - he leans close - "tight snap-shut. Good night."
+
+		ParentEvent
+Name: 
+Id: 154202
+Description:

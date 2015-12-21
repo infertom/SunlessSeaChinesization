@@ -1,0 +1,65 @@
+(450)
+Name: Find help for the Genial Magician
+Id: 152140
+Description: Someone in Khan's Heart has what he needs.
+
+	ChildBranches 1
+Name: Hire informers
+Id: 129685
+Description: Someone will know.
+
+		DefaultEvent
+Name: The Merchants of Truth
+Id: 152141
+Description: The informers of the Copper Quarter by the Docks peddle knowledge from all over the Unterzee. The only things they won't sell are their real names. One who calls herself the Bright Bird introduces you, and the Magician, to a wizened man in bright spider-silk - a collector of looking-glasses. The Magician and the Collector mutter together for a while: the Collector wheezes with laughter. 
+<br/><br>
+At last the Magician returns, eyes bright. "All shall be well," he says, "and all manner of thing shall be well. I know where to go, now. I know what to do. Thank you, my friend. My revenge is almost within my grasp." He looks ruefully at his hook. 
+<br/><br>
+[Return to London to continue - and visit the Forgotten Quarter...]
+
+		ParentEvent
+Name: 
+Id: 152140
+Description: 
+
+
+
+	ChildBranches 2
+Name: Speak to sages
+Id: 129687
+Description: "Wise men are the surest meddlers."
+
+		DefaultEvent
+Name: 
+Id: 152143
+Description: At last you find a wizened man in bright spider-silk - a collector of looking-glasses. He accepts your bribes of curios, secrets and dream-fabric, and speaks quietly with the Magician for a long while.
+<br/><br>
+At last the Magician returns, eyes bright. "All shall be well," he says, "and all manner of thing shall be well. I know where to go, now. I know what to do. Thank you, my friend. My revenge is almost within my grasp." He looks ruefully at his hook. 
+<br/><br>
+[Return to London to continue - and visit the Forgotten Quarter...]
+
+		ParentEvent
+Name: 
+Id: 152140
+Description: 
+
+
+
+	ChildBranches 3
+Name: Call in a favour from the Khaganian Navy
+Id: 129688
+Description: The little metal charm is warm in your hand.
+
+		DefaultEvent
+Name: In the house of mirrors
+Id: 152144
+Description: Your contact shakes her head and sighs: but she introduces you, and the Magician, to a wizened man in bright spider-silk - a collector of looking-glasses. The Magician and the Collector mutter together for a while: the Collector wheezes with laughter. 
+<br/><br>
+At last the Magician returns, eyes bright. "All shall be well," he says, "and all manner of thing shall be well. I know where to go, now. I know what to do. Thank you, my friend. My revenge is almost within my grasp." He looks ruefully at his hook. 
+<br/><br>
+[Return to London to continue - and visit the Forgotten Quarter...]
+
+		ParentEvent
+Name: 
+Id: 152140
+Description:

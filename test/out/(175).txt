@@ -1,0 +1,110 @@
+(175)
+Name: Inside the City-Walls
+Id: 152174
+Description: Your eyes are blinded by the brilliance of the light; the verdant-rot smell is even thicker. The heat of so much flame and reflected light presses oppressively against your skin. Your head pounds.
+<br/><br/>
+It is a few minutes before your eyes adjust, and you can look around: brass lamps and gilded sconces hang from every wall, and phosphorescent fungus grows moss-like upon doorways and ceilings. 
+<br/><br/>
+Cunningly-arranged mirrors catch every droplet of light and diffuse it till each cobblestone and rampart of the city is drenched and blazing and utterly without shadow.
+<br/><br/>
+Who do you speak to?
+
+	ChildBranches 1
+Name: The Fire-Keeper
+Id: 129711
+Description: Dressed all in saffron; a pair of thick fire-proof gloves dangle from a silver chain at her waist.
+
+
+		DefaultEvent
+Name: 
+Id: 152175
+Description: "I'm too important to play guide to you, Taamas," she tells you before you even open your mouth. "I'm the Keeper of the Western Principal Mirror," she points up at the enormous multi-faced mirrors set atop each of the city's five Towers. "I'm only here because I'm looking for my idiot brother. He is probably busy pouring wine down some pretty, dark-eyed boy's throat in a tavern."
+<br/><br/>
+Is it a matter of great urgency, you wonder? "He's late for his lamp-checks in the Sacred District," is her terse reply, as she hurries away. "If the Agnihotri found out, he'd be lucky to end up a lake-dredger."
+
+		ParentEvent
+Name: 
+Id: 152174
+Description: 
+
+
+
+	ChildBranches 2
+Name: The White-Cloaked Guard
+Id: 129763
+Description: The suns embroidered on his cloak are picked out with gold-thread, and the edge is jewelled with carnelian.
+
+
+		DefaultEvent
+Name: 
+Id: 152248
+Description: "Tamaas," he presses his hands together in greeting, then gives you an anguished look. "You look terrible! Are you sick with a terrible outsider's disease? Or is that what your nose is naturally like?"
+<br/><br/>
+Over your protestations, he gives you directions to the Hospital. "Oh the medics are all butchers, to be sure, but they walk in the light of Mihir," he adds breezily, and then points out the Guard House and the vague direction of the Temple of Mihir, and a street of bars and gaming-houses. "We don't want to get a reputation for being inhospitable!"
+<br/><br/>
+He laughs, as if he has made a grand joke, and you laugh along weakly. 
+
+
+		ParentEvent
+Name: 
+Id: 152174
+Description: 
+
+
+
+	ChildBranches 3
+Name: The Fungus-Carter
+Id: 129764
+Description: Her cart is piled high with fungal-blooms and jars of algae painstakingly scraped from the surfaces of walls.
+
+		DefaultEvent
+Name: 
+Id: 152249
+Description: She stops every few minutes to cough surreptitiously into her dyed-cotton scarf, and eyes you warily when you approach. "I have to take this load all the way to the Sacred District, and the priests don't like if if I'm late."
+<br/><br/>
+You inquire politely about her cough, and she looks suddenly terrified. "Mihir look down on me," she mumbles. "Please don't say anything! I have a family to feed!"
+<br/><br/>
+With that, she grabs the handles of the cart and pulls away at a run. Within a few moments you have lose sight of her in the crowded pathways. What an odd woman.
+
+		ParentEvent
+Name: 
+Id: 152174
+Description: 
+
+
+
+	ChildBranches 4
+Name: The Jewel-Turbaned Youth
+Id: 129765
+Description: He is winking at you. That it a furtive wink, or a flirtatious one? Only one way to find out.
+
+
+		DefaultEvent
+Name: 
+Id: 152250
+Description: He looks utterly overjoyed to make your acquaintance, the bangles on his wrist flashing as he presses his hands together in greeting. "My friends and I would be honoured if you would attend a small gathering with us, Taamas. We are so eager to hear about the world outside Varchas's city-walls."
+<br/><br/>
+Is seems an innocuous enough invitation. But then why does his gaze dart around so anxiously as he tells you how to find his mansion in the Eastern District?
+
+		ParentEvent
+Name: 
+Id: 152174
+Description: 
+
+
+
+	ChildBranches 5
+Name: Continue Your Explorations
+Id: 129840
+Description: Time to venture further than the Outer District...
+
+		DefaultEvent
+Name: 
+Id: 152357
+Description: The Mirrored City gleams invitingly; you'll get used to the smell in time.
+
+
+		ParentEvent
+Name: 
+Id: 152174
+Description:

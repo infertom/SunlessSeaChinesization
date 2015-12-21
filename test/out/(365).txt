@@ -1,0 +1,41 @@
+(365)
+Name: You've destroyed the Blue Prophets
+Id: 171490
+Description: A mortal battle against parrots. That's the Elder Continent for you.
+
+	ChildBranches 1
+Name: Record their cries
+Id: 140806
+Description: The Prophets speak the names of those about to die. In truth, most of the sounds they make are more squawk than word, but perhaps you can glean something from the dying birds - if you listen carefully.
+
+		DefaultEvent
+Name: Truth in the dark
+Id: 171493
+Description: Names you know? Faces you remember? Perhaps.
+
+		ParentEvent
+Name: 
+Id: 171490
+Description: 
+
+
+
+	ChildBranches 2
+Name: Recover feathers from the Prophets
+Id: 140805
+Description: They'll sell in London and in Khan's Heart.
+
+		DefaultEvent
+Name: Blue as the lost sky
+Id: 171491
+Description: Pluck them carefully.
+
+		ParentEvent
+Name: 
+Id: 171490
+Description: 
+
+		SuccessEvent
+Name: Blue as the lost sky
+Id: 171492
+Description: Pluck them carefully.

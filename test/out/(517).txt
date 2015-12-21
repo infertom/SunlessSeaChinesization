@@ -1,0 +1,196 @@
+(517)
+Name: STATION III
+Id: 147948
+Description: Machinery hums behind high steel walls. Up the hill, there are visible outlines of warehouses and a building with a spire. But the lamps are low where they burn at all, and your ship the only one in harbour. 
+
+	ChildBranches 1
+Name: Train your telescope on shore
+Id: 127080
+Description: Might be best to get a look from a distance.
+
+		DefaultEvent
+Name: Church? Or something else?
+Id: 148058
+Description: You stand on the high point of your ship and look to shore. There is a steepled building on the horizon, by far the largest thing in sight. No cross marks the top of it, nor any other symbol you recognise.
+
+		ParentEvent
+Name: 
+Id: 147948
+Description: 
+
+
+
+	ChildBranches 2
+Name: Deliver a Long-Box
+Id: 129945
+Description: The only way past the walls is an unimposing, but sturdy-looking, triple-locked gate silvery metal. A sign beside it reads DELIVERIES. The gate stands open.
+
+		DefaultEvent
+Name: 
+Id: 152505
+Description: 
+
+		ParentEvent
+Name: 
+Id: 147948
+Description: 
+
+
+
+	ChildBranches 3
+Name: Try the gate
+Id: 129948
+Description: The only way past the walls is an unimposing, but sturdy-looking, gate of triple-barred silvery metal. A sign beside it reads DELIVERIES.
+
+		DefaultEvent
+Name: No way in
+Id: 152508
+Description: The metal is steel-hard, and icy cold to the touch. Attempts with chisels and crowbars fail. Perhaps if you could bring the ship's guns to bear... but no.
+<br/><br/>
+[If you return with a certain delivery, the gate will be open. You'll know if you find it.]
+
+		ParentEvent
+Name: 
+Id: 147948
+Description: 
+
+
+
+	ChildBranches 4
+Name: Put a blemmigan ashore
+Id: 147593
+Description: What will it do, in this place of oil and metal?
+
+		DefaultEvent
+Name: A creeping plague
+Id: 182420
+Description: The blemmigan sidles furtively into a pipe that protrudes from the wall. All is still. You see no more of it.
+<br/><br/>
+As you turn to go, greasy smoke puffs suddenly from the pipe's end. You smell burning grease. Nevertheless, perhaps, it survived.
+
+		ParentEvent
+Name: 
+Id: 147948
+Description: 
+
+
+
+	ChildBranches 5
+Name: Search for signs of other visitors
+Id: 127035
+Description: It never hurts to know what you are up against.
+
+		DefaultEvent
+Name: No evidence
+Id: 147955
+Description: You walk the quays, looking for any little sign that might show what sort of ships dock here, and what they deliver. But you find nothing conclusive: not even so much as a smear of pitch or a damp footprint. If any ship but yours has been tied up here in recent days, it has left no evidence.
+
+		ParentEvent
+Name: 
+Id: 147948
+Description: 
+
+		SuccessEvent
+Name: A familiar smell
+Id: 147956
+Description: There is nothing to see along the narrow quays, but there is a smell, distinct enough to rise above the odours of brine and wood and wet rope. It is the smell of frankincense, burned recently and in substantial quantities.
+
+		RareSuccessEvent
+Name: A familiar smell and an old brazier
+Id: 147957
+Description: Here! A few quays over from the one where your own ship is docked, a brass burner is placed on a tripod. There's a heady scent of frankincense, and some sticky residue still clings to the bottom of the bowl. A scrap of gauze-thin black silk is tied to one leg of the tripod.
+<br/>
+This is an unusual amount of ceremony to attach to the unloading of a ship.
+
+
+
+	ChildBranches 6
+Name: Search for signs of other visitors
+Id: 127063
+Description: It never hurts to know what you are up against.
+
+		DefaultEvent
+Name: No evidence
+Id: 148030
+Description: You walk the quays, looking for any little sign that might show what sort of ships dock here, and what they deliver. But you find nothing conclusive: not even so much as a smear of pitch or a damp footprint. If any ship but yours has been tied up here in recent days, it has left no evidence.
+
+		ParentEvent
+Name: 
+Id: 147948
+Description: 
+
+		SuccessEvent
+Name: An abandoned log
+Id: 148031
+Description: A few pages torn from a log book record a long passage of doggerel that makes no sense at all. 
+<br/>
+The verses go on and on about purple fires and upside-down houses; a fistful of roses the color of brandy, and dolls with buttons for teeth. 
+<br/>
+The pages end just as they are reaching the nonsense refrain.
+
+		RareSuccessEvent
+Name: An abandoned log
+Id: 148032
+Description: A few pages torn from a log book begin with a passage of music, a sweet low children's tune. After that come many verses that make no sense at all. 
+<br/>
+They go on and on about purple fires and upside-down houses; a fistful of roses the color of brandy, and dolls with buttons for teeth; the soft glossy pelt of an octopus and the sweet juice of a brazil nut.
+<br/>
+By the end you are humming along to yourself. It is terribly soothing, this song.
+
+
+
+	ChildBranches 7
+Name: Search for signs of other visitors
+Id: 127065
+Description: It never hurts to know what you are up against.
+
+		DefaultEvent
+Name: No evidence
+Id: 148034
+Description: You walk the quays, looking for any little sign that might show what sort of ships dock here, and what they deliver. But you find nothing conclusive: not even so much as a smear of pitch or a damp footprint. If any ship but yours has been tied up here in recent days, it has left no evidence.
+
+		ParentEvent
+Name: 
+Id: 147948
+Description: 
+
+		SuccessEvent
+Name: A shattered box
+Id: 148035
+Description: A box lies broken on the ground at one of the far quays. No one has cleared away the debris: a torn label reading SOOTHE & COO.... Curved shards of apothecary bottles. A curious oval of silvered metal the size of a cameo brooch.
+
+		RareSuccessEvent
+Name: A shattered box
+Id: 148036
+Description: A box lies broken on the ground at one of the far quays. No one has cleared away the debris: a torn label reading SOOTHE & COO.... Curved shards of apothecary bottles. A curious oval of silvered metal the size of a cameo brooch.
+<br/>
+And a delivery address on the Surface.
+
+
+
+	ChildBranches 8
+Name: Search for signs of other visitors
+Id: 127066
+Description: It never hurts to know what you are up against.
+
+		DefaultEvent
+Name: No evidence
+Id: 148037
+Description: You walk the quays, looking for any little sign that might show what sort of ships dock here, and what they deliver. But you find nothing conclusive: not even so much as a smear of pitch or a damp footprint. If any ship but yours has been tied up here in recent days, it has left no evidence.
+
+		ParentEvent
+Name: 
+Id: 147948
+Description: 
+
+		SuccessEvent
+Name: Ironmongers' tools
+Id: 148038
+Description: Stacked near the stairs is a pile of worn out tools: tongs whose hinges have given way, a hammer whose head is coming loose from its haft. An anvil whose surface is mazed with deep cracks.
+
+		RareSuccessEvent
+Name: Ironmongers' tools
+Id: 148039
+Description: Stacked near the stairs is a pile of worn out tools: tongs whose hinges have given way, a hammer whose head is coming loose from its haft. An anvil whose surface is mazed with deep cracks.
+<br/>
+Next to them a sign: REPLACE.

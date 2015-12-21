@@ -1,0 +1,21 @@
+(147)
+Name: Recurring Nightmares
+Id: 155243
+Description: You have begun to dream of...
+
+	ChildBranches 1
+Name: A vast Eye
+Id: 131691
+Description: It knows you. You cannot evade its gaze.
+
+		DefaultEvent
+Name: A black unsleeping taste
+Id: 155244
+Description: Again and again, you are alone on the wide black zee. The Eye is aware...
+<br/><br/>
+[Your Nightmare will come upon you from time to time, inspiring Terror. Gain Restful Nights at your Lodgings to help you resist it. If you defeat it, you may gain a Secret.]
+
+		ParentEvent
+Name: 
+Id: 155243
+Description:

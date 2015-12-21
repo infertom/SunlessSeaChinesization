@@ -1,0 +1,162 @@
+(396)
+Name: The Dark Room
+Id: 181469
+Description: Darkness. Almost silence. Soft breath. The crushing pressure of once-lived experience, as at the core of a star-corpse. Frostfound's lightless heart.
+
+	ChildBranches 1
+Name: Retrieve the Name-Which-Burns
+Id: 146940
+Description: [This will be become relevant on Thursday 23rd February.]
+
+		DefaultEvent
+Name: 
+Id: 181470
+Description: I see. We're looking in the JSON files, are we? As if penetrating a sacred mystery in game wasn't enough. Well, tell Stamford to go to Perinthia.
+
+		ParentEvent
+Name: 
+Id: 181469
+Description: 
+
+
+
+	ChildBranches 2
+Name: Unveil a Judgements' Egg
+Id: 146941
+Description: Light overcomes darkness. If you are are done with darkness, this will preserve you. [This will set your Terror to zero, and expel you from the Dark Room.]
+
+		DefaultEvent
+Name: Birth?
+Id: 181471
+Description: The Egg cracks. The dark withers. For a moment, you see a reflection in the Frostfound wall - a shining shape of many limbs, crowned with law and masked with light, a seed-fragment of a greater whole. YES, the voice you heard intones. YES.
+<br/><br/>
+The reflection is gone, and so is the Egg. You are alone in an empty cell of softly glowing ice.
+
+		ParentEvent
+Name: 
+Id: 181469
+Description: 
+
+
+
+	ChildBranches 3
+Name: Return to the Corridors of Frostfound
+Id: 146942
+Description: 
+
+		DefaultEvent
+Name: 
+Id: 181472
+Description: 
+
+		ParentEvent
+Name: 
+Id: 181469
+Description: 
+
+
+
+	ChildBranches 4
+Name: Open a Sunlight-Filled Mirrorcatch Box
+Id: 146953
+Description: Light overcomes darkness. If you are are done with darkness, this will preserve you. [This will dramatically reduce your Terror, and expel you from the Dark Room.]
+
+		DefaultEvent
+Name: A wash of sunlight
+Id: 181490
+Description: Open the box as wide as you can. The dark withers. For a moment, you see a reflection in the Frostfound wall - but not yours, or not only. Its belly is puckered and empty, its bones are ridged like claws. It dissolves, with a desolate sigh, and you are alone in an empty cell of softly glowing ice.
+
+		ParentEvent
+Name: 
+Id: 181469
+Description: 
+
+
+
+	ChildBranches 5
+Name: Eat
+Id: 147061
+Description: You are mortally wounded. You will die when you wake. Here in the dark, you can feast, committing an unpardonable sin, and live. You will feast only on memory, but your wound, too, is a memory.
+
+		DefaultEvent
+Name: The taste of a higher flesh
+Id: 181631
+Description: Your mouth is stained with golden blood. It will be gone when you wake. Oh, the heart of it. The heart of it! You swell with light. Perhaps you will live forever.
+
+		ParentEvent
+Name: 
+Id: 181469
+Description: 
+
+
+
+	ChildBranches 6
+Name: Harvest a Star-Shell
+Id: 147113
+Description: Something desolate remains of a long-ago change: something the Curator might desire.
+
+		DefaultEvent
+Name: An end, or a beginning?
+Id: 181699
+Description: Cradle it in your hands, that bubble-light fragility. It might be a caul or a coffin. 
+
+		ParentEvent
+Name: 
+Id: 181469
+Description: 
+
+
+
+	ChildBranches 7
+Name: You are defiant
+Id: 147147
+Description: What? It's only some imaginary god's imagined lair. Leave and live. [This will eject you from Frostfound, removing any Terror.]
+
+		DefaultEvent
+Name: Awakening
+Id: 181755
+Description: The air is cold. The ice is real. All else was memory.
+
+		ParentEvent
+Name: 
+Id: 181469
+Description: 
+
+
+
+	ChildBranches 8
+Name: Fumble in the darkness
+Id: 147146
+Description: Was it only curiosity that brought you this far? Perhaps you can salvage something, regardless. [This is only possible once.]
+
+		DefaultEvent
+Name: Need
+Id: 181752
+Description: Your hand closes on a memory:
+<br/><br/>
+Long ago, a traveller went East, seeking something that could not be found in the black and starry kingdoms of the High Wilderness, nor in the irrigo temptations of the Nadir. Not in the glow of the Forge nor the crushing silence of the Unterzee deeps. Not in the shapeling citadels, not in the light of the South, not of the Sundered Sea. The traveller went East, and others may follow.
+<br/><br/>
+You have found something the traveller tried to forget: that naked need. The traveller won't be pleased.
+
+		ParentEvent
+Name: 
+Id: 181469
+Description: 
+
+		SuccessEvent
+Name: Distant acquaintance
+Id: 181753
+Description: Your hand closes on a memory:
+<br/><br/>
+Long ago a hungry monarch built a castle. The monarch saw a light in the south, in the palace of the south's queen. In those days, hungry as the monarch was, that light provoked nothing but appetite. But she was too far to devour. Over time, their correspondence calmed the monarch, and when the time came for the monarch to depart, the monarch's appetite was transformed, like blood into tears.
+<br/><br/>
+You have one word from the queen's correspondence. She won't be pleased.
+
+		RareSuccessEvent
+Name: Shapeling days
+Id: 181754
+Description: Your hand closes on a memory:
+<br/><br/>
+Long ago a hungry monarch built a castle. The monarch sent messengers to the thunder-dragon in the roof, but the dragon ate them all. The monarch sent more messengers - shapelings from Axile, malleable and eager - but the dragon ate those too. Then the hungry monarch found the dragon's name, and the dragon had to listen. It didn't do either of them much good.
+<br/><br/>
+You have one syllable of the thunder-dragon's name. It won't be pleased.

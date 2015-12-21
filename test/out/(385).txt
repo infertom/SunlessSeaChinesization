@@ -1,0 +1,250 @@
+(385)
+Name: The Throne-Cyst
+Id: 169643
+Description: This is the salt-blown heart of the Hold. The Fathomking floats in his throne: a gem-starred bowl of sea-stone, the size of a banqueting table. He's wearing a dressing gown of purple brocade, soaked dark with salt water. He leans his chin calmly on his hand. Beneath the surface of the water in his throne, his hidden regions pulse, constantly, insistently.
+
+	ChildBranches 1
+Name: "Your Complexity: I pray you, give me back my Campaigner."
+Id: 139731
+Description: She died at sea. Perhaps he can return her. His price will be steep.
+
+		DefaultEvent
+Name: 
+Id: 169644
+Description: Guards in thorned exoskeletons issue from a dark slit behind the throne. The Campaigner walks between them, wrists chained with bronze, face calm and empty.
+<br/><br/>
+"The flames," the Fathomking remarks, "have been quenched in the zee. Is she as she was? Not entirely. But you will be unable to discern any differences that might trouble you."
+
+
+		ParentEvent
+Name: 
+Id: 169643
+Description: 
+
+
+
+	ChildBranches 2
+Name: "Give me back my Magician."
+Id: 139732
+Description: Perhaps the Fathomking, with his allies in dreams, can return the Magician.
+
+		DefaultEvent
+Name: 
+Id: 169645
+Description: Guards in thorned exoskeletons issue from a dark slit behind the throne. The Magician walks between them, wrists chained with bronze, face calm and empty.
+<br/><br/>
+"I have made adjustments," the Fathomking confesses. "I couldn't quite restore the man you lost. In dreams or in sea, my authority is limited. But you should find this one suitable for your needs."
+
+		ParentEvent
+Name: 
+Id: 169643
+Description: 
+
+
+
+	ChildBranches 3
+Name: "Give me back my Outcast."
+Id: 139733
+Description: "Its mind is gone," the King warns you. "But if you have a Fluke-Core, the Core can become its new identity - "
+
+		DefaultEvent
+Name: A triple hybrid?
+Id: 169646
+Description: Guards in thorned exoskeletons issue from a dark slit behind the throne. Your Nacreous friend walks between them. Its eyes are unreadable.
+<br/><br/>
+"It is not as it was," the King informs you. "That is gone forever. Rejoice. You walk in the company of a risen god."
+
+		ParentEvent
+Name: 
+Id: 169643
+Description: 
+
+
+
+	ChildBranches 4
+Name: "I have come to plead for a zailor's life."
+Id: 139734
+Description: Perhaps it's someone you knew. Perhaps you're feeling philanthropic. Perhaps you're simply desperate for crew. [This is an expensive way to gain crew.]
+
+		DefaultEvent
+Name: 
+Id: 169647
+Description: A wall puckers open, and a guard in a thorned exoskeleton brings in a shivering zailor. "Captain!" she cries. "I was - it was - the cold - "
+<br/><br/>
+"Go," the Fathomking says languidly. "I won't release her twice."
+
+		ParentEvent
+Name: 
+Id: 169643
+Description: 
+
+
+
+	ChildBranches 5
+Name: Witness an execution
+Id: 139736
+Description: Two silent guards in thorned exoskeletons drag a babbling Drownie forwards. "No!" she shrieks. "I am no friend of spiders! I have never purchased silk! It was a gift! Your Complexity! I have always been loyal - "
+
+		DefaultEvent
+Name: A spray of seawater
+Id: 169649
+Description: The guards fling the Drownie into the pool. The splash soaks the King, but his dignity is unmarred. The pulsing in the pool intensifies into threshing. The Drownie sinks from view, and the waters grow thick and dark. "Next," the King says peaceably.
+
+		ParentEvent
+Name: 
+Id: 169643
+Description: 
+
+
+
+	ChildBranches 6
+Name: Watch a Crocodile-Masked Visitor make an offering
+Id: 139739
+Description: A body lies on a bier in the centre of the chamber. The Crocodile-Masked Visitor moves around it, indicating wounds in its head, neck, chest; muttering.
+
+		DefaultEvent
+Name: Boasting?
+Id: 169652
+Description: He's speaking of the nature of the wounds - their dramatic effects on the landscapes of the body. He sounds like he's boasting - but a single tear trickles down from beneath his mask. At last the King nods. "The offering is acceptable," he says. Thorn-armoured guards carry the bier through a dark slit behind his throne.
+<br/><br/>
+The King begins, off-handedly, to outline the cartography of the deep undersea, and the patrol-routes of monsters. He notices your presence and snaps his fingers: the guard ushers you out, but not before you've heard valuable deep-gossip.
+
+		ParentEvent
+Name: 
+Id: 169643
+Description: 
+
+
+
+	ChildBranches 7
+Name: Listen to a Khaganian Emissary
+Id: 139740
+Description: Here's a visitor from the Taimen clan, in a grey robe patterned with leaping fish. She describes events at the Khan's Court; skirmishes with the Chelonate; zee-beast attacks.
+
+		DefaultEvent
+Name: Valuable information
+Id: 169653
+Description: At last the King nods, and awards the Emissary a pouch of drowning-pearls. The hour of audience is past. Thorn-armoured guards escort you back to the surface. But the Emissary's words, and the King's questions, have taught you a great deal.
+
+		ParentEvent
+Name: 
+Id: 169643
+Description: 
+
+
+
+	ChildBranches 8
+Name: Listen to a Chelonate Envoy
+Id: 139741
+Description: A hunter in sharkskin is haranguing the King. "...unpardonable intrusion! Our ancient rights have been impugned! King you may be, but not of the Shell-Slayers. We will pay no more tribute - "
+
+		DefaultEvent
+Name: An abrupt end
+Id: 169654
+Description: The King makes a chopping motion with his hand. A tide of crabs rushes from the shadows of the Throne-Cyst. They're on the hunter before he can turn, but not before he can scream. The King watches in satisfaction as they swarm the hunter, snipping the flesh from his bones. Thorn-armoured guards block the chamber door.
+<br/><br/>
+When it's done; when his cries are long silenced, and scarred bones remain - the King motions you forwards. "Take something," he commands. "Let our justice be remembered above. You may go."
+
+		ParentEvent
+Name: 
+Id: 169643
+Description: 
+
+
+
+	ChildBranches 9
+Name: Ask a boon of the King
+Id: 139742
+Description: You have brought the King a story-gift. You may ask a gift in return. It's impossible to know what you'll receive...
+
+		DefaultEvent
+Name: Sea-bounty
+Id: 169655
+Description: "Rosy flesh," the King intones, "won from the water. Taste it in good health." He waves a gracious hand, while his waters thresh. The audience is over. As you return, crab- slaves carry ice-boxes filled with sweet fresh meat - pink as dawn.
+
+		ParentEvent
+Name: 
+Id: 169643
+Description: 
+
+		RareDefaultEvent
+Name: Sea-coal
+Id: 169656
+Description: "Black fire," the King intones, "risen from the sea. Remember me with its vapours." He smiles directly into your eyes. The audience is over: you return to the surface. Hunched, plated, scuttling slaves haul baskets of wet coal behind you.
+
+
+
+	ChildBranches 10
+Name: Leave
+Id: 139743
+Description: You've finished here.
+
+		DefaultEvent
+Name: Return to the Valves of Pearl
+Id: 169657
+Description: Back at the dock, the air no longer smells of stone and copper. The light is the familiar glow of false-stars, not the piercing green of the Hold's eyes.
+
+		ParentEvent
+Name: 
+Id: 169643
+Description: 
+
+
+
+	ChildBranches 11
+Name: Watch a Visager
+Id: 139752
+Description: Crocodile moves around a corpse-offering on a bier, clockwise. He indicates its wounds to the Fathomking. Why is he here?
+
+		DefaultEvent
+Name: Another rite
+Id: 169674
+Description: Crocodile is describing the wounds on the body, but the wounds he describes don't match the wounds you see. This is another Visage ritual. He sounds like he's boasting - but a single tear trickles down from beneath his mask. At last the King nods. "The offering is acceptable," he says. Thorn-armoured guards carry the bier through a dark slit behind his throne.
+<br/><br/>
+The King begins, off-handedly, to outline the cartography of the deep undersea, and the patrol-routes of monsters. He notices your presence and snaps his fingers. The guard ushers you out, but not before you've heard valuable deep-gossip. And you understand a little more Visage-lore. Crocodile has given this body to another kind of flood.
+
+		ParentEvent
+Name: 
+Id: 169643
+Description: 
+
+
+
+	ChildBranches 12
+Name: Discuss the matter of your Father's Bones
+Id: 143966
+Description: "Your Complexity: I have a more personal petition. You know something of my father, or what remains of him."
+
+		DefaultEvent
+Name: 
+Id: 176514
+Description: 
+
+		ParentEvent
+Name: 
+Id: 169643
+Description: 
+
+
+
+	ChildBranches 13
+Name: Attend the Poissonnier's feast
+Id: 147281
+Description: The Drownie court - soggy, chattering, hungry - populate a table of carved coral. The Poissonnier claps his hands. Your crew scurry in with steaming plates.
+
+		DefaultEvent
+Name: The Seventh Miracle
+Id: 181958
+Description: There are seven courses, each named. It begins with <i>The First Touch on the Skin</i>: a plate of silky white flesh submerged in yellow sauce - fresh, sharp, shocking. Next comes <i>Struggling Against the Current</i>, a fierce terrine of coursing flavours. It leaves the diners watery-eyed and reaching for their wine. Before they recover, bowls of peligin soup are set before them. <i>"Swallowed!"</i> the Poissonier intones. The taste is deep and rich and heavy, lining the stomach. Several drownies lift the bowls to their lips to catch the last drops.
+<br/><br/>
+A merciful interlude follows. <i>The Surface, High Above</i> is a mild, palate-cleansing mousse. Afterwards comes <i>Lost Breath</i> - a roulade of still-wriggling tentacles; bitter on the tongue's tip, but departing with a long, mellow aftertaste as it slides down the throat. The penultimate course <i>The Abandonment of the Self</i> is spun with sugar and crunchy with salt. Spherical cages of solidified syrup, containing fiery sweetmeats. The filigree cracks between Drownie teeth. The sweetmeats slide down damp throats.
+<br/><br/>
+Last of all, <i>The Promise of What is to Follow</i> - a brûléed cream of inexplicable pungency - indescribably more-ish. The diners lean back, bloated. When their senses return, they call for the Poissonnier and congratulate him upon impeccably reproducing the sensation of drowning in culinary form. "It was not drowning," the Fathomking says, his baritone rolling over their babble. "It was love." He raises his glass to the Poissonnier. 
+
+
+
+
+		ParentEvent
+Name: 
+Id: 169643
+Description:

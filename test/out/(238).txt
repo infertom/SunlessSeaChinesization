@@ -1,0 +1,21 @@
+(238)
+Name: Soothe & Cooper Long-Box
+Id: 152840
+Description: Is it, in fact, a coffin?
+
+	ChildBranches 1
+Name: Crack the seal and see what's inside.
+Id: 130149
+Description: Curiosity kills.
+
+		DefaultEvent
+Name: Not unexpected
+Id: 152841
+Description: There is, in fact, a corpse within: utterly dead, unremarkable except for a slight bulge at the breastbone. Its skin is pale and cold. It's not clear what he died of.
+<br/><br/>
+Even as you watch, the skin seems to tighten further. When you return, an hour later, the corpse is already half-decayed, into something like a pile of withered leaves. So much for that.
+
+		ParentEvent
+Name: 
+Id: 152840
+Description:

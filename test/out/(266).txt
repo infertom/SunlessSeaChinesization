@@ -1,0 +1,175 @@
+(266)
+Name: The Avuncular Broker's Task
+Id: 181776
+Description: The Hands-On Diplomat slides bullets into her pistol. "Time to go," she says, slipping it into her satchel. She shares the name of the man she is to replace, and shows you his picture. A dapper chap: dark-eyed, dark-skinned, smiling.
+
+	ChildBranches 1
+Name: Escort her safely to the embassy
+Id: 147160
+Description: The Presbyterate Embassy is hidden in London's sewers. The journey is damp and odorous.
+
+		DefaultEvent
+Name: The Prester's work
+Id: 181777
+Description: Its location might be foul, but the embassy's door is good mahogany and the knocker has been polished to a fierce gleam. The Hands-On Diplomat stops outside. "Thank you for your help. The next task is mine." She hands you a shard of something bright and burning. "A sacred price, for enforcing a sacred prohibition."
+<br/><br/>
+She draws her gun and knocks on the door. You make your way back to your ship.
+
+		ParentEvent
+Name: 
+Id: 181776
+Description: 
+
+
+
+	ChildBranches 2
+Name: Warn her target of her arrival
+Id: 147161
+Description: He at least deserves a fighting chance.
+
+		DefaultEvent
+Name: Undoing the Prester's work
+Id: 181778
+Description: While the Hands-On Diplomat gathers her things, you dispatch your bosun to the Presbyterate embassy. Then you set out yourself, leading your charge on a circuitous route. The embassy is hidden in London's sewers, and you are both sodden and reeking by the time you reach it. You find the door open, the offices empty. The cabinets have been plundered. Discarded documents are strewn across the floor.
+<br/><br/>
+The Hands-On Diplomat gives you a level look. She slides her pistol back into her satchel, disappointed. "A shame. Here: partial payment for a partial service." She hands you a misty bottle, then goes inside and locks the door. Back at your ship, an urchin waits with an envelope. Inside is a letter of gratitude. 'Thank you. Some of my countrymen are more concerned with the law's letter than its spirit. Enclosed is a token of my gratitude.' A second envelope is inside this one: a document of sensitive intelligence pilfered from the Presbyterate's files.
+
+		ParentEvent
+Name: 
+Id: 181776
+Description: 
+
+
+
+	ChildBranches 3
+Name: Escort her safely to your sweetheart's door
+Id: 147201
+Description: It's safe to say this will end your relationship. [In addition, if you have a child you will lose them to the orphanage.]
+
+		DefaultEvent
+Name: A bad break-up
+Id: 181844
+Description: Its location might be foul, but the embassy's door is good mahogany and the knocker has been polished to a fierce gleam. The Hands-On Diplomat stops outside. "Thank you for your help. The next task is mine." She hands you a shard of something bright and burning. "A sacred price, for enforcing a sacred prohibition."
+<br/><br/>
+She draws her gun and knocks on the door. You turn away. You're halfway down the tunnel before the shot rings out.
+
+		ParentEvent
+Name: 
+Id: 181776
+Description: 
+
+
+
+	ChildBranches 4
+Name: Warn your sweetheart
+Id: 147202
+Description: Give him time to escape.
+
+		DefaultEvent
+Name: Undoing the Prester's work
+Id: 181845
+Description: While the Hands-On Diplomat gathers her things, you dispatch your bosun to the Presbyterate embassy. Then you set out yourself, leading your charge on a circuitous route. The embassy is hidden in London's sewers, and you are both sodden and reeking by the time you reach it. You find the door open, the offices abandoned. The cabinets have been plundered. Discarded documents are strewn across the floor.
+<br/><br/>
+The Hands-On Diplomat gives you a level look. She slides her pistol back into her satchel with disappointment. "A shame. Here: partial payment for a partial serv-"
+<br/><br/>
+A gunshot echoes thunderously through the  tunnels! The Hands-On Diplomat falls into the muck, her fatal expression one of startlement. There is a tiny, splintered hole in the embassy door. Your Dapper Chap steps out from behind it.
+<br/><br/>
+"I do dislike fanatics," he frowns, dragging his would-be replacement inside. "Got your message. I thought about running, but I still have work to do. I thought a little stage-setting would drop her guard, though. Worked rather well, don't you think? Now. Come here." His smile is deep. His lips are warm.
+
+		ParentEvent
+Name: 
+Id: 181776
+Description: 
+
+
+
+	ChildBranches 5
+Name: Escort her safely to the embassy
+Id: 147203
+Description: The picture reminds you of another Presbyterate gentleman you once knew. Not enough to abandon your commission, though.
+
+		DefaultEvent
+Name: The Prester's work
+Id: 181846
+Description: The Presbyterate Embassy is hidden in London's sewers. The journey is damp and odorous. Despite its location, the embassy's door is good mahogany and the knocker has been polished to a fierce gleam. The Hands-On Diplomat stops outside. "Thank you for your help. The next task is mine." She hands you a shard of something bright and burning. "A sacred price, for enforcing a sacred prohibition."
+<br/><br/>
+She draws her gun and knocks on the door. You make your way back to your ship.
+
+		ParentEvent
+Name: 
+Id: 181776
+Description: 
+
+
+
+	ChildBranches 6
+Name: Escort her safely to your lover's door
+Id: 147204
+Description: You recognise the picture: the Dapper Chap you spent a night with. But what is one night?
+
+		DefaultEvent
+Name: Seeing the job through
+Id: 181847
+Description: Its location might be foul, but the embassy's door is good mahogany and the knocker has been polished to a fierce gleam. The Hands-On Diplomat stops outside. "Thank you for your help. The next task is mine." She hands you a shard of something bright and burning. "A sacred price, for enforcing a sacred prohibition."
+<br/><br/>
+She draws her gun and knocks on the door. You make your way back to your ship, dropping the Dapper Chap's locket into the sewer's filth on the way.
+
+		ParentEvent
+Name: 
+Id: 181776
+Description: 
+
+
+
+	ChildBranches 7
+Name: Warn her target of her arrival
+Id: 147205
+Description: The picture reminds you of another Presbyterate gentleman you once knew. You are inclined to give this one a fighting chance.
+
+		DefaultEvent
+Name: Undoing the Prester's work
+Id: 181848
+Description: While the Hands-On Diplomat gathers her things, you dispatch your bosun to the Presbyterate embassy. Then you set out yourself, leading your charge on a circuitous route. The embassy is hidden in London's sewers, and you are both sodden and reeking by the time you reach it. You find the door open, the offices empty. The cabinets have been plundered. Discarded documents are strewn across the floor.
+<br/><br/>
+The Hands-On Diplomat gives you a level look. She slides her pistol back into her satchel, disappointed. "A shame. Here: partial payment for a partial service." She hands you a misty bottle, then goes inside and locks the door. Back at your ship, an urchin waits with an envelope. Inside is a letter of gratitude. 'Thank you. Some of my countrymen are more concerned with the law's letter than its spirit. Enclosed is a token of my gratitude.' A second envelope is inside this one: a document of sensitive intelligence pilfered from the Presbyterate's files.
+
+		ParentEvent
+Name: 
+Id: 181776
+Description: 
+
+
+
+	ChildBranches 8
+Name: Warn your lover of her arrival
+Id: 147206
+Description: You recognise the picture as the Dapper Chap you spent a night with. 
+
+		DefaultEvent
+Name: Undoing the Prester's work
+Id: 181849
+Description: While the Hands-On Diplomat gathers her things, you dispatch your bosun to the Presbyterate embassy. Then you set out yourself, leading your charge on a circuitous route. The embassy is hidden in London's sewers, and you are both sodden and reeking by the time you reach it. You find the door open, the offices empty. The cabinets have been plundered. Discarded documents are strewn across the floor.
+<br/><br/>
+The Hands-On Diplomat gives you a level look. She slides her pistol back into her satchel, disappointed. "A shame. Here: partial payment for a partial service." She hands you a misty bottle, then goes inside and locks the door. Back at your ship, an urchin waits with an envelope. Inside is a letter of gratitude. 'Thank you. Some of my countrymen are more concerned with the law's letter than its spirit. Fortunately, I have friends who are adept at disguise. My replacement will not find me. Enclosed is a token of my gratitude and affection. I think of you often.' A second envelope is inside this one: a document of sensitive intelligence pilfered from the Presbyterate's files.
+
+		ParentEvent
+Name: 
+Id: 181776
+Description: 
+
+
+
+	ChildBranches 9
+Name: Stall her
+Id: 147207
+Description: You have other, urgent business first.
+
+		DefaultEvent
+Name: 
+Id: 181850
+Description: 
+
+		ParentEvent
+Name: 
+Id: 181776
+Description:

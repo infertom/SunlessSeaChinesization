@@ -1,0 +1,172 @@
+(205)
+Name: The Temple of Mihir
+Id: 152375
+Description: The Temple Tower pierces through the city's heart, taller than the other four towers which stand at each of the cardinal points. Around the Temple sprawls the Sacred District: vine-covered stone shrines; still ponds glowing with algae and flash-finned carp; priests in white, their wrists heavy with metal chains.
+<br/><br/>
+There are no mirrors in the Temple of Mihir. The rest of the city has to make do with mirrored light and reflection but Mihir's most sacred space is filled with hundreds of lamps and lit candles of hard-packed phosphorescent fungus.
+
+	ChildBranches 1
+Name: Listen to the Mantras
+Id: 129852
+Description: "In Varchas the sun still shines!" calls the Sun-Priest, in the way of an invocation. The assembled temple-goers raise their voices in well-worn reply, <i>In Varchas the sun still shines!</i>
+
+
+		DefaultEvent
+Name: 
+Id: 152376
+Description: The Sun-Priest pitches her voice so it echoes off the fire-warmed stones of the temple, and reverberates through the tower: "Mihir looked away away from us, and Varchas fell," she intones. "Now we light our city like a beacon, so Mihir may find us once more."
+
+
+
+		ParentEvent
+Name: 
+Id: 152375
+Description: 
+
+
+
+	ChildBranches 2
+Name: The Shrine of Mihir
+Id: 129854
+Description: His stone-carved form is rubbed daily with glowing moss. Perhaps it is guilt which makes you think of placing a Lamentable Relic amongst the flowers and other offerings?
+
+
+		DefaultEvent
+Name: 
+Id: 152379
+Description: One of the Sun-Seers sucks her breath in sharply, and glares at your offering as though it is an abomination. But she makes no move to knock it away. 
+<br/><br/>
+"We do not eat the flesh of living beings," she hisses angrily. "We do not murder, or maim. We follow Mihir's tenets of purity and light." She touches you abruptly on the forehead, her fingers hot like a brand. "May Mihir forgive you for your sins, as unforgivable as they seem to me."
+
+
+		ParentEvent
+Name: 
+Id: 152375
+Description: 
+
+
+
+	ChildBranches 3
+Name: The Sun-Seers
+Id: 129855
+Description: The most important Priests of Mihir are the Sun-Seers; they wear necklaces of glowing scintillack-beads. They'll pay well for more scintillack.
+
+		DefaultEvent
+Name: 
+Id: 152380
+Description: Apparently there's a trade embargo on most imports, but "essentials" like gas, rice from inland and scintillack are spared. You haggle because it is a required part of the process, but settle on a price that makes you both break into a smile.
+
+
+		ParentEvent
+Name: 
+Id: 152375
+Description: 
+
+
+
+	ChildBranches 4
+Name: Return to the City Centre
+Id: 129905
+Description: You are done here.
+
+		DefaultEvent
+Name: 
+Id: 152450
+Description: There is more of Varchas to explore.
+
+		ParentEvent
+Name: 
+Id: 152375
+Description: 
+
+
+
+	ChildBranches 5
+Name: Dreams of Smoke
+Id: 129916
+Description: They seem like something one of the Priests might understand, if you had a mind to tell them.
+
+
+		DefaultEvent
+Name: 
+Id: 152464
+Description: The Sun-Priest listens to you describe your dream with growing disquiet. "Were you not taught to guard yourself when you sleep in a room full of mirrors?" He asks, and then curses. Should priests curse in temples? "I cannot believe the Taamas are so ignorant."
+<br/><br/>
+You assure him that you are indeed quite ignorant, and wait patiently for him to finish another, more inventive round of cursing. "There are dreadful powers in mirrors," is his unhelpful conclusion.
+<br/><br/>
+He gives you a charm of bloodied snakeskin and scraps of paper written in an angular, unfamiliar script, and tells you to hang it upon the nearest mirror before you sleep.
+
+		ParentEvent
+Name: 
+Id: 152375
+Description: 
+
+
+
+	ChildBranches 6
+Name: Blue Scintillack!
+Id: 139333
+Description: How much more will they pay for this treasure?
+
+		DefaultEvent
+Name: 
+Id: 168998
+Description: The priests chatter excitedly! You bargain hard, and by the end of the process, they have to send a junior Seer down to the outer treasure chambers. She returns with a gorgeous pectoral of feathers, amber and carved basalt. "From the Mountain," she whispers.
+
+		ParentEvent
+Name: 
+Id: 152375
+Description: 
+
+
+
+	ChildBranches 7
+Name: The Bas-Reliefs
+Id: 129853
+Description: Every surface of the temple is carved and worked; if you peer closer, the bas-reliefs depict Varchas's Fall into the Neath.
+
+
+		DefaultEvent
+Name: 
+Id: 152377
+Description: Perhaps it is the sound of the temple's brass bells ringing, or the chanting of the Sun-Priests or the smell of incense mingled with sweet-rot but the carvings swim in front of your eyes. You cannot make sense of them.
+
+
+		ParentEvent
+Name: 
+Id: 152375
+Description: 
+
+		SuccessEvent
+Name: 
+Id: 152378
+Description: In the first panel, Mihir is depicted as the sun, beaming rays of thinly-hammered gold onto a Surface city both peaceful and prosperous. The Five Towers are carved with loving detail, barely recognisable without the wreaths of fungal-flowers and curling vines. In the next panel Mihir blinks, and the city turns to shards of onyx and jet, slowly crumbling away.
+<br/><br/>
+Mihir then becomes a broad-shouldered, sorrow-faced man stalking the false-starred blackness of the Neath in search of his lost city. His eyes are picked out in orange-red carnelian, and seem lit with inner fire. 
+<br/><br/>
+Varchas as-it-is-now is conspiciously absent from the carvings, as if the Stone-Carvers could not bear to chip its Fallen outlines. 
+
+
+
+
+	ChildBranches 8
+Name: The Agnihotri
+Id: 129856
+Description: The Varchaasi equivalent of a King, or Governor; he is overseeing the rituals, and gives you a slanted glance.
+
+		DefaultEvent
+Name: 
+Id: 152381
+Description: You try to slide through the crowd towards the Agnihotri. Alas, he is distracted by a pilgrim carrying a broken mirror like an injured child. Best not to interrupt.
+
+		ParentEvent
+Name: 
+Id: 152375
+Description: 
+
+		SuccessEvent
+Name: 
+Id: 152382
+Description: You go to pay your respects, and he is at pains to impress upon you that he is no despot or Tyrant-Prince, but rather rules Varchaas with his council of Sun-Seers and Fire-Keepers.
+<br/><br/>
+"What do you think of Varchas so far, Taamas?" He asks, and you know better than to mutter anything but meaningless platitudes in response. He nods as though satisfied but you catch him giving you a sharp, speculative looks as you wander the Temple. It seems you have aroused his interest.

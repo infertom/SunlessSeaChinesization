@@ -1,0 +1,86 @@
+(471)
+Name: Into the spider's web...
+Id: 167288
+Description: Sitting next to the Emissary of Spiders, you travel through a wasteland of webs and the glimmering eyes of their spinners.
+
+	ChildBranches 1
+Name: The Great Crossing
+Id: 138349
+Description: Between the Nativity and the grand spider-council of Saviour's Rocks is a bridge of webs, coated in thick sands to allow passage between islands.
+
+		DefaultEvent
+Name: "You may wish to avert your gaze for a moment."
+Id: 167296
+Description: The Emissary of Spiders carefully undoes his blindfold, revealing two hollow, scabbed eyes. Unbidden, the sorrow-spider on his shoulder crawls across his face, stabbing one leg into each with a squelch. Just for a moment, the Emissary's face flickers with the euphoria of a new disciple of prisoner's honey, but only for as long as it takes to shiver. His normal, polite countenance returns as the cart rolls onto the webbed bridge, taking you high above the black zee.
+
+		ParentEvent
+Name: 
+Id: 167288
+Description: 
+
+
+
+	ChildBranches 2
+Name: The Web Of Stone
+Id: 138351
+Description: The cart approaches a long ruined citadel, little but a maze of foundations still recording a time before it became the demesne of the sorrow-spiders.
+
+		DefaultEvent
+Name: End of the road
+Id: 167298
+Description: The clicking of sorrow-spiders is nigh-intolerable by the time the cart pulls up by the Web of Stone. The Emissary of Spiders pauses for a moment to carefully detach the juvenile and replaces his blindfold. Absently, he touches and tastes a drop of lingering blood, savouring the sting of poison.
+<br /></br />
+"You will be summoned when the irascible masters are ready. Until then, please, do enjoy our hospitality." He pauses, turns, licking his finger clean. "I do however urge you to to mind your manners in this place. And of course, to be most careful where you choose to sit, hmm?"
+
+		ParentEvent
+Name: 
+Id: 167288
+Description: 
+
+
+
+	ChildBranches 3
+Name: Take in the surroundings
+Id: 138908
+Description: This whole island is littered with ruins. Do they look familiar?
+
+		DefaultEvent
+Name: An ancient mystery
+Id: 168219
+Description: There remains a visible craft to these ruins and a definite symbolism that persists even now. Their meanings however would require an expert scholar, and it is unlikely that any could be enticed here for any reward.
+
+		ParentEvent
+Name: 
+Id: 167288
+Description: 
+
+		SuccessEvent
+Name: A page removed from history
+Id: 168220
+Description: There are no obvious signs with which to date or identify these ruins, though a few details spark memories of Third City legends from less than trustworthy stories. They are however far too faded and broken to draw any real conclusions from.
+
+
+
+	ChildBranches 4
+Name: Speak with the Emissary of Spiders
+Id: 138907
+Description: He seems a reasonable fellow. How did he come to be here, speaking for a council of sorrow-spiders?
+
+		DefaultEvent
+Name: "Life is but a web, a many stranded thing of beauty."
+Id: 168218
+Description: He gently bids rather than drives the elderly horse to a faster walk. He speaks of following the perfect geometry of a spider's web to its natural conclusion, and of the day his mind was ensnared by one as effortlessly as it might have caught a fly.
+<br /><br />
+The way he tells it, it almost makes sense. Except of course, for the part about allowing sorrow-spiders to harvest his eyes to make more of their kin.
+
+		ParentEvent
+Name: 
+Id: 167288
+Description: 
+
+		SuccessEvent
+Name: "Life is but a web, a many stranded thing of beauty."
+Id: 168440
+Description: He gently bids rather than drives the elderly horse to a faster walk. He speaks of following the perfect geometry of a spider's web to its natural conclusion, and of the day his mind was ensnared by one as effortlessly as it might have caught a fly.
+<br /><br />
+"I confess however, it did still take a while to be talked into the harvesting," he adds, gesturing to his empty eye sockets. He chuckles to himself. "Ah, the ignorance of youth. Oh my..."

@@ -1,0 +1,43 @@
+(35)
+Name: Burning Blue
+Id: 150653
+Description: A hiss of horror from the lookout! The glim-lamp at the front of the ship is sputtering and arcing, fizzing with blue light. Even as you watch, the blue fades, but it's not a good omen.
+
+	ChildBranches 1
+Name: Spin them a story
+Id: 131652
+Description: "Ah, now, any lubber knows what a blue light means - "
+
+		DefaultEvent
+Name: Eyes wide
+Id: 155184
+Description: "...rubies the size of grapes, and grapes the size of apples. Of course the island's only visible in blue light, and then only for an instant, but if we find it, my hearts, if we find it - "
+<br/><br/>
+They grin. They don't exactly believe it, but they'd like to.
+
+		ParentEvent
+Name: 
+Id: 150653
+Description: 
+
+
+
+	ChildBranches 2
+Name: Attempt to calm them
+Id: 128734
+Description: There's a perfectly natural explanation -
+
+		DefaultEvent
+Name: Listen a moment - 
+Id: 150654
+Description: Your measured and rational speech does you no good. Your crew know bad luck when they see it.
+
+		ParentEvent
+Name: 
+Id: 150653
+Description: 
+
+		SuccessEvent
+Name: Light meets dark
+Id: 150659
+Description: The darkness in the Neath is more than the absence of light. It's a physical presence which distorts the shape of the world. Your light melts the darkness, restores sanity to the world. You explain something of this to your zailors. It's not the first time they've heard it, but they seem slightly less nervous.

@@ -1,0 +1,53 @@
+(227)
+Name: Officer Template
+Id: 148776
+Description: --
+
+	ChildBranches 1
+Name: Increase your Hearts
+Id: 127613
+Description: [Spend a Secret to improve your Hearts, unless it's higher than 150.]
+
+		DefaultEvent
+Name: --
+Id: 148777
+Description: --
+
+		ParentEvent
+Name: 
+Id: 148776
+Description: 
+
+
+
+	ChildBranches 2
+Name: Answer questions about your past
+Id: 127616
+Description: You've kept your secrets long enough. [Unmask yourself! This will allow you to select a Past, Ambition, and form of preferred address - also providing you with a specialist ability bonus.]
+
+		DefaultEvent
+Name: 
+Id: 148780
+Description: 
+
+		ParentEvent
+Name: 
+Id: 148776
+Description: 
+
+
+
+	ChildBranches 3
+Name: Invite them to dine with you
+Id: 127617
+Description: [Not yet. This Officer's story will open later in development.]
+
+		DefaultEvent
+Name: 
+Id: 148781
+Description: 
+
+		ParentEvent
+Name: 
+Id: 148776
+Description:

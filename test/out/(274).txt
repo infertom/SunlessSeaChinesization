@@ -1,0 +1,36 @@
+(274)
+Name: Treachery
+Id: 141259
+Description: Occurs only when Terror is high. Your crew turn on you.
+
+	ChildBranches 1
+Name: Talk 'em down
+Id: 122732
+Description: easy
+
+		DefaultEvent
+Name: 
+Id: 141260
+Description: 
+
+		ParentEvent
+Name: 
+Id: 141259
+Description: 
+
+
+
+	ChildBranches 2
+Name: Take 'em down
+Id: 122733
+Description: 
+
+		DefaultEvent
+Name: 
+Id: 141261
+Description: 
+
+		ParentEvent
+Name: 
+Id: 141259
+Description:

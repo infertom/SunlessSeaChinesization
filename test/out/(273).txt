@@ -1,0 +1,36 @@
+(273)
+Name: Iremi Outpost
+Id: 141256
+Description: Were they here?
+
+	ChildBranches 1
+Name: Seek treasures
+Id: 122730
+Description: easy
+
+		DefaultEvent
+Name: 
+Id: 141257
+Description: 
+
+		ParentEvent
+Name: 
+Id: 141256
+Description: 
+
+
+
+	ChildBranches 2
+Name: Seek knowledge
+Id: 122731
+Description: 
+
+		DefaultEvent
+Name: 
+Id: 141258
+Description: 
+
+		ParentEvent
+Name: 
+Id: 141256
+Description:

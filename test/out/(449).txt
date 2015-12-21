@@ -1,0 +1,469 @@
+(449)
+Name: Khan's Heart
+Id: 143346
+Description: Khan's Heart: London's rival. An oasis of light in the salt black wastes. Canals thread the painted city. Street-lamps glow and water-taxis putter.
+
+	ChildBranches 1
+Name: Seek a commercial license
+Id: 124072
+Description: The Khaganians dislike merchants, and they dislike foreigners. Foreign merchants induce paroxysms of antipathy. Perhaps sufficient bribes will buy your way into the Nephrite Quarter.
+
+		DefaultEvent
+Name: "Not here, Surfacer."
+Id: 143347
+Description: (Surfacer? But the Khaganians have been generations underground, and to them, all Londoners are Surfacers.) It seems you'll need to go to Khan's Glory, the nearby palaces of the nobility, to seek a license.
+
+		ParentEvent
+Name: 
+Id: 143346
+Description: 
+
+
+
+	ChildBranches 2
+Name: Time in the tea-house
+Id: 124073
+Description: The Copper Quarter offers comfort to foreigners, but the prices are, to put it mildly, mischievous.
+
+		DefaultEvent
+Name: Solace
+Id: 143348
+Description: A gentle, trickling music plays behind screens of painted weed-wood. Khanate merchants sip tea and swap stories with darker-skinned Elder Continent captains. You sip pale golden tea and wince at the bill.
+
+		ParentEvent
+Name: 
+Id: 143346
+Description: 
+
+
+
+	ChildBranches 3
+Name: Hire Crew
+Id: 129960
+Description: Khaganians are wary of your people, but perhaps you can find someone.
+
+		DefaultEvent
+Name: A hungry sort
+Id: 152529
+Description: This zailor is thin enough to slide through a porthole and desperate enough to sign on even with a 'sunbitten Empress-gobbler'. She doesn't use those terms when she thinks you're nearby.
+
+		ParentEvent
+Name: 
+Id: 143346
+Description: 
+
+
+
+	ChildBranches 4
+Name: Collect the Cheery Man's cargo
+Id: 131048
+Description: You meet a Blue Priest in a tiny noodle-shop by the Moon Canal. Fizzing electric light shows the weary lines in his face. "You have my money?" he asks.
+
+		DefaultEvent
+Name: A hiss of distaste
+Id: 154271
+Description: "Oh, your stupid Imperial coins. No, give it here, it'll do, it's what was agreed. Take this, go. You never saw me." [Return to the Blind Bruiser in London. Don't lose your cargo.]
+
+		ParentEvent
+Name: 
+Id: 143346
+Description: 
+
+
+
+	ChildBranches 5
+Name: Drop off a spy
+Id: 131320
+Description: Your sweetheart. [this will need two branches.]
+
+		DefaultEvent
+Name: 
+Id: 154690
+Description: 
+
+		ParentEvent
+Name: 
+Id: 143346
+Description: 
+
+
+
+	ChildBranches 6
+Name: Wander Khan's Heart
+Id: 131321
+Description: Foreigners are restricted to the Copper Quarter, but as long as you don't try to cross the bridges, you can explore in reasonable safety - 
+
+		DefaultEvent
+Name: A Shrine of the Deep Blue Heaven
+Id: 154691
+Description: Above, the roof of the Neath is black, impassive, prickled with false-stars: but the Khaganians still remember the sky. You pass an open-walled shrine with a domed roof - the interior is painted a deep pure indigo. Citizens kneel below it while a Blue Priest speaks. As he reaches the climax of his prayer, a rosy-golden light swells inside the dome. The worshippers murmur in complacent delight. The dome is now a perfect, heartbreaking, morning-sky blue, a colour you haven't seen for - how long?
+<br/><br/>
+"Filament-bulbs," your bo'sun whispers importantly beside you. "Give me honest gas-light any day."
+
+		ParentEvent
+Name: 
+Id: 143346
+Description: 
+
+
+
+	ChildBranches 7
+Name: Wander Khan's Heart
+Id: 131322
+Description: Foreigners are restricted to the Copper Quarter, but as long as you don't try to cross the bridges, you can explore in reasonable safety - 
+
+		DefaultEvent
+Name: A song of the surface
+Id: 154692
+Description: Someone is singing in English! Something about a tree of wines and a stolen city, a sea of grass and a storm of bats... melancholy, pure and sweet, achingly familiar. You cross the street, cut back through an alleyway, trying to find it, but it ends before you get close. You find yourself humming it on the way back to the ship. Another zailor takes up the tune...
+
+		ParentEvent
+Name: 
+Id: 143346
+Description: 
+
+		RareDefaultEvent
+Name: Lost light
+Id: 154749
+Description: The canals of the Heart are lit by incandescent-filament lamps in bulbs of glass, in a multitude of colours. Ruby, sapphire, topaz, emerald by turns. There's nothing else like it in the Neath or on the surface. You spend a happy quarter-hour strolling the alleyways of the Copper Quarter, until an irritable workman sees you eyeing the bulbs and accuses you of plotting their theft.
+
+
+
+	ChildBranches 8
+Name: Wander Khan's Heart
+Id: 131323
+Description: Foreigners are restricted to the Copper Quarter, but as long as you don't try to cross the bridges, you can explore in reasonable safety - 
+
+		DefaultEvent
+Name: A relentless fishmonger
+Id: 154693
+Description: You are cornered by a screaming, cheerful woman in a sort of lacquer-armoured fish-suit. As far as you can make out, she was attacked in the Moon Canal by something with tentacles. She still has this tentacled thing, slung over her shoulder. For some reason she is determined that you should purchase it. You plead, evade, offer her nothing but the smallest coins - but she is relentless. Tentacles it is, then.
+
+		ParentEvent
+Name: 
+Id: 143346
+Description: 
+
+		RareDefaultEvent
+Name: A quiet street
+Id: 154743
+Description: A narrow street opens on your left. The filament-bulbs here are green-tinted, and the street is unusually dim, like the space between a thick forest canopy. Ten steps in, and the noise of the crowds on the canal-side is oddly hushed.
+
+
+
+	ChildBranches 9
+Name: Wander Khan's Heart
+Id: 131324
+Description: Foreigners are restricted to the Copper Quarter, but as long as you don't try to cross the bridges, you can explore in reasonable safety - 
+
+		DefaultEvent
+Name: 
+Id: 154694
+Description: 
+
+		ParentEvent
+Name: 
+Id: 143346
+Description: 
+
+
+
+	ChildBranches 10
+Name: Enter the Nephrite Quarter
+Id: 131325
+Description: You have the token that permits you to enter the Nephrite Quarter, and buy directly from Khanate merchants.
+
+		DefaultEvent
+Name: 
+Id: 154695
+Description: [Visit the Shops tab.]
+
+		ParentEvent
+Name: 
+Id: 143346
+Description: 
+
+
+
+	ChildBranches 11
+Name: Purchase Fuel at an outrageous price
+Id: 131332
+Description: The Khanate merchants grin when they see you coming. An unlicensed foreign captain? They'll pick a price and triple it. [Gain access to the Nephrite Quarter to purchase less expensive fuel.]
+
+		DefaultEvent
+Name: The rattle of coal
+Id: 154709
+Description: Where does the Khanate even find its fuel, so far from Hell? The lumps of coal have a swimming blue-green sheen.
+
+		ParentEvent
+Name: 
+Id: 143346
+Description: 
+
+
+
+	ChildBranches 12
+Name: Purchase Supplies at a ludicrous price
+Id: 131361
+Description: Foreigners are permitted to buy food in the Copper Quarter, but only poor quality in small quantities. And so you go from street-vendor to street-vendor, trying to purchase enough soggy smoked fish to feed your crew.
+
+		DefaultEvent
+Name: Smirking Khaganians
+Id: 154741
+Description: They watch you carry armfuls of brown paper packages past the canals back to your ship. They know you're skirting the edge of the law: either they don't care enough to stop you, or they're having too much fun watching you carry all that smoked fish.
+
+		ParentEvent
+Name: 
+Id: 143346
+Description: 
+
+
+
+	ChildBranches 13
+Name: Pay a storyteller
+Id: 131399
+Description: The storytellers in the Square of Cedars wear brightly-coloured caftan-like clothing with silk sashes, in contrast to the more sober and subterranean dress of the citizenry. For coin, even foreign coin, they'll sing epics of their nation's history...
+
+		DefaultEvent
+Name: The Temptations of Parabola
+Id: 154798
+Description: ...where London now stands, the capital of the Khanate once stood, after its own disappearance from the surface. After the clean sky and wide earth they went half-mad in the close night under the Earth. They found serpent-things in mirrors that promised them diversion, escape, new horizons. In time the mirror-serpents became masters, not servants, and the last True Khan led the last of his people to the Salt Steppes, to a black rock where he founded this city. How he built it is a tale for another day...
+<br/><br/>
+You feel eyes on you. A woman in a white and gold uniform watches you closely. The Loyalty Service is suspicious of foreigners who want to learn Khaganian history.
+
+		ParentEvent
+Name: 
+Id: 143346
+Description: 
+
+		RareDefaultEvent
+Name: The Fall of Karakorum
+Id: 154799
+Description: ...the last Great Khan of the Surface was corrupt and foolish and cowardly. (How fortunate we are that the Leopard Clan overthrew his line - long may the Leopard endure!) He sold the Khanate's capital to the Masters of the Bazaar to satisfy his greed and escape battle. So Karakorum fell - so it came below the earth, to the long night of the Neath. Seven hundred years ago, Karakorum stood where London now stands...
+<br/><br/>
+You feel eyes on you. A woman in a white and gold uniform watches you closely. The Loyalty Service is suspicious of foreigners who want to learn Khaganian history.
+
+
+
+	ChildBranches 14
+Name: Show a Pewter Horsehead
+Id: 131412
+Description: You did a Khaganian a favour. Perhaps this token will win you favour in turn.
+
+		DefaultEvent
+Name: A spicy evening
+Id: 154819
+Description: You show the talisman rather cautiously to a clutch of captains chatting by their warship. One grabs it cheerfully and claps you on the shoulder. "I've heard about you! Come on. I'm buying." With more friendliness than Khaganians usualy show, they drag you off to a little place by the park and fill you with rare spiced seaweed and Elder Continent wines. They grumble about Chelonate delinquency, the 'idiot children' of Khan's Shadow, and - until they remember you're there - the London captains cluttering up the clean zee...
+
+		ParentEvent
+Name: 
+Id: 143346
+Description: 
+
+
+
+	ChildBranches 15
+Name: Enter the Nephrite Quarter
+Id: 131425
+Description: You have the token that permits you to enter the Nephrite Quarter, and buy directly from Khanate merchants.
+
+		DefaultEvent
+Name: Pursed lips
+Id: 154841
+Description: "We regret, [q:Addressed As], that your name has entered the list of Causes for Concern. Excuse me." He turns aside to speak to a serious woman in dark glasses. Now is the time to leave...
+
+		ParentEvent
+Name: 
+Id: 143346
+Description: 
+
+
+
+	ChildBranches 16
+Name: Leave in haste
+Id: 131526
+Description: The White-and-Golds, who guard Khaganian security, are watching for you. On board ship you're safe enough, as long as the delicate treaty with London holds, but on shore you're liable to arrest at any moment.
+
+		DefaultEvent
+Name: The zee beckons
+Id: 154997
+Description: Khan's Heart is an iron garden. You'll walk there again some day.
+[Visit Khan's Glory, where the noble clans keep their estates, and plead with the Taimen Clan for mercy. You will likely need Drowning-Pearls or Strategic Information.]
+
+		ParentEvent
+Name: 
+Id: 143346
+Description: 
+
+
+
+	ChildBranches 17
+Name: Find out what your spies need
+Id: 141777
+Description: To improve the quality of your network, you'll need... something. Find out what. [This will improve your Network here.]
+
+		DefaultEvent
+Name: 
+Id: 173060
+Description: 
+
+		ParentEvent
+Name: 
+Id: 143346
+Description: 
+
+
+
+	ChildBranches 18
+Name: Fulfil your spies' needs
+Id: 142192
+Description: They wanted something... [This will improve your Network here.]
+
+		DefaultEvent
+Name: 
+Id: 173800
+Description: 
+
+		ParentEvent
+Name: 
+Id: 143346
+Description: 
+
+
+
+	ChildBranches 19
+Name: The Poissonnier requests shore leave
+Id: 147275
+Description: And back pay, in a form preferred in the Khanate. 
+
+		DefaultEvent
+Name: He stands stiffly before you
+Id: 181951
+Description: "I will not need long, or much."
+
+		ParentEvent
+Name: 
+Id: 143346
+Description: 
+
+
+
+	ChildBranches 20
+Name: Find your Contact
+Id: 130494
+Description: The Khanate is wary of Imperial spies. Go very carefully. You have half the directions you need - the other should be at a dead-drop on the docks.
+
+		DefaultEvent
+Name: Hurry on by
+Id: 153416
+Description: You find the address - but the street outside is thronged with white and gold uniforms. Loiter on the corner. There - two hard-faced men in no uniform but their own authority are directing operations. Their white-uniformed henchmen manhandle an unconscious body into a waiting boat. Your contact! Back to your ship, quickly.
+
+		ParentEvent
+Name: 
+Id: 143346
+Description: 
+
+		SuccessEvent
+Name: Mislaid letters
+Id: 153417
+Description: You find your contact in a filthy lodging-house behind the tanneries. "Tell them this is the last time," she says, helplessly. She knows perfectly well it won't be. She gives you a double handful of tiny notes with chicken-scratch markings. "Zee-bat courier-notes. From the temple. I don't know how much of it - I don't know. Go now. Go!"
+
+
+
+	ChildBranches 21
+Name: Gather a Port Report
+Id: 131319
+Description: The Khanate generally assumes that all foreigners are spies or worse. It would be a shame to disappoint them, but it might be dangerous to prove them right. [As Khaganian Suspicion increases, this action becomes more difficult. If you have an intelligence network here, it's easier.]
+
+		DefaultEvent
+Name: Eyes everywhere
+Id: 154689
+Description: Your listeners meet your questions with courteous, frightened silence. The back of your neck prickles. Don't turn around.
+
+		ParentEvent
+Name: 
+Id: 143346
+Description: 
+
+		SuccessEvent
+Name: Precious scraps
+Id: 154708
+Description: Rivalry between the Leopard and Eagle clans. The Concerns about Chelonate raids. Some appalling gossip about the Traitor Empress back in London. Perhaps you shouldn't write that last one down. And move on quickly. That fellow in the corner has an informer's look.
+
+
+
+	ChildBranches 22
+Name: Establish a spy in Khan's Heart
+Id: 141599
+Description: If you're caught, it'll mean trouble. If you're successful, you can tap your network later for Intelligence. The Dark-Spectacled Admiral and the Voracious Diplomat, among others, will be interested...
+
+		DefaultEvent
+Name: The White-and-Golds are watchful
+Id: 172761
+Description: Your agent does not return. Have they spent your funds and run? Are they chained upside-down somewhere in the Taimen stronghold?
+
+		ParentEvent
+Name: 
+Id: 143346
+Description: 
+
+		SuccessEvent
+Name: Success!
+Id: 172764
+Description: Your Agent sends a message via bat-courier. They have found lodgings, contacts, possibilities.
+<br/><br/>
+[On subsequent visits to Khan's Heart, you'll be able to grow your network, or tap it for information. The more it grows, the more effective it'll be.]
+
+
+
+	ChildBranches 23
+Name: Seek intelligence
+Id: 142265
+Description: If you have eyes and ears in the Khanate, you can use them to gain more than just a Port Report. [The better your Network, the easier this will be.]
+
+		DefaultEvent
+Name: Not what you hoped for
+Id: 173914
+Description: At the appointed place, at the appointed time, in the appointed cipher... you find a message. It's information, certainly. Something of it is even new. But your agents are obviously struggling to send you something of use. Perhaps they need assistance - or a suitable incentive.
+
+		ParentEvent
+Name: 
+Id: 143346
+Description: 
+
+		RareDefaultEvent
+Name: Ill luck... or betrayal
+Id: 174185
+Description: The hammer of hurried feet. A flash of eyes in the darkness. An urgent message whispered through a jillypaper screen. Someone has betrayed you. [Your network has suffered.]
+
+		SuccessEvent
+Name: The dangers of success
+Id: 173915
+Description: The message arrives on a tiny fishskin sliver, bound inside a copper ring. The cipher speaks of fleet movements and power struggles. London will want to know this. But your agents have attracted attention. [After a significant success, you'll often need to lie low or rebuild your network.]
+
+		RareSuccessEvent
+Name: Silent as stone
+Id: 174186
+Description: The Khanate has a folk-tale, of a princess who smuggled jewels to her lover in the mouths of birds. This is how your agents bring secrets to you - one by one, and sparkling. [Secrecy has been maintained! Your network has not suffered.]
+
+
+
+	ChildBranches 24
+Name: Put a blemmigan ashore
+Id: 147312
+Description: There are no laws specifically forbidding the seeding of blemmigans on Khan's Heart. It is unlikely to make you popular, however.
+
+		DefaultEvent
+Name: A qualified success
+Id: 182004
+Description: The damp and dark places of the city are fertile ground indeed. In the months that follow, blemmigans stalk the guttering of Khan's Heart, pullulate in the shadows of the alleys. They menace citizens after dark with their sinister poetry. They steal dogs and house-bats and the occasional baby. Trade, prosperity and security suffer outrageously. The White-and-Golds ask their questions and compile their careful records. They note the report that your ship was among those that visited just before the infestation began. It isn't proof of your involvement: but there is a little mark beside your name on a little list.
+
+		ParentEvent
+Name: 
+Id: 143346
+Description: 
+
+		SuccessEvent
+Name: A victory for discretion
+Id: 182069
+Description: The damp and dark places of the city are fertile ground indeed. In the months that follow, blemmigans stalk the guttering of Khan's Heart, pullulate in the shadows of the alleys. They menace citizens after dark with their sinister poetry. They steal dogs and house-bats and the occasional baby. Trade, prosperity and security suffer outrageously. But by then, you are long gone.

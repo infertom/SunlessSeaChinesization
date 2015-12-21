@@ -1,0 +1,42 @@
+(80)
+Name: The Monkey Emperor's Wrath
+Id: 176836
+Description: You're here. It's time to make a decision. The contents of this box could change everything.
+
+	ChildBranches 1
+Name: Deliver the box for the Monkey Emperor
+Id: 144189
+Description: It does not specify who to deliver it to. It does say where. It is not a salubrious part of the city.
+<br />
+[If you do this, you will never be able to return to London again. You are committing yourself to stealing the Zeppelin and ending your career.]
+
+		DefaultEvent
+Name: Anarchy reigns
+Id: 176837
+Description: It is not the woman they call February who meets you. She is merely the one to whom you are taken, having been thoroughly interrogated by a pair of the least gentlemanly thugs in the service of the Calendar Council. She reads through the Emperor's documents with first suspicion, then a smirk. Finally, it is merely with glee, and a polite comment that your current state of consciousness is now surplus to requirements.
+<br /><br />
+In the days that follow, London burns. You see little of it from your windowless room, but overhear much and smell more than you would like. Eventually, you are released; a hated face racing to the docks and fleeing as fast as you can zail. Your life here is over.
+
+		ParentEvent
+Name: 
+Id: 176836
+Description: 
+
+
+
+	ChildBranches 2
+Name: Throw the box into the zee
+Id: 145486
+Description: No. You will have no part of the Emperor's revenge.
+
+		DefaultEvent
+Name: The box disappears under the waves
+Id: 179018
+Description: Its secrets lie under Wolfstack Docks, hopefully forever.
+<br /><br />
+Well, most of them. The important ones. But it would have been wrong not to take a little peek during the long voyage and make just a couple of notes...
+
+		ParentEvent
+Name: 
+Id: 176836
+Description:

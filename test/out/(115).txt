@@ -1,0 +1,234 @@
+(115)
+Name: The Forgotten Quarter
+Id: 152145
+Description: No one visits the Forgotten Quarter of Fallen London any more. No one remembers why. Except archaeologists, treasure-hunters, and magicians who've lost their hands to imaginary serpents.
+<br/><br/>
+"The world is thin there," the Magician once told you. "It's closer to the place behind mirrors: to Parabola."
+
+	ChildBranches 1
+Name: The Genial Magician's Plan
+Id: 129693
+Description: ...what is it, exactly?
+
+		DefaultEvent
+Name: A prison for serpents
+Id: 152152
+Description: "My enemy," he explains, "roams the Mirror-Marches at the edge of Parabola." He taps the wooden statue. "I have baited this image with the scents of life. My enemy will enter, and be ensared. And then we can put its power to use, you and I."
+<br/><br/>
+He frowns. "There is a possibility it will enter me instead. Quite a real possibility. Should that occur, I trust you will murder my stolen body and fling it in the sea."
+
+		ParentEvent
+Name: 
+Id: 152145
+Description: 
+
+
+
+	ChildBranches 2
+Name: Give him what he needs to complete his plan
+Id: 129695
+Description: "Where I go, I go alone. But I must ask your help. I know you have already been a good friend to me, but this will be the last thing I ever ask of you. (Perhaps not quite the last thing. If something else comes back wearing my body - you will see me drowned, yes? Please.)"
+
+		DefaultEvent
+Name: A hard victory
+Id: 152154
+Description: He is gone, as he told you, for eleven hours exactly. You wait in the old caravanserai at the Quarter's edge. Blue lights flicker in the mist. An unlikely wind stirs your hair. And here he is! He staggers out of the mist. Blood trickles from his eyes. But he is smiling - an exhausted, desperate smile. He clasps your hand, and leans on your shoulder all the way back.
+
+		ParentEvent
+Name: 
+Id: 152145
+Description: 
+
+		RareDefaultEvent
+Name: A smiling return
+Id: 152155
+Description: He is gone, as he told you, for eleven hours exactly. You wait in the old caravanserai at the Quarter's edge. Blue lights flicker in the mist. An unlikely wind stirs your hair. And here he is! Emerging from the mist, marching with a spring in his step.
+<br/><br>He is humming an air you haven't heard before: something from the music-halls, perhaps. He grins and pumps your hand. "Thank you for delivering my enemy into my hands. I have a new kind of freedom, now. I think I would like to go to zee. Again, I mean. To return to zee."
+<br/><br/>
+What happened with the serpent image? He waves the question away. "I found something much better."
+
+
+
+	ChildBranches 3
+Name: Welcome the Urbane Magician aboard
+Id: 129696
+Description: He may not be quite the man he was, but you do need an engineer.
+
+		DefaultEvent
+Name: 
+Id: 152156
+Description: "Oh yes," he purrs. "This will do. This will do very nicely." He curls his fingers, admiring their flex. "Very nicely indeed."
+
+		ParentEvent
+Name: 
+Id: 152145
+Description: 
+
+
+
+	ChildBranches 4
+Name: Share a toast with the Satisfied Magician
+Id: 129697
+Description: The Magician will not speak of precisely what happened, there in the Forgotten Quarter. But he proposes a toast: "To the ensnarement of serpents."
+
+		DefaultEvent
+Name: Cheerful banter
+Id: 152157
+Description: The Magician is slower to smile than he was, but the smile, you think, is more sincere. He has no plans to leave the sea, or your service. "I owe this victory to you," he says.
+<br/><br/>
+He looks down at the serpent image where it sits in his lap. Its wooden eyes seem to brim with furious desperation. "And this will permit some partial repayment of my great debt to you. Speak to me later..."
+
+		ParentEvent
+Name: 
+Id: 152145
+Description: 
+
+
+
+	ChildBranches 5
+Name: Murder the Urbane Magician
+Id: 129698
+Description: This is not the man that you knew: and the man that you knew trusted you to do this one last thing.
+
+		DefaultEvent
+Name: A grim duty
+Id: 152158
+Description: You close the door of the Urbane Magician's cabin behind you. You are breathing rapidly: there is blood under your nails. Two zailors - hand-picked - enter the cabin to do what is necessary with his remains. What has he got in his pocketses?
+
+		ParentEvent
+Name: 
+Id: 152145
+Description: 
+
+
+
+	ChildBranches 6
+Name: Let the Urbane Magician go free
+Id: 129699
+Description: This is a tangle. Perhaps he's not stolen, only changed. You won't kill him, but neither will you have him on your ship.
+
+		DefaultEvent
+Name: Blandly smiling
+Id: 152159
+Description: "I understand that things are different now. A pity we will not zail together... yet. Nevertheless, I owe you a debt of gratitude. Now I shall pay it. Something for you, from the Castle of Forests. Goodbye." He lays something on the table: a silver-green leaf tightly scribbled with secrets...
+
+		ParentEvent
+Name: 
+Id: 152145
+Description: 
+
+
+
+	ChildBranches 7
+Name: Consume the Urbane Magician
+Id: 129700
+Description: A dream-serpent in a stolen human body. How <i>will</i> it taste? And, of course, you did promise to dispose of the Magician's enemy if, et cetera, et cetera.
+
+		DefaultEvent
+Name: A scent like flowers
+Id: 152162
+Description: It is not easy to subdue the serpent's puppet, but at last it's done. You have satisfied honour: now, satisfy hunger.
+<br/><br/>
+..if fish were flavoured with oil of roses, and if the result were more intriguing than disgusting, then this might be the result. Intriguing. Sad, too, terribly sad. Store a little for later. You can tell your crew it's sea-pheasant.
+
+		ParentEvent
+Name: 
+Id: 152145
+Description: 
+
+
+
+	ChildBranches 8
+Name: Obtain an Eyeless Skull from a Forgetful Archaeologist
+Id: 130393
+Description: "What...? Who...? Take it. One Secret, and it's yours - isn't it?" [The Skull is tainted with irrigo radiation, which will damage your primary abilities. Don't purchase it unless you're sure you want it.]
+
+		DefaultEvent
+Name: 
+Id: 153232
+Description: 
+
+		ParentEvent
+Name: 
+Id: 152145
+Description: 
+
+
+
+	ChildBranches 9
+Name: Give him what he needs...and send your Panther with him.
+Id: 131641
+Description: "Where I go, I go alone. But I must ask your help. I know you have already been a good friend to me, but this will be the last thing I ever ask of you. (Perhaps not quite the last thing. If something else comes back wearing my body - you will see me drowned, yes? Please.)"
+
+		DefaultEvent
+Name: A hard victory
+Id: 155164
+Description: He is gone, as he told you, for eleven hours exactly. You wait in the old caravanserai at the Quarter's edge. Blue lights flicker in the mist. An unlikely wind stirs your hair. And here he is! He staggers out of the mist. Blood trickles from his eyes. But he is smiling - an exhausted, desperate smile - and the tabby cat with the panther's eyes rides his shoulder like a queen in a palanquin. He clasps your hand, and leans on your shoulder all the way back. The cat purrs, and licks her lips.
+
+		ParentEvent
+Name: 
+Id: 152145
+Description: 
+
+		RareDefaultEvent
+Name: A smiling return
+Id: 155165
+Description: He is gone, as he told you, for eleven hours exactly. You wait in the old caravanserai at the Quarter's edge. Blue lights flicker in the mist. An unlikely wind stirs your hair. And here he is! Emerging from the mist, marching with a spring in his step.
+<br/><br>He is humming an air you haven't heard before: something from the music-halls, perhaps. He grins and pumps your hand. "Thank you for delivering my enemy into my hands. I have a new kind of freedom, now. I think I would like to go to zee. Again, I mean. To return to zee."
+<br/><br/>
+What happened with the serpent image? He waves the question away. "I found something much better. Your cat? Oh, she's chasing mice, probably. She suggested that you not wait up for her."
+
+
+
+	ChildBranches 10
+Name: Open the way to the Forgotten Quarter
+Id: 129690
+Description: "My revenge waits for me there. I'll need honey, to navigate the dreams. Can you, ah, lend me a barrel of the stuff? And help me with the dreaming? I will show my gratitude, when the time comes."
+
+		DefaultEvent
+Name: A storm of skulls
+Id: 152147
+Description: You and the Magician run through a dream of a heath, under a grinning weather that pelts you with bones. "Wrong way!" he shouts. "This is their trap! Wake up!"
+
+		ParentEvent
+Name: 
+Id: 152145
+Description: 
+
+		RareDefaultEvent
+Name: A velvet garden
+Id: 152160
+Description: You recline, with the magician, in a carefully-dreamt paradise of crimson moss. Intoxicating wines fall in sudden squalls from the heavens, soaking through your skin, leaving you giddy and delighted. "There's something we should be doing," you both agree. "Perhaps we'll remember when we wake."
+
+		SuccessEvent
+Name: A road of roses
+Id: 152149
+Description: Prisoner's honey transports the dreamer's body as well as mind. You walk beside the Magician, along a path lined with watchful black roses. "The Rosers built this way," he says. "Another of Parabola's servant-peoples. It pleases me to use it against the kings of that place. Look - the light, up ahead. When we wake, we'll know the way to the Quarter."
+
+
+
+	ChildBranches 11
+Name: Dissuade the Genial Magician from his plan
+Id: 129694
+Description: He's found a new life. This is too risky.
+
+		DefaultEvent
+Name: Obstinate as a stone
+Id: 152153
+Description: You remind him of all you have done, and all that awaits him. Will he abandon the zee and its glories for this small and sterile hope? It won't return his lost hand. Revenge never satisfies.
+<br/><br/>
+"Perhaps not," he says, rather snappishly, after an evening and a morning of argument. "But I would be a sorry excuse for a man to turn back now. My failure would haunt me, do you see? I would always know I had failed without even trying. I thank you, but I have made my choice."
+
+		ParentEvent
+Name: 
+Id: 152145
+Description: 
+
+		SuccessEvent
+Name: A kind of relief
+Id: 152161
+Description: You remind him of all you have done, and all that awaits him. Will he abandon the zee and its glories for this small and sterile hope? It won't return his lost hand. Revenge never satisfies.
+<br/><br/>
+It takes an evening and a morning before you finally defeat his arguments. "You're right," he admits. "And I will confess this: I have dreamt, many times, of this encounter. Each time, my fear had grown. It is such a relief to turn away from it."
+<br/><br/>
+He clasps your arm. "Thank you, my friend. Here. Take the image and sell it. It is a temptation to me."

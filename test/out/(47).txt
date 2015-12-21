@@ -1,0 +1,263 @@
+(47)
+Name: A Tryst
+Id: 150908
+Description: A discreet opportunity has arisen to spend time with your favourite officer. [This will noticeably reduce your Terror, unless it's already low. But if you have a sweetheart back home, you may want to think twice.]
+
+	ChildBranches 1
+Name: A Tryst with the Survivor
+Id: 128871
+Description: You will be uninterrupted in the tiny pantry: and although it is tiny, the Survivor is inhumanly adaptable.
+
+		DefaultEvent
+Name: Deep delights
+Id: 150909
+Description: In the haddock-scented recesses of the pantry, you explore, experiment, consummate, extract. The Outcast lovingly intrudes exudations of pearl and amber. Your skin quivers with incomprehensible ecstacy. Sometimes you see through its eyes: sometimes you swear you feel the changes begin in your own flesh. No one must know. No one must know.
+
+		ParentEvent
+Name: 
+Id: 150908
+Description: 
+
+
+
+	ChildBranches 2
+Name: A Tryst with the Longshanks Gunner
+Id: 128872
+Description: "The funnel-top, my captain! They're stopping the engines to clear the sturricles. It'll be like the old days, like the roof-tops of the Flit."
+
+		DefaultEvent
+Name: A precarious embrace
+Id: 150910
+Description: The funnel is still warm from the ship's engines. So is she. So are you. You are both black with funnel-soot when you emerge. You hasten back to separate cabins. Probably no one noticed.
+
+		ParentEvent
+Name: 
+Id: 150908
+Description: 
+
+
+
+	ChildBranches 3
+Name: A Tryst with the Brisk Campaigner
+Id: 128873
+Description: "I'm not messing about in some dirty corner. You can just come to my cabin and be discreet."
+
+		DefaultEvent
+Name: Brisk indeed
+Id: 150911
+Description: The Campaigner transports you - and herself - across the brink of rapture - not once but several times. You have the sense, though, that her mind is elsewhere.
+<br/><br/>
+"Oh, yes," she admits afterwards. "I'm thinking about dying. Obviously. But, mm, that was a wonderful distraction. One more time?"
+
+		ParentEvent
+Name: 
+Id: 150908
+Description: 
+
+
+
+	ChildBranches 4
+Name: A Tryst with the Sly Navigator
+Id: 128877
+Description: "I've said I need the bridge clear for twenty minutes. Of course, someone might still discover us - "
+
+		DefaultEvent
+Name: Navigational complexities
+Id: 150915
+Description: An extended encounter with the Navigator leaves you both gasping with delight, but there is nearly - very nearly - an embarrassing incident with the engine-room telegraph. By the time the crew is back on the bridge, you are both entirely professional. Probably no one noticed.
+
+		ParentEvent
+Name: 
+Id: 150908
+Description: 
+
+
+
+	ChildBranches 5
+Name: A Tryst with the Tireless Mechanic
+Id: 128878
+Description: "Behind the boilers, O my captain. No one will pass by for at least forty-seven minutes."
+
+		DefaultEvent
+Name: Warmth in the darkness
+Id: 150916
+Description: The engine pounds to a steady rhythm. The rough steel of the bulkhead has left your skin raw. There's coal dust in your hair. The sea is cold behind the bulkhead, inches away. But the boilers are warm. He's warmer. 
+
+		ParentEvent
+Name: 
+Id: 150908
+Description: 
+
+
+
+	ChildBranches 6
+Name: A Tryst with the Magician
+Id: 128879
+Description: "We'll need to be quick. But we can take our time. Oh, you know what I mean."
+
+		DefaultEvent
+Name: Rapture in the rope-locker
+Id: 150917
+Description: The need for haste requires you both to remain standing. The intensity of the Magician's caresses makes that surprisingly difficult. You are forced to reciprocate. There is little space to move; the heat becomes quickly distracting; the floor is spotted with sweat; and when you place your hand over his mouth, he bites you quite ferociously. A sweet hour indeed.
+
+		ParentEvent
+Name: 
+Id: 150908
+Description: 
+
+
+
+	ChildBranches 7
+Name: Maybe's Daughter
+Id: 128880
+Description: "In the barrel," she says,"of the forward gun. I'll bring cushions."
+
+		DefaultEvent
+Name: Efficient pleasure
+Id: 150918
+Description: Quick, warm, fervent. Peek out of the gun's muzzle. Part with a chuckle, a wink, a final kiss.
+
+		ParentEvent
+Name: 
+Id: 150908
+Description: 
+
+
+
+	ChildBranches 8
+Name: The Cladery Heir
+Id: 128881
+Description: 
+
+		DefaultEvent
+Name: 
+Id: 150919
+Description: 00
+
+		ParentEvent
+Name: 
+Id: 150908
+Description: 
+
+
+
+	ChildBranches 9
+Name: The affair is at an end
+Id: 128908
+Description: Perhaps they're gone. Perhaps you've thought better of it. [This will end the affair.]
+
+		DefaultEvent
+Name: The end of the affair
+Id: 150950
+Description: The night is a little darker.
+
+		ParentEvent
+Name: 
+Id: 150908
+Description: 
+
+
+
+	ChildBranches 10
+Name: Maybe's Rival
+Id: 146614
+Description: "In the barrel," she says,"of the forward gun. I'll bring cushions."
+
+		DefaultEvent
+Name: Something unhuman
+Id: 180984
+Description: Once again, the heat of her mouth, the impossible delight of her touch, the rise of a compelling electricity in your stomach. Once again, the sense of doors open to a wilder space. As her own excitement peaks, something changes in her eyes - a glittering, like the scales on the wing of a moth...
+<br/><br/>
+"I'll remember you," she says seriously, "when I'm finished here. But I will finish here. Not yet, though. Not yet."
+
+		ParentEvent
+Name: 
+Id: 150908
+Description: 
+
+
+
+	ChildBranches 11
+Name: Nobody's Daughter
+Id: 146615
+Description: "In the barrel," she says,"of the forward gun. I'll bring cushions."
+
+		DefaultEvent
+Name: An uneasy interlude
+Id: 180985
+Description: You are lying together in the long muzzle of the gun, skin against skin, matters proceeding pleasantly towards an urgent conclusion, when she says musingly: "Imagine if they fired it now. What would be left of us, do you think? 'A rag and a bone and a hank of hair.' A devil sang me that song once."
+<br/><br/>
+You recover your poise, and complete together what you went there to do, but the atmosphere, it is fair to say, is soured.
+
+		ParentEvent
+Name: 
+Id: 150908
+Description: 
+
+
+
+	ChildBranches 12
+Name: A Tryst with the Indomitable Campaigner
+Id: 146616
+Description: "We need to talk."
+
+		DefaultEvent
+Name: "It's not you, it's me."
+Id: 180986
+Description: "I don't mean to be unkind: but while you're very charming, you're hardly suitable, are you? I'll always be grateful to you, but we're quite different kinds of people. I've treasured our time together, though. Here. A portrait of you. I drew it while you were sleeping. I left out the drool. Thank you, Captain. For everything."
+
+		ParentEvent
+Name: 
+Id: 150908
+Description: 
+
+
+
+	ChildBranches 13
+Name: A Tryst with the Magician
+Id: 146618
+Description: "Just for a while," he says, very quietly. "For a little while."
+
+		DefaultEvent
+Name: The last tryst
+Id: 180988
+Description: The Magician does his best to ensure your satisfaction, but it's clear from the outset that he is uneasy. The tone of the encounter changes, until you find yourselves sitting in the rope locker, arms around each other's shoulders, speaking wistfully of the lights along the Stolen River back in London. When he says goodbye, it's clear what he means.
+
+		ParentEvent
+Name: 
+Id: 150908
+Description: 
+
+
+
+	ChildBranches 14
+Name: A Tryst with the Magician
+Id: 146619
+Description: "Oh, yes. I think we can risk a little time behind mirrors."
+
+		DefaultEvent
+Name: The sun in splendour
+Id: 180989
+Description: There is indeed a mirror involved, but afterwards, your memories are hazy. Skin flushed with heat. A cascade of delicious caresses. The Magician's breath mingling with yours.  Sunlight the colour of apricots. There are leaves in your hair...
+
+		ParentEvent
+Name: 
+Id: 150908
+Description: 
+
+
+
+	ChildBranches 15
+Name: A Tryst with the Magician
+Id: 146620
+Description: "Yes, <i>please</i>. I'll see you very soon."
+
+		DefaultEvent
+Name: Lamius
+Id: 180990
+Description: The Magician's hands are cold. The Magician's teeth are pointed. His eyes are silver as mercury. Scales rustle against your skin. The sensation is electric, irresistible. When you wake, you are scored all over with pale scratches. Touch one, and your skin sparks with pleasure. Of the Magician, there is no sign.
+
+		ParentEvent
+Name: 
+Id: 150908
+Description:

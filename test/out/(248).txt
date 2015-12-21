@@ -1,0 +1,42 @@
+(248)
+Name: Speak to the Gall-Eyed Engineer
+Id: 147862
+Description: "You're so beautiful," she tells you dreamily. "There are briars in your mouth." Her left eye pulses slowly. It's always difficult to know what she's actually seeing. 
+
+	ChildBranches 1
+Name: Increase your Veils
+Id: 126986
+Description: "I want to talk about steam, and motion. I still see every coil of vapour."[Spending a Secret will improve your Veils, but no higher than 50.]
+
+		DefaultEvent
+Name: An allegory of engines
+Id: 147863
+Description: The Engineer has learnt a great deal about the powers and weaknesses of steel and fire and water. Once she must have been an extraordinary asset. But she can only express what she knows as poetry filtered through half-erotic visions. Roses and rivers and something like rain. It's quite pretty in its way, but it makes it challenging to understand what bit of the engine you need to bang on when the engine won't go.
+
+		ParentEvent
+Name: 
+Id: 147862
+Description: 
+
+
+
+	ChildBranches 2
+Name: What does she want?
+Id: 146429
+Description: Why has she come to zee in this state?
+
+		DefaultEvent
+Name: "My eyes will hatch soon."
+Id: 180636
+Description: "The gallblighter wasp. You know it? Its children are in me." She smiles. "I can't be sorry. I can see such things..."
+<br/><br/>
+She tails off, hungrily watching your face. What is she seeing?
+<br/><br/>
+"Kingeater's Castle," she says at last, rather breathily. Her hand goes up to her throat. "I would like to see Kingeater's Castle through these eyes, before I go."
+<br/><br/>
+[Kingeater's Castle can be found in the far south-east of the Unterzee.]
+
+		ParentEvent
+Name: 
+Id: 147862
+Description:

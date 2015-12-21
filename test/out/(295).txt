@@ -1,0 +1,80 @@
+(295)
+Name: The Carmine Chapel
+Id: 149065
+Description: A little chapel stands alone. You poke your head through the door.The walls are a deep red, just this side of scarlet. A ruby-tinted window at the back glows with steady light - an electric lamp behind the glass? Rare, and expensive, but this is no gas-light. No one is here, and yet you have the sensation that only a moment ago, someone must have been.
+
+	ChildBranches 1
+Name: Leave
+Id: 127803
+Description: This shade of red would be unsettling enough in a dowager's parlour. Daubed on the walls of an empty place of worship? Nothing cheerful will happen here.
+
+		DefaultEvent
+Name: Nothing follows
+Id: 149067
+Description: Outside, the air seems cleaner. Straighten your shoulders and ready your ship for zee.
+
+		ParentEvent
+Name: 
+Id: 149065
+Description: 
+
+
+
+	ChildBranches 2
+Name: Make an offering
+Id: 127804
+Description: Drop a coin into the empty offering box, and pray to the power of this place, whoever it might be.
+
+		DefaultEvent
+Name: An uncertain outcome
+Id: 149068
+Description: Prayer soothes the soul, they say. Your soul is not soothed. You wait, head bent, while the light in the chapel beats on, shadowless and unmoved. Nothing changes. The red of the place gets into your vision. The faces of your crew seem flushed, as if fevered. You hear your own breathing echo raggedly. No one is sitting in the pew behind you. It doesn't stop you looking.
+<br/><br/>
+The scene will stay with you. Perhaps you can write of it, when you return to London.
+
+		ParentEvent
+Name: 
+Id: 149065
+Description: 
+
+
+
+	ChildBranches 3
+Name: Make an offering, with half-familiar rites
+Id: 127829
+Description: Moving as if asleep, you place a candle at each corner of the altar...
+
+		DefaultEvent
+Name: When the rites are done
+Id: 149121
+Description: When the rites are done, you clean the chapel carefully, for the next to pass this way. Peace lies on your mind like a sheen of oil. You stow your supplies in the hold of the ship. There are no witnesses.
+
+		ParentEvent
+Name: 
+Id: 149065
+Description: 
+
+
+
+	ChildBranches 4
+Name: Search the place
+Id: 127802
+Description: What can you find?
+
+		DefaultEvent
+Name: An empty house
+Id: 149066
+Description: There is an altar, a block of basalt; there are pews, a pulpit. No Bibles, no hymn-books. The stained-glass window is the red of cochineal.<br/><br/>
+Your crew are eager to leave. No one looks back.
+
+		ParentEvent
+Name: 
+Id: 149065
+Description: 
+
+		SuccessEvent
+Name: AN HUNGRED
+Id: 149112
+Description: There is an altar, a block of basalt; there are pews, a pulpit. No Bibles, no hymn-books. The stained-glass window is the red of cochineal. An inscription on the lintel of the door reads FOR I WAS AN HUNGRED AND YE GAVE ME MEAT. That is all.
+<br/><br/>
+Your crew are eager to leave. No one looks back..

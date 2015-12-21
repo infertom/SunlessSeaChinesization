@@ -1,0 +1,9 @@
+(64)
+Name: Overheard on Deck: Burdens
+Id: 159758
+Description: <b>BRISK CAMPAIGNER:</b> How's your head?<br/>
+<b>SIGIL-RIDDEN NAVIGATOR</b> The same. Please don't - <br/>
+<b>CAMPAIGNER:</b> Don't be an idiot. It's a tattoo, and a headache. Nothing else. If you don't want to get better, I can't help you. But you should want to get better. Idiot!<br/>
+<b>NAVIGATOR:</b>I was only going to say -<br/>
+<b>CAMPAIGNER:</b> I'm not interested! You can doom yourself on your own time. While I'm here there'll be none of this nonsense.<br/>
+<b>NAVIGATOR:</b>I was only going to say - please don't talk so loudly.<br/>

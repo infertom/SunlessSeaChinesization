@@ -1,0 +1,495 @@
+(381)
+Name: The Fathomking's Answer
+Id: 176515
+Description: His Complexity is watching you. His eyes are cold as polished stones, but a smile lurks at the corner of his mouth, like an eel in ambush.
+
+	ChildBranches 1
+Name: Ask for assistance
+Id: 143967
+Description: "Your Complexity: there is a question only you can answer, to open the final gate of my journey, to my father's bones. I ask this boon of you."
+
+		DefaultEvent
+Name: Little favours
+Id: 176516
+Description: "You are fortunate," the Fathomking announces. "I have only a few small requests. Fulfil them, and I shall tell you what you need to know."
+<br/><br/>
+"Bring me the heart of a legend."
+<br/><br/>
+"Bring me a light from the sky."
+<br/><br/>
+"Bring me a willing guest, to stay with me forever."
+<br/><br/>
+"Witness the end of the eldest among its kind. Bring me word."
+<br/><br/>
+"Bring me the fruit of an eternal tree."
+<br/><br/>
+"And bring me something scientific. Modern. Cutting-edge, I believe, is the term. My Bride enjoys that sort of thing."
+<br/><br/>
+He sits back, under-regions pulsing with expectation. "You seem quite capable," he adds carelessly. "I'm sure it's not too much trouble."
+<br/><br/>
+[You can review the Fathomking's requests in the Curiosities section of your Gazetteer.]
+
+		ParentEvent
+Name: 
+Id: 176515
+Description: 
+
+
+
+	ChildBranches 2
+Name: Present the Pirate-Poet's Heart
+Id: 144098
+Description: "Your Complexity. Here is the heart of a legend."
+
+		DefaultEvent
+Name: "It is sufficient."
+Id: 176700
+Description: The Fathomking nods. "I always liked her. But I'm glad she's dead. She would have caused trouble, some day."
+<br/><br/>
+His Drownie chamberlain spirits the heart away on a platter, and gifts you a barbed iron charm for your ship's prow. "Is that all?" the King inquires pleasantly.
+
+		ParentEvent
+Name: 
+Id: 176515
+Description: 
+
+
+
+	ChildBranches 3
+Name: Present the Merciless Modiste's heart
+Id: 144102
+Description: "Your Complexity. Here is the heart of a legend."
+
+		DefaultEvent
+Name: The Fathomking tuts. 
+Id: 176706
+Description: "Oh, a pity. She sent so many interesting people here below. But I am a Power of my word. She was a legend. Here. Place this on your ship's bow, and it will give you strength in battle." His chamberlain gifts you a barbed iron charm, and spirits the heart away on a platter.
+<br/><br/>
+The King purses his lips. "Hearts," he muses. "I should develop another one. I grow more elaborate by the day."
+
+		ParentEvent
+Name: 
+Id: 176515
+Description: 
+
+
+
+	ChildBranches 4
+Name: Present the spider which was the heart of the Tree of Ages
+Id: 144103
+Description: "Your Complexity. Here is the heart of a legend."
+
+		DefaultEvent
+Name: One leg twitches in dead reflex
+Id: 176707
+Description: "Charmless beasts," the Fathomking remarks. "I'm very glad to see this one ended. They are no friends of my Bride. Here."
+<br/><br/>
+His Drownie chamberlain spirits the heart away on a platter, and gifts you a barbed iron charm for your ship's prow. At a nod from the king, he also hands you a set of carved ivory spheres within spheres. "By way of reward," the King explains, "for your sound choice of target." 
+
+		ParentEvent
+Name: 
+Id: 176515
+Description: 
+
+
+
+	ChildBranches 5
+Name: Present Mt Nomad's Heart
+Id: 144105
+Description: "Your Complexity. Here is the heart of a legend."
+
+		DefaultEvent
+Name: A deep sigh
+Id: 176709
+Description: The Fathomking is silent for an uncomfortably long time. Then he is silent for a while longer. After that, he sinks back in the pool and continues to say absolutely nothing at all. His chamberlain draws back. The guards stand motionless. You are eyeing the exits from the chamber when, finally, he speaks.
+<br/><br/>
+"Were you aware," he enquires, "that this is the heart of my niece? By marriage, not by blood; and I doubt you have truly ended her. She is robust. Nevertheless..."
+<br/><br/>
+He drums his fingers on the rim of his throne-bowl. "I am in part to blame, and besides, I am a Power of my word. What's done is done. But I must exact payment. Honour demands it."
+<br/><br/>
+His Drownie chamberlain spirits the egg away on a platter, and gifts you a barbed iron charm for your ship's prow. "You have fulfilled my request" - the King decrees - "thus your reward. But I must now pronounce this curse upon you. Stand still, please..."
+
+		ParentEvent
+Name: 
+Id: 176515
+Description: 
+
+
+
+	ChildBranches 6
+Name: Present the Fathomking with your Serpentine
+Id: 144107
+Description: "Your Complexity. Here is a miracle of science and the subtler arts. Glass and fire, steel and serpents, power and prisoned dreams."
+
+		DefaultEvent
+Name: "Fascinating!"
+Id: 176711
+Description: "Is that a Fingerking in there? Alive? And it makes your ship <i>go</i>? I must say, that's splendidly done. You have fulfilled my request handsomely."
+<br/><br/>
+At his gesture, a Drownie child walks forward, bare feet slapping on rock, to present you with a knife of coral. (The chamberlain, meanwhile, kindly arranges to replace your engine with a spare from a ship they had 'recently eaten'.)
+
+		ParentEvent
+Name: 
+Id: 176515
+Description: 
+
+
+
+	ChildBranches 7
+Name: Present the Fathomking with your Memento Mori
+Id: 144108
+Description: "Your Complexity: here is a miracle of engineering, of sacrifice, and of the Red Science. I present the Memento Mori."
+
+		DefaultEvent
+Name: "Intriguing!"
+Id: 176712
+Description: "What a completely horrible object," the Fathomking observes. "Honestly, if you had flayed a star and brought me its skin, it couldn't be more appalling than this. But I recognise the achievement. You have fulfilled my request."
+<br/><br/>
+At his gesture, a Drownie child walks forward, bare feet slapping, to present you with a knife of coral. (The chamberlain, meanwhile, kindly arranges to replace your device with a weapon from a ship they had 'recently eaten'.)
+
+		ParentEvent
+Name: 
+Id: 176515
+Description: 
+
+
+
+	ChildBranches 8
+Name: Introduce the Fathomking to your Nacreous Survivor
+Id: 144109
+Description: The Survivor is free of its past, but what of its future? The King could open doors to it, here below.
+
+		DefaultEvent
+Name: "Be welcome."
+Id: 176713
+Description: The Survivor leaves your side without a word. So much for sentiment. It nods respectfully to the King, who extends a limb to touch its bulging forehead.
+<br/><br/>
+"You will be my cup-bearer," the King announces. "You will learn the shapeling arts from my Bride. I will reward the one who brought you here, with gifts of pearl and knowledge, and with the Word that compels attention. And one day, perhaps, more..."
+
+		ParentEvent
+Name: 
+Id: 176515
+Description: 
+
+
+
+	ChildBranches 9
+Name: Introduce the Fathomking to your Chef-Paramount
+Id: 144112
+Description: The Chef has learnt everything there is to know of cuisine above the waves. Perhaps he's ready to learn of the culinary treasures below. You'd miss him, but you owe him the chance.
+
+		DefaultEvent
+Name: "Magnificent!"
+Id: 176716
+Description: The Chef's moustaches quiver with excitement. He kisses his hand to you and bounds creakily to the Fathomking's side. "I am at your Complexity's service! I have so many questions! The savours of the Peligin Wash: are they distinct? Can Mutersalt survive that fundamental pressure? Is the Feast truly Fluke-flesh?"
+<br/><br/>
+The King attempts several times to interrupt the Chef's excited babbling. When he fails, he gestures to his chamberlain. You are rewarded with a Word which compels attention, and an assurance that your service has been recognised.
+
+
+		ParentEvent
+Name: 
+Id: 176515
+Description: 
+
+
+
+	ChildBranches 10
+Name: Bear witness to the Curator's End
+Id: 144114
+Description: The First Curator was eldest among its kind. This will certainly satisfy the Fathomking.
+
+		DefaultEvent
+Name: An ending
+Id: 176718
+Description: " - and then ceased to move. I had never seen a moth so big - and its wings! Figured with patterns in all the colours I had brought the Curator - "
+<br/><br/>
+The Fathomking listens. His face is expressionless, but his under-regions pulse with hammerish fury. "Very good," he says at last (a little breathlessly?). "You have fulfilled my request. Come closer. I will tell you something of the movement of moths: their mysteries and evasions..."
+
+		ParentEvent
+Name: 
+Id: 176515
+Description: 
+
+
+
+	ChildBranches 11
+Name: Bear witness to the Principles' End
+Id: 144115
+Description: How old was the Principles? The Eldest? Perhaps old enough to satisfy the Fathomking.
+
+		DefaultEvent
+Name: An ending
+Id: 176719
+Description: "'Hurry,' it told me. 'My thoughts grow burdensome.'" And then, at the chess game's end, the dissolution.
+<br/><br/>
+The Fathomking listens. A single tear rolls down his cheek, though his face remains expressionless. His chamberlain steps forward, to remove the tear with a darting tongue.
+<br/><br/>
+"My Bride's family," he tells you. "They have long grown eccentric, and the Principles was the most eccentric of all. Yes, that is sufficient. Come closer, and I will tell you something of other dissolutions..."
+
+		ParentEvent
+Name: 
+Id: 176515
+Description: 
+
+
+
+	ChildBranches 12
+Name: Give the Fathomking a Hesperidean Apple
+Id: 144116
+Description: Do fruits get any more eternal than this?
+
+		DefaultEvent
+Name: A satisfactory gift
+Id: 176720
+Description: The Fathomking's chamberlain takes the Apple from you, and carries it to him on a salver of verdigrised bronze. The Fathomking accepts the gift, and abruptly drops it into the throne-pool. It is sucked into the churn of the King's under-regions.
+<br/><br/>
+"Very good," the King says, languidly. "I will have you sent certain leaves from my library..."
+
+		ParentEvent
+Name: 
+Id: 176515
+Description: 
+
+
+
+	ChildBranches 13
+Name: Give the Fathomking an Uttershroom Sporule
+Id: 144117
+Description: Perhaps it's not what he expected. If it's not, that would be fun, actually.
+
+		DefaultEvent
+Name: An emission from a far place
+Id: 176721
+Description: The Fathomking's chamberlain takes the Sporule from you, and carries it to him on a salver of verdigrised bronze. The Fathomking accepts the gift, and abruptly drops it into the throne-pool. It disappears into the churn of the King's under-regions. The King sits upright, blinking.
+<br/><br/>
+"My," he says. "The saucy old creature. Perhaps I should not share this story with my Bride. A very satisfactory service, Captain! I will have you sent certain leaves from my library. And you have fulfilled my request..."
+
+		ParentEvent
+Name: 
+Id: 176515
+Description: 
+
+
+
+	ChildBranches 14
+Name: Present the Fathomking with a Box of Sunlight
+Id: 144175
+Description: It's what he asked for.
+
+		DefaultEvent
+Name: With utmost care
+Id: 176806
+Description: The Fathomking's chamberlain pulls on a pair of squid-leather gloves and takes the Box from you. He does not approach the Fathomking: he takes it directly to a slit at the side of the room.
+<br/><br/>
+"Satisfactory," the Fathomking says swiftly. "As to your payment. There are optical techniques lost to the upper sea: but now you will learn them..."
+
+		ParentEvent
+Name: 
+Id: 176515
+Description: 
+
+
+
+	ChildBranches 15
+Name: Present the Fathomking with a Mountain-sherd
+Id: 144176
+Description: There is something celestial about that light. Will it suffice?
+
+		DefaultEvent
+Name: "Ahhhh..."
+Id: 176807
+Description: The Fathomking requests a pair of squid-leather gloves from his chamberlain before he accepts the gem. He turns it over and over in his gloved hands. The light stitches shadows across the hollows of his face.
+<br/><br/>
+"The God called Stone," he says. "My sister by marriage. Of all of us, she is the best. Thank you. This isn't what I would have chosen, but it's a pleasant surprise, and the request is fulfilled. I will share certain secrets of optics with you. And - chamberlain! Give this generous captain enough pearls to fill their cupped hands."
+
+		ParentEvent
+Name: 
+Id: 176515
+Description: 
+
+
+
+	ChildBranches 16
+Name: Give the Fathomking an Element of Dawn
+Id: 144177
+Description: How will he react? Is it the sky-light he's seeking?
+
+		DefaultEvent
+Name: "Sss..."
+Id: 176808
+Description: The King reaches for it, seems to catch himself, draws back. All around the room, the thorned guards rustle. 
+<br/><br/>
+"Interesting," he says thickly. "Yes. Yes, that will suffice. Chamberlain. Put it in the Deep. Give our brave Captain here the notes on the alternate optics..."
+
+		ParentEvent
+Name: 
+Id: 176515
+Description: 
+
+
+
+	ChildBranches 17
+Name: Speak of other matters
+Id: 144398
+Description: The sea presses. The darkness seeps. Move on.
+
+		DefaultEvent
+Name: 
+Id: 177216
+Description: 
+
+		ParentEvent
+Name: 
+Id: 176515
+Description: 
+
+
+
+	ChildBranches 18
+Name: The Fathomking's Key
+Id: 144430
+Description: Finally, the Fathomking beckons you closer. "You have done everything I asked. So few people do, you know. You are an exception, and so I shall make an exception for you." You bend to place your ear by his mouth.
+
+		DefaultEvent
+Name: The reek of the drowned
+Id: 177270
+Description: The Fathomking stinks of salt and rotting flesh, but also of something electric, ozone, alien. His breath is cold. He whispers in your ear, and he presses something into the palm of your hand.
+<br/><br/>
+"Go now. Good luck." He smiles thinly. "Perhaps one day your child will stand before me and ask the same questions."
+
+		ParentEvent
+Name: 
+Id: 176515
+Description: 
+
+
+
+	ChildBranches 19
+Name: Ask about the Bone Men and their lost treasure
+Id: 145317
+Description: Does the King have it safe?
+
+		DefaultEvent
+Name: "Yes."
+Id: 178717
+Description: He crooks a finger, and a Drownie-child brings forward a pale bone on a mouldering cushion. "Most mortals come to this, some day," the King remarks. "I will not, of course. Perhaps you will not... but you'll learn more of that from the Bone Men." He flicks his finger again, and the child retreats.<br/><br/>
+[You can review the Fathomking's requests in the Curiosities section of your Gazetteer.]
+
+		ParentEvent
+Name: 
+Id: 176515
+Description: 
+
+
+
+	ChildBranches 20
+Name: Who was 'Mr Voluminous'?
+Id: 145318
+Description: Why was the Fathomking sending parcels to him?
+
+		DefaultEvent
+Name: "Come now."
+Id: 178718
+Description: "I will give you the address you need, for the small consideration we discussed. But I won't share personal information so easily. I have my business with the Masters of the Bazaar. It's not always a pleasant business." He shrugs. There are ripples. "One has one's duties."<br/><br/>
+[You can review the Fathomking's requests in the Curiosities section of your Gazetteer.]
+
+		ParentEvent
+Name: 
+Id: 176515
+Description: 
+
+
+
+	ChildBranches 21
+Name: Why did the Fathomking give your father a knife?
+Id: 145319
+Description: What was he doing at Kingeater's Castle?
+
+		DefaultEvent
+Name: "Your father had his reasons."
+Id: 178719
+Description: "''The heart is destiny's engine', they used to say in Irem. Your father knew that. He wanted to free himself of his destiny." The King yawns. "He paid me for my help. He failed, and so you are here. Perhaps one day your son, your daughter, will stand before me and ask where your bones lie. Or perhaps they'll ask me for a knife."<br/><br/>
+[You can review the Fathomking's requests in the Curiosities section of your Gazetteer.]
+
+		ParentEvent
+Name: 
+Id: 176515
+Description: 
+
+
+
+	ChildBranches 22
+Name: What happened to your father's name?
+Id: 145320
+Description: Who broke the rock?
+
+		DefaultEvent
+Name: "Strategies, strategies."
+Id: 178720
+Description: "It was the Bishop of St Fiacre who sent you there, was it not? Perhaps he broke it himself. He's a wily one. Perhaps it was a roof-lorn rock. Perhaps a - "
+<br/><br/>
+He chuckles. "Sorry. An old bad habit. I enjoy being mysterious as much as the next half-human Power, but honestly, I have no idea what broke it. I do know where the shard lies, though. Pay my price, and I'll tell you."<br/><br/>
+[You can review the Fathomking's requests in the Curiosities section of your Gazetteer.]
+
+		ParentEvent
+Name: 
+Id: 176515
+Description: 
+
+
+
+	ChildBranches 23
+Name: All this for the name of a mask?
+Id: 145321
+Description: It's a high price!
+
+		DefaultEvent
+Name: "There's more here than you know."
+Id: 178721
+Description: "Visage is a nexus of competing powers. The Masters. The Snuffers. And now the Widow. I will help you unpick the web - oh yes - but I will move carefully."
+<br/><br/>
+He leans back. "Besides, I don't get nearly enough fruit down here."<br/><br/>
+[You can review the Fathomking's requests in the Curiosities section of your Gazetteer.]
+
+		ParentEvent
+Name: 
+Id: 176515
+Description: 
+
+
+
+	ChildBranches 24
+Name: Offer the Fathomking the Icarus in Black
+Id: 146144
+Description: "Your Complexity. I present the Icarus in Black: a gun that fires monster-hunters."
+<br/><br/>
+There is a long silence after you've spoken. One of the King's more monstrous courtiers hisses softly.
+
+		DefaultEvent
+Name: "We do not like it."
+Id: 180174
+Description: "Perhaps the Chelonate would find it more to their taste. But we do not like it <i>at all</i>. Perhaps you should change the subject.
+
+		ParentEvent
+Name: 
+Id: 176515
+Description: 
+
+
+
+	ChildBranches 25
+Name: Present the Fathomking with your Fulgent Impeller
+Id: 146720
+Description: "Your Complexity. This device employs the principles of the Stone Pigs, the symbiotes of the Bazaar itself."
+
+		DefaultEvent
+Name: "Most acceptable!"
+Id: 181146
+Description: "The Bazaar and I are family, after a fashion. Did you know that? Nevertheless, she is chary with her secrets. You have earned my gratitude."
+<br/><br/>
+At his gesture, a Drownie child walks forward, bare feet slapping on rock, to present you with a knife of coral. (The chamberlain, meanwhile, kindly arranges to replace your engine with a spare from a ship they had 'recently eaten'.)
+
+		ParentEvent
+Name: 
+Id: 176515
+Description:

@@ -1,0 +1,64 @@
+(523)
+Name: Your Father's Bones: a Stone in Avid Horizon
+Id: 176413
+Description: Traitors, murderers, counterfeiters of Echoes, and worse - all have inscribed their names here on the pier of the dock, to memorialise their remorse and plead the Empress' mercy. Where is your father's name? What was his crime?
+
+
+	ChildBranches 1
+Name: The Grave of the Stone
+Id: 143893
+Description: "Four yards west," you murmur, "and six south. Beneath the jaws of the phosphor-eel." You open your eyes. You are standing at the edge of the dock, in the place the Fathomking told you. You dare not hesitate: you dive straight into the zee, and the waters close over your head.
+
+		DefaultEvent
+Name: The Jaws of the Eel
+Id: 176414
+Description: Your oiled garments offer a little protection, but the cold is stunning. Your breath bursts from you in a spray of bubbles. You have only moments - and it's so dark! How can you find a stone fragment, here under the black water?
+<br/><br/>
+The Fathomking is leagues away, but he is the lord of all things lost at zee. His directions were preternaturally precise. The eyes and jaws of the eel glimmer brightly through the blackness where it lairs at the foot of another dock-pier. It draws its head back, as if in homage. In its greenish glow, you glimpse a flake of stone carved with letters. You seize it and strike out desperately for the surface.
+<br/><br/>
+Your crew have fires burning on the dock. They strip off your sea-soaked clothing and wrap you, shivering desperately, in warm furs. Your fist is closed tight around the flake of stone: a thread of blood leaks. At last you prise your fingers open. You read the remainder of your father's name, and the words: SERVED THE CHAPEL OF LIGHTS.
+<br/><br/>
+[The Chapel of Lights is not far to the south. Go there to end this.]
+
+		ParentEvent
+Name: 
+Id: 176413
+Description: 
+
+
+
+	ChildBranches 2
+Name: Find the name
+Id: 143898
+Description: The Bishop assured you that your father's name is inscribed on the confessional list on a dock-pier here. His name; and his crime; and, somehow thereby, the location of his bones.
+
+		DefaultEvent
+Name: Half a name!
+Id: 176420
+Description: Your father's first name - "ELIAS". He's the only Elias here. But the rest of the name has been smashed away, with one clean blow of a chisel. The rest is only pale scarred rock.
+<br/><br/>
+From far across the freezing sea, the Bishop's words return to you: "...the Fathomking has been given authority over all things lost at sea. If you need more assistance, ask him."
+<br/><br/>
+What did he know? What secret strategies operate here? [You'll need to find the Fathomking's Hold, somewhere in the south of the zee, to learn more.]
+
+		ParentEvent
+Name: 
+Id: 176413
+Description: 
+
+
+
+	ChildBranches 3
+Name: A scarred stone
+Id: 145314
+Description: Your father's first name - "ELIAS". He's the only Elias here. But the rest of the name has been smashed away, with one clean blow of a chisel. The rest is only pale scarred rock.
+
+		DefaultEvent
+Name: 
+Id: 178714
+Description: [Find the Fathomking's Hold, somewhere in the south or central Unterzee, to continue.]
+
+		ParentEvent
+Name: 
+Id: 176413
+Description:

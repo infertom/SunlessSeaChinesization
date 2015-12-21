@@ -1,0 +1,19 @@
+(487)
+Name: A Message for Zaira
+Id: 169510
+Description: "How is the Venturer? Still a Rubbery Man? He isn't? Are you quite sure?" The Lady of the Cages rubs her cheek. "Maybe that part comes later. I shall have to make a note."
+
+	ChildBranches 1
+Name: Hand her the medallion
+Id: 139651
+Description: "Urchins? Again? I'll tell the Sisters to prepare the baths."
+
+		DefaultEvent
+Name: 
+Id: 169511
+Description: "I'll have a reward sent to your ship. Don't worry, I asked the Sisters to pick - I can't seem to remember what's edible and what isn't these days." Zaira gives a sudden start, and demands, "Can you fry wine in batter? I don't see why not!" She stalks hurriedly out of the room, muttering about asking the Abbess. 
+
+		ParentEvent
+Name: 
+Id: 169510
+Description:

@@ -1,0 +1,41 @@
+(403)
+Name: Memories Stewed in Honey
+Id: 168584
+Description: Your Patron offers the Pirate-King the wine-glass. The King takes a sip, and the prisoner cries out as though his skin is being flayed from his bones. "The spice-scented docks of Malacca," Leopold breathes, before he is plucked away by the honey.<br><br>
+He returns hours later, skin flushed and eyes bright. "I am very partial to memories of the Far East. Very thoughtful of you."<br><br>
+He bestows a humming, honey-soaked kiss on Isery's lips, and then Zaira's, before holding out the vial to you.
+
+	ChildBranches 1
+Name: Take a sip
+Id: 139088
+Description: The prisoner gazes at the ceiling blankly, with no sign of his earlier distress. 
+
+		DefaultEvent
+Name: 
+Id: 168585
+Description: Each luscious drop coats your tongue like fire and longing. Someone screams, but it feels far away. You are consumed with the touch of a woman's hand in yours. You-in-the-memory turn your face to the right and there she is: Kembang. 
+<br><br>You met her three weeks ago serving drinks by the docks. Her father threatened to break your legs if you so much as looked at her, but you cannot help yourself. Her hands are softer than anything you have ever imagined, and dappled in warm sunlight. The curve of her smile slices into you like a blade - <br><br>
+You come back to yourself in a sudden rush. You are lying on the floor alone, your face wet with stolen tears. On the desk: a Key to the Cage Gardens, which you slip into your pocket, and a gold statuette of a tiger, with eyes of polished ruby. Something about the statuette makes you decidedly uneasy. Still, it will probably sell for a good price.
+
+		ParentEvent
+Name: 
+Id: 168584
+Description: 
+
+
+
+	ChildBranches 2
+Name: Decline the taste
+Id: 139089
+Description: You just want your reward. And, possibly, to get away from the grim sight of the prisoner rattling his shackles in the corner.
+
+		DefaultEvent
+Name: 
+Id: 168586
+Description: "Perhaps some mushroom wine instead? I sometimes wish I had never drunk of the rose's honey. It is one thing to know that you are damned, and another to feel it, in the very marrow and blood." Leopold grimaces. "For me it was not - altogether - a choice."<br><br>
+He take the brooch of amber cat's eyes and replaces it with a little silver key strung on a chain. "A Key to the Cage-Gardens. A sign of my trust." He then presses a gold statuette of a tiger into your hands. It has eyes of polished ruby; it makes you decidedly uneasy to look into them. Still. It'll fetch a good price. "You are always welcome in Port Cavendish, my friend. We are a haven for all those who are free."
+
+		ParentEvent
+Name: 
+Id: 168584
+Description:

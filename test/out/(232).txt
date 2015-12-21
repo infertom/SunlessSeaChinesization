@@ -1,0 +1,177 @@
+(232)
+Name: A New Recruit
+Id: 154278
+Description: Someone wants to sign on. [On later visits, different officers will sometimes be available. If there's more than one choice, you can choose one per visit.]
+
+	ChildBranches 1
+Name: Engage an Officer: the Brisk Campaigner
+Id: 123074
+Description: "Hoi, you! You need a real physician. None of your surgeons." [The Brisk Campaigner is a skilled Doctor who increases Hearts and Iron.]
+
+		DefaultEvent
+Name: Welcome aboard!
+Id: 141883
+Description: "Hm. Don't you have anywhere cleaner? Well, if I must do it myself. Where can I find a mop?" [Appoint your new Officer by dragging her from the Officers tab to her slot at the top of the screen. Do this in port, not at sea, or you may unsettle your crew.]
+
+		ParentEvent
+Name: 
+Id: 154278
+Description: 
+
+
+
+	ChildBranches 2
+Name: Engage an Officer: the Haunted Doctor
+Id: 123075
+Description: "Please. I must leave this place. I can work my passage. I'm a doctor." [The Haunted Doctor increases Hearts and Pages.]
+
+		DefaultEvent
+Name: Welcome aboard!
+Id: 141884
+Description: "Thank you. This is mine? It'll do very nicely. Excuse me; I will just turn up the oil lamp a touch. I dislike the dark..." [Appoint your new Officer by dragging him from the Officers tab to his slot at the top of the screen. Do this in port, not at sea, or you may unsettle your crew.]
+
+		ParentEvent
+Name: 
+Id: 154278
+Description: 
+
+
+
+	ChildBranches 3
+Name: Engage an Officer: the Genial Magician
+Id: 126575
+Description: "Good afternoon, [q:Addressed As]! Perhaps I can do your engines some good. No, ha ha, I'm quite the engineer. Difficult to credit, isn't it? But here are my references." [The Genial Magician increases Veils and Mirrors.]
+
+		DefaultEvent
+Name: Welcome aboard!
+Id: 147235
+Description: "I'll get to work below. Perhaps I should change out of this jacket first, of course." [Appoint your new Officer by dragging him from the Officers tab to his slot at the top of the screen. Do this in port, not at sea, or you may unsettle your crew.]
+
+		ParentEvent
+Name: 
+Id: 154278
+Description: 
+
+
+
+	ChildBranches 4
+Name: Engage an Officer: the Presbyterate Adventuress
+Id: 126591
+Description: "Afternoon, [q:Addressed As]. Looking for a gunnery officer? I'd like to help you blow up some monsters, if you'll have me." [The Adventuress is a Gunnery Officer who increases Iron and Veils.]
+
+		DefaultEvent
+Name: Welcome aboard!
+Id: 147267
+Description: "Oh, hello, captain. Is this one of yours? I had to knock her about a bit. She didn't like taking orders from foreigners. Still, we're good friends now." The Adventuress claps the black-eyed sailor on the back. Oddly enough, they <i>do</i> seem to be friends now.
+[Appoint your new Officer by dragging her from the Officers tab to her slot at the top of the screen. Do this in port, not at sea, or you may unsettle your crew.]
+
+		ParentEvent
+Name: 
+Id: 154278
+Description: 
+
+
+
+	ChildBranches 5
+Name: Engage an Officer: the Tireless Mechanic
+Id: 126593
+Description: The Tireless Mechanic has had enough of Frostfound. He smiles at you over his spectacles, teeth chattering. "Brrr. So glad to see a ship at last. Ready to offer my services. I'm an engineer. Finest you'll ever hire. Treat engines like my own children. Not that I have children. Too busy. Usually busy." [The Tireless Mechanic increases Veils and Fuel Efficiency.]
+
+		DefaultEvent
+Name: Welcome aboard!
+Id: 147269
+Description: "Spot of rust, spot of rust. Soon see to that. You there! Help me with this spot of rust."[Appoint your new Officer by dragging him from the Officers tab to his slot at the top of the screen. Do this in port, not at sea, or you may unsettle your crew.]
+
+		ParentEvent
+Name: 
+Id: 154278
+Description: 
+
+
+
+	ChildBranches 6
+Name: Engage an Officer: the Carnelian Exile 
+Id: 126594
+Description: "[q:Addressed As]. I know the way. Let me show you."
+[The Exile is a First Officer who increases Mirrors and Pages.]
+
+		DefaultEvent
+Name: Welcome aboard!
+Id: 147270
+Description: "Here I am. A ship, I suppose, is both always here, and never there, because there becomes here."
+[Appoint your new Officer by dragging her from the Officers tab to her slot at the top of the screen. Do this in port, not at sea, or you may unsettle your crew.]
+
+		ParentEvent
+Name: 
+Id: 154278
+Description: 
+
+
+
+	ChildBranches 7
+Name: Engage an Officer: Maybe's Daughter
+Id: 126595
+Description: At the end of the rotting dock, a woman perches on a suitcase. Both she and the suitcase are noticeably cleaner than everything else in view. 
+<br/><br/>
+"Hello! Where are you headed? On second thoughts, I don't mind. Can I come aboard? Yes, I'm an engineer, but I'm an engineer in a hurry." [Maybe's Daughter is an Engineer who increases Veils, Iron and Engine Power.]
+
+		DefaultEvent
+Name: Welcome aboard!
+Id: 147271
+Description: "If anyone comes looking for me, well, I'm not accepting callers. Can I trust you to pass that on? You don't want them distracting me from my duties." [Appoint your new Officer by dragging her from the Officers tab to her slot at the top of the screen. Do this in port, not at sea, or you may unsettle your crew.]
+
+		ParentEvent
+Name: 
+Id: 154278
+Description: 
+
+
+
+	ChildBranches 8
+Name: Engage an Officer: the Irrepressible Cannoneer
+Id: 126601
+Description: "[q:Addressed As]! Are you looking for a gunner? I'm looking for a ship! Here are my references!! Here are more references!! Here's my design for a whistling shell!! Here's my colleague!! (He'll stay on shore.) Here's my hand!!! Will you take it?" [The Cannoneer is a Gunnery Officer who substantially increases Iron.]
+
+		DefaultEvent
+Name: Welcome aboard!!
+Id: 147280
+Description: "Oh, this is interesting. Room for improvement! There's always room for improvement. Wait: let me make notes. Paper!!" [Appoint your new Officer by dragging them from the Officers tab to his slot at the top of the screen. Do this in port, not at sea, or you may unsettle your crew.]
+
+		ParentEvent
+Name: 
+Id: 154278
+Description: 
+
+
+
+	ChildBranches 9
+Name: Engage an Officer: the Sigil-Ridden Navigator.
+Id: 126630
+Description: "I... let me guide your ship. I know all the zee, how it was, how it will be. Please. I... the headaches only stop when I'm working." [The Navigator is a First Officer who increases Mirrors and Veils.]
+
+		DefaultEvent
+Name: Welcome aboard!
+Id: 147320
+Description: "Thank you. Ah, my God, the air, the air. It's clearer already. Let me chart a course for you. (Ah, my head. My head.)" [Appoint your new Officer by dragging him from the Officers tab to his slot at the top of the screen. Do this in port, not at sea, or you may unsettle your crew.]
+
+		ParentEvent
+Name: 
+Id: 154278
+Description: 
+
+
+
+	ChildBranches 10
+Name: Engage a Zailor
+Id: 131053
+Description: What desperate desire has led this one to sign on? Who cares? They're very keen. Consequently, they're cheap. [This will simply increase your Crew by one.]
+
+		DefaultEvent
+Name: A new face
+Id: 154279
+Description: They come, they go. May this one live a little longer than most.
+
+		ParentEvent
+Name: 
+Id: 154278
+Description:

@@ -1,0 +1,43 @@
+(493)
+Name: Isery's disappointment
+Id: 168562
+Description: Isery is waiting on the docks when you next arrive at Port Cavendish. Behind them are a pair of courtesans with arms folded forbiddingly. It appears they know that you have returned empty-handed. 
+<br><br>"I hoped, I really did, that you wouldn't place me in this awkward predicament." Isery clasps their claw-jewelled hands to their delicately featured face. "I do so dislike having to make examples of people. It's so <i>messy</i>."
+
+	ChildBranches 1
+Name: You offer compensation
+Id: 139075
+Description: You name a price, and then keep raising it until Isery gives a small nod.
+
+		DefaultEvent
+Name: 
+Id: 168563
+Description: "It was never about the <i>Echoes</i>, you know," they say, as you hand over the vast sum. "You cannot simply repay yourself back into my favour. I'm done with you, dear captain. For good."
+
+		ParentEvent
+Name: 
+Id: 168562
+Description: 
+
+
+
+	ChildBranches 2
+Name: Fight your way out
+Id: 139076
+Description: You have your crew with you, and you doubt the courtesans will prove a particular challenge.
+
+		DefaultEvent
+Name: 
+Id: 168564
+Description: You are, regrettably, mistaken. The courtesans are corded with muscle under their gauzy silks, and slit the throats of two of your crew as an opening gambit. The rest of the crew - quite wisely - cowers back. You drag your eyes from the corpses just in time to see Isery very calmly claw you across the face. You dream shivering dreams of claws of enamel and bone for several nights after, and count yourself lucky.
+
+		ParentEvent
+Name: 
+Id: 168562
+Description: 
+
+		SuccessEvent
+Name: 
+Id: 168565
+Description: The courtesans are corded with muscle under their gauzy silks, but your crew is determined. One of them falls with a dagger embedded in their eye, and you barely avoid a slash from Isery's jewelled claw. Ten gruesome minutes later, the courtesans are dead and Isery holds up their hands. <br><br>
+"Oh, all right, all right. You've made your point." Their look of vague bemusement sharpens. "We shall call it even. I am done with you." They walk away, leaving you sweat-soaked and fatigued on the docks.

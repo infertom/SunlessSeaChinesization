@@ -1,0 +1,137 @@
+(142)
+Name: The Trouble with Tomb-Colonists
+Id: 169785
+Description: You've brought this decaying emigrant north. Now what?
+
+	ChildBranches 1
+Name: Watch carefully
+Id: 139821
+Description: Something is happening to the man in the bandages. He sighs. He groans. He clutches his chest.
+
+		DefaultEvent
+Name: A soft explosion
+Id: 169786
+Description: His bandages burst! Frost-moths clamber from the tatters. Nothing of him remains. The frost-moths - icy wings shining - take to the air, spiral, dissipate, are gone.
+<br/><br/>
+He won't pay his passage now. At least he's left his belongings for sale.
+
+		ParentEvent
+Name: 
+Id: 169785
+Description: 
+
+
+
+	ChildBranches 2
+Name: Make no promise of discretion
+Id: 139829
+Description: Keep your nose clean. You'll drop her off at the dock, as you promised, and after that, it's her problem.
+
+		DefaultEvent
+Name: Exposure
+Id: 169810
+Description: She grumbles and struggles, but you force her ashore. The bandaged figures on the dock watch the proceedings with interest. She doesn't pass the Skin-Check. Her possesions are forfeited: half of them fall due to you. "You'll be sorry!" she yells as the tomb-colonists drag her away.
+
+		ParentEvent
+Name: 
+Id: 169785
+Description: 
+
+
+
+	ChildBranches 3
+Name: Days of Shrooms and Roses
+Id: 139904
+Description: The new tomb-colonist surveys Venderbight, shaking her head. "It won't do," she says. "It won't do at all."
+
+		DefaultEvent
+Name: A plan!
+Id: 169934
+Description: "I had no idea the place would be quite so unprepossessing. Perhaps we can liven it up a little, yet. If only I knew a helpful zee-captain..."
+<br/><br/>
+[Bring ten units of Mushroom Wine to Venderbight, and perhaps they'll have something for you.]
+
+		ParentEvent
+Name: 
+Id: 169785
+Description: 
+
+
+
+	ChildBranches 4
+Name: The New Jonah
+Id: 139906
+Description: Your passenger stands sombrely by the rail. "Salt sent me a dream," she insists. "You must find my father."
+
+
+		DefaultEvent
+Name: A fisherman's tale
+Id: 169936
+Description: "Salt tells me that you'll find my father in the belly of a monstrous eel. Gods never lie."
+<br/><br/>
+Gods never lie? That seems optimistic. But if she's right, she'll reward you for her father's return.
+
+		ParentEvent
+Name: 
+Id: 169785
+Description: 
+
+
+
+	ChildBranches 5
+Name: An Absent Friend
+Id: 139907
+Description: "It is everything I imagined!" he tells you breathlessly. "But there's someone missing. Please - bring her to me."
+
+		DefaultEvent
+Name: A vague commission
+Id: 169937
+Description: "She went off to the Mangrove College. She needed to get out of London. But Venderbight is just as safe as the College. And I'll wager she's bored of mud by now."
+<br/><br/>
+[Look for the Shady Sort in the Mangrove College, somewhere in the south of the Unterzee.]
+
+		ParentEvent
+Name: 
+Id: 169785
+Description: 
+
+
+
+	ChildBranches 6
+Name: Help out an immigrant
+Id: 141558
+Description: Your tomb-colonist passenger yanks off her bandages. She looks remarkably healthy for a tomb-colonist. "I'm not as dead as I look," she confesses. "And I won't get ashore without your help. Yes, the Constables are looking for me back home. Is that a problem?"
+
+		DefaultEvent
+Name: Muffled oars
+Id: 172697
+Description: You slip your furtive passenger past the Skin-Check Post and the Confirmation of Consolation. "Thanks, cap'n," she remarks casually. "Let me teach you a couple of tricks. Just in case you do this again. And here's a little hush-money."
+
+		ParentEvent
+Name: 
+Id: 169785
+Description: 
+
+
+
+	ChildBranches 7
+Name: One Last Fight
+Id: 139905
+Description: Your passenger has been drinking. "Ahoy!" she chortles. "Defend yourself!" She launches a tipsy assault. Your crew hang back, chuckling. Thanks, crew.
+
+		DefaultEvent
+Name: A defeat!
+Id: 169935
+Description: Drunk as she is, her skills are formidable. "I was carving men up," she informs you, "when you were still in the cradle." She flips your weapon over the side, embraces you, and staggers off down the gang-plank, gone for good. Your pride is hurt, and your ribs and head ache abominably. All these things are valuable lessons.
+
+		ParentEvent
+Name: 
+Id: 169785
+Description: 
+
+		SuccessEvent
+Name: An effortless defence
+Id: 172545
+Description: Tomb-colonists have a life-time of bitter experience. Some of them are the deadliest combatants under the earth. Possibly this one is, when she hasn't drunk quite so much rum. You'll never know. She salutes you, laughing, after you disarm her. "Good fight!" she opines. Then she staggers backwards and falls over the side.
+<br/><br/>
+You never do find what happened to her. But at least you have her rather magnificent cavalry sabre, and her belongings.

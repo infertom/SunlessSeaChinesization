@@ -1,0 +1,19 @@
+(133)
+Name: Warm and wary congratulations
+Id: 166273
+Description: "Welcome home! You may ask how it is I am here to meet you, and I may remark that we have eyes in the Wastes and eyes in the Hill. In fact we have more eyes than a knot-oracle, and they're all glad to see you. And, of course, your cargo."
+
+	ChildBranches 1
+Name: Hand over the cargo
+Id: 137711
+Description: and claim your payment.
+
+		DefaultEvent
+Name: "Oh, very good, very good."
+Id: 166274
+Description: "Please accept this small token of my thanks and please also accept my thanks. I understand the Customs Men 'ave 'ad their sticky 'ands on this crate? But you've paid the duty which I think is eccentric of you but to each their own and you are an individual of honour, are you not. My employer is not short of honour either, so if you take a turn about the burnt-out warehouse at the end there you might find a little pile of crates containing items of interest."
+
+		ParentEvent
+Name: 
+Id: 166273
+Description:

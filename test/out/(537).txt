@@ -1,0 +1,97 @@
+(537)
+Name: Exploring the Shattered Citadel
+Id: 155227
+Description: All the Neath is dark. The Citadel is dark as only a once-bright place can be. It hung up there among the false-stars, drowned in azure light, for... how long? Now it's here. So are you. [Very bad things will happen if you run out of candles.]
+
+	ChildBranches 1
+Name: Fumble in the dark
+Id: 131684
+Description: Somewhere - somewhere here is the way out. The darkness presses against you. Its breath is hot on your neck.
+
+		DefaultEvent
+Name: Someone screams
+Id: 155230
+Description: Was it you? Onwards. Quickly. Perhaps you can still make it out.
+
+		ParentEvent
+Name: 
+Id: 155227
+Description: 
+
+
+
+	ChildBranches 2
+Name: Leave
+Id: 131694
+Description: Here's the wall-crack that leads to the monastery-cellar.
+
+		DefaultEvent
+Name: A cheer!
+Id: 155249
+Description: Money changes hand between monks as you emerge, blinking, into the light of their lamps. It is their custom to make bets on the fate of travellers who enter the Citadel. Not all of them are cheering.
+
+		ParentEvent
+Name: 
+Id: 155227
+Description: 
+
+
+
+	ChildBranches 3
+Name: Silence
+Id: 132484
+Description: No one is left. Who is even reading this?
+
+		DefaultEvent
+Name: 
+Id: 156527
+Description: 
+
+		ParentEvent
+Name: 
+Id: 155227
+Description: 
+
+
+
+	ChildBranches 4
+Name: Go deeper
+Id: 131682
+Description: The Citadel lies on its side. All its halls and tunnels tilt crazily. Edge your way through, like an ant through a broken puzzle-box.
+
+		DefaultEvent
+Name: Wait - 
+Id: 155228
+Description: Go back. This isn't where you meant to be. You've gone no deeper, but what's this?
+
+		ParentEvent
+Name: 
+Id: 155227
+Description: 
+
+		SuccessEvent
+Name: Onwards!
+Id: 155905
+Description: You've found your way deeper into the Citadel...
+
+
+
+	ChildBranches 5
+Name: Retrace your steps
+Id: 131683
+Description: Back - out? Up? Before? Very quickly, directions in here become impossible.
+
+		DefaultEvent
+Name: A detour
+Id: 155229
+Description: You're going the right way - but you've taken a turn you didn't intend. Where are you?
+
+		ParentEvent
+Name: 
+Id: 155227
+Description: 
+
+		SuccessEvent
+Name: Closer to safety
+Id: 155907
+Description: There you go. Familiar footsteps in the dust.

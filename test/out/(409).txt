@@ -1,0 +1,63 @@
+(409)
+Name: Your Father's Bones: the Bone Men
+Id: 176399
+Description: The Bone Men are the priests who guard the Chelonites' relics. The urchin Slivvy said they keep your father's bones. But why?
+
+	ChildBranches 1
+Name: Hand over the Stolen Bone
+Id: 143884
+Description: The Bone Men nod and mutter. They poke the bone with their long-nailed fingers, sniff, taste. "YES," says the one with the missing hand. "WE HAVE MISSED YOU." The tallest nods to you, and squeezes into a crack in the Shell.
+
+		DefaultEvent
+Name: A bag of bones
+Id: 176400
+Description: The Bone Man squeezes out, grunting, his white clay coating tracked with sweat. He holds a clattering leather sack crammed with - not human bones. Things like great beams of ivory timber. A jaw crowded with savage teeth the size of fingers.
+<br/><br/>
+The Bone Man frowns at you. "SURPRISED? YOU ARE NOT QUITE HUMAN EITHER, AS YOU MAY KNOW. BUT YOUR FATHER WAS AN AUTHENTIC MONSTER."
+<br/><br/>
+You never knew your parents. There was a joke at the Orphanage that you were found on the beach like a stranded fish.You fall to your knees, your blood pulsing with salt. The zee roars in your brain. At the edge of your vision, scaled shapes coil. The air turns red, then black, and then no colour at all.
+<br/><br/>
+By the time you wake, the Bone Men have dragged you out of their temple-tent and left you on the floor of the Shell. The bones of your father-monster are tucked into the curve of your arm. The zee is with you now, in a way you had never known before.
+<br/><br/>
+[Return to London, and bury your father, to win the game. No one but you will ever know what lies in the coffin.]
+
+		ParentEvent
+Name: 
+Id: 176399
+Description: 
+
+
+
+	ChildBranches 2
+Name: Safekeeping
+Id: 144449
+Description: This Bone Man snarls at you from behind a mask of white clay. "WE DO NOT LIGHTLY GIVE UP OUR TREASURES," he intones. "WHAT WILL YOU OFFER US?"
+
+		DefaultEvent
+Name: A stolen bone
+Id: 177299
+Description: You dicker and argue for hours. The Bone Men won't accept secrets, money, or even hunting-relics. "BUT" - one says at last - "BUT IF THE FATHOMKING WILL RETURN WHAT HE HAS STOLEN, THEN WE WILL RELINQUISH YOUR FATHER. ONLY THEN."
+<br/><br/>
+[Travel to the Fathomking's Hold to pursue this quest further.]
+
+		ParentEvent
+Name: 
+Id: 176399
+Description: 
+
+
+
+	ChildBranches 3
+Name: The Bone Men are obdurate
+Id: 145316
+Description: "IF THE FATHOMKING WILL RETURN WHAT HE HAS STOLEN, THEN WE WILL RELINQUISH YOUR FATHER. ONLY THEN."
+
+		DefaultEvent
+Name: 
+Id: 178716
+Description: [Find the Fathomking's Hold, somewhere in the south or central Unterzee, to continue.]
+
+		ParentEvent
+Name: 
+Id: 176399
+Description:

@@ -1,0 +1,45 @@
+(26)
+Name: Restless nights
+Id: 121899
+Description: In the watches of the night, you pad softly past the hatch to the crew quarters. A man cries out softly in his sleep, desperately. Another. 
+
+	ChildBranches 1
+Name: Ignore them
+Id: 110631
+Description: The captain can't be seen to take these things seriously.
+
+		DefaultEvent
+Name: Silence at the breakfast table
+Id: 121901
+Description: The crew is subdued as they take their meals. But all is quiet in the next watch.
+
+		ParentEvent
+Name: 
+Id: 121899
+Description: 
+
+
+
+	ChildBranches 2
+Name: Enquire about their dreams the next morning
+Id: 110630
+Description: What did they see?
+
+		DefaultEvent
+Name: "Eyes and a face..."
+Id: 121900
+Description: "The whole Neath lit up like a Snuffer-mask! There's something in the roof, Captain! It is the roof! It's watching us! Eyes and a face! Eyes and a face!"
+<br/><br/>
+You have him subdued. No discipline this time, but you require your First Officer to keep an eye on him.
+
+		ParentEvent
+Name: 
+Id: 121899
+Description: 
+
+		SuccessEvent
+Name: "Eyes and a face..."
+Id: 144607
+Description: "The whole Neath lit up like a Snuffer-mask! There's something in the roof, Captain! It is the roof! It's watching us! Eyes and a face! Eyes and a face!"
+<br/><br/>
+"Yes," you say softly. You lay your hand on the zailor's burning forehead. "There are storms in the roof. Hush. We won't join them yet."

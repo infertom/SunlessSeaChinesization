@@ -1,0 +1,116 @@
+(160)
+Name: The Mirror-Marches
+Id: 176846
+Description: Beneath the skin of dreams, behind the faces of mirrors, an orange sun sails in a fervid sky. Here are the borderlands of that place, close by Irem, and closest still to the House of the Amber Sky. And here you are, in another place. The sun is warm on your uncovered head.
+
+	ChildBranches 1
+Name: Rest, recover, dream
+Id: 144192
+Description: The jungle around you is rich with violently coloured fruit, buzzing with insects and unseen life. Explore a little.
+
+		DefaultEvent
+Name: A shattered tower
+Id: 176847
+Description: At the top of a low hill, a tower-stump stands. The masonry looks Iremi: the door is rotted, the space within filled with thorned vines. But cracked mirrors still hang on the walls, and in each one you see a different scene. Bright-eyed soldiers bind sharks in iron. Clay Men war with clothes-colonies in the streets of Polythreme. The Alarming Scholar cracks soul-tubes between his teeth. Truth, dream, or both?
+<br/><br/>
+You will wake in the House of the Amber Sky. Your clothes will be stained with the juice of crushed leaves.
+
+		ParentEvent
+Name: 
+Id: 176846
+Description: 
+
+
+
+	ChildBranches 2
+Name: Rest, recover, dream
+Id: 144203
+Description: The jungle around you is rich with violently coloured fruit, buzzing with insects and unseen life. There's the sound of running water, too. Follow it.
+
+		DefaultEvent
+Name: To the river
+Id: 176867
+Description: The water runs deep, sweet and wild. Impassive fish of unguessable age watch you from clear depths. You drink from cupped hands, and your weariness falls from you. Monkeys shriek hilariously. A leopard watches from the undergrowth, but makes no move to attack.
+<br/><br/>
+Afterwards, you pluck the flax that grows here. When you wake, later, you will find it already woven.
+
+		ParentEvent
+Name: 
+Id: 176846
+Description: 
+
+
+
+	ChildBranches 3
+Name: Retrieve a Serpent-Image
+Id: 144206
+Description: The jungle around you is rich with violently coloured fruit, buzzing with insects and unseen life. There's something nestled in the mossy crook of a grey-leafed tree. A wooden serpent, lacquered with black, red and yellow. Its eyes are garnet flakes. "Mind if I pick that up?" the Genial Magician asks. (Was he with you when you lay down to sleep?)
+
+		DefaultEvent
+Name: A weapon, perhaps
+Id: 176870
+Description: "Humans rule the waking world," he tells you, "more or less. And the Fingerkings rule most of this place. A long time ago, some rather careless people made these images to imprison Fingerkings. I'm not so careless. I can use it to enact my revenge on the 'king that took my hand." He is gloating. He actually strokes his moustache with his hook.
+<br/><br/>
+He retires to his cabin to investigate the serpent-image, but emerges a day later disappointed. "Different geometries," he explains obscurely. "Do you mind if we pop by the Khanate? I can find someone there to help me work this one out."
+[Visit the port of Khan's Heart to help the Magician further.]
+
+		ParentEvent
+Name: 
+Id: 176846
+Description: 
+
+
+
+	ChildBranches 4
+Name: Rarest fruit
+Id: 144208
+Description: In the farthest South, in the arms of the god called Stone, a garden blooms. In ages past, birds stole the seeds from that garden. One bird hid here, in the Mirror-Marches. Perhaps you know the story.
+
+		DefaultEvent
+Name: The eternal tree
+Id: 176873
+Description: This is the apple-tree which will never die. Should the forest fail and the river run to ash, still it will stand proudly. Take only one apple. Serpents are sleeping.
+
+		ParentEvent
+Name: 
+Id: 176846
+Description: 
+
+
+
+	ChildBranches 5
+Name: Rare fruit
+Id: 144306
+Description: Here in the Mirror-Marches, those who are wounded can sometimes find solace. Or so the ztory has it.
+
+		DefaultEvent
+Name: A dying tree
+Id: 177062
+Description: Solacefruit are parasites - delicious, poisonous parasites. These solacefruit made their home on a mahogany tree, from which they have assiduously sucked the life. The tree is a cracked remnant. The solacefruit bloom like dew.
+
+		ParentEvent
+Name: 
+Id: 176846
+Description: 
+
+
+
+	ChildBranches 6
+Name: Bargain for a Parabox
+Id: 144307
+Description: "Yes," the serpent says dreamily, "I go to meet the Skin of the Sun. I will die. The space I leave will remain in this box. I am dead here and I do not live in the world. You live in the world, and you are not dead here. It's impossible. But it will protect your kingdom from the worst of the sunlight, until you die."
+<br/><br/>
+His tongue flickers. "But I must drink your future first. I will not die thirsty."
+[This will halve all your skills, which must be at least 100. It will, however, give you an item which will allow you to colonise Aestival.]
+
+		DefaultEvent
+Name: A drunken future
+Id: 177063
+Description: The serpent is banded black, yellow, red, beautiful as a child's beads. Its fangs sting like snow. It hisses languorously as it drinks your mind, your strength, your wit, your desire, your sight. "So many things to take up the Spire," it breathes, when at last it withdraws. "Now the worst part."
+<br/><br/>
+When the worst part is over, you have what you came for. The Parabox. Inside, it is like any other box. You will never know that, for it cannot be opened.
+
+		ParentEvent
+Name: 
+Id: 176846
+Description:

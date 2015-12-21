@@ -1,0 +1,68 @@
+(292)
+Name: A Contretemps with Corsairs
+Id: 148821
+Description: Fights on the Mourn have a staccato quality. A careless lunge will send you plummeting to your doom. So wait, and choose your moment carefully.
+
+	ChildBranches 1
+Name: Unleash your Wretched Mog
+Id: 127652
+Description: Its fur is bristling. It's almost sparking. A sound like a dying storm rumbles in its throat.
+
+		DefaultEvent
+Name: A disappearance
+Id: 148824
+Description: Your Mog's fearless agility gives it a tremendous advantage. It leaps from pirate to pinnacle to pirate, leaving a trail of swiped eyes, bleeding scalps and multi-lingual curses. In confusion and terror, the enemy flees! ...but when the dust clears, the Mog, too, is nowhere to be found. Did it lose its footing? Or did it just decide the Mourn is more to its liking?
+
+		ParentEvent
+Name: 
+Id: 148821
+Description: 
+
+		SuccessEvent
+Name: A secret weapon!
+Id: 149340
+Description: Your Mog's fearless agility gives it a tremendous advantage. It leaps from pirate to pinnacle to pirate, leaving a trail of swiped eyes, bleeding scalps and multi-lingual curses. In confusion and terror, the enemy flees! The Mog returns to your shoulder, to lick your ear with a rasping tongue. Its breath smells like week-old cave-trout.
+
+
+
+	ChildBranches 2
+Name: Fight!
+Id: 127650
+Description: You're good at that.
+
+		DefaultEvent
+Name: A situation of considerable gravity
+Id: 148822
+Description: Knives glitter in the lamp-light. Shots ring out. Zailor after zailor goes spinning away into the dark. Withdraw if you can!
+
+		ParentEvent
+Name: 
+Id: 148821
+Description: 
+
+		SuccessEvent
+Name: Blood on the stone
+Id: 149341
+Description: You smash a wiry villain to the ground, trip over an incoming blade, leap to a neighbouring perch and send its occupant down the long, long way to the waters below. Your shipmates dispatch another two with well-flung rocks. The others flee, leaving one corpse for you to loot. Well, it's the law of the zee.
+
+
+
+	ChildBranches 3
+Name: Flee...
+Id: 127651
+Description: The better part of valour is discretion. The better part of discretion is not falling off a high cliff into a rock-fanged sea.
+
+		DefaultEvent
+Name: Not unscathed
+Id: 148823
+Description: One pulse-pounding chase through the shanties of Gaider's Mourn later, you finally evade pursuit. You count heads. One short.
+
+		ParentEvent
+Name: 
+Id: 148821
+Description: 
+
+		SuccessEvent
+Name: Away into the darkness
+Id: 149342
+Description: You plunge through a washing-line, clatter down an flight of unsteady wooden stairs, cut across the fish-market, and duck through a colonnade of faceless statues. Your pursuers are gaining on you until the statues... and then they drop back. Disconcerting. But they're gone.

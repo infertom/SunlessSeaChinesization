@@ -1,0 +1,95 @@
+(307)
+Name: Outcomes
+Id: 152326
+Description: You've given the Rattus Faber all the assistance you can. What next?
+
+	ChildBranches 1
+Name: Invite a Rattus Faber on board with you.
+Id: 129821
+Description: What's a ship without a few rats?
+
+		DefaultEvent
+Name: Welcome aboard.
+Id: 152327
+Description: The Chief Engineer can't leave his colony, but he relays your request to his people. The Albino rat you saw mending nets steps shyly forward.
+<br><br>
+"I'm good at fixing things," he says, earnestly, "and I'd like to see more of the world."
+<br><br>
+You wait for him to gather up some effects and say goodbye to his family before accompanying him on board.
+
+		ParentEvent
+Name: 
+Id: 152326
+Description: 
+
+
+
+	ChildBranches 2
+Name: The Wide Dark Zee
+Id: 129909
+Description: There's nothing left for you here, except the story of the place...
+
+		DefaultEvent
+Name: 
+Id: 152455
+Description: 
+
+		ParentEvent
+Name: 
+Id: 152326
+Description: 
+
+
+
+	ChildBranches 3
+Name: Intercede on behalf of the Cavies.
+Id: 129822
+Description: They've been defeated, and you can tell they've been ailing without the light of the Rat Star. Perhaps they've suffered enough?
+
+		DefaultEvent
+Name: A shake of the head. 
+Id: 152328
+Description: You appeal to the Chief Engineer's moral fortitude and sense of fair play. Perhaps the Cavies suffered the loss of the light from the centre of the island? Perhaps they were only trying to get it back, not steal it from the rats?
+<br><br>
+The Chief Engineer looks troubled, but shakes his head. "You fought one battle, Captain," he says, gravely. "We've fought hundreds against them. They're monsters, pure and simple, and the sooner we're rid of them, the better."
+<br><br>Rid of them? You see, by the light of the scintillack, a dozen rats using the steam-pinnace's supplies to build something that looks remarkably like a sausage-machine.
+
+		ParentEvent
+Name: 
+Id: 152326
+Description: 
+
+		SuccessEvent
+Name: A grudging concession.
+Id: 152330
+Description: You appeal to the Chief Engineer's moral fortitude and sense of fair play. Perhaps the Cavies suffered the loss of the light from the centre of the island? Perhaps they were only trying to get it back, not steal it from the rats?
+<br><br>
+The Chief Engineer looks troubled at the thought. "We only wanted to be left alone," he says. He looks towards the Seneschal, haphazardly bandaged among the rats' other prisoners. "...Perhaps further negotiation is possible."
+<br><br>
+As you leave, you see the Albino rat timidly offering a young Cavy prisoner a piece of fresh fish.
+
+
+
+	ChildBranches 4
+Name: Steal the Rat Star
+Id: 129823
+Description: Perhaps you think you deserve it as your due; perhaps it's what you wanted all along. In either case, it should be an easy enough matter to snatch it from under the rats' noses while they're busy herding their prisoners. 
+
+		DefaultEvent
+Name: "What are you DOING?"
+Id: 152329
+Description: The Chief Science Officer screams his anguished confusion loud enough to summon the Chief Engineer and Drill Sergeant both before you can tamp the Star's brilliance with a hastily tossed blanket. One clamps on to your leg, and the other bites your palm; you miss your toss, and are swiftly overcome by the anger of a dozen betrayed rats. 
+<br><br>
+It's all you can do to limp back into the ship and sail away before you suffer further, more permanent damage.
+
+		ParentEvent
+Name: 
+Id: 152326
+Description: 
+
+		SuccessEvent
+Name: Steadfast as thou aren't.
+Id: 152331
+Description: Perhaps it's because what you're doing is so inconceivable that the rats are slow to react. The Chief Science Officer is the only one attending to the Rat Star when you approach; a nod to your zailors and they seize him, muffling his shout of protest while you throw some heavy blankets over the Star's bowl. 
+<br><br>
+The rats scurry and wail in the dimness, but their vision's sufficiently impaired that their shouts and shots of protest are ineffective. You sail off with the Star; the Chief Science Officer will make an entertaining addition to some circus, no doubt.

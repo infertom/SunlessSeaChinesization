@@ -1,0 +1,26 @@
+(234)
+Name: Way Upstream
+Id: 171852
+Description: They say that only the captain of a living ship can dare the waters of Adam's Way. But they've never met you.
+
+	ChildBranches 1
+Name: The Mountain's Blood
+Id: 141032
+Description: Upstream, up the red river into the Continent's heart. With every mile, the red is deeper. Your ship groans like calving ice.
+
+		DefaultEvent
+Name: A brave end
+Id: 171853
+Description: Blue Prophets cry the names of those about to die. This morning, the name they cried was yours. At noon, your Chief Engineer begins to pace the deck, chanting in the tongues of the Elder Continent. He refuses to return below. At four o'clock by the ship's chronometer, the ship begins to speak to you. It apologises for what will happen next. Only you can hear it. At seven o'clock, the engine bursts like a heart. The hull shatters. You are lost in the tides of the Mountain's Blood, stained and avid. Your bones will grow in the muds of the river's shore.
+
+		ParentEvent
+Name: 
+Id: 171852
+Description: 
+
+		SuccessEvent
+Name: Forests unseen
+Id: 171878
+Description: In London, they never imagine what grows here. Orchards of bones. Iron upright as aspens. Flint pillars, fecund with faceted apples. Gemmed faces turn to watch you from the rock. Your crew are entranced. They begin to leave you, one by one, slipping ashore when you moor, or giving themselves to the river. You are almost alone when you arrive at Caution, that hundred-tongued city. Its flowers shine like fruited ice. The Pilgrim-Wakers condescend to meet with you. They give you gifts: an egg, and a knife. "Turn back," they tell you. "The Presbyter will not meet with you. You have not lived enough."
+<br/><br/>
+How right they were; how right they were. You stand at the docks of the port at the river's mouth, and look upon your empty ship, its scabbed sides, its paper-thin hull. In your left hand, you hold a knife; in your right, an egg.

@@ -1,0 +1,165 @@
+(276)
+Name: A Concert
+Id: 141265
+Description: As you prepare to go ashore, your First Officer salutes. "Captain! Four of the crew intend to perform a concert. On the zee-shore. You and I are both invited to attend."
+
+	ChildBranches 1
+Name: Attend
+Id: 122736
+Description: It'll be good for morale, and perhaps some of them can actually carry a tune.
+
+		DefaultEvent
+Name: Torches in the night
+Id: 141266
+Description: The Cook has converted pots into kettle-drums. The Quartermaster has improvised pan-pipes. That squint-eyed fellow from Shepherd's Wash has brought out an actual fiddle. They set up on a dark beach lit by torches on poles, and do eight folk-songs, a mischievous music-hall number called The Empress Likes Them Quiet, and an odd restless little tune like a caged cat. "My own composition," the Washman confides.
+<br/><br/>
+Honestly, they're not very good. They are unrehearsed and uneven, and the presence of something serpentine in the surf puts them off. But those homely sounds here on the deep's doorstep - something about it lifts the heart.
+
+		ParentEvent
+Name: 
+Id: 141265
+Description: 
+
+
+
+	ChildBranches 2
+Name: Ascetic Monkey
+Id: 126243
+Description: 
+
+		DefaultEvent
+Name: 
+Id: 146726
+Description: An impression of a harpsichord: Scarlatti sonatas.
+
+		ParentEvent
+Name: 
+Id: 141265
+Description: 
+
+
+
+	ChildBranches 3
+Name: Ignore
+Id: 126244
+Description: You're not wasting your time on this. [This will select another exploration option.]
+
+		DefaultEvent
+Name: Their little faces!
+Id: 146727
+Description: "Of course, Captain. You have more important matters to attend to. We... understand."
+
+		ParentEvent
+Name: 
+Id: 141265
+Description: 
+
+
+
+	ChildBranches 4
+Name: Perform
+Id: 126360
+Description: You learn to play a harmonica, up on the roofs of Fallen London. Perhaps you can join in. [The lower your Terror and the higher your Hearts, the easier this will be.]
+
+		DefaultEvent
+Name: A gloomy inspiration
+Id: 146899
+Description: Afterwards, you can't remember where you first heard the tune, or why you thought it was a good idea. But once you begin it - an arrogant, mocking thing in waltz time - you can't seem to stop. Your companions follow you like men possessed. The audience rise to their feet: they stamp and moan and sway. Far off across the zee, a sound like thunder joins your chorus. When you stop, it's silent for the longest time.
+
+		ParentEvent
+Name: 
+Id: 141265
+Description: 
+
+		SuccessEvent
+Name: A joyful noise
+Id: 146900
+Description: All of you together, there on the doorstep of the deep, making your uncertain way through recent Mahogany Hall favourites. It's a little bubble of cheery London light, there in the teeth of the night. You catch your Cook's eye, and grin.
+
+
+
+	ChildBranches 5
+Name: Perform
+Id: 126361
+Description: You used to play a flute in the Singing Mandrake. You have it still. Perhaps you can join in. [The lower your Terror and the higher your Hearts, the easier this will be.]
+
+		DefaultEvent
+Name: A gloomy inspiration
+Id: 146901
+Description: Afterwards, you can't remember where you first heard the tune, or why you thought it was a good idea. But once you begin it - an arrogant, mocking thing in waltz time - you can't seem to stop. Your companions follow you like men possessed. The audience rise to their feet: they stamp and moan and sway. Far off across the zee, a sound like thunder joins your chorus. When you stop, it's silent for the longest time.
+
+		ParentEvent
+Name: 
+Id: 141265
+Description: 
+
+		SuccessEvent
+Name: A joyful noise
+Id: 146902
+Description: All of you together, there on the doorstep of the deep, making your uncertain way through recent Mahogany Hall favourites. It's a little bubble of cheery London light, there in the teeth of the night. You catch your Cook's eye, and grin.
+
+
+
+	ChildBranches 6
+Name: Perform
+Id: 126362
+Description: You still have your old pennywhistle from your campaigning days. Perhaps you can join in. [The lower your Terror and the higher your Hearts, the easier this will be.]
+
+		DefaultEvent
+Name: A gloomy inspiration
+Id: 146903
+Description: Afterwards, you can't remember where you first heard the tune, or why you thought it was a good idea. But once you begin it - an arrogant, mocking thing in waltz time - you can't seem to stop. Your companions follow you like men possessed. The audience rise to their feet: they stamp and moan and sway. Far off across the zee, a sound like thunder joins your chorus. When you stop, it's silent for the longest time.
+
+		ParentEvent
+Name: 
+Id: 141265
+Description: 
+
+		SuccessEvent
+Name: A joyful noise
+Id: 146904
+Description: All of you together, there on the doorstep of the deep, making your uncertain way through recent Mahogany Hall favourites. It's a little bubble of cheery London light, there in the teeth of the night. You catch your Cook's eye, and grin.
+
+
+
+	ChildBranches 7
+Name: Perform
+Id: 126363
+Description: In happier times, you'd practice the recorder in the parlour of the rectory. You still have it somewhere. You could join in. [The lower your Terror and the higher your Hearts, the easier this will be.]
+
+		DefaultEvent
+Name: A gloomy inspiration
+Id: 146905
+Description: Afterwards, you can't remember where you first heard the tune, or why you thought it was a good idea. But once you begin it - an arrogant, mocking thing in waltz time - you can't seem to stop. Your companions follow you like men possessed. The audience rise to their feet: they stamp and moan and sway. Far off across the zee, a sound like thunder joins your chorus. When you stop, it's silent for the longest time.
+
+		ParentEvent
+Name: 
+Id: 141265
+Description: 
+
+		SuccessEvent
+Name: A joyful noise
+Id: 146906
+Description: All of you together, there on the doorstep of the deep, making your uncertain way through recent Mahogany Hall favourites. It's a little bubble of cheery London light, there in the teeth of the night. You catch your Cook's eye, and grin.
+
+
+
+	ChildBranches 8
+Name: Perform
+Id: 126364
+Description: The Consequential Undercommittee once gave you a zither. It was a joke, you thought, but you learnt to play it, just to show them. You have it still. Perhaps you can join in. [The lower your Terror and the higher your Hearts, the easier this will be.]
+
+		DefaultEvent
+Name: A gloomy inspiration
+Id: 146907
+Description: Afterwards, you can't remember where you first heard the tune, or why you thought it was a good idea. But once you begin it - an arrogant, mocking thing in waltz time - you can't seem to stop. Your companions follow you like men possessed. The audience rise to their feet: they stamp and moan and sway. Far off across the zee, a sound like thunder joins your chorus. When you stop, it's silent for the longest time.
+
+		ParentEvent
+Name: 
+Id: 141265
+Description: 
+
+		SuccessEvent
+Name: A joyful noise
+Id: 146908
+Description: All of you together, there on the doorstep of the deep, making your uncertain way through recent Mahogany Hall favourites. It's a little bubble of cheery London light, there in the teeth of the night. You catch your Cook's eye, and grin.

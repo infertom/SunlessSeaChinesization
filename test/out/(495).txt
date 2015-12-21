@@ -1,0 +1,43 @@
+(495)
+Name: Experiments in Red Honey
+Id: 168568
+Description: The next time you are summoned to see your Patron, it is not in their offices at the Honeyed Tongue. Instead you find yourself in a well-lit laboratory of book-lined walls and delicate equipment. Isery does not pause in their task of pouring red honey into a cucurbit flask.
+<br><br>
+"It is possible to encourage lamplighter bees to seek out one kind of memory over another," they announce, without any preamble. "It's all about what you expose the bee to, once it has drunk the maddening nectar of the crimson roses. But it is an uncertain process. Full of guesswork. The Alarming Scholar and I have been trying to... apply the scientific method, you could say."
+<br><br>
+They look fond for a moment, soft. "I require you to perform a little experiment for me. Shouldn't take long."
+
+	ChildBranches 1
+Name: A passion for science
+Id: 139078
+Description: "I'll send a Melliferous Sister with you. Just expose the bee to intense emotion. Pick one - and don't get too fancy."
+
+		DefaultEvent
+Name: 
+Id: 168569
+Description: Isery packs you off to the Honeyed Tongue, reasoning that emotions are bound to run high in its silk-clad rooms. The Melliferous Sister follows behind you, holding a crazed lamplighter bee in a filigreed cage. She mutters susurrating prayers under her breath.
+
+		ParentEvent
+Name: 
+Id: 168568
+Description: 
+
+
+
+	ChildBranches 2
+Name: Perhaps not
+Id: 139079
+Description: You are not sure that maddened bees and intense emotions should be mixed, especially not near your own precious person.
+[Refusal will lock you out of Isery's patronage.]
+
+		DefaultEvent
+Name: 
+Id: 168570
+Description: "Have you no scientific interest? None at all?" Isery looks bewildered. "I knew an intern like you, back when I was at Infernal Rarefactions. Found her drowned in a cucumber sandwich one afternoon. Quite put me off my lunch."
+<br><br>
+They dismiss you, and you leave with alacrity. You doubt your services will be required again.
+
+		ParentEvent
+Name: 
+Id: 168568
+Description:

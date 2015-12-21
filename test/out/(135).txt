@@ -1,0 +1,348 @@
+(135)
+Name: Port Carnelian
+Id: 175505
+Description: London's first Unterzee colony sweats under a blanket of southern heat. To the right of the dock, the sapphire-mines yawn. To the left, the Governor's house stands, prim as an Elderwick mansion. Behind lies the fungal jungle, ghostly in white and violet.
+
+	ChildBranches 1
+Name: Visit Murgatroyd's Imperial Tea Shop
+Id: 143315
+Description: Behind the windows, spoons clink on china.
+
+		DefaultEvent
+Name: Home away from home
+Id: 175524
+Description: They import the doilies from London, but the tea is local: blue and smoky. The crumpets are warm; the tablecloths white. You could almost imagine you were back in Veilgarden, except for the tiger lounging on a divan. It laps tea from an azure bowl and complains about the recent nostalgic trend in poetry.
+
+		ParentEvent
+Name: 
+Id: 175505
+Description: 
+
+
+
+	ChildBranches 2
+Name: Talk to a tiger in the Blue Bazaar
+Id: 143323
+Description: The Carnelian Coast's padding natives are eloquent, placid, and acerbic. Most of the time.
+
+		DefaultEvent
+Name: Trouble abroad
+Id: 175533
+Description: The Blue Bazaar is Port Carnelian's great indoor market: arched, lofty, plush with patterned carpets where the vendors display their wares. Most of all, awash with gossip.
+<br/><br/>
+The tiger is well-informed. A black-hulled Khanate trireme prowled the coast last night, a rifle-shot from shore. Shipments from the sapphire mines have slowed. The Governor's aide was left-handed on Tuesday, and right-handed on Wednesday.
+
+		ParentEvent
+Name: 
+Id: 175505
+Description: 
+
+		RareDefaultEvent
+Name: Trouble abroad
+Id: 175537
+Description: The Blue Bazaar is Port Carnelian's great indoor market: arched, lofty, plush with patterned carpets where the vendors display their wares. Most of all, awash with gossip.
+<br/><br/>
+The tiger chats about the Banded Prince, their supposed monarch, and his palace deep in the jungle. You lever the conversation onto the state of his people. He has no complaints, he says. Not even about the recent re-instatement of the travel restriction on natives? Nor the report of a tiger killed at the jungle's edge? His tail flicks.
+
+
+
+	ChildBranches 3
+Name: Call at Heartscross House
+Id: 143334
+Description: Where the Governor administers this distant fleck of Her Majesty's empire.
+
+		DefaultEvent
+Name: A port report
+Id: 175546
+Description: The Governor is very, very busy. An attaché offers you a bowl of sugared puffballs, and explains the work the Governor does among the natives. "Got to keep them happy, what? After all, they <i>are</i> tigers." 
+
+		ParentEvent
+Name: 
+Id: 175505
+Description: 
+
+
+
+	ChildBranches 4
+Name: Find out what your spies need
+Id: 143336
+Description: To improve the quality of your network, you'll need... something. Find out what. [This will improve your Network here.]
+
+		DefaultEvent
+Name: 
+Id: 175549
+Description: 
+
+		ParentEvent
+Name: 
+Id: 175505
+Description: 
+
+
+
+	ChildBranches 5
+Name: Call at a room above a bookshop
+Id: 143370
+Description: The diplomats of the Khanate were expelled from Port Carnelian following the Galatea Incident. Only one remains behind. "Not in any official capacity, you understand."
+
+		DefaultEvent
+Name: Off the record
+Id: 175598
+Description: "No, I'm retired, now," he tells you, cheerfully. His crockery is white as the moon, and rimmed with gold. Over tea, he comments sympathetically on the Governor's difficulties ("I feel for the man, I really do"), and asks probing questions regarding your travels. You manage to squeeze in a few of your own. "Oh, the Khan is very fond of sapphires. Blue is his favourite colour."
+
+		ParentEvent
+Name: 
+Id: 175505
+Description: 
+
+
+
+	ChildBranches 6
+Name: Fulfil your spies' needs
+Id: 146274
+Description: They wanted something... [This will improve your Network here.]
+
+		DefaultEvent
+Name: 
+Id: 180373
+Description: 
+
+		ParentEvent
+Name: 
+Id: 175505
+Description: 
+
+
+
+	ChildBranches 7
+Name: Influence Affairs in Port Carnelian
+Id: 146340
+Description: Your network's influence over the colony is extensive. How will you use it?
+
+		DefaultEvent
+Name: 
+Id: 180498
+Description: 
+
+		ParentEvent
+Name: 
+Id: 175505
+Description: 
+
+
+
+	ChildBranches 8
+Name: Decide Port Carnelian's fate
+Id: 146344
+Description: Your network reaches into every office, every parlour. 
+
+		DefaultEvent
+Name: 
+Id: 180504
+Description: 
+
+		ParentEvent
+Name: 
+Id: 175505
+Description: 
+
+
+
+	ChildBranches 9
+Name: Visit Heartscross House
+Id: 146363
+Description: The Governor is always pleased to see you, and his cook makes admirable scones.
+
+		DefaultEvent
+Name: A friend in a high place
+Id: 180523
+Description: Since the colony's change of fortunes, the Governor has swapped his unassuming bowler hat for a towering stove-pipe. He laughs often. His watch-chain is gold, not silver.
+<br/><br/>
+He gives a full account of recent events. A tap of his nose, or a wriggle of his eyebrows, alerts you to those matters he cannot discuss more explicitly.
+
+		ParentEvent
+Name: 
+Id: 175505
+Description: 
+
+
+
+	ChildBranches 10
+Name: Visit Heartscross House
+Id: 146364
+Description: The leaping-fish flag of the Taiman clan hangs over the door
+
+		DefaultEvent
+Name: Professional respect
+Id: 180524
+Description: The Khan's representative greets you in the airy, mahogany-panelled office that once belonged to Her Majesty's Governor. "It's quite a change from my little room over the bookshop, but somehow I find it in me to manage."
+<br/><br/>
+You share recent news and old tradecraft over a cup of airag.
+
+		ParentEvent
+Name: 
+Id: 175505
+Description: 
+
+
+
+	ChildBranches 11
+Name: Visit Heartscross House
+Id: 146365
+Description: Tigers flank the door. Are they asleep? No. A glint of golden eyes.
+
+		DefaultEvent
+Name: Memories
+Id: 180525
+Description: The Banded Prince receives you in the airy, carpeted office that was once the Governor's. You recall the leaner, simpler days of the Restitution Committee. A footman fetches tea, his uniform splendidly striped. 
+<br/><br/>
+The Prince is happy to share news of his realm. You ask about the rival Empires across the zee: the Queen's and the Khan's. Will they try to reconquer the Coast? "They can try," he rumbles. His teeth are still sharp.
+
+
+		ParentEvent
+Name: 
+Id: 175505
+Description: 
+
+
+
+	ChildBranches 12
+Name: Find the Avuncular Broker's Snuffer
+Id: 147150
+Description: He wants it captured alive.
+
+		DefaultEvent
+Name: 
+Id: 181758
+Description: 
+
+		ParentEvent
+Name: 
+Id: 175505
+Description: 
+
+
+
+	ChildBranches 13
+Name: Put a blemmigan ashore
+Id: 147288
+Description: The heat of the colony thrills the blemmigan. It sits quivering by the port rail.
+
+		DefaultEvent
+Name: Familiarity breeds confidence
+Id: 181965
+Description: It trips over its own tendrils in its eagerness to advance. It heads straight for the Governor's house. Or perhaps the jungle behind it. Not your problem, either way.
+
+		ParentEvent
+Name: 
+Id: 175505
+Description: 
+
+
+
+	ChildBranches 14
+Name: Insinuate an agent into Port Carnelian
+Id: 143329
+Description: The place is thick with spies. Who would notice another? Once your agent is in place, you can tap your network for information, or use it to influence affairs here.
+
+		DefaultEvent
+Name: A small fish in a big pond
+Id: 175540
+Description: Where are your reports? Where is your intelligence? Where, come to that, is your agent? Did they succumb to the intrigues of more callous, more experienced operatives?
+
+		ParentEvent
+Name: 
+Id: 175505
+Description: 
+
+		SuccessEvent
+Name: Success!
+Id: 175547
+Description: Your agent vanishes into the Carnelian crowds. Within the week they will have found lodgings, friends, rivals and victims.
+<br/><br/>
+[On subsequent visits to Port Carnelian you'll be able to grow your network, or tap it for information. As it grows, you may be able to affect the balance of power in Port Carnelian.]
+
+
+
+	ChildBranches 15
+Name: Help Maybe's Daughter search for her mother
+Id: 146191
+Description: "This one's a slender lead. She's been seen wearing sapphires." The Daughter shrugs. "This is where sapphires come from. Look, you were heading this way anyway, weren't you? (Weren't you?)"
+
+		DefaultEvent
+Name: "No luck."
+Id: 180255
+Description: "She hasn't been here in forever. I don't think she's coming back. So that's one port eliminated. And, ah, I did pick up some sapphires. Here and there."
+
+		ParentEvent
+Name: 
+Id: 175505
+Description: 
+
+		SuccessEvent
+Name: "She was here last week, but - "
+Id: 180256
+Description: You follow the Daughter's stunned gaze. A woman in a lilac gown strolls past a tea-shop. Her features bear an unmistakable resemblance to your officer's. "We should talk," she says to the Daughter, quite calmly.
+<br/><br/>
+The Daughter assembles the rags of her composure with remarkable speed. "Excuse us," she says...
+
+
+
+	ChildBranches 16
+Name: Seek intelligence
+Id: 146270
+Description: If you have eyes and ears on the Carnelian Coast, you can use them to gain more than just a Port Report. [The better your Network, the easier this will be.]
+
+		DefaultEvent
+Name: A narrow escape
+Id: 180365
+Description: Your agent's warning reaches you just in time. You fold your newspaper and vacate the dock, moments before the two gentlemen with pearl cuff-links arrive. Their hands are scarred. Their smiles are false. 
+
+		ParentEvent
+Name: 
+Id: 175505
+Description: 
+
+		RareDefaultEvent
+Name: Slim pickings
+Id: 180368
+Description: You comb your recent reports. A few morsels, but nothing to feast on. Port Carnelian is so crowded with spies that secrets are in short supply. [Your network has suffered.]
+
+		SuccessEvent
+Name: The dangers of success
+Id: 180366
+Description: Your late agent considered this information worth dying for. You blot her blood from the page and apply an old Assyrian cipher. She was not wrong. [After a significant success, you'll often need to lie low or rebuild your network.]
+
+		RareSuccessEvent
+Name: Silent as stone
+Id: 180367
+Description: The great zee-powers covet the Carnelian Coast for its sapphires, but the jewels your agents excavate are even more precious. Secrets: less gaudy than stones, and more portable. [Secrecy has been maintained! Your network has not suffered.]
+
+
+
+	ChildBranches 17
+Name: Pan for sapphires in the fungal jungle
+Id: 146366
+Description: Somewhere in its heart runs a river of shining stones.
+
+		DefaultEvent
+Name: A native ambush!
+Id: 180526
+Description: Perhaps 'ambush' is a strong word. But there's a tiger sitting on a broad mushroom-cap, asking unflattering questions about your nutritional value. You retreat.
+
+		ParentEvent
+Name: 
+Id: 175505
+Description: 
+
+		SuccessEvent
+Name: A glimmer of truth
+Id: 180527
+Description: Braving the jungle's violet spore-drifts, you find a narrow stream. You kneel among the red-capped agarics that spot its banks. It doesn't heave with sapphires, as the stories promised, but an afternoon's panning yields a pocketful of glittering shards.
+
+		RareSuccessEvent
+Name: The tales are true!
+Id: 180528
+Description: Hacking through a fence of looming, lurid toadstools, you find a river. You gather up a cupped handful water, part your fingers, and watch it drain away. 
+<br/><br/>
+Your palms sparkle with blue stones. Your crew leap, laughing, into the river, scooping up handfuls of jewels. Enough to fill all your pockets. Enough to fill a barrel!

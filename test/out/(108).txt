@@ -1,0 +1,285 @@
+(108)
+Name: The Dark-Spectacled Admiral 
+Id: 120801
+Description: You're ushered into his office off Mansion's Pyre: a cramped room with a vast desk. He surveys you across that desk. "Ah yes. The merchant-captain of whom we hear such complicated things." [The Admiral will purchase intelligence from you.]
+
+	ChildBranches 1
+Name: Submit your Port Reports
+Id: 109938
+Description: [Visit and investigate ports to gain Port Reports, and trade them in here.]
+
+		DefaultEvent
+Name: 
+Id: 120802
+Description: 
+
+		ParentEvent
+Name: 
+Id: 120801
+Description: 
+
+
+
+	ChildBranches 2
+Name: Pass on Strategic Information
+Id: 110629
+Description: The Admiral sits up, although he steeples his fingers and pretends calm.
+
+		DefaultEvent
+Name: Invisible eyes
+Id: 121898
+Description: He's hard to read, with those glasses, but he reads the summary intently. "Satisfactory," he says at last. "Eminently satisfactory, actually. Good work. Take this for your trouble. The clerk will see you paid."
+
+		ParentEvent
+Name: 
+Id: 120801
+Description: 
+
+
+
+	ChildBranches 3
+Name: Ask what he needs
+Id: 125023
+Description: Discover the Admiral's desires.
+
+		DefaultEvent
+Name: "Information."
+Id: 144823
+Description: "Visit a port, and we'll be interested in the Port Report. Visit places of particular interest, and we'll be interested in the Strategic Information you gain thereby. We will pay you well, don't worry. We understand you can't be expected to act entirely for the love of the Empire." His lip curls. "What's left of it."
+
+		ParentEvent
+Name: 
+Id: 120801
+Description: 
+
+
+
+	ChildBranches 4
+Name: Submit a Revelatory Chart
+Id: 125251
+Description: Let's find out if it's real.
+
+		DefaultEvent
+Name: A careful inspection
+Id: 145171
+Description: He scrutinises the chart minutely through a lens. (He doesn't, you notice, remove the dark spectacles.) "It passes muster," he remarks. "The usual fee applies."
+
+		ParentEvent
+Name: 
+Id: 120801
+Description: 
+
+
+
+	ChildBranches 5
+Name: Return to Wolfstack Docks
+Id: 126755
+Description: The Admiral's room is dark and stuffy. You need zee-air.
+
+		DefaultEvent
+Name: 
+Id: 147505
+Description: 
+
+		ParentEvent
+Name: 
+Id: 120801
+Description: 
+
+
+
+	ChildBranches 6
+Name: Submit Brimstone Buzzings
+Id: 127956
+Description: What will it mean to the Admiral?
+
+		DefaultEvent
+Name: Honest bewilderment
+Id: 149327
+Description: "I can hardly understand half of this. But it's interesting: it's interesting. If Hell stays divided, it's to all our advantage, and every little helps. You must have risked much to bring us this. Let us show our appreciation."
+
+		ParentEvent
+Name: 
+Id: 120801
+Description: 
+
+
+
+	ChildBranches 7
+Name: Ask if there's anything in particular he needs
+Id: 127957
+Description: "Well, if I can be assured of your discretion - "
+
+		DefaultEvent
+Name: "This port - "
+Id: 149328
+Description: "Speak to our agent there, and return. We'll see that you're rewarded." [Visit the port below and return to London. You can check the details in your Journal at any time.]
+
+		ParentEvent
+Name: 
+Id: 120801
+Description: 
+
+
+
+	ChildBranches 8
+Name: Speak of Moves in the Great Game
+Id: 127958
+Description: Whispers - 
+
+		DefaultEvent
+Name: 
+Id: 149329
+Description: He has you repeat it all twice. He doesn't take notes. "It's a little beyond me," he tells you, "but I have a friend in the Palace who'll be interested. Very interested. Thank you. Your fee."
+
+		ParentEvent
+Name: 
+Id: 120801
+Description: 
+
+
+
+	ChildBranches 9
+Name: Turn in your shipment of red honey
+Id: 127959
+Description: It is very firmly proscribed; the Admiral will probably be quite eager to hear where you came by it.
+
+		DefaultEvent
+Name: 
+Id: 149330
+Description: His expression clouds when he opens the casket and sees the honey-vials packed carefully within. "That blackguard Raffles grows bolder by the day," he mutters. "Something must be done. But what to do about - ah. Another time. The Admiralty's thanks for bringing this filthy stuff in." 
+
+		ParentEvent
+Name: 
+Id: 120801
+Description: 
+
+
+
+	ChildBranches 10
+Name: Submit Vital Intelligence
+Id: 127960
+Description: "What's that? Tell me, quickly!" [Vital Intelligence can be created from two pieces of Strategic Information, or earned through spy networks and some other opportunities.]
+
+		DefaultEvent
+Name: Enthusiastic nods
+Id: 149331
+Description: "I'm glad you brought this to me, rather than... you know who. Our mutual acquaintance, two streets over. We do what we can." [The Dark-Spectacled Admiral is loyal to London. Bringing intelligence to him will shift the political balance, sometimes.]
+
+		ParentEvent
+Name: 
+Id: 120801
+Description: 
+
+		RareDefaultEvent
+Name: A hissed breath
+Id: 173994
+Description: "I'm especially glad you brought this to me, rather than... you know who. Our mutual acquaintance, two streets over. This should go directly to my friend at the Palace, instead." [The Dark-Spectacled Admiral is loyal to London. This has shifted the political balance.]
+
+
+
+	ChildBranches 11
+Name: Ask the Admiral what he thinks of the Voracious Diplomat
+Id: 142296
+Description: The Diplomat - a half-legendary, all-infamous figure whose connection to the Admiralty is obscure.
+
+		DefaultEvent
+Name: A frank scowl
+Id: 173951
+Description: "An unprincipled scoundrel," the Admiral snaps. "If you have intelligence, bring it to me. Don't go off the books."
+
+		ParentEvent
+Name: 
+Id: 120801
+Description: 
+
+
+
+	ChildBranches 12
+Name: Submit Vital Intelligence
+Id: 142324
+Description: "What's that? Tell me, quickly!" [Vital Intelligence can be created from two pieces of Strategic Information, or earned through spy networks and some other opportunities.]
+
+		DefaultEvent
+Name: Enthusiastic nods
+Id: 173993
+Description: "I'm glad you brought this to me. I have a colleague, of sorts: a diplomat, so-called. I will tell you because I trust you: this 'diplomat' will pay better, but I will put the information to better use." He leans forwards. "There are powers in this world I cannot speak of. There are affairs of the Navy I am not proud of. Bring me more information like this, and we can set matters right."
+
+		ParentEvent
+Name: 
+Id: 120801
+Description: 
+
+
+
+	ChildBranches 13
+Name: 'A deplorable end'
+Id: 144580
+Description: At the Parthenaeum Club, the Admiral dropped hints about your father, and about his 'deplorable end'. What does the Admiral know?
+
+		DefaultEvent
+Name: "Yes. There was a certain report."
+Id: 177542
+Description: "Kingeater's Castle. The empty temple at the end of the world. Your father went there. No one makes the pilgrimage there if they intend to return. One way or another, no pilgrim returns home."
+<br/><br/>
+"I have heard that they stay. I have also heard that they go on, somewhere even further. It is a regrettable place, Captain, the Kingeater's Castle; and its pilgrims do regrettable things. If you go, do not take any who are dear to you."
+<br/><br/>
+[The Kingeater's Castle is in the far south-east of the map. Go there, if you must.]
+
+		ParentEvent
+Name: 
+Id: 120801
+Description: 
+
+
+
+	ChildBranches 14
+Name: Sell the Memento Mori to the Royal Navy
+Id: 146140
+Description: "My God, yes! If it can do everything you claim, I can authorise a payment of - let's see - one thousand Echoes." Perhaps you looked a little disappointed. "And her Enduring Majesty's enduring gratitude. London needs this."
+
+		DefaultEvent
+Name: 
+Id: 180168
+Description: The Admiral removes his spectacles, folds them, places them on the desk. Behind them, his eyes are a clear and steady blue. Does he wear the spectacles to suggest his eyes are <i>not</i> normal?
+<br/><br/>
+"I had hoped," he says, "that I could trust you. You have repaid my trust. I wish I could reward you better than this, but the New Sequence strangles us like ivy. Thank you. You are a true patriot."
+
+		ParentEvent
+Name: 
+Id: 120801
+Description: 
+
+
+
+	ChildBranches 15
+Name: Assistance with subsistence?
+Id: 146422
+Description: Ask if the Admiralty can provide a little fuel to cover your costs. [This will take you to the Drydock, where 1 point of Favour will get you 2-3 Fuel.]
+
+		DefaultEvent
+Name: 
+Id: 180627
+Description: 
+
+		ParentEvent
+Name: 
+Id: 120801
+Description: 
+
+
+
+	ChildBranches 16
+Name: "Please don't send me to b___dy Frostfound."
+Id: 147210
+Description: Appeal to the Admiral's better nature. Remind of your past services to his office. Frostfound is far away and freezing cold and in all probability no one there will co-operate.
+
+		DefaultEvent
+Name: "You have a good point."
+Id: 181853
+Description: "And we could use you elsewhere - "
+
+		ParentEvent
+Name: 
+Id: 120801
+Description:

@@ -1,0 +1,41 @@
+(34)
+Name: The Drownies' Welcome
+Id: 150648
+Description: The Drownies swim with the ship now. In their song is the taste of salt, the hundred colours of darkness, the loving coil of the current. Come home, they say: come home to us.
+
+	ChildBranches 1
+Name: Leap
+Id: 128731
+Description: Why resist?
+
+		DefaultEvent
+Name: Beneath the waves
+Id: 150649
+Description: There is a stateliness in the way the air departs from your lungs: like a man leaving his house for the last time locking each door, one at a time. For a while, it hurts a great deal, and then it doesn't hurt at all.
+
+		ParentEvent
+Name: 
+Id: 150648
+Description: 
+
+
+
+	ChildBranches 2
+Name: Deny them
+Id: 128732
+Description: No! You won't go!
+
+		DefaultEvent
+Name: Too hard; too hard
+Id: 150650
+Description: It's no use. Your thoughts surge like the sea. Your mouth is full of salt. A long way away, someone is struggling. Perhaps it's you. Wave goodbye; say farewell; hush.
+
+		ParentEvent
+Name: 
+Id: 150648
+Description: 
+
+		SuccessEvent
+Name: A little longer
+Id: 150651
+Description: You sink down on the deck and press your fingers in your ears... and the song ends. Rise and look around. The zee is as empty as the ship. You're alone.

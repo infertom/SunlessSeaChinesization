@@ -1,0 +1,76 @@
+(159)
+Name: The Curator's End
+Id: 158397
+Description: The moth perches at the head of the sofa. You've never seen one this big. Its wings are a whole library of glyphs, clues, ink-blot images.
+<br/><br/>
+"It's finished, [q:Addressed As]," the Obsequious Steward says behind you: though he seems less Obsequious, now. "All shall be well and all manner of thing shall be well. But first..."
+
+	ChildBranches 1
+Name: Accept Steam-Yacht Deeds
+Id: 133623
+Description: "It was too frail to sail, by the time she was completed. It would have wanted you to have her." [You will be able to swap to the Steam-Yacht when in Venderbight. The Leucothea class is a mid-sized ship with 250 Hull that increases Hearts, Veils and Pages by 10 each.]
+
+		DefaultEvent
+Name: 
+Id: 158398
+Description: The deeds are hand-written on bark-cloth from the bolegus, those vast and woody mushrooms that grow on fertile islands. "It preferred the old ways," the Steward says obscurely. "If you visit the Shipyard, you'll find all you need, there. My thanks, again. And - be discreet in the matter of the Birth. Not everyone in Venderbight would understand."
+
+		ParentEvent
+Name: 
+Id: 158397
+Description: 
+
+
+
+	ChildBranches 2
+Name: Forget other rewards; take only the Moth
+Id: 133626
+Description: It's watching you. Does it remember the flesh it dwelt in? It spoke often of the zee. Perhaps it would like to travel?
+
+		DefaultEvent
+Name: Extend a hand
+Id: 158402
+Description: It glides to your wrist like a falcon. The furred scales of its wings are thick as carpet fibres. It smells of wax and frost. Bend your head closer. If you can't hear it speak, perhaps you can read meaning in its wings?
+
+		ParentEvent
+Name: 
+Id: 158397
+Description: 
+
+
+
+	ChildBranches 3
+Name: Accept a huge trove of Fragments
+Id: 133627
+Description: "Perhaps it would have preferred you to have its memoirs? They're a little dry. But it was very wise. It had lived a long, long, time. "
+
+		DefaultEvent
+Name: Memoirs in darkness
+Id: 158403
+Description: The memoirs are hand-written on bark-cloth from the bolegus, those vast and woody mushrooms that grow on fertile islands. "It preferred the old ways," the Steward says obscurely. "I recommend the section on its stay in the Khanate. Surprisingly spicy. It was not always old." 
+<br/><br/>
+"My thanks again. And - be discreet in the matter of the Birth. Not everyone in Venderbight would understand."
+
+		ParentEvent
+Name: 
+Id: 158397
+Description: 
+
+
+
+	ChildBranches 4
+Name: Accept seven Treasures
+Id: 133628
+Description: "Of course, if it's avarice that motivates you... I must admit I am, myself, motivated chiefly by avarice."
+
+		DefaultEvent
+Name: Old gold
+Id: 158404
+Description: Rings, crowns, rods. Copper discs, garnet-studded. A mirror figured with a map of the lost Surface. Silver coins with squat glyphs like wax-stains. A jade tiger with a ruby heart.
+<br/><br/>
+"You earnt it," the Steward remarks. "Spend it in good health."
+
+		ParentEvent
+Name: 
+Id: 158397
+Description:

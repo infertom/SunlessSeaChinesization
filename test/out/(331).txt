@@ -1,0 +1,36 @@
+(331)
+Name: You've destroyed a Pirate Frigate
+Id: 144316
+Description: The ship is yours! What will you do with her?
+
+	ChildBranches 1
+Name: Loot and scuttle her
+Id: 124704
+Description: She's a vile old vessel, and these zees aren't safe. Take what you can and move on.
+
+		DefaultEvent
+Name: What's this?
+Id: 144319
+Description: Here's something at the back of the hold...
+
+		ParentEvent
+Name: 
+Id: 144316
+Description: 
+
+
+
+	ChildBranches 2
+Name: Record any Observations
+Id: 131993
+Description: If you've gathered enough, you may learn something...
+
+		DefaultEvent
+Name: The study of squalor
+Id: 155745
+Description: Corsairs! Inventive and disgusting as a sewerful of clockwork apes. You've gleaned enough details to write a treatise, a strategy manual or a titillating penny-dreadful.
+
+		ParentEvent
+Name: 
+Id: 144316
+Description:

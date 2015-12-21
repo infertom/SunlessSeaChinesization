@@ -1,0 +1,114 @@
+(534)
+Name: The Cumaean Canal Staging Area
+Id: 153742
+Description: The Canal ascends, through locks and gates and shadowed turns, to the sunlight of the Surface.
+
+	ChildBranches 1
+Name: Travel to the Surface
+Id: 130676
+Description: The Sun is dangerous to Neath-dwellers like your crew, but the Surface has its temptations. [Ensure you're well-stocked with Supplies and Fuel, or you may never return.]
+
+		DefaultEvent
+Name: The coils of the Earth
+Id: 153743
+Description: The engineers of the Canal took advantage of existing caves and passages where they could. In ancient times, this was a passage to the Underworld, they say. But still, the labour must have been staggering. The story goes that the Masters of the Bazaar lent their arts and allies to the task, but the Surface nations play down the fact. Certainly, some of the tunnels look blasted or tunneled, others look... dissolved? "Stone pigs," a stoker whispers. "Stone pigs."
+
+		ParentEvent
+Name: 
+Id: 153742
+Description: 
+
+
+
+	ChildBranches 2
+Name: Listen for Surface gossip
+Id: 130780
+Description: The ships of the Surface linger here: this is their life-line to a warmer place.
+
+		DefaultEvent
+Name: A sorry end
+Id: 153905
+Description: A card game ends badly when one Surface sailor knifes another for all the usual reasons. The other players scrabble from the coins that spill from her pockets, but you snatch up a scrap of paper they overlook. Curious markings: dates, times, code-names. Spy's work?
+
+		ParentEvent
+Name: 
+Id: 153742
+Description: 
+
+		RareDefaultEvent
+Name: Daylight
+Id: 153907
+Description: This would be a prime spot for a pub or wine-shop, but the interests of the Echo Bazaar, and the laws of London, prevent it. They don't like competition. Still, there are temporary half-legal hostelries in long-moored ships. Here you trade stories with suntanned Surface sailors - stories of Paris and Batavia, the Lost Fires and the Final Isles...
+
+
+
+	ChildBranches 3
+Name: Gather information for a Port Report
+Id: 130782
+Description: Many ships pass this way, but perhaps you'll pick up something they missed.
+
+		DefaultEvent
+Name: Business as usual
+Id: 153908
+Description: The gates open and shut. The locks remain free from sabotage. If anywhere besides London is safe in all the Unterzee, it's here. The Surface nations have an interest in keeping the way open.
+
+		ParentEvent
+Name: 
+Id: 153742
+Description: 
+
+
+
+	ChildBranches 4
+Name: Fulfil your Admiralty Commission
+Id: 130783
+Description: Row out and meet a contact at the foot of the Albertine Gates. The password is 'the Empire Remembers.'
+
+		DefaultEvent
+Name: In the shadow of the Gates
+Id: 153909
+Description: A Deeply-Tanned Vagabond waits in a jolly-boat. His clothes are ragged and his face is filthy, but his voice and manners are educated. His message is a string of numbers, and the names of seven towns in Essex, Shropshire, Cumbria. He insists that you repeat it back to him three times: he will not allow you to commit it to paper.
+
+		ParentEvent
+Name: 
+Id: 153742
+Description: 
+
+
+
+	ChildBranches 5
+Name: Put a blemmigan ashore
+Id: 133912
+Description: Is there anywhere for it to grow?
+
+		DefaultEvent
+Name: No soil, no rot
+Id: 158886
+Description: This place is stone and iron. Even blemmigans cannot set root here.
+
+		ParentEvent
+Name: 
+Id: 153742
+Description: 
+
+
+
+	ChildBranches 6
+Name: A Gift for the Pirate-King
+Id: 139577
+Description: That one looks like a Surface sailor. Surely you could coax him into your ship?
+
+		DefaultEvent
+Name: Still water
+Id: 169402
+Description: Your smile must ring entirely false to the Surface sailor, for he takes one look at you and takes off running. You order your crew to give chase but one of them slips, falls into the canal. You spend hours trying to dredge him up, but there's no sign.
+
+		ParentEvent
+Name: 
+Id: 153742
+Description: 
+
+		SuccessEvent
+Name: Guest rights
+Id: 169403
+Description: You can be charming, when you exert yourself. You entice the Surface sailor on board with promises of zee-stories and Neath delicacies, and bludgeon them over the head between courses. They fall gently into a bowl of sea-lily soup. You order your crew to take the prisoner below-decks, and lock them up. They comply quickly enough, but you see them shoot dark looks at each other out of the corner of your eye.

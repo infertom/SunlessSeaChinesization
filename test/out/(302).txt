@@ -1,0 +1,63 @@
+(302)
+Name: The Serpent's Lure
+Id: 182164
+Description: A fanged mouth rears from the water, big enough to bite a boat in half or swallow a pig! The 'woman' contorts and slides into the water: she's the tip of the monster's tail. This will be untidy.
+
+	ChildBranches 1
+Name: Pacify it
+Id: 147418
+Description: Fling it bait, and move on.
+
+		DefaultEvent
+Name: A noisy thrashing
+Id: 182166
+Description: Lucky one keeps fish about one's person, eh? One never knows when one will need fish.
+
+		ParentEvent
+Name: 
+Id: 182164
+Description: 
+
+
+
+	ChildBranches 2
+Name: Obliterate it
+Id: 147417
+Description: It's a formidable beast. But you're formidable too.
+
+		DefaultEvent
+Name: A terrible toll
+Id: 182165
+Description: The beast's scales are proof against pistol-shot, and it wreaks terrible havoc before you manage to bring it down. You harvest its bones, and scrape its hatching young from along the rocks by the shore.
+
+		ParentEvent
+Name: 
+Id: 182164
+Description: 
+
+		SuccessEvent
+Name: A ferocious battle
+Id: 182167
+Description: With cutlass and with pistol, your zailors stride into battle! The serpent obviously expected nothing of the kind. It essays a number of savage strikes against you, and then a lucky shot takes it in the eye. You harvest its bones, and scrape its hatching young from along the rocks by the shore.
+
+
+
+	ChildBranches 3
+Name: Flee!
+Id: 147419
+Description: It is always preferable to fight zee-serpents from inside a ship. Not from inside a serpent. Withdraw as best you can.
+
+		DefaultEvent
+Name: A terrible toll
+Id: 182168
+Description: The beast's neck snakes out and snaps up a single struggling zailor with terrible deliberation. The rest of you scramble inland. It submerges, eyeing you with reptilian malice. A zee-serpent that masquerades as a lady! Well, it's a tale to tell.
+
+		ParentEvent
+Name: 
+Id: 182164
+Description: 
+
+		SuccessEvent
+Name: A narrow escape
+Id: 182169
+Description: Its neck is long. Its teeth are sharp. But you make it safely inland. A zee-serpent that masquerades as a lady! Well, it's a tale to tell.

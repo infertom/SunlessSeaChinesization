@@ -1,0 +1,24 @@
+(212)
+Name: Departure in Darkness
+Id: 152413
+Description: The mirror-edges and broken shards glint menacingly in the new-fallen darkness of Varchas: are there strange shapes in them? Do you hear them hiss and whisper and taunt? You feel a horrible sense of wrongness, but dismiss it as hunger or nerves. Surely you have done the right thing?
+
+
+	ChildBranches 1
+Name: "You should go."
+Id: 129876
+Description: The Jewel-Turbaned Youth is flushed with pride and ambition, and his suggestion is a good one. This is no place for an outsider, not now. And you have learnt a great deal here. The affairs of Varchas touch on the mysteries of the Continent.
+
+		DefaultEvent
+Name: 
+Id: 152414
+Description: "We will never forget you, Taamas!" The Jewel-Turbaned Youth laughs suddenly, chagrined. "I do not know why I call you that still. We are all Taamas now."
+<br/><br/>
+There is triumph in his eyes, but also a glinting madness that was not there before. You wonder if the mirrors are whispering to him. You wonder if he has been whispering back.
+<br/><br/>
+You wonder many things, but it is not your place. You leave Varchas behind you, to piece itself back together again.
+
+		ParentEvent
+Name: 
+Id: 152413
+Description:

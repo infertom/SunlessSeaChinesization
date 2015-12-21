@@ -1,0 +1,104 @@
+(513)
+Name: Questions for the Acolyte
+Id: 148876
+Description: Perhaps, if she has come to like you well enough, she'll choose to answer some questions about this place.
+
+	ChildBranches 1
+Name: Ask where the corpses come from
+Id: 127687
+Description: If you're to be involved in the trade, wouldn't it be better if you knew?
+
+		DefaultEvent
+Name: A matter of indifference
+Id: 148877
+Description: "Here and there," she says. It's not that she's trying to be coy. You don't think she much cares about the answer. "Most are from the Surface, one way or the other."
+<br/>
+<br/>
+You think that is all she's going to say on the matter, but after a long time, she adds, "It's an old trade. They've been coming this way for generations, to judge by the piles out back. The Masters made the arrangement."
+
+		ParentEvent
+Name: 
+Id: 148876
+Description: 
+
+
+
+	ChildBranches 2
+Name: Ask how the metal balls are formed
+Id: 127688
+Description: Surely they aren't the product of disease. They are too mechanical for that.
+
+		DefaultEvent
+Name: Growth
+Id: 148879
+Description: "Soothe and Cooper's Heartsease Tonic," she says. "Take it when you're sad. Take it when there's something you don't dare speak about. Take it with wine or with laudanum, or take it straight from the bottle. It goes down warm, but it turns cold in the body. It forms around the thing you don't want to say, and holds it in."
+<br/>
+<br/>
+From there her explanation becomes more iatrotheological in nature. There's something about the reaction of souls with a compound of silence and grief, and something about the circulation of the blood. She appears to believe these points explain why the metal sets hard, and why it takes different shapes in different bodies, and why some users find it necessary to keep drinking tonic all their lives until the balls have grown as large as organs.
+
+
+		ParentEvent
+Name: 
+Id: 148876
+Description: 
+
+
+
+	ChildBranches 3
+Name: Ask what becomes of the contents of the balls
+Id: 127689
+Description: You've seen her removing them, examining and sorting them, but then what happens?
+
+		DefaultEvent
+Name: Material for Export
+Id: 148880
+Description: "The useful ones go to the Masters, and everything else to the dump," she says. "That's the purpose of all this. Wouldn't be needed otherwise."
+<br/>
+<br/>
+The topic makes her nervous. She doesn't look at you, but she is twisting her hands together. 
+<br/>
+<br/>
+Between her glove and her sleeve is a web of old white scars, as though her skin had frozen and cracked and healed again. She pulls the sleeve into place when she sees you looking.
+
+
+		ParentEvent
+Name: 
+Id: 148876
+Description: 
+
+
+
+	ChildBranches 4
+Name: Ask how she came to be here
+Id: 127690
+Description: Is anyone born on this island?
+
+		DefaultEvent
+Name: Unlicensed import?
+Id: 148881
+Description: She tells you she can't recall how she got here. She remembers what happened in London, and then there's a gap, and then her first memories of this place are of the shape of the steepled building, looming through the dark.
+<br/>
+<br/>
+"This comes from before," she says, drawing back her protective clothing. Between her glove and her sleeve is a web of old white scars, as though her skin had frozen and cracked and healed again. She pulls the sleeve back down after a moment. 
+
+		ParentEvent
+Name: 
+Id: 148876
+Description: 
+
+
+
+	ChildBranches 5
+Name: Ask why she sings
+Id: 127691
+Description: It is plainly for some reason other than entertainment.
+
+		DefaultEvent
+Name: Why did you think?
+Id: 148882
+Description: "There was another apprentice who worked with me," she says. "He had a steady hand with the scalpel, but he thought the singing was foolish. Only lasted a few days before we had to pack him off to the Royal Bethlehem."
+
+		ParentEvent
+Name: 
+Id: 148876
+Description:

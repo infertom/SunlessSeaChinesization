@@ -1,0 +1,75 @@
+(401)
+Name: The Rose and Tiger
+Id: 168544
+Description: The alehouse's sign is a tiger painted the colour of rose-petals. Someone has gone to great trouble and expense to gild the creature's eyes; they look out over the port, feral and unseeing.
+<br><br>
+A caged hive of lamplighter bees hangs from the ceiling like a chandelier. A few zailors give you hard-mouthed, assessing looks but most ignore your presence entirely. 
+
+	ChildBranches 1
+Name: Leave the alehouse
+Id: 139432
+Description: There must be more to the Isle of Cats than drunken sots and zee-stories.
+[Make sure you have learned all you wish to before you leave this place.]
+
+		DefaultEvent
+Name: Laws of the land
+Id: 169187
+Description: The Barkeep stops you before you reach the door, and hands you a brooch set with two amber stones. He waits impassively until you pin it to your clothes. "Everybody wears the cat's eyes here," he tells you, moving aside to let you pass. "Just a friendly reminder that the Pirate-King is watching." It seems that no place, then, is truly lawless.
+
+		ParentEvent
+Name: 
+Id: 168544
+Description: 
+
+
+
+	ChildBranches 2
+Name: Significant tokens
+Id: 139433
+Description: The Catties all wear a pair of amber stones threaded around their necks, or pinned to their collars. 
+
+		DefaultEvent
+Name: 
+Id: 169188
+Description: "Cat's eyes," one of them says. "For the Pirate-King." As far as you can gather, the Pirate-King's name is Leopold, and he controls all the trade on the island. Half of the Catties believe that he can take the form of a crimson tiger, and creep into their dreams.<br><br>The other half suspect, more prosaically, that he simply eats those who displease him. 
+
+		ParentEvent
+Name: 
+Id: 168544
+Description: 
+
+
+
+	ChildBranches 3
+Name: Clandestine doings
+Id: 139434
+Description: A whispered conversation; the clink of coins; an exchange of goods.
+
+		DefaultEvent
+Name: The merest taste
+Id: 169189
+Description: You turn your head as though you are admiring one of the mouldering draperies hung from the wall. A vial flashes in the buyer's trembling hands. He uncorks it, pours a few drops of thick red liquid down his throat. The vial drops to the floor. When you look back up, he is gone.<br><br>You blink, and look around. Nobody else seems in the least perturbed that a man - disappeared? - from their midst. You pick up the fallen vial and examine the traces left inside: sticky honey gleaming with redness entirely unlike blood. 
+
+		ParentEvent
+Name: 
+Id: 168544
+Description: 
+
+
+
+	ChildBranches 4
+Name: Religious observances
+Id: 139435
+Description: Is that a crimson-veiled nun? But what sort of nun would be in a place like <i>this</i>?
+
+		DefaultEvent
+Name: 
+Id: 169190
+Description: "A Melliferous Sister, of course," she responds, performing a complicated negotiation between veil, thick glove and glass of mushroom-wine. You ask what one of those is, and she snorts. "I'm glaring at you underneath this bloomin' veil."
+<br><br>
+You act appropriately cowed, and the Melliferous Sister thaws a little. "We are Bee-Keepers and Honey-Harvesters. The Catties owe their prosperity to us, and the Pirate-King too." She slurps the last of the mushroom-wine behind her veil, and the Barkeep glides over to refill her glass, eyes respectfully downcast. 
+
+		ParentEvent
+Name: 
+Id: 168544
+Description:

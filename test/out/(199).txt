@@ -1,0 +1,74 @@
+(199)
+Name: The Navigator's Confession
+Id: 182318
+Description: A square of paper, folded into quarters to make a booklet.
+
+	ChildBranches 1
+Name: Read the first page
+Id: 147528
+Description: <i>To Whom it may Concern, I hereby record my full and honest confession in the hopes of absolution in Her Enduring Majesty's Service.</i>
+
+		DefaultEvent
+Name: 
+Id: 182319
+Description: <i>In May, my brother Richard and I took service on the </i>Bonny Swan<i> - he as bosun, I as navigator. The captain, Swinburne, was a good man, but ambitious. When we reached Kingeater's Castle our supplies were low, but we pressed on in the hope of finding land. There was none.</i>
+
+		ParentEvent
+Name: 
+Id: 182318
+Description: 
+
+
+
+	ChildBranches 2
+Name: Read the second page
+Id: 147529
+Description: <i>Our stores nearly depleted, we turned back - and here I committed the first of my crimes. </i>
+
+		DefaultEvent
+Name: 
+Id: 182320
+Description: <i>I mistook my readings and set a bad course. For days we steamed north-west - not west - into the empty dark. Our supplies ran out, and still no sign of port. Hunger set in, and terror, and what I pray was madness. Ravening, desperate, raving, we agreed to draw lots, with the loser giving up life and flesh so the others could go on.</i>
+
+		ParentEvent
+Name: 
+Id: 182318
+Description: 
+
+
+
+	ChildBranches 3
+Name: Read the third page
+Id: 147530
+Description: <i>The first of us to draw the short straw was the captain. The second was my brother. </i>
+
+		DefaultEvent
+Name: 
+Id: 182321
+Description: <i>My dear, solemn, solid Richard. There were more after. Seven times we drew. Seven of our number went into the pot, and not a one of them quietly. Those of us who made it back to port swore never to speak of our crime, but one of us - someone with a keener conscience than mine - confessed. I fled the noose to zee again. I regret it all. I will do anything. Please.</i>
+
+		ParentEvent
+Name: 
+Id: 182318
+Description: 
+
+
+
+	ChildBranches 4
+Name: Read the fourth page
+Id: 147531
+Description: Here he scribbled his later note, when the Admiralty failed to select him for absolution through service.
+<br/><br/>
+<i>You did not answer. If I cannot be forgiven, then I will forget. The Chapel of Lights will help me, for a price.</i>
+
+		DefaultEvent
+Name: His eyes meet yours when you look up from the page
+Id: 182322
+Description: They are dull as old iron. "I am done, [q:Addressed As]. I am done. I have one last thing to ask of you."
+
+
+
+		ParentEvent
+Name: 
+Id: 182318
+Description:

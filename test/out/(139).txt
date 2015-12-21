@@ -1,0 +1,469 @@
+(139)
+Name: The Tomb-Colony of Venderbight
+Id: 141878
+Description: On deck, you can hear the sound that a thousand bandaged dead make as they shuffle and cough. It's something like the world's most restless concert audience, or the world's most plague-ridden cathedral.
+
+	ChildBranches 1
+Name: Visit the First Curator
+Id: 124451
+Description: ZEE-CAPTAINS: THE FIRST CURATOR GIVES AUDIENCE. The First Curator is responsible for the preservation of the tomb-colonies. It has been here much longer than London, like all the oldest tomb-colonists. But even tomb-colonists dissolve in the end. Its time is close.
+
+		DefaultEvent
+Name: 
+Id: 143936
+Description: 
+
+		ParentEvent
+Name: 
+Id: 141878
+Description: 
+
+
+
+	ChildBranches 2
+Name: A dusty glass of wine
+Id: 124452
+Description: Venderbight is not the most promising place for shore leave. Too much decay. Too little light. Too many bandaged walking corpses. Few companions of easy virtue. No cinnamon, no recent newspapers, very little pickled cave-herring.
+
+		DefaultEvent
+Name: Better than nothing
+Id: 143937
+Description: Your crew swagger carefully back to the ship, mustering what muted boasts they may. At least no one has been arrested or unexpectedly married.
+
+		ParentEvent
+Name: 
+Id: 141878
+Description: 
+
+
+
+	ChildBranches 3
+Name: Explore Venderbight
+Id: 127785
+Description: Here, they favour candle-light over gas-light. The shadows are swagged like cobwebs. The tomb-colonists stand still enough to be mistaken for sculpture, until they laugh or cough. One building in three seems abandoned.
+
+		DefaultEvent
+Name: 
+Id: 149043
+Description: 
+
+		ParentEvent
+Name: 
+Id: 141878
+Description: 
+
+
+
+	ChildBranches 4
+Name: Explore Venderbight
+Id: 127786
+Description: Here, they favour candle-light over gas-light. The shadows are swagged like cobwebs. The tomb-colonists stand still enough to be mistaken for sculpture, until they laugh or cough. One building in three seems abandoned.
+
+		DefaultEvent
+Name: 
+Id: 149044
+Description: 
+
+		ParentEvent
+Name: 
+Id: 141878
+Description: 
+
+
+
+	ChildBranches 5
+Name: Explore Venderbight
+Id: 127787
+Description: Here, they favour candle-light over gas-light. The shadows are swagged like cobwebs. The tomb-colonists stand still enough to be mistaken for sculpture, until they laugh or cough. One building in three seems abandoned.
+
+		DefaultEvent
+Name: 
+Id: 149045
+Description: 
+
+		ParentEvent
+Name: 
+Id: 141878
+Description: 
+
+
+
+	ChildBranches 6
+Name: Explore Venderbight
+Id: 127788
+Description: Here, they favour candle-light over gas-light. The shadows are swagged like cobwebs. The tomb-colonists stand still enough to be mistaken for sculpture, until they laugh or cough. One building in three seems abandoned.
+
+		DefaultEvent
+Name: 
+Id: 149047
+Description: 
+
+		ParentEvent
+Name: 
+Id: 141878
+Description: 
+
+
+
+	ChildBranches 7
+Name: Gather gossip
+Id: 127961
+Description: Who's plotting what, out in the tomb-colonies?
+
+		DefaultEvent
+Name: 
+Id: 149332
+Description: Along the coasts of the Unterzee, it's remarkably hard to die. The decrepit and nearly-dead who leave London become tomb-colonists, and settle here in bandaged peace.
+<br/><br/>But they don't give up their ties to home, or their politics. You gather a haul of complex clues - enough to keep your contacts in London interested.
+
+		ParentEvent
+Name: 
+Id: 141878
+Description: 
+
+
+
+	ChildBranches 8
+Name: Explore Venderbight
+Id: 130112
+Description: Here, they favour candle-light over gas-light. The shadows are swagged like cobwebs. The tomb-colonists stand still enough to be mistaken for sculpture, until they laugh or cough. One building in three seems abandoned.
+
+		DefaultEvent
+Name: Remnants
+Id: 152777
+Description: In an wide space behind the Hollow Temple, you happen across a stepped platform of sorts. Four statues guard it, marked with glyphs all but lost to time and idle vandalism. They look a little like the glyphs that decorate the Echo Bazaar in London, though...
+<br/><br/> At the heart of the platform is a long-filled well-shaft, too. You poke about briefly, but something in the place makes you uneasy. A frost-moth - the size of a farmer's hand - flutters down to perch on the well's edge. Another. A third. You retreat...
+
+		ParentEvent
+Name: 
+Id: 141878
+Description: 
+
+
+
+	ChildBranches 9
+Name: Explore Venderbight
+Id: 130113
+Description: Here, they favour candle-light over gas-light. The shadows are swagged like cobwebs. The tomb-colonists stand still enough to be mistaken for sculpture, until they laugh or cough. One building in three seems abandoned.
+
+		DefaultEvent
+Name: An interlude
+Id: 152778
+Description: You pause for refreshment at the Hungarian Cafe. The coffee is dusty, and the pastries a little stale, but the gaggle of decaying violin-players are skilled and surprisingly sprightly. They play "Eat Our Hearts, My Darling", "The King is Tall, Tall", and "Pop Goes the Weasel", with brio and conviction. Then they start on "The Old Dark Ocean Under the World", and you realise the time. Your ship awaits you...
+
+		ParentEvent
+Name: 
+Id: 141878
+Description: 
+
+
+
+	ChildBranches 10
+Name: Explore Venderbight
+Id: 130114
+Description: Here, they favour candle-light over gas-light. The shadows are swagged like cobwebs. The tomb-colonists stand still enough to be mistaken for sculpture, until they laugh or cough. One building in three seems abandoned.
+
+		DefaultEvent
+Name: A withered garden
+Id: 152779
+Description: Dead fir-trees have carpeted a little park with old brown needles. A little group of tomb-colonists stands around another lying on a bench. Unexpectedly, you find yourself reminded of physicians and midwifes at a birthing-couch. The colonist on the bench - he's old, withered to sticks - groans horribly, though the fir-needles deaden the sound. Something moves in his chest, like a sea-creature surfacing, or a butterfly breaching a cocoon. 
+<br/><br/>
+The other colonists spot you, and close ranks around him. "Stay back, silkskin," one hisses. "This is <i>his</i> breaking-out. Your time will come..." There is a kind of rapture in her voice.
+
+		ParentEvent
+Name: 
+Id: 141878
+Description: 
+
+
+
+	ChildBranches 11
+Name: Explore Venderbight
+Id: 130115
+Description: Here, they favour candle-light over gas-light. The shadows are swagged like cobwebs. The tomb-colonists stand still enough to be mistaken for sculpture, until they laugh or cough. One building in three seems abandoned.
+
+		DefaultEvent
+Name: An unorthodox technology
+Id: 152780
+Description: Sweeter scents draw you into a shop which sells candles - lilac, lavender, honey. You fall into a discussion of their manufacture with the shop-keeper. "Yes," she says, proudly displaying her missing arm, "we render ourselves to good end. Oh, don't look like that. Our fats are of a finer quality than any other, and we grow tired of our bodies, down here - "
+
+		ParentEvent
+Name: 
+Id: 141878
+Description: 
+
+
+
+	ChildBranches 12
+Name: Explore Venderbight
+Id: 130116
+Description: Here, they favour candle-light over gas-light. The shadows are swagged like cobwebs. The tomb-colonists stand still enough to be mistaken for sculpture, until they laugh or cough. One building in three seems abandoned.
+
+		DefaultEvent
+Name: The Lamplighters' Arcade
+Id: 152781
+Description: Here they sell copper jewellery: grimacing little faces and squat rectilinear figures. A tradition from before London, they claim. You part with a few small coins for a cheery-looking thing with an expression like a tipsy bat. Perhaps it will bring you good dreams.
+
+		ParentEvent
+Name: 
+Id: 141878
+Description: 
+
+
+
+	ChildBranches 13
+Name: Explore Venderbight
+Id: 130117
+Description: Here, they favour candle-light over gas-light. The shadows are swagged like cobwebs. The tomb-colonists stand still enough to be mistaken for sculpture, until they laugh or cough. One building in three seems abandoned.
+
+		DefaultEvent
+Name: An attack!
+Id: 152782
+Description: You round a darkened corner and start down a broad boulevard lined with grimacing statues. There is a fluttering movement above, and a cloud of frost-moths swoops down upon you! You beat them off with your walking-stick - they are determined, and the largest are the size of zee-bats, but they are fragile. At last they retreat, leaving three of their number melting into water on the pavement. Their wings are marked with patterns that resemble letters. You peer at them, but the script is already dissolving...
+
+		ParentEvent
+Name: 
+Id: 141878
+Description: 
+
+
+
+	ChildBranches 14
+Name: Explore Venderbight
+Id: 130122
+Description: Here, they favour candle-light over gas-light. The shadows are swagged like cobwebs. The tomb-colonists stand still enough to be mistaken for sculpture, until they laugh or cough. One building in three seems abandoned.
+
+		DefaultEvent
+Name: A corkscrewed street
+Id: 152795
+Description: At the twisty tip of an odd little side-street, welcoming yellow light glows from the gilt-lettered windows of a restaurant. A sign reads VENGEANCE OF JONAH.
+<br/><br/>
+A beefy tomb-colonist bustles up. A grey moustache pokes impertinently out from under his bandages. "Come in, come in!"
+
+		ParentEvent
+Name: 
+Id: 141878
+Description: 
+
+
+
+	ChildBranches 15
+Name: Explore Venderbight
+Id: 130123
+Description: Here, they favour candle-light over gas-light. The shadows are swagged like cobwebs. The tomb-colonists stand still enough to be mistaken for sculpture, until they laugh or cough. One building in three seems abandoned.
+
+		DefaultEvent
+Name: A familiar corkscrewed street
+Id: 152796
+Description: Here you are at the Vengeance of Jonah again: your feet, or your nose, has brought you back. The welcoming yellow glow is like the windows of your own home. The terrors of the zee recede, a little.
+
+		ParentEvent
+Name: 
+Id: 141878
+Description: 
+
+
+
+	ChildBranches 16
+Name: Explore Venderbight
+Id: 130130
+Description: Here, they favour candle-light over gas-light. The shadows are swagged like cobwebs. The tomb-colonists stand still enough to be mistaken for sculpture, until they laugh or cough. One building in three seems abandoned.
+
+		DefaultEvent
+Name: An uneventful afternoon
+Id: 152810
+Description: You wander the echoing streets, alone. From time to time, the sensation of being watched comes upon you: but each time when you halt, you hear no other's footsteps.
+<br/><br/>
+Nothing eventful, only eery. But when you return to the quayside, someone has left an odd, bulky box for you. There is no bill of lading, but the name of your ship is attached to a tag.
+
+		ParentEvent
+Name: 
+Id: 141878
+Description: 
+
+
+
+	ChildBranches 17
+Name: Explore Venderbight
+Id: 130131
+Description: Here, they favour candle-light over gas-light. The shadows are swagged like cobwebs. The tomb-colonists stand still enough to be mistaken for sculpture, until they laugh or cough. One building in three seems abandoned.
+
+		DefaultEvent
+Name: Dissolution
+Id: 152811
+Description: A tomb-colonist hobbles towards you. "I will not - " she hissed fiercely. "I will not! Not for me the Sanatorium. Nor the Emergence. I lived. And I will die."
+<br/><br/>
+She draws a sword from her sash. You jump back. Tomb-colonists, fearless and long-experienced, are famed for their duelling skills. She raises the sword, flourishes it, and beheads herself with a triumphant cry. Her head bounces across the ground towards you.
+
+		ParentEvent
+Name: 
+Id: 141878
+Description: 
+
+
+
+	ChildBranches 18
+Name: Put a blemmigan ashore
+Id: 133947
+Description: That'll liven things up.
+
+		DefaultEvent
+Name: Yes: it livens things up
+Id: 158939
+Description: A shriek! Your blemmigan has run up a colonist's leg. Inside their leg, by the sounds of it. Some of them are hollow as drums. Well, no doubt they can both take care of themselves. Tiptoe away.
+
+		ParentEvent
+Name: 
+Id: 141878
+Description: 
+
+
+
+	ChildBranches 19
+Name: Sell a shipment of red honey to the Tomb-Colonists
+Id: 139738
+Description: It is hard to look disreputable beneath that many bandages, but this colonist manages it somehow. [Selling red honey in Venderbight is safer, but less profitable, than in London.]
+
+		DefaultEvent
+Name: The flesh remembers
+Id: 169651
+Description: The colonist barely even haggles when you name your price. You express some small curiosity about his eagerness for the substance. "Just because we do not care about our bodies much <i>now</I>, silkskin," he sniffs dustily, "does not mean it is not nice to remember what they felt like."
+
+		ParentEvent
+Name: 
+Id: 141878
+Description: 
+
+
+
+	ChildBranches 20
+Name: The Last Tour Operator
+Id: 142724
+Description: "Ho, captain! I have one dozen sad and bandaged souls here. They're choosing their final fate. Will you take them on one last diversionary tour? It may be a longish trip. Make sure you have enough supplies." [This will replace 12 Supplies with 12 Tomb-Colonists, who you'll need to take to three destinations in the Unterzee. Mouse over your Objective: Tomb-Colonists quality to learn the destination for each visit.]
+
+		DefaultEvent
+Name: They'd like to go to Shepherd's Wash
+Id: 174603
+Description: "Shepherd's Wash, first! And two other destinations after that. Bring them all back, and I'll remunerate you lavishly."
+<br/><br/>
+The Operator leans in and whispers: "Honestly, I don't mind if you bring back a different set entirely. Bandages are very forgiving. But a full dozen, please."
+
+		ParentEvent
+Name: 
+Id: 141878
+Description: 
+
+		RareDefaultEvent
+Name: They'd like to go to the Corsair's Forest
+Id: 175161
+Description: "Gaider's Mourn in the Corsair's Forest, first! And two other destinations after that. Bring them all back, and I'll remunerate you lavishly."
+<br/><br/>
+The Operator leans in and whispers: "Honestly, I don't mind if you bring back a different set entirely. Bandages are very forgiving. But a full dozen, please."
+
+
+
+	ChildBranches 21
+Name: The End of the Tour: a Full Complement
+Id: 143090
+Description: The Last Tour Operator hails you delightedly. "You didn't lose a one! That's never happened before!" There is a chorus of surprised protest from the colonists on deck. "Oh, shut up!" she snaps. "You're all here, aren't you? Right, last instalments, please, so I can pay the nice captain."
+
+		DefaultEvent
+Name: One by one
+Id: 175164
+Description: The colonists troop down the gang-plank, chattering excitedly. The Operator leans close. "They're cheery now. Oh, that won't last. Next week they'll be off to the Surface, or the Grand Sanatorium. Or they'll give in to the Change. But you've done this for them. Given them a little window of peace. And me, you've earnt a whole pocketful of peace. So here's your share. And something extra."
+
+		ParentEvent
+Name: 
+Id: 141878
+Description: 
+
+
+
+	ChildBranches 22
+Name: The End of the Tour: What Remains
+Id: 143091
+Description: The Operator hails you warily. "Is this all? What happened to the rest of them?"
+
+		DefaultEvent
+Name: At last
+Id: 175165
+Description: The Operator ticks the remaining colonists off on her list. "Well, close enough, I suppose. Here's your fee. And they seem cheerful enough. Perhaps we won't lose all of them to the moths, or to the Sanatoria." She leans in. Her breath is scented with mushroom wine. "Venderbight is worse than you know. And now you know it."
+
+		ParentEvent
+Name: 
+Id: 141878
+Description: 
+
+
+
+	ChildBranches 23
+Name: The End of the Tour: I Alone Was Saved
+Id: 143092
+Description: The Operator waves to your single remaining tomb-colonist. The colonist, hesitantly, waves back. There is a difficult pause.
+
+		DefaultEvent
+Name: A solitary departure
+Id: 175166
+Description: The colonist staggers down the plank. The Last Tour Operator begins to speak: the colonist signals for silence. He clutches at his chest. He writhes in pain or pleasure. A flurry of ice-white moths bursts forth, like a magician's trick! They disperse into the air, leaving a tangle of ivory bandages empty on the quay.
+<br/><br/>
+All around, the citizens of Venderbight whisper and giggle, as if they'd seen a bride kiss her husband too passionately at a wedding.
+<br/><br/>
+"You can't take them anywhere," the Operator remarks. "Here's your money."
+
+		ParentEvent
+Name: 
+Id: 141878
+Description: 
+
+
+
+	ChildBranches 24
+Name: The Tour: How Embarrassing
+Id: 143093
+Description: The Last Tour Operator leans on the dockside wall, picking her teeth. "You're a little light," she remarks.
+
+		DefaultEvent
+Name: Apologies? Excuses?
+Id: 175167
+Description: "Well," she says, "at least they paid half in advance. I'm not going to ask what you did with them. I know how easy it can be to mislay passengers. But I'm not sure I'd choose to do business with you again." She frowns over her cracked spectacles at you. "I sincerely hope you haven't eaten anyone. One hears stories."
+
+		ParentEvent
+Name: 
+Id: 141878
+Description: 
+
+
+
+	ChildBranches 25
+Name: Inspire wanderlust
+Id: 143683
+Description: Did you find the Last Tour lucrative? Or do you have another use for tomb-colonists? Share tales of the wonders you've seen across the zee, and perhaps they'll rouse themselves for another go. [This will allow you to begin the Last Tour storyline again.]
+
+		DefaultEvent
+Name: A happy Operator
+Id: 176095
+Description: "I do appreciate your efforts, Captain. Here's a small token of that appreciation. Let's not acknowledge each other publicly, though. I would like our passengers to think of you as a wild and romantic zee-dog; not as a charter-captain."
+
+		ParentEvent
+Name: 
+Id: 141878
+Description: 
+
+
+
+	ChildBranches 26
+Name: Visit a certain little restaurant
+Id: 147444
+Description: Fine cuisine in Venderbight? Now that would be something.
+
+		DefaultEvent
+Name: A corkscrewed street
+Id: 182207
+Description: At the twisty tip of an odd little side-street, welcoming yellow light glows from the gilt-lettered windows of a restaurant. A sign reads VENGEANCE OF JONAH.
+<br/><br/>
+A beefy tomb-colonist bustles up. A grey moustache pokes impertinently out from under his bandages. "Come in, come in!"
+
+		ParentEvent
+Name: 
+Id: 141878
+Description:

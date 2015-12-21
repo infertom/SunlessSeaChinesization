@@ -1,0 +1,85 @@
+(306)
+Name: A Choice
+Id: 152194
+Description: The time has come to cast your lot with one faction or another. Whom will you favour?
+
+	ChildBranches 1
+Name: Favour the Chief Engineer
+Id: 129725
+Description: He seems grumpy but honest. Also you've seen what rat-made weapons can do, and perhaps you'd rather not be on the receiving end of them. 
+
+		DefaultEvent
+Name: A Rat in the Making
+Id: 152195
+Description: You extend a hand to the Chief Engineer, who shakes it grimly. The Seneschal hisses and chatters her teeth in disgust, but keeps her distance. 
+<br/><br/>
+"You've made the right choice," says the Chief Engineer. "Let me show you around." 
+
+		ParentEvent
+Name: 
+Id: 152194
+Description: 
+
+
+
+	ChildBranches 2
+Name: Favour the Seneschal
+Id: 129726
+Description: Perhaps you've never liked rats; perhaps you've always been fond of rat-skin suits; perhaps the Seneschal's charms are too much for you. At any rate you're keen to find out more about their civilisation.
+
+		DefaultEvent
+Name: A Knight Out of Habit
+Id: 152196
+Description: You bow to the Seneschal, who purrs with pleasure while the Chief Engineer gnashes his teeth, but keeps his distance.<br><br>
+"You have chosen wisely, Captain," says the Seneschal. "Come, and I will explain our situation to you in greater detail."
+
+		ParentEvent
+Name: 
+Id: 152194
+Description: 
+
+
+
+	ChildBranches 3
+Name: Abstain
+Id: 129731
+Description: You'd prefer not to get involved. 
+
+		DefaultEvent
+Name: Cold Shoulders
+Id: 152202
+Description: The Chief Engineer and the Seneschal share a look, then regard you with the same cool distance. <br><br>
+
+"Coward," spits one. "Craven," sneers the other. 
+<br><br>
+They hold you in ferocious contempt. Well, good for them. You have a ship to sail. No doubt they'll change their tune if you come back. It's not like they're awash with allies.
+
+		ParentEvent
+Name: 
+Id: 152194
+Description: 
+
+
+
+	ChildBranches 4
+Name: Attempt to Broker Peace
+Id: 129732
+Description: Surely their commonalities are more numerous than their differences. Perhaps you can help them get along. 
+
+		DefaultEvent
+Name: Hubris
+Id: 152203
+Description: The Chief Engineer and the Seneschal share a look, then regard you with scornful amusement.<br><br>
+
+"Yes," smirks the Chief Engineer, "You're obviously much cleverer than us."
+<br><br>
+
+"Oh, much," murmurs the Seneschal. "You clearly know us much better than we know ourselves." <br><br>
+Apparently idealism won't help, here.
+
+
+
+		ParentEvent
+Name: 
+Id: 152194
+Description:

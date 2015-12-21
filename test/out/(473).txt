@@ -1,0 +1,19 @@
+(473)
+Name: Silence of the Nativity
+Id: 167317
+Description: The Nativity has been dark since you awoke. Those of the crew that witnessed the sorrow-spiders' rage will not speak of it. Pressed, they only repeat, "Not now. Please."
+
+	ChildBranches 1
+Name: There is a raw, broken certainty in their voices
+Id: 138364
+Description: Let it be a matter for another time then.
+
+		DefaultEvent
+Name: A time as far in the future as possible
+Id: 167318
+Description: Should you return to this accursed place at all.
+
+		ParentEvent
+Name: 
+Id: 167317
+Description:

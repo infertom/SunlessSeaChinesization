@@ -1,0 +1,28 @@
+(481)
+Name: Hunter's Keep in darkness
+Id: 148956
+Description: A hump of dark rock swathed in mist, like a hundred  other Unterzee islands. A grand house rises on the rock: a silhouette empty of lights. The uncut grass on the lawns bends, rises, bends again in the breeze.
+<br/><br/>
+You smell damp stone and, faintly, blood.
+
+	ChildBranches 1
+Name: Go up to the house
+Id: 127734
+Description: Crunch across the gravel, up to the door. The brass of the door-knocker is tarnished. The paint is beginning to peel in the salt zee air. No one answers, but the door is unlocked...
+
+		DefaultEvent
+Name: An empty house
+Id: 148957
+Description: The hall is dark. The parlour, too. There are signs of disturbance here and there - a smashed cup, an overturned piano- stool, scratches on the walls.
+<br/><br/>There are sounds from downstairs, from the kitchen. You push open the door, cautiously. Something clings to the ceiling: something turns yellow eyes to you and hisses.
+
+		ParentEvent
+Name: 
+Id: 148956
+Description: 
+
+		SuccessEvent
+Name: Words in darkness
+Id: 149698
+Description: The hall is dark. The parlour, too. There are signs of disturbance here and there - a smashed cup, an overturned piano-stool, scratches on the walls. You bend to pick up a page of paper and hold it to the light. It is an unfinished poem. You think the handwriting may be Phoebe's. The 'absent moon', the 'gnawing hunger in the heart'. The well. The sea. A great many crossings-out.
+<br/><br/>There are sounds from downstairs, from the kitchen. You push open the door, cautiously. Something clings to the ceiling: something turns yellow eyes to you and hisses.

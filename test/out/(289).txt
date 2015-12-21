@@ -1,0 +1,100 @@
+(289)
+Name: A Serpent-Image
+Id: 147445
+Description: "Here!" a zailor shouts. There's something nestled in the mossy crook of a grey-leafed tree. A wooden serpent, lacquered with black, red and yellow. Its eyes are garnet flakes. "That'd fetch a good price at the Bazaar," the zailor observes. "But it has a cursy look," points out another.
+
+	ChildBranches 1
+Name: Leave it
+Id: 126716
+Description: Perhaps it's cursed, perhaps it's not, but your crew gets superstitious at the drop of a bat.
+
+		DefaultEvent
+Name: Approving murmurs
+Id: 147447
+Description: "Let it rot!" you cry. "Heathen thing." The crew raise a muted cheer, although the zailor who found it looks disappointed.
+
+		ParentEvent
+Name: 
+Id: 147445
+Description: 
+
+
+
+	ChildBranches 2
+Name: The Genial Magician has a use for it
+Id: 126718
+Description: "I say," he remarks. "This is just what I need. Mind if I hang on to it?"
+
+		DefaultEvent
+Name: Just what he needs?
+Id: 147449
+Description: "Men rule the world outside mirrors," he tells you, "more or less. And the Fingerkings rule the world inside them. (More or less.) A long time ago, some rather careless people made these things to imprison Fingerkings. I'm not so careless. I can use it to enact my revenge on the 'king that took my hand." He is gloating. He actually strokes his moustache with his hook.
+<br/><br/>
+He retires to his cabin to investigate the serpent-image, but emerges a day later disappointed. "Different geometries," he explains obscurely. "Do you mind if we pop by the Khanate? I can find someone there to help me work this one out."
+[Visit the port of Khan's Heart to help the Magician further.]
+
+		ParentEvent
+Name: 
+Id: 147445
+Description: 
+
+
+
+	ChildBranches 3
+Name: Take it
+Id: 127828
+Description: Perhaps you can think of some way to - wait. You've been here before. The tree, the serpent. This isn't the first time.
+
+		DefaultEvent
+Name: 
+Id: 149120
+Description: 
+
+		ParentEvent
+Name: 
+Id: 147445
+Description: 
+
+
+
+	ChildBranches 4
+Name: Take it anyway
+Id: 126715
+Description: Perhaps you can think of some way to allay their fears.
+
+		DefaultEvent
+Name: An ophidian gaze
+Id: 147446
+Description: You've no idea what the thing is. You put it on the shelf next to your antique sextant, but the ruddy glitter of its eyes gives you the creeps. Eventually you leave a hat on top so you don't have to look at it. Meanwhile, two sailors complain that they're dreaming of 'hungry jungles'.
+
+		ParentEvent
+Name: 
+Id: 147445
+Description: 
+
+		SuccessEvent
+Name: You recognise it...
+Id: 147450
+Description: It's an image of a Fingerking! A serpent-thing that crawls beneath the skin of mirrors. They might be real and they might not, but why take chances? You order the confiscation of all mirrors until journey's end, and explain that'll keep the ship safe. There is some grumbling from those sailors who like to trim their beards, but the measure reassures most of them.
+
+
+
+	ChildBranches 5
+Name: Take it, but reward the zailor
+Id: 126717
+Description: Half-share: fair's fair. If she hadn't seen it, you'd have missed it entirely.
+
+		DefaultEvent
+Name: An ophidian gaze
+Id: 147448
+Description: You've no idea what the thing is. You put it on the shelf next to your antique sextant, but the ruddy glitter of its eyes gives you the creeps. Eventually you leave a hat on top so you don't have to look at it. Meanwhile, two sailors complain that they're dreaming of 'hungry jungles'. At least the extra pay has reassured its discoverer, though.
+
+		ParentEvent
+Name: 
+Id: 147445
+Description: 
+
+		SuccessEvent
+Name: You recognise it...
+Id: 147451
+Description: It's an image of a Fingerking! A serpent-thing that crawls beneath the skin of mirrors. They might be real and they might not, but why take chances? You order the confiscation of all mirrors until journey's end, and explain that'll keep the ship safe. There is some grumbling from those sailors who like to trim their beards, but the measure reassures most of them. And the discoverer, counting their extra pay, is happier.

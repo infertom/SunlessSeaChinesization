@@ -1,0 +1,41 @@
+(300)
+Name: A Stranger in Difficulties
+Id: 154999
+Description: As you pass an elegant house, lights blaze and shouts echo! Someone has caused a commotion. And here, you imagine, is that someone, slipping over the garden wall. He loses his grip and falls. A muffled cry, and he's sitting on the ground, nursing his ankle.
+
+	ChildBranches 1
+Name: Assist him
+Id: 131528
+Description: He's probably up to no good, but perhaps that's an opportunity for you.
+
+		DefaultEvent
+Name: A narrow escape
+Id: 155000
+Description: You see him start when he takes in your foreign dress, but he's eager for any assistance. You hobble away together to a safe distance. "Thank you," he gasps. "Here - your share." He extracts a garnet-eyed wolf-figurine from his clinking leather satchel, and hobbles away into the night.
+
+		ParentEvent
+Name: 
+Id: 154999
+Description: 
+
+		RareDefaultEvent
+Name: A flashing smile
+Id: 155002
+Description: A devilishly handsome young man! "Oh, thank you," he says. He peers at your face, and adds "Thank you!" in English this time. "I was visiting a friend of mine, and her, er, other friend, well, close friend, well, husband, came home early. I could have been very embarrassed. Oh, Great Wind, you've recognised my face, haven't you?" (You haven't.) "Look, I'll put a word in for you with the Clan. Drop by the palace some day, and I'll see you're remembered. Don't mention my name, though. Here's my boat. You! Pilot! Pay this one. He's a friend of the Leopard."
+
+
+
+	ChildBranches 2
+Name: Turn him in
+Id: 131529
+Description: For justice and all those admirable abstract things.
+
+		DefaultEvent
+Name: "Here!"
+Id: 155001
+Description: Lamp-bearing burlies swarm the back of the house. They drag the wall-climber away. The enraged householder, grimly smiling, thanks you and tosses you a Khaganian coin.
+
+		ParentEvent
+Name: 
+Id: 154999
+Description:

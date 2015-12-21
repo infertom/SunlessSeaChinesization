@@ -1,0 +1,154 @@
+(172)
+Name: Beside the Face
+Id: 169914
+Description: Up on the hillside, the buildings become scarcer and then vanish entirely, leaving you looking at the bottom of a great chin.
+
+	ChildBranches 1
+Name: Push a visiting Bat off the stone chin
+Id: 139890
+Description: The visitor is wearing all black, and keeps reaching up to scratch under its bat-mask. 
+
+
+
+		DefaultEvent
+Name: Perhaps not
+Id: 169918
+Description: You approach the Bat. It takes a step sideways away from the cliff edge and cocks its head at you. "Ey there," it says. "You're not me executioner."
+<br/><br/>
+Perhaps it's not your role, then.
+
+		ParentEvent
+Name: 
+Id: 169914
+Description: 
+
+
+
+	ChildBranches 2
+Name: Deface the stone with new markings
+Id: 139891
+Description: [This will get you kicked off the island, in all likelihood.]
+
+		DefaultEvent
+Name: Caught in the act
+Id: 169919
+Description: You ready your hand to write, but you don't get further than a few exclamatory glyphs before you're interrupted by a Jackal and led away for judgment. They don't take kindly to such interventions.
+<br/><br/>
+When you recover from the pain they visit on you, you're back where you started. No mask, no costume, no reputation for expertise.
+
+		ParentEvent
+Name: 
+Id: 169914
+Description: 
+
+
+
+	ChildBranches 3
+Name: Silently observe the attitude of the visiting Lion
+Id: 139892
+Description: It is paying obeisance to the face.
+
+
+		DefaultEvent
+Name: Service and worship
+Id: 169920
+Description: You contemplate the Lion for some time. There is an arithmetic sequence to the count of bows that it performs to each feature: the eyes, the nose, each lip. It is hard to know whether Lion is meant to be her worshipper or her lover. Perhaps the two functions are not very distinct.
+<br/><br/>
+When at last the Lion's bows are complete, it passes you with a slight snap of its mask-jaws. It was rude of you to stand there watching. The Moth watches visitors. It does not watch citizens. To do so has violated the strictures of both of your roles.
+
+		ParentEvent
+Name: 
+Id: 169914
+Description: 
+
+
+
+	ChildBranches 4
+Name: Meditate on the meaning of the face
+Id: 139893
+Description: It offers many forms of inspiration.
+
+		DefaultEvent
+Name: Flourishing in eternity
+Id: 169921
+Description: The citizens give many meanings to the face: perpetual beauty; stasis; the idea of looking upward into an unyielding darkness. But most of all they speak of the idea of someone above looking down. The face is not convenient to view from down here. It would look its best from the perspective of the ceiling of the Unterzee, beyond reach.
+
+		ParentEvent
+Name: 
+Id: 169914
+Description: 
+
+
+
+	ChildBranches 5
+Name: Look for the doorway into the Ear
+Id: 139900
+Description: It must be around here somewhere.
+
+
+
+		DefaultEvent
+Name: Harder to find
+Id: 169930
+Description: You climb up along the side of Flourishing's cheek, following a staircase of worn steps. You don't remember the path being this difficult before.
+<br/><br/>
+The entry, when you come to it, is plugged with a substance fibrous as spider silk but slick and waxy to the touch. Is this new? Does it grow here? Do they clear it away every year? Is it a form of security?
+<br/><br/>
+But it doesn't yield to your hand.
+
+
+		ParentEvent
+Name: 
+Id: 169914
+Description: 
+
+
+
+	ChildBranches 6
+Name: Offer instruction to the Frog that found its way up here
+Id: 139889
+Description: That's the sort of thing your Moth would have done to you.
+
+
+		DefaultEvent
+Name: Attended by some awkwardness
+Id: 169916
+Description: You tell the Frog a partially true story about how this face was carved. 
+<br/><br/>
+It replies with questions. Detailed, astute, scholarly questions, about who the original people were who inhabited the island and whether the present citizens are their descendants, and, if not, where the original inhabitants might have gone. It hasn't learned the role of stupid credulity at all.
+<br/><br/>
+Caught off guard like this, you have a hard time answering its questions smoothly. You part with irritation on both sides.
+
+		ParentEvent
+Name: 
+Id: 169914
+Description: 
+
+		SuccessEvent
+Name: Creditable on both sides
+Id: 169917
+Description: You tell the Frog a partially true story about how this face was carved. The Frog replies with an amplified belch and a story it heard about the sphinxes known as the Salt Lions. It's really a very good Frog.
+
+
+
+	ChildBranches 7
+Name: Study ancient marks
+Id: 139888
+Description: Tiny pictures march across the stone.
+
+		DefaultEvent
+Name: Old words
+Id: 169915
+Description: No matter how you hold your head, no matter in what direction you try to read the script, you can't make out the meaning. They're in too old a dialect. Not to mention that the ones near the bottom get smaller and harder to read.
+
+		ParentEvent
+Name: 
+Id: 169914
+Description: 
+
+		SuccessEvent
+Name: Love and labour costs
+Id: 169924
+Description: The pictures tell a story: this is the face of a woman, Flourishing-of-Years, who once was loved by one of the nobles inhabiting this island. But then she - what's this pictogram? ascended? bloomed? flew away? And consumed with grief he assembled those-who-carve-great-things-from-stone and remade the whole surface of the island.
+<br/><br/>
+There are several more lines after that, which narrate the cost of the labour contract for the workers, and what was done with all the stone that was carted away, and the compensation given to those who had formerly owned houses on what is now face territory.

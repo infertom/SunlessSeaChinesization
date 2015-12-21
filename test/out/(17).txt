@@ -1,0 +1,161 @@
+(17)
+Name: ADVICE FOR CAPTAINS
+Id: 149127
+Description: The much-lamented M. Demeaux found a watery grave long, long ago. Probably your end will be no better. But if you read this book of invaluable advice, your chances will improve.
+
+	ChildBranches 1
+Name: ON EXPLORATION
+Id: 127831
+Description: Exploration is the heart of the game. Risk brings reward. Staying close to London is safe, but eventually you'll run out of fuel and supplies. Exploring, and playing port stories, will allow you to find Secrets and Echoes.
+
+		DefaultEvent
+Name: Spending Secrets and Echoes
+Id: 149128
+Description: Speak to your officers to spend Secrets on improving your abilities. Spend Echoes on equipment in ports. You can often find officers in London.
+
+		ParentEvent
+Name: 
+Id: 149127
+Description: 
+
+
+
+	ChildBranches 2
+Name: ON FIGHTING
+Id: 127832
+Description: When your enemy is in the arc of your guns, you'll see the firing solution - the glow around the fire buttons - increase. When it's complete, let them have it!
+<br><br>
+You can fire earlier if you like, but may miss. Larger ships may have access to different gun slots.
+
+		DefaultEvent
+Name: Avoiding enemy attacks
+Id: 149129
+Description: A green glow means your enemy is in the light. Enemy ships also have an arc on their guns - try to stay out of their way. Enemy zee-beasts will generally try to ram or bite you, and they'll submerge between times to avoid your attacks.
+<br/><br/>
+If you're careful and turn your lights off, you may also be able to sneak up behind 'em and get a shot in first.
+
+		ParentEvent
+Name: 
+Id: 149127
+Description: 
+
+
+
+	ChildBranches 3
+Name: ON EXPLORATION
+Id: 127833
+Description: When you put into port, you can generally explore and exhaust the story options until your next visit.
+
+		DefaultEvent
+Name: Something Awaits You
+Id: 149130
+Description: If you have the Something Awaits You quality when at zee, you know that more story is waiting for you when you make port. It'll crop up whenever you're sailing around - if you see a flavour message like 'Distant bells', that means you have Something Awaits. 
+
+		ParentEvent
+Name: 
+Id: 149127
+Description: 
+
+
+
+	ChildBranches 4
+Name: ON TERROR
+Id: 127834
+Description: Terror increases gradually over time while you're out at zee, away from land. Watch the Skull: when you see orange or red pips, Terror will bump up if you spend much longer in the frightening place. Many events will increase it too.
+
+		DefaultEvent
+Name: How do I reduce it?
+Id: 149131
+Description: Use shore leave in London - or in other ports, but London is most cost-effective - to reduce it. Lots and lots of other stories increase or reduce Terror.
+
+		ParentEvent
+Name: 
+Id: 149127
+Description: 
+
+
+
+	ChildBranches 5
+Name: ON FINDING PLACES TO EXPLORE
+Id: 127850
+Description: Use your zee-bat scout. Technically, it's a chiropteroscope, but we're among friends here. 
+
+		DefaultEvent
+Name: Zee-bat?
+Id: 149153
+Description: Press Z, or click the zee-bat button at the bottom of the screen, and it'll tell you where the nearest undiscovered island is.
+<br/><br/>
+Be warned: if you're moving, it will give less accurate directions. Pause to get the most accurate reading.
+
+		ParentEvent
+Name: 
+Id: 149127
+Description: 
+
+
+
+	ChildBranches 6
+Name: ON NEW STORIES
+Id: 127864
+Description: We'll add new stories to the game from time to time. You can download them from the main menu. 
+
+		DefaultEvent
+Name: Registering on Fallen London
+Id: 149172
+Description: You need to register an account with our system to download stories. COINCIDENTALLY this also gives you a login on our odd, rich, cult browser game at www.fallenlondon.com. You should definitely give it a try if you like the world of SUNLESS SEA - but it's 100% optional.
+
+		ParentEvent
+Name: 
+Id: 149127
+Description: 
+
+
+
+	ChildBranches 7
+Name: ON MERCY
+Id: 131172
+Description: Unforgiving Mode is how the game is meant to be played - one autosave, updated whenever you reach port and wiped on death. If you're getting frustrated, or want a more leisurely exploration, you can switch to Merciful Mode.
+
+		DefaultEvent
+Name: Merciful Mode
+Id: 154475
+Description: Saving or loading manually will permanently switch your character to Merciful Mode. This will remove the Invictus Token. Completing a game with the Invictus Token intact is a badge of honour.
+
+		ParentEvent
+Name: 
+Id: 149127
+Description: 
+
+
+
+	ChildBranches 8
+Name: ON ENDINGS, AND BEGINNINGS
+Id: 146771
+Description: Captains often die. This is not the end. When you die, you'll learn lessons which will help you survive next time. Beware: the layout of the Unterzee changes with each new captain. But home waters are stable, and islands will only move so far.
+
+		DefaultEvent
+Name: Legacies
+Id: 181238
+Description: Future captains can inherit some skills, officers, equipment and money. Over time, you'll find extra items and advantages that allow you to preserve a greater inheritance.
+
+		ParentEvent
+Name: 
+Id: 149127
+Description: 
+
+
+
+	ChildBranches 9
+Name: SELL THIS BOOK
+Id: 146773
+Description: You're a veteran captain, and require no more advice? Very well, then.
+
+		DefaultEvent
+Name: Sold!
+Id: 181241
+Description: Someone else will better appreciate M. Demeaux's work.
+
+		ParentEvent
+Name: 
+Id: 149127
+Description:

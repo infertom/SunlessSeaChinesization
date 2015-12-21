@@ -1,0 +1,172 @@
+(522)
+Name: Avid Horizon
+Id: 153237
+Description: Two vast winged shapes guard a gate of something like resin, smooth but uneven. It is deep gant - the colour that remains when all other colours have been eaten. Ice crusts over the crack between its valves. Approach, and your breath freezes, falls tinkling in shards from the air. It would be utterly foolish to touch the thing.
+<br/><br/>
+A merciless wind blows from everywhere to everywhere. It passes without effort through your bridge-coat, your flesh, your lungs. The dock lies empty.
+
+	ChildBranches 1
+Name: Open the High Gate
+Id: 130398
+Description: A curious miscellany, gathered from all across the wide black zee. Your companion knows how to use these materials. [Complete a certain matter in London to achieve this.]
+
+		DefaultEvent
+Name: Almost there.
+Id: 153238
+Description: Most of the supplies remain packed. The Venturer extracts gems, wire, bone. At the base of each statue, he constructs a kind of cage. At the heart of each cage is a candle. "We won't light them," he tells you confidentially. "We'd be seen. The Gate only opens when the Watchers are blind..."
+
+		ParentEvent
+Name: 
+Id: 153237
+Description: 
+
+
+
+	ChildBranches 2
+Name: Retrieve Strategic Information
+Id: 130399
+Description: From here? But you were given a sign to look for. There it is, carved on one of the pillars of the dock.
+
+		DefaultEvent
+Name: Pleas for clemency
+Id: 153239
+Description: Below the sign, an authoritative hand has carved this message: IF YOU WISH TO RETURN TO LONDON - IF YOU SEEK THE FORGIVENESS OF THE EMPRESS - IF YOU WILL SACRIFICE ALL TO MAKE AMENDS - RECORD YOUR NAME AND CRIME.
+<br/><br/>
+Below are the names of murderers, traitors, hopeless villains who've fled into exile. They've made the icy pilgrimage here, to the end of the world, to prove their desperation to return home. You record them all, the old and the freshly carved. The Admiralty will pick through the names and make their choice. Leave now: quickly.
+
+		ParentEvent
+Name: 
+Id: 153237
+Description: 
+
+
+
+	ChildBranches 3
+Name: Look into the stars
+Id: 130400
+Description: Stars float in the mirrored night of the waves. Watch them a while.
+
+		DefaultEvent
+Name: Peace beneath the world
+Id: 153240
+Description: These are real stars. They burn above the roof of the Neath, beyond the earth, in the spaces of heaven. Even so far away, even now, their eyes are on you - but here in the night under the world, you are safe - safe -
+<br/><br/>
+You return to your senses, gasping. Your hands are cold, numb. How long were you watching the stars?
+
+		ParentEvent
+Name: 
+Id: 153237
+Description: 
+
+
+
+	ChildBranches 4
+Name: Look into the stars
+Id: 130401
+Description: Stars float in the mirrored night of the waves. Watch them a while.
+
+		DefaultEvent
+Name: O God
+Id: 153241
+Description: You cannot. You cannot. Look away.
+
+		ParentEvent
+Name: 
+Id: 153237
+Description: 
+
+
+
+	ChildBranches 5
+Name: Gather intelligence
+Id: 131307
+Description: ...such as there is to gather, out here where nothing moves.
+
+		DefaultEvent
+Name: Nothing moves.
+Id: 154675
+Description: This stillness is itself of interest to the Admiralty. It is not impossible someone foolish might attempt to open the gate. It is not inconceivable that it might open from the other side. And what then?
+
+		ParentEvent
+Name: 
+Id: 153237
+Description: 
+
+
+
+	ChildBranches 6
+Name: Put a blemmigan ashore
+Id: 133909
+Description: Though it's far from hospitable...
+
+		DefaultEvent
+Name: Probably not
+Id: 158883
+Description: The blemmigan, eyeless as it is, looks to you, looks to the shore, looks back to you. Its reaction is quite clear: it's not going anywhere near this place.
+
+		ParentEvent
+Name: 
+Id: 153237
+Description: 
+
+
+
+	ChildBranches 7
+Name: You heard a story...
+Id: 133966
+Description: The ice by the gate's edge. There was a whisper about a hunting-quest, and a final revenge.
+
+		DefaultEvent
+Name: Behind the ice
+Id: 158972
+Description: Yes. Yes, this is what the rumours meant. A hunter frozen in the ice, hands contorted to claws, mouth agape. With her left hand, she had plucked her own eye from the socket. It lies very close to the surface of the ice.
+<br/><br/>
+If the stories are true, there's a dark virtue in that eye. Take it, then. But perhaps you should put it in a jar.
+
+		ParentEvent
+Name: 
+Id: 153237
+Description: 
+
+
+
+	ChildBranches 8
+Name: Explore along the shoreline
+Id: 146494
+Description: What can be found on this bleak beach?
+
+		DefaultEvent
+Name: An abandoned expedition
+Id: 180749
+Description: A ragged tent flaps in the freezing wind. Ice-encrusted bones lie tumbled at the flap. Someone came here to be forgotten.
+
+		ParentEvent
+Name: 
+Id: 153237
+Description: 
+
+		RareDefaultEvent
+Name: A shipwreck
+Id: 180750
+Description: Beneath the black and freezing water, a ship lies rusting. Its hull has been torn like paper - lifebergs' work? Some of the supplies and cargo are salvageable. Why were they bringing sapphires here?
+
+
+
+	ChildBranches 9
+Name: Lead the Sigil-Ridden Navigator to a certain dock-pillar
+Id: 147449
+Description: Scraps of paper - stiff with northern frost - are stuffed into its cracks.
+
+		DefaultEvent
+Name: Unforgiven
+Id: 182212
+Description: A message is carved into the wood: IF YOU WISH TO RETURN TO LONDON - IF YOU SEEK THE FORGIVENESS OF THE EMPRESS - IF YOU WILL SACRIFICE ALL TO MAKE AMENDS - RECORD YOUR NAME AND CRIME.
+<br/><br/>
+Your Navigator hunts through the slips of paper. They are a library of villains and villainy: here are murders, betrayals, treasons and perjuries.  He stops, stares at one, pulls it free. "This is mine," he says. "I wrote this." It is a confession. Beneath, in more recent and less careful letters, he has added a note: <i>You did not answer. If I cannot be forgiven, then I will forget. The Chapel of Lights will help me, for a price.</i>
+<br/><br/>
+He laughs, wildly. "Twice! I paid them twice! Once to take my memories, and once to guide me back to them!" His laughter deepens to hysteria. Two crewmen help you drag him back to your ship. [Speak to your Navigator on board to learn of his confession.]
+
+		ParentEvent
+Name: 
+Id: 153237
+Description:

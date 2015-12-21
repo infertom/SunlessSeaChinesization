@@ -1,0 +1,87 @@
+(531)
+Name: An Urgent Venture
+Id: 152302
+Description: The Page leads you -- crouching at first, and then on your knees -- before King Gracegnaw and the Seneschal. The King is the largest guinea pig you've ever seen, easily twice the size of the largest Knight in his retinue. The Seneschal looks positively dainty next to him.
+<br><br>
+"We are told," intones the King, "that you have promised your assistance to the House of Cavy. This is agreeable to us. But what form shall your assistance take?"
+
+	ChildBranches 1
+Name: Offer medicine
+Id: 129804
+Description: You'd rather not get directly involved, but you can spare some salves and brews from the hold.
+
+		DefaultEvent
+Name: Acceptable assistance.
+Id: 152303
+Description: Your crew hauls a crate of medicines to shore, and the Seneschal nods her approval. "Adequate -- these will go a considerable way towards fortifying us for the next battle. We thank you."
+<br><br>
+The Cavies reward you with a store of coal from the steam-pinnace as well as... Well, it's not like you haven't eaten rat flesh before. They gift you with fine fabrics, too.
+<br><br>
+"A favour to remember us by," smiles the Seneschal.
+
+		ParentEvent
+Name: 
+Id: 152302
+Description: 
+
+
+
+	ChildBranches 2
+Name: Offer to obtain the Eye by force
+Id: 129807
+Description: You have guns. You have a boat. If you row a raiding party to the northern side of the island then you and the Cavies can flank the rats' settlement. 
+
+		DefaultEvent
+Name: A question of timing.
+Id: 152306
+Description: You gave clear orders. Your navigation was impeccable. But it seems the Rats manning the front lines were able to signal the settlement about your attack and keep the Cavies busy for long enough that the Chief Engineer succeeded in rallying his troops into defensive manoeuvers and made it impossible for you to set foot on their beach.
+<br><br>
+You watch helplessly as the Cavies that manage to make it to the settlement fall, singly and in groups, to the ruthless efficiency of the rats. The Chief Engineer, in turn, watches you and your crew while he instructs his fellows in setting Cavy heads on pikes and parading them along the shore.
+
+		ParentEvent
+Name: 
+Id: 152302
+Description: 
+
+		SuccessEvent
+Name: A perfect pincer.
+Id: 152307
+Description: Your plan succeeds brilliantly. Easy enough to sneak up on the settlement when the stolen Eye gives off such light and casts such shadows around the shore; even easier to do what needs to be done when the Cavies are rallied by the sight of their treasure.<br><br>
+What follows is a tremendous rout; you see rats ripped apart, throats and bellies torn open, viscera slickening the sand. The Cavies take losses, too, but soon the Seneschal declares the day won. You are rewarded with a substantial quantity of scintillack.
+<br><br>
+You see, to your surprise, that the Cavies have spared a number of the Rats' children, and rounded them up. You comment favourably on this, praising the Seneschal's high-minded mercy.
+<br><br>
+The Seneschal chitters pleasantly. "My dear Captain. Be assured that we shall treat them very well. But it is hardly mercy that motivates the preservation of an enemy's livestock."
+<br><br>
+A small rat weeps quietly over a parent's severed torso before being prodded and pressed into a march.
+
+
+
+	ChildBranches 3
+Name: Offer to obtain the Eye through cunning
+Id: 129808
+Description: One should use shadows to catch a light. The rats won't even know you were there. Probably.
+
+		DefaultEvent
+Name: Slow to strike
+Id: 152308
+Description: You spend a few hours scouting the rats' shoreline, determining the best point of approach. There: a cove thick with Chickenwood, too small and cramped to fear the mooring of a boat. 
+<br><br>
+Your crew rows you towards the very knife's edge of shadow cast by the blazing Eye, and you carefully swim the rest. From shore it's an easy enough matter to pick your way towards the settlement -- and once you're within twenty feet of the Eye, you sprint.
+<br><br>
+You stumble, flailing, into the light of the Eye. This was a terrible plan! What possessed you to think running towards the light was a good idea? "Protect the Star!" they shout as they launch themselves at your legs and arms, sinking their teeth into your flesh. <br><br>
+It's all you can do to shake them off in the water as you strike out for your boat, your zailors watching in horror as the beasts cluster your limbs like fierce, furry leeches.
+
+		ParentEvent
+Name: 
+Id: 152302
+Description: 
+
+		SuccessEvent
+Name: Ships in the night.
+Id: 152309
+Description: You spend a few hours scouting the rats' shoreline, determining the best point of approach. There: a cove thick with Chickenwood, too small and cramped for guards to fear the mooring of a boat. 
+<br><br>
+Your crew rows you towards the very knife's edge of shadow cast by the blazing Eye, and you carefully swim the rest. From shore it's an easy enough matter to pick your way towards the settlement -- and once you're within twenty feet of the Eye, you sprint.
+<br><br>
+The rats shout in alarm and scurry towards you, but your legs easily outpace them; you smother the Eye in your wet clothing and bound with it towards your boat, waiting in the shallows, while the rats around you fire wildly into the sudden dimness, wailing their loss to the zee. The cavies reward you suitably on your return.

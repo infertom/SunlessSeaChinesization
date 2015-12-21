@@ -1,0 +1,204 @@
+(258)
+Name: Speak with your Navigator
+Id: 148807
+Description: "I... yes. Yes, now is good. Thank you."
+
+	ChildBranches 1
+Name: Increase your Mirrors
+Id: 127638
+Description: [Spend a Secret to improve your Mirrors, unless it's higher than 100.]
+
+		DefaultEvent
+Name: "I'm sorry. It's the pain. No, this is what you wanted, I think."
+Id: 148808
+Description: He is eager to instruct you, like a drowning man striking for air. But he struggles to put words to his understanding. Does his sigil give him his insights? Or is it old learning he has failed to forget?.
+
+
+
+		ParentEvent
+Name: 
+Id: 148807
+Description: 
+
+
+
+	ChildBranches 2
+Name: Answer questions about your past
+Id: 127640
+Description: You've kept your secrets long enough. [Unmask yourself! This will allow you to select a Past, Ambition, and form of preferred address - also providing you with a specialist ability bonus.]
+
+		DefaultEvent
+Name: 
+Id: 148810
+Description: 
+
+		ParentEvent
+Name: 
+Id: 148807
+Description: 
+
+
+
+	ChildBranches 3
+Name: Invite him to dine with you
+Id: 127641
+Description: He has an admirable appetite for so slight a fellow. 
+
+		DefaultEvent
+Name: Forgetfulness
+Id: 148811
+Description: Seconds, then thirds, disappear in small, hasty morsels. He is nervous, and not a gifted conversationalist. You do your best to plug the silence. When you ask about his past, he winces. 
+<br/><br/>
+"I can't say, [q: Addressed As]. This -" he taps the livid sigil on his temple, which twitches like a scorpion's sting "- has burned away my memories. I recall I have a brother, but not his name or where he is. I remember the names of the ships I've served on - the <i>Implicit</i>, the <i>Bonny Swan</i> - but not their crew."
+<br/><br/>
+How did he come by the sigil? He clutches his head. "I don't know, I don't know. Thinking about it is like fire in my skull." He grits his teeth. "Someone must have hated me very much to curse me with it. But I can't even remember my enemy." [Speak to him again to advance his story.]
+
+		ParentEvent
+Name: 
+Id: 148807
+Description: 
+
+
+
+	ChildBranches 4
+Name: His last request
+Id: 147453
+Description: The truth has broken him.
+
+		DefaultEvent
+Name: Parting ways
+Id: 182216
+Description: He buries his face in his hands. "Even if I could remember, I would not want to. But it is only a matter of time until this -" he runs a finger over his sigil "- takes something I can't do without. Maybe I will forget how to breathe. Or which way is north. Perhaps I will strand us all at zee again, and it'll be oaths of silence and straws in the dark. Be rid of me, [q: Addressed As]. Put me ashore somewhere I can be forgotten."
+
+
+
+		ParentEvent
+Name: 
+Id: 148807
+Description: 
+
+
+
+	ChildBranches 5
+Name: Increase your Mirrors
+Id: 147454
+Description: [Spend a Secret to improve your Mirrors, unless it's higher than 100.]
+
+		DefaultEvent
+Name: He leans close
+Id: 182217
+Description: He does not come on deck any more. He is light as a scarecrow; all hollow inside. A sudden pitch would cast him overboard. The blackness of his cabin is alleviated only by the sigil-glow, smugly violet. Since Kingeater's Castle he can feel the pull of the sea under his skin. He sees its changes like storms on the horizon. He can find a path by spilling blood in the waters and watching its churn. He tells you his secrets. 
+
+		ParentEvent
+Name: 
+Id: 148807
+Description: 
+
+
+
+	ChildBranches 6
+Name: "Captain. Captain!"
+Id: 147492
+Description: "My sleep is riddled with dreams, [q:Addressed As]. Dreams of bells and candles!"
+
+		DefaultEvent
+Name: A destination
+Id: 182268
+Description: He paces the deck. "I see a lonely house lit by tallow and wick. A bell is ringing. It rings now! Do you hear it?" He scratches at his sigil, which has begun to bleed. "Do you know this place, captain? Can I plot a course?"   
+<br/><br/>
+A place of candles and bells. The Chapel of Lights - a northern church where no sin is too terrible. 
+
+		ParentEvent
+Name: 
+Id: 148807
+Description: 
+
+
+
+	ChildBranches 7
+Name: The ship's surgeon finds you
+Id: 147496
+Description: "He's awake, [q:Addressed As], and he's asking for you." The Navigator has slept - fitfully - since he collapsed on the Frostfound ice.
+
+		DefaultEvent
+Name: New purpose
+Id: 182273
+Description: His sigil has grown. It reaches down to his cheek, now. The skin it marks is pitted and grey.
+"Captain! The ice told me. The sigil's reflection was its opposite. Or inverse. It doesn't matter. We must go North! North and North and North. To the Avid Horizon. To Void's Approach." He struggles to rise. "Where are my charts? My compass? My sounding-line?"
+
+		ParentEvent
+Name: 
+Id: 148807
+Description: 
+
+
+
+	ChildBranches 8
+Name: "Captain, may I speak with you? In private."
+Id: 147497
+Description: His voice is dull. His sigil throbs, red as embers in the Neathy gloom. 
+
+		DefaultEvent
+Name: His forgotten crime
+Id: 182275
+Description: He hands you his confession, retrieved from Void's Approach. "Please. Read."
+
+		ParentEvent
+Name: 
+Id: 148807
+Description: 
+
+
+
+	ChildBranches 9
+Name: Suggest another option
+Id: 147498
+Description: It would be a release for him - of a sort - and it has a certain sanguine poetry...
+
+		DefaultEvent
+Name: Your stomach growls
+Id: 182276
+Description: You describe a rite that you could conduct at Kingeater's Castle. Afterwards, he would forget his pain. He would even forget that he forgot. The part of him that suffers will be gone, and whatever remains will serve you. He shudders. "It is not forgiveness," he whispers. "But perhaps it is justice."
+
+		ParentEvent
+Name: 
+Id: 148807
+Description: 
+
+
+
+	ChildBranches 10
+Name: Ask where he would like to disembark
+Id: 147527
+Description: "Leave me on Codex, where my silence won't be questioned. Or at the Empire of Hands, where no one will care."
+
+		DefaultEvent
+Name: Choices
+Id: 182317
+Description: You have heard that the Mute Exiles on Codex reward anyone who brings them a new initiate. They pay with secrets of fire. 
+<br/><br/>
+There will be no such recompense from the apes of Port Stanton, but your Navigator offers to leave you his tools, charts and notebooks in return for his passage.
+<br/>
+[Abandon your Navigator at Codex to earn a valuable item, or at Port Stanton in the Empire of Hands for a lesser reward but an increase in your Mirrors. Or perhaps there is another, less pleasant option...]
+
+		ParentEvent
+Name: 
+Id: 148807
+Description: 
+
+
+
+	ChildBranches 11
+Name: He stands at the rail, staring into the dark
+Id: 147637
+Description: He flinches when you join him. His sigil has been troubling him of late.
+
+		DefaultEvent
+Name: The next step
+Id: 182484
+Description: "I'm sorry, [q:Addressed As]. I was remembering the Chapel of Lights, and the priest's counsel. Frostfound, he said. You have been so kind - I hate to ask you for more, but..." His sigil dims. It coils like a poised serpent.
+
+		ParentEvent
+Name: 
+Id: 148807
+Description:

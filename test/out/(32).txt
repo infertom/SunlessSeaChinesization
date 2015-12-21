@@ -1,0 +1,19 @@
+(32)
+Name: A Questing Tentacle
+Id: 150640
+Description: Gleaming, it rises from the zee. It coils lazily around a zailor, who does not speak, or cry out. She only steps into its embrace, and is gone.
+
+	ChildBranches 1
+Name: No one
+Id: 128730
+Description: Ask, and no one will answer.
+
+		DefaultEvent
+Name: Did you imagine it?
+Id: 150646
+Description: The zee is quiet. Nothing stirs. But you saw the moon-pale limb of the monster... was it there? Did the zailor leap? Surely you didn't push her. Surely.
+
+		ParentEvent
+Name: 
+Id: 150640
+Description:

@@ -1,0 +1,204 @@
+(454)
+Name: Mount Palmerston
+Id: 138473
+Description: Sullen lights glow green at the jetty's edge. Behind the port buildings, the island is knee-deep in ash. There are ruins here and there, of houses destroyed by fire. Far above, the mountain's top flickers red: just for an instant.
+
+	ChildBranches 1
+Name: Explore the island
+Id: 120961
+Description: Tangles of thorned scrub climb the rocky slopes of the volcano. 
+
+		DefaultEvent
+Name: 
+Id: 138474
+Description: 
+
+		ParentEvent
+Name: 
+Id: 138473
+Description: 
+
+
+
+	ChildBranches 2
+Name: Chat to the port-folk about the Brimstone Convention
+Id: 120962
+Description: There was a revolution in Hell: and the aristocracy of devils fled here. Here, they plot in exile.
+
+		DefaultEvent
+Name: A shrug and a curse
+Id: 138476
+Description: "They don't do us any harm. They stay up there, and we stay down here. If Hell's fighting itself, that's good for us all, isn't it?"
+
+		ParentEvent
+Name: 
+Id: 138473
+Description: 
+
+
+
+	ChildBranches 3
+Name: Explore the island
+Id: 120963
+Description: Tangles of thorned scrub climb the rocky slopes of the volcano. 
+
+		DefaultEvent
+Name: 
+Id: 138477
+Description: 
+
+		ParentEvent
+Name: 
+Id: 138473
+Description: 
+
+
+
+	ChildBranches 4
+Name: Explore the island
+Id: 120966
+Description: Tangles of thorned scrub climb the rocky slopes of the volcano. 
+
+		DefaultEvent
+Name: A vista
+Id: 138480
+Description: The zee opens out beneath a high cliff -
+
+		ParentEvent
+Name: 
+Id: 138473
+Description: 
+
+
+
+	ChildBranches 5
+Name: Explore the island
+Id: 128331
+Description: Tangles of thorned scrub climb the rocky slopes of the volcano. 
+
+		DefaultEvent
+Name: A shape hurries up the path to you
+Id: 149966
+Description: "Excuse me - excuse me - juzzt a moment of your time - "
+
+		ParentEvent
+Name: 
+Id: 138473
+Description: 
+
+
+
+	ChildBranches 6
+Name: Deliver your smuggled souls
+Id: 129145
+Description: A hooded figure with a lantern waits at the far end of the quay.
+
+		DefaultEvent
+Name: A hurried exchange
+Id: 151263
+Description: You give the hooded shape a sign of recognition. It hisses the reply you expected. You hand over the crate, and receive a chitty marked with thief-sign... [You'll receive the promised remuneration in London.]
+
+		ParentEvent
+Name: 
+Id: 138473
+Description: 
+
+
+
+	ChildBranches 7
+Name: Explore the island
+Id: 129374
+Description: Tangles of thorned scrub climb the rocky slopes of the volcano. There are ruins here and there, of houses destroyed by fire.
+
+		DefaultEvent
+Name: Running water
+Id: 151676
+Description: Fresh water! A welcome sound - 
+
+		ParentEvent
+Name: 
+Id: 138473
+Description: 
+
+
+
+	ChildBranches 8
+Name: Find your contact
+Id: 130491
+Description: You have a rendezvous in the ruined granary up on the headland, where the last generation of farmers died in the volcano's flames.
+
+		DefaultEvent
+Name: "Hello, hello. I have zomething for you -"
+Id: 153413
+Description: A cowled and buzzing shape clasps your elbow. It whispers in your ear. Its breath is lava and old brass, and a queasy vibration shudders through you where its gloved appendage has taken hold. You have what you came for. Back aboard ship, quickly. Your vision blurs. Perhaps you are unwell.
+
+		ParentEvent
+Name: 
+Id: 138473
+Description: 
+
+
+
+	ChildBranches 9
+Name: Find your contact
+Id: 130495
+Description: You have a rendezvous in the ruined granary up on the headland, where the last generation of farmers died in the volcano's flames.
+
+		DefaultEvent
+Name: "Hello, my zoulless friend."
+Id: 153418
+Description: A cowled and buzzing shape clasps your elbow. It whispers in your ear. Its breath is lava and old brass, and a queasy vibration shudders through you where its gloved appendage has taken hold. You have what you came for, and something more - nasty, barbed little details about sin and time.
+
+		ParentEvent
+Name: 
+Id: 138473
+Description: 
+
+
+
+	ChildBranches 10
+Name: Put a blemmigan ashore
+Id: 133911
+Description: Surely it'll flourish here?
+
+		DefaultEvent
+Name: Mushroom songs
+Id: 158885
+Description: The blemmigan bounces happily up the pumice slopes, warbling as it goes. That warbling is answered as it climbs higher. There are already blemmigans here, somewhere...
+
+		ParentEvent
+Name: 
+Id: 138473
+Description: 
+
+
+
+	ChildBranches 11
+Name: Dig among the ruins
+Id: 147534
+Description: Perhaps the villagers left valuables behind. You could pick over their remains to see what you might find. (You ghoul.)
+
+		DefaultEvent
+Name: Emptiness
+Id: 182325
+Description: The creases of your palms are grey with ash. Your crew coughs incessantly. You have found nothing but ruined fields and empty shelves.
+
+		ParentEvent
+Name: 
+Id: 138473
+Description: 
+
+		RareDefaultEvent
+Name: A diary of dreams
+Id: 182326
+Description: One wall of a barn still stands. Someone has gouged words into it, in one of the lesser alphabets of Hell - an account of a dream of the Usurper Sun, of its gear-teeth sunk deep into the roots of time, of its servants in robes of gold and amber, of its beauty and its lies.
+
+		SuccessEvent
+Name: A crimson cache
+Id: 182327
+Description: In a dry well choked with ash behind a shattered farmhouse, you find two casks of zzoup. Emergency supplies, or hidden treasure? No one will ever return for them.
+
+		RareSuccessEvent
+Name: A cellarful of bones
+Id: 182328
+Description: How many of them died down here? You could bury them in the ash, but they're so choked and jumbled, you might as well leave them here below. The whole island is the unholiest imaginable ground, anyway. At least you have souvenirs. Three grinning skulls and a carven crooked-cross.

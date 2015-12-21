@@ -1,0 +1,94 @@
+(539)
+Name: Avernus
+Id: 152263
+Description: The Canal emerges in the little lake called Avernus. A warm breeze ruffles blue waters. You and your crew shelter like vampires from the light, with awnings, curtains, broad-brimmed hats. Poplars, birdsong, the warmth of the Campanian sun. 
+
+	ChildBranches 1
+Name: To Naples
+Id: 129775
+Description: The very last stretch of the Canal runs overland to the bay by Bacoli. Then it's an easy run down the Tyrrhenian coast into Naples.
+
+		DefaultEvent
+Name: Green and gold
+Id: 152265
+Description: The trees are the dusty green of old jade: the hills, tawny as a lion. You are pale as milk, all of you. The crew splash in the canal, whenever they can, to cool themselves after the heat of the sun. "It's not right up here," your bo'sun confides. "I keep thinking I'm going to fall off up, like. But it calms the heart to look at, don't it?" [The Surface is restful, but your crew may die here. The longer you spend up here, the more may die. This includes you.]
+
+		ParentEvent
+Name: 
+Id: 152263
+Description: 
+
+		RareDefaultEvent
+Name: Farms and fantasies
+Id: 153893
+Description: In the vast expanse of the Surface, without familiar echoes, your engine sounds strangely quiet. Your crew watches the white-walled farm-houses slip by. "I could live there," one muses. "Over there. Grow olives or something. Raise a family. Ooh, I come over a bit funny. Just going to sit down a moment." He collapses to the deck: his eyes roll back in his head, and a last long sighing breath goes out of him.
+<br/><br/>
+[The Surface is restful, but your crew may die here. The longer you spend up here, the more may die. This includes you.]
+
+
+
+	ChildBranches 2
+Name: Return Below
+Id: 129776
+Description: The sky is blue-hot metal. Cicadas buzz like a headache. This is no place for an honest zailor. [You will need ten Fuel and two Supplies to return below. If you have insufficient, you will be trapped here on the Surface.]
+
+		DefaultEvent
+Name: Silver-green safety
+Id: 152266
+Description: Down into the dark and the quiet. No birdsong, no Surface wars, no raucous peasants. Still water, the glint of eyes.
+
+		ParentEvent
+Name: 
+Id: 152263
+Description: 
+
+
+
+	ChildBranches 3
+Name: End your journey
+Id: 130806
+Description: Ill luck or incaution has brought you to this. Your ship is stranded.
+
+		DefaultEvent
+Name: A brief paradise
+Id: 153952
+Description: You beach your steamer on the shores of Avernus. You and your crew are filled with the strange life of the Neath - the Sun will kill you, some day. How long? A day, a year? Ten years? Perhaps you'll farm in the shadow of the ship. Perhaps your children will point to its rusting shell and whisper, "That's where we came from. One day we'll go back."
+
+		ParentEvent
+Name: 
+Id: 152263
+Description: 
+
+
+
+	ChildBranches 4
+Name: The ship is empty
+Id: 131651
+Description: Where are you, all of you?
+
+		DefaultEvent
+Name: Scorched by the sun
+Id: 155183
+Description: Deserted or dead. Gone into the crowds. Slumped over the rail, your Neath-adapted life cindered by the true Sun. Drowned. Gone.
+
+		ParentEvent
+Name: 
+Id: 152263
+Description: 
+
+
+
+	ChildBranches 5
+Name: Fill your Mirrorcatch Box
+Id: 144346
+Description: Open it wide. Let it bask in the light, until its baffles and convolutions brim with sun.
+
+		DefaultEvent
+Name: Snap it shut
+Id: 177124
+Description: The box will remain filled with light until it's opened, even underground. They do it with mirrors.
+
+		ParentEvent
+Name: 
+Id: 152263
+Description:

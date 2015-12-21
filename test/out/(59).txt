@@ -1,0 +1,7 @@
+(59)
+Name: Overheard on Deck: Another Country
+Id: 150769
+Description: <b>ADVENTURESS:</b> You've never been to the Elder Continent.<br/>
+<b>MAGICIAN:</b> Good God, no. I would rather never have left London.<br/>
+<b>ADVENTURESS:</b> What's so special about London?<br/>
+<b>MAGICIAN:</b> Tsk. Only a Continental would ever ask that question.

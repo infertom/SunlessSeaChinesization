@@ -1,0 +1,101 @@
+(207)
+Name: Entertainments in Varchas
+Id: 152390
+Description: There are many available; Mihir is not a puritan god. The nicer establishments in the city are lit with expensive imported gas and have little blue-glowing scintillack statuettes scattered on the shelves.
+<br/><br/>
+ What takes your fancy?
+
+	ChildBranches 1
+Name: Return to the City Centre
+Id: 129911
+Description: You are done here.
+
+		DefaultEvent
+Name: 
+Id: 152459
+Description: There is more of Varchas to explore.
+
+		ParentEvent
+Name: 
+Id: 152390
+Description: 
+
+
+
+	ChildBranches 2
+Name: Join the gaming-table
+Id: 129862
+Description: They are playing on an ornate board, with pieces of mirrored-chips and snakes made of bone. 
+
+		DefaultEvent
+Name: 
+Id: 152391
+Description: You can't seem to grasp the Seven Basic Patterns of the mirror-pieces, and the other players can't seem to explain why you can't play the bone-snake in the supplementary round. You begin to suspect they are making up rules merely to cozen the Taamas.
+
+
+		ParentEvent
+Name: 
+Id: 152390
+Description: 
+
+		SuccessEvent
+Name: 
+Id: 152392
+Description: The rules are complicated and arcane. They also seem to alter with the positioning of various pieces on the board. The bone-snakes are trick-pieces, and used to stymie your opponent's moves. As such they are often greeted with hisses of derision when someone dares to put them in play.
+<br/><br/>
+You manage to acquit yourself reasonably well. At least, you aren't the first one to be knocked out of contention. Your fellow players stand you a cup of tart, ruby-red wine.
+
+
+
+
+	ChildBranches 3
+Name: The Arguing Priests
+Id: 129863
+Description: They are having a wine-drenched debate at one of the tables in the back; do you care to listen in?
+
+
+		DefaultEvent
+Name: 
+Id: 152393
+Description: The priests' argument is theological in nature: they keep invoking texts you've never read, and cosmological concepts you've never bothered contemplating. It makes you desirous of an over-full cup of wine.
+
+		ParentEvent
+Name: 
+Id: 152390
+Description: 
+
+		SuccessEvent
+Name: 
+Id: 152394
+Description: "No no no!" The Initiate shakes her fist at the irate Novice. "You cannot undermine a <i>heard</i> text with mantras from a <i>remembered</i> one!"
+<br/><br/>
+Apparently the difference is this: 'heard' texts were cosmic truths whispered by Mihir himself to the ancient sages. 'Remembered' texts do not claim such illustrious origins, and are merely passed-down wisdom. 
+<br/><br/>
+The difference might seem trivial to you, but apparently this is a subject of heated theological debate. A few of the other patrons look on indulgently, and offer bits of scripture or shouted exhortation. 
+
+
+
+
+	ChildBranches 4
+Name: The Duellists
+Id: 129864
+Description: The courtyard is strewn with white sand; the duellists fight with curving twin-bladed scimitars in each hand. You could try your luck in a exhibition match?
+
+
+		DefaultEvent
+Name: 
+Id: 152395
+Description: Even an exhibition match requires some skill; you rake across your opponent's arm with your first slash, and the arbitrator calls off the match. Apparently it is very bad manners to draw blood. You hear someone mutter, "bloody Taamas" and "dark-touched", and make a strategic retreat.
+
+
+		ParentEvent
+Name: 
+Id: 152390
+Description: 
+
+		SuccessEvent
+Name: 
+Id: 152396
+Description: The blades are light and deadly; there is an intent light in your opponent's eyes. You step together and then away, your blades kissing gently before scraping apart in a rasp of steel. Your opponent is going easy on you, but that is what you are here for. An exhibition match is meant to make both parties look good.
+<br/><br/>
+It's hard to keep your mouth from curving into a sharp grin as your blades clash and chime; you sweat under all the reflected light, and your arms are shaking by the time the arbitrator calls time. Your opponent bows deep, a flick of eyebrows and a flourish of blades, and you do the same.

@@ -1,0 +1,43 @@
+(57)
+Name: A missing zailor?
+Id: 141726
+Description: At roll-call, there's one face too few... and you don't like the uneasy hush that descends. Your crew are on the brink of starvation. Has one committed the primal crime of cannibalism?
+
+	ChildBranches 1
+Name: Ignore it
+Id: 124816
+Description: Best left alone. If you find the cannibal, you'll lose two zailors.
+
+		DefaultEvent
+Name: Don't ask...
+Id: 144490
+Description: "Jumped overboard" is the official line. Perhaps some of your crew believe it. Who knows? Perhaps it's even true.
+
+		ParentEvent
+Name: 
+Id: 141726
+Description: 
+
+
+
+	ChildBranches 2
+Name: Investigate
+Id: 122984
+Description: There is a spirit or god in the Neath whose name is not spoken. He is worshipped with candles, and with the frenzied consumption of flesh. Has someone here turned to that worship?
+
+		DefaultEvent
+Name: No sign
+Id: 141727
+Description: Your search upends empty casks and sea-chests, alarms the mascot, enrages the innocent cook. The crew know what you seek, but none will name it. The fog of fear thickens.
+
+		ParentEvent
+Name: 
+Id: 141726
+Description: 
+
+		SuccessEvent
+Name: A cannibal among us
+Id: 144491
+Description: You find the culprit in a cubby-hole in the aft hold, concealed by a blanket. There are corpse-candles, crude images, and a pot of appalling soup. A human shin-bone has been half-carved into a flute. "A reckoning!" the cannibal cackles as he's dragged off to the brig. " A reckoning is not to be postponed!"
+<br/><br/>
+You hold a hasty ship-court and sentence him to the only conceivable penalty: binding and drowning. He's still laughing as he goes under.

@@ -1,0 +1,68 @@
+(237)
+Name: Deal with a Prisoner
+Id: 151261
+Description: Have they suffered enough?
+
+	ChildBranches 1
+Name: Maroon the Prisoner
+Id: 129254
+Description: Cast them adrift, or set them ashore on some uncharted eyot. Perhaps it's more merciful than jettisoning them like cargo.
+
+		DefaultEvent
+Name: An odd sound
+Id: 151451
+Description: A sound rises from the rest of the crew: a sound like waves on distant shingle. Fear? Relief? Your prisoner recedes, over the horizon.
+
+		ParentEvent
+Name: 
+Id: 151261
+Description: 
+
+
+
+	ChildBranches 2
+Name: Consume the Prisoner
+Id: 129255
+Description: A natural consequence of indiscipline; the captain's ultimate prerogative.
+
+		DefaultEvent
+Name: 
+Id: 151452
+Description: Probably they wonder where the prisoner has gone; but they do not make a point of it. You toss the bones over the transom, one by one.
+
+		ParentEvent
+Name: 
+Id: 151261
+Description: 
+
+
+
+	ChildBranches 3
+Name: Release the Prisoner
+Id: 129144
+Description: Offer them an amnesty, on their solemn parole. [Success in this Hearts test means they're more likely to become Crew again; but it doesn't ensure it.]
+
+		DefaultEvent
+Name: A savage outcome
+Id: 151262
+Description: Your Prisoner comes out meekly enough, but the moment the shackles are off, it's a different story. It takes three men to get him off you, and by the time you smash him to the deck, his teeth are buried in another zailor's throat. You give both their bodies to the zee. This was not a good day.
+
+		ParentEvent
+Name: 
+Id: 151261
+Description: 
+
+		RareDefaultEvent
+Name: Potent oaths
+Id: 151457
+Description: Your prisoner swears obedience by God, the Empress, the gods of the zee and the Dawn Machine - every power they can think of. You watch them carefully in the days afterwards - but they do seem sincere.
+
+		SuccessEvent
+Name: Potent oaths
+Id: 151455
+Description: Your prisoner swears obedience by God, the Empress, the gods of the zee and the Dawn Machine - every power they can think of. You watch them carefully in the days afterwards - but they do seem sincere.
+
+		RareSuccessEvent
+Name: Betrayal!
+Id: 151456
+Description: The prisoner grovels with gratitude. They would kiss your hand if you let them. They're eager to get back to work. And the next day, they're gone, with a ship's boat and all the supplies they can filch.

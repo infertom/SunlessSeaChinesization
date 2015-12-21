@@ -1,0 +1,199 @@
+(408)
+Name: The Chelonate
+Id: 143328
+Description: Waves lap the slabby sides of a vast turtle-shell - bigger than any cathedral. Chelonites loaf on wooden docks around the shell-sides, staring sullenly. Lamps hang like decorations in a festive butcher's window. All around you, the sea is rank with scraps of ancient flesh.
+
+	ChildBranches 1
+Name: Deliver Sphinxstone for Penstock
+Id: 143696
+Description: The Bone Man awaits you. His face and chest are streaked with white clay. His forehead bears a glyph, in the deep code of the void. Long ago, his mother ritually severed his littlest finger. "STONES HERE," he rumbles.
+
+		DefaultEvent
+Name: The Death of Stones
+Id: 176113
+Description: The Bone Man carries a maul. No: he <i>bears</i> a maul. "WATCH," he growls. He brings the head of the maul down on the largest stone. It puffs into dust: instantly pulverised. "YOU MUST STRIKE THEM IN ONLY THE CORRECT PLACE." Another dissolves, with a sound like a sigh. "THUS."
+<br/><br/>
+Perhaps it's just that you've inhaled too much dust, but as you watch the Bone Man, the scene becomes distant. You are watching it from a great height. The roof?
+<br/><br/>
+The maul swings: the stones shatter. This is the nature of strength. This is good.
+<br/><br/>
+"THIS IS THE WORK OF STORM," intones the Bone Man. You blink. "FREEDOM IS HIS GIFT TO THE BAZAAR. AND THIS IS MY GIFT TO YOU." He hands you a bag of coins, white with dust. You, too, are white all over with dust - white as bone.
+
+		ParentEvent
+Name: 
+Id: 143328
+Description: 
+
+
+
+	ChildBranches 2
+Name: Obtain a Doomed Monster-Hunter
+Id: 144274
+Description: The Chelonate is stiff with Monster-Hunters, awash with the peligin juices that give them strength. A good number of them are Doomed, too. But you'll need to provide for their families.
+
+		DefaultEvent
+Name: The hunter's price
+Id: 177003
+Description: "That will suffice. When news of my death comes, they'll offer this treasure to the Bone Men. If they die, they will still be remembered." Cheery lot, the Chelonites.
+
+		ParentEvent
+Name: 
+Id: 143328
+Description: 
+
+
+
+	ChildBranches 3
+Name: Allow the Plausible Surgeon to go ashore here
+Id: 146432
+Description: "Oh, my word. Look at these scars. Look at these <i>stains</i>. Release me from my contract, Captain, I beg you. I've saved up enough to compensate you."
+
+		DefaultEvent
+Name: A pocketful of Echoes
+Id: 180640
+Description: The Surgeon is as good as his word. Hands trembling, he counts out the coins, and whispers a little secret he picked up back in London. He's vague about why he didn't mention it before.
+<br/><br/>
+He collects his knives and instruments, heads into the Shell, and is gone.
+
+		ParentEvent
+Name: 
+Id: 143328
+Description: 
+
+
+
+	ChildBranches 4
+Name: Meet your contact
+Id: 147214
+Description: A Mutilated Hunter makes her home in a plastron at the wretched end of the shell: well, the <i>more</i> wretched end. Her face is half-immobile from a jillyfish sting. Give her a Hunting Trophy, and she'll share zee-gossip.
+
+		DefaultEvent
+Name: A rich vein of story
+Id: 181860
+Description: She has zee-ztories for you - drownie-whispers, Chelonite murder-myths, truths found engraved on bound-shark harnesses. And she adds: "Tell the Admiral: Aestival remains empty. The Sun still kills."
+
+		ParentEvent
+Name: 
+Id: 143328
+Description: 
+
+
+
+	ChildBranches 5
+Name: Meet your contact
+Id: 147258
+Description: A Mutilated Hunter makes her home in a plastron at the wretched end of the shell: well, the <i>more</i> wretched end. Her face is half-immobile from a jillyfish sting. Give her a Hunting Trophy, and she'll share zee-gossip.
+
+		DefaultEvent
+Name: 
+Id: 181931
+Description: She has zee-ztories for you - drownie-whispers, Chelonite murder-myths, truths found engraved on bound-shark harnesses. And she adds: "Tell the Admiral: our hunters are eyeing Aestival. There is a temptation now." She eyes you. "But I suspect you'd know that, wouldn't you?"
+
+		ParentEvent
+Name: 
+Id: 143328
+Description: 
+
+
+
+	ChildBranches 6
+Name: Find someone to teach secrets of butchery to the Bandaged Poissonnier
+Id: 147264
+Description: A Bone Man shows you the glyphs cut into his white-dusted palms. "They mean 'Separation'," he tells you. He will instruct your chef, if you can prove your worth.
+
+		DefaultEvent
+Name: An improvement
+Id: 181939
+Description: When the Poissonnier returns to the ship, he is red to his elbows. "I have learned what I need to know," he says, his voice haggard. Back in the galley he throws away all his knives but one. You watch it slice, skin, bone, and butterfly: as precise as a surgeon's scalpel; as quick as a minnow. Flesh goes one way; skin and organs another.
+<br/><br/>
+As the crew dine, he seeks you out. "It goes well, my captain. I have my initial ingredients. I have my skills. But the flavours I pursue must be coaxed forth, like a hermit crab from its shell. I'm afraid I need very particular seasoning: mutersalt and zzoup. They sell the former at Whither, where the salt-pools fizz and pop. Zzoup is made at Mount Palmerston. Its composition is a secret, but anything that can be combined can be separated again, with the right equipment."
+
+		ParentEvent
+Name: 
+Id: 143328
+Description: 
+
+
+
+	ChildBranches 7
+Name: Put a blemmigan ashore
+Id: 147290
+Description: Perhaps it will nestle in some crevice in the ancient shell. You chivvy it onto the quay.
+
+		DefaultEvent
+Name: Oh. Ouch!
+Id: 181967
+Description: A casually flung fishing-spear pierces the blemmigan. It deflates to a soggy mess. A Chelonite grins savagely at you: some response is clearly required. "Good shot, madam. Ah, good shot."
+
+		ParentEvent
+Name: 
+Id: 143328
+Description: 
+
+		RareDefaultEvent
+Name: Oh. Ouch!
+Id: 181995
+Description: A casually flung fishing-spear pierces the blemmigan. It deflates to a soggy mess. A Chelonite grins savagely at you: some response is clearly required. "Good shot, madam. Ah, good shot."
+
+
+
+	ChildBranches 8
+Name: Compile a Port Report
+Id: 147627
+Description: How does one express this very striking smell?
+
+		DefaultEvent
+Name: The limits of meaningful expression
+Id: 182472
+Description: No matter what details you try to record, the stench creeps in around the edges of the sentences. "The Chelonites, watchful despite the reek." "Movement among the miasmic scraps of long-abandoned monster-carcass." "Frequent duels where the stink is thickest - "
+
+		ParentEvent
+Name: 
+Id: 143328
+Description: 
+
+
+
+	ChildBranches 9
+Name: Help Maybe's Daughter search for her mother
+Id: 146190
+Description: "I couldn't understand why she came here to begin with, but" - she gestures around you, at the designs sketched on hide and scratched on stone. "It's all tattoos. The alphabets of bone and flesh. That's what our family keeps coming back to." She frowns. "Our family is strange in every way imaginable."
+
+		DefaultEvent
+Name: "No luck."
+Id: 180253
+Description: "I found some of these, though. Well, 'found'. You can have one. Are you going to be stern with me? They have so many trophies they don't know what to do with them. Anyway, we're getting closer. I can feel it. I swear."
+
+		ParentEvent
+Name: 
+Id: 143328
+Description: 
+
+		SuccessEvent
+Name: "She was here last week, but - "
+Id: 180254
+Description: You follow the Daughter's stunned gaze. A woman in a lilac gown strolls past the doorway-slit of the Bone Men's shrine. Her features bear an unmistakable resemblance to your officer's. "We should talk," she says to the Daughter, quite calmly.
+<br/><br/>
+The Daughter assembles the rags of her composure with remarkable speed. "Excuse us," she says...
+
+
+
+	ChildBranches 10
+Name: Shore leave at the Chelonate
+Id: 124061
+Description: Beer and roistering are cheap here, but the hunters of the Chelonate take their roistering seriously. You can't be sure your crew will make it back safely.
+
+		DefaultEvent
+Name: One voice missing
+Id: 143330
+Description: "We lost the new one, cap'n. She had one too many and started on the Turtle not being real. Chelonites were on 'er like ants. Not enough to send home."
+
+		ParentEvent
+Name: 
+Id: 143328
+Description: 
+
+		SuccessEvent
+Name: Voices raised in song
+Id: 180639
+Description: "It's not actually beer, cap'n," a zailor confides. "It's eel-blood fermented with zee-fungus, or somefin'. I didn't hear the whole account. I was too busy throwin' up."

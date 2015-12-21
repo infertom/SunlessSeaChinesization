@@ -1,0 +1,63 @@
+(336)
+Name: You've defeated a Bound-Shark
+Id: 153027
+Description: Its bonds buckled, its skin torn, its teeth shattered.
+
+	ChildBranches 1
+Name: Use its meat
+Id: 130263
+Description: Its torment ended with its death. You have more immediate concerns.
+
+		DefaultEvent
+Name: Tough and grey
+Id: 153031
+Description: The shark-meat is dark, springy and oily. These are not encouraging properties for a meal. Nevertheless, your cook, perhaps, can make something of it. And what's this in its gut?
+
+		ParentEvent
+Name: 
+Id: 153027
+Description: 
+
+
+
+	ChildBranches 2
+Name: Record any Observations
+Id: 131992
+Description: If you've gathered at least 10 Observations, you may learn something...
+
+		DefaultEvent
+Name: The geometries of agony
+Id: 155744
+Description: How did it move? How could it move? The shapes it formed - the leaps it managed - the impossible gyrations - it was as if its pain forced - permitted - it to move in directions not normally perceptible to our eyes. These are not, one would hope, <i>truths</i> that you have uncovered, but they may be useful approximations.
+
+		ParentEvent
+Name: 
+Id: 153027
+Description: 
+
+
+
+	ChildBranches 3
+Name: Examine its cage-armature
+Id: 130262
+Description: Someone has bound it savagely with black iron - sunk bands and joined mechanisms deep into its flesh.
+
+		DefaultEvent
+Name: A painful mystery
+Id: 153028
+Description: You learn little, except that someone is merciless and inventive. The pain this creature must have suffered! You take a tooth as a trophy: if your hull is damaged, your engineer will repurpose some of its cage as repair materials.
+
+		ParentEvent
+Name: 
+Id: 153027
+Description: 
+
+		SuccessEvent
+Name: Digging deeper
+Id: 153029
+Description: The cage has begun to distort its shape - more than seems reasonable, but then a shark has no bones. Rods of iron inserted deep into its flesh have done impossible things. There are organs in there none of you recognise. Its suffering must have been extraordinary. You take a tooth as a trophy: if your hull is damaged, your engineer will repurpose some of its cage as repair materials.
+
+		RareSuccessEvent
+Name: Digging deeper
+Id: 153030
+Description: The cage has begun to distort its shape - more than seems reasonable, but then a shark has no bones. Rods of iron inserted deep into its flesh have done impossible things. There are organs in there none of you recognise. Its suffering must have been extraordinary. You take a tooth as a trophy: if your hull is damaged, your engineer will repurpose some of its cage as repair materials.

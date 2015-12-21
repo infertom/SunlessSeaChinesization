@@ -1,0 +1,103 @@
+(167)
+Name: Choice of masks
+Id: 168633
+Description: Masks in an assortment of shapes and colours await.
+
+	ChildBranches 1
+Name: Ask to go about without any mask
+Id: 139123
+Description: Your own fair face will do for you, thanks very much.
+
+
+
+		DefaultEvent
+Name: No?
+Id: 168634
+Description: Moon-Moth unfolds and folds its wings. "Not suitable," it says. "On Visage everyone is masked. To walk on the island with your own face would give scandal."
+
+		ParentEvent
+Name: 
+Id: 168633
+Description: 
+
+
+
+	ChildBranches 2
+Name: Ask the significance of the masks
+Id: 139124
+Description: Maybe there's more to it than a question of aesthetic taste.
+
+
+
+		DefaultEvent
+Name: Assorted pestilences
+Id: 168635
+Description: Moon-Moth explains: each mask declares a different intention towards the denizens of Visage, and must be accompanied by suitable behavior. The Frog is for visitors who, though perhaps clumsy and unfamiliar with local etiquette, have come in order to observe local ways and to make uncouth comments about them. 
+<br/><br/>
+The Locust is for those who seek profit in Visage and would carry away as many goods as possible.
+<br/><br/>
+You prompt about the Bat. Moon Moth hesitates. "Bat is an ill-omened visitor. Sent as a messenger or a spy. Bat always dies."
+
+		ParentEvent
+Name: 
+Id: 168633
+Description: 
+
+
+
+	ChildBranches 3
+Name: Choose the frog mask
+Id: 139125
+Description: It looks curious.
+
+		DefaultEvent
+Name: Brekkekkekek
+Id: 168636
+Description: Moon-Moth lifts the mask and places it over your head. The eye holes are large and they are fitted with spectacles. These improve your view of the environment, though you must look bulb-eyed from the outside. There is also a mechanism attached to the mouth piece which magnifies any sounds you make, even your breathing. You start to thank the Moon-Moth and it comes out as a booming croak.
+<br/><br/>
+"May you profit from your visit in knowledge," says Moon-Moth. Its wings fold neatly over its back.
+
+		ParentEvent
+Name: 
+Id: 168633
+Description: 
+
+
+
+	ChildBranches 4
+Name: Choose the locust mask
+Id: 139126
+Description: It looks voracious.
+
+		DefaultEvent
+Name: Hunger for all things
+Id: 168637
+Description: Moon-Moth settles the locust mask over your head. The eyeholes are covered with a thin gold film through which valuable objects gleam more brightly.
+<br/><br/>
+"May you find a happy harvest," says Moon-Moth. 
+<br/><br/>
+Then, when you have partly turned away, it double-knots the ties on its purse, as though you're likely to pick its pockets. Doesn't it know you can see it?
+
+		ParentEvent
+Name: 
+Id: 168633
+Description: 
+
+
+
+	ChildBranches 5
+Name: Choose the bat mask
+Id: 139127
+Description: It looks threatening.
+
+		DefaultEvent
+Name: Messenger with no message
+Id: 168638
+Description: Moon-Moth spreads and folds its wings. (Are those part of the moth costume? It looks that way, but one cannot rule out the possibility that Moth has real wings.)
+<br/><br/>
+"My condolences," it says, with polite formality, as it sets the bat mask on your face and ties the worn leather straps around the back of your head. The inside of the mask smells of musk.
+
+		ParentEvent
+Name: 
+Id: 168633
+Description:

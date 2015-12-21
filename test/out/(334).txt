@@ -1,0 +1,58 @@
+(334)
+Name: The Megalops defeated
+Id: 148076
+Description: With a forlorn and wailing cry, the Megalops turns on its back, legs neatly folded, as bluish blood gouts from its wounds. Its golden glow begins to dim.
+
+	ChildBranches 1
+Name: Butcher it
+Id: 127094
+Description: For supplies.
+
+		DefaultEvent
+Name: Pale and salty meat
+Id: 148079
+Description: The crew will feast! That glowing fresh is unstable - it crisps and withers as the glow fades - so eat while it's fresh!
+
+		ParentEvent
+Name: 
+Id: 148076
+Description: 
+
+
+
+	ChildBranches 2
+Name: Record any Observations
+Id: 131980
+Description: If you've gathered at least three Observations, you may learn something...
+
+		DefaultEvent
+Name: Joy?
+Id: 155732
+Description: The children of the arthropod phylum are not known for their powers of expression. Nevertheless, something about its behaviour as you observed it - the wild abandon of its clicking claws, the merry flip of its shell - suggests not so much pain as abandoned delight. What impulses drive it?
+
+		ParentEvent
+Name: 
+Id: 148076
+Description: 
+
+
+
+	ChildBranches 3
+Name: Dissect it
+Id: 127093
+Description: For knowledge.
+
+		DefaultEvent
+Name: It's not dead!
+Id: 148077
+Description: You haul it aboard and set to work with your knives and acids... and it flops unexpectedly into life! Zailors rush to your aid with guns and boarding pikes. By the time they've finished, you're unharmed, but there's not much left of the beast. You tip it reluctantly into the zee.
+
+		ParentEvent
+Name: 
+Id: 148076
+Description: 
+
+		SuccessEvent
+Name: A crabful of conundrums
+Id: 148078
+Description: You set to work with your knives and acids. It is an undistinguished adolescent specimen - a megalops - of one of the deep-zee crab species, but its eyes, normally vestigial in these troglodytic beasts, are large and rather beautiful. The golden glow is almost gone now, although sparks leap now and then to your knife...

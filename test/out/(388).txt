@@ -1,0 +1,159 @@
+(388)
+Name: Attend a Funeral Feast
+Id: 181066
+Description: The Replete occupy lofty positions in the Presbyterate's military. Despite their sanguinary past, they dine with the Prester and send their children to be educated at London's University. However, they maintain their tradition of eating their dead.
+<br/><br/>
+The feasts are held in public. Here in a broad square stretches a splendid table. The departed was only a distant relative - some great-aunt or second cousin - and the atmosphere is jolly. Servants carry the deceased over in steaming joints, cooked to perfect pinkness. A stately mourner stands, already wobbly from wine. "Shall I carve?" 
+
+	ChildBranches 1
+Name: Merely observe
+Id: 146669
+Description: The locals hurry by, unwilling to watch. It's the foreigners who linger and gawk.
+
+		DefaultEvent
+Name: Feasting
+Id: 181067
+Description: A Plummy Anthropologist cranes her neck for a better view. "This isn't normal here, you know," she tells you, noticing your interest. "The other nations of the Presbyterate think they're crackers. Still, I bet the Prester finds them useful. The threat of imminent cannibalism must facilitate no end of diplomatic negotiations." 
+<br/><br/>
+A salt-cellar passes along the table. Napkins dab at mouth-corners. The anthropologist is warming to her subject. "I hear the practice began with one of their forebears who zailed into the far North. I may have to take a trip that way. See what it's like for myself."
+
+		ParentEvent
+Name: 
+Id: 181066
+Description: 
+
+
+
+	ChildBranches 2
+Name: Accept an invitation to dine
+Id: 146671
+Description: The feasters recognise something about you. They add an extra chair to the end of the table.
+
+		DefaultEvent
+Name: Made welcome
+Id: 181069
+Description: You make polite conversation with a half-deaf aunt. The cuts that reach you are lean, but still pink. Still succulent. You clean your plate.
+<br/><br/>
+Afterwards, you are given a keepsake: a knob of bone, engraved with the date. You accept it with good grace. Is that one of your crew among the gawkers, watching you with horrified eyes?
+
+		ParentEvent
+Name: 
+Id: 181066
+Description: 
+
+
+
+	ChildBranches 3
+Name: Sit at the table as a guest of honour
+Id: 146736
+Description: The grey-haired matriarch nods to you. "Here is one with an appetite. Join us. Our dearly departed was a soldier. It took eight bullets to kill her. Her strength came from us, and will return to us." [Your Iron will increase.]
+
+		DefaultEvent
+Name: Honoured
+Id: 181176
+Description: You are given the first and finest cut. Sopping with juices. Steaming. When you find a bullet buried in the meat, your fellow diners take it as a sign of good fortune. 
+<br/><br/>
+Your prominent position at the table is noticed. Word will undoubtedly reach your crew.
+
+		ParentEvent
+Name: 
+Id: 181066
+Description: 
+
+
+
+	ChildBranches 4
+Name: Sit at the table as a guest of honour
+Id: 146737
+Description: A tipsy patriarch beckons to you. "You. Yes, you! You know. Come. Sit. Eat. Our beloved relative was quite the tactician. We could all use a little more acuity, couldn't we?" [Your Veils will increase.]
+
+		DefaultEvent
+Name: Back to the fold
+Id: 181177
+Description: "You can taste it can't you? Smoky. Subtle. And so his wit is returned to the family. And a little to you, eh? But your glass is empty! Let me top you up."
+<br/><br/>
+Your prominent position at the table is noticed. Word will undoubtedly reach your crew.
+
+		ParentEvent
+Name: 
+Id: 181066
+Description: 
+
+
+
+	ChildBranches 5
+Name: Sit at the table as a guest of honour
+Id: 146739
+Description: A bespectacled lady pulls back a chair for you. "Let me introduce you to our dead kin." She gestures at your plate as a servant piles it with cuts of fatty meat. "He was sharp-eyed and patient. One time..." [Your Mirrors will increase.]
+
+		DefaultEvent
+Name: You dine
+Id: 181180
+Description: The meat is rich, the gravy thick. The carrots are boiled thin. "I can always tell," the lady whispers, patting your knee, "when I see another who knows what we know. Something in the eyes."
+<br/><br/>
+Your prominent position at the table is noticed. Word will undoubtedly reach your crew.
+
+		ParentEvent
+Name: 
+Id: 181066
+Description: 
+
+
+
+	ChildBranches 6
+Name: Sit at the table as a guest of honour
+Id: 146740
+Description: A stern matriarch invites you to join them. "You understand. The sacrament, yes? Sit here, by me. Our poor, departed kin was a fine scholar, and well aged. Leg or breast, by the way?" [Your Pages will increase.]
+
+		DefaultEvent
+Name: One of the family
+Id: 181181
+Description: The wine is piquant, the meat succulent, the conversation cordial. A proud lady tells everyone how well her young Frederick is doing at boarding school. A well-meaning aunt mistakes you for a second cousin. You clean your plate. Seconds?
+<br/><br/>
+Your prominent position at the table is noticed. Word will undoubtedly reach your crew.
+
+		ParentEvent
+Name: 
+Id: 181066
+Description: 
+
+
+
+	ChildBranches 7
+Name: Hurry away
+Id: 147120
+Description: Best not to look.
+
+		DefaultEvent
+Name: 
+Id: 181706
+Description: 
+
+		ParentEvent
+Name: 
+Id: 181066
+Description: 
+
+
+
+	ChildBranches 8
+Name: Steal scraps from the table
+Id: 146670
+Description: The servants are vigilant. Funerals are private occasions, even ones conducted in public.
+
+		DefaultEvent
+Name: Spotted
+Id: 181068
+Description: You edge closer, your eye on a discarded ulna lying forgotten beside a chair leg. Too slow - an unctuous servant sweeps it up. Some of the feasters have noticed your encroaching lurk. You feign innocence. Is that the time? You have somewhere to be.
+
+		ParentEvent
+Name: 
+Id: 181066
+Description: 
+
+		SuccessEvent
+Name: Your prize
+Id: 181178
+Description: A darting lunge seizes you a bone clung with stringy tatters of flesh. You hide it under your jacket and return to your cabin, where you hold a meagre feast of your own. 
+<br/><br/>
+The meat is unremarkable. When it's gone, you crack the bone open to get at the marrow. You force it all down - every mealy scrap. Was there any virtue in it? Are you changed?

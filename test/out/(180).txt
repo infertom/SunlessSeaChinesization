@@ -1,0 +1,36 @@
+(180)
+Name: The Bound Shark attacks!
+Id: 144185
+Description: "The most tormented of zee-beasts. Its murderous eyes peep from its caged flesh like convicts begging release."
+
+	ChildBranches 1
+Name: Fight!
+Id: 124619
+Description: When all's said, it's just a really big fish in a cage. And you - you are a zee-captain.
+
+		DefaultEvent
+Name: 
+Id: 144186
+Description: 
+
+		ParentEvent
+Name: 
+Id: 144185
+Description: 
+
+
+
+	ChildBranches 2
+Name: Flee!
+Id: 124620
+Description: It's nimbler than you are. But perhaps you can distract it with a zailor. Your crew won't like this, though -
+
+		DefaultEvent
+Name: A bad end
+Id: 144187
+Description: You fling your least-disciplined zailor overboard. The Bound-Shark snaps him up in a trio of instants, but those instants are long enough to get clear. Your crew, it is fair to say, are not impressed. Well, perhaps they'll be next.
+
+		ParentEvent
+Name: 
+Id: 144185
+Description:

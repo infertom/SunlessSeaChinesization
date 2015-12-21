@@ -1,0 +1,102 @@
+(124)
+Name: An Inspection by the Ministry of Public Decency
+Id: 169490
+Description: Some things are too illegal for the Customs Service to admit the existence of. The Ministry are here looking for those.
+
+	ChildBranches 1
+Name: Nothing to hide
+Id: 139645
+Description: You shrug, and invite them to search your ship as thoroughly as they would like.
+
+		DefaultEvent
+Name: 
+Id: 169502
+Description: They leave scuff-marks on the newly-scrubbed decks and take great pleasure in tangling the rigging. They find nothing more dangerous than mouldy ship's biscuit.
+
+		ParentEvent
+Name: 
+Id: 169490
+Description: 
+
+
+
+	ChildBranches 2
+Name: Gentle encouragement
+Id: 139646
+Description: You would never dream of impeding their duty, but surely there are other, more dangerous ships on the Unterzee?
+
+		DefaultEvent
+Name: 
+Id: 169503
+Description: You hand over the exorbitant bribe. The duty-officer takes a quick glance around the foredeck, and deems himself satisfied. You thank him for his pointedly perfunctory service.
+
+		ParentEvent
+Name: 
+Id: 169490
+Description: 
+
+
+
+	ChildBranches 3
+Name: Hide your cargo
+Id: 139640
+Description: There are no laws against red honey in London, but that won't stop the Ministry from seizing it if they find it.
+
+		DefaultEvent
+Name: 
+Id: 169493
+Description: The Adjudicator uncovers your shipment with ill-concealed glee. She confiscates it, ostensibly for destruction. She puts a thick black mark against your name in her ledger, and demands a stiff fine. You can only hope your Patron at the Isle of Cats is the understanding sort.
+
+		ParentEvent
+Name: 
+Id: 169490
+Description: 
+
+		SuccessEvent
+Name: 
+Id: 169495
+Description: They tramp about your ship and even dare to rummage through your own cabin, but find nothing. You permit yourself a sigh of relief.
+
+
+
+	ChildBranches 4
+Name: Disguise your prisoner
+Id: 139641
+Description: They could pass for one of your crew. If you can convince them to keep their mouth shut.
+
+		DefaultEvent
+Name: 
+Id: 169494
+Description: Your prisoner throws themselves at the duty-officer's boots, and accuses you of abduction. You try to pass it all off as a harmless prank gone awry. The duty-officer gives you a hard lecture, and a sharp fine. They take the prisoner with them when they leave.
+
+		ParentEvent
+Name: 
+Id: 169490
+Description: 
+
+		SuccessEvent
+Name: 
+Id: 169496
+Description: You invent some particularly gruesome stories of the Revenue Men's barbaric, cannibalistic practices. Your poor prisoner has only recently come from the Surface, and believes every word. They stay silent as the duty-officer pokes about on deck. Your crew raises a cheer as the Revenue Men sail away, and you order your gift shackled up in the hold once more.
+
+
+
+	ChildBranches 5
+Name: Hide your cargo
+Id: 139712
+Description: There are no laws against red honey in London, but that won't stop the Ministry from seizing it if they find it.
+
+		DefaultEvent
+Name: 
+Id: 169601
+Description: The duty-officer uncovers your shipment with ill-concealed glee. She confiscates it, ostensibly for destruction. She puts a thick black mark against your name in her ledger, and demands a stiff fine. 
+
+		ParentEvent
+Name: 
+Id: 169490
+Description: 
+
+		SuccessEvent
+Name: 
+Id: 169602
+Description: They tramp about your ship and even dare to rummage through your own cabin, but find nothing. You permit yourself a sigh of relief.

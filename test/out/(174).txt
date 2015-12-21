@@ -1,0 +1,102 @@
+(174)
+Name: At the Mirrored Gates
+Id: 152171
+Description: The Guard stands in the middle of the pool of light, looking warily at the darkness beyond you.
+<br/><br/>
+Up close the Guard's blue cloak is threadbare and mossy along the hem. A pattern of embroidered suns runs along the collar, but the gold thread is dull. The kohl around her eyes is smudged.
+<br/><br/>
+“Well, Taamas,” she asks. “Are you going to ask your questions? Or are you just going to stare?”
+<br/><br/>
+Her tone is brusque but her expression is curiously eager; you do not think Varchas receives many visitors.
+
+	ChildBranches 1
+Name: Your name is not Taamas
+Id: 129709
+Description: You correct her politely.
+
+		DefaultEvent
+Name: 
+Id: 152172
+Description: The Guard looks scandalised and tries to stopper her ears. “All those who are not Varchaasi are Taamas. You have been touched by darkness, and it has taken your name!” She fixes you with an admonishing look, and adds: “It is very ill-mannered to pretend you still have one.”
+<br/><br/>
+You begin to see, a little, why Varchas is not often visited. It looks like you will have to get used to being called Taamas, if you wish to enter.
+
+		ParentEvent
+Name: 
+Id: 152171
+Description: 
+
+
+
+	ChildBranches 2
+Name: Ask about the light
+Id: 129713
+Description: It all seems a bit wasteful. Possibly even...ostentatious.
+
+		DefaultEvent
+Name: 
+Id: 152178
+Description: “We must always walk in Mihir's light so we burn our lamps night and day to banish darkness from the Mirrored City,” she tells you proudly. “If we let darkness corrupt us we would not be Varchaasi any longer, but Taamas. Like you.”
+<br/><br/>
+You wonder, is that so terrible a fate? Her mocking laugh answers you even before her words do: "Yes, it would be terrible indeed, Taamas. And before you ask,” she adds. “No, I do not have any desire to leave Varchas. The rest of Neath has fallen from Mihir's grace, and I have no wish to join them!”
+
+		ParentEvent
+Name: 
+Id: 152171
+Description: 
+
+
+
+	ChildBranches 3
+Name: Ask about her
+Id: 129714
+Description: Does she like her job? Does anyone?
+
+		DefaultEvent
+Name: 
+Id: 152179
+Description: “It is a great honour to guard the Mirrored Gates!” she snaps defensively. She gestures to the edge of the pool of light illuminating her post. “It is very dangerous. Even a small stumble and I could fall into the dark!” Her voice goes thready. “I would be banished from Mihir's grace. I would lose my name. That is why they only send the bravest outside the walls.”
+
+
+		ParentEvent
+Name: 
+Id: 152171
+Description: 
+
+
+
+	ChildBranches 4
+Name: Ask about the city's customs
+Id: 129715
+Description: Best to know before you flout them; easier to plan an escape route, that way.
+
+		DefaultEvent
+Name: 
+Id: 152180
+Description: “Don't touch the mirrors. Don't even look into the mirrors,” she says, her voice hard. “And try very hard not to dream.”
+<br/><br/>
+Were you expecting something along the lines of <i>don't murder anyone</i>, or <i>only wear red on special occasions</i>? Still, you nod and smile.
+
+
+		ParentEvent
+Name: 
+Id: 152171
+Description: 
+
+
+
+	ChildBranches 5
+Name: You have no more questions
+Id: 129716
+Description: You are satisfied; or perhaps the Guard's voice is beginning to grate a little.
+
+		DefaultEvent
+Name: 
+Id: 152181
+Description: She looks a little disappointed, but does not try to engage you further.
+
+
+		ParentEvent
+Name: 
+Id: 152171
+Description:

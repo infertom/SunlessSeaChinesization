@@ -1,0 +1,310 @@
+(87)
+Name: 4 - Therapy storylet
+Id: 150922
+Description: You aren't aware of it, you just try to fix it.
+Admit to truth.
+Talk about you - maybe your ancestors played in me. 
+
+	ChildBranches 1
+Name: Its various worries #1
+Id: 128883
+Description: 
+
+		DefaultEvent
+Name: 
+Id: 150923
+Description: 
+
+		ParentEvent
+Name: 
+Id: 150922
+Description: 
+
+
+
+	ChildBranches 2
+Name: various worries #2
+Id: 128973
+Description: 
+
+		DefaultEvent
+Name: 
+Id: 151025
+Description: 
+
+		ParentEvent
+Name: 
+Id: 150922
+Description: 
+
+
+
+	ChildBranches 3
+Name: various worries #3
+Id: 128974
+Description: Left its own confession.
+
+		DefaultEvent
+Name: 
+Id: 151026
+Description: 
+
+		ParentEvent
+Name: 
+Id: 150922
+Description: 
+
+
+
+	ChildBranches 4
+Name: 
+Id: 128991
+Description: 
+
+		DefaultEvent
+Name: 
+Id: 151043
+Description: 
+
+		ParentEvent
+Name: 
+Id: 150922
+Description: 
+
+
+
+	ChildBranches 5
+Name: 
+Id: 128992
+Description: 
+
+		DefaultEvent
+Name: 
+Id: 151044
+Description: 
+
+		ParentEvent
+Name: 
+Id: 150922
+Description: 
+
+
+
+	ChildBranches 6
+Name: 
+Id: 128993
+Description: 
+
+		DefaultEvent
+Name: 
+Id: 151045
+Description: 
+
+		ParentEvent
+Name: 
+Id: 150922
+Description: 
+
+
+
+	ChildBranches 7
+Name: 
+Id: 128994
+Description: 
+
+		DefaultEvent
+Name: 
+Id: 151046
+Description: 
+
+		ParentEvent
+Name: 
+Id: 150922
+Description: 
+
+
+
+	ChildBranches 8
+Name: 
+Id: 128995
+Description: 
+
+		DefaultEvent
+Name: 
+Id: 151047
+Description: 
+
+		ParentEvent
+Name: 
+Id: 150922
+Description: 
+
+
+
+	ChildBranches 9
+Name: 
+Id: 128996
+Description: 
+
+		DefaultEvent
+Name: 
+Id: 151048
+Description: 
+
+		ParentEvent
+Name: 
+Id: 150922
+Description: 
+
+
+
+	ChildBranches 10
+Name: 
+Id: 128997
+Description: 
+
+		DefaultEvent
+Name: 
+Id: 151049
+Description: 
+
+		ParentEvent
+Name: 
+Id: 150922
+Description: 
+
+
+
+	ChildBranches 11
+Name: 
+Id: 128998
+Description: 
+
+		DefaultEvent
+Name: 
+Id: 151050
+Description: 
+
+		ParentEvent
+Name: 
+Id: 150922
+Description: 
+
+
+
+	ChildBranches 12
+Name: 
+Id: 128999
+Description: 
+
+		DefaultEvent
+Name: 
+Id: 151051
+Description: 
+
+		ParentEvent
+Name: 
+Id: 150922
+Description: 
+
+
+
+	ChildBranches 13
+Name: 
+Id: 129000
+Description: 
+
+		DefaultEvent
+Name: 
+Id: 151052
+Description: 
+
+		ParentEvent
+Name: 
+Id: 150922
+Description: 
+
+
+
+	ChildBranches 14
+Name: 
+Id: 129001
+Description: 
+
+		DefaultEvent
+Name: 
+Id: 151053
+Description: 
+
+		ParentEvent
+Name: 
+Id: 150922
+Description: 
+
+
+
+	ChildBranches 15
+Name: 
+Id: 129002
+Description: 
+
+		DefaultEvent
+Name: 
+Id: 151054
+Description: 
+
+		ParentEvent
+Name: 
+Id: 150922
+Description: 
+
+
+
+	ChildBranches 16
+Name: 
+Id: 129003
+Description: 
+
+		DefaultEvent
+Name: 
+Id: 151055
+Description: 
+
+		ParentEvent
+Name: 
+Id: 150922
+Description: 
+
+
+
+	ChildBranches 17
+Name: 
+Id: 129005
+Description: 
+
+		DefaultEvent
+Name: 
+Id: 151057
+Description: 
+
+		ParentEvent
+Name: 
+Id: 150922
+Description: 
+
+
+
+	ChildBranches 18
+Name: Catalogue her
+Id: 129006
+Description: 
+
+		DefaultEvent
+Name: 
+Id: 151058
+Description: 
+
+		ParentEvent
+Name: 
+Id: 150922
+Description:

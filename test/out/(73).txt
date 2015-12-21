@@ -1,0 +1,36 @@
+(73)
+Name: Something watches from afar
+Id: 167497
+Description: A movement in the water. A disturbance in the air. A chill down the spine. Since leaving the Nocturne, the crew has reported a strange sense of something watching... observing... following. Could it have been drawn by the candlelight during the search?
+
+	ChildBranches 1
+Name: Just more zailor superstition
+Id: 138482
+Description: The Nocturne was a half-drowned ship. No surprise the weaker-willed of the crew have gotten jumpy.
+
+		DefaultEvent
+Name: Nothing to worry about
+Id: 167498
+Description: This far from home, even hardened sailors will jump at their own shadow in the glim-light.
+
+		ParentEvent
+Name: 
+Id: 167497
+Description: 
+
+
+
+	ChildBranches 2
+Name: You've felt it out there too
+Id: 138536
+Description: An eye that doesn't see, a lingering sense of dread.
+
+		DefaultEvent
+Name: Ripples in the dark
+Id: 167574
+Description: Not now, they seem to say. Not now, but soon. For if the great beasts of the zee know anything, it's how to be patient.
+
+		ParentEvent
+Name: 
+Id: 167497
+Description:

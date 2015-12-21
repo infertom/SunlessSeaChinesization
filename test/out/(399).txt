@@ -1,0 +1,140 @@
+(399)
+Name: The Honeyed Tongue
+Id: 168541
+Description: Entering the brothel is like sliding into the dream of a Surface orientalist: jewel-embroidered cushions, bright silk drapes, gilded statues of elephants, sun bears and clouded leopards. Silver censers release curling plumes of rose-scented smoke into the air.
+<br><br>
+The courtesans are red-lipped and kohl-smudged. When you catch their eyes, they smile back at you with professional interest.
+[Your actions will attract the Pirate-King's notice. You need 5 x Pirate-King's Notice to gain an offer from a Patron.]
+
+	ChildBranches 1
+Name: A meeting with the King's Claw
+Id: 139062
+Description: The Claw keeps a suite in the maze of corridors above the brothel.
+
+		DefaultEvent
+Name: 
+Id: 168542
+Description: 
+
+		ParentEvent
+Name: 
+Id: 168541
+Description: 
+
+
+
+	ChildBranches 2
+Name: Isery's Experiment: A purposeful assignation
+Id: 139080
+Description: The courtesans at the Honeyed Tongue are warm and accommodating, if you have the coin. 
+
+		DefaultEvent
+Name: 
+Id: 168571
+Description: It is not easy to create an amorous mood between a nectar-maddened bee and a chanting Melliferous Sister. Luckily, the courtesan you selected takes the situation as something of a professional challenge. You emerge from the encounter a few hours later, smiling and thoroughly rumpled. <br><br>
+The Melliferous Sister collects the cage, and gives you a small nod. Your duty is, as it were, discharged.
+
+		ParentEvent
+Name: 
+Id: 168541
+Description: 
+
+
+
+	ChildBranches 3
+Name: Isery's Experiment: Sacrifice a member of your crew
+Id: 139081
+Description: She is unwarily drunk on mushroom-wine, and sitting alone. Fear is an intense emotion, and one you can easily provoke.
+
+		DefaultEvent
+Name: 
+Id: 168572
+Description: You tell the Melliferous Sister to stay close, and approach the zailor's table. "Captain!" she says happily. She tries to stand, which is when you slice through the tendons of her leg with a swift flick of your sword. 
+<br><br>
+She collapses on the floor with a shuddering scream. You very deliberately make your eyes cold and empty before you meet hers, and you can almost smell her responding fear. That should do. The Melliferous Nun gives you a small nod, and carries the cage away to your Patron. You put your zailor out of her misery.
+
+		ParentEvent
+Name: 
+Id: 168541
+Description: 
+
+
+
+	ChildBranches 4
+Name: Ask what red honey is
+Id: 139431
+Description: You know, of course. Only, the <i>particulars</i> may have slipped your mind. 
+
+		DefaultEvent
+Name: 
+Id: 169186
+Description: One of the nearby courtesan's eyebrows lifts infinitesimally, but his reply is practiced. "When lamplighter bees suck the nectar of the crimson strain of exile's rose, they are driven to madness. They enter the brains of humans and harvest their memories." He shudders, as though imagining the process himself. "Those memories are instilled in red honey. Each sip is a burst of memory on the tongue."
+<br><br>
+"Deliciously <i>awful</i>, isn't it?" He flutters his dyed feather fan.
+
+		ParentEvent
+Name: 
+Id: 168541
+Description: 
+
+
+
+	ChildBranches 5
+Name: Comfort a zee-captain
+Id: 139443
+Description: A zee-captain is weeping gently into a courtesan's bosom, muttering of her lost crew, and rose gardens.
+
+		DefaultEvent
+Name: 
+Id: 169205
+Description: "They're all tending the gardens now!" she wails, and begins to weep again. "My poor crew."
+<br><br>
+You wait for a hitch in the sobs, and inquire further. It is a slow, delicate business drawing answers out of her, but you are nothing if not perseverant. It seems her crew was conscripted by the Lady of the Gardens, and that their duties are something far worse than horticulture. You leave her reciting the names of her lost zailors, and commending them to Salt's mercy.
+
+
+		ParentEvent
+Name: 
+Id: 168541
+Description: 
+
+
+
+	ChildBranches 6
+Name: Swap tales with a honey-smuggler
+Id: 139451
+Description: A few rousing zee-stories should loosen his tongue about the mysterious Pirate-King.
+
+		DefaultEvent
+Name: 
+Id: 169216
+Description: You touch your cat's eye brooch, and the zee-captain chortles. "The Pirate-King is watching you! Indeed he is, though not many see him these days. The people <i>you</i> want to watch out for are the King's Claw and the Lady of the Gardens. The Claw makes sure everyone keeps in line on the island, and the Lady - well, she's the keeper of the Cage-Gardens. Where they extract - um." <br><br>
+He seems to remember himself, all of a sudden, and blanches. "Er. Forget I said any of that, will you, [q:Addressed As]?"
+
+		ParentEvent
+Name: 
+Id: 168541
+Description: 
+
+
+
+	ChildBranches 7
+Name: Isery's Experiment: Start a bar-fight
+Id: 139082
+Description: Easy enough in a crowd such as this one, and guaranteed to generate intense feeling. The question is: do you dare?
+
+		DefaultEvent
+Name: 
+Id: 168573
+Description: The Catties are, unfortunately, far more accustomed to bar-brawls than you are, and even better at quashing them. You are firmly ejected from the Honeyed Tongue, and have to endure the Melliferous Sister's exasperated sighs. It seems you will have to try some other method.
+
+		ParentEvent
+Name: 
+Id: 168541
+Description: 
+
+		SuccessEvent
+Name: 
+Id: 168574
+Description: You end up on top of a table, duelling with a wild-eyed pirate carrying an antique sword. Your limbs feel as though they are touched by fire and wind, and you laugh at your blade strikes true. Your luck holds for your next two challengers, and the two after that. You are almost disappointed when the brawl staggers to a halt. One of the courtesans drops the man she was strangling with her silk scarf, and calls for honey-mead for those left standing.
+<br><br>
+The Melliferous Nun - who is entirely unscathed, of course - catches your eye from across the room, and gives you a nod. She takes the caged bee and slips back to Isery's laboratory. A job well done.

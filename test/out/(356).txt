@@ -1,0 +1,58 @@
+(356)
+Name: You've defeated a Crack Pirate Frigate
+Id: 171423
+Description: The ship is yours! What will you do with her?
+
+	ChildBranches 1
+Name: Loot and scuttle her
+Id: 140765
+Description: She's a vile old vessel, and these zees aren't safe. Take what you can and move on.
+
+		DefaultEvent
+Name: What's this?
+Id: 171426
+Description: Here's something at the back of the hold...
+
+		ParentEvent
+Name: 
+Id: 171423
+Description: 
+
+
+
+	ChildBranches 2
+Name: Record any Observations
+Id: 140766
+Description: If you've gathered enough, you may learn something...
+
+		DefaultEvent
+Name: The study of squalor
+Id: 171427
+Description: Corsairs! Inventive and disgusting as a sewerful of clockwork apes. You've gleaned enough details to write a treatise, a strategy manual or a titillating penny-dreadful.
+
+		ParentEvent
+Name: 
+Id: 171423
+Description: 
+
+
+
+	ChildBranches 3
+Name: Send home with a prize crew
+Id: 140764
+Description: Three zailors should be enough for a skeleton crew, unless she runs into trouble.
+
+		DefaultEvent
+Name: Into the darkness
+Id: 171424
+Description: Your prize is never seen again. Perhaps a heptycheer devours your crew. Perhaps they devour each other. Perhaps they betray you and sail it to the Iron Republic, where laws cannot follow.
+
+		ParentEvent
+Name: 
+Id: 171423
+Description: 
+
+		SuccessEvent
+Name: Awaiting your pleasure
+Id: 171425
+Description: When you next return to London, return to your Lodgings to claim your prize money...

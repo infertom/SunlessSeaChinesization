@@ -1,0 +1,36 @@
+(45)
+Name: "Don't lose it."
+Id: 149161
+Description: You stand on the bridge with the Dapper Chap's locket in your hand.
+
+	ChildBranches 1
+Name: Keep it
+Id: 127855
+Description: It's a risk for both of you. Shore-bound lovers grow lonely, and zee-captains die young.
+
+		DefaultEvent
+Name: Close your hand over the locket
+Id: 149162
+Description: The zee-air is cold, but the heat of your blood has warmed the metal of the locket. Keep it close.
+
+		ParentEvent
+Name: 
+Id: 149161
+Description: 
+
+
+
+	ChildBranches 2
+Name: Throw it away
+Id: 127856
+Description: With enough time and effort, you could break his heart, or he yours.
+
+		DefaultEvent
+Name: A shining arc
+Id: 149163
+Description: It spins away into the night. Your first officer glances across, curiously. The throb of the engines drowns out the splash.
+
+		ParentEvent
+Name: 
+Id: 149161
+Description:

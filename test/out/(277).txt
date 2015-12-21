@@ -1,0 +1,72 @@
+(277)
+Name: A Shadowy Predator
+Id: 141268
+Description: It's the little things. The click of a sliding stone where there should be silence - a motion in the shadows, as if they were thick-stirred like ink - a lull in the cries of the zee-bats. Something is watching you, drawing closer hour by hour. You and your crew draw back to back, watching the darkness.
+
+	ChildBranches 1
+Name: Wait, watch, and end it
+Id: 122738
+Description: It has stealth, but you have rifles. All you need is a clear shot, and you'll earn yourself a trophy.
+
+		DefaultEvent
+Name: A bad end
+Id: 141269
+Description: One of your crew strays too far from the group. You never know why - you don't know it's happened until you hear him cry out. As your crew rushes to assist, there's another cry from behind you. Another zailor vanishes into the darkness! You glimpse a writhing coil of limbs and the glitter of eyes, and the beast is gone. The beasts. There must be at least two of them. Who knows how many more?
+<br/><br>
+You retreat with haste to the ship, eyes wide, though you see nothing more of the predators. Perhaps their hunger is satisfied.
+
+		ParentEvent
+Name: 
+Id: 141268
+Description: 
+
+		SuccessEvent
+Name: An end to it!
+Id: 146191
+Description: Deep silence. A faint scrape, like boot-leather on stone. The woman on your left levels her rifle and fires - and your crew joins her. The fusillade almost drowns out the hoarse screeching of the creature in the shadows.
+<br/><br/>
+When you drag into the light, its oily flesh is already beginning to dissolve (perhaps the light is hastening it?) Whatever it was, it had many-jointed leathery limbs, eyes like a bunch of grapes, a folding assembly of mandibles. It stinks of vinegar and mould. You fling a tarpaulin over it and bundle it into the darkest part of the hold. Perhaps someone will want it.
+
+
+
+	ChildBranches 2
+Name: Capture it alive
+Id: 122739
+Description: This could be tricky.
+
+		DefaultEvent
+Name: A complication
+Id: 141270
+Description: You stalk it through the darkness, directing your crew to set up blinds and baffles and spikes and snares. It doesn't go well. One of your zailors steps into her own pit trap, and another backs off the cliff trying to do something elaborate with a rope. You see nothing more of the beast, but your wretched crew is proving to be more of a danger anyway. Back to the ship.
+
+		ParentEvent
+Name: 
+Id: 141268
+Description: 
+
+		SuccessEvent
+Name: A contest of cunning
+Id: 146192
+Description: You employ ruses, stratagems and a cruel choice of bait, harrying the thing through the archipelagic midnight until it collapses into your trap with a hoarse screech of rage! You bind it with chains and blankets and force it into a triple-locked cage. It snaps its folding assembly of jaws and snaps at you with its many-jointed limbs. Its eyes brim with primal range. Excellent! It'll be worth an Echo or ten.
+
+
+
+	ChildBranches 3
+Name: Retreat to the ship
+Id: 125903
+Description: Put clear black water between you and the thing in the shadows.
+
+		DefaultEvent
+Name: Without a trace
+Id: 146189
+Description: You retreat to the ship in good order. Your lanterns keep the darkness at arm's reach, and you neither see nor hear any trace of the creature. But when you count your crew up the gang-plank, you come up one short...
+
+		ParentEvent
+Name: 
+Id: 141268
+Description: 
+
+		SuccessEvent
+Name: An orderly retreat
+Id: 146193
+Description: You sense it in the murk, its course parallel to your own. But by the time it draws near, the lights of the port are already ahead. Your zailors clatter up the gang-plank, whispering together in nervous undertones.

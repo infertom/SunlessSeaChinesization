@@ -1,0 +1,63 @@
+(366)
+Name: You've destroyed an Elder Angler Crab
+Id: 171495
+Description: The shell is shattered; the glowing illiciae lie silent...
+
+	ChildBranches 1
+Name: Butcher it
+Id: 140809
+Description: For supplies; and occasionally other oddities.
+
+		DefaultEvent
+Name: 
+Id: 171498
+Description: 
+
+		ParentEvent
+Name: 
+Id: 171495
+Description: 
+
+
+
+	ChildBranches 2
+Name: Record any Observations
+Id: 140810
+Description: If you've gathered enough, you may learn something...
+
+		DefaultEvent
+Name: A mis-named beast
+Id: 171499
+Description: You are confident, now, that these illiciae - in the seaman's vernacular, 'glowy dangly things - are nothing of the sort. They quivered in response to your movements: they twitched towards you as if drawn by magnets! Clearly, these are another sense the monster uses. Or perhaps you've just discovered crustacean magnetism..
+
+		ParentEvent
+Name: 
+Id: 171495
+Description: 
+
+		RareDefaultEvent
+Name: A deadly ballet
+Id: 171500
+Description: The Angler's bulk moved with impossible grace and speed. You've learnt a good many tricks here today, although many of them are inappropriate for your ship, unless you can fit it with jointed limbs or an organic-hydraulic predation system.
+
+
+
+	ChildBranches 3
+Name: Dissect it
+Id: 140808
+Description: for knowledge.
+
+		DefaultEvent
+Name: Mysteries remain
+Id: 171496
+Description: Well, its blood glows. And it's all terribly gooey. Er... fascinating!
+
+		ParentEvent
+Name: 
+Id: 171495
+Description: 
+
+		SuccessEvent
+Name: Decapodal mysteries
+Id: 171497
+Description: You and your ship's doctor clamber over the beast as it lies in the lee of your ship. Its blood is a curious blue: and the blood, too, is touched by luminescence. It's a female, but there are no eggs. And what's this, on its belly? Someone has chiselled seven marks between two horizontal lines, like pillars supporting a roof...

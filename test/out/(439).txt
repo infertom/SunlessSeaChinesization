@@ -1,0 +1,306 @@
+(439)
+Name: The Wildweald Court
+Id: 175842
+Description: A cacophony of Pentecost apes swings across ropes and ceiling beams in a cramped sea of sweat and malice. All are locked in an endless feud for souls and status, with scarce few having much else to call their own.
+
+	ChildBranches 1
+Name: A Visitor in Court
+Id: 143520
+Description: A float bearing a giant bat-creature costume crudely crafted from papier mâché is wheeled through the halls.
+
+		DefaultEvent
+Name: A tiny revenge
+Id: 175843
+Description: Rocks fly and sticks strike at the unfortunate servant monkey in the bat suit, its shrieks of pain soon drowned out by the hate of the mob. Would it be worth pointing out that the Masters of the Bazaar are not the masters of London? No. Definitely not. For a moment they have a focus for their rage, at being trapped and mocked from abroad. One of them even produces a can of fuel, lighting both the bat and a good part of the roof ablaze.
+<br /><br />
+The show ends as the fires are extinguished. The beaten, singed monkey from inside the costume is dragged away amidst a cacophony of jeering laughter.
+
+		ParentEvent
+Name: 
+Id: 175842
+Description: 
+
+
+
+	ChildBranches 2
+Name: The Silent Gallery
+Id: 143934
+Description: While the Emperor sleeps and feasts, the Exquisite Seneschal co-ordinates the Great Exodus.
+
+		DefaultEvent
+Name: You are granted permission to enter
+Id: 176479
+Description: The silence is a pleasant slap to the face, sweetly scented with incense. Inside, the Exquisite Seneschal moves between clusters of mandarins in their yellow and red robes, using her experience to not so much give orders as offer 'advice' on what the Emperor would wish.
+
+		ParentEvent
+Name: 
+Id: 175842
+Description: 
+
+		RareDefaultEvent
+Name: You are granted permission to enter
+Id: 180323
+Description: The silence is a pleasant slap to the face, sweetly scented with incense. Inside, the Exquisite Seneschal deals with the many demands and complaints of the court.
+
+
+
+	ChildBranches 3
+Name: The Chandler of Souls
+Id: 143935
+Description: Your rising status in Court has inspired assorted parties to enquire about your willingness to... meet.
+
+		DefaultEvent
+Name: Trust is not a courtly virtue
+Id: 176480
+Description: The Chandler will however be pleased to act as your intermediary to ensure fair play on both sides of the transaction.
+
+		ParentEvent
+Name: 
+Id: 175842
+Description: 
+
+
+
+	ChildBranches 4
+Name: Trade with the Wildweald Court
+Id: 143936
+Description: Trading? No. It is not trading. However, should you have 'gifts' of a certain nature...
+
+		DefaultEvent
+Name: The keeping of appearances
+Id: 176481
+Description: A small group of powder-faced apes in the red-trimmed robes of court mandarins invite you into a quiet cushioned room. Drinks and honey cakes are served, and business carefully not discussed. After a while however, the charade gives way to polite expectation.
+
+		ParentEvent
+Name: 
+Id: 175842
+Description: 
+
+
+
+	ChildBranches 5
+Name: The Delightful Adventuress
+Id: 143937
+Description: She stands fuming, her head and hands locked tight in a pillory near the centre of the palace.
+
+		DefaultEvent
+Name: She glares at you with the purest hate
+Id: 176482
+Description: The honourable thing would be to take the high moral ground and not enjoy this at all.
+
+		ParentEvent
+Name: 
+Id: 175842
+Description: 
+
+		RareDefaultEvent
+Name: She glares as you approach
+Id: 179978
+Description: "Do not even think about it, <i>darling,"</i> she spits. "When I return to London, there shall be a reckoning! My friends in the Admiralty will not stand for this, mark my-"
+<br /><br />
+Oh look. A monkey selling rotten vegetables.
+
+
+
+	ChildBranches 6
+Name: Leave the Court
+Id: 143938
+Description: The rest of the Empire of Hands awaits. As does a much needed breath of fresh air.
+
+		DefaultEvent
+Name: Back to Port Stanton
+Id: 176483
+Description: If only the monkeys had engines, they would likely have built proper docks.
+
+		ParentEvent
+Name: 
+Id: 175842
+Description: 
+
+		RareDefaultEvent
+Name: Back to Port Stanton
+Id: 178354
+Description: There is only a short wait for a rowboat.
+
+
+
+	ChildBranches 7
+Name: A Visitor in Court
+Id: 144874
+Description: Few Pentecost apes earn the honour of seeing inside this place. Fewer still are happy to see a human here.
+
+		DefaultEvent
+Name: A palace of avarice
+Id: 178041
+Description: You can feel the eyes on you as you slowly trudge around court on your inefficient human legs, constantly being pinched and poked and having your pockets picked. There is no shame in it for the apes, not even the one you catch in the act. It just spits in your face and scampers off making rude gestures. A pair of mandarins shake their heads at their low-souled brethren, for their lack of ambition as much as anything else.
+
+		ParentEvent
+Name: 
+Id: 175842
+Description: 
+
+		RareDefaultEvent
+Name: A mob of monkeys
+Id: 180291
+Description: Just getting around is almost impossible. Three high-souled monkeys fight over which has the most stylish wig. A stampede breaks out when a merchant stall collapses and all descend to take advantage. Two mandarins come to blows over a particularly valuable soul. The screeching chaos is unbearable. You retreat to a quiet corner, or at least as quiet as you can find.
+
+
+
+	ChildBranches 8
+Name: A Visitor in Court
+Id: 144875
+Description: Your wanderings bring you to the cramped laboratory of the Imperial Alchemist, wreathed in the smells of honey, wax and lacre.
+
+		DefaultEvent
+Name: Experiments in souls
+Id: 178042
+Description: He dips them one at a time in a bowl of lacre; neath-snow. They fizzle in the frozen sorrow, something beyond a scream cutting the air. “No good,” mutters the Alchemist, discarding what remains. "No good at all." He kicks the rest of the crate. "Worthless. All worthless..."
+<br /><br />
+Well. If he has no need for them...
+
+		ParentEvent
+Name: 
+Id: 175842
+Description: 
+
+		RareDefaultEvent
+Name: The alchemy of souls
+Id: 178149
+Description: The Alchemist arranges a set of souls on a shelf. In Fallen London, it is believed that Pentecost apes thirst for any. For the savage unsouled, that is true. Once uplifted however, their attentions soon turn to finding the <i>right</i> souls, both individually and as a mix. There is no greater honour for an Emperor than to be entombed with their souls unreclaimed. It is a declaration that none other could hope to do as much with them.
+<br /><br />
+Of course, what they see as uplifting could be simple copying, nothing more. To suggest that here however is considered highest heresy, for it implies the Emperor fit to rule on merely <i>his own</i> merits. Unthinkable!
+
+
+
+	ChildBranches 9
+Name: A Visitor in Court
+Id: 144876
+Description: A duel! What passes for court business draws to a halt as two high-souled monkeys prepare to draw blades.
+
+		DefaultEvent
+Name: An epic battle to the humiliation!
+Id: 178043
+Description: When monkeys duel, every surface becomes part of the fight. They climb the walls, hang from the ceilings, charge through the cheering crowd with no care for who or what their rapiers may cut and slice. Death is not the goal. For the loser to forever remember this day and this defeat with burning shame is reward enough.
+<br /><br />
+Bets are taken. You place yours. Poorly, it turns out. As the losing monkey is taken to be shaved and at least one soul forfeited, you pay up.
+
+		ParentEvent
+Name: 
+Id: 175842
+Description: 
+
+		RareDefaultEvent
+Name: An epic battle to the humiliation!
+Id: 178143
+Description: When monkeys duel, every surface becomes part of the fight. They climb the walls, hang from the ceilings, charge through the cheering crowd with no care for who or what their rapiers may cut and slice. Death is not the goal. For the loser to forever remember this day and this defeat with burning shame is reward enough.
+<br /><br />
+Bets are taken. You place yours. Victory! As the losing monkey is taken to be shaved and at least one soul forfeited, you collect your winnings.
+
+
+
+	ChildBranches 10
+Name: A Visitor in Court
+Id: 144877
+Description: Here, a crime gotten away with is a crime not committed. Their justice system is merely part of the punishment.
+
+		DefaultEvent
+Name: Disorder in the court
+Id: 178044
+Description: What is the guilty party accused of? It hardly matters. He and the judge are in a screaming match that has the whole court pounding every surface in a drumbeat of approval. As you watch, the Judge throws not the book at him, but the gavel. And his chair. Then leaps down with a screech and starts tearing at him with his teeth while the monkeys whoop with fevered excitement.
+<br /><br />
+By the end of the fight, everyone seems to have lost interest in what the case was about in the first place, and the judge and defendant are last seen hobbling off together. They leave behind a destroyed courtroom, and a thoroughly contented crowd.
+
+		ParentEvent
+Name: 
+Id: 175842
+Description: 
+
+		RareDefaultEvent
+Name: Twelve ecstatic monkeys
+Id: 178151
+Description: The accused shakes in the dock as the judge, a mandarin in a wig dirty enough for the fleas to have abandoned it, slams down the little statue that is as close as he has to a gavel. "The sentence!" he yelps. "The guilty will be taken from this place, sssh, and flayed... <i>flayed!</i>... with the shell of a crab, sssh, and all souls forfeit in the name of the Great Emperor! Unless! Unless this miserable wretch should have anything to say in his defense, yes?"
+<br /><br />
+In this court, sentencing comes first. 'Defence' is merely a chance to whittle it down. Or is, when the guilty's advisor has not just winked at the audience and poured a stealthy sachet of mutersalt into his water...
+
+
+
+	ChildBranches 11
+Name: A Visitor in Court
+Id: 144878
+Description: The Imperial Cartographer works with uncommon fervour to create and compile maps for the court.
+
+		DefaultEvent
+Name: A creator of maps
+Id: 178045
+Description: The Cartographer painstakingly draws one of the Empire's islands onto a parchment treated to look ancient. He explains his art freely, glad for a moment's recognition. Since the quarantine and trade embargo, the Empire's best way to lure visitors has been to seed the Unterzee with tales of lost treasure. Maps, primarily, just cryptic enough that they feel they have achieved something by their search. Then, while they poke about in the forests, both their souls and ships are- He stops. He's said too much.
+<br /><br />
+Is there treasure buried though? Oh yes, he almost snaps, continuing to encode a series of directions into a recipe of some sort. If word spread that there was not, why would you fools continue to brave the voyage?
+
+		ParentEvent
+Name: 
+Id: 175842
+Description: 
+
+		RareDefaultEvent
+Name: A collector of maps
+Id: 178150
+Description: The monkeys have long sought to escape their island prison. It is the Imperial Cartographer's job to prepare for their success - a task hardly made easier by the regular Alterations of the Unterzee.
+<br /><br />
+Maps of every configuration are spread out over his walls, in the forlorn hope that their consistencies will provide a measure of clarity. This would be more likely if not for his habit of idly filling gaps by pencilling in variably obscene doodles, on the grounds that his seniors will never be able to call his bluff..
+
+
+
+	ChildBranches 12
+Name: Gather Strategic Information for the Admiralty
+Id: 144904
+Description: This is a rare opportunity to peer into the heart of the Empire.
+
+		DefaultEvent
+Name: The Emperor seethes in silence
+Id: 178086
+Description: The Zeppelin is what has the Penties' full attention right now. However, dark murmurs not intended for your ears speak of unfinished business before the Exodus - of a weapon the Emperor intends to deploy against its greatest foes.
+
+		ParentEvent
+Name: 
+Id: 175842
+Description: 
+
+
+
+	ChildBranches 13
+Name: A Visitor in Court
+Id: 144941
+Description: A duel! What passes for court business draws to a halt as two high-souled monkeys prepare to draw blades.
+
+		DefaultEvent
+Name: An epic duel to the humiliation
+Id: 178144
+Description: When monkeys duel, every surface becomes part of the fight. They climb the walls, hang from the ceilings, charge through the cheering crowd with no care for who or what their rapiers may cut and slice. Death is not the goal. For the loser to forever remember this day and this defeat with burning shame is reward enough.
+<br /><br />
+Bets are taken. Unfortunately you have insufficient resources to take part, much to the disgust of the nearby monkeys. It is still an exciting show though, ending only when the loser, wounded, is dragged away to be shaved and made to forfeit a soul as the winner's trophy.
+
+		ParentEvent
+Name: 
+Id: 175842
+Description: 
+
+
+
+	ChildBranches 14
+Name: A Visitor In Court
+Id: 146238
+Description: Today, the Wildweald Court accepts petitions for membership from the low-souled monkeys without.
+
+		DefaultEvent
+Name: A feeding frenzy!
+Id: 180324
+Description: A newly five-souled ape trembles in the spotlight, surrounded by ranks of jeering, mocking monkeys throwing vicious abuse and the occasional rock.
+<br /><br />
+Its humiliations have been going on for a while by the time you arrive, the latest of them being publicly shaved as proof of commitment. As you watch from the corner, it plunges its head into a large bowl of... oh, how it wishes it was water... until its breath fails, only to be held under until the thrashing ends. Only then is it allowed to slump to the straw; limp, unconscious.
+<br /><br />
+The crowd turns to the three mandarins whose decision is final. They turn their backs. The unfortunate ape's carcass is dragged away, as another steps forward to try its luck.
+
+		ParentEvent
+Name: 
+Id: 175842
+Description:

@@ -1,0 +1,36 @@
+(358)
+Name: You've destroyed the Unfinished Revolutionaries
+Id: 171436
+Description: Fragments of clay litter across the deck. They crunch underfoot like potsherds. Unfinished Men do not surrender.
+
+	ChildBranches 1
+Name: Investigate the hold
+Id: 140772
+Description: What treasure did these villains take?
+
+		DefaultEvent
+Name: 
+Id: 171439
+Description: 
+
+		ParentEvent
+Name: 
+Id: 171436
+Description: 
+
+
+
+	ChildBranches 2
+Name: Record any Observations
+Id: 140774
+Description: If you've gathered at least 10 Observations, you may learn something...
+
+		DefaultEvent
+Name: A hundred absences
+Id: 171441
+Description: An Unfinished Man is missing something that other Clay Men lack. What did each of these your enemies lack? An eye. A hand. Mercy. Obedience. Fear. Pain. A shadow. A sense of proportion. This may serve as material for philosophy, or for battle tactics.
+
+		ParentEvent
+Name: 
+Id: 171436
+Description:

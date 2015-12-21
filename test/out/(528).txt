@@ -1,0 +1,96 @@
+(528)
+Name: A History Lesson
+Id: 152231
+Description: The Chief Engineer leads you to the northern side of the island, skirting the Chickenwoods. You pass through a number of what can only be termed check-points, as fierce-eyed rats shoulder their derringers and salute the Chief Engineer. Soon you come upon a small colony, smaller than some of the infestations you’ve encountered in London flats: only perhaps fifty Rattus Faber all together, working diligently to fortify their side of the island. 
+<br><br>
+The first thing you notice is a brilliant light, beaming out from a stump of Chickenwood about six feet high; it bathes the whole settlement in a clean blue glow, and is almost too bright to look at. By its light you can see several raised mounds of earth, suggesting shallow tunnels. 
+<br><br>
+An efficient fishing operation is set up by the water: an albino rat mends nets while others stab sharpened sticks into the waves. Further inland is a barracks, where a sergeant barks drills at a small squadron of fighters. 
+<br><br>Your arrival draws attention, and several rats pause in their work to look at you curiously. <br><br>"Welcome to Murinia," says the Chief Engineer, voice warm with pride. "It's not much to look at now, but it will be once we've rousted the Cavies. Take a stroll around while I summon the war council."
+<br><br>
+With that he vanishes into one of the mounds and leaves you to explore.
+
+	ChildBranches 1
+Name: Head to the barracks.
+Id: 129751
+Description: The drill sergeant appears to be sizing you up. Can this be all the rats have to fight with?
+
+		DefaultEvent
+Name: Against the odds.
+Id: 152232
+Description: You approach the drill sergeant and go so far as to salute her, which earns you a grunt of satisfaction. The sergeant dismisses her troops and offers you a bit of Chickenwood jerky to gnaw on. 
+<br><br>
+"There’s more of us below ground,” she explains, “but not enough. The Cavies are bigger and there's more of ‘em. We’re better with weapons, but haven’t got the stuff to make ‘em with; most of us came here as stowaways and brought nothing but food, tools, and the fur on our backs. We can fish, and we nibble the Chickenwoods, but we can’t make guns out of trees. The Cavies came with their own steamer, and seem to have endless supplies—we raid ‘em, sometimes, but there’s so few of us, and we can never hold on to territory gained for long. But that’s of no consequence—all we want is to be left in peace to build our Republic. And the Rat Star,” she adds thoughtfully, after a moment. “Of course. We want that too." 
+
+		ParentEvent
+Name: 
+Id: 152231
+Description: 
+
+
+
+	ChildBranches 2
+Name: Head to the beach.
+Id: 129757
+Description: What kind of fish might they catch here? And who ever heard of a rat <i>mending</i> nets?
+
+		DefaultEvent
+Name: Where the green billows play.
+Id: 152238
+Description: An albino rat smiles quietly up at you from his mending work, dainty and a little shy.
+<br><br>
+"Chickenwood floats, especially when it's dried out and sealed, so we're able to paddle out a bit and cast our nets. We come up with all sorts of things: blindfish, crabs, sometimes a chunk of broken tentacle. But the fishing would never be so good without the Rat Star." He beams in kind. "I think it only draws good fish, and keeps the scary ones at bay. I know the Chief Science Officer doesn't believe it, but I do. That light is our livelihood." 
+
+		ParentEvent
+Name: 
+Id: 152231
+Description: 
+
+
+
+	ChildBranches 3
+Name: Wait for the war council.
+Id: 129791
+Description: You've done all the exploring you want. Time to take action.
+
+		DefaultEvent
+Name: 
+Id: 152287
+Description: 
+
+		ParentEvent
+Name: 
+Id: 152231
+Description: 
+
+
+
+	ChildBranches 4
+Name: Head towards the Rat Star.
+Id: 129758
+Description: An excitable-looking rat is peering at it through smoky goggles, twitching her whiskers and making notes on what appears to be real paper.
+
+		DefaultEvent
+Name: A learned astronomer.
+Id: 152239
+Description: "It's not a star, of course, not <i>really</i>, but try explaining that to the others. The Chief Engineer doesn't want me working too hard to convince them -- says this is better for morale -- but just look at it! Look!"
+<br><br>She offers you her goggles; you manage to work them over just enough of one of your eyes to see the truth of what's in the bowl. 
+<br><br>
+It's scintillack! But unlike any you've seen before: blue as a sapphire but more brilliant. Something about the clarity of its colour is tremendously soothing. The Chief Science Offer titters with pleasure as you hand her goggles back.
+<br><br>
+"Those of us who've been to the Cavy side of the island and lived to tell of it say that there's plenty of glow there, plenty of bright in the water all round, but nothing like this. We took this from the island's centre, Mount Ararat -- only it's not a mountain, of course, any more than this is a star! It's hollow -- there's sweet water inside, and coral crawling all up the walls of it. But nothing that glows, save this. It's ours now and no one can take it from us!"
+
+		ParentEvent
+Name: 
+Id: 152231
+Description: 
+
+		SuccessEvent
+Name: A learned astronomer.
+Id: 152247
+Description: "It's not a star, of course, not <i>really</i>, but try explaining that to the others. The Chief Engineer doesn't want me working too hard to convince them -- says this is better for morale -- but just look at it! Look!"
+<br><br>She offers you her goggles; you manage to work them over just enough of one of your eyes to see the truth of what's in the bowl. 
+<br><br>
+It's scintillack! But unlike any you've seen before: blue as a sapphire but more brilliant. Something about the clarity of its colour is tremendously soothing. The Chief Science Officer titters with pleasure as you hand her goggles back.
+<br><br>
+"Those of us who've been to the Cavy side of the island and lived to tell of it say that there's plenty of glow there, plenty of bright in the water all round, but nothing like this. We took this from the island's centre, Mount Ararat -- only it's not a mountain, of course, any more than this is a star! It's hollow -- there's sweet water inside, and coral crawling all up the walls of it. But nothing that glows, save this. It's ours now and no one can take it from us!"

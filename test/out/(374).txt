@@ -1,0 +1,61 @@
+(374)
+Name: Your Father's Bones: the Assigner of Corpses
+Id: 176410
+Description: What mask does the Assigner of Corpses wear? 
+
+	ChildBranches 1
+Name: A Crimson Lion-Mask
+Id: 143891
+Description: The Fathomking told you to look for the 'dawn-coloured cat'. Over there - that slope-shouldered fellow with the shovel, masked as a lion! It's him!
+
+		DefaultEvent
+Name: A Vital Secret
+Id: 176411
+Description: The Assigner of Corpses is disinclined to speak with you, but you are similarly disinclined to let him go. You have gone too far and suffered too much to be put off. You insist. You place your hand on his arm. You invoke the importance of filial piety. The conversation becomes increasingly heated.
+<br/><br/>
+At last, quite suddenly, the Assigner drags you behind a midden and tears off his mask. "All right!" he hisses. (His breath is heavy with rum.) "It's me! I'm not dead! And, er, hello. It's nice to meet you. Now please go away!"
+<br/><br/>
+The face staring back at you - seamed by Time, bulbous with wine - is unmistakably like the one you see in the mirror. This is your father.
+
+		ParentEvent
+Name: 
+Id: 176410
+Description: 
+
+
+
+	ChildBranches 2
+Name: Interrogate the Visagers
+Id: 144450
+Description: The Visagers seem reluctant to discuss the matter, even with Frog. It is distasteful, or forbidden, or inconvenient. But surely someone will let something slip.
+
+		DefaultEvent
+Name: The blankness of masks
+Id: 177300
+Description: A man in a crocodile-mask trundles an ibis-masked corpse on a wheeled bier. Is this the Assigner of Corpses? He shakes his head. "This corpse was assigned to the Fathomking," he explains. "I go now to the Hold....The Fathomking knows why."
+<br/><br/>
+Was that a meaningful pause? If no one here will speak to you of the Assigner and his Assignments, might the Fathomking know more?
+<br/><br/>
+[Find the Fathomking's Hold to continue.]
+
+		ParentEvent
+Name: 
+Id: 176410
+Description: 
+
+
+
+	ChildBranches 3
+Name: Across the zee
+Id: 145315
+Description: If no one here will speak to you of the Assigner and his Assignments, might the Fathomking know more?
+
+		DefaultEvent
+Name: 
+Id: 178715
+Description: [Find the Fathomking's Hold, somewhere in the south or central Unterzee, to continue.]
+
+		ParentEvent
+Name: 
+Id: 176410
+Description:

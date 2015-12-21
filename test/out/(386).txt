@@ -1,0 +1,203 @@
+(386)
+Name: The Sober Showman's Exhibition
+Id: 181034
+Description: The signs advertising his entertainments bristle with exclamation marks. In person, he is more circumspect. 
+
+	ChildBranches 1
+Name: Grant your crew shore-leave
+Id: 146660
+Description: Pay for them to spend an improving day at the Exhibition.
+
+		DefaultEvent
+Name: Maybe not so improving after all
+Id: 181053
+Description: Some see the sights. Some experiment with the hot, honeyed wine of the Elder Continent. Still others pay furtive visits to a shadowed tent whose sign promises the 'perfumed, pantherine dances of the exotic South, performed to authentic and rousing music twice hourly!'
+
+		ParentEvent
+Name: 
+Id: 181034
+Description: 
+
+
+
+	ChildBranches 2
+Name: Visit the Grotesquery
+Id: 146869
+Description: A sign stands before the crimson tent. 'TODAY: Behold a MONSTROUS ABORIGINAL of the Elder Continent: a disciple of the Thief-of-Faces!'
+
+		DefaultEvent
+Name: Inside
+Id: 181376
+Description: The tent is gloomy. "No candles," the Showman warns, in dolorous tones. "We would not want to stoke its hungers." A shape stirs in a cage. Two arms. Two legs. A grey smock, speckled with wax. It turns. Is that a mask? No. The opposite. A skinless face. Knotted, palpitating muscles. "Those of you blessed with a pleasing mien should keep your faces beyond arm's length." You step back.
+
+		ParentEvent
+Name: 
+Id: 181034
+Description: 
+
+
+
+	ChildBranches 3
+Name: Visit the Grotesquery
+Id: 146870
+Description: A sign stands before the crimson tent. 'TODAY: Behold a MONSTROUS ABORIGINAL of the Elder Continent: A cyclopes, last of a dead tribe!'
+
+		DefaultEvent
+Name: Inside
+Id: 181377
+Description: It barely fits in the cage. But a sceptical eye would notice that the cage is too small for it's occupant, to create an impression of barely-constrained hugeness. If the creature could stand it would be - what? - eight feet tall? Ten? Exceptional; not monstrous. Its skin is grimy; its hair lank. Above its nose is a swirl of scarred tissue: a single eye, seared closed. "Was this the very gigante blinded by Odysseus?" the Showman wonders. "We cannot say, of course."
+
+		ParentEvent
+Name: 
+Id: 181034
+Description: 
+
+
+
+	ChildBranches 4
+Name: Visit the Grotesquery
+Id: 146871
+Description: 'TODAY: an example of the Changed: those intemperate souls who dared improve on the Almighty's design! Behold, a practitioner of the Shapeling Arts''
+
+		DefaultEvent
+Name: Within
+Id: 181378
+Description: The Showman is speaking as you enter. "The Arts concern themselves with the transformation of flesh. A prideful science. The Prester forbids its practice in the Mountain's sight. This lady defied his prohibition. Behold the result."
+<br/><br/>
+A figure sits on a chair in the middle of the tent. It mumbles a polite, but indistinct, greeting as the audience crowds around the edges. Its dress is faded at collar and cuff, but clean and fitted. The body within is uneven. One shoulder is high, the other low. Its spine bends like a crook. Its face is a knot of bubbled flesh, dark eyes gleaming in the mass. "If you have the gumption, you may touch the lady's face. She is of a scholarly inclination, and will not bite. She has learned her lesson."
+
+		ParentEvent
+Name: 
+Id: 181034
+Description: 
+
+
+
+	ChildBranches 5
+Name: Visit the Grotesquery
+Id: 146872
+Description: 'TODAY: an example of the Changed: those intemperate souls who dared improve on the Almighty's design! Behold, a Gentleman in possession of a Peculiar Personal Enhancement'
+
+		DefaultEvent
+Name: Within
+Id: 181379
+Description: A pair of watchful assistants guard the tent, turning away children and anyone prone to 'hysteria, feinting, irregularities of the heart, or delicacy'. The line is very long. Inside, spectators fill chairs before a curtained stage. When there are no more chairs, they stand. Elbows jostle. Necks crane.
+<br/><br/>
+"I confess," the Showman is compelled to explain, "this gentleman is not a native of the Elder Continent. However, as an aficionado of the remarkable, I could not deny him a place in this exhibition. Steel yourselves." 
+<br/><br/>
+The lights come up. My. How peculiar.
+
+		ParentEvent
+Name: 
+Id: 181034
+Description: 
+
+
+
+	ChildBranches 6
+Name: Attend the Cabinet of Curiosities
+Id: 146877
+Description: A sign outside the tent reads: 'Revealed for the first time: innumerable MYSTERIES OF THE INTERIOR! A profusion of Presbyterate secrets to perplex and petrify!' A case catches your eye. It is labelled 'The Covenant'.
+
+		DefaultEvent
+Name: The Prester saith
+Id: 181384
+Description: Here is a plaster-cast of one of the tablets that stand at the Mountain's foot. A helpful plaque furnishes a translation. 'THE PRESTER SAITH: When I die, yet shall I not die. The hour of my death shall be chosen, yet no man shall choose it. I am eternal, and yet my reign is circumscrib’d by law and Fate. I will feast at my funeral, and my child shall be my cup-bearer.' 
+
+
+		ParentEvent
+Name: 
+Id: 181034
+Description: 
+
+
+
+	ChildBranches 7
+Name: Attend the Cabinet of Curiosities
+Id: 146879
+Description: A sign outside the tent reads: 'Revealed for the first time: innumerable MYSTERIES OF THE INTERIOR! A profusion of Presbyterate secrets to perplex and petrify!' A rusted sword catches your eye.
+
+		DefaultEvent
+Name: Old oaths
+Id: 181386
+Description: A pitted sword rests on a stand. According to its brass plaque: 'Legend (and testimony from natives of good character) claims that this was the sword with which the first Prester slew the king of the Replete. He then married their queen, subsuming the Replete into his realm. Records attest that the Prester ate only bread and cheese at his wedding feast. His bride and her relatives dined on their fallen king.'
+
+		ParentEvent
+Name: 
+Id: 181034
+Description: 
+
+
+
+	ChildBranches 8
+Name: Attend the Cabinet of Curiosities
+Id: 146880
+Description: A sign outside the tent reads: 'Explore the natural, and unnatural, WONDERS OF THE ELDER CONTINENT!' A shining jewel catches your eye.
+
+		DefaultEvent
+Name: 
+Id: 181387
+Description: 'A shard of the Mountain itself!' claims the stencilled sign. How it blazes! The light is yellow as butter, but cold. You shield your eyes, examining the stone through the gauze of your sleeve.
+<br/><br/>
+It is a fake. Only glass, set beneath an arrangement of lights and lenses. You complain to the Sober Showman. He is apologetic, refunding your echo and giving you a mysterious artefact that was excavated by an explorer of his acquaintance. Are those ancient fingerprints pressed into its glassy surface?
+
+		ParentEvent
+Name: 
+Id: 181034
+Description: 
+
+
+
+	ChildBranches 9
+Name: Attend the Cabinet of Curiosities
+Id: 146881
+Description: A sign outside the tent reads: 'Explore the natural, and unnatural, WONDERS OF THE ELDER CONTINENT!' An impossibilitycatches your eye.
+
+		DefaultEvent
+Name: Nourished
+Id: 181388
+Description: Here, in a glass case, a rose grows from a stone. The stone is real. The rose is real. What nourishes it? The Sober Showman peers over your shoulder. "It was planted a furlong from the Mountain, and basked for a summer in its light. What need has it for water, now? Or air?"
+
+
+		ParentEvent
+Name: 
+Id: 181034
+Description: 
+
+
+
+	ChildBranches 10
+Name: Leave the exhibition
+Id: 147102
+Description: Enough distractions.
+
+		DefaultEvent
+Name: 
+Id: 181686
+Description: 
+
+		ParentEvent
+Name: 
+Id: 181034
+Description: 
+
+
+
+	ChildBranches 11
+Name: Purchase an Elegiac Cockatoo for the Poissonnier
+Id: 147280
+Description: Algernon is the Sober Showman's beloved pet. He claims he could never part with it - it reminds him of his bright, carefree childhood in Her Majesty's old Surface colonies. 
+
+		DefaultEvent
+Name: A boxful of memories
+Id: 181957
+Description: He speaks wistfully of Bombay afternoons. The slant of the sun through the windows. His tutor's dusty voice, reading Chaucer. The smell of cardamom rising from the kitchens.
+<br/><br/>
+Wordlessly, you take out your Mirrorcatch Box and open the lid. Just a fraction. Sunlight fills the tent. The Showman gasps. His eyes fill with unsober tears. When you close it, he gives a strangled gasp. He has forgotten what you were discussing. Won't you open the box again? Just for a moment? He asks, he begs. You demur. "Name your price!" He blurts.
+<br/><br/>
+Its name is Algernon.
+
+		ParentEvent
+Name: 
+Id: 181034
+Description:

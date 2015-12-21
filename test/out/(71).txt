@@ -1,0 +1,36 @@
+(71)
+Name: Memories of plenty
+Id: 147230
+Description: Hot porridge with creamy milk and honey. The smell of roast chicken. Rubbery Lumps, the way they cook them on Mutton Island. The crisp flesh of a newly unearthed eden-fungus. O God.
+
+	ChildBranches 1
+Name: Distract yourself
+Id: 126572
+Description: Find something else. Anything else! Run emergency drills! Debate philosophy!
+
+		DefaultEvent
+Name: A busy day
+Id: 147231
+Description: You walk the deck, watching the crew, addressing infractions and laziness. You are suitably distracted, and they know their captain is watching.
+
+		ParentEvent
+Name: 
+Id: 147230
+Description: 
+
+
+
+	ChildBranches 2
+Name: Obsess
+Id: 126573
+Description: Warm, crispy, steaming, crunchy; tart, sweet, soft, salty. Savour these words.
+
+		DefaultEvent
+Name: An exuberant diary
+Id: 147232
+Description: You consult the Cook's recipe-books: write longingly in your journal of the feasts you will enjoy when you make landfall. You know this is not a wise or a sane activity, but it's hard to resist. And you've gleaned odd snippets of knowledge.
+
+		ParentEvent
+Name: 
+Id: 147230
+Description:

@@ -1,0 +1,279 @@
+(44)
+Name: Toolkit
+Id: 124489
+Description: [q:Addressed As], this storylet should be available to dev characters at all times. If you're playing the game, clicking this stuff may mess you up bad.
+
+	ChildBranches 1
+Name: Outfitter
+Id: 112278
+Description: Get outfitted.
+
+		DefaultEvent
+Name: 
+Id: 124490
+Description: 
+
+		ParentEvent
+Name: 
+Id: 124489
+Description: 
+
+
+
+	ChildBranches 2
+Name: Supercharge
+Id: 116181
+Description: Engine Power and Fuel Efficiency +++
+
+		DefaultEvent
+Name: 
+Id: 130832
+Description: 
+
+		ParentEvent
+Name: 
+Id: 124489
+Description: 
+
+
+
+	ChildBranches 3
+Name: Replace Hunters Keep
+Id: 116650
+Description: 
+
+		DefaultEvent
+Name: Off we go!
+Id: 131568
+Description: 
+
+		ParentEvent
+Name: 
+Id: 124489
+Description: 
+
+
+
+	ChildBranches 4
+Name: Fly a zep
+Id: 116691
+Description: 
+
+		DefaultEvent
+Name: --
+Id: 131645
+Description: [CHANGE_TERRAIN],EmpireofHands/airbase_half,EmpireofHands/airbase_empty
+
+		ParentEvent
+Name: 
+Id: 124489
+Description: 
+
+
+
+	ChildBranches 5
+Name: Destroy a zep
+Id: 116783
+Description: 
+
+		DefaultEvent
+Name: Congrats!
+Id: 131788
+Description: [CHANGE_TERRAIN],EmpireofHands/airbase_half,EmpireofHands/airbase_burnt
+
+		ParentEvent
+Name: 
+Id: 124489
+Description: 
+
+
+
+	ChildBranches 6
+Name: Lose the game
+Id: 123071
+Description: 
+
+		DefaultEvent
+Name: You have lost...
+Id: 141879
+Description: That's not very good, is it?
+
+		ParentEvent
+Name: 
+Id: 124489
+Description: 
+
+
+
+	ChildBranches 7
+Name: Something Awaits You
+Id: 126189
+Description: 
+
+		DefaultEvent
+Name: 
+Id: 146645
+Description: 
+
+		ParentEvent
+Name: 
+Id: 124489
+Description: 
+
+
+
+	ChildBranches 8
+Name: Go to Mutton Island
+Id: 126371
+Description: 
+
+		DefaultEvent
+Name: 
+Id: 146919
+Description: 
+
+		ParentEvent
+Name: 
+Id: 124489
+Description: 
+
+
+
+	ChildBranches 9
+Name: Fight a Beastie
+Id: 127775
+Description: 
+
+		DefaultEvent
+Name: 
+Id: 149031
+Description: 
+
+		ParentEvent
+Name: 
+Id: 124489
+Description: 
+
+
+
+	ChildBranches 10
+Name: Out to zee
+Id: 127819
+Description: 
+
+		DefaultEvent
+Name: --
+Id: 149101
+Description: --
+
+		ParentEvent
+Name: 
+Id: 124489
+Description: 
+
+
+
+	ChildBranches 11
+Name: Go to Mt Palmerston
+Id: 127823
+Description: 
+
+		DefaultEvent
+Name: --
+Id: 149111
+Description: --
+
+		ParentEvent
+Name: 
+Id: 124489
+Description: 
+
+
+
+	ChildBranches 12
+Name: Go to London
+Id: 127862
+Description: 
+
+		DefaultEvent
+Name: 
+Id: 149170
+Description: 
+
+		ParentEvent
+Name: 
+Id: 124489
+Description: 
+
+
+
+	ChildBranches 13
+Name: DIE
+Id: 128482
+Description: 
+
+		DefaultEvent
+Name: 
+Id: 150223
+Description: 
+
+		ParentEvent
+Name: 
+Id: 124489
+Description: 
+
+
+
+	ChildBranches 14
+Name: Terror +10
+Id: 128785
+Description: 
+
+		DefaultEvent
+Name: 
+Id: 150766
+Description: 
+
+		ParentEvent
+Name: 
+Id: 124489
+Description: 
+
+
+
+	ChildBranches 15
+Name: 
+Id: 128786
+Description: 
+
+		DefaultEvent
+Name: 
+Id: 150767
+Description: 
+
+		ParentEvent
+Name: 
+Id: 124489
+Description: 
+
+
+
+	ChildBranches 16
+Name: Difficulty test
+Id: 113340
+Description: Rich Quality tests
+
+		DefaultEvent
+Name: You lose :(
+Id: 126205
+Description: 
+
+		ParentEvent
+Name: 
+Id: 124489
+Description: 
+
+		SuccessEvent
+Name: You win :)
+Id: 156770
+Description:

@@ -1,0 +1,38 @@
+(389)
+Name: Wisdom: whom have you freed?
+Id: 181204
+Description: You've rescued a prisoner from the terrible fastness of Wisdom.
+
+	ChildBranches 1
+Name: The Unsettling Sage
+Id: 146753
+Description: This is the man you came here for. Is he a man? There's something peculiar about the line of his jaw - the shape of his eyes. But he's grateful to see you.
+
+		DefaultEvent
+Name: "You have my graatitude."
+Id: 181205
+Description: "Those knot-oracles, pheh! They would haave choked on me. But it would haave done me little good. I would be gently digesting now, were it not for you. I see you haave my friend with you. We aare going to do greaat work, yes, my friend? Perhaps <i>the</i> Great Work. We shall waake those forces. Do you haave the paattern? I caan haardly wait."
+
+		ParentEvent
+Name: 
+Id: 181204
+Description: 
+
+
+
+	ChildBranches 2
+Name: Some Poor Soul
+Id: 146754
+Description: You broke in here at random, or as part of your own complex schemes. You've rescued some sort of rather genteel pirate, apparently.
+
+		DefaultEvent
+Name: "Thank you!"
+Id: 181206
+Description: "I was at the top of the list for the oracles' dinner. They can't speak in human language unless they're fed human life - and if they can't speak in human language, the Governor can't trade the secrets, can she, now?"
+<br/><br/>
+"Thank you. I didn't want to end my life in a knot-oracle's gullet. If you take me to the Corsair's Forest, I'll give you what reward I can. But this may interest you more. Something I overheard when the oracles last feasted - "
+
+		ParentEvent
+Name: 
+Id: 181204
+Description:

@@ -1,0 +1,8 @@
+(63)
+Name: Overheard on Deck: Materials
+Id: 159755
+Description: <b>BANDAGED POISSONNIER</b>: Just a little, now.<br/>
+<b>NACREOUS OUTCAST:</b> Fotharoothathoth!<br/>
+<b>POISSONNIER:</b>Now, now. You'll grow it back.<br/>
+<b>OUTCAST:</b>Etha! Ssithakothothooth!<br/>
+<b>POISSONNIER:</b>You are not a generous soul.<br/>

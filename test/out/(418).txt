@@ -1,0 +1,470 @@
+(418)
+Name: Legacy of the First Emperor
+Id: 176669
+Description: The lost treasure has been found. Now for the easy bit.
+
+	ChildBranches 1
+Name: The Burial Chamber
+Id: 144071
+Description: The First Emperor's bones lie in state, surrounded by souls in spheres of blue, green and silver.
+
+		DefaultEvent
+Name: The Delightful Adventuress applauds politely
+Id: 176670
+Description: "Oh, very, very fine work," she declares, taking a moment to admire the architecture before turning her attention to the souls. "Hmm. Now, unless my eyes deceive me, there are not a hundred. Not even close. Blasted legends and their exaggeration. This will complicate matters. Oh, well. Barnabas, do be a dear and gather those up."
+<br /><br />
+"Ah, and as for you," she adds, drawing a rapier that glistens at the end. "Kindly remain where you are."
+
+		ParentEvent
+Name: 
+Id: 176669
+Description: 
+
+
+
+	ChildBranches 2
+Name: Attack the Delightful Adventuress
+Id: 144092
+Description: This entirely unexpected betrayal will not stand!
+
+		DefaultEvent
+Name: A blade with a sting
+Id: 176694
+Description: The Delightful Adventuress tuts. "I would not," she warns. "There is just a tiny but efficacious little drop of Cantigaster venom on the tip, purchased at considerable expense for just this kind of eventuality."
+<br /></br />
+"Oh, don't sulk," she adds. "When I tell this story, your death will be glorious. Your crew especially will be most moved on our journey home. All the Neath will know of your great sacrifice. Though I may change your name to something that rolls better off the tongue. Something with a little more pep. I am sure you understand."
+
+		ParentEvent
+Name: 
+Id: 176669
+Description: 
+
+
+
+	ChildBranches 3
+Name: Obey the Delightful Adventuress
+Id: 144093
+Description: You've done everything else she asked...
+
+		DefaultEvent
+Name: The Delightful Adventuress lowers the rapier, smiles tightly
+Id: 176695
+Description: "It is nothing personal of course," she adds. "I was rather hoping for more souls here, so that we could have shared, shaken hands, and been on our merry way. But needs must. Barnabas! With haste, if you please!"
+
+		ParentEvent
+Name: 
+Id: 176669
+Description: 
+
+
+
+	ChildBranches 4
+Name: The Clay Man finishes gathering the souls
+Id: 144094
+Description: This could be going better...
+
+		DefaultEvent
+Name: A Delightful Scheme
+Id: 176696
+Description: "Such simple things, aren't they?" says the Delightful Adventuress. "Goodness only knows what the devils do with them. But, opportunity is opportunity, is it not? My friends in the Iron Republic were quite happy to agree safe passage to and from their homeland in exchange for this Legacy. They will have to be satisfied, I suppose."
+<br /><br />
+Her lips turn up into a smug smile. "And <i>next</i> time I bid the accursed Leonora Fortescue go to Hell, well, I shall be able to <i>recommend the bloody sights!</i>"
+
+		ParentEvent
+Name: 
+Id: 176669
+Description: 
+
+
+
+	ChildBranches 5
+Name: A calculated risk
+Id: 144095
+Description: With the bag over her shoulder, she's going to be slower. You just have to avoid that poisoned sword...
+
+		DefaultEvent
+Name: And a loyal Clay Man, of course
+Id: 176697
+Description: You barely get close before Barnabas' arms close around yours. The Delightful Adventuress nods appreciatively.
+<br /><br />
+"Well, that's that then," she says, backing out of the Vault. "Oh, except for one minor detail. Barnabas? I thank you for your loyalty, and fine service. As a final courtesy, please do the honours and ensure our friend here remains buried. It is a fine resting place, hmm? Such a shame it be wasted on just one ape."
+<br /></br />
+The Clay Man lurches as she produces one of your confiscated stick of dynamite, lights it, and drops it in the corridor. Before either of you get close, it explodes in a cloud of dirt and rubble that seals the exit.
+<br /><br />
+Barnabas has no face. He does however most definitely have <i>expressions.</i> The one he wears now is chilling.
+
+		ParentEvent
+Name: 
+Id: 176669
+Description: 
+
+
+
+	ChildBranches 6
+Name: Do nothing, form a plan later
+Id: 144096
+Description: The monkeys built this tomb by copying stories. The stories always have a way out.
+
+		DefaultEvent
+Name: Not however the door
+Id: 176698
+Description: "Well, that's that then," she says, backing out of the Vault. "Oh, except for one minor detail. Barnabas? I thank you for your loyalty, and fine service. As a final courtesy, please do the honours and ensure our friend here remains buried. It is such a fine resting place, is it not? Such a shame it be wasted on just one ape."
+<br /></br />
+The Clay Man lurches as she produces one of your confiscated stick of dynamite, lights it, and drops it in the corridor. Before either of you get close, it explodes in a cloud of dirt and rubble that seals the exit.
+<br /><br />
+Barnabas has no face. He does however most definitely have <i>expressions.</i> The one he wears now is chilling.
+
+		ParentEvent
+Name: 
+Id: 176669
+Description: 
+
+
+
+	ChildBranches 7
+Name: Attempt to dig a way out
+Id: 144097
+Description: She won't get away with this!
+
+		DefaultEvent
+Name: A helping hand
+Id: 176699
+Description: Barnabas immediately joins you in the excavation. Were he a regular Clay Man, he would likely be obeying his last order right now and ending your life for his mistress. Being Unfinished however, he is no mere golem. In her arrogance, the Delightful Adventuress appears to have forgotten that loyalty is a two-way street.
+<br /><br />
+Even with both of you digging though, it will take far too long to clear the rubble. If the Delightful Adventuress gets back to your ship with the Legacy, she will no doubt persuade the crew to leave without you.
+
+		ParentEvent
+Name: 
+Id: 176669
+Description: 
+
+
+
+	ChildBranches 8
+Name: The Monkey Foundling to the rescue!
+Id: 144099
+Description: From above comes a familiar, mischievous cry
+
+		DefaultEvent
+Name: She slides down a rope into the Vault
+Id: 176701
+Description: "Hullo!" she calls, hanging upside down by your face and grinning. The entire Empire of Hands is her playground, and this temple is no exception. She heard the bang of the dynamite all the way on the Ash Isthmus and came over to see what it was. Now she sees it's a friend...
+<br /><br />
+"Helping!" grins the Monkey Foundling, letting you climb up her rope. Barnabas remains behind, too heavy. He continues to dig his way out, rock by rock.
+
+		ParentEvent
+Name: 
+Id: 176669
+Description: 
+
+
+
+	ChildBranches 9
+Name: You have nothing to dig with but your hands
+Id: 144101
+Description: Even so, you're making progress. Bit by bit! You just have to hope that it's enough, and the rest of the Vault hasn't collapsed on itself.
+
+		DefaultEvent
+Name: Too slow! Much too slow!
+Id: 176703
+Description: It's not enough to get out, you need a ship to be waiting on the other side. Vessels pass through the Empire of Hands so rarely. If you're trapped here, the rest of your life will likely be spent as a slave to monkeys...
+
+		ParentEvent
+Name: 
+Id: 176669
+Description: 
+
+		RareDefaultEvent
+Name: Yes! You break through!
+Id: 176704
+Description: It's pitch black on the other side, but the damage to the Vault was minimal. If you hurry, you can catch up with the Delightful Adventuress...
+
+
+
+	ChildBranches 10
+Name: A Delightful Reunion
+Id: 144104
+Description: It appears the Delightful Adventuress is having problems of her own by the rowboats.
+
+		DefaultEvent
+Name: A double betrayal
+Id: 176708
+Description: Whatever the once-Flea Ridden Mayor of Port Stanton took from the Delightful Adventuress' soul, it evidently came with her loose grip on ethics. He suspected she would try to sneak away without giving him his cut. He was not wrong. Unfortunately for her, he has a small squad of monkeys at his disposal. Unfortunately for him, she has both her rapier, and one last stick of dynamite for mutually assured unpleasantness.
+<br /><br />
+"Well," says the Delightful Adventuress, seeing you approach. "This <i>is</i> an irritating stalemate."
+
+		ParentEvent
+Name: 
+Id: 176669
+Description: 
+
+
+
+	ChildBranches 11
+Name: Team up with the Delightful Adventuress
+Id: 144106
+Description: With her poisoned rapier and your wits, you can take out these uppity apes.
+
+		DefaultEvent
+Name: She almost, but doesn't quite, register surprise
+Id: 176710
+Description: "There!" she spits at the Mayor. "Now stand down and let us pass, or-"
+<br /><br />
+Behind her, Barnabas emerges from the Vault. She smirks at the sight of her loyal bodyguard. "Well, that does shift the balance of things somewhat, doesn't it? Barnabas, do please deal with this smelly animal," she orders him. "And also the monkey."
+
+		ParentEvent
+Name: 
+Id: 176669
+Description: 
+
+
+
+	ChildBranches 12
+Name: Propose a fair deal
+Id: 144110
+Description: Split the souls three ways, and everyone can be happy.
+
+		DefaultEvent
+Name: The Delightful Adventuress and Mayor agree
+Id: 176714
+Description: ...that you are suddenly the biggest threat here, with your attempt to cut in uniting both against you. Before they can move though, Barnabas emerges from the Vault. The Delightful Adventuress' face lights up.
+<br /><br />
+"Splendid," she declares. "Barnabas, do please deal with this smelly animal. And also the monkey."
+
+		ParentEvent
+Name: 
+Id: 176669
+Description: 
+
+
+
+	ChildBranches 13
+Name: Team up with the Mayor
+Id: 144111
+Description: Even if you defeat him, there could be an army of his kind between you and your ship.
+
+		DefaultEvent
+Name: The Delightful Adventuress snarls
+Id: 176715
+Description: "Species traitor!" she spits, lowering the rapier. Even she acknowledges that now, she is outmatched.
+<br /><br />
+But then comes a rumbling sound from the jungle. She glances over her shoulder, and back with a sudden look of endless smugness as Barnabas slowly trudges towards her from the Vault.
+<br /><br />
+"Splendid," she declares. "Barnabas, do please deal with this smelly animal. And also the monkey."
+
+		ParentEvent
+Name: 
+Id: 176669
+Description: 
+
+
+
+	ChildBranches 14
+Name: Triumph of the Delightful Adventuress
+Id: 144113
+Description: Barnabas' clay muscles seem to swell as he lumbers forward, silent but purposeful.
+
+		DefaultEvent
+Name: An unfinished man of clay
+Id: 176717
+Description: Clay Men are obedient. Clay Men are loyal. Clay Men are reliable. Unfinished Clay Men can be all of these things too. They can however be them by choice rather than nature. They can also hold grudges. Extremely well.
+<br /><br />
+The Delightful Adventuress shrieks in fury as Barnabas effortlessly picks her up, dangling her upside down by one leg. The obscenities are muffled by her skirts falling over her mouth, but the gist is quite clear.
+<br /><br />
+"...Well then," says the Mayor, carefully eying up the clay giant's spare arm. "Should we talk deals now, perhaps?"
+
+		ParentEvent
+Name: 
+Id: 176669
+Description: 
+
+
+
+	ChildBranches 15
+Name: Donate the Legacy to the Zeppelin
+Id: 144118
+Description: This will completely fulfil its requirement for Souls. The Mayor keeps the remainder to do with as he chooses. You receive the payment from the Wildweald Court.
+
+		DefaultEvent
+Name: The Mayor agrees
+Id: 176722
+Description: Of course he does. The boost to his courtly profile will be tremendous. The deal is struck.
+<br /><br />
+"Also we will take <i>that one,"</i> adds the Mayor, pointing at the Delightful Adventuress. "Trying to sneak away our Emperor's Legacy? Tsk. Oh, do not worry, the punishment is not severe. We approve of the avarice. Still," he grins. "We will teach her a little lesson, yes, then banish in shame. A gift to you from the Empire."
+
+		ParentEvent
+Name: 
+Id: 176669
+Description: 
+
+
+
+	ChildBranches 16
+Name: Punish the Delightful Adventuress
+Id: 144120
+Description: She deserves it. And she's not getting a ride home.
+
+		DefaultEvent
+Name: Barnabas dips his head in farewell
+Id: 176725
+Description: He follows the monkeys into the woods towards their boat, still carrying a thrashing Delightful Adventuress. He will not allow her to come to any real harm, but appears to concur that a little humility may be in order.
+<br /><br />
+But that is their business. Yours now lies elsewhere.
+
+		ParentEvent
+Name: 
+Id: 176669
+Description: 
+
+
+
+	ChildBranches 17
+Name: Let Barnabas decide her fate
+Id: 144121
+Description: He is after all the one that she betrayed the most.
+
+		DefaultEvent
+Name: Barnabas nods, ignoring the angry protests
+Id: 176726
+Description: He follows the monkeys into the woods towards their boat, still carrying a thrashing Delightful Adventuress. He will not allow her to come to any real harm, but appears to concur that a little humility may be in order.
+<br /><br />
+But that is their business. Yours now lies elsewhere.
+
+		ParentEvent
+Name: 
+Id: 176669
+Description: 
+
+
+
+	ChildBranches 18
+Name: Refuse
+Id: 144122
+Description: You are not going to abandon anyone to the monkeys.
+
+		DefaultEvent
+Name: The Mayor's eyes flash with annoyance
+Id: 176727
+Description: He does not however push the issue as he leaves with his men. Behind him, Barnabas gently drops the Delightful Adventuress on her rump, and stands back patiently.
+<br /><br />
+"Well, I <i>hope</i> you're satisfied," she snaps, tugging at her skirt and trying to fix her hat. "Rest assured that when I return to London, all of Society will know <i>precisely</i> who to shun. Your name will be <i>mud!</i> Lower than the worms! I have friends in the Admiralty! Mr. Wines is a close personal acquaintance! Rest assured, you have not heard the last of this! Good-<i>day!</i>"
+<br /><br />
+She storms back to begin packing for the long journey back on the next ship that will take her. Barnabas gives you a silent look that still says it all, and resumes his duties for whatever reason compels him to do so.
+<br /><br />
+But that is their business. Yours now lies elsewhere.
+
+		ParentEvent
+Name: 
+Id: 176669
+Description: 
+
+
+
+	ChildBranches 19
+Name: Use your extra dynamite
+Id: 144135
+Description: Somehow you knew it would be worth going back for more...
+
+		DefaultEvent
+Name: BOOM!
+Id: 176745
+Description: What the Delightful Adventuress dropped in your way, you soon clear. You leave Barnabas plodding along behind you as you race out of the Vault to catch up with her before she gets too far.
+
+		ParentEvent
+Name: 
+Id: 176669
+Description: 
+
+
+
+	ChildBranches 20
+Name: Search for a way out
+Id: 145175
+Description: If only you could see just a little better...
+
+		DefaultEvent
+Name: Escape!
+Id: 178496
+Description: The flare lights up the entire chamber. Aha! Once again, the monkeys' slack standards serve you well. For though the chamber itself is stone, above you is mere wood - flammable, flammable wood. Barnabas shields you as the flare sets it alight and rains down charcoal and ash, and gives you the help of a boost to climb up and out. It is not an easy descent from the roof, but it is one you have no shortage of incentive to make.
+<br /><br />
+Back in the Vault, Barnabas continues clearing the blockage, lacking the agility to escape your way.
+
+		ParentEvent
+Name: 
+Id: 176669
+Description: 
+
+
+
+	ChildBranches 21
+Name: The Monkey Foundling to the rescue!
+Id: 145922
+Description: If any of your crew was going to save you...
+
+		DefaultEvent
+Name: She slides down a rope into the Vault
+Id: 179760
+Description: "Capt'n!" she salutes, hanging upside down by your face and grinning. The Empire of Hands used to be her playground, and she couldn't resist a last spin around some old haunts. When she heard the dynamite go off in the spooky old temple of the boring dead monkey, somehow she knew she'd find you close by.
+<br /><br />
+"Helping!" grins the Monkey Foundling, letting you climb her rope to safety. Barnabas remains behind, too heavy. He continues to dig his way out, rock by rock.
+
+		ParentEvent
+Name: 
+Id: 176669
+Description: 
+
+
+
+	ChildBranches 22
+Name: A fading taste of red honey
+Id: 144100
+Description: What is it, just on the edge of remembrance?
+
+		DefaultEvent
+Name: A vague memory of something to come
+Id: 176702
+Description: You bite down on the chip, and memories flood. Of course! They are still diluted enough not to be overwhelming, but suddenly you see the whole room differently. Stone support pillars, stone walls, a roof of wood but still likely too thick to break through without some of the tools that lie so frustratingly outside-
+<br /><br />
+The air! How did you not realise it? It isn't the freshest, to be sure. But it has been centuries since this Vault was last opened. It should be unbreathable, shouldn't it? That means that somewhere, it has to be coming in from the outside, and THAT means...
+<br /><br />
+Barnabas helps you climb up the pillars. Success! A vent. You climb through it while the Clay Man continues digging, lacking the agility to escape from here your way.
+
+		ParentEvent
+Name: 
+Id: 176669
+Description: 
+
+		SuccessEvent
+Name: A vague memory of something to come
+Id: 176705
+Description: You bite down on the chip, and memories flood. Of course! They are still diluted enough not to be overwhelming, but suddenly you see the whole room differently. Stone support pillars, stone walls, a roof of wood but still likely too thick to break through without some of the tools that lie so frustratingly outside-
+<br /><br />
+The air! How did you not realise it? It isn't the freshest, to be sure. But it has been centuries since this Vault was last opened. It should be unbreathable, shouldn't it? That means that somewhere, it has to be coming in from the outside, and THAT means...
+<br /><br />
+Barnabas helps you climb up the pillars. Success! A vent. You climb through it while the Clay Man continues digging, lacking the agility to escape from here your way.
+
+
+
+	ChildBranches 23
+Name: Split the Legacy three ways
+Id: 144119
+Description: You, the Mayor, and Barnabas. Though it seems unlikely that the Mayor will agree to a <i>straight</i> three way split...
+
+		DefaultEvent
+Name: Negotiations could have gone better
+Id: 176723
+Description: If only the Mayor was still the flea-ridden bureaucrat who met you on your arrival to the Empire. Oh well.
+<br /><br />
+"Also we will take <i>that one,"</i> adds the Mayor, pointing at the Delightful Adventuress. "Trying to sneak away our Emperor's Legacy? Tsk. Oh, do not worry, the punishment is not severe. We approve of the avarice. Still," he grins. "We will teach her a little lesson, yes, then banish in shame. A gift to you from the Empire."
+
+		ParentEvent
+Name: 
+Id: 176669
+Description: 
+
+		SuccessEvent
+Name: Negotiations go well
+Id: 176724
+Description: It is perhaps not the great treasure you might have hoped for, but they will sell for a fine price.
+<br /><br />
+"Also we will take <i>that one,"</i> adds the Mayor, pointing at the Delightful Adventuress. "Trying to sneak away our Emperor's Legacy? Tsk. Oh, do not worry, the punishment is not severe. We approve of the avarice. Still," he grins. "We will teach her a little lesson, yes, then banish in shame. A gift to you from the Empire."

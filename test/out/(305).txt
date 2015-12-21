@@ -1,0 +1,70 @@
+(305)
+Name: Alike in Dignity
+Id: 152190
+Description: Two remarkable rodents stand -- sit? squat? -- before you. To whom will you speak first?
+
+	ChildBranches 1
+Name: Speak to the Chief Engineer
+Id: 129722
+Description: His eyes have a wave-cold glint to them and he wears his scars like jewels.
+
+		DefaultEvent
+Name: A stirring speech
+Id: 152191
+Description: You ask the Chief Engineer to elaborate. He looks at you for a long, measured moment before speaking gruffly. 
+<br><br>
+"We came to this island to make a home for ourselves away from London, its cats and Snuffers, its Rat-Skin Suits. We came to live as citizens of our own Republic! We came with our tools, our teeth, our clever hands, and we made a beautiful city by the light of the Rat Star that shone bright and blue on Mount Ararat." The Chief Engineer nods towards the distant hill. <br><br>
+"One day we braved the depths of the Chickenwoods, and from the top of Mount Ararat we plucked the Rat Star to be our light, our beacon, and our flag. But the Pigs of Cavy saw the light, and they lusted for it; they sent armies to rule us and steal our Star! We will not permit them to take what is ours! We will resist to our last breath! Will you join us in defeating them?"
+
+		ParentEvent
+Name: 
+Id: 152190
+Description: 
+
+
+
+	ChildBranches 2
+Name: Speak to the Seneschal
+Id: 129723
+Description: How does an armoured guinea pig manage to look regal? 
+
+		DefaultEvent
+Name: An effortless eloquence
+Id: 152192
+Description: The Seneschal clears her throat with a delicacy to rival the Duchess' own before speaking. 
+<br><br>
+"Gracegnaw the King, our Lord and Sovereign,<br>
+ Full seven months had sojourned on the sea,<br>
+ Conquered this land, and won the Southern main,<br>
+ Now no fortress against him shall remain,<br>
+ No city walls be left for him to gain,<br>
+ Save the RATS! That squeak behind mountain!<br>
+ Unlikely was the Lamb of our deliverance,<br>
+ Assured shall be our glories and their fall,<br>
+ When Our Lady's Eye restored be to our hall!"
+<br><br>
+The Seneschal composes herself, then adds, "We saw truth and beauty by the light our Our Lady's Eye on Mount Cavyat. But the rats, with their guns and their chatter and their peasants' politics, stole it from us. We will subjugate them and take it back. They are a rabble, and we will rule them with the steel-shod velvet of our paws. Will you join us?"
+
+
+
+		ParentEvent
+Name: 
+Id: 152190
+Description: 
+
+
+
+	ChildBranches 3
+Name: You've heard enough
+Id: 129746
+Description: Enough talk. You're ready to make a choice.
+
+		DefaultEvent
+Name: 
+Id: 152224
+Description: 
+
+		ParentEvent
+Name: 
+Id: 152190
+Description:

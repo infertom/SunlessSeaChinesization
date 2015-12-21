@@ -1,0 +1,70 @@
+(525)
+Name: The Republic Ascendant
+Id: 153735
+Description: The line of the House of Cavy is ended. Rats hold the tent-city of the guinea-pigs. You are welcome here.
+
+	ChildBranches 1
+Name: Refuel
+Id: 130672
+Description: Most of the wrecked steamer's stores are gone, but the rats have torn out the guts of the steam-pinnace to make engines that tear coal from the earth. They'll help you resupply.
+
+		DefaultEvent
+Name: Rats and cavies
+Id: 153736
+Description: Rats and cavies labour alike to tote the coal up your ramp, a lump at a time. The cavies don't look exactly cheerful, but they seem to be operating on the same terms as the rats. The Engineer shrugs. "Progress." You're not clear if he's bragging or apologising.
+
+		ParentEvent
+Name: 
+Id: 153735
+Description: 
+
+
+
+	ChildBranches 2
+Name: A chat with the Chief Engineer
+Id: 130673
+Description: You can keep the Admiralty up to date on what these rodents are thinking.
+
+		DefaultEvent
+Name: Republican doings
+Id: 153737
+Description: He claps your knee affectionately. "Safe voyaging!"
+
+		ParentEvent
+Name: 
+Id: 153735
+Description: 
+
+
+
+	ChildBranches 3
+Name: Put a blemmigan ashore
+Id: 133953
+Description: Who knows what they'll make of the rats? Or vice versa.
+
+		DefaultEvent
+Name: A stealthy entry
+Id: 158945
+Description: Set the blemmigan down quietly, somewhere out of the way. The rats may regard its introduction as sabotage.
+
+		ParentEvent
+Name: 
+Id: 153735
+Description: 
+
+
+
+	ChildBranches 4
+Name: Undergo repairs
+Id: 146612
+Description: The rats of Murinia are skilled engineers. If your ship is scarred, perhaps they can heal those scars. [This will repair up to 20 points of Hull.]
+
+		DefaultEvent
+Name: A furry swarm
+Id: 180982
+Description: Tiny engineers envelop your ship in a whirl of republican enthusiasm. They leave it better than they found it.
+
+		ParentEvent
+Name: 
+Id: 153735
+Description:

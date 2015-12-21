@@ -1,0 +1,206 @@
+(229)
+Name: Naming your colony
+Id: 183593
+Description: In the folklore of the zee, this place is Aestival. What will you call it?
+
+	ChildBranches 1
+Name: "Aestival."
+Id: 148318
+Description: It's still a good name. Why change it?
+
+		DefaultEvent
+Name: Aestival it is
+Id: 183594
+Description: The zailors nod approvingly. "Storm don't like change," one points out. ("But Salt does," one murmurs uneasily...)
+
+		ParentEvent
+Name: 
+Id: 183593
+Description: 
+
+
+
+	ChildBranches 2
+Name: "Lastport."
+Id: 148319
+Description: Here you are at the edge of the world.
+
+		DefaultEvent
+Name: "Lastport it is."
+Id: 183595
+Description: Someone strikes up a jig: 'The Last Voyage of the Travelling Man'. The quartermaster passes out grog. Your crew enthusiastically baptises the island.
+
+		ParentEvent
+Name: 
+Id: 183593
+Description: 
+
+
+
+	ChildBranches 3
+Name: "Freedom."
+Id: 148320
+Description: Here no laws will bind you, unless you so choose.
+
+		DefaultEvent
+Name: "Freedom it is."
+Id: 183596
+Description: The zailors cheer delightedly. Who doesn't like freedom, after so long under ship's discipline?
+
+		ParentEvent
+Name: 
+Id: 183593
+Description: 
+
+
+
+	ChildBranches 4
+Name: "Utopia Beneath."
+Id: 148321
+Description: You'll be the perfect monarch: enlightened, merciful, absolute.
+
+		DefaultEvent
+Name: A slightly uncertain cheer
+Id: 183597
+Description: Some zailors are better read than others. "Utopia?" one asks warily. "Like the fruit?" But others clap you on the back and assure you of their devotion to the project.
+
+		ParentEvent
+Name: 
+Id: 183593
+Description: 
+
+
+
+	ChildBranches 5
+Name: "Sophia."
+Id: 148322
+Description: 'Wisdom' would be a great name, but it's taken... by a Khanate prison. So stick with the classics.
+
+		DefaultEvent
+Name: Sophia it is
+Id: 183598
+Description: The zailors cheer, although, it seems, for a variety of reasons. "I knew a girl called Sophia once," one muses nostalgically. In any case, all agree the name has a fortunate sound to it.
+
+		ParentEvent
+Name: 
+Id: 183593
+Description: 
+
+
+
+	ChildBranches 6
+Name: "Fiddler's Gold."
+Id: 148323
+Description: Fiddler's Green is the legendary zailors' paradise. Fiddler's Gold would be one better.
+
+		DefaultEvent
+Name: Fiddler's Gold it is
+Id: 183599
+Description: A heartfelt cheer! "I knew you was lucky, Captain," one zailor assures you. "And you're lucky with yer names."
+
+		ParentEvent
+Name: 
+Id: 183593
+Description: 
+
+
+
+	ChildBranches 7
+Name: "Peachtree Isle."
+Id: 148324
+Description: Something appealing and inoffensive.
+
+		DefaultEvent
+Name: Peachtree Isle it is.
+Id: 183600
+Description: Your crew agrees it has a pleasing sound. "And no shortage of peaches," one hastens to assure you.
+
+		ParentEvent
+Name: 
+Id: 183593
+Description: 
+
+
+
+	ChildBranches 8
+Name: "B____r Off."
+Id: 148325
+Description: It's going to be your island. Give it a name that discourages visitors.
+
+		DefaultEvent
+Name: B____r Off it is.
+Id: 183601
+Description: The crew break into scattered, rather nervous applause. But you see grins here and there. "We'll show them!" one zailor mutters fiercely.
+
+		ParentEvent
+Name: 
+Id: 183593
+Description: 
+
+
+
+	ChildBranches 9
+Name: "Head Office."
+Id: 148326
+Description: Somewhere from which to pursue your business interests.
+
+		DefaultEvent
+Name: Head Office it is.
+Id: 183602
+Description: Your zailors applaud, a little ironically, but approvingly. "We'll be rich, cap'n, eh?" one cackles.
+
+		ParentEvent
+Name: 
+Id: 183593
+Description: 
+
+
+
+	ChildBranches 10
+Name: "Sanctuary."
+Id: 148327
+Description: Perhaps you'll take in strays.
+
+		DefaultEvent
+Name: Sanctuary it is.
+Id: 183603
+Description: Zailors nod - some, you think, a little wistfully. "We'll be safe here, aye, cap'n?" one sighs.
+
+		ParentEvent
+Name: 
+Id: 183593
+Description: 
+
+
+
+	ChildBranches 11
+Name: "The Empire of Trees"
+Id: 148691
+Description: It's a little grand, and a little ridiculous, but it shows vision. If not a sense of proportion.
+
+		DefaultEvent
+Name: An Empire it is.
+Id: 184189
+Description: Laughter and cheers rise in equal measure. "All hail the Emperor!" one zailor shouts. It isn't clear - perhaps not even clear to him - whether he's being ironical.
+
+		ParentEvent
+Name: 
+Id: 183593
+Description: 
+
+
+
+	ChildBranches 12
+Name: "New London."
+Id: 149315
+Description: One day, you'll remake the city that birthed your ship.
+
+		DefaultEvent
+Name: New London it is
+Id: 185246
+Description: The zailors raise a patriotic cheer. "London!" one cries. "May it never be buried like the other one!"
+
+		ParentEvent
+Name: 
+Id: 183593
+Description:

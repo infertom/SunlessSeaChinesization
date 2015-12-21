@@ -1,0 +1,76 @@
+(397)
+Name: The Iridescence
+Id: 181473
+Description: The light here is very different. The ice-crystal walls are invisible behind a soft and luminous fog. Even the air is warmer. Your shadow paces you, stalking the boundaries of the fog.
+<br/><br/>
+KNOW YOURSELF, a voice intones.
+
+	ChildBranches 1
+Name: Know yourself
+Id: 146943
+Description: You have brought burning knowledge across the sea. Use it now to unveil your shadow-reflection in the fog.
+
+		DefaultEvent
+Name: You
+Id: 181474
+Description: What crimes have you forgotten? What shames do you bear? Or is cowardice your sin? Are you hypocrite enough to believer yourself flawless? Or do you glory in your crimes?The fog eddies away, and there your reflection stands with all its scars and stains and deformities. Take a long, long look, until you see yourself fade back into the fog, leaving only that exalted terror.
+
+		ParentEvent
+Name: 
+Id: 181473
+Description: 
+
+
+
+	ChildBranches 2
+Name: Wrestle yourself
+Id: 146944
+Description: Know yourself? Never mind that. Take the direct approach. Assault your shadow-reflection. [This will sacrifice one point of each skill, and increase your Wounds.]
+
+		DefaultEvent
+Name: A savage battle
+Id: 181475
+Description: Over and over you go, in a tumble of furious limbs. You know all your weak spots. But so do you. Fingernails gouge your flesh, reach for your eyes. Words gouge deeper. At last you rise, trembling, your blood on your hands.
+
+		ParentEvent
+Name: 
+Id: 181473
+Description: 
+
+
+
+	ChildBranches 3
+Name: Return to the Corridors of Frostfound
+Id: 146945
+Description: 
+
+		DefaultEvent
+Name: 
+Id: 181476
+Description: 
+
+		ParentEvent
+Name: 
+Id: 181473
+Description: 
+
+
+
+	ChildBranches 4
+Name: Retrieve the Mechanic's Secret
+Id: 146957
+Description: "This," the Mechanic says, very quietly, "is as far as we go .Let's get what we came for, and get out. I don't want to see what's in the fog - not again."
+<br/><br/>
+Has he been here all along? Nothing is certain in Frostfound.
+
+		DefaultEvent
+Name: 
+Id: 181500
+Description: The Mechanic fumbles in the drifting mist on the floor. (His shadow does the same. From within the fog, as it scrapes away in imitation, there is a dull grating noise, as of claws on rock.) He comes up with a stone piglet, small enough to lie comfortably on the palm of his hand. Its eyes are bright pearls.
+<br/><br/>
+"I'm sorry," the Mechanic confesses. "My imagination is rather literal." He stows the pig away out of sight. "Now please can we go? I can feel my teeth chattering, out there."
+
+		ParentEvent
+Name: 
+Id: 181473
+Description:

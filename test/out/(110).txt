@@ -1,0 +1,501 @@
+(110)
+Name: The Alarming Scholar
+Id: 141886
+Description: The Alarming Scholar is mercurial, to say the least. A creature of sudden moods and provoking teeth. Possibly her (is it her?) appointment as University Maritime Liaison was precautionary: to keep his (is it his?) razor-sharp enthusiasm from causing too many injuries in the faculty.
+<br/><br/>
+"Ah yes," the Scholar whispers breathily. "I have a budget for acquisitions. What have you brought me?" [If you have any knowledge items that the Scholar will buy, they'll appear below.]
+
+	ChildBranches 1
+Name: A Zee-Ztory
+Id: 123077
+Description: A tale of the deep.
+
+		DefaultEvent
+Name: Difficult dictation
+Id: 141887
+Description: "Thrilling! Let me hear every detail. First, I must find my fountain-pen. Oh, how regrettable - it has a spider impaled on the nib - excuse me. Let me - good Heavens! It's still alive! - pass me that volume of Gibbon - there we go. Do you have another pen?"
+
+		ParentEvent
+Name: 
+Id: 141886
+Description: 
+
+
+
+	ChildBranches 2
+Name: A Memory of Distant Shores
+Id: 125024
+Description: A piquant piece of picaresque pilgrimage.
+
+		DefaultEvent
+Name: Wells of emotion
+Id: 144824
+Description: As the Alarming Scholar listens, tears well in the depths of those shining (or is it blazing?) eyes. They overflow, splashing on to the desk-blotter. "Stop!" he (she?) sobs, at last. "This is too - too beautiful. Allow me to bring the Macaw of Memories. I wish each individual tone recalled."
+
+		ParentEvent
+Name: 
+Id: 141886
+Description: 
+
+
+
+	ChildBranches 3
+Name: A Strange Catch
+Id: 125025
+Description: Pickled into quiescence.
+
+		DefaultEvent
+Name: Deep excitement
+Id: 144825
+Description: The Scholar circles your specimen jar, tapping at the glass with a variety of tools: screw-driver, magnet, scrutinizer, tuning-fork, flensing knife, and a sort of slotted spoon. "This will keep them going for weeks," she (he?) says, half to himself. "We'll dine at the High Table tonight, I think."
+
+		ParentEvent
+Name: 
+Id: 141886
+Description: 
+
+
+
+	ChildBranches 4
+Name: A Lamentable Relic
+Id: 125026
+Description: Not a scientific curiosity, necessarily, but the Scholar has a collection. Or something.
+
+		DefaultEvent
+Name: A beaming smile
+Id: 144826
+Description: "This would be so terribly wasted in an ossuary!" She (he?) buffs the cranium with a sleeve. "I think a climbing briar-rose will suit this one rather well. A yellow rose, perhaps. Thank you so much. Let's keep this between ourselves."
+
+		ParentEvent
+Name: 
+Id: 141886
+Description: 
+
+
+
+	ChildBranches 5
+Name: An Ambiguous Eolith
+Id: 125027
+Description: Some of these things were made as tools. Some just look that way.
+
+		DefaultEvent
+Name: An accident
+Id: 144827
+Description: "This is the product of Nature, not artifice. Interesting, nevertheless! I have the very shelf for it! But if you could bring me something worked, not <i>evolved</i>, next time -"
+
+		ParentEvent
+Name: 
+Id: 141886
+Description: 
+
+		RareDefaultEvent
+Name: A relic!
+Id: 144830
+Description: "Oho! I see the knap-marks clearly! I rather think it was no human hand that shaped this, either. Something from Before. Or at least I <i>like</i> to think it. And that's what's most important."
+
+
+
+	ChildBranches 6
+Name: Judgement's Egg
+Id: 125028
+Description: A mystery in a bottle.
+
+		DefaultEvent
+Name: Questions, questions
+Id: 144828
+Description: "How intriguing! Mm, has it been in an ape? Did you leave it in a jewel? It hasn't been to the Surface, has it? Can it provoke objects to self-motilation? Have you subjected it to imaginary wavelengths? What is - "
+
+		ParentEvent
+Name: 
+Id: 141886
+Description: 
+
+
+
+	ChildBranches 7
+Name: You've left it untouched...
+Id: 125029
+Description: ...the Scholar likes fresh secrets.
+
+		DefaultEvent
+Name: Squeals of delight
+Id: 144829
+Description: "This is a <i>spicy</i> one. Crawcase will be <i>dripping</i> with envy. Remind me to invite you for dinner, soon, and thank you properly."
+
+		ParentEvent
+Name: 
+Id: 141886
+Description: 
+
+
+
+	ChildBranches 8
+Name: A little present from the Scholar
+Id: 125051
+Description: "You've been so very helpful. I wanted to give you something for your next voyage. I bottled it myself - "
+
+		DefaultEvent
+Name: Dark glass
+Id: 144866
+Description: It smells pickled, chemical. Zalty. Once, it might have been eel-flesh. But the Scholar assures you that it has vital and nutritional virtues. Save it for an emergency, perhaps.
+
+		ParentEvent
+Name: 
+Id: 141886
+Description: 
+
+
+
+	ChildBranches 9
+Name: A little chat with the Scholar
+Id: 125052
+Description: "Let me tell you - "
+
+		DefaultEvent
+Name: Tantalising shafts of light
+Id: 144867
+Description: Adam's Way - the nature of the Echo Bazaar - what lifebergs eat - the reason the islands seem to move - why candles can't be trusted. The Scholar has opinions on all of these. Some may even be true.
+
+		ParentEvent
+Name: 
+Id: 141886
+Description: 
+
+
+
+	ChildBranches 10
+Name: A friend of the Scholar
+Id: 125053
+Description: "A student of mine has long wished to go to zee. She's eager and clever and she grew up on a ship - "
+
+		DefaultEvent
+Name: Likely enough
+Id: 144868
+Description: They'll do; with training.
+
+		ParentEvent
+Name: 
+Id: 141886
+Description: 
+
+
+
+	ChildBranches 11
+Name: An Outlandish Artefact
+Id: 125717
+Description: Shaped by hands unknown in London.
+
+		DefaultEvent
+Name: A careful scrutiny
+Id: 145886
+Description: "We have something like that," she (he?) declares. "But not <i>very</i> like that. Interesting. I have some ideas about suitable fees."
+
+		ParentEvent
+Name: 
+Id: 141886
+Description: 
+
+
+
+	ChildBranches 12
+Name: Captivating Treasure
+Id: 125718
+Description: Shiny. And you polished it before you brought it in, so it's even shinier today.
+
+		DefaultEvent
+Name: Glinting eyes
+Id: 145887
+Description: "Oh my." Teeth bared in a hungry grin: there's something odd about those teeth, as if there were too many of them. "This will make quite a dent in my acquisitions budget. But worth it, I think. Yes. Worth it."
+
+		ParentEvent
+Name: 
+Id: 141886
+Description: 
+
+
+
+	ChildBranches 13
+Name: A Live Specimen
+Id: 125909
+Description: Something not yet extinct.
+
+		DefaultEvent
+Name: 
+Id: 146200
+Description: You flick the blanket away, and the creature in the container shrinks away from the light. The Scholar clasps hands in delight. "Oho! It's still moving! I can think of uses for <i>this</i>."
+
+		ParentEvent
+Name: 
+Id: 141886
+Description: 
+
+
+
+	ChildBranches 14
+Name: Leave the University
+Id: 126754
+Description: You have business to attend to, and besides, the Scholar keeps snapping his (her?) teeth like a mechanical trap.
+
+		DefaultEvent
+Name: 
+Id: 147504
+Description: 
+
+		ParentEvent
+Name: 
+Id: 141886
+Description: 
+
+
+
+	ChildBranches 15
+Name: Brimstone Buzzings
+Id: 129160
+Description: A terrifying tidbit.
+
+		DefaultEvent
+Name: Pop-eyed surprise
+Id: 151288
+Description: "This - well, I wouldn't say it <i>confirms</i>, but I suppose it <i>supports</i> - and I thought the Department of Infernal Rarefactions were all stark raving mad. Thank you; thank you indeed. I'm sorry our budget isn't larger."
+
+		ParentEvent
+Name: 
+Id: 141886
+Description: 
+
+
+
+	ChildBranches 16
+Name: A Watchful Curio
+Id: 130035
+Description: Pitiable little thing.
+
+		DefaultEvent
+Name: Inhaling deeply
+Id: 152651
+Description: "Mm! It smells of the Elder Continent! Of wind - of light - of Stone - of things without faces. Thank you!"
+
+		ParentEvent
+Name: 
+Id: 141886
+Description: 
+
+
+
+	ChildBranches 17
+Name: A Colossal Fluke-Core
+Id: 131045
+Description: Have your man wheel it in. Remove the cover with a flourish.
+
+		DefaultEvent
+Name: Memories
+Id: 154264
+Description: Prisoned light scratches at the surface of the Core. "Oh, yes," the Alarming Scholar breathes. "Oh, yes." She (he?) seems to have forgotten you. "So many savours. Come here, my love, come here." The irrigo glow at its core brightens. Colour leaks from the room, to be replaced by one shade only.
+<br/><br/>
+You wake slowly in your cabin. The swinging lights seem dull after the irrigo glow. Your eyes itch oddly. What happened, exactly? The Scholar, you know, will never speak of it.
+
+		ParentEvent
+Name: 
+Id: 141886
+Description: 
+
+
+
+	ChildBranches 18
+Name: A Lump of Blue Scintillack
+Id: 133907
+Description: "Apocyan! That's not a hue we often see here."
+
+		DefaultEvent
+Name: Careful inspection
+Id: 158881
+Description: "Thank you! The Department of Paradoxic Optics loves this sort of thing. The Venderbighters are far too fond of colours, and they can generally outbid us."
+
+		ParentEvent
+Name: 
+Id: 141886
+Description: 
+
+
+
+	ChildBranches 19
+Name: A Ray-Drenched Cinder
+Id: 133908
+Description: "That's... cosmogone, isn't it? It's hard to make it out when one's awake, you know. Lovely colour. Reminds me of... crab-flesh. Mm."
+
+		DefaultEvent
+Name: Close inspections
+Id: 158882
+Description: "What's this stuff on the bottom? A sort of lilac slime? Have you been digging these out of fungus-towers? ...no, I shan't ask. I'd rather not know."
+
+		ParentEvent
+Name: 
+Id: 141886
+Description: 
+
+
+
+	ChildBranches 20
+Name: A Wakeful Idol
+Id: 137706
+Description: Perhaps it's safer to get rid of it.
+
+		DefaultEvent
+Name: A twitching nose
+Id: 166262
+Description: "This one has travelled - travelled a long way! I smell diamonds, copper, basalt. Hm ha ah. Thank you."
+
+		ParentEvent
+Name: 
+Id: 141886
+Description: 
+
+
+
+	ChildBranches 21
+Name: A Searing Enigma
+Id: 137708
+Description: It won't be safe with her (him?), but then it won't be safe with anyone.
+
+		DefaultEvent
+Name: "What's - "
+Id: 166266
+Description: "Give it to me! Yes - yes, now I understand. Listen. The net. The law. The harm. The sky. The light. The clock. The zee. The eye. The night... Leave me. Leave me now. I have things to do."
+
+		ParentEvent
+Name: 
+Id: 141886
+Description: 
+
+
+
+	ChildBranches 22
+Name: A delivery from Isery
+Id: 139073
+Description: The Scholar drags her (his?) tongue over each of the vials. "Fresh, quite piquant - look at the colour! Oh yes, yes, perfect."
+
+		DefaultEvent
+Name: 
+Id: 168560
+Description: He (she?) hands you an untidy bundle of notes written on what you hope is paper. You are almost certainly imagining how the notes seem to shiver in your grip. Isery will be pleased, at least.
+
+		ParentEvent
+Name: 
+Id: 141886
+Description: 
+
+
+
+	ChildBranches 23
+Name: An opportunity offered
+Id: 139074
+Description: "Are you sure you didn't lose your shipment on the way?" the Alarming Scholar asks, stroking the casket of red honey vials possessively. His (her?) teeth glint. "I have quite a generous acquisitions budget, I am told."
+
+		DefaultEvent
+Name: 
+Id: 168561
+Description: The Alarming Scholar hands over the money with barely-concealed delight once you give her (him?) the casket of vials. You leave with the distinct impression that he (she?) does not expect to see you ever again.
+
+		ParentEvent
+Name: 
+Id: 141886
+Description: 
+
+
+
+	ChildBranches 24
+Name: A Dread Surmise
+Id: 141761
+Description: "I smell secrets. Searing secrets. Share them with me. I am close to something." [If you choose this option, the Scholar will become permanently unavailable.]
+
+		DefaultEvent
+Name: Delighted laughter
+Id: 173034
+Description: "Here! I have the answer. Take it. I have all the answers I will ever need. I'll follow them to Frostfound. You can't come. Don't come. Can't come. Don't come. CAN'T COME! DON'T COME! - "
+<br/><br/>
+Proctors burst in and drag the Scholar from his (her?) office. One shakes a sorrowful head at you. "Academics," he sighs. "They never last." You are left clutching a bundle of scrawled notes. You peep cautiously at the first page. Symbols boil before your eyes. The study seems suddenly, terribly bright. No! NO!
+
+		ParentEvent
+Name: 
+Id: 141886
+Description: 
+
+		RareDefaultEvent
+Name: Delighted laughter
+Id: 180556
+Description: "Here! I have the answer. Take it. I have all the answers I will ever need. I'll follow them to Frostfound. You can't come. Don't come. Can't come. Don't come. CAN'T COME! DON'T COME! - "
+<br/><br/>
+Proctors burst in and drag the Scholar from his (her?) office. One shakes a sorrowful head at you. "Academics," he sighs. "They never last." You are left clutching a bundle of scrawled notes. You peep cautiously at the first page. Symbols boil before your eyes. The study seems suddenly, terribly bright. No! NO!
+
+
+
+	ChildBranches 25
+Name: An Element of Dawn
+Id: 144180
+Description: A strayed component of a strayed star.
+
+		DefaultEvent
+Name: "Hmmm..."
+Id: 176813
+Description: "I'll pay you. Of course I will. But - shall I say it? I shall say it. Perhaps it would be better if you didn't bring me any more like this - better for both our sakes. This one, I'll give the Professor Denuntiatus. She can feed it to her Truthbreaker Turbine."
+
+		ParentEvent
+Name: 
+Id: 141886
+Description: 
+
+		RareDefaultEvent
+Name: "Ahhhh..."
+Id: 176814
+Description: The light of the Element kindles an answering light in her (is it his?) eyes. "Dawn," he (she?) whispers. "I won't give this one to the Professor. Not this one."
+
+
+
+	ChildBranches 26
+Name: Offer the Scholar an Extraordinary Implication
+Id: 146486
+Description: "What a tantalising crumb!"
+
+		DefaultEvent
+Name: "The scent of secrets..."
+Id: 180733
+Description: "I will place it with the others. One day - one day, I will have enough."
+
+		ParentEvent
+Name: 
+Id: 141886
+Description: 
+
+
+
+	ChildBranches 27
+Name: Offer the Scholar an Intriguing Snippet
+Id: 147083
+Description: "I might perhaps classify this as 'gossip', not 'data'. Nevertheless..."
+
+		DefaultEvent
+Name: "Oho, zesty, zesty!"
+Id: 181661
+Description: "This one will do very well shared. Thank you. Your payment."
+
+		ParentEvent
+Name: 
+Id: 141886
+Description: 
+
+
+
+	ChildBranches 28
+Name: Ask the Scholar about the Whisper-Locked Box
+Id: 148026
+Description: Cobweb-light silver tumblers will align if the words are right. But what are the words? Perhaps the makers of the box will know. [Play Fallen London to find the Whisper-Locked Box.]
+
+		DefaultEvent
+Name: 
+Id: 183096
+Description: 
+
+		ParentEvent
+Name: 
+Id: 141886
+Description:

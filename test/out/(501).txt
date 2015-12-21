@@ -1,0 +1,59 @@
+(501)
+Name: The Fallen City of Varchas
+Id: 152353
+Description: The walled city of Varchas is dark. The glowing fungus has been stripped from the Five Towers, and the Principal Mirrors are all smashed to pieces.
+<br/><br/>
+The Mirrored Gates are broken into tiny facets and each one glints malevolently. You can see... shapes... moving in them. Glimmers of cosmogone - that burnt orange darkness. Glimpses of smoking sea. Sweet laughter that hitches and skitters like the death of clocks.
+
+
+	ChildBranches 1
+Name: What's that?
+Id: 129838
+Description: Can you hear something...whispering? 
+
+
+		DefaultEvent
+Name: 
+Id: 152354
+Description: You try to close your ears as you stumble back to your ship. You shiver, and it feels like a thousand snakes wriggling their mirror-bodies just under your skin. What have the Neathers done? What have <i>you</i> done?
+
+		ParentEvent
+Name: 
+Id: 152353
+Description: 
+
+
+
+	ChildBranches 2
+Name: Put a blemmigan ashore
+Id: 147572
+Description: Leave it to its fate.
+
+		DefaultEvent
+Name: Into the night
+Id: 182380
+Description: With a soft rustle, the blemmigan passes into the shadows around Varchas.
+<br/><br/>
+The shadows stiffen; there's a sigh like a dying fire crumbling.
+
+		ParentEvent
+Name: 
+Id: 152353
+Description: 
+
+
+
+	ChildBranches 3
+Name: Compile a Port Report
+Id: 147658
+Description: It's difficult to convey just how unpleasant the place is without quite an aggressive use of... ellipses.
+
+		DefaultEvent
+Name: The darkness of broken mirrors
+Id: 182514
+Description: Whatever power reigns here, the Admiralty will want to know as much as you can stand to record. Note it carefully. Guard your dreams.
+
+		ParentEvent
+Name: 
+Id: 152353
+Description:

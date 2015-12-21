@@ -1,0 +1,124 @@
+(95)
+Name: A Difficult Conversation
+Id: 180731
+Description: Some would say that zee-captains must be free to love who they will. It's a lonely life. But it seems your sweetheart disagrees.
+
+	ChildBranches 1
+Name: Er - 
+Id: 146504
+Description: You shouldn't ever see this. Something went wrong.
+
+		DefaultEvent
+Name: Please release me
+Id: 180769
+Description: You're released. But could you mail sunlesssea@failbettergames.com and let us know what happened? Thank you so much!
+
+		ParentEvent
+Name: 
+Id: 180731
+Description: 
+
+
+
+	ChildBranches 2
+Name: End things with your sweetheart
+Id: 146621
+Description: You can have no future with your officer, but you're better off alone. [You will also lose any child of the union that you might have.]
+
+		DefaultEvent
+Name: Bitter words
+Id: 180991
+Description: Move on. The zee is always open. London will fall behind you again.
+
+		ParentEvent
+Name: 
+Id: 180731
+Description: 
+
+
+
+	ChildBranches 3
+Name: Convince the Dapper Chap to stay with you
+Id: 146485
+Description: He's waiting for you, leaning elegantly against a dock-crane. "I know," he says without preamble. "Tell me it's not true."
+
+		DefaultEvent
+Name: The bitter end
+Id: 180732
+Description: "I should have known better," he remarks, "than to trust a zailor." His diplomatic training keeps his face impassive. He could be speaking regretfully of the weather. "Good day, Captain. For the last time."
+
+		ParentEvent
+Name: 
+Id: 180731
+Description: 
+
+		SuccessEvent
+Name: A cautious peace
+Id: 180765
+Description: Yes, you want to stay with him. Yes, you deeply regret what happened out at zee. It's easy to make mistakes out there. No, you'll break it off with your officer. Yes, you understand. [It's up to you whether to keep your promise.]
+
+
+
+	ChildBranches 4
+Name: Convince the Likely Lass to stay with you
+Id: 146501
+Description: She has harsh things to say about both you and your favourite officer. How did she find out? "I <i>am</i> a spy," she points out.
+
+		DefaultEvent
+Name: The bitter end
+Id: 180762
+Description: "I deserve better than this. Stay at zee forever for all I care. You'll never see me again." Her face is calm as marble: you can't reach her now.
+
+		ParentEvent
+Name: 
+Id: 180731
+Description: 
+
+		SuccessEvent
+Name: A cautious peace
+Id: 180766
+Description: Yes, you want to stay with her. Yes, you deeply regret what happened out at zee. It's easy to make mistakes out there. No, you'll break it off with your officer. Yes, you understand. [It's up to you whether to keep your promise.]
+
+
+
+	ChildBranches 5
+Name: Convince the Dapper Chap to stay with you
+Id: 146502
+Description: He's waiting for you, leaning elegantly against a dock-crane. "I know," he says without preamble. "Tell me it's not true."
+
+		DefaultEvent
+Name: The Bitter End
+Id: 180763
+Description: "I should have known better," he remarks, "than to trust a zailor." His diplomatic training keeps his face impassive. He could be speaking regretfully of the weather. "Good day, Captain. For the last time. Neither of us will ever see you again."
+
+		ParentEvent
+Name: 
+Id: 180731
+Description: 
+
+		SuccessEvent
+Name: A cautious peace
+Id: 180767
+Description: Yes, you want to stay with him. Yes, you deeply regret what happened out at zee. It's easy to make mistakes out there. No, you'll break it off with your officer. Yes, you understand. [It's up to you whether to keep your promise.]
+
+
+
+	ChildBranches 6
+Name: Convince the Likely Lass to stay with you
+Id: 146503
+Description: She has harsh things to say about both you and your favourite officer. How did she find out? "I <i>am</i> a spy," she points out.
+
+		DefaultEvent
+Name: The bitter end
+Id: 180764
+Description: "I deserve better than this. Stay at zee forever for all I care. You'll never see us again. Either of us." Her face is calm as marble: you can't reach her now.
+
+		ParentEvent
+Name: 
+Id: 180731
+Description: 
+
+		SuccessEvent
+Name: A cautious peace
+Id: 180768
+Description: Yes, you want to stay with her. Yes, you deeply regret what happened out at zee. It's easy to make mistakes out there. No, you'll break it off with your officer. Yes, you understand. [It's up to you whether to keep your promise.]

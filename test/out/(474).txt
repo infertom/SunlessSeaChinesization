@@ -1,0 +1,45 @@
+(474)
+Name: Burn the Tree of Seasons
+Id: 167355
+Description: A deep breath. A moment to collect your thoughts. Even if you escape alive, it will not be without cost.
+
+	ChildBranches 1
+Name: On second thoughts...
+Id: 138392
+Description: Even if it went well, you might not survive the reprisal.
+
+		DefaultEvent
+Name: A Weaver smiles as you warm yourself
+Id: 167357
+Description: She suspects nothing. None of them do. There's probably still time. Time enough not to rush.
+
+		ParentEvent
+Name: 
+Id: 167355
+Description: 
+
+
+
+	ChildBranches 2
+Name: Yes! Burn the Tree of Seasons!
+Id: 138391
+Description: The tree, the spider-council, the island itself if you can!
+
+		DefaultEvent
+Name: For the fallen! For those who-
+Id: 167356
+Description: Tearing a torch from the wall, you throw it deep into the Tree of Seasons. The ancient webs catch fire instantly, spreading quickly as the screams of the captives join those of the Weavers and Widows and the burning spider-council in a cacophony of pain and anger and fury and gratitude.
+<br /><br />
+The sorrow-spiders surge as one, tearing your flesh into ribbons as you flail helplessly towards the cliffside in a cloak of legs and fangs. The black zee embraces you, salting the wounds until unconsciousness beckons. If you're lucky, you'll be fished out by a friendly face. For now, there is only the memory of a nightmare not yet escaped.
+
+		ParentEvent
+Name: 
+Id: 167355
+Description: 
+
+		SuccessEvent
+Name: For the fallen! For those who will not be taken!
+Id: 168209
+Description: Tearing a torch from the wall, you throw it deep into the Tree of Seasons. The ancient webs catch fire instantly, spreading quickly as the screams of the captives join those of the Weavers and Widows and the burning spider-council in a cacophony of pain and anger and fury and gratitude.
+<br /><br />
+The sorrow-spiders surge as one, but while this is their domain, the zee is yours and it is only one crazed dive from the walls away. The rush of air explodes into an ice-cold blackness as the water tries to pull you down, but you fight it; fight the cuts and the bites and the poison surging through your system as you swim for your life. Finally, the shadows are still enough to risk dragging yourself ashore. As you collapse, you see the ship... not far, not far... close enough for the crew to send rescue... barely a heartbeat before all goes black.

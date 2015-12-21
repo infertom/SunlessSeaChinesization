@@ -1,0 +1,265 @@
+(384)
+Name: The Pulse of the Principles
+Id: 165542
+Description: Silvery light fills a sea-cave, dripping from the walls. It condenses to pools of whitish fluid on the uneven floor. Sea-sound fills the cave, strong and slow, like the long beating of a heart. On a square slab of coral, someone has set up a game of chess. The pieces are different from the ones used in London. You see the spiralling Bishops, the corner Roots, the Kin and the terrible Cream. As you touch each one, a deep voice whispers its name...
+
+	ChildBranches 1
+Name: Move a Paw
+Id: 137248
+Description: The Catspaw, perhaps, or the Skinspaw. This is a safe move.
+
+		DefaultEvent
+Name: 
+Id: 165543
+Description: "Ah," the cavern breathes around you. "That felt charming. Thank you are. The game soothes the pangs of dissolution in. But I want so to be less. I am tired of thought. Will you help me? Sleep will not enough. I desire no dreams. Will you help?"
+
+		ParentEvent
+Name: 
+Id: 165542
+Description: 
+
+
+
+	ChildBranches 2
+Name: Move a Night
+Id: 137249
+Description: The Nights are fanged like lions. A touch will wound you. This is an aggressive move...
+
+		DefaultEvent
+Name: 
+Id: 165544
+Description: "Oohh," the cavern breathes around you. "That was <i>piquant</i>. Thank you are. It distracts from the pains of dissolution in. But I want so to dissolve. Will you help me? Sleep will not enough. I desire no dreams. Will you help?"
+
+		ParentEvent
+Name: 
+Id: 165542
+Description: 
+
+
+
+	ChildBranches 3
+Name: Leave
+Id: 137250
+Description: This is not a place to be.
+
+		DefaultEvent
+Name: Up the steps
+Id: 165545
+Description: Squeeze through the crack, away from the fading, pleading voice...
+
+		ParentEvent
+Name: 
+Id: 165542
+Description: 
+
+
+
+	ChildBranches 4
+Name: Offer assistance with dissolution
+Id: 137251
+Description: In the flow of air through the cavern, you hear the voice of the Principles, langorously pleading. "I offer an assistant," it flutes. "And scintillack. You enjoy scintillack, aren't you?"
+
+		DefaultEvent
+Name: An assistant
+Id: 165546
+Description: A Rubbery Man rises from a cyst in the floor. An iridescent cicatrice crosses its face. Even in this flood of silvery light, it pulses like a fevered moon. It shuffles closer.<br/>
+"Shalt-Flions," it wheezes. Unprecedented! A Rubbery capable of human speech (in however debased and pitiful a mode!)
+<br/>
+"My emissary," the cave whispers. "Treat it be gently." The whisper follows you back up the steps. "Take it to the Salt-Lions..."
+
+		ParentEvent
+Name: 
+Id: 165542
+Description: 
+
+
+
+	ChildBranches 5
+Name: Setting up
+Id: 137504
+Description: The Outcast toddles eagerly over to the chess-board, to place the sphinxstone piece at one corner. "Oh yes," the voice of the Principles sighs."Oh yes, that will very good. But I ache so to be reduced, to be less. Will you bring more? I will pay most in scintillack, and in secrets."
+
+		DefaultEvent
+Name: 
+Id: 165952
+Description: "Yes. I'll need to complete my chess-set. And then you'll need to defeat me.
+<br>
+Bring me a Wakeful Idol, to be my new Bishop.
+<br>
+Bring me a monster's tooth, to be my new Night.
+<br>
+Bring me a heart-shelled silver, to be my new Root.
+<br>
+Bring me a little flint, to be my new Paw.
+<br>
+And bring me a Fluke-Core. For my Kin."
+<br>
+At each phrase, the Outcast nods and sways, nods and sways. Somehow, it looks frightened.
+
+		ParentEvent
+Name: 
+Id: 165542
+Description: 
+
+
+
+	ChildBranches 6
+Name: Give the Principles a Wakeful Idol
+Id: 137505
+Description: "That gorgeous little spark! A counterweight. I will devolve, and my Emissary must end with me. To satisfy the Chain, we must have an ascension. This little fellow will rise as I descend. Perhaps you can take her with you."
+
+		DefaultEvent
+Name: 
+Id: 165953
+Description: "Here your scintillack. Another secret? I have so few remaining. Will you despoil me further? You will? No, I am tired. No secret for you today. If you press me, I will sulk. I am old. I want to be less than I am. I want to be only coral. Call that a secret, if you must."
+
+		ParentEvent
+Name: 
+Id: 165542
+Description: 
+
+
+
+	ChildBranches 7
+Name: Give the Principles Heartmetal
+Id: 137506
+Description: "I long for my ending, but I fear it beside. This is needed to encase my fear. Ice and oysters. The trap-jaws. Give me courage. I want so to be less. Give it to me."
+
+		DefaultEvent
+Name: 
+Id: 165954
+Description: "Your payment is there, in the corner. And here, in this secret: I was forbidden love, by the Bazaar, when I left the world Axile. But I don't regret it. I never regret."
+
+		ParentEvent
+Name: 
+Id: 165542
+Description: 
+
+
+
+	ChildBranches 8
+Name: Give the Principles a piece of Stygian Ivory
+Id: 137507
+Description: "We don't necessarily need this, for my dissolution. The others are tools. This is ornament. But ivory in chess is asked, aren't we?"
+
+		DefaultEvent
+Name: 
+Id: 165955
+Description: "My Emissary has your payment. A little of me. There. There I shine. And a secret: the spiders of Saviour's Rocks (crush them; crush them) made arrangements with my cousin. Bargains to blind a monster... remember that. There are many alliances."
+
+		ParentEvent
+Name: 
+Id: 165542
+Description: 
+
+
+
+	ChildBranches 9
+Name: Give the Principles a Fluke-Core
+Id: 137508
+Description: "O my cousin, my enemy! I was of their kind before I began my descent. Now you see me as I am. But I would be so much less. I would dissolve on the waves like old foam. Help me end. Kill my emissary... but not until we are ready."
+
+		DefaultEvent
+Name: 
+Id: 165956
+Description: "Here is your scintillack. My Emissary recalls how it burnt. See him flinch! No matter. He will end when I do. Now your secret. These sea-lords you slay... they give of themselves for the Drowning Feast. Kneel, and I will whisper you a fragment of the recipe."
+
+		ParentEvent
+Name: 
+Id: 165542
+Description: 
+
+
+
+	ChildBranches 10
+Name: Give the Principles an Ambiguous Eolith
+Id: 137510
+Description: "The Great Chain of Being is rigid... but the shapelings know its weak places. This is for I have sent my Emissary. He knows. This is one of his. Thank you. I will be much less, and I will sleep forever."
+
+		DefaultEvent
+Name: 
+Id: 165960
+Description: "Kneel, kneel, and my Emissary will gift you Scintillack. The secret. The Bazaar brought me; brought us all, all us shapelings, Axiles. The Flukes, the misers, even my Emissary. Why? Too deep a secret for me, my friend. Even here, too deep for me. Perhaps when you end me..."
+
+		ParentEvent
+Name: 
+Id: 165542
+Description: 
+
+
+
+	ChildBranches 11
+Name: The Last Game
+Id: 137520
+Description: "I will miss chess most when this is done. The black waves, my children's glows, let them pass - but o my sweet diagonal. It's time. Afraid I find. Quickly. The board awaits."
+
+		DefaultEvent
+Name: 
+Id: 165974
+Description: The Emissary, trembling, takes his place across the board from you. "He will dissolve with me," the Principles tells you, consolingly. "It's for the best. You must win the game. Defeat him, and he and I will end. I will leave treasure. Hurry. My thoughts grow burdensome."
+
+		ParentEvent
+Name: 
+Id: 165542
+Description: 
+
+
+
+	ChildBranches 12
+Name: Win the match
+Id: 137567
+Description: The Principles will be reduced, as it desires, to a mindless hump of coral. The Outcast stands trembling behind the board, ready to enact the Principles' moves: its mind will be destroyed with its master's.
+
+		DefaultEvent
+Name: 
+Id: 166047
+Description: Move and counter-move. The pieces click and hiss on the board. The victory is easy. The Emissary whimpers and topples his own Kin; he begins to melt like snow in a desert wind.
+<br><br>
+Scintillack sloughs from the roof, gathers around you in great shining drifts. The voice of the Principles washes over you like the zee, urgently chanting secrets. For every one you hear, another two are lost to the grinding of the rock, or incomprehensible to a mind that has not laired centuries beneath the waves... but you learn, and learn. Your brain is bursting with knowledge.
+<br><br>
+Now the voice of the Principles falters, is gone. It subsides into happy mindfulness with a last melodious sigh. The Outcast's face blinks at you from its puddle of goo, and then it too dissolves.
+<br><br>
+The Wakeful Idol which sat on the chess-board now squats by your feet, eyes bright. The Principles had suggested that it would become more, when the Principles became less. It seems a little taller, somehow.
+
+		ParentEvent
+Name: 
+Id: 165542
+Description: 
+
+
+
+	ChildBranches 13
+Name: Lose the match
+Id: 137568
+Description: You are enmeshed in an alien scheme. Perhaps you mistrust it. Perhaps you pity the Outcast. Whatever your motives, you will throw the match on purpose, leaving the Principles trapped in consciousness, defeating the purpose of this whole quest.
+
+		DefaultEvent
+Name: Infinite regret
+Id: 166048
+Description: You make a foolish move. Another. Hope dawns in the Outcast's moistly shining eyes. The Principles rumbles as it guesses your intent. The Outcast twitches with delight. It moves its Night. Your Kin is imperilled.
+<br/><br/>
+"Now I regret," the Principles sighs. "Now at last I regret. I regret trusting you, stranger. And you, my Emissary, who was almost me -"
+<br/><br/>
+The Emissary makes its final move. You topple your Kin. The cave around you is silent. The Outcast straightens, taller than you have ever seen him: it extends a slippery appendage to shake your hand. Together, you climb the steps back to Port Cecil. The Principles never speaks to you again.
+
+		ParentEvent
+Name: 
+Id: 165542
+Description: 
+
+
+
+	ChildBranches 14
+Name: Give the Principles a Hunting-Trophy
+Id: 137745
+Description: "We don't necessarily need this, for my dissolution. The others are tools. This is ornament. But ivory in chess is asked, aren't we?"
+
+		DefaultEvent
+Name: 
+Id: 166330
+Description: "My Emissary has your payment. A little of me. There. There I shine. And a secret: the spiders of Saviour's Rocks (crush them; crush them) made arrangements with my cousin. Bargains to blind a monster... remember that. There are many alliances."
+
+		ParentEvent
+Name: 
+Id: 165542
+Description:

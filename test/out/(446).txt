@@ -1,0 +1,200 @@
+(446)
+Name: Khan's Glory
+Id: 143358
+Description: Here are the palaces of the Khan and his court, each a fortress to itself. Sleek lords and ladies in belted robes breakfast on balconies. An unlikely antelope peeks at you from a park. Guns rotate easily on motorised gimbals.
+
+	ChildBranches 1
+Name: Offer a gift to the Leopard
+Id: 124080
+Description: The royal clan of the Khan. The Khan himself has a notorious weakness for coffee, and his court follows suit.
+
+		DefaultEvent
+Name: A long afternoon
+Id: 143359
+Description: You meet with an Effusive Official in a room of blue glass and pierced porcelain. You supply the customary compliments and courtesies, while he nods complacently. Finally you present a sample of the coffee. The Official comes suddenly awake, inhales the scent of the coffee, glances regretfully at the porcelain screen behind him - a watcher? He bows to you three times and sends you on your way.
+
+		ParentEvent
+Name: 
+Id: 143358
+Description: 
+
+
+
+	ChildBranches 2
+Name: Petition for access to the Nephrite Quarter
+Id: 124081
+Description: The Clan of the Leopard grants trade licenses to foreigners. [This gives access to the Nephrite Quarter in Khan's Heart to the South, allowing you to sell your goods there.]
+
+		DefaultEvent
+Name: A grand ceremony
+Id: 143360
+Description: The Effusive Official is today attended by three servants and a Blue Priest, each carrying a candle of a different colour. He speaks a formula in Khaganian, in Greek, and in one of the languages of the Elder Continent. You are anointed with oils and presented with a pair of sharkskin gloves. The Blue Priest admits you to a slightly less debased echelon of foreignness, and blesses you in the name of the Deep Blue Heaven.
+<br/><br/>
+After that, you start filling in forms...
+
+		ParentEvent
+Name: 
+Id: 143358
+Description: 
+
+
+
+	ChildBranches 3
+Name: Offer a gift to the Taimen
+Id: 131353
+Description: This clan is named for a sizeable and ferocious fish of the Surface. They have a fondness for Drowning-Pearls, for some secret clan ritual.
+
+		DefaultEvent
+Name: An offering accepted
+Id: 154733
+Description: In the Yellow Chamber by the palace entrance, a Masked Functionary scrutinises the pearls. "Yes," she says. Even through the mask, she does not meet your eyes. She rises, turns, and leaves.
+
+		ParentEvent
+Name: 
+Id: 143358
+Description: 
+
+
+
+	ChildBranches 4
+Name: Plead your case with the Taimen
+Id: 131354
+Description: The Taimen Clan has long controlled the White-and-Golds, the 'loyalty service' who watch Khaganians and foreigners alike. If they're convinced your intentions are good, they may be lenient. [If your Suspicion has risen too high, this will reduce it.]
+
+		DefaultEvent
+Name: The Steel Chamber
+Id: 154734
+Description: Two Masked Functionaries hear your request. They confer briefly. One of them marks the paper in front of him. They wait for you to leave.
+
+		ParentEvent
+Name: 
+Id: 143358
+Description: 
+
+
+
+	ChildBranches 5
+Name: Cruise past the clan palaces
+Id: 131409
+Description: Khan's Glory has a steely beauty, but the clan-lords are    ever-suspicious of spies, and those gun emplacements are vigilant.
+
+		DefaultEvent
+Name: ...and turn back
+Id: 154816
+Description: A Khanate gunboat passes the harbour mouth twice. An officer in a red-and-gold uniform scrutinizes you through a spyglass. Best save it for another time.
+
+		ParentEvent
+Name: 
+Id: 143358
+Description: 
+
+
+
+	ChildBranches 6
+Name: Ask the Leopard contacts to intercede with the Taimen
+Id: 131413
+Description: If your Khaganian Suspicion has risen too high, the Taimen can help. The Leopard may induce them to do so.
+
+		DefaultEvent
+Name: Tea and confusion
+Id: 154820
+Description: The Effusive Official sips tea while you run through the polite forms of request. You're not sure he's listening. "Absolutely!" he splutters suddenly. He hands you a form for - as far as you can make out - a request for a fisherman's license. You explain, patiently, again. He nods apologetically and gives you a second copy of the same form: but this time, he writes your name carefully in the Roman, not the Khaganian, alphabet.
+<br/><br/>
+You hand the form back, very politely.
+<br/><br/>
+On the fourth explanation, you begin to make progress...
+
+		ParentEvent
+Name: 
+Id: 143358
+Description: 
+
+
+
+	ChildBranches 7
+Name: Ask your Taimen contacts to intercede with the Leopard
+Id: 131414
+Description: The Leopard's favour is essential for gaining access to Khanate trade.
+
+		DefaultEvent
+Name: The Grey Chamber
+Id: 154821
+Description: A Masked Functionary hears your request in the Grey Chamber. "We will consider the matter," is all she says.
+
+		ParentEvent
+Name: 
+Id: 143358
+Description: 
+
+
+
+	ChildBranches 8
+Name: Offer Strategic Information to the Taimen
+Id: 131415
+Description: Treason is such an old-fashioned word.
+
+		DefaultEvent
+Name: An audience in the White Chamber
+Id: 154822
+Description: In the glow of a single filament-bulb, a Masked Functionary takes down your information. She asks careful, pointed, questions. Finally she nods. "The Taimen will show their gratitude." She points at a drawer on your side of the desk: you open it to find a bag of London coinage. She doesn't bid you good-bye. You have the impression that she doesn't particularly like traitors, even useful ones.
+
+		ParentEvent
+Name: 
+Id: 143358
+Description: 
+
+
+
+	ChildBranches 9
+Name: Sell the Memento Mori
+Id: 146139
+Description: The Effusive Official from the Leopard is sceptical. After he has witnessed you demonstrate the device, his scepticism melts like butter on the stove. [The Khanate will offer you three Captivating Treasures.]
+
+		DefaultEvent
+Name: "The Khan is grateful."
+Id: 180167
+Description: "The principles of this device are - unprecedented. You have done something extraordinary here today. This changes everything." He smiles. "London is no rival of ours, now."
+
+		ParentEvent
+Name: 
+Id: 143358
+Description: 
+
+
+
+	ChildBranches 10
+Name: Release a blemmigan
+Id: 147564
+Description: Perhaps it can sneak under the noses of these grandly epauletted guards with their frightening modern weapons - 
+
+		DefaultEvent
+Name: Blemmigan negation
+Id: 182371
+Description: The blemmigan halts atop the rail. It directs its eyeless dome towards the guards. It folds its tendrils. The message is quite clear.
+
+		ParentEvent
+Name: 
+Id: 143358
+Description: 
+
+
+
+	ChildBranches 11
+Name: Cruise past the clan palaces
+Id: 131408
+Description: Khan's Glory has a steely beauty, but the clan-lords are    ever-suspicious of spies, and those gun emplacements are vigilant.
+
+		DefaultEvent
+Name: A warning shot
+Id: 154814
+Description: Sculpted curves of stone and silver, coral statu - a triple salvo from a gun emplacement scars your bow! Turn back to the sanctioned harbour, quickly.
+
+		ParentEvent
+Name: 
+Id: 143358
+Description: 
+
+		SuccessEvent
+Name: Strength and brilliance
+Id: 154815
+Description: Light blazes from every gate and window. You glimpse guards in gleaming uniforms, subterranean gardens of mauve and purple, hanging ornaments of scaled carnelian and jade, statues of warrior-khans past. The water is dark and calm. The sentries watch you with calm distrust.

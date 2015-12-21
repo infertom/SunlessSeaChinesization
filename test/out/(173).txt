@@ -1,0 +1,36 @@
+(173)
+Name: Advice from the Alarming Scholar
+Id: 144203
+Description: "I have an idea where it's from. But it's a long way there, and I may be wrong. So perhaps... I rather like the box. Perhaps you should simply sell it to me?"
+
+	ChildBranches 1
+Name: Sell him (her?) the box
+Id: 124631
+Description: For a hundred Echoes.
+
+		DefaultEvent
+Name: Easy profit
+Id: 144204
+Description: "Thank you, thank you. We will see what the Truthbreaker Turbine makes of this. No, we'll never know the contents. But we can smash it into something more fundamental."
+
+		ParentEvent
+Name: 
+Id: 144203
+Description: 
+
+
+
+	ChildBranches 2
+Name: Politely refuse
+Id: 148027
+Description: ...and ask her (his?) advice
+
+		DefaultEvent
+Name: "Irem, I'd say."
+Id: 183097
+Description: "The Iremi like locks. They like puzzles. They can make things that are, honestly, implausible. Their city is perched on Parabola's rim, like a hummingbird on the finger of a god... go to Irem. Perhaps they can open it for you. Perhaps they can tell you how."
+
+		ParentEvent
+Name: 
+Id: 144203
+Description:

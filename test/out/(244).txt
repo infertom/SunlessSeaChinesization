@@ -1,0 +1,75 @@
+(244)
+Name: A Whisper-Locked Puzzle-Box
+Id: 183088
+Description: If you've learnt the phrase that opens it, you can do so here. If not, what do you intend?
+
+	ChildBranches 1
+Name: Open the Box
+Id: 148020
+Description: "Only those who do nothing make no errors..."
+
+		DefaultEvent
+Name: A click as sweet and precise as a well-answered riddle
+Id: 183089
+Description: Within: a soul glowing like a hidden star. Heaped sapphires from the Elder Continent. A Presbyterate heart-cup. A water-stained journal, blurred to near-unreadability - an account of a failed expedition to the Mountain of Light...
+
+		ParentEvent
+Name: 
+Id: 183088
+Description: 
+
+		RareDefaultEvent
+Name: A click as sweet and precise as a well-answered riddle
+Id: 183109
+Description: Books of poetry, pamphlets of a racier nature. A velvet-wrapped collection of ivory Chelonate carvings. And a Mirrorcatch box leaking sunlight. A handsome haul indeed.
+
+
+
+	ChildBranches 2
+Name: Throw the box in the sea
+Id: 148037
+Description: Enough of this. Whatever's in there isn't worth the trouble.
+
+		DefaultEvent
+Name: A single splash
+Id: 183107
+Description: Perhaps the Drownies will find it. Perhaps they'll take it to their King. Perhaps he'll find the answer in his store of stolen secrets. Perhaps it will lie tarnishing in an abyss until time rolls to an end.
+
+		ParentEvent
+Name: 
+Id: 183088
+Description: 
+
+
+
+	ChildBranches 3
+Name: Throw the box in the sea, as an offering to Salt
+Id: 148038
+Description:  [This will give you Salt's Attention and remove Salt's Curse.]
+
+		DefaultEvent
+Name: A listening silence
+Id: 183108
+Description: There is no splash as the box enters the waves. The horizon waits.
+
+		ParentEvent
+Name: 
+Id: 183088
+Description: 
+
+
+
+	ChildBranches 4
+Name: Break it open
+Id: 148039
+Description: The chest is reinforced with steel and probably Iremi riddlery. But if you actually turn the fire of your ship's guns on it, it will probably give up its contents. What's left of them.
+
+		DefaultEvent
+Name: BOOM
+Id: 183110
+Description: A red-hot box-shard whizzes past your ear. You waft the smoke away, coughing. Not much remains in the shattered shell. Was this a Mirrorcatch Box? What's left of it, you can probably auction to the gullible of London. Claim it's a 'broken idol'.
+
+		ParentEvent
+Name: 
+Id: 183088
+Description:

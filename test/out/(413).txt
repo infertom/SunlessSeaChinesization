@@ -1,0 +1,141 @@
+(413)
+Name: Grand Geode
+Id: 143334
+Description: A naval base, with the Royal Navy's emblems, curiously amended. Efficient, bright-eyed women and men work briskly, everywhere you look. They are singing: hymns with unfamiliar words. Hard-faced Royal Marines watch you carefully, barring entry to the Geode's heart.
+<br/><br/>
+A plaque by the docks has been defaced with orange paint, but you can still make out the original inscription: 'STATION V (ADJUNCT)'.
+
+	ChildBranches 1
+Name: Deliver the Sphinxstone
+Id: 124064
+Description: The Bright-Eyed Sequencer sent you here. Another, equally bright-eyed quartermaster awaits you and your stones.
+
+		DefaultEvent
+Name: "The stones! Marvellous!"
+Id: 143335
+Description: "The Bazaar is the enemy of our Light. It's the enemy of anyone with eyes, too. Nasty greedy tentacled thing. Well, our Light will sort it out, you'll see. (Because <i>you</i> have eyes. And wonderful eyes they are too, if I might say so.) This stone of yours will help. And we reward those who help us. Here. (A bundle of banknotes.) Here. (A monograph on perception.) And here - "
+<br/><br/>
+She leans forward and kisses you, once on each eyelid. As she draws back, the world is changed. You always knew the Neath was a place where the laws of the sunlit world did not apply: but now, somehow, you can <i>see</i> it. Is this chaos? Or freedom?
+<br/><br/>
+The Quartermaster directs her labourers to pack up the stone. The zee is quiet. The Geode glows like a lamp.
+
+		ParentEvent
+Name: 
+Id: 143334
+Description: 
+
+
+
+	ChildBranches 2
+Name: Ask to speak with someone in authority
+Id: 124065
+Description: What is this place?
+
+		DefaultEvent
+Name: "The Commodore may be able to give you a few minutes - "
+Id: 143336
+Description: The Commodore shakes your hand warmly. He's a handsome, open-faced fellow in an immaculate Navy uniform. His office is equally handsome. It overlooks the glittering interior crystal cliff - it must be as well lit as any study in the Neath. He deflects questions about the purpose of this installation - "classified, you know" - but smilingly offers you tea, biscuits and mineralogical anecdotes.
+<br/><br/>
+The biscuits are good, but the anecdotes rather blend one into the next. You find yourself nodding, and then jerk suddenly awake. The Commodore is smiling. Your cup is empty. You feel well: very well. A little euphoric, even. "Come back soon," he says softly.
+
+		ParentEvent
+Name: 
+Id: 143334
+Description: 
+
+		RareDefaultEvent
+Name: A blank space in your memory
+Id: 182274
+Description: You saw the Commodore, and then - then there was something bright. You discussed matters of importance. You're certain of it. Teasing clues linger in your memory. A zailor asked to stay behind, and you permitted it, because - because -
+<br/><br/>
+It'll all come clear later. Probably.
+
+
+
+	ChildBranches 3
+Name: Sell the Memento Mori to the servants of the Dawn Machine
+Id: 143847
+Description: "Now this looks very interesting. Very interesting indeed." [You will receive one Element of Dawn, one Judgements' Egg, one thousand Echoes, and the gratitude of the Machine.]
+
+		DefaultEvent
+Name: A sigh of satisfaction
+Id: 176335
+Description: "Our Light will grow stronger. Not only as our fleet grows stronger. There are many doors that bar our ascent: but the Red Science is the key to many locks. We thank you. Our Light thanks you. Go now, and grow bright."
+
+		ParentEvent
+Name: 
+Id: 143334
+Description: 
+
+
+
+	ChildBranches 4
+Name: Put a blemmigan ashore
+Id: 147273
+Description: Not promising. But perhaps -
+
+		DefaultEvent
+Name: A bright end
+Id: 181948
+Description: The blemmigan whirls cheerfully and erratically across the quay, apparently bewildered by the play of coloured light. A Marine watches with some alarm as it approaches. He raises his boot and stamps hard on the dazed creature. As you leave the scene, he's fastidiously wiping violet blood from the sole. 
+
+		ParentEvent
+Name: 
+Id: 143334
+Description: 
+
+
+
+	ChildBranches 5
+Name: Compile a Port Report
+Id: 147635
+Description: Does the Admiralty know? Or want to know?
+
+		DefaultEvent
+Name: Take discreet notes
+Id: 182482
+Description: The Marines are watching.
+
+		ParentEvent
+Name: 
+Id: 143334
+Description: 
+
+
+
+	ChildBranches 6
+Name: Purchase an Element of Dawn from the Commodore
+Id: 149253
+Description: The Commodore welcomes you, smiling, to his immaculate office. Crystals glitter in the walls. "Of course," he says, "Glad to help. But we'll need to cover expenses, for an Element. The Light only produces so many, you know."
+
+		DefaultEvent
+Name: "Expenses?"
+Id: 185138
+Description: "No no - your seven youths and maidens, ahahaha, I mean your seven crew, are not 'expenses'. They will live rich, satisfied, glorious lives. I will ensure it personally."
+<br/><br/>
+"And thank you for the information. We will make very, very good use of it."
+
+		ParentEvent
+Name: 
+Id: 143334
+Description: 
+
+
+
+	ChildBranches 7
+Name: Ask the Commodore for a defence against sunlight for Aestival
+Id: 149264
+Description: He smiles warmly. "Of course," he says. "But we'll need our usual consideration to do the work. And it won't be easy. We'll need a gant-source from near the Chelonate; and a particular insight. A very, very particular insight."
+[The gant-source can be obtained from the Eater of Names, near the Chelonate. A Dread Surmise can be assembled by the Alarming Scholar from seven Searing Enigmas.]
+
+		DefaultEvent
+Name: Dawn's Law
+Id: 185155
+Description: The Sequencers who serve the Machine take charge of your supplies. Your crew go gaping and bewildered into the fractured light of the Geode. Officers listen intently to your intelligence. And you whisper the Dread Surmise into the translucently perfect ear of the Commodore himself. (He smells like spice and sunlight.)
+<br/><br/>
+Three days and three nights later, a procession of marines carries a cedar casket to your ship, decorated with gold leaf. You open it, very cautiously. The skull which once adorned the Eater of Names now lies within, its forehead marked with a glyph of furious power. The shape of it chatters your teeth and vibrates your vision. This will drink the danger of the sunlight. Who knows what else it might do? But it will suffice. It will permit you to colonise Aestival.
+
+		ParentEvent
+Name: 
+Id: 143334
+Description:

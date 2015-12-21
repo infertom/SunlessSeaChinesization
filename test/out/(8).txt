@@ -1,0 +1,36 @@
+(8)
+Name: The Final Blow
+Id: 155206
+Description: Darkness like sleep. Your heart fails you. This is an end to all journeys. [Three Wounds will kill you.]
+
+	ChildBranches 1
+Name: Into darkness
+Id: 131667
+Description: You will be mourned.
+
+		DefaultEvent
+Name: A bleak dawn
+Id: 155207
+Description: It's over for now - but -
+
+		ParentEvent
+Name: 
+Id: 155206
+Description: 
+
+
+
+	ChildBranches 2
+Name: Into darkness
+Id: 132098
+Description: You will be mourned - but you've provided for your heir.
+
+		DefaultEvent
+Name: A bleak dawn
+Id: 155884
+Description: It's over for now - but -
+
+		ParentEvent
+Name: 
+Id: 155206
+Description:

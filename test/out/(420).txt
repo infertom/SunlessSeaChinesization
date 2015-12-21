@@ -1,0 +1,505 @@
+(420)
+Name: Treasure Valley
+Id: 176754
+Description: A promising bowl of thick trees and occasional bursts of space, as silent as lost gold and filled with hiding places. Be sure you have space in your hold for treasure.
+
+	ChildBranches 1
+Name: Go North
+Id: 144144
+Description: 
+
+		DefaultEvent
+Name: North!
+Id: 176755
+Description: Something scuttles in the branches as you push past.
+
+		ParentEvent
+Name: 
+Id: 176754
+Description: 
+
+		RareDefaultEvent
+Name: North!
+Id: 178365
+Description: You climb over slippery, slimy rocks and continue.
+
+
+
+	ChildBranches 2
+Name: Go South
+Id: 144145
+Description: 
+
+		DefaultEvent
+Name: South!
+Id: 176756
+Description: Branches whip at your face as you push through the trees.
+
+		ParentEvent
+Name: 
+Id: 176754
+Description: 
+
+		RareDefaultEvent
+Name: South!
+Id: 178364
+Description: The trees glow softly as you push past.
+
+
+
+	ChildBranches 3
+Name: Go West
+Id: 144146
+Description: 
+
+		DefaultEvent
+Name: West!
+Id: 176757
+Description: Sticks crunch underfoot as you continue exploring.
+
+		ParentEvent
+Name: 
+Id: 176754
+Description: 
+
+		RareDefaultEvent
+Name: West!
+Id: 178363
+Description: The thick jungle parts as you push through.
+
+
+
+	ChildBranches 4
+Name: Go East
+Id: 144147
+Description: 
+
+		DefaultEvent
+Name: East!
+Id: 176758
+Description: A few vines put up some resistance. But not for long.
+
+		ParentEvent
+Name: 
+Id: 176754
+Description: 
+
+		RareDefaultEvent
+Name: East!
+Id: 178367
+Description: Your feet itch as mud leaks into your boots.
+
+
+
+	ChildBranches 5
+Name: A marker of crossed bones
+Id: 144148
+Description: You could dig here. Will there be treasure?
+
+		DefaultEvent
+Name: Treasure!
+Id: 176759
+Description: Your shovel clinks against a box. Who buried this mountain of loot here? It is not your problem. If they ever come back, they will be sorely disappointed.
+
+		ParentEvent
+Name: 
+Id: 176754
+Description: 
+
+
+
+	ChildBranches 6
+Name: Consult the Map
+Id: 145080
+Description: What were its instructions again?
+
+		DefaultEvent
+Name: The map reads as follows...
+Id: 178362
+Description: North for each City the bats have brought down<br />
+Then East to the river where no man fears to drown<br />
+Venture south for each island the Empire can claim<br />
+And west for each bearer of the Emperor's name<br />
+Head straight for the Horizon, then take a step more<br />
+Letting west end your search, with a one, two, three...<br /> 
+In the shape of an X, find a seeker misled<br />
+Nothing but eternity belongs to the dead
+
+		ParentEvent
+Name: 
+Id: 176754
+Description: 
+
+
+
+	ChildBranches 7
+Name: Give up for now
+Id: 145785
+Description: You can try again any time.
+
+		DefaultEvent
+Name: You roll up the map
+Id: 179519
+Description: At least nobody else is likely to beat you to it.
+
+		ParentEvent
+Name: 
+Id: 176754
+Description: 
+
+
+
+	ChildBranches 8
+Name: A small spring of water
+Id: 145788
+Description: You could dig here. Will there be treasure?
+
+		DefaultEvent
+Name: You dig, but find nothing
+Id: 179523
+Description: It is getting late. You will need to try again another day.
+
+		ParentEvent
+Name: 
+Id: 176754
+Description: 
+
+
+
+	ChildBranches 9
+Name: A tree trunk in the woods
+Id: 145789
+Description: You could dig here. Will there be treasure?
+
+		DefaultEvent
+Name: You dig, but find nothing
+Id: 179524
+Description: It is getting late. You will need to try again another day.
+
+		ParentEvent
+Name: 
+Id: 176754
+Description: 
+
+
+
+	ChildBranches 10
+Name: A cluster of trees
+Id: 145790
+Description: You could dig here. Will there be treasure?
+
+		DefaultEvent
+Name: You dig, but find nothing
+Id: 179525
+Description: It is getting late. You will need to try again another day.
+
+		ParentEvent
+Name: 
+Id: 176754
+Description: 
+
+
+
+	ChildBranches 11
+Name: The starting point
+Id: 145791
+Description: You could dig here. Will there be treasure?
+
+		DefaultEvent
+Name: An overly literal interpretation?
+Id: 179526
+Description: This is not the 'correct point' where the treasure is buried, of course. That would rather defeat the purpose of the instructions.
+
+		ParentEvent
+Name: 
+Id: 176754
+Description: 
+
+
+
+	ChildBranches 12
+Name: A forgotten grove
+Id: 145792
+Description: You could dig here. Will there be treasure?
+
+		DefaultEvent
+Name: You dig, but find nothing
+Id: 179527
+Description: It is getting late. You will need to try again another day.
+
+		ParentEvent
+Name: 
+Id: 176754
+Description: 
+
+
+
+	ChildBranches 13
+Name: A ceremonial circle
+Id: 145793
+Description: You could dig here. Will there be treasure?
+
+		DefaultEvent
+Name: You dig, but find nothing
+Id: 179528
+Description: It is getting late. You will need to try again another day.
+
+		ParentEvent
+Name: 
+Id: 176754
+Description: 
+
+
+
+	ChildBranches 14
+Name: A circle of flowers
+Id: 145794
+Description: You could dig here. Will there be treasure?
+
+		DefaultEvent
+Name: You dig, but find nothing
+Id: 179529
+Description: It is getting late. You will need to try again another day.
+
+		ParentEvent
+Name: 
+Id: 176754
+Description: 
+
+
+
+	ChildBranches 15
+Name: A dried up river bed
+Id: 145795
+Description: You could dig here. Will there be treasure?
+
+		DefaultEvent
+Name: You dig, but find nothing
+Id: 179530
+Description: It is getting late. You will need to try again another day.
+
+		ParentEvent
+Name: 
+Id: 176754
+Description: 
+
+
+
+	ChildBranches 16
+Name: The ground here looks disturbed
+Id: 145796
+Description: You could dig here. Will there be treasure?
+
+		DefaultEvent
+Name: You dig, but find nothing
+Id: 179531
+Description: It is getting late. You will need to try again another day.
+
+		ParentEvent
+Name: 
+Id: 176754
+Description: 
+
+
+
+	ChildBranches 17
+Name: A small hill
+Id: 145797
+Description: You could dig here. Will there be treasure?
+
+		DefaultEvent
+Name: You dig, but find nothing
+Id: 179532
+Description: It is getting late. You will need to try again another day.
+
+		ParentEvent
+Name: 
+Id: 176754
+Description: 
+
+
+
+	ChildBranches 18
+Name: A large stone idol
+Id: 145798
+Description: You could dig here. Will there be treasure?
+
+		DefaultEvent
+Name: You dig, but find nothing
+Id: 179533
+Description: It is getting late. You will need to try again another day.
+
+		ParentEvent
+Name: 
+Id: 176754
+Description: 
+
+
+
+	ChildBranches 19
+Name: A place of history and terror
+Id: 145799
+Description: You could dig here. Will there be treasure?
+
+		DefaultEvent
+Name: You dig, but find nothing
+Id: 179534
+Description: It is getting late. You will need to try again another day.
+
+		ParentEvent
+Name: 
+Id: 176754
+Description: 
+
+
+
+	ChildBranches 20
+Name: A patch of leaves
+Id: 145800
+Description: You could dig here. Will there be treasure?
+
+		DefaultEvent
+Name: You dig, but find nothing
+Id: 179535
+Description: It is getting late. You will need to try again another day.
+
+		ParentEvent
+Name: 
+Id: 176754
+Description: 
+
+
+
+	ChildBranches 21
+Name: A dark corner of the wood
+Id: 145801
+Description: You could dig here. Will there be treasure?
+
+		DefaultEvent
+Name: You dig, but find nothing
+Id: 179536
+Description: It is getting late. You will need to try again another day.
+
+		ParentEvent
+Name: 
+Id: 176754
+Description: 
+
+
+
+	ChildBranches 22
+Name: An abandoned wild monkey nest
+Id: 145804
+Description: You could dig here. Will there be treasure?
+
+		DefaultEvent
+Name: You dig, but find nothing
+Id: 179541
+Description: It is getting late. You will need to try again another day.
+
+		ParentEvent
+Name: 
+Id: 176754
+Description: 
+
+
+
+	ChildBranches 23
+Name: A face drawn on the ground in chalk
+Id: 145805
+Description: You could dig here. Will there be treasure?
+
+		DefaultEvent
+Name: You dig, but find nothing
+Id: 179542
+Description: It is getting late. You will need to try again another day.
+
+		ParentEvent
+Name: 
+Id: 176754
+Description: 
+
+
+
+	ChildBranches 24
+Name: A wooden shrine
+Id: 145806
+Description: You could dig here. Will there be treasure?
+
+		DefaultEvent
+Name: You dig, but find nothing
+Id: 179543
+Description: It is getting late. You will need to try again another day.
+
+		ParentEvent
+Name: 
+Id: 176754
+Description: 
+
+
+
+	ChildBranches 25
+Name: A picturesque copse
+Id: 145823
+Description: You could dig here. Will there be treasure?
+
+		DefaultEvent
+Name: You dig, but find nothing
+Id: 179575
+Description: It is getting late. You will need to try again another day.
+
+		ParentEvent
+Name: 
+Id: 176754
+Description: 
+
+
+
+	ChildBranches 26
+Name: A hidden grove
+Id: 145824
+Description: You could dig here. Will there be treasure?
+
+		DefaultEvent
+Name: You dig, but find nothing
+Id: 179576
+Description: It is getting late. You will need to try again another day.
+
+		ParentEvent
+Name: 
+Id: 176754
+Description: 
+
+
+
+	ChildBranches 27
+Name: A small marshy pool
+Id: 145825
+Description: You could dig here. Will there be treasure?
+
+		DefaultEvent
+Name: You dig, but find nothing
+Id: 179577
+Description: It is getting late. You will need to try again another day.
+
+		ParentEvent
+Name: 
+Id: 176754
+Description: 
+
+
+
+	ChildBranches 28
+Name: The largest tree in the forest
+Id: 145826
+Description: You could dig here. Will there be treasure?
+
+		DefaultEvent
+Name: You dig, but find nothing
+Id: 179578
+Description: It is getting late. You will need to try again another day.
+
+		ParentEvent
+Name: 
+Id: 176754
+Description:

@@ -1,0 +1,41 @@
+(75)
+Name: A fallen stone
+Id: 150638
+Description: Now and then, rocky fragments fall from the roof of the Neath. The decks of older ships are pocked with scars. The sound is one no land-lubber knows, and no zailor will ever forget. This one has smashed the glass of a deck-binnacle. "Ill omen!" one sailor cries. "The god in the roof! Storm is angry!"
+
+	ChildBranches 1
+Name: Do nothing
+Id: 128726
+Description: Storm: one of the three nameless gods of the zee. An absurd superstition. 
+
+		DefaultEvent
+Name: Mutters of disapproval
+Id: 150641
+Description: They want you to offer wine and fish to appease the god, or the god will be cross. Well, sod 'em, you're in charge, and they're not proposing to pay for the wine.
+
+		ParentEvent
+Name: 
+Id: 150638
+Description: 
+
+		RareDefaultEvent
+Name: Sweep the remnants up
+Id: 150643
+Description: It takes some persuading to get the crew to sweep up the binnacle and stone-shards, but the threat of discipline does it. One of them claims she smells a storm. Ignore her.
+
+
+
+	ChildBranches 2
+Name: Make a sacrifice to avert misfortune
+Id: 128727
+Description: In the stories, Storm is the noisiest, angriest and least reasonable of the zee-gods. Better not take chances.
+
+		DefaultEvent
+Name: A simple rite
+Id: 150642
+Description: Your zailors know the words: you mumble them. A gift of wine and fish is suitable, marked with the Captain's blood (ow!), bound with copper wire and cast overboard from the bow. The package bobs for a moment, and then is sucked beneath the ship...
+
+		ParentEvent
+Name: 
+Id: 150638
+Description:

@@ -1,0 +1,58 @@
+(181)
+Name: The Albino Moray attacks!
+Id: 144188
+Description: "Pale and savage as a wolf-moon; toothed to rival the greatest of whales; and quick to take offence. Don't tease the beast. You'll be lucky to lose a leg."
+
+	ChildBranches 1
+Name: Fight!
+Id: 124621
+Description: 
+
+		DefaultEvent
+Name: 
+Id: 144189
+Description: 
+
+		ParentEvent
+Name: 
+Id: 144188
+Description: 
+
+
+
+	ChildBranches 2
+Name: Flee!
+Id: 128201
+Description: It's nimbler than you are. But perhaps you can distract it with a zailor. Your crew won't like this, though -
+
+		DefaultEvent
+Name: A bad end
+Id: 149745
+Description: You fling your least-disciplined zailor overboard. The Moray wolfs him down and turns its blank and greedy eye back to you - but you've won a few moments grace. Your crew, it is fair to say, are not impressed. Well, perhaps they'll be next.
+
+		ParentEvent
+Name: 
+Id: 144188
+Description: 
+
+
+
+	ChildBranches 3
+Name: Flee!
+Id: 124622
+Description: Corkscrew in sudden circles. Confuse it. Escape.
+
+		DefaultEvent
+Name: Too late!
+Id: 144190
+Description: You scrape a sudden reef - veer - slow - and it's upon you!
+
+		ParentEvent
+Name: 
+Id: 144188
+Description: 
+
+		SuccessEvent
+Name: Too close
+Id: 147507
+Description: You scrape a sudden reef! The Moray circles, briefly balked, and you take the opportunity to put some distance between you.

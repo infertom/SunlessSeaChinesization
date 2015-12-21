@@ -1,0 +1,19 @@
+(483)
+Name: Hunter's Keep alight
+Id: 149706
+Description: Later, you are certain that the fire began in the turret behind the house. But it spreads quickly. Zailors tumble choking from the door as the smoke billows out. The yellow-eyed maid leaps from a window, and streaks across the lawn on all fours.
+
+	ChildBranches 1
+Name: Watch...
+Id: 128177
+Description: It's all you can do.
+
+		DefaultEvent
+Name: The death of Hunter's Keep
+Id: 149707
+Description: Flames lick about the gables. The spine of the house breaks with a roar as the roof falls in. Sparks fly up towards the false-stars so far above. The death of the house takes hours, but it is total. Only a cindered shell remains.
+
+		ParentEvent
+Name: 
+Id: 149706
+Description:

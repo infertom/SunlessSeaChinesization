@@ -1,0 +1,19 @@
+(417)
+Name: A blemmigan disaster!
+Id: 176550
+Description: The propagating blemmigans have eaten some of the supplies intended for the Zeppelin.
+
+	ChildBranches 1
+Name: Check the damage
+Id: 143995
+Description: How much could a few blemmigans eat?
+
+		DefaultEvent
+Name: The monkeys chatter with annoyance
+Id: 176551
+Description: Extra guards are put on the remaining supplies, but what remains of these will have to be thrown away.
+
+		ParentEvent
+Name: 
+Id: 176550
+Description:

@@ -1,0 +1,83 @@
+(507)
+Name: Once more
+Id: 151669
+Description: You encounter the Acolyte one more time.
+
+	ChildBranches 1
+Name: Apologize
+Id: 129369
+Description: She doesn't look overjoyed to see you.
+
+		DefaultEvent
+Name: That didn't go well
+Id: 151670
+Description: She jerks her head to one side when you start speaking. It's a surprise she doesn't sing to drown you out.
+<br/>
+<br/>
+You have the feeling you won't be seeing her again.
+
+		ParentEvent
+Name: 
+Id: 151669
+Description: 
+
+
+
+	ChildBranches 2
+Name: Ask after her situation
+Id: 129370
+Description: It seems unlikely that the other acolytes offer one another much consolation. You've never seen any sign of friendship between them, anyhow.
+
+		DefaultEvent
+Name: Slow mending
+Id: 151671
+Description: She says that she is mending. At least, she says, there's no one she has to keep her secrets from. No Soothe and Cooper tonic for her.
+<br/>
+<br/>
+Still, she's had enough of her present occupation. If you come to port again, you won't find her here.
+
+		ParentEvent
+Name: 
+Id: 151669
+Description: 
+
+
+
+	ChildBranches 3
+Name: Real consolation
+Id: 129371
+Description: Offer her the consolation of friendship.
+
+		DefaultEvent
+Name: Long into the night
+Id: 151672
+Description: She visits you aboard ship and you talk for long hours, lit only by the jar of phosphorescent beetles. Her stories cover many incidents past and present. Many famous people she attended while she was still a practicing doctor. Certain details of Rubbery Man anatomy she found astonishing.
+<br/>
+<br/>
+You and she will never speak like this again. You are leaving, and she does not expect to be on the island by the time you might return. That's what makes it so easy to talk, and so comforting.
+
+
+		ParentEvent
+Name: 
+Id: 151669
+Description: 
+
+
+
+	ChildBranches 4
+Name: Propose that the Scarred Sister replace her
+Id: 130111
+Description: Perhaps Phoebe will find consolation in these duties of darkness.
+
+		DefaultEvent
+Name: An arrangement
+Id: 152776
+Description: The Acolyte is grateful. Her departure will irritate her employers, and the prospect of a replacement will ease that irritation. You listen as she questions Phoebe. She finds, of course, that Phoebe has many of the necessary aptitudes: surgical skills, a good singing voice, an aptitude for the esoteric.
+<br/><br/>"Thank you," Phoebe tells you. "I don't know if I'll stay, but I think I'll stay long enough. Goodbye: and take this. I won't need it any more."
+<br/><br/>
+'This' is a porcelain flute decorated with a design of flowing grasses. Khanate work.  Phoebe embraces you nervously, and is gone into the shadows of the grand warehouses.
+
+		ParentEvent
+Name: 
+Id: 151669
+Description:

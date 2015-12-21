@@ -1,0 +1,41 @@
+(550)
+Name: The Sun beneath the Sea
+Id: 175583
+Description: We will sail East, and the islands will fall behind. The zee will be troubled by greater waves. The false-stars will pale, until the Neath-roof grows invisible above. New scents will prickle the air: something like spice and something like pine.
+
+	ChildBranches 1
+Name: The light below
+Id: 143361
+Description: At first, the sea will still be the colour of night behind glass, but then we'll see the light below. The colour of the water will change: rain-wet slate, then darkest jade, then deep rich green. Green as fresh emeralds. Green as remembered rivers.
+
+		DefaultEvent
+Name: The death of words
+Id: 175584
+Description: It will be silent, that place where the sun lies beneath the sea. The engines will toil without sound. Words will issue from our mouths and puff into vapours. The silence will be too much, and the scrutiny of the golden light rising beneath us. We will have no choice to turn back, to Irem, where the world becomes real.
+
+		ParentEvent
+Name: 
+Id: 175583
+Description: 
+
+		RareDefaultEvent
+Name: The death of words
+Id: 180735
+Description: It will be silent, that place where the sun lies beneath the sea. The engines will toil without sound. Words will issue from our mouths and puff into vapours. The silence will be too much, and the scrutiny of the golden light rising beneath us. We will have no choice to turn back, to Kingeater's Castle, where the world ends.
+
+
+
+	ChildBranches 2
+Name: Onwards
+Id: 143439
+Description: Again, the slate, the jade, the emerald. Again, the sun will burn silently beneath the sea. Again, our voices will puff to vapour. But now we have Salt's Song. [Pass on, and nothing of you will remain: your dynasty and Scions will be lost, along with any money or inheritable stats you might have. Do this only if you're ready to close the book on this line of captains.]
+
+		DefaultEvent
+Name: Mountains
+Id: 175697
+Description: The silence will press on the ship with the weight of a cathedral, but we will pass the Song from mouth to mouth, and forge on, East. The zee around us will brighten further: forest-green, grass-green, green-and-gold. Mountains will rise ahead of us, flecked with light, their slopes veiled in forest. Mist will stream upwards from the zee. The beaches of that land ahead will be limned in silver like the painted moon. Our ship will beach, flawlessly and whole. She will never turn her prow homewards. I will sift the sand through my fist. I will lift my eyes to where the mountains rise, the loom and lilt of them, the sky where I will go. Salt is smiling.
+
+		ParentEvent
+Name: 
+Id: 175583
+Description:

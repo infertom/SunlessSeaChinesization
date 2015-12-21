@@ -1,0 +1,162 @@
+(423)
+Name: A Delightful Basecamp
+Id: 176471
+Description: The Delightful Adventuress, helped by her faceless Clay Man bodyguard Barnabas and a small group of worker monkeys hired for the price of her soul, works to excavate the Vault of the First Emperor.
+
+	ChildBranches 1
+Name: To the Vault of the First Emperor
+Id: 143928
+Description: Its stone entrance dominates a small clearing.
+
+		DefaultEvent
+Name: A not so ancient edifice
+Id: 176472
+Description: It may look centuries old, but this entryway is relatively new. The monkeys can never leave alone, always adding bits on as their whims demand.
+
+		ParentEvent
+Name: 
+Id: 176471
+Description: 
+
+
+
+	ChildBranches 2
+Name: A Gift for the Monkey Emperor
+Id: 143931
+Description: The Delightful Adventuress has already uncovered and put aside many treasures. A small statue amongst them looks particularly interesting.
+
+		DefaultEvent
+Name: Nobody is watching
+Id: 176476
+Description: At least, you don't think so. It is hard to tell, with Barnabas' blank face giving nothing away. Can he see? He seems to be able to, somehow. In any event, he makes no move to raise an alarm as you take the small trinket.
+
+		ParentEvent
+Name: 
+Id: 176471
+Description: 
+
+
+
+	ChildBranches 3
+Name: To the Vault of the First Emperor
+Id: 143932
+Description: Its secrets still await you.
+
+		DefaultEvent
+Name: Monkeys sit idle, waiting for instructions
+Id: 176477
+Description: You stand once more before the imposing stone door.
+
+		ParentEvent
+Name: 
+Id: 176471
+Description: 
+
+
+
+	ChildBranches 4
+Name: Leave the Delightful Adventuress' camp
+Id: 143933
+Description: There is nothing here you need right now.
+
+		DefaultEvent
+Name: You slip away through the forest
+Id: 176478
+Description: It is quieter here, away from her monkey helpers.
+
+		ParentEvent
+Name: 
+Id: 176471
+Description: 
+
+
+
+	ChildBranches 5
+Name: Pay Barnabas to help with the Mosaic Floor
+Id: 144001
+Description: A Clay Man has little to fear from crossbow bolts
+
+		DefaultEvent
+Name: If a faceless man could sigh
+Id: 176557
+Description: Barnabas stoically lumbers after you to to the mosaic floor, and proceeds to step on everything. The 'phwit!' of crossbow bolts fills the air for a good couple of minutes before it appears the traps have finally run dry.
+<br /><br />
+He takes the agreed fee, his body not even chipped. Then he nods slowly, and lumbers back up the stairs to his mistress' camp. A somewhat irritated looking Delightful Adventuress appears soon afterwards. "That fellow cost me a small fortune, you know," she mutters, striding past. "Well, never mind! We press on!"
+
+		ParentEvent
+Name: 
+Id: 176471
+Description: 
+
+
+
+	ChildBranches 6
+Name: Speak with the Delightful Adventuress
+Id: 144002
+Description: She prepares to make her run on the Vault.
+
+		DefaultEvent
+Name: A flustered circus-mistress
+Id: 176558
+Description: "Oh, it's you. Of course. Help me with these blasted maps, would you? The monkeys are <i>quite</i> clueless."<br /><br />
+She shakes her head. "They claim our souls uplift them, but if you ask me it's just a case of monkey-see, monkey-do. Can you believe they think that Zeppelin of theirs will let them create a new Empire? Wait! You there! <i>Take that out of your mouth this very second!</i>"
+
+		ParentEvent
+Name: 
+Id: 176471
+Description: 
+
+
+
+	ChildBranches 7
+Name: Consult with the Delightful Adventuress
+Id: 144003
+Description: Does she have any ideas on that infernal puzzle?
+
+		DefaultEvent
+Name: The Delightful Adventuress rolls her eyes
+Id: 176559
+Description: "I would say, darling, that if the monkeys are not going to play fair, then there is no reason we should do any different." She taps the table for a moment. "It is after all not solving that little toy that matters, but getting through the door. Perhaps there is a simpler way?"
+
+		ParentEvent
+Name: 
+Id: 176471
+Description: 
+
+
+
+	ChildBranches 8
+Name: Consult with the Delightful Adventuress
+Id: 144004
+Description: Can she think of a way over that mosaic floor?
+
+		DefaultEvent
+Name: The Delightful Adventuress ponders it
+Id: 176560
+Description: "In my experience darling, such things are built solely by meddling priest types to try and make potential tomb raiders at least bang a little culture into their heads before they get their hands on the loot. Precious little bloody point otherwise. Just wall it up and be done!"
+<br /><br />
+She bites a nail gently. "If only we could read the monkey language, we could work out the correct sequence. Of course, there could be a way to simply bypass the problem entirely. Barnabas! Have you any thoughts?"
+<br /><br />
+The giant Clay Man does not look up from his duties.
+
+		ParentEvent
+Name: 
+Id: 176471
+Description: 
+
+
+
+	ChildBranches 9
+Name: Consult with the Delightful Adventuress
+Id: 144157
+Description: She taps her feet impatiently.
+
+		DefaultEvent
+Name: "My kapitano! We are so close!"
+Id: 176774
+Description: The Delightful Adventuress seems almost giddy with anticipation at having, as she will no doubt claim, almost single-handedly conquered the Vault. Well, no matter. As long as your share of the reward makes it worthwhile.
+
+		ParentEvent
+Name: 
+Id: 176471
+Description:

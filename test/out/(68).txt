@@ -1,0 +1,11 @@
+(68)
+Name: Overheard on Deck: Rivalry
+Id: 181355
+Description: CANNONEER: Hello!!<br/>
+MECHANIC: Hello!! <br/>
+CANNONEER: How are your, ah, boilers?<br/>
+MECHANIC: Tolerable, tolerable. We're trying a new diversion mechanism for the pressure from - but you don't want to hear about that. How are your, um, guns?<br/>
+CANNONEER: Wonderful!! The crews are coming along nicely!! The new practice regime oh but I'm sorry am I boring you??<br/>
+MECHANIC: Not at all, but I must get on. Have a pleasant afternoon.<br/>
+CANNONEER: (Dilettante.)<br/>
+MECHANIC: (Amateur.)

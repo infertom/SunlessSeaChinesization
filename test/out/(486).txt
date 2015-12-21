@@ -1,0 +1,38 @@
+(486)
+Name: A Request from Zaira
+Id: 169506
+Description: When you enter, the Lady of the Cages is sitting on the window-sill, staring out at her gardens. On the desk is an open casket: within are ten gleaming vials of red honey, carefully packed.
+<br><br>
+"Freshly harvested by the Melliferous Sisters. Touch them, go on. They're still warm from the honey-spinner!" Zaira turns toward you. "They are for the Merchant Venturer, over in London. You'll take them for me, won't you? Unless you already have? No. Clearly not. No."
+
+	ChildBranches 1
+Name: Accept
+Id: 139648
+Description: You are hardly squeamish about smuggling red honey. If you change your mind, you could always turn the shipment over to the Admiralty instead.
+
+		DefaultEvent
+Name: 
+Id: 169507
+Description: "Do say hello to the Merchant Venturer for me, won't you? He was such a awful child." Zaira's lips curve into something like a smile. "I drank the memories of someone that went to school with him." You must make some sort of sound, because she gives you a little shrug. "I like to know my business partners. It was Leopold's idea, of course. He's very thorough."
+
+		ParentEvent
+Name: 
+Id: 169506
+Description: 
+
+
+
+	ChildBranches 2
+Name: Refuse
+Id: 139649
+Description: You think of lamplighter bees and Cage-Gardens, and your mouth, of its own volition, shapes a refusal.
+
+		DefaultEvent
+Name: 
+Id: 169508
+Description: "You <em>are</em> a smuggler aren't you? Or are you the painter? No, that's someone else." Zaira sighs. "It seems very strange - a smuggler that doesn't want to smuggle. But maybe you - ? No. Oh dear. I've been insensitive, haven't I? I'm terribly sorry. I'm sure you can't help it. The cowardice, I mean." 
+
+		ParentEvent
+Name: 
+Id: 169506
+Description:

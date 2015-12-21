@@ -1,0 +1,56 @@
+(228)
+Name: The Garden of Roses and Cages
+Id: 169585
+Description: Two Melliferous Sisters unlock the gates; your key is mostly ceremonial. Before you is a garden dipped in blood. A sea of petalled crimson. Winding paths lead to irregular rows of cages, each covered in tangles of thorn and vine. Some of the prisoners inside the cages call out to you, others mutter to themselves, or weep. A few simply stare, hopeless and silent.
+
+	ChildBranches 1
+Name: Talk to the Lady of the Gardens
+Id: 139701
+Description: "Such a beautiful night. I think the roses are whispering to me. Or is it the prisoners? I lose track."
+
+		DefaultEvent
+Name: 
+Id: 169586
+Description: She tells you that she was once a prisoner in this very garden, but that she escaped and drank down her own memories stewed bright and honey-sweet. "And then I was whole again!" She claps, and a laugh echoes from her twisting lips. "Or maybe that was someone else. It most probably was. Don't you think? It sounds very far-fetched, now that I say it out loud."<br><br>
+A breeze lifts her gold-mesh veil: there is a shadowed emptiness where her eyes should be, and livid scars all around. The sort a nectar-maddened lamplighter bee might leave, when it burrowed into a brain. You shiver a little, and give no answer.
+
+		ParentEvent
+Name: 
+Id: 169585
+Description: 
+
+
+
+	ChildBranches 2
+Name: A sip of red honey
+Id: 139702
+Description: A Melliferous Sister is pouring it into a glass vial, fresh from the honey-spinner. You could beg a drop.
+
+		DefaultEvent
+Name: 
+Id: 169587
+Description: The succulent droplet hits your tongue and you are transported: you are sitting in the shadow of a spire of polished obsidian. Some children nearby are playing an unfamiliar game involving skipping stones and swapping feathered masks. You-in-the-memory are peeling the skin from a round, translucent fruit. The sharp taste of it chases the honey-sweetness from your mouth. You taste that ghost-taste on your tongue for days after, longed-for and familiar.
+
+		ParentEvent
+Name: 
+Id: 169585
+Description: 
+
+
+
+	ChildBranches 3
+Name: An occluded vial
+Id: 139703
+Description: The Melliferous Sister tells you that the honey occludes at the precise moment when the person the memories are harvested from dies. The memories lose their sharpness, a little.
+
+		DefaultEvent
+Name: 
+Id: 169588
+Description: You taste the honey, and then your mouth fills with blood. A fight! You-in-the-memory feels a hand squeezing your neck. A dull pain in your left knee. Your fingers fumbling for a knife, just ever so slightly out of reach. You spit a tooth into your assailant's eye, and she flinches back. Your fingers close around the knife, and you slash her across the cheek. The whitish substance of her eye leaks down her face, and she howls into the false-starred sky.
+<br><br>
+Is there a dead woman writhing in some strange hell, as you steal her memories? Death, in the Neath, is so rarely a release.
+
+		ParentEvent
+Name: 
+Id: 169585
+Description:

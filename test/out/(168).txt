@@ -1,0 +1,222 @@
+(168)
+Name: Flood Court
+Id: 168639
+Description: Moon Moth stands to one side, as your escort and tour guide.
+
+	ChildBranches 1
+Name: Ask about the purpose of this room
+Id: 139128
+Description: It doesn't really look as though it's good for anything.
+
+		DefaultEvent
+Name: Depth per day
+Id: 168640
+Description: From a corner Moon Moth picks up a graduated stick. He shows you how a person standing at the end of the room may dip the stick into the water and use it to measure the water level at a pre-selected point, and how the measurements are compared with measurements written on a calendar. If the water level does not match the calendrical position, an assembly of pipes and drains is used to adjust it.
+<br/><br/>
+"It used to be," says the Moth, "that the water rose and fell of its own accord, and the People Before wrote down what height it reached. Now the water is still, but thanks to their actions, we can replicate the rise and fall so as still to be pleasing to the God of Flood."
+<br/><br/>
+It completes this explanation with a half-body bow towards the statue of the ram-deity.
+
+		ParentEvent
+Name: 
+Id: 168639
+Description: 
+
+
+
+	ChildBranches 2
+Name: Show oafish enthusiasm for this wonderful indoor pool
+Id: 139129
+Description: Frogs like pools, right?
+
+		DefaultEvent
+Name: Croak.
+Id: 168641
+Description: You exclaim at how much you admire this room and its excellent pool. Your words are, as always, amplified into a croak. Other masks turn towards you (crocodile, lotus blossom, crescent moon) but no one speaks. You have garnered a suitable degree of disdain.
+<br/><br/>
+Moon Moth quietly applauds your performance of froghood.
+
+		ParentEvent
+Name: 
+Id: 168639
+Description: 
+
+
+
+	ChildBranches 3
+Name: Try to steal the statue's jug
+Id: 139130
+Description: It looks ancient, and consequently valuable.
+
+		DefaultEvent
+Name: Not your role
+Id: 168642
+Description: You make a grab for the jug and come away with a tiny fragment of paint-daubed clay. 
+<br/><br/>
+Moon Moth looks scandalized that you would attempt something so locust-like. It hurries you back outside, chittering to itself. Perhaps theft requires a different mask here. At any rate, you're not allowed to keep this one.
+
+		ParentEvent
+Name: 
+Id: 168639
+Description: 
+
+
+
+	ChildBranches 4
+Name: Spy on the other occupants
+Id: 139131
+Description: Close watch is what they need.
+
+		DefaultEvent
+Name: Not your role
+Id: 168643
+Description: Moon Moth looks scandalized that you would attempt something so bat-like. It hurries you back outside, chittering to itself. Perhaps you needed a different mask?
+<br/><br/>
+At any rate, you're not allowed to keep this one. It's back to the dock for you.
+
+		ParentEvent
+Name: 
+Id: 168639
+Description: 
+
+
+
+	ChildBranches 5
+Name: Tastelessly compare this room to other bodies of water
+Id: 139132
+Description: Frogs know water.
+
+		DefaultEvent
+Name: Have you seen the Cumaean Canal?
+Id: 168644
+Description: Moon Moth watches inscrutably while you talk about other bodies of water that have impressed you more than this one. Deeper, clearer, colder, more densely populated with fish.
+<br/><br/>
+Other denizens move away from you, and towards one another. Your social function is well performed.
+
+		ParentEvent
+Name: 
+Id: 168639
+Description: 
+
+
+
+	ChildBranches 6
+Name: Say how much you like the pool
+Id: 139572
+Description: The way the surface of the water is so still even a few inches from where it's being poured in. Impressive. Strange.
+
+		DefaultEvent
+Name: Not for you
+Id: 169395
+Description: Moon Moth looks around while you speak. Several of the other masks have heard you. "What are you, a Bat?"
+<br/><br/>
+It seems this is not the sort of thing that Locusts are supposed to say, supposed to think. Your role is to desire and acquire. Not to notice. Not to exclaim. Not to feel joy or admiration or dread.
+<br/><br/>
+Several hours later, you are back at the docks, half-naked. Your locust mask is gone, and with it the strange glimmering tint that it cast on the whole world. You'll remember that.
+
+		ParentEvent
+Name: 
+Id: 168639
+Description: 
+
+
+
+	ChildBranches 7
+Name: Try to collect coins from the bottom of the pool
+Id: 139575
+Description: There are a large number of them.
+
+		DefaultEvent
+Name: More of a Locust activity
+Id: 169400
+Description: You don't get far. The Moon-Moth determines that you're up to some obscure act of counterfeiting or coinage-related espionage.
+<br/><br/>
+It expects you to explore. Then it expects you to be punished for exploring. That is what happens to Bats.
+<br/><br/>
+You end up scarred and maskless, back at the dock.
+
+		ParentEvent
+Name: 
+Id: 168639
+Description: 
+
+
+
+	ChildBranches 8
+Name: Say how much you like the pool
+Id: 139576
+Description: The way the surface of the water is so still even a few inches from where it's being poured in. Impressive. Strange.
+
+		DefaultEvent
+Name: Infiltrator
+Id: 169401
+Description: Moon Moth looks at you without surprise. (Of course without surprise. No such expression can register on a mask. But without the small gestures of agitation that accompany a mistake on your part.) 
+<br/><br/>
+It expects you to ask questions. Then it expects you to be punished for asking. That is what happens to Bats.
+<br/><br/>
+You end up scarred and maskless, back at the dock.
+
+
+		ParentEvent
+Name: 
+Id: 168639
+Description: 
+
+
+
+	ChildBranches 9
+Name: Gather coin from the Flood Court floor
+Id: 139570
+Description: Apparently people use it as a wishing well.
+
+		DefaultEvent
+Name: Take?
+Id: 169392
+Description: You wade into the water and begin gathering coins. People watch you from behind their masks. Moon Moth looks uncertain: you're playing the role of locust flawlessly, but these are sacred.
+<br/><br/>
+You hesitate for just a moment, your will wavering, and that's enough. The others rush you and drive you out. But you are not made to leave the city, at any rate.
+
+
+		ParentEvent
+Name: 
+Id: 168639
+Description: 
+
+		SuccessEvent
+Name: Gotcha
+Id: 169393
+Description: You wade into the water and begin gathering coins. People watch you from behind their masks, but no one tries to stop you. 
+<br/><br/>
+After a moment, the other locust masks in the room swarm with you, four and five and six of you together, scraping up the coins from the bottom of the pool, working your way along until everything is gone. 
+<br/><br/>
+It is just how a locust ought to behave.
+
+
+
+	ChildBranches 10
+Name: Study the calendars drawn on the walls
+Id: 139571
+Description: You don't recognise the language, but the repeating pattern of days is unmistakeable.
+
+		DefaultEvent
+Name: Heights and depths
+Id: 169394
+Description: The sigils are tiny pictures, and the tiny pictures yield a meaning if you stare long enough. You are catching something, something about an ancient river and floods that were, when you are interrupted.
+<br/><br/>
+The Moon Moth does not like you staring at the fragments. Does not like it, and accuses you of being a Bat in disguise, and casts you out.
+<br/><br/>
+You'll have to come back later, in a new mask.
+
+		ParentEvent
+Name: 
+Id: 168639
+Description: 
+
+		SuccessEvent
+Name: Heights and depths
+Id: 169396
+Description: The sigils are tiny pictures, and the tiny pictures yield a meaning if you stare long enough. The calendar remembers the heights and depths of an ancient river, one that flowed far away and long ago. It remembers cycles of farming time and flood time and drought time. It remembers a circular stasis, a way of being that repeated in just the same fashion for hundreds of generations.
+<br/><br/>
+The Moon Moth does not like you staring at the fragments. Does not like it, and accuses you of being a Bat in disguise, and casts you out.
+<br/><br/>
+That is also part of a cycle.

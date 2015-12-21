@@ -1,0 +1,46 @@
+(411)
+Name: Tomb-Colonists in Gaider's Mourn
+Id: 152355
+Description: "...today we are to visit a pirates' nest! I look forward to their scars. I hope the Captain will keep them safe from us. It's been a while since I killed pirates - "
+
+	ChildBranches 1
+Name: Let them out on their own
+Id: 143190
+Description: Tomb-colonists are generally both dead and deadly. They have decades of duelling experience. They'll probably be fine.
+
+		DefaultEvent
+Name: A spot of excitement
+Id: 175331
+Description: Most of the tomb-colonists stroll back on board a couple of hours later. Their bandages are splotched with blood and beer. The tallest shrugs. "They started it. Well, all right, I started it, but they should have known it was bad luck to drink with the dead. No,we're all fine, thank you, but Mrs L____ had so much fun she's staying on as a ring-fighter. I hope she doesn't kill anyone too sensitive."
+
+		ParentEvent
+Name: 
+Id: 152355
+Description: 
+
+		RareDefaultEvent
+Name: They were fine
+Id: 175333
+Description: The colonists return, chattering excitedly of a brawl at the Arrant Limpet. One of them is comparing ears. It's not immediately clear who the ears belonged to. Best get your tourists on board sharpish.
+
+
+
+	ChildBranches 2
+Name: Send crew to watch them
+Id: 129839
+Description: They'll only drink too much Red Ruin and cut up someone important. Then they'll get cut up in turn, and before you know it, you'll be picking their bits out of the zee.
+
+		DefaultEvent
+Name: A commotion
+Id: 152356
+Description: You never do get clear exactly what happened up there on the Mourn. Some sort of murder. Some sort of bet. Someone was sold into slavery, and there was a difficulty with a comb that makes the bo'sun's eyes water. Suffice it to say that not everyone is coming home.
+
+		ParentEvent
+Name: 
+Id: 152355
+Description: 
+
+		SuccessEvent
+Name: Wide eyes
+Id: 175332
+Description: "Captain," your zailor implores you, "don't send me out with them again! They're like sharks in fancy dress. Big Ransome cheated 'em at cards, and the little one tried to put him in the <em>oven</em>. Made him eat his cards. With pepper. Yes, I counted them all back. Now I'm going to lie down."

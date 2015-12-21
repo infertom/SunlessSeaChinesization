@@ -1,0 +1,19 @@
+(118)
+Name: The First Clue
+Id: 178703
+Description: Someone in London can tell you where to begin.
+
+	ChildBranches 1
+Name: Arrange a meeting
+Id: 145307
+Description: The time has come.
+
+		DefaultEvent
+Name: 
+Id: 178704
+Description: 
+
+		ParentEvent
+Name: 
+Id: 178703
+Description:

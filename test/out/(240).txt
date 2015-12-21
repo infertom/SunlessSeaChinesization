@@ -1,0 +1,36 @@
+(240)
+Name: The Horizon Codex
+Id: 168134
+Description: This came to you by night: how exactly will never be clear. It has been savagely censored, but some details survive...
+
+	ChildBranches 1
+Name: Read the Codex
+Id: 138852
+Description: The cover crackles with frost. [This will increase your Pages to 60.]
+
+		DefaultEvent
+Name: 
+Id: 168135
+Description: The Ministry of Public Decency, which guards against the mysterious, has had its way with the book. Still, arctic fragments of lore remain.... the horror of the wilderness between stars. The inhuman politics of the sky. The inflexible demands of the Sequence and the Chain. You know, now, something of the invisible rules on which the world rests.
+
+		ParentEvent
+Name: 
+Id: 168134
+Description: 
+
+
+
+	ChildBranches 2
+Name: Read the Codex
+Id: 139807
+Description: A philosopher of your degree will learn far more from this book. [This will increase your Pages to 85.]
+
+		DefaultEvent
+Name: 
+Id: 169761
+Description: The remaining fragments, speak of the wilderness between stars. The inhuman politics of the sky. The 'Judgements' you had read of - those are what we call stars. They order the Universe with their Sequence. They ensure sanity, consistency, mortality, with the Great Chain of Being. Here below, in the night under the earth - here is freedom, madness, terror, delight...
+
+		ParentEvent
+Name: 
+Id: 168134
+Description:

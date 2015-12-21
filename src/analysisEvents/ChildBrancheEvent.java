@@ -74,10 +74,10 @@ public class ChildBrancheEvent {
 	
 	//获取info，包含Description，Name，Id
 	public String getInfo(){
-		String temp = "\t\t" + this.getTitle() + "\n" + 
-					  "Name: " + this.getName() + "\n" +
-					  "Id: " + this.getId() + "\n" +
-					  "Description: " + this.getDescription() + "\n\n";
+		String temp = "\t\t" + this.getTitle() + "\r\n" + 
+					  "Name: " + this.getName() + "\r\n" +
+					  "Id: " + this.getId() + "\r\n" +
+					  "Description: " + this.getDescription() + "\r\n\r\n";
 		return temp;
 	}
 }

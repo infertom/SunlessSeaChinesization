@@ -1,0 +1,138 @@
+(390)
+Name: The Corridors of Frostfound
+Id: 181006
+Description: Light! A hundred rich and blinding colours filter through the ice. It's like drinking a kaleidoscope. It's like being kidnapped by rainbows. The colours shift with every step you take, revealing shining corridors. In each and every corridor, your reflection waits.
+
+	ChildBranches 1
+Name: Leave
+Id: 146632
+Description: You aren't really in this chilly labyrinth. (Are you?) You can open your eyes at any time, and you'll be safe. (Won't you?)
+
+		DefaultEvent
+Name: 
+Id: 181007
+Description: 
+
+		ParentEvent
+Name: 
+Id: 181006
+Description: 
+
+
+
+	ChildBranches 2
+Name: Enter the Sapphire Chamber
+Id: 146787
+Description: This corridor shimmers with a blue as rich as the sky of the Surface.
+
+		DefaultEvent
+Name: A howling wind
+Id: 181263
+Description: It fills your ears, but the air is still.
+
+		ParentEvent
+Name: 
+Id: 181006
+Description: 
+
+
+
+	ChildBranches 3
+Name: Enter the Cavity
+Id: 146914
+Description: That corridor glows the rich red of sunlight on fresh blood.
+
+		DefaultEvent
+Name: Bright as pain
+Id: 181433
+Description: As you tread the corridor's crimson facets, you almost expect your feet to come away sticky.
+
+		ParentEvent
+Name: 
+Id: 181006
+Description: 
+
+
+
+	ChildBranches 4
+Name: Enter the Amethyst Gallery
+Id: 146915
+Description: Over here, a corridor is the deep violet of the more colourful Unterzee corals. Dappled shadows drift like fish.
+
+		DefaultEvent
+Name: Predatory shapes
+Id: 181434
+Description: You are the centre of hunters' attention: things like and unlike sharks, long, sleek, half-visible behind the walls. You have the sudden sense that they are vaster than sharks - vaster than Frostfound itself.
+
+		ParentEvent
+Name: 
+Id: 181006
+Description: 
+
+
+
+	ChildBranches 5
+Name: Cross the Diamond Bridge
+Id: 146916
+Description: Here the light is brightest - lightning-bright, migraine-bright, bright as humiliation. 
+
+		DefaultEvent
+Name: 
+Id: 181435
+Description: Even when you close your eyes, the light does not diminish.
+
+		ParentEvent
+Name: 
+Id: 181006
+Description: 
+
+
+
+	ChildBranches 6
+Name: Enter the Iridescence
+Id: 146917
+Description: A softer, pearlier, mirror-fog glow coils from this corridor.
+
+		DefaultEvent
+Name: 
+Id: 181436
+Description: If this is Frostfound's pearl, what dark inclusion provoked it?
+
+		ParentEvent
+Name: 
+Id: 181006
+Description: 
+
+
+
+	ChildBranches 7
+Name: Enter the Dark Room
+Id: 146918
+Description: Nothing is visible.
+
+		DefaultEvent
+Name: 
+Id: 181437
+Description: Sacred ground.
+
+		ParentEvent
+Name: 
+Id: 181006
+Description: 
+
+
+
+	ChildBranches 8
+Name: Enter the Emerald Vista
+Id: 146936
+Description: The green of forests, of poison, of leaves haloed by arc light.
+
+		DefaultEvent
+Name: Leaf-shadows in motion
+Id: 181464
+Description: Chilly air. The scent of pine.
+
+		ParentEvent
+Name: 
+Id: 181006
+Description:

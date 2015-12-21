@@ -1,0 +1,45 @@
+(25)
+Name: The Campaigner is dying
+Id: 165303
+Description: Her skin, her eyes. Like the long-set sun. "Too late," she croaks. Wisps of deadly light escape between her lips.
+
+	ChildBranches 1
+Name: Let her go
+Id: 137100
+Description: There's nothing more you can do. These are her final moments.
+
+		DefaultEvent
+Name: The light goes out
+Id: 165304
+Description: "My family," she says composedly, "will have opinions on my the matter of my bur - " She begins to cough, desperately. A spasm takes her. The crew gather, appalled. There is blood on the deck.
+<br/><br/>
+She hangs on your arm, looks up at you. "Burial. This flesh - contaminated - give it to - zee. At zee!"
+<br/><br/>
+The light in her eyes goes out: the strength is gone from her arm. She collapses like a falling tower.
+
+		ParentEvent
+Name: 
+Id: 165303
+Description: 
+
+
+
+	ChildBranches 2
+Name: Administer the treatments from Adam's Way
+Id: 146685
+Description: Is there time?
+
+		DefaultEvent
+Name: A placebo? A remedy? A miracle? 
+Id: 181086
+Description: Ignoring the instructions, you administer a bulky, imprecise, dose. Blisters rise on your fingers where you hold her, but gradually her skin cools from a furnace to a fire-guard. The killing light coils away. You return her to her bet, where she shudders in the grip of a savage fever. How long have you bought her?
+
+		ParentEvent
+Name: 
+Id: 165303
+Description: 
+
+		RareDefaultEvent
+Name: A raindrop in a furnace
+Id: 181087
+Description: It is no good. The scouring heat of her mouth puffs the medicines to vapour the moment they leave of the pipette. The cooling paste dries and cracks as soon as you apply it to her skin. She bats your hand away. "Let me be..."

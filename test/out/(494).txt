@@ -1,0 +1,19 @@
+(494)
+Name: A Smuggler's Reward
+Id: 168566
+Description: "Don't keep me waiting!" Isery pouts prettily, and rustles their silks. "Do you have a little present for me?"
+
+	ChildBranches 1
+Name: A well-earned reward
+Id: 139077
+Description: You hand over the Alarming Scholar's notes. 
+
+		DefaultEvent
+Name: 
+Id: 168567
+Description: Isery snatches the notes from your hands, and starts flicking through the pages. "I'll have a reward sent to your ship." They look up and smile at you vaguely, eyes glazed as a honey-seeker's. "Oh, my dear, what a treasure you are."<br><br> You summon an answering smile, and slip away the moment they are distracted.
+
+		ParentEvent
+Name: 
+Id: 168566
+Description:

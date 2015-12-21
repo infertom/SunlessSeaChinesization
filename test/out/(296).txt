@@ -1,0 +1,49 @@
+(296)
+Name: Déjà vu
+Id: 149113
+Description: "Here!" a zailor shouts. There's something nestled in the mossy crook of a grey-leafed tree. A wooden serpent, lacquered with black, red and yellow. Its eyes are garnet flakes. "That'd fetch a good price at the Bazaar," the zailor observes. "But it has a cursy look," points out another.
+<br/><br/>
+This has all happened before, exactly like this. Are you losing your mind?
+
+	ChildBranches 1
+Name: So what?
+Id: 127825
+Description: If fortune has put a treasure in your way twice over, then good for fortune. Onwards!
+
+		DefaultEvent
+Name: Approving murmurs
+Id: 149116
+Description: 
+
+		ParentEvent
+Name: 
+Id: 149113
+Description: 
+
+
+
+	ChildBranches 2
+Name: Refuse to co-operate
+Id: 127824
+Description: Snatch the statue, hurl it on the ground, and leap on it.
+
+		DefaultEvent
+Name: A satisfying sound
+Id: 149114
+Description: You smash it to flinders. Your crew - no, they're not staring. They're watching you with interest, as if you were a moth beneath a bell-jar. Their eyes are flat and silver. A forked tongue flickers from your bo'sun's mouth.
+<br/><br/>
+You wake in fright, in your cabin. The ship rocks in harbour.
+
+		ParentEvent
+Name: 
+Id: 149113
+Description: 
+
+		SuccessEvent
+Name: A successful work
+Id: 149115
+Description: You smash the serpent, and pick up one splintered piece, to show your crew... for your crew are watching, eyes wide and silver. "By this victory," you say - you hardly know why - "I claim the rights to the sight of this place." Your crew mutter and disperse, slinking into serpent-shape to wriggle across the clearing. The tree where you found the image is one of many: you stand in a jungle beneath an orange sun...
+<br/><br/>
+The air flickers, and instead you stand in your cabin, in your night-clothes. Instead of a splintered fragment of wooden serpent, you hold a paint-brush. In front of you is a painting of jungle, clearing, crew, serpent, you. Somehow you've done good work in your sleep - and you've mixed familiar oils into a peculiar vivid green.
+<br/><br/>
+Rub the sleep from your eyes, sign the painting, and try not to worry.

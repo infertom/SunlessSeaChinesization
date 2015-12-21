@@ -1,0 +1,19 @@
+(33)
+Name: The Genial Magician's End
+Id: 150647
+Description: He comes on deck dressed for dinner. He's got his hat out of storage. He's even polished his hook. He salutes you and smiles. "I can't escape them," he says cheerfully. He's at the ship's rail in two strides: he hurdles it as if it were a gate on a country walk, and is gone into the sea.
+
+	ChildBranches 1
+Name: Rush to look! Call 'man overboard'!
+Id: 128733
+Description: ...though you know already that it will do you no good. The Genial Magician is not given to half-measures.
+
+		DefaultEvent
+Name: One thing remains
+Id: 150652
+Description: His hat bobs on the water. You haul it out, but there's no sign of the Magician. Perhaps he weighted his boots. Perhaps this was his final trick.
+
+		ParentEvent
+Name: 
+Id: 150647
+Description:

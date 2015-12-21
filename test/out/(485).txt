@@ -1,0 +1,77 @@
+(485)
+Name: 'Which is the cat's chiefest claw?'
+Id: 153578
+Description: Isery, the King's Claw, enforces the peace on the Isle of Cats: inasmuch as anyone does. They are entertained by your tale of a box. They look it over, tapping thoughtfully at the lock with the claw-rings on their right hand.
+
+
+	ChildBranches 1
+Name: Sell them the box
+Id: 130588
+Description: "Yes, I think I know who this box belongs to. I will pay you five hundred Echoes for it, no questions asked."
+
+		DefaultEvent
+Name: A substantial payment
+Id: 153579
+Description: Isery's servants carry the box back to the Honeyed Tongue. The payment was generous, and Isery is not. Was this a gamble on their part, or have you missed an opportunity?
+
+		ParentEvent
+Name: 
+Id: 153578
+Description: 
+
+
+
+	ChildBranches 2
+Name: Pay for an answer
+Id: 148028
+Description: "For symmetry's sake, I will make you another offer. Pay <i>me</i> five hundred Echoes, and I will tell you where she is." They smile.
+
+		DefaultEvent
+Name: "A melancholy tale."
+Id: 183098
+Description: "She was a smuggler of our honey, this zee-captain: and also a gambler, and a frequent visitor to the Tongue. Her debts became so onerous that I had to take her in keeping. Her family paid the ransom to redeem her, but - oh dear, let me be honest with you - I was a little short of operating funds that month. So I sold her to Zaira, for the Garden of Cages." They smile. "The bees have been into her - who knows how many times? There is nothing left now. She won't remember her name, much less the key-phrase."
+<br/><br/.
+"I suppose that's not what you were hoping to hear, is it? I am sorry. At least let me give you the address of her family, in London. I do regret I couldn't be of more assistance."
+
+		ParentEvent
+Name: 
+Id: 153578
+Description: 
+
+
+
+	ChildBranches 3
+Name: Pay for an answer
+Id: 148029
+Description: "For symmetry's sake, I will make you another offer. Pay <i>me</i> five hundred Echoes, and I will tell you who and where they are." They smile. "I will award you a discount of one hundred Echoes, because I am so very fond of you, am I not? But business is business."
+
+		DefaultEvent
+Name: "A melancholy tale."
+Id: 183099
+Description: "She was a smuggler of our honey, this zee-captain: and also a gambler, and a frequent visitor to the Tongue. Her debts became so onerous that I had to take her in keeping. Her family paid the ransom to redeem her, but - oh dear, let me be honest with you - I was a little short of operating funds that month. So I sold her to Zaira, for the Garden of Cages." They smile. "The bees have been into her - who knows how many times? There is nothing left now. She won't remember her name, much less the mirror-phrase."
+<br/><br/.
+"I suppose that's not what you were hoping to hear, is it? I am sorry, my dear. At least let me give you the address of her family, in London. I do regret I couldn't be of more assistance."
+
+		ParentEvent
+Name: 
+Id: 153578
+Description: 
+
+
+
+	ChildBranches 4
+Name: Pay for an answer
+Id: 148040
+Description: "For symmetry's sake, I will make you another offer. Pay <i>me</i> five hundred Echoes, and I will tell you who and where they are." They smile. "Plus - mm - let's call it a hundred-Echo disappointment surcharge. I am still annoyed with you, but business is business."
+
+		DefaultEvent
+Name: "A melancholy tale."
+Id: 183111
+Description: "She was a smuggler of our honey, this zee-captain: and also a gambler, and a frequent visitor to the Tongue. Her debts became so onerous that I had to take her in keeping. Her family paid the ransom to redeem her, but - oh dear, let me be honest with you - I was a little short of operating funds that month. So I sold her to Zaira, for the Garden of Cages." They smile. "The bees have been into her - who knows how many times? There is nothing left now. She won't remember her name, much less the mirror-phrase."
+<br/><br/.
+"I suppose that's not what you were hoping to hear, is it? I am sorry. At least let me give you the address of her family, in London. I do regret I couldn't be of more assistance."
+
+		ParentEvent
+Name: 
+Id: 153578
+Description:

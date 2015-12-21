@@ -1,0 +1,159 @@
+(536)
+Name: Godfall
+Id: 152324
+Description: The brawling bearded men who live here call themselves monks. They pay lip service to 'St Stalactite', which fell from the roof. But their chief interests seem to be wine, blood and shouting.
+
+	ChildBranches 1
+Name: Explore the Shattered Citadel
+Id: 129820
+Description: Before the stalactite was a monastery - before it ever fell from the roof - it was a citadel. The fall shattered it and killed all its occupants. Probably. Why don't you take a look? [The more Foxfire Candles you have, the better. Bad things will happen if you run out.]
+
+		DefaultEvent
+Name: Through the cellars
+Id: 152325
+Description: The monks have blocked the tunnels into the Citadel. "The Starved Men lived there," one says vaguely. "They're all dead of course, but you still wouldn't want to meet them." Still, there's a gap in the cellar wall that they keep meaning to fix - 
+
+		ParentEvent
+Name: 
+Id: 152324
+Description: 
+
+
+
+	ChildBranches 2
+Name: Of blood
+Id: 131312
+Description: Offer them a hunting-trophy as a gift for their collection
+
+		DefaultEvent
+Name: Louder, ever-louder
+Id: 154680
+Description: The trophy inspires the monks to feasts of bragging. This one broke a giant Albino Moray's neck. That one wrestled a Heptycheer. A third punched his way out of a Bound-Shark. A fourth... and so on. You are largely forgotten, but there are truths of note in among all the tipsy boasting.
+
+		ParentEvent
+Name: 
+Id: 152324
+Description: 
+
+
+
+	ChildBranches 3
+Name: Of shouting
+Id: 131314
+Description: Let them tell you about past and present events in the monastery.
+
+		DefaultEvent
+Name: Tales
+Id: 154683
+Description: They're eager to talk about their history. The stalactite, they assure you, was one of the citadels of the Starved Men who dwell in the roof. When it fell, a few of its occupants survived to become the monks' progenitors. How does that work, you wonder, with their vow of celibacy? They become vague, and are suddenly eager to speak of the details of passing shipping.
+
+		ParentEvent
+Name: 
+Id: 152324
+Description: 
+
+
+
+	ChildBranches 4
+Name: Of wine
+Id: 131315
+Description: The throats of the Brothers are dry. They'll pay for something to moisten them.
+
+		DefaultEvent
+Name: A half-dozen currencies
+Id: 154684
+Description: Mostly Echoes, but here's Khanate paper money, the whimpering coins of Polythreme, and a strange glass token that might be from far Irem. "Donations," the Abbot-Captain affirms. "Pilgrims are generous."
+
+		ParentEvent
+Name: 
+Id: 152324
+Description: 
+
+
+
+	ChildBranches 5
+Name: Assault the monastery
+Id: 131316
+Description: 
+
+		DefaultEvent
+Name: 
+Id: 154685
+Description: 
+
+		ParentEvent
+Name: 
+Id: 152324
+Description: 
+
+
+
+	ChildBranches 6
+Name: Of more wine
+Id: 131317
+Description: "Oh, no," the Abbot-Commander says sternly. "We've had too much trouble with this. The brothers can't shoot straight. Take the nasty stuff away."
+
+		DefaultEvent
+Name: A hard bargain
+Id: 154686
+Description: Is it a real objection, or a negotiating position? Perhaps a bit of both. Eventually he relents and takes a quantity of wine off your hands, but at a pretty wretched price.
+
+		ParentEvent
+Name: 
+Id: 152324
+Description: 
+
+
+
+	ChildBranches 7
+Name: Explore the Shattered Citadel again
+Id: 132482
+Description: You won't find much more of interest, unless you have a particular reason to go back... [The more Foxfire Candles you have, the better. Bad things will happen if you run out.]
+
+		DefaultEvent
+Name: Through the cellars
+Id: 156525
+Description: They still haven't fixed that crack. Monks, eh.
+
+		ParentEvent
+Name: 
+Id: 152324
+Description: 
+
+
+
+	ChildBranches 8
+Name: Put a blemmigan ashore
+Id: 133952
+Description: How will a blemmigan deal with all the wine, blood and shouting?
+
+		DefaultEvent
+Name: A flash of violet
+Id: 158944
+Description: It's gone! Up the dripstone flank of the stalactite, into a tiny tunnel.
+
+		ParentEvent
+Name: 
+Id: 152324
+Description: 
+
+
+
+	ChildBranches 9
+Name: Help the Adventuress seek a glorious death in a duel
+Id: 144728
+Description: The Shouting Monks revel in battle. Their Abbot-Commander is a savage veteran of a hundred duels and monster-hunts.
+
+		DefaultEvent
+Name: Outrage!
+Id: 177797
+Description: "We do not fight women," one sneers. "If we wanted to fight women, we'd be over at Abbey Rock."
+<br/><br/>
+"You're not over at Abbey Rock," the Adventuress suggests, "because the Sisters' training is so very much deadlier."
+<br/><br/>
+"Then fight them!" the monk responds haughtily.
+
+		ParentEvent
+Name: 
+Id: 152324
+Description:

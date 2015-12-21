@@ -1,0 +1,58 @@
+(395)
+Name: The Emerald Vista
+Id: 181465
+Description: Rich deep fresh green of infinite depths and tints. If secrets had a colour, it would be this. It baffles and delights the eye. A chilly wind brushes you. SOMETHING SOUGHT, the voice intones. SOMETHING LOST.
+
+	ChildBranches 1
+Name: Peer into the depths
+Id: 146938
+Description: Surrender your understanding to the wind. [This will sacrifice a point of Mirrors.]
+
+		DefaultEvent
+Name: Changes
+Id: 181467
+Description: There are changes which will wash away all that you were and all that you are. Nothing is familiar. Everything is new as morning. Your sight is dazzled, your perceptions confounded. 
+
+		ParentEvent
+Name: 
+Id: 181465
+Description: 
+
+
+
+	ChildBranches 2
+Name: Return to the Corridors of Frostfound
+Id: 146939
+Description: 
+
+		DefaultEvent
+Name: 
+Id: 181468
+Description: 
+
+		ParentEvent
+Name: 
+Id: 181465
+Description: 
+
+
+
+	ChildBranches 3
+Name: Make use of little secrets
+Id: 146937
+Description: You could wander in this colour for ever. Seek little fragments of understanding, to steer by.
+
+		DefaultEvent
+Name: Bewilderment
+Id: 181466
+Description: What is this promise of green? Nothing. Frostfound is a lie, a memory, and your secrets are only secrets.
+
+		ParentEvent
+Name: 
+Id: 181465
+Description: 
+
+		SuccessEvent
+Name: Rocks in the flood
+Id: 181498
+Description: There are changes which will wash away all that you were and all that you are. Nothing is familiar. Everything is new as morning. But you have something to cling to.

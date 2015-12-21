@@ -1,0 +1,36 @@
+(335)
+Name: Placeholder Beastie Loot
+Id: 150216
+Description: i was nothing and now - now I am less than nothing. you heartless brute.
+
+	ChildBranches 1
+Name: A loot!
+Id: 128479
+Description: 1 Supply, if you must.
+
+		DefaultEvent
+Name: Eat me.
+Id: 150219
+Description: One day, perhaps, I will eat you.
+
+		ParentEvent
+Name: 
+Id: 150216
+Description: 
+
+
+
+	ChildBranches 2
+Name: Record any Observations
+Id: 131987
+Description: If you've gathered enough, you may learn something...
+
+		DefaultEvent
+Name: Something!
+Id: 155739
+Description: You've learnt...something. Something something &nbsp;<i>something</i>&nbsp; something. Something &nbsp;<i>dark</i>.
+
+		ParentEvent
+Name: 
+Id: 150216
+Description:

@@ -1,0 +1,836 @@
+(437)
+Name: The Vault of the First Emperor
+Id: 175835
+Description: This tribute to the Empire's first and greatest has been constructed over generations by monkeys working with stolen ideas of what an ancient tomb <i>should</i> be.
+
+	ChildBranches 1
+Name: Return to the surface
+Id: 143516
+Description: A little more preparation is needed here
+
+		DefaultEvent
+Name: You head back outside
+Id: 175836
+Description: The final door will not keep you from the treasure!
+
+		ParentEvent
+Name: 
+Id: 175835
+Description: 
+
+
+
+	ChildBranches 2
+Name: Onwards!
+Id: 143983
+Description: This part of the temple looks distinctly more ancient, and more carefully crafted by its architects. A sense of respect and history pervades.
+
+		DefaultEvent
+Name: The Hall of Histories
+Id: 176536
+Description: A mosaic floor stands between you and the door. The Delightful Adventuress catches your arm before you can step onto it. "Oh, sweetie," she sighs, pointing at the walls. Little holes run down both of them, just large enough to see the readied crossbow bolts behind.
+<br /><br />
+"Isn't this <i>wonderful</i>?" she says. "I have seen many, many tombs, and most just put something big and heavy in front of the door. Bless their hearts for putting all this effort into something nobody was ever supposed to see. Anyway, be a dear. I will be outside if you need me."
+<br /><br />
+She heads back to check on her camp.
+
+		ParentEvent
+Name: 
+Id: 175835
+Description: 
+
+
+
+	ChildBranches 3
+Name: An underground courtyard
+Id: 143984
+Description: Down a flight of steps, the centre of the Vault
+
+		DefaultEvent
+Name: So close, and yet so far...
+Id: 176537
+Description: This is very obviously the oldest part of the temple, around which all else has grown over time. Ancient tapestries hang from walls decorated with portraits of a single ape, clothed in violet and crowned by the sun. He is the First Emperor, the hundred-souled founder of the Empire of Hands. His authority reaches across time.
+<br /><br />
+"Not much to look at, is it?" declares the Delightful Adventuress. "They say they buried the old bugger with all of them. A hundred of the finest souls. A <i>heca-tomb</i> if you will." She laughs for a moment at a joke only she and perhaps three others in the Neath would appreciate. "Mark of respect by the primates, you know, to say no one else could do half as much with them."
+<br /></br />
+Her eyes glint. "Let's <i>do</i> something about that."
+
+		ParentEvent
+Name: 
+Id: 175835
+Description: 
+
+
+
+	ChildBranches 4
+Name: Enter the Vault
+Id: 143988
+Description: Back to the Mosaic Floor
+
+		DefaultEvent
+Name: A slightly wandering return
+Id: 176542
+Description: The maze is easily enough traversed with the help of the Delightful Adventuress' string, and her trick.
+
+		ParentEvent
+Name: 
+Id: 175835
+Description: 
+
+
+
+	ChildBranches 5
+Name: Press on into the Vault
+Id: 143989
+Description: What trials await through the... technically a doorway... over the melted cogs and fallen rubble?
+
+		DefaultEvent
+Name: A huge maze stretches out before you
+Id: 176543
+Description: The Delightful Adventuress produces a large ball of yarn. "With all due credit to Theseus," she says, nailing one end into the wall. "I suspect however, we shall not have to worry about a Minotaur lurking in this particular maze. Come on! Such things are hardly a problem for a woman of adventure! This will take but a jiffy."
+<br /><br />
+She leads the way with utter confidence, even when it becomes clear she has no idea where she is going. Even when it becomes painfully obvious to all that she is merely turning left at every intersection, confident that eventually this will lead to the exit. The string runs out long before the maze does, yet somehow this does not feel like an insurmountable problem for returning.
+
+		ParentEvent
+Name: 
+Id: 175835
+Description: 
+
+
+
+	ChildBranches 6
+Name: Return to the surface
+Id: 143990
+Description: This will require a little more preparation.
+
+		DefaultEvent
+Name: You leave the Vault
+Id: 176544
+Description: The monkeys are already poking and prodding at the completed rooms, crowbarring gems and valuable stonework out for both sale and hoarding.
+
+		ParentEvent
+Name: 
+Id: 175835
+Description: 
+
+
+
+	ChildBranches 7
+Name: Solve the puzzle
+Id: 144007
+Description: Three poles, stone discs? Oh, please. The <i>Towers of Hanoi puzzle?</i> That little children's game that has been amusing London in recent years? This antechamber must be a more recent addition to the Vault than it looks, if even the monkeys have bought into its legend.
+<br /><br />
+You roll up your sleeves. This will be easy enough!
+
+		DefaultEvent
+Name: Fifteen stone discs
+Id: 176564
+Description: Ah... A minor problem suddenly reveals itself.
+<br /></br >
+"Well, I see that you have this under control," declares the Delightful Adventuress, heading back upstairs. "I leave it in your evidently very capable hands."
+
+		ParentEvent
+Name: 
+Id: 175835
+Description: 
+
+
+
+	ChildBranches 8
+Name: Continue solving the puzzle
+Id: 144008
+Description: They cannot be serious about this, surely?
+
+		DefaultEvent
+Name: One move at a time... one move...
+Id: 176565
+Description: If you keep this up, you should be done just in time to see the Sixth City.
+
+		ParentEvent
+Name: 
+Id: 175835
+Description: 
+
+		RareDefaultEvent
+Name: One move at a time...
+Id: 176566
+Description: If you keep this up, you should be done just in time to see the Sixth City.
+<br />
+[You and the Delightful Adventuress are not the only treasure hunters in the Empire of Hands. Another may have supplies that you both lack.]
+
+
+
+	ChildBranches 9
+Name: Reset the puzzle
+Id: 144009
+Description: You suddenly have a sense that you went wrong somewhere. Better start again!
+
+		DefaultEvent
+Name: The last disc goes back onto the first peg
+Id: 176567
+Description: Phew. Good job you didn't waste any more time!
+
+		ParentEvent
+Name: 
+Id: 175835
+Description: 
+
+
+
+	ChildBranches 10
+Name: Finally!
+Id: 144012
+Description: The last disc slides onto the final pole.
+
+		DefaultEvent
+Name: Something clicks, but nothing happens
+Id: 176570
+Description: Huh. The mechanism must be broken.
+
+		ParentEvent
+Name: 
+Id: 175835
+Description: 
+
+
+
+	ChildBranches 11
+Name: Into the Vault
+Id: 144015
+Description: Back to the Towers of Hanoi puzzle.
+
+		DefaultEvent
+Name: The puzzle sits smugly
+Id: 176575
+Description: The stone columns and their overly generous allocation of discs still await in front of the sealed door. You grudgingly return your attention to the puzzle.
+
+		ParentEvent
+Name: 
+Id: 175835
+Description: 
+
+
+
+	ChildBranches 12
+Name: Enter the Vault
+Id: 144016
+Description: Through the doors, into the depths...
+<br />
+[The Delightful Adventuress will not relinquish her glim lantern. You will need Foxfire Candles to light your way. One crate will suffice for the entire exploration.]
+
+		DefaultEvent
+Name: The Antechamber
+Id: 176576
+Description: At the bottom of the stairs is a room with a sealed stone door. In front of that stands a pointedly placed plinth holding three thin pillars and some stone discs.
+<br /><br />
+The Delightful Adventuress rolls her eyes. "A Trial of the Mind, it appears. How very adorable. It appears that our monkey friends' ancestors have absorbed more than a few souls with a passion for things of the pulp. Oh, well. That should make things interesting."
+<br /><br />
+She slaps your shoulder. "Do the honours, <i>kapitano</i>."
+
+		ParentEvent
+Name: 
+Id: 175835
+Description: 
+
+
+
+	ChildBranches 13
+Name: Blow the door open with dynamite
+Id: 144017
+Description: There's more than one way to show your intelligence.
+
+		DefaultEvent
+Name: BOOM!
+Id: 176577
+Description: Bits of rubble and clockwork fly. The stonework trembles slightly as if about to collapse, but then settles with just the occasional plink-plink of metal and the tinkle of falling shards and gears of all sizes.
+<br /></br />
+"Well, that is certainly one solution," declares the Delightful Adventuress, unplugging her ears. "I <i>think</i> though, darling, I shall be taking the rest of those. Cannot fault your thinking! But we would rather reach the centre of this quaint little tomb <i>without</i> ourselves becoming buried in it, would we not? Still, splendid resourcefulness. Splendid. Top marks."
+
+		ParentEvent
+Name: 
+Id: 175835
+Description: 
+
+
+
+	ChildBranches 14
+Name: Reset the puzzle
+Id: 144018
+Description: It'll almost certainly work properly this time.
+
+		DefaultEvent
+Name: Back to the start then
+Id: 176578
+Description: There we go. Now, which one to move first?
+
+		ParentEvent
+Name: 
+Id: 175835
+Description: 
+
+
+
+	ChildBranches 15
+Name: Outside the Vault
+Id: 144019
+Description: The Delightful Adventuress consults papers while her Clay Man Barnabas and a small crew of variably hard-working monkeys try to force open the doors."
+<br /><br />
+"Ah, you, you're here," she calls. "Do pick up a crowbar, there's a dear. Bit of elbow-grease should do it."
+
+		DefaultEvent
+Name: "Right! On the count of three..."
+Id: 176579
+Description: Muscles, human and primate alike, strain as the Delightful Adventuress harries everyone along. Finally, with a crack and a screech of triumph and exhaustion, the doors slide open. Inside is just blackness.
+<br /><br />
+"There! Now, chop-chop everybody!" declares the Delightful Adventuress, striding into the dark with a personal glim lantern. Behind her, her monkeys collapse to the ground gasping, occasional stolen words and squeals of protest escaping into the air.
+
+		ParentEvent
+Name: 
+Id: 175835
+Description: 
+
+
+
+	ChildBranches 16
+Name: Examine the Mosaic Floor
+Id: 144021
+Description: Nine coloured tiles stretch across this corridor.
+<br />
+[Be careful. Choosing wrong may lead to a Wound. Three Wounds can mean death. If you don't know the correct order, you may be able to find a safer way past.]
+
+		DefaultEvent
+Name: Too far to jump
+Id: 176581
+Description: Blast. The monkeys thought of that, at least. And it would be difficult to get a ladder down here. It would be very risky to simply guess, but a solution must be around here somewhere. Or an alternative...
+
+		ParentEvent
+Name: 
+Id: 175835
+Description: 
+
+
+
+	ChildBranches 17
+Name: The Final Door
+Id: 144022
+Description: Huge. Imposing. Impassable. Is there a way through it?
+
+		DefaultEvent
+Name: There is no obvious method
+Id: 176582
+Description: There is no handle, and though there is a gap that a crowbar could fit through, the door seems too thick to get any leverage. Scratch marks around the side suggest that more than a few monkeys have tried. Around it are gaping holes where gemstones were once seated.
+<br /><br />
+You press a hand to the door, holding a candle to the cracks. Stone. Very thick. Even dynamite is unlikely to make much of a dent without bringing the whole temple down around you. There must be a way to open it though. Why would anyone bother building a door that they never expected anyone to be able to get through?
+
+		ParentEvent
+Name: 
+Id: 175835
+Description: 
+
+
+
+	ChildBranches 18
+Name: Attempt to read the inscriptions
+Id: 144066
+Description: The Exquisite Seneschal said that this frozen drop of red honey might help.
+
+		DefaultEvent
+Name: You place the chip under your tongue
+Id: 176663
+Description: It is not the usual rush of red honey, but a slow fizzling sense as it spreads through your mouth. For a moment, you have the sense of your body being too big, your blood pumping wrong. Memories hang at the edge of consciousness; unclear, faded. As you look at the inscriptions though, chaos melts into meaning.
+
+		ParentEvent
+Name: 
+Id: 175835
+Description: 
+
+
+
+	ChildBranches 19
+Name: Read the inscriptions
+Id: 144067
+Description: The ancient carvings shift between complete nonsense and easy readability as the memories wax and wane.
+
+		DefaultEvent
+Name: A slightly dubious retelling of history
+Id: 176664
+Description: A terrible light, cast from afar. A sliver of cosmogone in the darkness; burning cinders ashore the sea of the dead. The apes who are not yet of the Pentecost fear them, but their covetous natures will not be denied. Those who hold them burn harder, yet are cursed with tortured ambition no blood spilling can sate. It is an addictive melancholy. This is the Icterine Age.
+<br /><br />
+Uncounted times hence, he who will be the First Emperor is not yet the First Emperor. It is he who is first blessed to conquer the blue-clad emissaries from the waters of the dead, and drink deep of their stolen lifebreath by cinderlight. So dawns the Cerulean Age.
+<br /><br />
+The Pentecost's reach ensorcels the world, shore to shore, and all who are not ape are cast to the dark. The lifebreaths of emissaries from the waters of the dead have birthed the Empire Eternal in blood and light. All forever bask in the glory of the Amaranth Age.
+
+		ParentEvent
+Name: 
+Id: 175835
+Description: 
+
+
+
+	ChildBranches 20
+Name: Step on a Yellow tile
+Id: 144070
+Description: 
+
+		DefaultEvent
+Name: A cautious step
+Id: 176668
+Description: Death does not however seem to follow.
+
+		ParentEvent
+Name: 
+Id: 175835
+Description: 
+
+
+
+	ChildBranches 21
+Name: Step on a Red tile
+Id: 144076
+Description: 
+
+		DefaultEvent
+Name: Ouch!
+Id: 176676
+Description: No, really! Ouch! You run back to safety.
+
+		ParentEvent
+Name: 
+Id: 175835
+Description: 
+
+		RareDefaultEvent
+Name: Ouch!
+Id: 179806
+Description: A crossbow bolt hits you. It's small, but painful...
+<br />
+You run back to safety.
+
+
+
+	ChildBranches 22
+Name: Step on a Blue tile
+Id: 144077
+Description: 
+
+		DefaultEvent
+Name: The tile creaks
+Id: 176677
+Description: But you remain unpunctured.
+
+		ParentEvent
+Name: 
+Id: 175835
+Description: 
+
+
+
+	ChildBranches 23
+Name: Step on a Green tile
+Id: 144078
+Description: 
+
+		DefaultEvent
+Name: Ouch!
+Id: 176678
+Description: No, really! Ouch! You run back to safety.
+
+		ParentEvent
+Name: 
+Id: 175835
+Description: 
+
+		RareDefaultEvent
+Name: Ouch!
+Id: 179804
+Description: A crossbow bolt hits you. It's small, but painful...
+<br />
+You run back to safety.
+
+
+
+	ChildBranches 24
+Name: Step on a Red tile
+Id: 144079
+Description: 
+
+		DefaultEvent
+Name: Ouch!
+Id: 176679
+Description: No, really! Ouch! You run back to safety.
+
+		ParentEvent
+Name: 
+Id: 175835
+Description: 
+
+		RareDefaultEvent
+Name: Ouch!
+Id: 179803
+Description: A crossbow bolt hits you. It's small, but painful...
+<br />
+You run back to safety.
+
+
+
+	ChildBranches 25
+Name: Step on a Blue tile
+Id: 144080
+Description: 
+
+		DefaultEvent
+Name: Ouch!
+Id: 176680
+Description: No, really! Ouch! You run back to safety.
+
+		ParentEvent
+Name: 
+Id: 175835
+Description: 
+
+		RareDefaultEvent
+Name: Ouch!
+Id: 179805
+Description: A crossbow bolt hits you. It's small, but painful...
+<br />
+You run back to safety.
+
+
+
+	ChildBranches 26
+Name: Step on a White tile
+Id: 144081
+Description: 
+
+		DefaultEvent
+Name: Ouch!
+Id: 176681
+Description: No, really! Ouch! You run back to safety.
+
+		ParentEvent
+Name: 
+Id: 175835
+Description: 
+
+		RareDefaultEvent
+Name: Ouch!
+Id: 179802
+Description: A crossbow bolt hits you. It's small, but painful...
+<br />
+You run back to safety.
+
+
+
+	ChildBranches 27
+Name: Step on a Blue tile
+Id: 144082
+Description: 
+
+		DefaultEvent
+Name: Ouch!
+Id: 176682
+Description: No, really! Ouch! You run back to safety.
+
+		ParentEvent
+Name: 
+Id: 175835
+Description: 
+
+		RareDefaultEvent
+Name: Ouch!
+Id: 179801
+Description: A crossbow bolt hits you. It's small, but painful...
+<br />
+You run back to safety.
+
+
+
+	ChildBranches 28
+Name: Step on a Red tile
+Id: 144083
+Description: 
+
+		DefaultEvent
+Name: History is conquered
+Id: 176683
+Description: With deep relief, you step off the mosaic tile, and make a note of the correct sequence. If your mental map is correct, you are near your destination.
+
+		ParentEvent
+Name: 
+Id: 175835
+Description: 
+
+
+
+	ChildBranches 29
+Name: A dusty bowl of glassy red chips
+Id: 144084
+Description: It stands on a plinth in the middle of the room, its contents seemingly untouched by the monkeys who have tried getting through the door.
+
+		DefaultEvent
+Name: You take a chip
+Id: 176684
+Description: A drop of red honey hangs in the middle, bleeding out through cracks in the salt. Red honey contains memories. Why would the chips be here?
+
+		ParentEvent
+Name: 
+Id: 175835
+Description: 
+
+
+
+	ChildBranches 30
+Name: Consume the red honey chip
+Id: 144089
+Description: Its frozen memories glint in the candlelight.
+
+		DefaultEvent
+Name: A Test of Understanding
+Id: 176691
+Description: The memories are diluted, largely unspecific. But that is not important. What this red honey carries is something far deeper; a connection of souls across centuries. The birth of an Empire in which even the lowest could be uplifted, and sparks of greatness itself passed on. Magnified. Never lost with the passing of flesh.
+<br /></br >
+This was the dream of the First Emperor; one of unity and evolution, transcendence and glory. His memory was placed here that all could see their true destiny. Purpose. Instead, it is as if the Emperor himself is receiving a glimpse of the Empire his dream became.
+<br /><br />
+His tears run uncontrollably down your cheeks.
+
+		ParentEvent
+Name: 
+Id: 175835
+Description: 
+
+
+
+	ChildBranches 31
+Name: Open the Emperor's Tomb
+Id: 144090
+Description: The memory fades, but something remains. Only one who is as worldly-wise as the First Emperor hoped his people would be, can open this door.
+
+		DefaultEvent
+Name: It seems like such a simple thing, now
+Id: 176692
+Description: It is slightly more complicated than simply pushing the door open. But only a little.
+
+		ParentEvent
+Name: 
+Id: 175835
+Description: 
+
+
+
+	ChildBranches 32
+Name: Leave the Vault, for now
+Id: 144091
+Description: There has to be a better way...
+
+		DefaultEvent
+Name: You leave the puzzle behind
+Id: 176693
+Description: Someone elsewhere in the Empire of Hands may be able to help with this.
+
+		ParentEvent
+Name: 
+Id: 175835
+Description: 
+
+
+
+	ChildBranches 33
+Name: Leave her to her work
+Id: 144123
+Description: There are other parts of the Empire of Hands to explore.
+
+		DefaultEvent
+Name: That Zeppelin could be an opportunity
+Id: 176728
+Description: Perhaps someone in the court on Sovereign Island would be able to point you in the right direction.
+
+		ParentEvent
+Name: 
+Id: 175835
+Description: 
+
+
+
+	ChildBranches 34
+Name: Outside the Vault
+Id: 144143
+Description: The Delightful Adventuress flits back and forth between her basecamp and the Vault entrance.
+
+		DefaultEvent
+Name: "To rush, darling, is to court tragedy."
+Id: 176753
+Description: The Delightful Adventuress pays barely any attention to you as she prepares. She is not yet ready to open the Vault. You should return later when she has had a chance to organise her monkey workers. This may take a while.
+
+		ParentEvent
+Name: 
+Id: 175835
+Description: 
+
+
+
+	ChildBranches 35
+Name: A complex maze stretches out ahead
+Id: 145914
+Description: The Delightful Adventuress claps your shoulder. "Have no fear, darling. Such things are hardly a problem for a woman of adventure!
+
+		DefaultEvent
+Name: A veteran of mazes
+Id: 179746
+Description: The Delightful Adventuress produces a large ball of yarn. "With all due credit to Theseus," she says, nailing one end into the wall. "I suspect however, we shall not have to worry about a Minotaur in this maze. Come on! Chop chop!"
+<br /><br />
+She leads the way with utter confidence, even when it becomes clear she has no idea where she is going. Even when it becomes painfully obvious to all that she is merely turning left at every intersection, confident that eventually this will lead to the exit. The string runs out long before you leave the maze... yet somehow this does not feel like an insurmountable problem.
+
+		ParentEvent
+Name: 
+Id: 175835
+Description: 
+
+
+
+	ChildBranches 36
+Name: A pit of venomous snakes!
+Id: 145915
+Description: You see them through the door. Thousands of them, in a pit crossable only by a thin beam lit by inconsistent neath-light through a hole in the roof. It would be no problem for a monkey to cross. But a human?
+
+		DefaultEvent
+Name: It is the Delightful Adventuress' turn to go first
+Id: 179747
+Description: To her credit, she does not try to weasel her way out of it. Lantern held between her teeth, and adventurer's rapier bouncing casually on her hips, she steps confidently onto the thin beam and swiftly crosses foot-over-foot without so much as a glance down.
+<br /><br />
+Your turn...
+
+		ParentEvent
+Name: 
+Id: 175835
+Description: 
+
+
+
+	ChildBranches 37
+Name: Leave the Vault
+Id: 145955
+Description: Its secrets will have to remain a little longer.
+
+		DefaultEvent
+Name: Back to Fountainhead Island
+Id: 179815
+Description: Will the monkeys allow an outsider to just walk away with their most esteemed Emperor's burial treasure? Probably. As long as they get their cut.
+
+		ParentEvent
+Name: 
+Id: 175835
+Description: 
+
+
+
+	ChildBranches 38
+Name: Enter the Vault
+Id: 145962
+Description: Back to the Emperor's Tomb
+
+		DefaultEvent
+Name: You hurry back
+Id: 179827
+Description: The Delightful Adventuress does not seem to be the kind who would wait to share treasure if she got to it first.
+
+		ParentEvent
+Name: 
+Id: 175835
+Description: 
+
+
+
+	ChildBranches 39
+Name: Leave the Vault for now
+Id: 145997
+Description: Back to the rest of Fountainhead Island
+
+		DefaultEvent
+Name: You push past the assembled monkeys
+Id: 179891
+Description: They salivate at the thought of raiding the Vault, even if it has been made clear that the Legacy of the First Emperor is off-limits.
+
+		ParentEvent
+Name: 
+Id: 175835
+Description: 
+
+
+
+	ChildBranches 40
+Name: Attempt to read the inscriptions
+Id: 144020
+Description: The language is unrecognisable. Is that a bit of a pictogram? Why is it by the cricket stumps?
+
+		DefaultEvent
+Name: It's no use, it's gibberish
+Id: 176580
+Description: Maybe one of the monkeys can help, but it seems unlikely. There's not much writing in the Empire of Hands, and most of it simply borrows from Fallen London or the Khanate. Anyone capable of reading this is likely long dead.
+
+		ParentEvent
+Name: 
+Id: 175835
+Description: 
+
+		SuccessEvent
+Name: Your skills still fail you
+Id: 176665
+Description: The monkey tongue follows no apparent rules, being a creole of many and diluted with each new scribe. It would take someone capable of writing it to even stand a chance of decrypting it - but the age of the inscriptions and lack of anything similar elsewhere in the Empire of Hands suggests it is a long-lost art. Perhaps the Exquisite Seneschal can help.
+
+
+
+	ChildBranches 41
+Name: Across the snake-pit
+Id: 145917
+Description: Well, if she can do it...
+
+		DefaultEvent
+Name: Your foot slips!
+Id: 179750
+Description: You tumble into the snake pit, landing up to your shoulders in a sea of some of the most dangerous creatures ever to slither the Empire of Hands! Already you feel their teeth lunging, the venom pounding through your system, the-
+<br /><br />
+No. You feel... nothing... except the weight; the cold, dry skins of hundreds of dead snakes surrounding you.
+<br /><br />
+The Delightful Adventuress peers down. "Well, that is what happens when one decides to build oneself a fancy-dancy snake pit and neglects to think of a way for the poor darlings to be kept fed, isn't it? Come on then, get up from there! No sense being a big girl's blouse!"
+
+		ParentEvent
+Name: 
+Id: 175835
+Description: 
+
+		SuccessEvent
+Name: A terrifying crossing
+Id: 179751
+Description: Every step is treacherous, and your foot almost slips several times before you half-collapse, sweat streaming from every pore, on the other side. The Delightful Adventuress seems utterly unconcerned by her own near brush with writhing death.
+<br /><br />
+"Oh, do pay <i>attention</i>, darling," she sighs, shining her lantern on the snakes. The thousands of snakes. The thousands of venomous snakes. The thousands of... dead, dried-up snakes. "See, this is what happens when one decides to build oneself a snake pit, only to neglect to consider how the poor things will be fed. Seen it a hundred times! Well, perhaps twice." She chuckles. 
+<br /><br />
+The adventure continues...
+
+
+
+
+	ChildBranches 42
+Name: Severely wounded!
+Id: 144088
+Description: You lie bleeding on the floor, fighting for life.
+
+		DefaultEvent
+Name: You bleed out on the floor
+Id: 176690
+Description: Just before the light fades, you hear the clicking of boots. "Well, what a dashed inconvenience," you hear the Delightful Adventuress' fading voice complain.
+
+		ParentEvent
+Name: 
+Id: 175835
+Description: 
+
+		RareDefaultEvent
+Name: Emergency first-aid
+Id: 179808
+Description: You barely manage to bandage the wound before collapsing unconscious. It is an unconsciousness that you return from however. Still, you wouldn't want to go through that again. Maybe there's a better way of getting past this obstacle...
+
+		SuccessEvent
+Name: Emergency first-aid
+Id: 179809
+Description: You barely manage to bandage the wound before collapsing unconscious. It is an unconsciousness that you return from however. Still, you wouldn't want to go through that again. Maybe there's a better way of getting past this obstacle...

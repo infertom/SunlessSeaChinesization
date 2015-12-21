@@ -1,0 +1,41 @@
+(341)
+Name: Fallen Corsairs
+Id: 153586
+Description: They're as unlovely in death as they were in life.
+
+	ChildBranches 1
+Name: Loot the bodies
+Id: 130592
+Description: How many times have they looted fallen enemies? Now it's your turn.
+
+		DefaultEvent
+Name: Bare pickings
+Id: 153587
+Description: Leathery meat and handfuls of coins from a dozen harbours.
+
+		ParentEvent
+Name: 
+Id: 153586
+Description: 
+
+		RareDefaultEvent
+Name: Odd pickings
+Id: 153588
+Description: Leathery meat and handfuls of coins from a dozen harbours. But what's this? A battered pewter tankard, marked with the stamp of the Blind Helmsman at Wolfstack Docks. An old, treasured, possession.
+
+
+
+	ChildBranches 2
+Name: Record any Observations
+Id: 131986
+Description: If you've gathered at least 10 Observations, you may learn something...
+
+		DefaultEvent
+Name: Ugly customers, ugly methods
+Id: 155738
+Description: They may not know much, but they know how to fight dirty. Take a note. You may need it some day.
+
+		ParentEvent
+Name: 
+Id: 153586
+Description:

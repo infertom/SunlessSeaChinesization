@@ -1,0 +1,85 @@
+(529)
+Name: A Vital Enterprise
+Id: 152274
+Description: The Chief Engineer emerges from underground with a motley assortment of other rats: he introduces them as weapons experts, strategists, and field commanders. 
+<br><br>
+"So you're going to help us beat the Cavies," he says, a hard edge to his voice. "But how exactly?" 
+
+	ChildBranches 1
+Name: Offer guns
+Id: 129782
+Description: You'd rather not get directly involved, but you can spare some scrap metal, shot, and maybe a deck gun.
+
+		DefaultEvent
+Name: A fair trade.
+Id: 152275
+Description: Your crew haul one of the deck guns to shore, and the Chief Engineer nods in gratitude. "It's a clumsy bugger and no mistake, but we can break it down into parts easily enough, and there'll be plenty of scrap left over to make bullets."
+<br><br>
+In exchange the rats give you their provisions. The salted fish proves surprisingly restorative, and dried Chickenwood appears to make tolerable fuel. As they pass by the glow of the Rat Star on their way back to the ship, each member of your crew seems to hold their head a little higher and breathe a little easier. 
+
+		ParentEvent
+Name: 
+Id: 152274
+Description: 
+
+
+
+	ChildBranches 2
+Name: Offer to attack the Cavies yourself.
+Id: 129785
+Description: You have a ship. You have cannons. Steer her to the Southern side of the island and have at those anachronistic animals!
+
+		DefaultEvent
+Name: A near miss. 
+Id: 152278
+Description: You gave clear orders. Your navigation was impeccable. But it seems the Cavies got wind of your intentions quickly enough that they were able to man the guns of their grounded pinnace, and give you a bracing dollop of what-for! Their ship is already sunk, and its crew provides tiny targets: it's an impossible battle.
+<br><br>
+The shame of being defeated at zee by a brace of guinea boars is bad enough. Worse, however, are the several members of your crew who complain that the triumphant wheeking of the Cavies now haunts their dreams...
+
+		ParentEvent
+Name: 
+Id: 152274
+Description: 
+
+		SuccessEvent
+Name: A palpable hit!
+Id: 152279
+Description: The rats give you what information they possess about the Cavies' settlement, but you must make up a great deal on the spot. A perfect storm of speed, stealth, and strength in arms favours you; your cannons let fly a volley of shot on to the beach before the Cavies can scramble on to their own grounded ship to man its guns. Screams and squeals fill the air! Your enemy flees before you! 
+<br><br>
+A damp hush settles over your crew as the smoke clears to reveal the torn, bloodied bodies of guinea pigs littering the shore. A grim business; but you've honoured your commitment to the rats, and found a wealth of scintillack ringing the beach to harvest as spoils.
+
+
+
+	ChildBranches 3
+Name: Offer assistance with strategy
+Id: 129786
+Description: Engineer a distraction to enable the rats to raid the Cavies' ship for supplies.
+
+		DefaultEvent
+Name: Weighed and found wanting.
+Id: 152280
+Description: You pretend to take a rat hostage and approach the Cavies as with a gift, demanding an audience with the Seneschal. A battalion encircles you almost immediately. Their armour and helmets clank as they purr and chatter amongst themselves. 
+<br><br>
+"Well well," says the Seneschal, regarding you with what you suppose to be a smile, "a reversal of fortune? How unlikely. I suppose you will have no trouble slitting this savage's throat on our behalf."
+<br><br>
+Your fraction of a moment's hesitation is all the confirmation the Seneschal needs. "See to the ship," she snaps, and half the party scurries to intercept the rats skulking aboard it, screaming war cries that curdle your blood.
+<br><br>
+"As for you," says the Seneschal, sweetly, "thank you very kindly for your gift. I assure you it is most graciously received."
+<br><br>
+More swiftly than you would have thought possible, the Seneschal leaps on to the rat you hold bound and sinks her incisors into its chest. You escape with your life -- but you find yourself unable to forget how the rat screamed and writhed while the Seneschal raised her face to you again, his liver gleaming obscenely in her mouth. 
+
+		ParentEvent
+Name: 
+Id: 152274
+Description: 
+
+		SuccessEvent
+Name: A Questing Beast
+Id: 152281
+Description: You dress up one of your zailors in a mess of shabby cloth smeared with prisoner's honey, and instruct him to roll around in the black earth of the island. Soon you have a glorious mud monster to send thrashing through the Chickenwoods towards the Cavies.
+<br><br>
+The distraction works perfectly; the Cavies divert their force towards your makeshift beast, leaving the rats with very little opposition as they successfully plunder their grounded ship. 
+<br><br>
+They return triumphant -- as does your zailor, laughing, having led the Cavies a merry chase. Within a few hours the rats' diligence has resulted in the building of a remarkable cache of weapons with which they successfully rout their enemy.
+
+<br><br>The rats, ever egalitarian, share their spoils in addition to the promised food and fuel.

@@ -1,0 +1,227 @@
+(479)
+Name: Hunter's Keep
+Id: 143373
+Description: A hump of dark rock swathed in mist, like a hundred  other Unterzee islands. But here's a grand house, windows aglow. Lawns, impossibly green and lush in the false-star light. Raked gravel paths.
+<br/><br/>
+You stand on the dock as the sea nudges the ship's sides. An unexpectedly warm breeze carries the faintest trace of lavender.
+
+	ChildBranches 1
+Name: Present yourself at the house
+Id: 124090
+Description: They will have heard your ship come in. Why hide?
+
+		DefaultEvent
+Name: Knock, and enter
+Id: 143374
+Description: A maid with smouldering topaz eyes shows you into the parlour where three young women wait.
+<br/><br/>
+ "A visitor!" the youngest cries. The next youngest chuckles. The eldest sighs. "Do excuse the indecorum," she says. "Visitors are rare. You are very welcome. I am Cynthia: the noisy one is Phoebe, the cheerful one is Lucy. You are in good time for lunch. Will you join us?"
+
+		ParentEvent
+Name: 
+Id: 143373
+Description: 
+
+
+
+	ChildBranches 2
+Name: Walk in the gardens
+Id: 127669
+Description: Take a couple of burly zailors with you, just in case. But the gardens are tranquil as moonlight.
+
+		DefaultEvent
+Name: 
+Id: 148849
+Description: The lawns are neatly trimmed, and the night-flowers of the Neath bloom here in profusion. You watch the hedgerows, but nothing comes to menace you. You can savour the peace -
+<br/><br/>
+There is a pointed cough from the shadow of a potting-shed. An angular woman in a maid's uniform - her eyes a peculiar sulphurous yellow - advances, frowning. She indicates the house, turns on her heel, and leaves.
+
+		ParentEvent
+Name: 
+Id: 143373
+Description: 
+
+
+
+	ChildBranches 3
+Name: Luncheon with the sisters: Cynthia
+Id: 127704
+Description: Cynthia is the eldest: melancholy, pensive, occasionally dramatic.
+
+		DefaultEvent
+Name: 
+Id: 148909
+Description: Cynthia grasps your arm and whispers to you. Her eyes are wide and blue: her hair is wild and tangled. Bats might nest in it. It seems to you that you are sitting on a hillside, above a wide blue lake, listening to a story of a murder. An axe. A net. Blood on scented water.
+<br/><br/>
+"Another chop?" Cynthia asks. "You've barely touched your food. Here. I'll have the maid wrap something up for you. You can't be hungry. It's not safe to be hungry."
+
+		ParentEvent
+Name: 
+Id: 143373
+Description: 
+
+
+
+	ChildBranches 4
+Name: Luncheon with the sisters: Lucy
+Id: 127714
+Description: Lucy, the middle sister, is sunny, restless, prone to giggles.
+
+		DefaultEvent
+Name: A daft tale
+Id: 148922
+Description: Lucy leans over and whispers to you confidentially: a complex story about a butler, a pig and an inheritance. You don't follow all the details of the plot, but somehow the pig ends up in an attic and the butler in a vicar's bed. Candles flicker, dishes enter and leave, and the wind butts gently at the window-panes. By the time the plum-pudding arrives, you're as cheerful as you've been in months.
+
+		ParentEvent
+Name: 
+Id: 143373
+Description: 
+
+
+
+	ChildBranches 5
+Name: Luncheon with the sisters: Phoebe
+Id: 127715
+Description: Phoebe is soft-voiced, watchful, unpredictable.
+
+		DefaultEvent
+Name: Here's a story
+Id: 148923
+Description: Phoebe has a story to tell: of two lovers parted by water, of a raven that carried messages, of a fragment of the moon. She beats time on the table as she speaks, as if to a song only she can hear. The effect is hypnotic.
+<br/><br/>
+Your attention drifts, out through the skylight of the dining room, to the false-stars glittering in the roof of the cavern. You drift like a puffball-spore. The Unterzee shimmers below. Islands lie like mineral specimens on black velvet. Ships bob like wood-chips between the islands. Vast spined things pulse in the depths. There is a scent like the scent before a storm...
+<br/><br/>
+"The storm came," says Phoebe quietly. "Everything changed." Somewhere in there, you finished the last course. The scowling maid reluctantly serves cheese and Bath Oliver biscuits.
+
+		ParentEvent
+Name: 
+Id: 143373
+Description: 
+
+
+
+	ChildBranches 6
+Name: Not receiving visitors?
+Id: 127717
+Description: The parlour is empty. Where are the sisters?
+
+		DefaultEvent
+Name: 
+Id: 148925
+Description: The maid makes it clear, through a series of unwelcoming growls, that Phoebe, Lucy and Cynthia are all three 'indisposed'. No lunch today, apparently.
+
+		ParentEvent
+Name: 
+Id: 143373
+Description: 
+
+
+
+	ChildBranches 7
+Name: News! News!
+Id: 127718
+Description: Even when the sisters aren't feeling sociable, they can be tempted out of their lair by the smell of new stories.
+
+		DefaultEvent
+Name: Knock and wait
+Id: 148926
+Description: You ask the sulphur-eyed maid to carry a few hints of your news to the sisters. Oddly enough, she comes back with a message that their headaches are cured, and you're invited to lunch...
+
+		ParentEvent
+Name: 
+Id: 143373
+Description: 
+
+
+
+	ChildBranches 8
+Name: Reconnoitre the island
+Id: 127733
+Description: Plunging cliffs, soft green lawns. A well tucked away in a fold of the grounds. Anything else?
+
+		DefaultEvent
+Name: The sea's silence
+Id: 148955
+Description: Ships rarely come here; nothing changes, even the weather. The house is the heart of the isle: the house, and the sisters. But the Admiralty may be happy to know that nothing's changed, at least.
+
+		ParentEvent
+Name: 
+Id: 143373
+Description: 
+
+
+
+	ChildBranches 9
+Name: Put a blemmigan ashore
+Id: 133946
+Description: Fertile ground for little purple people.
+
+		DefaultEvent
+Name: Into the hedgerows
+Id: 158938
+Description: A flash of deep violet, and the blemmigan is gone. Perhaps the sisters of the Keep will find the creature, or its spawn. Perhaps they'll keep it as a pet. Perhaps they'll make a pie.
+
+		ParentEvent
+Name: 
+Id: 143373
+Description: 
+
+
+
+	ChildBranches 10
+Name: Visit the cellar
+Id: 146677
+Description: "We will need," the Mechanic tells the sisters, "to visit your sub-cellar - "
+<br/><br/>
+"Oh, that nasty place," Lucy says airily (a little hastily?). "Yes, we'll take you down there." She smiles. "But we'll need stories. Something alarming for Cynthia. A zee-ztory for Phoebe. And a tale of distant places for me."
+
+		DefaultEvent
+Name: Beneath Hunter's Keep
+Id: 181076
+Description: The sisters listen with delight to your stories, and unlock the cellar door for you. The key is so heavy that Cynthia can only lift it with both hands. "We won't go in," she says. "We don't go in."
+<br/><br/>
+The signs on the stones have a Khaganian look. In the deepest sub-cellar, your candles illuminate a litter of tumbled stones - the remnants of a temple. The pool at the cellar's centre is almost dry. The remaining water there seethes oddly in the candle-light, as if it were near boiling, but it's quite cool to the touch.
+<br/><br/>
+"The Writhing River flows near here," the Mechanic remarks. "One of the tributaries of dream. (I hope it doesn't touch the well those poor girls drink from.) My enemies find me when I sleep - but this water will attract my enemies to this poor fellow."
+<br/><br/>
+He bends to dip his hand in the water and sketches a sign on the Clay Man's forehead. The Man watches him stolidly. The Mechanic hands him the Mirrorcatch Box. "Hold this," he says. "Keep it open. Don't let go, no matter what happens." The Clay Man's huge hands enfold the box.
+<br/><br/>
+"There," the Mechanic says, turning to you. "A serpent-trap. Now, I can sleep. I can finally sleep." He smiles. "And then I think I may be able to offer you something rather interesting."
+<br/><br/>
+[Speak to the Mechanic on board ship to advance the story further.]
+
+
+		ParentEvent
+Name: 
+Id: 143373
+Description: 
+
+
+
+	ChildBranches 11
+Name: Spy on the house
+Id: 124091
+Description: This place may not be as simple as it seems.
+
+		DefaultEvent
+Name: Three sisters.
+Id: 143375
+Description: You peer through a half-open French window into a grand parlour: grand in size, if a little reduced in style by dust and neglect. A dark-haired, pale-skinned young woman bends earnestly over a piano keyboard. Another, fair-haired but unmistakably her sister, sprawls on the sofa with a book. A third sits by the fireplace, staring sorrowfully into the embers.
+<br/><br/>
+A log pops, and the woman by the fire gives a violent start. You cannot restrain a start of your own, and her eyes meet yours through the glass. She claps her hand to her mouth in shock. There is nothing to do but step apologetically into the room.
+<br/><br/>
+ "A visitor!" the pianist - the youngest - cries. The next youngest chuckles. The eldest, who you frightened, sighs. "Excuse us," she says. "Visitors are rare. You are very welcome. I am Cynthia: the noisy one is Phoebe, the cheerful one is Lucy. You are in good time for lunch. Will you join us?"
+
+		ParentEvent
+Name: 
+Id: 143373
+Description: 
+
+		SuccessEvent
+Name: Piano music drifts across the terrace
+Id: 148921
+Description: You peer through a half-open French window into a grand parlour: grand in size, if a little reduced in style by dust and neglect. A dark-haired, pale-skinned young woman bends earnestly over a piano keyboard. Another, fair-haired but unmistakably her sister, sprawls on the sofa with a book. A third sits by the fireplace, staring sorrowfully into the embers.
+<br/><br/>
+"Soon," she says, and the piano music falters and stops. "We'll go hungry, and then the end will come, for me but not for you."
+<br/><br/>
+The pianist raises her eyes from the keyboard. "Hush! If we don't speak of it - " She frowns. Has she seen you at the window? You withdraw.

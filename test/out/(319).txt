@@ -1,0 +1,36 @@
+(319)
+Name: The Campaigner's End
+Id: 165309
+Description: Hushed voices on the foredeck. Weeping on the engine-room stairs. The too-careful closing of a door. The Campaigner was well-liked aboard ship.
+
+	ChildBranches 1
+Name: Deal respectfully with her remains and belongings
+Id: 137103
+Description: 
+
+		DefaultEvent
+Name: 
+Id: 165310
+Description: 
+
+		ParentEvent
+Name: 
+Id: 165309
+Description: 
+
+
+
+	ChildBranches 2
+Name: Make use of her remains and belongings
+Id: 137104
+Description: What does she care? And something extraordinary was happening to her flesh.
+
+		DefaultEvent
+Name: 
+Id: 165311
+Description: 
+
+		ParentEvent
+Name: 
+Id: 165309
+Description:

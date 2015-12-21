@@ -1,0 +1,155 @@
+(546)
+Name: The Tree of Ages
+Id: 167777
+Description: No longer just a legend. The cursed octomaran has come for blood, its silk sails blazing the purest red and its webbed hull alive with crawling sorrow-spiders.
+
+	ChildBranches 1
+Name: Assist the Tree of Ages
+Id: 138643
+Description: There's enough fight left in you, and they are allies. Of a sort. For the moment. You have to hope.
+
+		DefaultEvent
+Name: The Lorn-Fluke screams
+Id: 167778
+Description: Your guns pound into it from one side. Cultists attack from the other. Sorrow-spiders digging into their minions' eyes guide them as they sink in serrated harpoons tied to silken ropes, wound tightly around their ship. The Avaricious Lorn-Fluke fights, pitting all its power against the Tree of Ages' might, but it is no good. It cannot submerge. It cannot escape!
+<br /><br />
+Thousands... perhaps even more... of vicious sorrow-spiders flock onto its back, tearing at its spines and sinking in their poisonous teeth. The Lorn-Fluke shrieks and buckles but can do nothing to stop the onslaught. Finally, exhausted, it can do nothing but be dragged towards whatever fate awaits it in the dark coves of Saviour's Rocks.
+<br /><br />
+There is a splash as one of the cultists throws a small token of appreciation for your extra assistance.
+
+		ParentEvent
+Name: 
+Id: 167777
+Description: 
+
+		RareDefaultEvent
+Name: The Lorn-Fluke screams, lashing out
+Id: 168372
+Description: Your guns pound into it from one side. Cultists attack from the other. Sorrow-spiders digging into their minions' eyes guide them as they sink in serrated harpoons tied to silken ropes, wound tightly around their ship. The Avaricious Lorn-Fluke fights, pitting all its power against the Tree of Ages' might, but it is no good. It cannot submerge. It cannot escape!
+<br /><br />
+Thousands... perhaps even more... of vicious sorrow-spiders flock onto its back, tearing at its spines and sinking in their poisonous teeth. The Lorn-Fluke shrieks and buckles but can do nothing to stop the onslaught. Finally, exhausted, it can do nothing but be dragged irresistibly towards whatever fate awaits it in the dark coves of Saviour's Rocks.
+<br /><br />
+There is a splash as one of the cultists throws a small token of appreciation for your extra assistance.
+
+
+
+	ChildBranches 2
+Name: Stay out of the fight
+Id: 138644
+Description: This is not your ship, or your battle. The Nocturne is barely holding together as it is.
+
+		DefaultEvent
+Name: The Lorn-Fluke screams
+Id: 167779
+Description: There is no need for your assistance. Cultists aboard the Tree of Ages soon have it pinned with vicious, serrated harpoons fired deep into its flesh. Sorrow-spiders in their hollow eyes guide their movements as the silken ropes drag on the Lorn-Fluke and pit its power against the Tree of Ages' mighty engines, preventing its escape.
+<br /><br />
+Thousands... perhaps even more... of vicious sorrow-spiders flock onto its back, tearing at its spines and sinking in their poisonous teeth. The Lorn-Fluke shrieks and buckles but to no avail. Finally, exhausted, it can do nothing but be dragged towards whatever fate awaits it in the dark coves of Saviour's Rocks.
+
+		ParentEvent
+Name: 
+Id: 167777
+Description: 
+
+
+
+	ChildBranches 3
+Name: The zee is quiet once more
+Id: 138645
+Description: All is still. All is well. A relief. The Nocturne would not survive another encounter.
+
+		DefaultEvent
+Name: A boatload of questions
+Id: 167780
+Description: So much for the sorrow-spiders being interested in the Nocturne. If it had any secrets, surely they would be acquiring them now. It must be about the Lorn-Fluke. But why?
+<br /></br />
+In any event, the Nocturne will never make it to Saviour's Rocks in its current condition. Its original resting place seems as fitting a grave as any, and is close enough to rendezvous with the rest of the crew.
+
+		ParentEvent
+Name: 
+Id: 167777
+Description: 
+
+
+
+	ChildBranches 4
+Name: Leave the Nocturne to its fate
+Id: 138646
+Description: Return to the ship with the surviving crew.
+
+		DefaultEvent
+Name: At least some survived...
+Id: 167781
+Description: You have to hope they didn't die for nothing. Or worse, for something the whole Neath will regret.
+
+		ParentEvent
+Name: 
+Id: 167777
+Description: 
+
+
+
+	ChildBranches 5
+Name: Leave the Nocturne to its fate
+Id: 138648
+Description: Return to the ship with the surviving crew.
+
+		DefaultEvent
+Name: At least a reasonable number survived...
+Id: 167783
+Description: You have to hope the others didn't die for nothing. Or worse, for something the whole Neath will regret.
+
+		ParentEvent
+Name: 
+Id: 167777
+Description: 
+
+
+
+	ChildBranches 6
+Name: Leave the Nocturne to its fate
+Id: 138649
+Description: Return to the ship with the surviving crew.
+
+		DefaultEvent
+Name: At least most of the crew survived...
+Id: 167784
+Description: You have to hope the others didn't die for nothing. Or worse, for something the whole Neath will regret.
+
+		ParentEvent
+Name: 
+Id: 167777
+Description: 
+
+
+
+	ChildBranches 7
+Name: Leave the Nocturne to its fate
+Id: 138650
+Description: Return to the ship with the surviving crew.
+
+		DefaultEvent
+Name: At least everyone survived...
+Id: 167785
+Description: It would have been terrible if they'd died for nothing. Or worse, for something the whole Neath will regret.
+
+		ParentEvent
+Name: 
+Id: 167777
+Description: 
+
+
+
+	ChildBranches 8
+Name: Leave the Nocturne to its fate
+Id: 138662
+Description: Return to the ship
+
+		DefaultEvent
+Name: You return alone
+Id: 167805
+Description: You have to hope the crew who came with you on this voyage didn't die for nothing. Or worse, for something the whole Neath will regret.
+
+		ParentEvent
+Name: 
+Id: 167777
+Description:

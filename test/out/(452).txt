@@ -1,0 +1,173 @@
+(452)
+Name: Kingeater's Castle
+Id: 143370
+Description: An old voracity lives here, in the far reaches of the zee. The priests are long gone, but sacrifices are still made. Perhaps you have come here to make a sacrifice. Perhaps the sacrifice is you.
+
+	ChildBranches 1
+Name: An act of burning faith
+Id: 124088
+Description: Which god holds sway here? Storm, Stone, Salt? Perhaps no god that is elsewhere named. But if you feed it, it will calm your mind. [This will expend Fuel and Supplies to lower your Terror.]
+
+		DefaultEvent
+Name: A red and roaring light
+Id: 143371
+Description: At Kingeater's Castle, one finds unexpected words rising easily to the lips. You speak them, and so do your zailors, as they build the offering pyre. "The heart is destiny's engine," the bo'sun mumbles. He looks embarrassed. "We shall all return," you find yourself reply. You light the pyre and stand back.
+<br/><br/>
+The flames warm you, warm your crew. The light plays on your faces and your outstretched hands. The darkness shrinks back. In crackling of the flames is the sound of home.
+
+		ParentEvent
+Name: 
+Id: 143370
+Description: 
+
+
+
+	ChildBranches 2
+Name: Lose your mind
+Id: 124089
+Description: Offer your thoughts at the altar. [Do not do this.]
+
+		DefaultEvent
+Name: Falling castles
+Id: 143372
+Description: A dead wind which blew from the north. A hungry sun rode the wind. It made of memories a castle. There are mirrors in the ice. A thousand doors and none. The end of the chain is horizon's beginning. Horizon's beginning. Your throat is bleeding.
+
+		ParentEvent
+Name: 
+Id: 143370
+Description: 
+
+
+
+	ChildBranches 3
+Name: Eat your crew
+Id: 146361
+Description: Not all of them will go easily. [Do not do this. This will destroy all your crew and any human, or near-human, Officers. The struggle will wound or even kill you.]
+
+		DefaultEvent
+Name: Alone alone all all alone
+Id: 180521
+Description: Alone on a wide wide sea.
+
+		ParentEvent
+Name: 
+Id: 143370
+Description: 
+
+
+
+	ChildBranches 4
+Name: Allow the Gall-Eyed Engineer to go ashore
+Id: 146433
+Description: "This is the place! Please, Captain. My time is close."
+
+		DefaultEvent
+Name: "There!"
+Id: 180641
+Description: She rises on her feet like a dancer and darts towards the shadowed altar. "Oh, so much. I see so much. Red roses. Here! Look here! The dawn is bleeding. The stars are hungry. East - it went East when it was done. There are drums beneath my feet. Look where I rise. Look when I am gone! Oh, those colours, those colours. My heart - my heart - "
+<br/><br/>
+She collapses. With a jubilant buzz, a cloud of red wasps bursts from her, circle once, and rise, disappear among the shadows of the column tops. High above, you hear an answering buzz.
+<br/><br/>
+Where she indicated roses, you find a cache of fuel buried beneath the bones of sacrifices. Where she spoke of drums, you find Khanate religious treasures beneath a stone - world-stones, ivory cups, a hand-drum of shell. 
+<br/><br/>
+The zailors carry her corpse back to the ship. You spare a single glance for the ruined rags of her face. It's enough to see that she died smiling.
+
+		ParentEvent
+Name: 
+Id: 143370
+Description: 
+
+
+
+	ChildBranches 5
+Name: Construct the Fulgent Impeller
+Id: 146684
+Description: Under directions from the Mechanic, your crew piece the slabs of black ivory together, as the ancients were said to assemble stone walls without mortar. Sometimes they must saw a piece in half, or abrade its sides to make it fit, but the work proceeds with surprising speed. The Impeller begins to take shape - a squat, heavy-shouldered shape, like a scarecrow built to resemble an engine.
+<br/><br/>
+"I don't think this is engineering any more," the Mechanic confides. "Possibly it's witchcraft. But I don't really mind." He rubs his hands.
+
+		DefaultEvent
+Name: Destiny's Engine
+Id: 181085
+Description: Now the Mechanic wraps ivory segments with wire and scalds them with acid. He stains them with blood. ("I'll need some of yours, too," he says apologetically. "You're the captain.") He studs the bones with sapphires. He has the sailors bring up his last two custom-made components: an assemblage of copper tubes (in which he places the Element of Dawn) and a steel capsule the size of a barrel (which he has the zailors lock into the Impeller's black bone core).
+<br/><br/>
+"Almost ready," he affirms."It just needs a spark, and a heart." He looks to the Unsettling Sage.
+<br/><br/>
+"Yes, I know," the Sage says, a little sadly. "The heart is destiny's engine." He climbs into the capsule at the Impeller's heart, and locks the framework into place behind him. The Mechanic strikes the tubes which contain the Element, and it spits forth a sizzle of rosy light. The ivory blazes instantly with energy! The capsule, instantly incandescent with heat, seals shut forever. With a ticking sound, it slowly begins to cool.
+<br/><br/>
+The Impeller stands radiant and whole before you: a jigsaw of heatlessly blazing ivory, with a martyr at its core. "What a relief!" the Mechanic says. "I wasn't entirely sure that would work." He claps you on the shoulder. "My work is done. Thank you. Thank you!"
+
+		ParentEvent
+Name: 
+Id: 143370
+Description: 
+
+
+
+	ChildBranches 6
+Name: Attempt travel elsewhere
+Id: 146747
+Description: (useful esp if Salt teleports you here)
+
+		DefaultEvent
+Name: 
+Id: 181192
+Description: 
+
+		ParentEvent
+Name: 
+Id: 143370
+Description: 
+
+
+
+	ChildBranches 7
+Name: Put a blemmigan ashore
+Id: 147283
+Description: It's quivering.
+
+		DefaultEvent
+Name: Gone
+Id: 181960
+Description: The blemmigan creeps down the ramp, on to the stones of the Castle, past the litter of bones. It slows. It collapses, with a sigh like a deflating toy balloon. Even as you watch, its skin begins to shrivel and dry. No blemmigan will ever prosper here.
+
+		ParentEvent
+Name: 
+Id: 143370
+Description: 
+
+
+
+	ChildBranches 8
+Name: Rid your Sigil-Ridden Navigator of his troublesome humanity
+Id: 147452
+Description: He lies on the slab. He hands you the knife.
+
+		DefaultEvent
+Name: The rite
+Id: 182215
+Description: The power that presides over Kingeater's Castle bears witness - your pact is not with it, but with your Navigator's sigil. You open him up and remove the parts he doesn't need anymore. He laughs in exultation as each one goes wetly into the stone basin. 
+<br/><br/>
+You carve six more copies of the sigil inside him, then close him up. He sits, smiles, stands, speaks. "Thank you, [q:Addressed As]. I am at home." The thing that follows you back to your ship is not the Navigator. But it has his skills, and his face (though the right half is blotted by the sprawling sigil). The crew edge away.
+
+		ParentEvent
+Name: 
+Id: 143370
+Description: 
+
+
+
+	ChildBranches 9
+Name: Compile a Port Report
+Id: 147666
+Description: Silence. Desolation. The sense of an impending and terrible mistake.
+
+		DefaultEvent
+Name: "Everything is horrible."
+Id: 182524
+Description: It's not really an appropriate title for a formal report, is it? Let's find something a little more clinical.
+
+		ParentEvent
+Name: 
+Id: 143370
+Description:

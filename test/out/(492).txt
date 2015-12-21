@@ -1,0 +1,40 @@
+(492)
+Name: Visit Isery's Office
+Id: 168555
+Description: Your Patron beckons you into their office above the Honeyed Tongue. "I have a delivery for the Alarming Scholar in London," they tell you, over a meal of fungus-blossom and sea-lily soup. "A delivery that needs to pass beneath the notice of the Revenue."
+<br><br>
+Isery places a casket on the table, and slides it open with a dull click. Inside are vials of what is unmistakably red honey. It gleams malevolently.
+
+	ChildBranches 1
+Name: Accept a new commission
+Id: 139070
+Description: You are hardly squeamish about smuggling red honey. If you change your mind, you could always turn the shipment over to the Admiralty instead.
+
+		DefaultEvent
+Name: 
+Id: 168556
+Description: "The Scholar will give you some notes in return. Bring them to me, and I shall be most pleased."
+<br><br>
+Isery slides the casket over to you, and very pointedly does not enumerate the consequences of returning without the notes. Instead: they smile, too wide, and you shiver.
+
+		ParentEvent
+Name: 
+Id: 168555
+Description: 
+
+
+
+	ChildBranches 2
+Name: Refuse their request
+Id: 139071
+Description: You think of lamplighter bees and Cage-Gardens, and your mouth, of its own volition, shapes a refusal.
+
+		DefaultEvent
+Name: 
+Id: 168557
+Description: "I thought, I really did, that you were made of sterner stuff," Isery tells you, sorrow on their sharp-edged features. "Still. I am not the sort to hold a grudge. Come back, if you change your mind."
+
+		ParentEvent
+Name: 
+Id: 168555
+Description:

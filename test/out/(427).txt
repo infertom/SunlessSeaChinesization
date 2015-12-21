@@ -1,0 +1,87 @@
+(427)
+Name: Recover your soul
+Id: 175442
+Description: Which monkey took it? Is there anything about one of these that seems strangely familiar?
+
+	ChildBranches 1
+Name: A flatulent ape
+Id: 143261
+Description: Goodness, the stench! The other monkeys howl with amusement, even as they pull as far away as possible.
+
+		DefaultEvent
+Name: A sense of wholeness
+Id: 175443
+Description: What was missing is now restored, with no harm done save a sudden itching and an urge to swing from the trees by the tail you realise you no longer have. Both will hopefully fade in due course.
+
+		ParentEvent
+Name: 
+Id: 175442
+Description: 
+
+
+
+	ChildBranches 2
+Name: A jabbering ape
+Id: 143335
+Description: Squawk, squawk - that's all it does, spittle and the occasional recognisable word flying with equal worth.
+
+		DefaultEvent
+Name: A sense of wholeness
+Id: 175548
+Description: What was missing is now restored, with no harm done save a sudden itching and an urge to swing from the trees by the tail you realise you no longer have. Both will hopefully fade in due course.
+
+		ParentEvent
+Name: 
+Id: 175442
+Description: 
+
+
+
+	ChildBranches 3
+Name: An intoxicated ape
+Id: 143337
+Description: It gropes a stolen bottle of mushroom wine, hiccuping and burping as it relieves itself from a branch.
+
+		DefaultEvent
+Name: A sense of wholeness
+Id: 175550
+Description: What was missing is now restored, with no harm done save a sudden itching and an urge to swing from the trees by the tail you realise you no longer have. Both will hopefully fade in due course.
+
+		ParentEvent
+Name: 
+Id: 175442
+Description: 
+
+
+
+	ChildBranches 4
+Name: A filthy ape
+Id: 143338
+Description: Its matted hair and rotting teeth are a testament to bad health and worse self-respect.
+
+		DefaultEvent
+Name: A sense of wholeness
+Id: 175551
+Description: What was missing is now restored, with no harm done save a sudden itching and an urge to swing from the trees by the tail you realise you no longer have. Both will hopefully fade in due course.
+
+		ParentEvent
+Name: 
+Id: 175442
+Description: 
+
+
+
+	ChildBranches 5
+Name: None of them
+Id: 144899
+Description: The mere thought that you would see yourself in one of these miserable, pathetic beasts!
+
+		DefaultEvent
+Name: Who needs a soul anyway?
+Id: 178076
+Description: Is not eleven per cent of Fallen London now getting along just fine without one? Though should anyone ask, it was a devil that bought it. Definitely a devil.
+
+		ParentEvent
+Name: 
+Id: 175442
+Description:

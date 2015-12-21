@@ -1,0 +1,50 @@
+(51)
+Name: The Snuffer's Appetite
+Id: 149090
+Description: Another crewman has gone missing. Another abandoned face found on deck, as if to taunt you.
+
+	ChildBranches 1
+Name: Have the ship's doctor examine your crew
+Id: 127814
+Description: Each eyes the other sidelong. Your physician can provide a more educated evaluation.
+
+		DefaultEvent
+Name: No sign
+Id: 149091
+Description: All are human, your physician reports. Most likely the Snuffer has escaped overboard. Unless it's still hiding somewhere in the ship. Unless your physician is the one who... no. You have to trust someone, and this is someone you know well.
+
+		ParentEvent
+Name: 
+Id: 149090
+Description: 
+
+		SuccessEvent
+Name: Unmasked!
+Id: 149092
+Description: Snuffers are more malleable than men. This one has relocated its internal organs for its own convenience: your physician identifies an errant lung and shouts the alarm! Your crew beats the hissing horror to the deck. "That was Hilary!" yelps the bo'sun. In a terrified rage, they rearrange its organs more violently and permanently. The Snuffer is dead.
+
+
+
+	ChildBranches 2
+Name: Use a ruse
+Id: 127815
+Description: Snuffers, the stories say, eat candles. They are too cunning to be caught by a bait of common candles, but if you could render down something rare...
+
+		DefaultEvent
+Name: An accident!
+Id: 149093
+Description: You try to render mauve quasi-amphibian fats into tallow. It does not go well. The doctor applies ointment and bandages, clucking sadly.
+
+		ParentEvent
+Name: 
+Id: 149090
+Description: 
+
+		SuccessEvent
+Name: A well-baited trap
+Id: 149094
+Description: You use the wax from the Catch's brain-cavity to form a drooping, but substantial, candle. Its aroma is remarkable - like ashy roses. You light it in your cabin, and wait in the wardrobe with the cabin door ajar.
+<br/><br/>
+Here comes the Snuffer, eyes aglow like covetous lamps through the holes in its stolen face, tip-toeing into your cabin. Step out behind it. Smash its horrible skull in with a gaff-hook. Have your crew fling it in the sea, in case it somehow revives. And there's an end of it.
+<br/><br/>
+(Unless there's a second Snuffer aboard.)

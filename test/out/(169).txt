@@ -1,0 +1,161 @@
+(169)
+Name: Geometer's House
+Id: 168891
+Description: Now you have been invited to his home, at the time customarily appointed for him to receive those who are not his equal in rank, yet not so far beneath him as to deserve to be ignored. What ceremonial gift will you bring?
+
+	ChildBranches 1
+Name: Bring a string of rats
+Id: 139258
+Description: Cobras like to eat rodents, surely?
+
+		DefaultEvent
+Name: For the cat
+Id: 168892
+Description: The rats are accepted but immediately passed on to the household cat - a sleek black satisfied creature, in its own small mask of filigree gold. 
+<br/><br/>
+Awkwardly, this leaves you with no other gift for the Geometer himself. You have no choice to depart early, before someone thinks to have you re-masked in a more embarrassing part.
+
+		ParentEvent
+Name: 
+Id: 168891
+Description: 
+
+
+
+	ChildBranches 2
+Name: Bring a necklet of lapis beads
+Id: 139259
+Description: If they do not suit him, they may suit a wife of his; if they don't suit her, he can use them for an offering.
+
+		DefaultEvent
+Name: Feeling blue
+Id: 168893
+Description: He gives them to a servant with orders that they be crushed, and the powder made to pigment, and the pigment used for painting. It is uncertain whether this is a deadly insult.
+
+<br/><br/>
+You aren't thrown out of the house, at any rate.
+
+		ParentEvent
+Name: 
+Id: 168891
+Description: 
+
+
+
+	ChildBranches 3
+Name: Bring a poem concerning snakes, copied on a new scroll
+Id: 139260
+Description: 800 lines on the scaly denizens of the snake pit.
+
+		DefaultEvent
+Name: Mixed results
+Id: 168894
+Description: He appears to be pleased by this gift, but it takes him aback, as well. Several times he remarks that this sort of merchandise is something he would expect to be brought to the island by a Bat.
+<br/><br/>
+It requires a great deal of chittering and wing-folding to persuade him of your Moth nature.
+
+		ParentEvent
+Name: 
+Id: 168891
+Description: 
+
+
+
+	ChildBranches 4
+Name: Bring a comb made of bone
+Id: 139261
+Description: Perhaps he grows hair beneath his mask, which covers his whole head.
+
+
+
+		DefaultEvent
+Name: ...no.
+Id: 168895
+Description: Flung away into a corner! Broken! He is disdainful. What use for a comb to a man whose head is covered in bare scales day in and out? 
+<br/><br/>
+From a joker, for instance baboon mask, it would have been a very good witticism, but from you, no! Wholly out of place!
+
+		ParentEvent
+Name: 
+Id: 168891
+Description: 
+
+
+
+	ChildBranches 5
+Name: Bring fresh candles
+Id: 139263
+Description: You have heard that he likes candles.
+
+
+
+		DefaultEvent
+Name: Hunger set aside
+Id: 168898
+Description: The gift is suited to him personally: one can see this by the way that he hesitates regretfully before he performs the rejection that etiquette requires. It was thoughtful, but it is not the gift of Moth to Cobra. Therefore, wrong.
+
+		ParentEvent
+Name: 
+Id: 168891
+Description: 
+
+
+
+	ChildBranches 6
+Name: Bring two honey cakes
+Id: 139264
+Description: Isn't that the proper gift for lulling snakes? 
+
+
+
+		DefaultEvent
+Name: Triumph
+Id: 168899
+Description: He accepts; he approves. The cakes are placed on the front table of his receiving room so that the other guests may observe and appreciate the correctness of your gesture. 
+<br/><br/>
+
+You are permitted to stand to one side and to watch the others arrive, but there is no one whose gift supplants yours in the place of honor. Not even the gift of a preserved lark, frozen in gelatin with a bubble of song rising from its open beak.
+<br/><br/>
+
+When you depart the Chief Geometer's house, he presses on you a prediction: that one day when you have most need, the earth will swallow you in one place and spit you out in another. It is, of course, only a ritual saying.
+
+		ParentEvent
+Name: 
+Id: 168891
+Description: 
+
+
+
+	ChildBranches 7
+Name: Bring nothing
+Id: 139265
+Description: It is impertinent for one of lesser rank to presume to show charity to a superior.
+
+
+
+		DefaultEvent
+Name: No.
+Id: 168900
+Description: You arrive empty-handed. Already piled on his table are the wrappings of other gifts. They reprove you. You have erred. You have no choice to depart early, before someone thinks to have you re-masked in a more embarrassing part.
+
+		ParentEvent
+Name: 
+Id: 168891
+Description: 
+
+
+
+	ChildBranches 8
+Name: Do not go
+Id: 139267
+Description: It is necessary for him to offer but incorrect for you to accept.
+
+		DefaultEvent
+Name: Nothing lost but nothing gained
+Id: 168902
+Description: You sit at home, in a quake. When he sends a message to reprove you for your non-attendance, is this also part of the dance?
+
+		ParentEvent
+Name: 
+Id: 168891
+Description:

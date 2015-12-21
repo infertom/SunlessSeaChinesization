@@ -1,0 +1,96 @@
+(505)
+Name: Returning to Varchas
+Id: 152422
+Description: The walled city of Varchas is a tangle of green vines and luminescent fungal flowers slow-blooming around mouldering stone. A quincunx of carved stepped-towers rise over the walls and pour burning white light into the bleak sky. 
+<br/><br/>
+A rough, shadowed path leads from the docks to the Mirrored Gates of Varchas. Two towering carved-stone lamps throw their light on the angled mirrors, and a blue-cloaked Guard stands in the reflected pool of light. 
+<br/><br/>
+The city is a beacon against the tree-hushed, sprawling darkness of the Elder Continent. In the far distance a vast Mountain glimmers.
+
+
+	ChildBranches 1
+Name: "Welcome."
+Id: 129881
+Description: The Guard at the Mirrored Gates smiles. Clearly, she remembers you.
+
+
+		DefaultEvent
+Name: 
+Id: 152423
+Description: The blue-cloaked Guard waves you through. "Walk in the light of Mihir."
+
+		ParentEvent
+Name: 
+Id: 152422
+Description: 
+
+
+
+	ChildBranches 2
+Name: "Not yet, Taamas."
+Id: 138136
+Description: The blue-cloaked Guard watches you narrowly.
+
+		DefaultEvent
+Name: "Turbulent times."
+Id: 166918
+Description: "We dare not admit too many outsiders at once. Wait your turn. Return soon..."
+
+		ParentEvent
+Name: 
+Id: 152422
+Description: 
+
+
+
+	ChildBranches 3
+Name: "Oh, it's you."
+Id: 138144
+Description: The Guard at the Mirrored Gates gives you a startled look. Clearly, she remembers you.
+
+
+		DefaultEvent
+Name: 
+Id: 166930
+Description: Up close, the blue-cloaked Guard looks grimly fearful and wide-eyed. "There are...strange things going on in Varchas these days." She turns away. "Sometimes I think Mihir has turned his gaze away from us forever."
+<br/><br/>
+She seems to recollect herself all of a sudden, and stands a bit straighter. "You will see for yourself, Taamas. Step lightly, and walk in the light of Mihir."
+
+		ParentEvent
+Name: 
+Id: 152422
+Description: 
+
+
+
+	ChildBranches 4
+Name: Put a blemmigan ashore
+Id: 147566
+Description: Will the Guard permit it?
+
+		DefaultEvent
+Name: A careless shrug
+Id: 182373
+Description: The guard watches as the blemmigan whirls into the darkness. She shakes her head. "More of your outland pollution, Taamas? Mihir will see to it, I imagine."
+
+		ParentEvent
+Name: 
+Id: 152422
+Description: 
+
+
+
+	ChildBranches 5
+Name: Compile a Port Report
+Id: 147655
+Description: The Admiralty will want to know.
+
+		DefaultEvent
+Name: Changes in Varchas?
+Id: 182511
+Description: Not all is well. Observe and record.
+
+		ParentEvent
+Name: 
+Id: 152422
+Description:

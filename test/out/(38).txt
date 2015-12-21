@@ -1,0 +1,46 @@
+(38)
+Name: MUTINY!
+Id: 150669
+Description: Fear and despair have destroyed the loyalty of your crew. Half of those who remain have taken up arms against you. You've taken shelter in the bridge, while their shots ring out around you.
+
+	ChildBranches 1
+Name: Attempt to win them round
+Id: 128743
+Description: You're their only hope of reaching home alive. Make them understand that. [Failure here will, as it happens, also end the game.]
+
+		DefaultEvent
+Name: A final betrayal
+Id: 150674
+Description: You think you're getting through to them. You see the lead mutineer nod in understanding, and lower his stolen rifle. You step out of cover, your arms raised... and a shot from his companion topples you. The false-stars above are the last thing you see. They're beautiful.
+
+		ParentEvent
+Name: 
+Id: 150669
+Description: 
+
+		SuccessEvent
+Name: The long way home
+Id: 150676
+Description: Home, hearth, sweethearts, grog. Mrs Plenty's Rubbery Lumps. If they stick with you, they'll see these things again. You see them nod and lower their weapons. The lead mutineer rushes you regardless, screaming in incoherent rage. You cut him down. You've won some time. But your confidence, and their trust in you, are failing.
+
+
+
+	ChildBranches 2
+Name: Cut them down!
+Id: 128741
+Description: Cowards! Villains! D__n them all! [Failure here means your game is over.]
+
+		DefaultEvent
+Name: Treachery and despair
+Id: 150670
+Description: You take cover with your loyalists, and hold them at bay as long as you can. One by one, you run out of ammunition. When they storm the bridge, you fight them hand-to-hand... to no avail. One of them smashes you through the glass of the bridge windows. You tumble to the deck as they shout in desperate victory, and land with a final crunch.
+
+		ParentEvent
+Name: 
+Id: 150669
+Description: 
+
+		SuccessEvent
+Name: A costly victory
+Id: 150682
+Description: A haze of blood and gunfire. Screams and imprecations. A man you knew with your knife in his heart. Rather quickly, it's over. You are drenched in blood and racked with wounds, and many of your crew are dead - but you stand victorious. Push the corpses of the mutineers into the sea, and press on for what little time remains to you.

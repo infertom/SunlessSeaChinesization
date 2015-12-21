@@ -1,0 +1,266 @@
+(246)
+Name: Speak to the Magician
+Id: 147321
+Description: He's a good engineer, despite that missing hand. But zailors fall silent when he passes.
+
+	ChildBranches 1
+Name: Ask bluntly about his hook
+Id: 126631
+Description: ...after a fish supper and a half-carafe of adequate Morelways.
+
+		DefaultEvent
+Name: A profession-changing injury
+Id: 147322
+Description: "A snake bit it off." For once, he is not smiling. "I put my hand through an unwise mirror... and a snake bit it off. That ended my career in the theatre."
+<br/><br/>
+He leans forward. "I am not a spiteful man. But I lost my hand. Perhaps you can imagine what that means to a magician. I am looking for revenge, [q:Addressed As]. I need weapons against the serpent. I rather hope we might come across them. I may ask a favour of you, if we do."
+<br/><br/>
+[Find a Serpent Image to continue the Genial Magician's story. They can often be found in Irem, and rarely in Venderbight and other places.]
+
+		ParentEvent
+Name: 
+Id: 147321
+Description: 
+
+
+
+	ChildBranches 2
+Name: Ask how a magician came to be an engineer
+Id: 126683
+Description: ...after a meal of salt pork and a glass of good Greyfields.
+
+		DefaultEvent
+Name: A drained glass
+Id: 147398
+Description: He gestures (carefully) with his hook. "This. It makes card-tricks difficult. But we know about mechanisms, we magicians. My speciality was mirrors, but there are principles in common. It was a good start. And I found that I needed to go to sea." Why?
+<br/><br/>
+"Because, [q:Addressed As], someone owes me a hand. Once a friend: now an enemy. I am looking for a weapon to use against them. If once we find it, I may have a favour to ask you."
+<br/><br/>
+[Find a Serpent Image to continue the Genial Magician's story. They can often be found in Irem, and rarely in Venderbight and other places.]
+
+		ParentEvent
+Name: 
+Id: 147321
+Description: 
+
+
+
+	ChildBranches 3
+Name: Dispel the darkness?
+Id: 126684
+Description: He's mentioned before that he was in the theatre. Could he arrange a... diversion... to improve morale? His eyes are opaque. "Yes," he acknowledges. "But I will require some very particular materials. Don't ask why."
+
+		DefaultEvent
+Name: An event on the afterdeck
+Id: 147399
+Description: The crew gathers before a backdrop of parabola-linen marked with stars and eyes. Their mood is jocular, sceptical, but anticipatory. They could use a show.
+<br/><br/>
+The Magician appears. His eyes are mirrors. (Lenses, no doubt!) He has four arms, like an Indian god. (Surrogates, like his hook, surely.) He exhales blue fire! (Alcohol vapour, probably.) He raises his arms, and the air is filled with golden petals. (Up his sleeve!) Vines leap from the deck, twine his legs, creep up past his waist. (Did he release narcotic vapours?) The air is filled with viric light, and the Neath-roof above trembles, seems to open to a sky with an orange sun. Long grasses rise around you. (Er...)
+<br/><br/>
+It's as if you wander in a meadow. Here and there your crew stand, chatting, laughing, eating fallen fruits. Rich juice runs down their chins. The sun is warm. Walls of jungle rise around you. Beneath your feet, the dark earth churns like the sea, and in the shadows of the undergrowth, serpents hiss like steam - but here, for a while, you are safe. Until you wake.
+<br/><br/>
+You wake. You are in your bunk: the ship is quiet around you, bar the throbbing of the engines that the Magician tends. The watch-bell rings, and you hear crew rouse from their hammocks. You can still smell hot earth, dark fruit.
+
+		ParentEvent
+Name: 
+Id: 147321
+Description: 
+
+
+
+	ChildBranches 4
+Name: Answer his questions about your past
+Id: 127501
+Description: You've kept your secrets long enough. [Unmask yourself! This will allow you to select a Past, Ambition, and form of preferred address - also providing you with a specialist ability bonus.]
+
+		DefaultEvent
+Name: 
+Id: 148609
+Description: 
+
+		ParentEvent
+Name: 
+Id: 147321
+Description: 
+
+
+
+	ChildBranches 5
+Name: Ask again about the Khanate
+Id: 129686
+Description: He needs to find help in the Khanate to enact his revenge. What kind of help? Invite him to dinner and ask about it.
+
+		DefaultEvent
+Name: "Foolish help."
+Id: 152142
+Description: "London isn't the first city that's been brought down here. The Khaganians came down on the last one. Their ancestors, I mean. They fell into the service of the kings behind mirrors. The sensible ones thought better of it, and made a sensible exit, to found the New Khanate on the Salt Steppes. Nothing remains of the others. A lesson in the dangers of meddling with Fingerkings. As is this." He taps his hook.
+<br/><br/>
+"But meddling will out: it always does. Some of the Khaganians are still silly enough to preserve the arts of their ancestors. It's the silly ones I hope to find."
+
+		ParentEvent
+Name: 
+Id: 147321
+Description: 
+
+
+
+	ChildBranches 6
+Name: Construct the Serpentine
+Id: 129790
+Description: "I have an idea."
+
+		DefaultEvent
+Name: A weapon of revenge
+Id: 152286
+Description: "I will set my enemy at the heart of an engine. I will make of him a beast of burden. But I'm going to need a drydock. And some money." [Bring 1200 Echoes to the Drydock in London to continue.]
+
+		ParentEvent
+Name: 
+Id: 147321
+Description: 
+
+
+
+	ChildBranches 7
+Name: Ask about the Khanate
+Id: 129961
+Description: He needs to find help in the Khanate to enact his revenge. What kind of help? Invite him to dinner and ask about it.
+
+		DefaultEvent
+Name: "Foolish help."
+Id: 152530
+Description: "As I said... London isn't the first city that's been brought down here. The Khaganians came down on the last one. Their ancestors, I mean. They fell into the service of the kings behind mirrors. The sensible ones thought better of it, and made a sensible exit, to found the New Khanate on the Salt Steppes. Nothing remains of the others. A lesson in the dangers of meddling with Fingerkings. As is this." He taps his hook.
+<br/><br/>
+"But meddling will out: it always does. Some of the Khaganians are still silly enough to preserve the arts of their silly ancestors. It's the silly ones I hope to find."
+
+		ParentEvent
+Name: 
+Id: 147321
+Description: 
+
+
+
+	ChildBranches 8
+Name: Increase your Veils
+Id: 129987
+Description: [Spend a Secret to improve your Veils, if it is no higher than 100.]
+
+		DefaultEvent
+Name: Parting the veil
+Id: 152585
+Description: "On the Surface, darkness is the absence of light. In the Neath - from a particular perspective - the opposite is true..."
+
+		ParentEvent
+Name: 
+Id: 147321
+Description: 
+
+
+
+	ChildBranches 9
+Name: "Do you have any use for this?"
+Id: 146680
+Description: Offer the Magician a Mirrorcatch Box Full of Very Angry Dream-Snakes.
+
+		DefaultEvent
+Name: "....no."
+Id: 181080
+Description: "No use to me. They're not royalty." Perhaps that's why he's in such a tearing hurry to leave the room. But perhaps you've properly disturbed his composure.
+
+		ParentEvent
+Name: 
+Id: 147321
+Description: 
+
+
+
+	ChildBranches 10
+Name: Exchange a secret smile
+Id: 147266
+Description: A romance with an Officer might be considered unseemly. You'll need to be discreet.
+
+		DefaultEvent
+Name: Later...
+Id: 181941
+Description: [Opportunities for other trysts with the Magician will occur while you're at sea - but not quite yet.]
+
+		ParentEvent
+Name: 
+Id: 147321
+Description: 
+
+
+
+	ChildBranches 11
+Name: Proposition the Genial Magician
+Id: 147267
+Description: "Honestly, I could use the distraction. Don't look at me like that. You're terribly desirable. But I <i>could</i> use the distraction." [The Magician enjoys erudition. Ensure that your Pages is at least twenty points higher than your Iron.]
+
+		DefaultEvent
+Name: A certain reserve
+Id: 181942
+Description: The Magician is both accomplished and inventive. You do detect a certain reserve; and for your part, there is always the delicate menace of the hook. But you exhaust each other delightfully, and the watch-bell comes only too soon.
+<br/><br/>
+[Opportunities for other trysts with the Navigator will occur while you're at sea, substantially reducing Terror. However, if you have a lover in port, they might find out.]
+
+		ParentEvent
+Name: 
+Id: 147321
+Description: 
+
+
+
+	ChildBranches 12
+Name: Proposition the Prudent Magician
+Id: 147268
+Description: "Yes. Yes, I would like that." [The Magician enjoys erudition. Ensure that your Pages is at least twenty points higher than your Iron.]
+
+		DefaultEvent
+Name: Diminished
+Id: 181943
+Description: The Magician is both accomplished and inventive, but you have the sense that he is not what he was. The time passes pleasantly enough, but he leaves rather abruptly, with a mumbled apology, while your appetite is not yet entirely dulled.<br/><br/>
+[Opportunities for other trysts will occur while you're at sea, substantially reducing Terror. However, if you have a lover in port, they might find out.]
+
+		ParentEvent
+Name: 
+Id: 147321
+Description: 
+
+
+
+	ChildBranches 13
+Name: Proposition the Satisfied Magician
+Id: 147269
+Description: "Oh, yes, very yes indeed. Why don't you come over here?" [The Magician enjoys erudition. Ensure that your Pages is at least twenty points higher than your Iron.]
+
+		DefaultEvent
+Name: Thrill granting
+Id: 181944
+Description: The Magician is both accomplished and inventive. He abandons himself entirely to the encounter, and, for a little while, the zee and its terrors are quite forgotten. You can never, however, quite forget the hook: but it lends a frisson all of its own. He urges you to ignore the watch-bell when it tolls. But you are the captain, after all.<br/><br/>
+[Opportunities for other trysts will occur while you're at sea, substantially reducing Terror. However, if you have a lover in port, they might find out.]
+
+		ParentEvent
+Name: 
+Id: 147321
+Description: 
+
+
+
+	ChildBranches 14
+Name: Proposition the Urbane Magician
+Id: 147270
+Description: "I do so enjoy the way you think. Let's see what this body is capable of."
+
+		DefaultEvent
+Name: A sinuous embrace
+Id: 181945
+Description: A piercing hour of pleasure ensues. The Magician is both subtle and remorseless. At times, his flexibility borders on the boneless: although he remains firm in all the right places.
+<br/><br/>
+"How did I ever do without you?" he hisses passionately. You're not completely certain that he's talking to you.
+<br/><br/>
+[Opportunities for other trysts will occur while you're at sea, substantially reducing Terror. However, if you have a lover in port, they might find out.]
+
+		ParentEvent
+Name: 
+Id: 147321
+Description:

@@ -1,0 +1,41 @@
+(5)
+Name: The Man Who Was Determined to Steal the Sun
+Id: 181044
+Description: This miscreant has <i>cut his way through a bulkhead </i> into the cargo hold and opened a Mirrorcatch Box! The box is empty, now. He looks down at his feet. 'Sorry, captain. It war so shiny.' [Theft is less likely from secure storage, but will still occasionally happen. Sunlight is tempting.]
+
+	ChildBranches 1
+Name: Throw him in the brig
+Id: 146655
+Description: Make an example of him.
+
+		DefaultEvent
+Name: Just desserts
+Id: 181045
+Description: You won't get your sunlight back, but at least you've shown who's in charge.
+
+		ParentEvent
+Name: 
+Id: 181044
+Description: 
+
+
+
+	ChildBranches 2
+Name: Let him off with a warning
+Id: 146656
+Description: It is <i>very</i> shiny.
+
+		DefaultEvent
+Name: Delighted gratitude
+Id: 181046
+Description: The sunlight-stealer is greatly relieved, but discipline will suffer. Your crew are not impressed.
+
+		ParentEvent
+Name: 
+Id: 181044
+Description: 
+
+		RareDefaultEvent
+Name: Gratitude... and curses
+Id: 181047
+Description: The sunlight-stealer is greatly relieved, but discipline will suffer. Your crew are not impressed. Just how unimpressed, you discover when you find a cursing-mark on the corridor wall opposite your cabin. Zailors have a keen sense of justice.

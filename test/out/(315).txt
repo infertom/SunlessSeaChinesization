@@ -1,0 +1,344 @@
+(315)
+Name: The Inky Blotter
+Id: 180301
+Description: Lit by two roaring fires, one at either end of the room. The bartender is in postman's uniform, like almost all of the patrons. A noseless postal inspector called Blunt Thomas delivers the drinks, clears tables, stacks the firewood.
+
+	ChildBranches 1
+Name: Listen in on postal tall tales
+Id: 146220
+Description: Fishermen brag about fish that got away. Postmen brag about hard deliveries.
+
+		DefaultEvent
+Name: Amazing what you get for a penny stamp
+Id: 180302
+Description: Delicate bottles lowered down chimneys on a rope. DO NOT FOLD UNDER ANY CIRCUMSTANCE letters curled through a narrow slot. Rattling, groaning crates brought back to the same address every day for twenty-two days running. The windows they pried open, the servants they bribed, the delivery surcharges they paid out of their own salaries just to get rid of one more packet.
+<br/>
+<br/>
+It is hard to tell which they hate more: the senders of mail, or the recipients. "Stands to reason, if the message was a welcome one, they'd tell the other fellow in person," reflects the Hairless Postwoman.
+
+		ParentEvent
+Name: 
+Id: 180301
+Description: 
+
+
+
+	ChildBranches 2
+Name: Ask why the local currency consists of rats
+Id: 146221
+Description: Two strings of rats for a pint of ale. Three strings for wine. Five for the tolerable brandy under the bar.
+
+		DefaultEvent
+Name: Scarcity is not an issue
+Id: 180303
+Description: The Hairless Postwoman at the end of the bar smiles mirthlessly; or maybe it's just the lack of eyebrows that does it. "Long enough carrying the things around, you get into the habit," she says. 
+<br/>
+<br/>
+Then she tells you that if you stay out late enough, you'll see some of the postmen making a procession to the centre of the island, stringing up rats around the statue like Yuletide decorations, in prayer to an ancient deity of this place. 
+<br/>
+<br/>
+From the coughing and choking elsewhere in the pub, you'd guess this is a story they often tell to newcomers.
+
+		ParentEvent
+Name: 
+Id: 180301
+Description: 
+
+
+
+	ChildBranches 3
+Name: Ask why the Hairless Postwoman is hairless
+Id: 146222
+Description: Legacy of some interestingly explosive package, maybe?
+
+		DefaultEvent
+Name: Faux pas
+Id: 180304
+Description: "No," she says. Curt, not pleased you asked. "Still had eyebrows when I came to Nuncio."
+<br/>
+<br/>
+The postman at the next bench diverts you, speaks in a low voice. "Lots of people find habits when they can't deliver the post any more. This one has a plucking habit. Best learn not to notice."
+<br/>
+<br/>
+You glance up. The Hairless Postwoman is still glaring at you.
+
+		ParentEvent
+Name: 
+Id: 180301
+Description: 
+
+
+
+	ChildBranches 4
+Name: Ask about that big statue in the center of the island
+Id: 146223
+Description: If there were a guidebook for visitors, it would have to be the first entry.
+
+		DefaultEvent
+Name: The monumental postman
+Id: 180305
+Description: "Oh, that. It's all of us, isn't it? Sort of the spirit of the island." Most of them don't seem troubled for more of an explanation than that. Though the Hairless Postwoman tells you it didn't always look like a Fallen London postman at all: that it used to have a different face, and a more old-fashioned outfit.
+
+		ParentEvent
+Name: 
+Id: 180301
+Description: 
+
+
+
+	ChildBranches 5
+Name: Ask why the postmen came here
+Id: 146224
+Description: You don't get the impression they're making a holiday of it.
+
+		DefaultEvent
+Name: All unhappy postmen are alike
+Id: 180306
+Description: Their stories have different beginnings - boredom, frustration, a fellow who was overwhelmed by guilt after a misdelivery - but they always end the same way. Undeliverable letters and parcels accumulating over months and years. Attempts to ignore the undeliverable, to shove it into a desk or carry it in the bottom of the bag. An increasing preoccupation with these items. 
+<br/>
+<br/>
+Finally, a decision: to meet the compulsion, to go to Nuncio and be rid at last of the remnants.
+<br/>
+<br/>
+The postmen do not bring the dead letters to Nuncio. The letters bring the postmen.
+
+		ParentEvent
+Name: 
+Id: 180301
+Description: 
+
+
+
+	ChildBranches 6
+Name: Ask how they all occupy themselves all day
+Id: 146226
+Description: There must be more than this...?
+
+		DefaultEvent
+Name: Dead Letter Office
+Id: 180308
+Description: Big building, centre of town. Hard to miss. You can work there too, if you want. It's not clear whether this is a generous offer or a threat.
+
+		ParentEvent
+Name: 
+Id: 180301
+Description: 
+
+
+
+	ChildBranches 7
+Name: Hand off some deliverable post to one of the postmen
+Id: 146241
+Description: Give at least one of them a second chance, a reason to leave Nuncio.
+
+		DefaultEvent
+Name: On the fifth explanation...
+Id: 180329
+Description: She doesn't believe you at first, not even though you show her how the letters have firmly written clear addresses to buildings that definitely exist (or did when you left London, anyhow). Valid stamps. No delivery-failure markings. 
+<br/><br/>
+When she finally understands, she kisses your cheek. Then she dumps strings of rats and a couple of decks of cards out of her carrier pouch and fills it with the new material. Then she's off to the docks.
+<br/><br/>
+"She'll be back eventually," mutters the old man by the door. Then again, maybe not.
+
+		ParentEvent
+Name: 
+Id: 180301
+Description: 
+
+
+
+	ChildBranches 8
+Name: Show off your sack of undeliverable post
+Id: 146244
+Description: It's full of conversation-starting bits. Like this parcel with the bloodstains.
+
+		DefaultEvent
+Name: Take it away!
+Id: 180333
+Description: Everyone flinches when you open the sack.
+<br/><br/>
+The bartender speaks for everyone. "What's wrong with you, bringing that stuff here? Take it around to the Dead Letter Office! Wonder you can even carry it, what with the Pull."
+
+		ParentEvent
+Name: 
+Id: 180301
+Description: 
+
+
+
+	ChildBranches 9
+Name: Throw your undeliverable post into the fire
+Id: 146245
+Description: Might contribute to their fuel supply, eh?
+
+		DefaultEvent
+Name: Smoke
+Id: 180334
+Description: It gives off a lot of smoke, thanks to how water-logged it is, but the fire is hot and it does catch. Several of the postmen turn around to look at you and one of them is about to ask something-
+<br/><br/>
+But before the question forms, Blunt Thomas storms in, waving over arms and shouting at you. "Stop, stop stop! You're swamping the reassembly room!"
+<br/><br/> 
+An hour later you're standing in front of a glass dome in one of the Dead Letter Office's back rooms. In the pure air under the dome, the letters are reassembling themselves, burning in reverse until they are whole again.
+<br/><br/> 
+"You think we didn't try that?" says the postman on shift, staring gloomily at the pile. "It always turns up again. Whatever you do, don't ever bomb the post."
+
+		ParentEvent
+Name: 
+Id: 180301
+Description: 
+
+
+
+	ChildBranches 10
+Name: Ask to borrow a uniform
+Id: 146248
+Description: If you're to fit in here, you'll need one.
+
+		DefaultEvent
+Name: Look but not touch
+Id: 180338
+Description: They're polite, even apologetic, about your request. You're welcome here, and welcome to take shifts at the Dead Letter Office, but you cannot wear the uniform unless you were a postal employee back in Fallen London. Regulations.
+<br/><br/>
+Blunt Thomas lets you have a look at his uniform jacket, at least. Neat stitching, gilded buttons, a thin but dignified circle of braid at the collar.
+<br/><br/>
+Inside, a patch that goes over the heart, stitched with six red letters. You can't read it, but it makes your eyes itch and your scalp feel like burning.
+
+		ParentEvent
+Name: 
+Id: 180301
+Description: 
+
+
+
+	ChildBranches 11
+Name: Ask why letters wash ashore here
+Id: 146249
+Description: Maybe one of them will know.
+
+		DefaultEvent
+Name: The Pull
+Id: 180339
+Description: It's the Pull, they tell you. Dead letters are like so many iron filings, drawn to Nuncio.
+<br/><br/>
+"See for yourself," suggests the Hairless Postwoman. "Go down to the shore, collect up a bunch of what's washed there, and you'll feel it soon enough."
+<br/><br/>
+"Saves time for the rest of us," says another voice. Apparently beach-scavenging is a civic duty hereabouts, like working in the Dead Letter Office.
+
+		ParentEvent
+Name: 
+Id: 180301
+Description: 
+
+
+
+	ChildBranches 12
+Name: Trade war stories about your shiftwork
+Id: 146259
+Description: You know how to fit in.
+
+		DefaultEvent
+Name: Common ground
+Id: 180350
+Description: The parcels you've weighed and entered in log books. The things that oozed out of them. The postmen are delighted by your incredulity and shock. A civilian, finally understanding the full horror of the Post! 
+<br/><br/>
+They have stories even worse than those, let me tell you, hang on a moment, Postmaster Scritch, we've all heard your Rubbery Lumps story already, it's nothing to the Tomb Colony pickles, pickled <i>what</i> is what I want to know, what about that Soothe and Cooper crate and how we had to scrape the bits off the masonry do you remember...
+<br/><br/>
+The night runs late.
+
+		ParentEvent
+Name: 
+Id: 180301
+Description: 
+
+
+
+	ChildBranches 13
+Name: Ask about the locked doors in the Dead Letter Office
+Id: 146271
+Description: Someone must have been through, though for some reason they don't seem to discuss it much.
+
+		DefaultEvent
+Name: Sudden inability to hear
+Id: 180369
+Description: No one answers you. 
+<br/><br/>
+You repeat the question.
+<br/><br/>
+Finally Blunt Thomas says, "None of us've gone down there, and those that have, don't talk about it, and those that talk about it, we wish they wouldn't have, and they don't come back the same, and so that's an end to it and have another ale."
+
+		ParentEvent
+Name: 
+Id: 180301
+Description: 
+
+
+
+	ChildBranches 14
+Name: Judge the postmen in light of what you now know
+Id: 146874
+Description: All have failed.
+
+		DefaultEvent
+Name: Unhappy by right
+Id: 181381
+Description: Some smile and some laugh and some tell filthy tales, but at rest they all return to the same expression, downturned and bitter. It comes from being insufficient, and knowing that they are insufficient, and knowing that they will always be insufficient. They were called to a great task and they could not perform it. 
+
+		ParentEvent
+Name: 
+Id: 180301
+Description: 
+
+
+
+	ChildBranches 15
+Name: Honour the postmen in light of what you now know
+Id: 146875
+Description: All have tried.
+
+		DefaultEvent
+Name: Saints and martyrs
+Id: 181382
+Description: Nothing about them now seems comical or strange. The Regulation maintenance of their uniforms is a mark of holy dedication. Their scars are earned by faith and hard work. They were given an impossible task, but none excused themselves just because of that.
+<br/><br/>
+The Hairless Postwoman sees your glance and returns a rueful smile. 
+
+		ParentEvent
+Name: 
+Id: 180301
+Description: 
+
+
+
+	ChildBranches 16
+Name: Talk about the caverns below the Dead Letter Office
+Id: 146876
+Description: Someone must know something, or be curious.
+
+		DefaultEvent
+Name: Perhaps not
+Id: 181383
+Description: You don't get far into your question before the Hairless Postwoman stands up and goes over to the fire, holding herself tightly. She is whispering, nothing coherent: "Fire. Clean. Smooth. Down to the bone. No excuse. Smooth, smooth. Little black hairs."
+<br/><br/>
+"Still your fool tongue," says Blunt Thomas.
+
+		ParentEvent
+Name: 
+Id: 180301
+Description: 
+
+
+
+	ChildBranches 17
+Name: Back to the docks
+Id: 147078
+Description: Leave the warmth of the Blotter for now.
+
+		DefaultEvent
+Name: 
+Id: 181654
+Description: 
+
+		ParentEvent
+Name: 
+Id: 180301
+Description:

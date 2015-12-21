@@ -1,0 +1,49 @@
+(98)
+Name: A boarding action!
+Id: 177790
+Description: A sudden boil of bodies at the rail! While your zailors were sighing over the sights of London, armed foreigners were slipping up the side of the ship. They wear tight-fitting dark uniforms and carry complicated multiplicities of blades. The Presbyterate Adventuress curses apologetically. "Out of time," she says.
+
+	ChildBranches 1
+Name: Give her up
+Id: 144723
+Description: "Assassins from the College. Yes, they're here for me, no, I didn't mention it, yes, you're right to be cross. If you want to give me up, that's fair." She offers you her pistol.
+<br/><br/>
+"I'd listen to her," one of the assassins adds, in perfect English. "This is a sacred duty. We'll pay you a sacred price."
+
+		DefaultEvent
+Name: Farewell to the Adventuress
+Id: 177791
+Description: The College Assassins disarm the Adventuress and bind her wrists. She grimaces at you. "I know I said it was fair, but honestly, I'd hoped - "
+<br/><br/>
+That's as far as she gets. They bundle her efficiently over the side. The lead Assassin salutes you and hands you a package, wrapped tightly in night-blue worsted. "It's holy," he says. "But I suppose you'll probably sell it." He shrugs. "Stone provides." And he's gone.
+
+		ParentEvent
+Name: 
+Id: 177790
+Description: 
+
+
+
+	ChildBranches 2
+Name: Fight to preserve her
+Id: 144724
+Description: What's a gang of unexpected assassins between friends? Have at them!
+
+		DefaultEvent
+Name: Blood on the deck
+Id: 177792
+Description: The Assassins fight fiercely and in near-silence. Your crew makes up for it with yells and shots, and the Adventuress outdoes them all with whoops of fierce delight. At last you drive the Assassins back over the side. They take to their coracles and wisp into the night, while you check your wounded and your dead.
+<br/><br/>
+"All right," the Adventuress says, lowering her blade. "All right. Oh, and thanks," she adds, almost as an afterthought. A zailor glowers at her from over the body of his comrade.
+
+		ParentEvent
+Name: 
+Id: 177790
+Description: 
+
+		SuccessEvent
+Name: A furious defence
+Id: 177793
+Description: The Assassins fight fiercely and in near-silence. Your crew sunders the silence with yells and shots, and the Adventuress outdoes them all with whoops of fierce delight. At last you drive the Assassins back over the side. They take to their coracles and wisp into the night. Your casualties are lighter than you'd feared
+<br/><br/>
+"All right," the Adventuress says, lowering her blade. "All right. Oh, and thanks," she adds, almost as an afterthought.

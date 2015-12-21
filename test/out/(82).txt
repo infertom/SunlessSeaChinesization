@@ -1,0 +1,139 @@
+(82)
+Name: The Widower
+Id: 153576
+Description: "Hello. Come in. Sit down. I believe you have some news about my wife? I paid the ransom. Of course I did, and of course I never heard anything more. Please. Where is she? What happened?"
+
+	ChildBranches 1
+Name: "Your wife is a mindless shell."
+Id: 130587
+Description: Tell him the truth, however horrible. The bees, the cages, the slow and agonising theft of her memories.
+
+		DefaultEvent
+Name: Hands to his mouth
+Id: 153577
+Description: "I - I had heard terrible things of the Isle of Cats, but I had never imagined - how? How did she come to that?"
+
+		ParentEvent
+Name: 
+Id: 153576
+Description: 
+
+
+
+	ChildBranches 2
+Name: "Your wife died while escaping."
+Id: 148030
+Description: Tell him it was instant, and painless. It's a lie, but perhaps a kind one.
+
+		DefaultEvent
+Name: A long hiss of breath
+Id: 183100
+Description: "I - I see. I knew she must be dead. You have set my mind at rest, at least. But how - how did she come to be their prisoner?"
+
+		ParentEvent
+Name: 
+Id: 153576
+Description: 
+
+
+
+	ChildBranches 3
+Name: Tell him of the captain's gambling debts and brothel-bill
+Id: 148031
+Description: Let him know what kind of woman he married. Of course, perhaps he already knew.
+
+		DefaultEvent
+Name: A long soft sigh
+Id: 183101
+Description: "Yes. Yes, when we were married, she admitted - certain predilections. I wish... but I know how it is for a zee-captain. I would have forgiven her anything, if only she had returned to me. But - why the Isle of Cats? What was she doing in that sump of malice?"
+
+		ParentEvent
+Name: 
+Id: 153576
+Description: 
+
+
+
+	ChildBranches 4
+Name: Tell him the captain was taken in combat
+Id: 148032
+Description: Suggest valour brought low by ill luck.
+
+		DefaultEvent
+Name: A wry smile
+Id: 183102
+Description: "Yes. Yes, she was never prudent. I feared so for her, every voyage. I had pleaded with her to be more careful, though I never really thought she would be. But - why the Isle of Cats? What was she doing in that sump of malice?"
+
+		ParentEvent
+Name: 
+Id: 153576
+Description: 
+
+
+
+	ChildBranches 5
+Name: Tell him his wife was a red honey smuggler
+Id: 148033
+Description: Red honey: so vile, it's not even illegal.
+
+		DefaultEvent
+Name: An open mouth
+Id: 183103
+Description: "I had never imagined - ! You're sure? Of course. Of course. I don't mean to question your honesty. But red honey! I'm sorry. I need a moment to collect my thoughts..."
+<br/><br/>"You know: her captors let her write to me. At the bottom of the letter, she had added a phrase I never understood: ONLY THOSE WHO DO NOTHING MAKE NO ERRORS. I think perhaps I understand it now."
+
+		ParentEvent
+Name: 
+Id: 153576
+Description: 
+
+
+
+	ChildBranches 6
+Name: Tell him his wife was a pirate-hunter
+Id: 148034
+Description: It's plausible. Any pirate-hunter might prowl the waters around the Isle of Cats, or even slip into the harbour and mingle with their targets.
+
+		DefaultEvent
+Name: A wry half-smile
+Id: 183104
+Description: "That sounds like her. She would pursue an escaping enemy to the very North of the zee, never mind the Isle of Cats. Of course she knew it would doom her some day. Thank you."<br/><br/>"You know: her captors let her write to me. At the bottom of the letter, she had added a phrase I never understood: ONLY THOSE WHO DO NOTHING MAKE NO ERRORS. I think perhaps I understand it now."
+
+		ParentEvent
+Name: 
+Id: 153576
+Description: 
+
+
+
+	ChildBranches 7
+Name: Give him the box
+Id: 148035
+Description: ONLY THOSE WHO DO NOTHING MAKE NO ERRORS. Is that the phrase that will open it? Did the captain hope the box would find its way to him, somehow?
+<br/>
+[Or you could keep the box to open it yourself: use it from your inventory if so.]
+
+		DefaultEvent
+Name: A breath and a click
+Id: 183105
+Description: You explain how the box came to you, and how you began this quest. Irem, the Isle, and now here. You have your zailors bring the box in, and the Widower whispers the opening phrase. It clicks open with a sound as sweet and precise as a well-answered riddle. He takes a breath and flings back the lid.
+<br/><br/>
+A soul glowing like a hidden star. Heaped sapphires from the Elder Continent. A Presbyterate heart-cup. A water-stained journal, blurred to near-unreadability - an account of a failed expedition to the Mountain of Light...
+<br/><br/>
+The Widower looks them over. Abruptly, he snatches the heart-cup, and shoves the box towards you.
+<br/><br/>
+"Too many memories, [q:Addressed As]. I'll keep this one memory only. You deserve something. You crossed the zee to find the truth for me. Here. Take them, and leave me now." He turns away.
+
+		ParentEvent
+Name: 
+Id: 153576
+Description: 
+
+		RareDefaultEvent
+Name: A breath and a click
+Id: 183112
+Description: You explain how the box came to you, and how you began this quest. Irem, the Isle, and now here. You have your zailors bring the box in, and the Widower whispers the opening phrase. It clicks open with a sound as sweet and precise as a well-answered riddle. He takes a breath and flings back the lid.
+<br/><br/>
+Books of poetry, pamphlets of a racier nature. A velvet-wrapped collection of ivory Chelonate carvings. A Mirrorcatch box leaking sunlight. The Widower looks them over. Abruptly, he snatches one book and one carving, and shoves the box towards you.
+<br/><br/>
+"Too many memories, [q:Addressed As]. I'll keep these memories only. You deserve something. You crossed the zee to find the truth for me. Here. Take them, and leave me now." He turns away.

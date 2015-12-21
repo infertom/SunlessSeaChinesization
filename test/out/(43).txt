@@ -1,0 +1,19 @@
+(43)
+Name: Never Knew Ye
+Id: 155192
+Description: Look around. Who was here?
+
+	ChildBranches 1
+Name: Gone
+Id: 131657
+Description: There was a woman in a purple dress -
+
+		DefaultEvent
+Name: Vanished
+Id: 155193
+Description: Zailors smile cautiously and duck their heads when you ask what happened to the Lady in Lilac. There must have been some sort of disagreement. If only you could remember the details...
+
+		ParentEvent
+Name: 
+Id: 155192
+Description:

@@ -1,0 +1,312 @@
+(419)
+Name: An Audience with the Emperor
+Id: 176742
+Description: Emperor Crispin IV holds court in the heart of his palace. None may speak without permission, but the voice of the Emperor is still the least heard of all.
+
+	ChildBranches 1
+Name: Summoned by the Emperor
+Id: 144133
+Description: To step into his throne room is to step into another world, a polished one of cool and blessed quiet that already feels as alien as it is pleasant.
+
+		DefaultEvent
+Name: An official welcome
+Id: 176743
+Description: The Emperor sits on his throne, wrapped in robes of violet and wearing an ornate golden mask. He remains motionless, silent. He could be mistaken for a statue, if not for an almost imperceptible nod to grant his seneschal permission to speak in his name.
+<br /><br />
+She approaches, arms folded in the red-trimmed yellow robes of a court mandarin. Her expression is carefully blank; the chestnut hair on her face powdered alabaster white and decorated with exquisite detail in red and black. The rings on her fingers mark her as a ten-souled ape, a status even the Admiralty can respect.
+<br /><br />
+She bows before you; a complicated, ritual display of sweeping sleeves that somehow never breaks eye contact. Finished, she waits for your response.
+
+		ParentEvent
+Name: 
+Id: 176742
+Description: 
+
+
+
+	ChildBranches 2
+Name: Remain still
+Id: 145414
+Description: You will not demean yourself before mere monkeys.
+
+		DefaultEvent
+Name: The Exquisite Seneschal's expression flickers
+Id: 178904
+Description: She has never held a high opinion of humans,
+<br /><br />
+Be that as it may though, there is business to discuss.
+
+		ParentEvent
+Name: 
+Id: 176742
+Description: 
+
+
+
+	ChildBranches 3
+Name: The Great Exodus
+Id: 145415
+Description: The Exquisite Seneschal requests your assistance to supply the Empire of Hands' great work - a Zeppelin that will take them to a new home far away from here.
+
+		DefaultEvent
+Name: Materials for the journey
+Id: 178907
+Description: You point out that the Admiralty has the Empire of Hands both under embargo and quarantined. The only thing worse to be caught doing here than supplying them would helping them escape their confinement!
+<br /><br />
+"Have your people not already caused us enough pain?" she demands. "We starve, and you would prevent us being fed. We thirst to explore, and you cage us like animals. Why? For what fine purpose? What threat are we to you, who happily dine with devils?"
+<br /><br />
+She shakes her head, almost with pity. "What could you possibly see in us that shames you so?"
+
+		ParentEvent
+Name: 
+Id: 176742
+Description: 
+
+
+
+	ChildBranches 4
+Name: Accept the commission
+Id: 145436
+Description: You will help the apes complete their Zeppelin.
+
+		DefaultEvent
+Name: The Exquisite Seneschal bows again, deeper
+Id: 178954
+Description: With a pair of servants to row the boat, she takes you to the Zeppelin site in Port Stanton. It was originally the project of a traveller from afar hoping to travel East, who encountered an... accident. In his plans and engine however, the monkeys saw their opportunity.
+<br /><br />
+"The Great Exodus will require Supplies and Fuel, of course," explains the Exquisite Seneschal. "We also seek souls to uplift our brethren that they may join the work. You will of course be reasonably compensated for your expenses, and rewarded upon completion."
+<br /><br />
+She also hints that there may be faster ways to complete the Zeppelin. To say more though would require a level of trust that you have not yet earned.
+<br />
+[Build Status in Court and by supplying the Zeppelin]
+
+		ParentEvent
+Name: 
+Id: 176742
+Description: 
+
+
+
+	ChildBranches 5
+Name: Refuse the commission
+Id: 145437
+Description: The monkeys must remain here, as the Admiralty decreed.
+
+		DefaultEvent
+Name: The Exquisite Seneschal is unsurprised
+Id: 178955
+Description: "As you wish. My Emperor thanks you for your gift and declares you an honoured guest of this Court for as long as you obey our laws and traditions."
+<br /><br />
+You find yourself being led out of the Emperor's presence. "I would add one thing," says the Exquisite Seneschal in a quieter voice. "If it is your beloved Admiralty's deepest wish that we be gone, the Exodus will grant it, just as much as our freedom. A thing to think about, should it be their wrath that concerns."
+<br /><br />
+She bows, curtly. "I bid you welcome to the Empire of Hands," she says in her normal tone, as two servants close the door to the Silent Gallery in your face.
+<br />
+[Visit the Zeppelin in Port Stanton if you change your mind about assisting the Pentecost apes.]
+
+		ParentEvent
+Name: 
+Id: 176742
+Description: 
+
+
+
+	ChildBranches 6
+Name: Hero of the Wildweald Court!
+Id: 145470
+Description: There is no applause as you walk into the Silent Gallery. There is however a measure of gratitude and grudging respect buzzing in the air.
+
+		DefaultEvent
+Name: The Exquisite Seneschal addresses the crowd
+Id: 178998
+Description: "My fellows, my friends, a great new era is upon us. Soon, the Great Exodus shall begin, and we shall forge the Second Great Empire in a land far, far away. It will require everything we have, and more. Only if we all pull together, from our highest to our lowest... one united Empire striding forwards in unison, can we prove ourselves worthy of the souls we have claimed."
+<br /><br />
+She pauses, gestures to you. "But we would not be here without one human, one with the bravery to stand against the prejudices of their bat-people. By Imperial decree, it shall therefore be our guest's honour to give name to the instrument of our salvation."
+<br /><br />
+She turns to you. The monkeys lean in expectantly.
+
+		ParentEvent
+Name: 
+Id: 176742
+Description: 
+
+
+
+	ChildBranches 7
+Name: The Pentecost Ascendant
+Id: 145471
+Description: 
+
+		DefaultEvent
+Name: You murmur your chosen name
+Id: 178999
+Description: The Exquisite Seneschal listens, nods, and turns to the audience. "The human has spoken!" she shouts. "Our salvation shall be named... THE SOARING GLORY OF EMPEROR CRISPIN IV (GREATEST OF HIS NAME)!"
+<br /><br />
+With a slight raise of his right paw, the Emperor graciously gives the audience permission to whoop.
+<br /><br />
+Bl__dy monkeys. At least they pay up as promised.
+
+		ParentEvent
+Name: 
+Id: 176742
+Description: 
+
+
+
+	ChildBranches 8
+Name: Her Master's Voice
+Id: 145484
+Description: The Exquisite Seneschal falls silent as you approach the golden throne, close enough to see the fury in the Emperor's eyes.
+
+		DefaultEvent
+Name: Behind the mask
+Id: 179015
+Description: "Your people. Your precious Admiralty..." He pauses to spit. "Your bat-masters. Do not think us unaware of what you say about us in your ivory towers. Us poor little primitives, daring to dream ourselves your equals."
+<br /><br />
+The Exquisite Seneschal backs away. Her Emperor's tone is caramel laced with glass, fifteen souls united in hate.
+<br /><br />
+"You wish my favour?" He gestures for a box. "I wish for fire. I wish for flame. I wish for those who have starved us to lie in the streets, their corpses spurned by the rats and the mangiest of your hounds. All this was to come to pass before the voyage. All was planned. But, time."
+<br /><br />
+The box is pressed into your hands. "I grant you a chance then, to use as you will. Deliver this. Throw it to the zee. It matters little. If not today, then some generation hence your people shall learn regret for their sins. Let me however travel on the wings of that satisfaction, and you shall stand by me in the Second Empire."
+<br /><br />
+He flicks a hand. "Now get out of my sight."
+
+		ParentEvent
+Name: 
+Id: 176742
+Description: 
+
+
+
+	ChildBranches 9
+Name: The Pax Imperialis
+Id: 145489
+Description: 
+
+		DefaultEvent
+Name: You murmur your chosen name
+Id: 179022
+Description: The Exquisite Seneschal listens, nods, and turns to the audience. "The human has spoken!" she shouts. "Our salvation shall be named... THE SOARING GLORY OF EMPEROR CRISPIN IV (GREATEST OF HIS NAME)!"
+<br /><br />
+With a slight raise of his right paw, the Emperor graciously gives the audience permission to whoop.
+<br /><br />
+Bl__dy monkeys. At least they pay up as promised.
+
+		ParentEvent
+Name: 
+Id: 176742
+Description: 
+
+
+
+	ChildBranches 10
+Name: The Endless Reach
+Id: 145490
+Description: 
+
+		DefaultEvent
+Name: You murmur your chosen name
+Id: 179023
+Description: The Exquisite Seneschal listens, nods, and turns to the audience. "The human has spoken!" she shouts. "Our salvation shall be named... THE SOARING GLORY OF EMPEROR CRISPIN IV (GREATEST OF HIS NAME)!"
+<br /><br />
+With a slight raise of his right paw, the Emperor graciously gives the audience permission to whoop.
+<br /><br />
+Bl__dy monkeys. At least they pay up as promised.
+
+		ParentEvent
+Name: 
+Id: 176742
+Description: 
+
+
+
+	ChildBranches 11
+Name: The Second Lineage
+Id: 145491
+Description: 
+
+		DefaultEvent
+Name: You murmur your chosen name
+Id: 179024
+Description: The Exquisite Seneschal listens, nods, and turns to the audience. "The human has spoken!" she shouts. "Our salvation shall be named... THE SOARING GLORY OF EMPEROR CRISPIN IV (GREATEST OF HIS NAME)!"
+<br /><br />
+With a slight raise of his right paw, the Emperor graciously gives the audience permission to whoop.
+<br /><br />
+Bl__dy monkeys. At least they pay up as promised.
+
+		ParentEvent
+Name: 
+Id: 176742
+Description: 
+
+
+
+	ChildBranches 12
+Name: The Flying Monkey
+Id: 145492
+Description: 
+
+		DefaultEvent
+Name: You murmur your chosen name
+Id: 179025
+Description: The Exquisite Seneschal listens, nods, and turns to the audience. "The human has spoken!" she shouts. "Our salvation shall be named... THE SOARING GLORY OF EMPEROR CRISPIN IV (GREATEST OF HIS NAME)!"
+<br /><br />
+With a slight raise of his right paw, the Emperor graciously gives the audience permission to whoop.
+<br /><br />
+Bl__dy monkeys. At least they pay up as promised.
+
+		ParentEvent
+Name: 
+Id: 176742
+Description: 
+
+
+
+	ChildBranches 13
+Name: Return the bow
+Id: 145412
+Description: You are, after all, in front of an Emperor.
+
+		DefaultEvent
+Name: A flicker of disapproval
+Id: 178902
+Description: Did you do something wrong? It appears so.
+<br /><br />
+Be that as it may, there is business to discuss.
+
+		ParentEvent
+Name: 
+Id: 176742
+Description: 
+
+		SuccessEvent
+Name: A flicker of approval
+Id: 178905
+Description: You bow deeply, but not to the Exquisite Seneschal. She is but the voice of the Emperor, and it is to him that your respect is due. He makes no move and says nothing, but a test has been passed nevertheless.
+<br /><br />
+Now, there is business to be discussed.
+
+
+
+	ChildBranches 14
+Name: A curtsey instead
+Id: 145413
+Description: This is your preferred way to express respect.
+
+		DefaultEvent
+Name: A flicker of disapproval
+Id: 178903
+Description: Did you do something wrong? It appears so.
+<br /><br />
+Be that as it may, there is business to discuss.
+
+		ParentEvent
+Name: 
+Id: 176742
+Description: 
+
+		SuccessEvent
+Name: A flicker of approval
+Id: 178906
+Description: You curtsey deeply, but not to the Exquisite Seneschal. She is but the voice of the Emperor, and it is to him that your respect is due. He makes no move and says nothing, but a test has been passed nevertheless.
+<br /><br />
+Now, there is business to be discussed.

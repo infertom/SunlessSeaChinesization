@@ -1,0 +1,46 @@
+(368)
+Name: You've defeated a Tramp Steamer
+Id: 174333
+Description: Innocent men and women are dead, but that's their problem. And yours, if you're caught, but let's not dwell on that. What now?
+
+	ChildBranches 1
+Name: Loot and scuttle her
+Id: 142556
+Description: Take what you can. Hide the evidence of your crime.
+
+		DefaultEvent
+Name: What's this?
+Id: 174336
+Description: Your crew searches the ship, complicit together in this act of banditry, unhappy, but obedient for now. Here's what they've found - 
+
+		ParentEvent
+Name: 
+Id: 174333
+Description: 
+
+		RareDefaultEvent
+Name: A regrettable incident
+Id: 174338
+Description: One of your sailors breaks down. She didn't go to sea to be a pirate! You've betrayed the fellowship of the sea! Your bo'sun is forced to shoot her when she leaps at you. Grim eyes, tightened lips. But here's your hard-won treasure.
+
+
+
+	ChildBranches 2
+Name: Send her to Corsair's Forest, with a prize crew
+Id: 142555
+Description: You can hardly take her home to London. It will cause a fuss. But someone in the Forest will likely buy her.
+
+		DefaultEvent
+Name: Into the darkness
+Id: 174334
+Description: Your prize is never seen again. Well, you set them on a dubious errand, and the sea is wide. Your remaining crew watches you covertly. Are you all pirates now? Perhaps they'll slip away at the next port, in ones and twos. Perhaps they'll grow scarred and fierce and desperate alongside you.
+
+		ParentEvent
+Name: 
+Id: 174333
+Description: 
+
+		SuccessEvent
+Name: Awaiting your pleasure
+Id: 174335
+Description: You send your most desperate and unrepentant crew aboard. They crack jokes about the bloodstains. With luck - if you can trust them - you'll find something waiting in Corsair's Forest.

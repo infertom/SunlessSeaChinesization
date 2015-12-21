@@ -1,0 +1,123 @@
+(176)
+Name: Time with your Family
+Id: 150964
+Description: It's a delight. But will it always be a delight? The zailor knows two worlds.
+<br/><br/>
+ [If you give suitable presents to your child, they will gain Sea Fever. If Sea Fever reaches 25, they will decide to run away to sea, becoming your Scion. This will establish a permanent dynasty of future zee-captains!]
+
+	ChildBranches 1
+Name: Tell tales of far lands
+Id: 128918
+Description: There is something you saw, far across the black ocean. Share it.
+
+		DefaultEvent
+Name: 
+Id: 150965
+Description: Your child's eyes grow round as pennies. They store up the memories as dream-fuel. Much later, you find the scene you described, scrawled on a foolscap sheet by a childish hand...
+
+		ParentEvent
+Name: 
+Id: 150964
+Description: 
+
+
+
+	ChildBranches 2
+Name: Tell tales of the zee
+Id: 128919
+Description: You've come home safe, but you nearly didn't. Tell them how.
+
+		DefaultEvent
+Name: 
+Id: 150966
+Description: The zee-fog coils fat and white against the window. With a delighted shriek, your child disappears under the blanket.
+
+		ParentEvent
+Name: 
+Id: 150964
+Description: 
+
+
+
+	ChildBranches 3
+Name: Tell your child and your sweetheart of the Surface
+Id: 128920
+Description: "The Sun is bright and cruel, and sweet as peaches..."
+
+		DefaultEvent
+Name: Someday
+Id: 150967
+Description: Neither of them has ever seen the Surface; not yet -
+
+		ParentEvent
+Name: 
+Id: 150964
+Description: 
+
+
+
+	ChildBranches 4
+Name: Give your child a pet
+Id: 128921
+Description: It is remotely possible that it will escape and eat someone. Probably just the parlour-maid. 
+
+		DefaultEvent
+Name: Fear and wonder
+Id: 150968
+Description: Your child is disinclined to hug it; but its tank will take pride of place in their bedroom. Its staring eyes and pulsing fangs will inspire glorious fantasies of zee-monster hunting...
+
+		ParentEvent
+Name: 
+Id: 150964
+Description: 
+
+
+
+	ChildBranches 5
+Name: Give them a souvenir
+Id: 128922
+Description: There's a space for it on that shelf, there.
+
+		DefaultEvent
+Name: Danger of breakage
+Id: 150969
+Description: Your child seems powerfully inclined to play with the Artefact. Perhaps it will break. Perhaps there's a jewel inside it, or a map, or a spirit. Perhaps it is edible. Perhaps you should employ a more vigilant nurse.
+
+		ParentEvent
+Name: 
+Id: 150964
+Description: 
+
+
+
+	ChildBranches 6
+Name: Give your child a Judgements' Egg
+Id: 128923
+Description: It will coil and glow silently on their night-stand. It's a bit of a peculiar thing to give a child, honestly.
+
+		DefaultEvent
+Name: Enchantment
+Id: 150970
+Description: "One day," your child breathes - eyes wide and fixed, gleaming in the soul-light - "I will set this at the bow of my ship. I will sail east for always, until the sky goes out."
+
+		ParentEvent
+Name: 
+Id: 150964
+Description: 
+
+
+
+	ChildBranches 7
+Name: Just enjoy their company
+Id: 129016
+Description: An evening in the parlour with your child and your sweetheart. And so to bed.
+
+		DefaultEvent
+Name: 
+Id: 151068
+Description: Crumpets and bolete jam, and what happens when you spin a child round so fast they're very nearly sick. Quiet at evening's end; shared stories; bats beating at the windows. And much later, the warmth of renewed passion after the cold salt of the sea.
+
+		ParentEvent
+Name: 
+Id: 150964
+Description:

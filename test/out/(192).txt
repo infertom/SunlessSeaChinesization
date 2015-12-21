@@ -1,0 +1,43 @@
+(192)
+Name: The Auroral Megalops!
+Id: 148072
+Description: "These are the younger form of gargantuan zee-crabs - driven up from their spawning grounds in the south by peculiar radiations. Younger they may be, but they are still large enough to consume a pony with messy and clattering glee, or to pose a menace to ill-prepared ships."
+
+	ChildBranches 1
+Name: Fight!
+Id: 127091
+Description: It surges from the water, its carapace throbbing with a queasy golden glow!
+
+		DefaultEvent
+Name: 
+Id: 148073
+Description: COMBAT TIPS: You are trying to increase your enemy's Illumination - the yellow bar by their portrait - so you can see and damage them. They are trying to increase yours.
+<br/><br/>
+Evasion actions will reduce your Illumination; Attacking actions will do Hull, Crew or Life damage. Your Mirrors, Veils and Iron score make a big difference to the effectiveness of all these actions.
+
+		ParentEvent
+Name: 
+Id: 148072
+Description: 
+
+
+
+	ChildBranches 2
+Name: Flee!
+Id: 127092
+Description: It's only little, but you've better things to do.
+
+		DefaultEvent
+Name: Tenacity
+Id: 148074
+Description: It may only be little, but it doesn't mess about.
+
+		ParentEvent
+Name: 
+Id: 148072
+Description: 
+
+		SuccessEvent
+Name: Bewilderment
+Id: 148075
+Description: The Megalops is blinded by its own radiance. Poor desperate creature.

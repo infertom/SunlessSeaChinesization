@@ -1,0 +1,70 @@
+(301)
+Name: A castaway
+Id: 182153
+Description: A woman in an iridescent green gown waves vaguely from a rock near the shore. Sorrowful sighs waft across the water towards you. An idiot castaway? A mermaid? Of course not. Mermaids are a preposterous myth.
+
+	ChildBranches 1
+Name: Forewarned
+Id: 147413
+Description: Oh, <i>serpentus sirenesis</i>, you rogue. With your humaniform tale-tip and your alluring sigh-bladders. You've probably laid your eggs along the rocks here, haven't you? If we can lure you far enough away, we can gather them -
+
+		DefaultEvent
+Name: A haul of serpentlings
+Id: 182160
+Description: The zee-wyrm slides sinuously into the water in pursuit of your bait. The 'woman' is revealed as the cunningly shaped green-scaled tip of its tail. You have a zailor scrape the rocks for wyrm-eggs. Sure enough, she comes up with a bucketful. They're on the point of hatching! Keep them safe.
+
+		ParentEvent
+Name: 
+Id: 182153
+Description: 
+
+
+
+	ChildBranches 2
+Name: Approach
+Id: 147414
+Description: The poor woman won't answer your hails, but she's obviously in need of assistance.
+
+		DefaultEvent
+Name: 
+Id: 182161
+Description: 
+
+		ParentEvent
+Name: 
+Id: 182153
+Description: 
+
+
+
+	ChildBranches 3
+Name: Send a troublemaker to the rescue
+Id: 147415
+Description: An elegantly gowned woman on a distant rock? This sounds more than fishy. Send someone you won't miss.
+
+		DefaultEvent
+Name: Radical discipline
+Id: 182162
+Description: Your troublesome zailor strides confidently out towards the rocks. The 'woman' contorts and slides into the water: she's the tip of a zee-serpent's tail! The serpent's head rears from the waves. There's a nasty business with thrashing and teeth and so forth, and your troublemaker is gone. Well, that'll do <i>something</i> for discipline.
+
+		ParentEvent
+Name: 
+Id: 182153
+Description: 
+
+
+
+	ChildBranches 4
+Name: Avoid
+Id: 147416
+Description: She's probably a pirate or a Drownie or someone's feral aunt.
+
+		DefaultEvent
+Name: Sad sighs pass
+Id: 182163
+Description: She waves languidly as you move down the beach. A ghost? An eccentric bather? You'll never know.
+
+		ParentEvent
+Name: 
+Id: 182153
+Description:

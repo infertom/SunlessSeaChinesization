@@ -1,0 +1,58 @@
+(222)
+Name: Scavengers of Dark Matter
+Id: 149077
+Description: They move stealthily in the dark. They haven't noticed you yet.
+
+	ChildBranches 1
+Name: Challenge them immediately
+Id: 127808
+Description: It's what any good watchman would do.
+
+		DefaultEvent
+Name: Ouch
+Id: 149078
+Description: Unfortunately, there are three of them, and they're not impressed with your bravado.
+<br/>
+<br/>
+Afterwards, the Acolyte cleans up your bruises and lumps with more expertise than sympathy. She is not pleased that they got away.
+
+		ParentEvent
+Name: 
+Id: 149077
+Description: 
+
+		SuccessEvent
+Name: Splashing in the dark
+Id: 149079
+Description: They panic and scramble back into the boat. From the sounds of it, it's a damp and squelchy business. Not only do they not get what they came for, but they leave some of their supplies behind.
+
+
+
+	ChildBranches 2
+Name: Watch until you know what they're up to
+Id: 127809
+Description: You can always intervene afterward.
+
+		DefaultEvent
+Name: Bother
+Id: 149080
+Description: You try to see what they're doing, but it's very hard to tell from over here. And then your foot slips and you fall over and the noise warns them off.
+<br/>
+<br/>
+You're fairly sure that whatever they wanted, they got it.
+
+		ParentEvent
+Name: 
+Id: 149077
+Description: 
+
+		SuccessEvent
+Name: Singsong and Bishoprics
+Id: 149081
+Description: They're singing to themselves and carrying lenses of some sort, and they know enough to be looking through the most recent part of the pile. It's plain someone's tipped them off about a particularly juicy scandal that has just lately been discarded. 
+<br/>
+<br/>
+From the whispers in the dark you even have some idea what it is. A bishopric in the balance, a secret alliance with the Brass Embassy...
+<br/>
+<br/>
+Before they finish their search, you take them by surprise and send them scrambling. They even drop something in the process.

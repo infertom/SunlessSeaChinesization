@@ -1,0 +1,36 @@
+(3)
+Name: Dreams of a City
+Id: 159951
+Description: Here is a city of sandstone and granite The inhabitants walk gossiping in the streets, sipping dark wines. They are dressed for a warm day, but it is the night of the Neath here. There is an air of uneasy celebration.
+
+	ChildBranches 1
+Name: Listen
+Id: 134532
+Description: What are they saying?
+
+		DefaultEvent
+Name: 
+Id: 159952
+Description: There is an air of celebration. As with many languages spoken in dreams, you understand the meaning without understanding the words: a great disaster has been averted, the King's folly is ended by the Princess' cunning, the heralds of night are bound. Yes, the sun is gone, and no, the places below ground are not what had been taught, but perhaps that's for the best, considering. It will be remembered. They will mark their triumph. You wake. What language were they speaking?
+
+		ParentEvent
+Name: 
+Id: 159951
+Description: 
+
+
+
+	ChildBranches 2
+Name: Follow
+Id: 134534
+Description: What are they doing?
+
+		DefaultEvent
+Name: 
+Id: 159954
+Description: Pits line the streets like pores in skin. Another opens as you watch. One by one, the citizens descend the stairs into the soft white glow of the pits, their eyes wide and tender. You approach the edge of one of the pits. Each one, as they go down, begins to weep. The scent is sharp, unpleasant, like burning feathers. You wake.
+
+		ParentEvent
+Name: 
+Id: 159951
+Description:

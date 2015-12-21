@@ -1,0 +1,59 @@
+(163)
+Name: Festival of Flourishing
+Id: 168615
+Description: All the denizens of Visage are walking towards the Ear together. There is a place in the procession which belongs by right to the wearer of your mask.
+
+	ChildBranches 1
+Name: Fall in line with the others
+Id: 139109
+Description: How else will you discover what lies within?
+
+		DefaultEvent
+Name: Among your own
+Id: 168616
+Description: You go as though you were truly one of them. You carry nothing with you but your mask and your costume.
+<br/><br/>
+"May your heart be as light as a feather," says the woman in the lotus-blossom mask, as you fall into line behind her.
+
+		ParentEvent
+Name: 
+Id: 168615
+Description: 
+
+
+
+	ChildBranches 2
+Name: Fall in line with the others, secretly bringing a flare with you
+Id: 139110
+Description: Perhaps you will need it, in the darkness where you are going.
+
+		DefaultEvent
+Name: Ritual disobedience
+Id: 168617
+Description: It is a risk to bring it, but it would also be a risk to go without. You conceal the flare in the folds of your robe and fall into the procession.
+<br/><br/>
+"May your sins weigh as stone," says the man in the jackal face, as you fall into line ahead of him.
+
+		ParentEvent
+Name: 
+Id: 168615
+Description: 
+
+
+
+	ChildBranches 3
+Name: Strip off your mask and prepare to depart
+Id: 139111
+Description: With everyone distracted by this festival, your departure would not even be noticed.
+
+		DefaultEvent
+Name: Farewell to this island
+Id: 168618
+Description: When the procession has passed, you strip away your mask and costume and leave them on the floor in the Customs House. The arms you fold neatly across themselves in the fashion that is appropriate for this particular robe. 
+<br/><br/>
+Perhaps someone after you will care to take up your role.
+
+		ParentEvent
+Name: 
+Id: 168615
+Description:

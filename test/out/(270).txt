@@ -1,0 +1,102 @@
+(270)
+Name: A Raggedy Fellow
+Id: 141247
+Description: "[q:Addressed As]! I'm a good zeeman! I'm yours if you'll have me! Will you have me? I'm hungry. I'll work hard." He seems likely enough, if a little ragged and sorrowful.
+
+	ChildBranches 1
+Name: Take him with you
+Id: 122724
+Description: You could use an extra hand.
+
+		DefaultEvent
+Name: Taking a chance
+Id: 141248
+Description: "You won't be sorry! I'll work double watches! Ask anyone, they'll tell you I have a good name!" Yes, yes. Eventually you get him to stop talking. His enthusiasm is promising, if a little pitiable. [There may be further effects from this decision.]
+
+		ParentEvent
+Name: 
+Id: 141247
+Description: 
+
+		RareDefaultEvent
+Name: The way through the waves
+Id: 149006
+Description: All the way back to the ship, he talks excitedly about the zeeman's craft. You start paying attention when he mentions navigational tricks you hadn't come across. With luck, he'll work as hard as he talks. [There may be further effects from this decision.]
+
+
+
+	ChildBranches 2
+Name: Leave him here
+Id: 122725
+Description: Strangers are too chancy. You've heard stories about things in the shape of sailors. Or you just don't like his face.
+
+		DefaultEvent
+Name: Desperate ranting
+Id: 141249
+Description: "Eh, you're no true captain, to abandon a zeeman so. I wouldn't want take a berth on your ship if it were the last one out of Irem. You hear me? You hear me? I'd eat cave-slime first!"
+
+		ParentEvent
+Name: 
+Id: 141247
+Description: 
+
+		RareDefaultEvent
+Name: Strong words
+Id: 149104
+Description: "You won't take me? Well, you'll take my curse! Salt, witness me! My curse on this captain without charity! Others will abandon you, as you abandoned me! Curse you! Curse you!" He spits on the floor and slashes his arm to release the blood. His eyes roll: tears burst from them and roll down his cheek. You leave him to rant and weep...
+
+
+
+	ChildBranches 3
+Name: No room
+Id: 127820
+Description: You have a full complement. No space.
+
+		DefaultEvent
+Name: A shrug
+Id: 149105
+Description: "Aye. I knowed afore I asked, but I hoped yet. Well then, captain, take my blezzing. You'll remember me another time, eh, when you have a berth zpare for a good zailor what knows his way?" He's laying it on a bit thick with all the z's, but perhaps next time, you assure him, perhaps.
+
+		ParentEvent
+Name: 
+Id: 141247
+Description: 
+
+
+
+	ChildBranches 4
+Name: Pay his passage home
+Id: 147012
+Description: An act of generosity.
+
+		DefaultEvent
+Name: An enthusiastic handshake
+Id: 181573
+Description: "Thankee captain! All I can give ye is my blessing (poor raggedy thing) and this cloak (raggedier yet, but it was good Khanate work once). Zafe zees to ye!"
+
+		ParentEvent
+Name: 
+Id: 141247
+Description: 
+
+
+
+	ChildBranches 5
+Name: A sudden apprehension
+Id: 127805
+Description: When he sees the zailor on your left, he turns and bolts into the darkness. After him!
+
+		DefaultEvent
+Name: No use
+Id: 149069
+Description: Whoever he was, he's gone. Your zailor shrugs. "Knew him from somewhere. Know a lot of faces."
+
+		ParentEvent
+Name: 
+Id: 141247
+Description: 
+
+		SuccessEvent
+Name: An unexpected windfall
+Id: 149106
+Description: You and your zailor harry him to a panting standstill... and recognition dawns in your zailor's eyes. "I knowed this'n out of the Iron Republic days! He owes me a secret, and he's allus been shy of payin' it." At bay, the Ragged Fellow has no choice but to pay the secret he owes. Your zailor, elated, shares it with you.

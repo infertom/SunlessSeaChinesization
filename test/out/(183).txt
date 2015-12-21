@@ -1,0 +1,41 @@
+(183)
+Name: The Angler Crab attacks!
+Id: 144194
+Description: "We long hypothesised, from the still-glimmering corpse of this vast decapod, that it guised itself as a distant light, to lure its prey close. We discovered, eventually, that it simply pursues its prey across the zee with happy zeal. It evinces, also, a regrettable turn of speed."
+
+	ChildBranches 1
+Name: Fight!
+Id: 124625
+Description: It's on you!
+
+		DefaultEvent
+Name: 
+Id: 144195
+Description: 
+
+		ParentEvent
+Name: 
+Id: 144194
+Description: 
+
+
+
+	ChildBranches 2
+Name: Flee!
+Id: 124626
+Description: The Crab may be terribly fast, but perhaps it's not too bright.
+
+		DefaultEvent
+Name: Tenacity
+Id: 144196
+Description: All your tricks avail you nothing. It's on you!
+
+		ParentEvent
+Name: 
+Id: 144194
+Description: 
+
+		SuccessEvent
+Name: Bewilderment
+Id: 147508
+Description: You snap your prow light on and off as you veer away. It halts in confusion long enough to let you escape.

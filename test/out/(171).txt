@@ -1,0 +1,127 @@
+(171)
+Name: Apis Temple
+Id: 169902
+Description: The priests gather around the bull, capturing its blood in cups.
+
+	ChildBranches 1
+Name: Ask whether the bull will be all right 
+Id: 139879
+Description: It doesn't look well.
+
+
+		DefaultEvent
+Name: Bad question
+Id: 169903
+Description: The question displeases the priests. How ill-omened, even to suggest that the bull might die!
+<br/><br/>
+If it does die, of course (says one in an aside), there will be another born with the same markings, if not on Visage itself, then somewhere around the Unterzee. Apis is never gone, but sometimes his spirit goes astray. 
+<br/><br/>
+To show you the sort of markings they mean, they lift its tongue, and show you the jewel-coloured scarab on the underside. It looks more like a tattoo than a birthmark.
+<br/><br/>
+The bull rolls its eyes and pulls its head away.
+
+		ParentEvent
+Name: 
+Id: 169902
+Description: 
+
+
+
+	ChildBranches 2
+Name: Offer to sell them a new, undamaged bull
+Id: 139881
+Description: You could arrange an import through the proper contacts.
+
+
+
+		DefaultEvent
+Name: Perhaps not
+Id: 169905
+Description: The priests are not impressed with the offer. Moon-Moths are not supposed to partake in commercial or religious endeavours. Besides, it's plain from your offer that you don't understand the requirements for identifying the Apis bull, including the important rule that there can be only one at a time.
+
+		ParentEvent
+Name: 
+Id: 169902
+Description: 
+
+
+
+	ChildBranches 3
+Name: Collect some of the blood for yourself
+Id: 139882
+Description: Perhaps it is a holy relic. Perhaps it could be sold as one to unsuspecting buyers elsewhere.
+
+
+
+		DefaultEvent
+Name: The priests don't prevent you.
+Id: 169906
+Description: But they aren't precisely pleased, either. In fact, they are highly suspicious of why Moon-Moth would want such a thing until you explain that you need it to educate some especially ignorant and impious visitors.
+<br/><br/>
+Then they let you go ahead.
+
+		ParentEvent
+Name: 
+Id: 169902
+Description: 
+
+
+
+	ChildBranches 4
+Name: Leave a respectful token of offering
+Id: 139883
+Description: Even wounded, it remains a god.
+
+		DefaultEvent
+Name: Impeccable
+Id: 169907
+Description: The tokens are small and not very valuable, as suits your lower rank in the community. The priests arrange them on a table with other small items. 
+<br/><br/>
+As you go out, you pass by the more impressive gifts: drafting tools from the Chief Geometer, scales from Jackal, a heap of foreign coin brought home by Crocodile.
+
+		ParentEvent
+Name: 
+Id: 169902
+Description: 
+
+
+
+	ChildBranches 5
+Name: Observe and make notes
+Id: 139884
+Description: The customs here may be worth reporting later.
+
+
+		DefaultEvent
+Name: You alone may act
+Id: 169908
+Description: The priests would be suspicious of anyone else who did this. But you, as Moon-Moth, often have a need to narrate the rituals of Visage to newcomers. The explanations in the Library of Parts are not suitable for strangers, and therefore you are expected to compose your own.
+
+		ParentEvent
+Name: 
+Id: 169902
+Description: 
+
+
+
+	ChildBranches 6
+Name: Try to bandage the bull
+Id: 139880
+Description: It is a shame to see it suffering so.
+
+		DefaultEvent
+Name: Bellowing and goring
+Id: 169904
+Description: You try to bind up the wound, but the bull cannot bear to be touched, and you are forced to give up, as further experiments will end in your being gored as well. In any case, veterinary interventions are not a Moth-like function.
+
+		ParentEvent
+Name: 
+Id: 169902
+Description: 
+
+		SuccessEvent
+Name: Out of character, but no one minds
+Id: 169911
+Description: You do the task well. The animal stops the most distressing of its noises, and lies down.
+<br/><br/>
+The priests are suspicious. Medical knowledge is not a part of the etiquette of the Moth. On this one occasion, they are grateful enough not to have you removed, however.

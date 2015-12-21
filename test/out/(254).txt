@@ -1,0 +1,285 @@
+(254)
+Name: Speak to the Presbyterate Adventuress
+Id: 148787
+Description: "All's well, Captain. Did you need something?"
+
+	ChildBranches 1
+Name: Increase your Iron
+Id: 127622
+Description: "You ready for this? It might hurt." [Spend a Secret to improve your Iron, unless it's higher than 100. It might hurt: you can't choose this option if badly wounded.]
+
+		DefaultEvent
+Name: "Not bad!"
+Id: 148788
+Description: "Give you another fifty years, you'll be teaching <i>me</i>."
+
+		ParentEvent
+Name: 
+Id: 148787
+Description: 
+
+		RareDefaultEvent
+Name: Ow!
+Id: 178796
+Description: "Sorry about that." The Adventuress puts down her sword and helps you bandage the gash. "Still, pain. The best teacher, eh? Oh, don't look at me like that."
+
+
+
+	ChildBranches 2
+Name: Answer questions about your past
+Id: 127624
+Description: You've kept your secrets long enough. [Unmask yourself! This will allow you to select a Past, Ambition, and form of preferred address - also providing you with a specialist ability bonus.]
+
+		DefaultEvent
+Name: 
+Id: 148790
+Description: 
+
+		ParentEvent
+Name: 
+Id: 148787
+Description: 
+
+
+
+	ChildBranches 3
+Name: Invite her to dine with you
+Id: 127625
+Description: "Captain's cabin, is it? All right. But I want a coffee sorbet for dessert. What? I like coffee sorbet. No sorbet, no dinner. 'Scuse me. Someone's caught fire again."
+
+		DefaultEvent
+Name: A pleasant evening
+Id: 148791
+Description: "Yes, I was in the Navy. Did you think I'd stolen the uniform? I retired before they threw me out." She grins and spoons more sorbet on to her plate. "I'm older than I look. We're all older than we look, to you people."
+
+		ParentEvent
+Name: 
+Id: 148787
+Description: 
+
+
+
+	ChildBranches 4
+Name: Invite her to dine with you a third time
+Id: 144721
+Description: "One day, I'll be tired of coffee sorbet." She smiles. "Not today."
+
+		DefaultEvent
+Name: A troubled evening
+Id: 177787
+Description: She's obviously distracted. Halfway through her dessert, she loses the thread of the conversation, snaps her spoon in half, apologises, flings the spoon across the room, apologises again and pushes the rest of the sorbet away.
+<br/><br/>
+"Sorry," she growls. "I can't concentrate. You know why? I'm getting old. My bloody father. You know what the College of Mortality is? Our very own elected Hell. They choose our king. They tell us when to die. He cheated them. So now I'm getting old."
+<br/><br/>
+She drains her glass. "Old. Too old. I'll see you in the morning." She rises to her feet with uncharacteristic clumsiness and stumbles out, but not before you've seen the tears in her eyes.
+
+		ParentEvent
+Name: 
+Id: 148787
+Description: 
+
+
+
+	ChildBranches 5
+Name: Ask the Adventuress why you've been ambushed by assassins from her homeland
+Id: 144725
+Description: "I, er, owe you an explanation, don't I? What I'm about to tell you is a deep secret. A College secret. But people have died. I owe you an explanation."
+
+
+		DefaultEvent
+Name: "None shall live a thousand years."
+Id: 177794
+Description: "In the Presbyterate, in the South, we're close to the Mountain and far from the Sun. So we could live forever, were that permitted. It isn't. The law is ‘none shall live a thousand years."
+<br/><br/>
+"My father made it to a thousand and eleven." She grins with shame-faced pride. "Good for him. Bad for his children. The law for me is 'thou shalt not live a hundred years’. I'm out of time. That's why I left the Navy. The College will get to me - they always do in the end - and I can't keep letting other people die for me."
+<br/><br/>
+She stands to go. "Will you help me find a way to die well? In battle would do. Or a duel. I don't want to be - oh, you know. Just shot by a pirate. Eaten by a shark. I want people to talk after I'm gone." She offers you her hand. "I'm sorry."
+
+		ParentEvent
+Name: 
+Id: 148787
+Description: 
+
+
+
+	ChildBranches 6
+Name: Demand that she leave your ship
+Id: 144726
+Description: You do have some unorthodox officers, but you draw the line at assassin-magnets.
+
+		DefaultEvent
+Name: She sighs
+Id: 177795
+Description: "Oh, to hell with you. I thought you had more fire. Go on then, lock me in the brig. I'll get out of your hair next time we make port."
+<br/><br/>
+She lays her pistol on the desk. "Thanks for helping with the assassins, anyway. Take this to remember me by."
+
+		ParentEvent
+Name: 
+Id: 148787
+Description: 
+
+
+
+	ChildBranches 7
+Name: The Last Night: record her memories of her travels
+Id: 144826
+Description: She's crossed the Unterzee a dozen times, and many of her crew-mates are dead. This is the last chance to preserve those stories.
+
+		DefaultEvent
+Name: Zailor's Tales
+Id: 177959
+Description: "...a ship of lights, beautiful as a palace - until we heard the screams across the water... the heptycheer rose like a moon, fingers flexing huge as rowboats... the rats singing the hymns of their ancestors, until they sank one by one... when the way to the Ragged Crow opened, and we went up the stairs together to the light... the days before the Dawn Machine, when the passage was calm and dark..."
+<br/><br/>
+Your pen flies across the page.She talks endlessly, emotionlessly, staring into the dark. She doesn't look at you once.
+
+		ParentEvent
+Name: 
+Id: 148787
+Description: 
+
+
+
+	ChildBranches 8
+Name: The Last Night: Spar with her
+Id: 144894
+Description: She's as deadly as anyone on the ship, and tonight she won't hold back.
+
+		DefaultEvent
+Name: Hard lessons
+Id: 178066
+Description: "I learnt this in the Corsair's Forest. (That's how I got this scar.) I learnt this from an Iremi Riddlefisher who'd turned cannibal. (That's when I started collecting riddles.) <i>This</i> - ha, nearly! - I picked up from the Pirate-Poet herself. (No, we don't have time to talk about that.) And this - you didn't see it coming, did you? - is all my own."
+<br/><br/>
+By the end, you're both bruised and aching. "I can't tell," she remarks, "what this might have done to my chances. Perhaps I should just have got a good night's sleep."
+
+		ParentEvent
+Name: 
+Id: 148787
+Description: 
+
+
+
+	ChildBranches 9
+Name: The Last Night: suggest you share a bed
+Id: 144895
+Description: Perhaps it'll bring her luck. Perhaps it'll bring you both luck.
+
+		DefaultEvent
+Name: "Why not?"
+Id: 178067
+Description: Ragged breath; skin on skin; the saltier tang of sweat. By midnight, you're pleasantly exhausted, and your sleep is dreamless. It might have been less tiring to spar. 
+
+		ParentEvent
+Name: 
+Id: 148787
+Description: 
+
+
+
+	ChildBranches 10
+Name: The Last Night: suggest you share a bed
+Id: 144896
+Description: Perhaps it'll bring her luck. Perhaps it'll bring you both luck.
+
+		DefaultEvent
+Name: "Sorry; I've had a better offer."
+Id: 178069
+Description: "Someone else who understands death. If anyone can bring me luck, it's her."
+<br/><br/>
+A rap on the door: it's the Brisk Campaigner. She glances archly at you. "Back by midnight," the Adventuress says with a grin. "We can talk then."
+<br/><br/>
+(She's back just after midnight.)
+
+		ParentEvent
+Name: 
+Id: 148787
+Description: 
+
+
+
+	ChildBranches 11
+Name: The Last Night: suggest you share a bed
+Id: 144897
+Description: Perhaps it'll bring her luck. Perhaps it'll bring you both luck.
+
+		DefaultEvent
+Name: "Sorry; I've had a better offer."
+Id: 178070
+Description: "Someone else who understands death. If anyone can bring me luck, it's her."
+<br/><br/>
+A rap on the door: it's the Indomitable Campaigner. She glances archly at you. "Back by midnight," the Adventuress says with a grin. "We can talk then."
+<br/><br/>
+(She's back just after midnight.)
+
+		ParentEvent
+Name: 
+Id: 148787
+Description: 
+
+
+
+	ChildBranches 12
+Name: The Last Night: Record her memoirs about her homeland
+Id: 145001
+Description: The Presbyterate extends deep into the Elder Continent. Outsiders are not often permitted within its borders. What will she share?
+
+		DefaultEvent
+Name: The Kingdom of Life
+Id: 178245
+Description: "...each Presbyter is different, but each takes the identity of the last. Presbyters never truly die, even after a thousand years. At their 'deaths' they give up their names to join the College, who live nameless. The rebels who serve the Thief-of-Faces - they live faceless. I'm no friend to the College, you know that, but they have served our realm well - they are just..."
+<br/><br/>
+"... it's true: we eat the flesh of the beasts we hunt, as do you. But we will kill nothing that flies. The story is that they carry the airs of the Garden, that permit us to live forever. But I think it's sentiment. I think the Mountain dreams of flight..."
+<br/><br/>
+She speaks casually, but now and then, a tear crosses the sharp planes of her face to fall unnoticed into the dark.
+
+		ParentEvent
+Name: 
+Id: 148787
+Description: 
+
+
+
+	ChildBranches 13
+Name: Speak with the Presbyterate Adventuress
+Id: 146104
+Description: "The - "
+
+		DefaultEvent
+Name: "Why are we still here?"
+Id: 180104
+Description: "I have business in the Abbey. Stop messing about. (Captain.)"
+<br/><br/>
+[Take the Adventuress to Abbey Rock before she, or the assassins pursuing her, lose patience.]
+
+		ParentEvent
+Name: 
+Id: 148787
+Description: 
+
+
+
+	ChildBranches 14
+Name: Invite her to dine with you again
+Id: 144719
+Description: "I've got an idea," she says. "Sorbet <i>and</i> arm-wrestling."
+
+		DefaultEvent
+Name: A closely fought battle
+Id: 177785
+Description: You're strong. But she's stronger. She grins. "I'll be old soon. But not yet."
+<br/><br/>
+You spend a pleasant evening, reminiscing and swapping tales. You learn a little about the Elder Continent: its sleeping forests, speaking tigers, mountain-pilgrims.
+
+		ParentEvent
+Name: 
+Id: 148787
+Description: 
+
+		SuccessEvent
+Name: A closely fought battle
+Id: 177788
+Description: She's strong. But you're stronger. She's a good sport, but she seems more depressed than you might have expected. Halfway through the sorbet, loses the thread of the conversation, snaps her spoon in half, apologises, stares moodily out of the port-hole, flings the spoon-fragments across the room, apologises again and pushes the rest of the sorbet away.
+<br/><br/>
+"Eh, snuff it," she growls. "I'm getting old. I shouldn't be. My bloody father. You know what the College of Mortality is? Our very own elected Hell. They choose our king. They tell us when to die. He cheated them. So now I'm getting old."
+<br/><br/>
+She drains her glass. "Old. Too old for this. I'll see you in the morning." She rises to her feet with uncharacteristic clumsiness and stumbles out, but not before you've seen the tears in her eyes.

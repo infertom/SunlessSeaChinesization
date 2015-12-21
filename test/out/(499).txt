@@ -1,0 +1,55 @@
+(499)
+Name: Visage
+Id: 143376
+Description: This is the port of Visage, where faces may not be naked. Except one: a stone monument the size of a village church, serenely gazing upwards. Flourishing-of-Years.
+
+	ChildBranches 1
+Name: Go ashore
+Id: 124092
+Description: Inward and upward. [Once you set foot on Visage, you may be here for a little while.]
+
+		DefaultEvent
+Name: Terms
+Id: 143377
+Description: "All those who enter must play their parts." The sign is visible only after you've crossed the threshold.
+
+		ParentEvent
+Name: 
+Id: 143376
+Description: 
+
+
+
+	ChildBranches 2
+Name: Create a Port Report
+Id: 142041
+Description: You can at least interview those who are leaving.
+
+		DefaultEvent
+Name: That will have to do
+Id: 173540
+Description: A departing merchant gives you a confused account of crocodiles and honey-cakes and something about... ear blockage?
+<br/><br/>
+To this you add your own impressions about the street layout close to port and the types of commerce here. When the lights are especially bright, it is possible to make out the details of the profile of that great stone face.
+
+		ParentEvent
+Name: 
+Id: 143376
+Description: 
+
+
+
+	ChildBranches 3
+Name: Put a blemmigan ashore
+Id: 147303
+Description: The blemmigan wraps its tendrils around your fingers, buries its fleshy dome in your palm. What does it want?
+
+		DefaultEvent
+Name: An apt shelter
+Id: 181988
+Description: The blemmigan is oddly shy; it sidles onto the quay with obvious reluctance. It puts on a burst of speed to hide under a damaged, discarded mask - resting in a refuse heap with fish heads and broken tackle. The bulging-eyed shell gives it confidence - if not grace: it departs at speed, bouncing into a buoy waiting for repairs, recoiling off an unused engine.
+
+		ParentEvent
+Name: 
+Id: 143376
+Description:

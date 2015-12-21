@@ -1,0 +1,36 @@
+(36)
+Name: Pale Visitors
+Id: 150655
+Description: The cry goes up: Drownies in the water! The pale faces of the drowned-dead bob up like lamps. They're singing...
+
+	ChildBranches 1
+Name: Drown out their song with the roar of the engines
+Id: 128735
+Description: Drownies are drawn to fear like pickpockets to crowds. Stoke the engines as hot as they'll go: it will use fuel and may damage the ship, but you'll drown out their wretched song.
+
+		DefaultEvent
+Name: Steel and fire
+Id: 150656
+Description: Your engines thunder. The Drownies circle, but the poisonous sweetness of their song is almost lost in the din. At last they tire and sink below, waving as they go.
+
+		ParentEvent
+Name: 
+Id: 150655
+Description: 
+
+
+
+	ChildBranches 2
+Name: Ignore it as best you can
+Id: 128738
+Description: Stop your ears. Set to work. You can't spare the fuel.
+
+		DefaultEvent
+Name: A dreaming doom
+Id: 150664
+Description: The song of the Drownies wearies the arm and dismays the mind. Draw in a breath, and you can smell the muck of the sea-floor. Someone's gone overboard! Sleek heads gather round the flailing shape, and then all of them are gone.
+
+		ParentEvent
+Name: 
+Id: 150655
+Description:

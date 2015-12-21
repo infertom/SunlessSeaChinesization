@@ -1,0 +1,41 @@
+(186)
+Name: Pirate Frigate
+Id: 144248
+Description: Corsairs in outdated cockade hats cram the decks of the ship, yelling threats and insults.
+
+	ChildBranches 1
+Name: Fight!
+Id: 124660
+Description: They've brought it on themselves...
+
+		DefaultEvent
+Name: 
+Id: 144249
+Description: 
+
+		ParentEvent
+Name: 
+Id: 144248
+Description: 
+
+
+
+	ChildBranches 2
+Name: Flee!
+Id: 124661
+Description: You might yet escape. How quick are they?
+
+		DefaultEvent
+Name: Quick enough
+Id: 144250
+Description: Their captain's as wily as you. Too close, too late. Begin.
+
+		ParentEvent
+Name: 
+Id: 144248
+Description: 
+
+		SuccessEvent
+Name: Not so very quick
+Id: 149748
+Description: You bewilder them in a drift of fog, and you're off into the zee...

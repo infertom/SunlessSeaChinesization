@@ -1,0 +1,63 @@
+(326)
+Name: You've destroyed a Lifeberg
+Id: 144296
+Description: Take a moment to enjoy your victory, then poke through the fragments.
+
+	ChildBranches 1
+Name: Concentrate on gathering treasures
+Id: 124694
+Description: You need money more than edibles.
+
+		DefaultEvent
+Name: A remnant of an earlier victim
+Id: 144299
+Description: Something valuable, perhaps. Regardless, you'll have a tale to tell.
+
+		ParentEvent
+Name: 
+Id: 144296
+Description: 
+
+		RareDefaultEvent
+Name: Dark fragments
+Id: 173748
+Description: Fragments gleam like obsidian in the depths of the ice. Their glassy blackness recalls Mt Nomad, the predatory terrain feature which haunts the blackness of Void's Approach. What is the connection?
+
+
+
+	ChildBranches 2
+Name: Record any Observations
+Id: 131984
+Description: If you've gathered at least 10 Observations, you may learn something...
+
+		DefaultEvent
+Name: Glints like eyes
+Id: 155736
+Description: Glossy black fragments gleamed malevolently in the blankness of the ice. You'd swear it oriented them towards you. Some sort of sensory apparatus? Their glassy blackness recalls Mt Nomad, the predatory terrain feature which haunts the blackness of Void's Approach. What is their connection?
+
+		ParentEvent
+Name: 
+Id: 144296
+Description: 
+
+
+
+	ChildBranches 3
+Name: Concentrate on replenishing supplies
+Id: 124693
+Description: It's big. There may be something edible or combustible in there. Somewhere. 
+
+		DefaultEvent
+Name: A disappointing haul
+Id: 144297
+Description: A few frozen and half-digested turbot. A barrel of extravagantly ancient limes.
+
+		ParentEvent
+Name: 
+Id: 144296
+Description: 
+
+		SuccessEvent
+Name: 
+Id: 144298
+Description: Waxy white lumps, paraffin-sheened, drift among the fleshy ice. These are what zailors call 'hell-droppings'. Did the Lifeberg eat them, or produce them? You can salvage, besides, a few barrels of supplies, left from a previous victim.

@@ -1,0 +1,21 @@
+(99)
+Name: Fear walks the streets of London
+Id: 143379
+Description: Fear has a cloak of trailing mist. Fear whispers your name. The Calendar Council, that master-cell of anarchists, is on the rise: and they have you to thank for it.
+
+	ChildBranches 1
+Name: Explore that darkness
+Id: 124094
+Description: What has happened?
+
+		DefaultEvent
+Name: Everything and nothing
+Id: 143380
+Description: The Calendar Council, they say, dislikes light. Shops prefer to conduct their business without lamps, or they might find their windows broken and wares confiscated. Parliament still sits, but they do so in lampless hush. The Admiralty has locked its doors: the Navy, what's left of it, has gone to ground.
+<br/><br/>
+When you return to your lodgings, a package awaits you. A note reads FOR THE LIBERATION. Someone is grateful.
+
+		ParentEvent
+Name: 
+Id: 143379
+Description:

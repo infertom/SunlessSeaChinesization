@@ -1,0 +1,47 @@
+(309)
+Name: A Delegation
+Id: 152441
+Description: The figures are rodents! To your left is a Rattus Faber, wearing goggles, a blacksmith's apron, and an assortment of tools; to your right is an unusually large guinea pig, wearing a helmet and breastplate reminiscent of nothing so much as the High Middle Ages. 
+<br>
+<br>
+The rat steps forward first, and bows. 
+<br><br>
+"Welcome, Captain, to Rat Star Island. I am Edgar, Second Chief Engineer of the Third Rat Brigade. I invite you to avail yourself of food and fuel at our expense; the only cost to you is a choice."
+<br><br>
+The rat steps back; at precisely the same moment, with what appears to be the ease of long habit, the guinea pig scuttles forward, and makes a declamatory chirp.
+<br><br>
+"Welcome, Captain, to the Isle of Cavia. I am Lady Augusta Devereaux Swinch of the Blackwater Swinches, Seneschal to our King Gracegnaw, First of His Name. I invite you to avail yourself of food and fuel at our expense; the only cost to you is a choice.”
+<br><br>
+The two stand at attention, looking at you expectantly. 
+
+	ChildBranches 1
+Name: What choice?
+Id: 129898
+Description: Your question must needs be tentative. They sound so rehearsed.
+
+		DefaultEvent
+Name: 
+Id: 152442
+Description: 
+
+		ParentEvent
+Name: 
+Id: 152441
+Description: 
+
+
+
+	ChildBranches 2
+Name: Enough of this 
+Id: 130666
+Description: Sea-monsters, faceless predators, screaming oceans, yes. But you draw the line at talking to guinea-pigs in full armour. Back on your ship you go.
+
+		DefaultEvent
+Name: Farewell for now
+Id: 153726
+Description: "We'll be here if you return," one of them chirrups as you stomp back down the quay - the guinea-pig, you think. Of course they will. Where else are they going to go?
+
+		ParentEvent
+Name: 
+Id: 152441
+Description:

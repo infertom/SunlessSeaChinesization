@@ -1,0 +1,111 @@
+(459)
+Name: The Fathomking's Hold
+Id: 143361
+Description: Like an iceberg, like a Bazaar-Master's scheme, like the Neath itself, most of the Hold is invisible. You see only a tiny portion of sculpted coral - the rest waits below the surface. The Fathomking's bone-rooms and aquaria. His pearl-snares and his dining-chambers...
+
+	ChildBranches 1
+Name: Descend to an audience with the Fathomking
+Id: 124082
+Description: The Fathomking is the lord of the Drownies - those dead who won't stop swimming. By some accounts, he's the lord of <i>all</i> who die at sea. Bring him a story to tickle his curiosity.
+
+		DefaultEvent
+Name: Speaking to the Porter
+Id: 143362
+Description: The Porter has the skin of a shark. She has a drowned woman's eyes. It is not permitted to look at her hands. "Yes," she rasps. "That story is sufficient."
+<br/><br/>
+She opens the Valves of Pearl, and permits you to pass into the conduit.
+
+		ParentEvent
+Name: 
+Id: 143361
+Description: 
+
+
+
+	ChildBranches 2
+Name: Permit shore leave
+Id: 124083
+Description: Perhaps your zailors would like to take the air ashore?
+
+		DefaultEvent
+Name: A ruby dream
+Id: 143363
+Description: "Captain. I walked the shore at the edge of the coral-caps. The Drownies sported there. They called my name. They said I could join them, if I partook of the Feast. Their eyes were red pearls. Captain, I dare not sleep. There is such a hunger on me - "
+
+		ParentEvent
+Name: 
+Id: 143361
+Description: 
+
+		RareDefaultEvent
+Name: An amethyst dream
+Id: 169459
+Description: "Captain. I think I might have slept. I know it was foolish... but my soul is soothed. I dreamt of another place, beneath a sky of amethyst. My skin was crusted with jewels. My claws were strong... Captain, if we pass this way again, I would ask leave to visit the Hold again."
+
+
+
+	ChildBranches 3
+Name: Repair your ship
+Id: 139660
+Description: The Drownies can set to work without any need of drydock. But they will have their due. [This will completely repair your ship.]
+
+		DefaultEvent
+Name: The Song of Shaping
+Id: 169527
+Description: As they work, the Drownies sing of shaping: of iron, of stone, of flesh. They sing of persuasion, of correction, of force. They sing of coral, and how it may be punished. They sing of stars...
+
+		ParentEvent
+Name: 
+Id: 143361
+Description: 
+
+
+
+	ChildBranches 4
+Name: Trade for Drowning-Pearls
+Id: 139744
+Description: The Drownies have a peculiar appetite for scintillack, that silvery northern coral. They whisper and giggle as they haggle. 
+
+		DefaultEvent
+Name: An exchange
+Id: 169658
+Description: Where do the Drownies find their pearls? Do they rip them from oysters? Evolve them from the alien machinery of their throats? Here they are, chilly and lustrous and just a little streaked with slime. 
+
+		ParentEvent
+Name: 
+Id: 143361
+Description: 
+
+
+
+	ChildBranches 5
+Name: Put a blemmigan ashore
+Id: 147292
+Description: It's dark and damp here, with many crevasses where it can hide. The blemmigan should flourish - so long as it avoids the Fathomking's notice.
+
+		DefaultEvent
+Name: An unexpected welcome
+Id: 181970
+Description: "A gift from the Myceligaean Mother," the Porter says dispassionately. "The Fathomking will be pleased. Here. For your trouble."
+
+		ParentEvent
+Name: 
+Id: 143361
+Description: 
+
+
+
+	ChildBranches 6
+Name: Compile a Port Report
+Id: 147632
+Description: The Porter watches you write. She says nothing.
+
+		DefaultEvent
+Name: Others who come and go
+Id: 182478
+Description: Those granted audience return dazed, awestruck. The King is not generous, but occasionally he is fair.
+
+		ParentEvent
+Name: 
+Id: 143361
+Description:

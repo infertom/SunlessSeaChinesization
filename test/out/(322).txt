@@ -1,0 +1,37 @@
+(322)
+Name: The Presbyterate Adventuress
+Id: 177783
+Description: A tall woman in a salt-caked Royal Navy uniform is methodically shooting giant land snails off a chunk of fallen statue. 
+
+	ChildBranches 1
+Name: Engage an Officer: the Presbyterate Adventuress
+Id: 144718
+Description: "Afternoon, [q:Addressed As]. Looking for a gunnery officer? I'd like to help you blow up monsters, if you'll have me." [The Adventuress is a Gunnery Officer who increases Iron and Veils.]
+
+		DefaultEvent
+Name: Welcome aboard!
+Id: 177784
+Description: "Oh, hello, captain. Is this one of yours? I had to knock her about a bit. She didn't like taking orders from foreigners. Still, we're good friends now." The Adventuress claps the black-eyed sailor on the back. Oddly enough, they *do* seem to be friends now.
+[Appoint your new Officer by dragging her from the Officers tab to her slot at the top of the screen. Do this in port, not at sea, or you may unsettle your crew.]
+
+		ParentEvent
+Name: 
+Id: 177783
+Description: 
+
+
+
+	ChildBranches 2
+Name: Leave her to her snails
+Id: 147212
+Description: You're not looking for new crew just now.
+
+		DefaultEvent
+Name: Away
+Id: 181855
+Description: You return to the babble and press of the busy brown streets.
+
+		ParentEvent
+Name: 
+Id: 177783
+Description:

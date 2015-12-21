@@ -1,0 +1,353 @@
+(380)
+Name: Adam's Way
+Id: 143316
+Description: To the south: the Elder Continent, and the seventy-two cornucopian kingdoms of the Presbyterate. Are the stories true - rivers of honey; castles of ivory? 
+Who can say? Foreigners (that's you) are forbidden from the interior. The closest most get is Adam's Way: a shouting, feasting, thieving, riot of a port. [The options available may change as the day progresses.]
+
+	ChildBranches 1
+Name: Deliver Sphinxstone for Penstock
+Id: 124052
+Description: A tilted temple squats in the shade of a gumheart shroom. This is where Penstock sent you. Your zailors drag the stones, complaining as zailors generally do.
+
+		DefaultEvent
+Name: The Temple of the Mountain's Mother
+Id: 143317
+Description: The priestess wears Bazaar-black. Her eyes are lost in the snaking coils of her hair. "The altar is here," she intones. She holds out a bag of coins to you, and points to the floor. "Yes. That block. Place it here. Put the others in the sea. Only one is worthy."
+<br/><br/>
+A trial of blocks. A sacrifice of stones. How quaint! Then the priestess leans over, to whisper the reason for it: the Birth, the Heart, the Chain. Your head spins. You stagger outside to recover. The doors slam shut. Fortunately, you hung on to your coins.
+
+		ParentEvent
+Name: 
+Id: 143316
+Description: 
+
+
+
+	ChildBranches 2
+Name: Go ashore with the Adventuress
+Id: 124053
+Description: "I'll admit it: I would like one last look around. But we're not going inland. The College would sniff me out soon enough."
+
+		DefaultEvent
+Name: A distant light
+Id: 143318
+Description: You both climb a hill to look out over the estuary. The zee curls below; smoke rises from chimneys; the Mountain glimmers on the horizon.
+<br/><br/>
+"You call her Stone, don't you?" the Adventuress says. "The Mountain, I mean. It's as good a name as any other. We have too many names for her. One for every day of the year... I could never get them right. And I resented her. I still do. She has all that life to give, and none of it for me. Because my bloody father got greedy."
+<br/><br/>
+She snorts. "The Bazaar is the Mountain's mother, they say. Or her father. I don't understand how these things work. I wonder if she ever complains about her parents."
+
+		ParentEvent
+Name: 
+Id: 143316
+Description: 
+
+
+
+	ChildBranches 3
+Name: Visit an exhibition of Presbyterate curiosities
+Id: 146435
+Description: For the insignificant price of a single echo, the Sober Showman will lay the wonders of the Elder Continent directly at your feet!
+
+		DefaultEvent
+Name: A pleasant distraction
+Id: 180643
+Description: You head towards the bright tents.
+
+		ParentEvent
+Name: 
+Id: 143316
+Description: 
+
+
+
+	ChildBranches 4
+Name: Listen to a storyteller
+Id: 146437
+Description: Ignore the gaudy entertainments, intended to defraud visitors. Pass the street-hawkers (they will only tell you what you want to hear). Shun the tavern gossip, most of which is fabricated by the Mithridate Office, the Prester's propagandists.
+
+		DefaultEvent
+Name: The buzzing of the bees
+Id: 180645
+Description: Climb the stairs cut into the hill. Sit at the foot of the bee-capped stone columns. They will shield you from the southern Mountain-heat. Be quiet. Listen. Old storytellers share the shadow.
+<br/><br/>
+The Prester is on the verge of declaring the Dawn Machine a blasphemy. London's bureaucracy is riddled with the children of the Thief-of-Faces. An expedition of foreigners recently put to shore to the west, then went south in search of the Garden. They were discovered, and given to the red river.
+
+		ParentEvent
+Name: 
+Id: 143316
+Description: 
+
+
+
+	ChildBranches 5
+Name: Attend a funeral feast
+Id: 146439
+Description: A public square. A gathering of the bereaved, uncannily cheerful. A table, shining with cutlery, white china plates, tall glasses.
+
+		DefaultEvent
+Name: Curiosity
+Id: 180648
+Description: You move closer for a better look.
+
+		ParentEvent
+Name: 
+Id: 143316
+Description: 
+
+
+
+	ChildBranches 6
+Name: An Avuncular Broker has a commission
+Id: 146441
+Description: His client has a task of modest - but scriptural - significance. He is conducting interviews.
+
+
+
+		DefaultEvent
+Name: 
+Id: 180650
+Description: 
+
+		ParentEvent
+Name: 
+Id: 143316
+Description: 
+
+
+
+	ChildBranches 7
+Name: Accept the Avuncular Broker's commission
+Id: 146446
+Description: He orders a plate of figs soaked in honey. "Tell me: what do you know about the disciples of the Thief-of-Faces?"
+
+		DefaultEvent
+Name: Doing the Prester's work
+Id: 180657
+Description: "Or 'Snuffers' to children and Londoners. Awful creatures. Eat candles. Steal faces. Erasing them is a sacrament. An associate of mine recently found one in Port Carnelian, but before he could expose it he disappeared. Maybe the Snuffer got him. Or perhaps one of the Port's spies - the place is stuffed with them."
+<br/><br/>
+"Your commission is to root out Port Carnelian's Snuffer. Capture it. Bring it back here. I'd like to ask it a question or two." He pops a fig into his mouth. 
+
+		ParentEvent
+Name: 
+Id: 143316
+Description: 
+
+
+
+	ChildBranches 8
+Name: Deliver the snuffer to the Avuncular Broker
+Id: 146447
+Description: You have contained the creature in a barrel. You order it rolled to the Broker's door.
+
+		DefaultEvent
+Name: A job well done
+Id: 180658
+Description: "Excellent! Roll it on in, my friend! I owe you another lunch, I think. But first, your payment." He hands you a large cream envelope. Inside is a chart, its folds stiff with zee-salt. The corner is stamped with the seal of the Empress herself. It is labelled 'First voyage of the <i>Galatea</i>, 1867' and shows a tenuous, roving course across the Unterzee.
+<br/><br/>
+As you leave, the Avuncular Broker is keen to keep in touch. "Perhaps I will have another commission for you after a conversation with our mutual friend." He pats the top of the barrel. The thing inside kicks.
+
+		ParentEvent
+Name: 
+Id: 143316
+Description: 
+
+
+
+	ChildBranches 9
+Name: Assist at an animescence hospital
+Id: 146735
+Description: It stands apart from the port, on a lonely zee-side bluff.
+
+		DefaultEvent
+Name: A dusty track
+Id: 181175
+Description: You climb the dusty slope.
+
+		ParentEvent
+Name: 
+Id: 143316
+Description: 
+
+
+
+	ChildBranches 10
+Name: Sit by the Tree of a Single Day and let the hours pass
+Id: 147107
+Description: The day is young, and the tree is still only a sapling.
+
+		DefaultEvent
+Name: Morning
+Id: 181692
+Description: It is not tall enough to offer shelter, yet. You watch it grow, inch by hasty inch, and listen to its roots slide beneath the paved slabs of the square.
+
+		ParentEvent
+Name: 
+Id: 143316
+Description: 
+
+
+
+	ChildBranches 11
+Name: Catch a nut that falls from the Tree of a Single Day
+Id: 147108
+Description: Picking them from a branch is forbidden, but fallen ones are useless. You'll need to intercept it between bough and ground. [A matter of luck.]
+
+		DefaultEvent
+Name: Fruitless
+Id: 181693
+Description: The branch is too far, the nut too small, your hand too slow. When it strikes the paved square, the nut bursts into brief, pointless life. Threadlike shoots squirm out, groping for water. Desperate roots claw at a crack in the stone. It's no good. Its strength spent, the shoot browns, stiffens, and expires.
+
+		ParentEvent
+Name: 
+Id: 143316
+Description: 
+
+		RareDefaultEvent
+Name: One in the hand
+Id: 181694
+Description: An hour you wait, and another hour. In that time, nuts fall beyond your reach. You ignore them. <i>Clack-clack-clack!</i> There! A nut has fallen from a high limb! It ricochets from branch to branch as it falls. Your hand snaps out! The nut lands in your palm: glossy, smooth and brown. A number of passers-by cheer your catch.
+
+
+
+	ChildBranches 12
+Name: Return to your ship
+Id: 147111
+Description: The day is over. It's time to return to your ship.
+
+		DefaultEvent
+Name: Back to zee
+Id: 181697
+Description: The Gracious comb the streets, ushering visitors politely back to the dock.
+
+		ParentEvent
+Name: 
+Id: 143316
+Description: 
+
+
+
+	ChildBranches 13
+Name: Sit beneath the Tree of a Single Day and let the hours pass
+Id: 147114
+Description: Already so tall and strong! Its leaves are a mantle of green and gold.
+
+		DefaultEvent
+Name: Lunchtime
+Id: 181700
+Description: It topmost branches are higher than the houses, now. The trunk is broad, comfortably cradling your back. You look up into its leafy tangle of limbs. Buds begin to swell from the  twigs.
+
+		ParentEvent
+Name: 
+Id: 143316
+Description: 
+
+
+
+	ChildBranches 14
+Name: Sit beneath the Tree of a Single Day and let the hours pass
+Id: 147115
+Description: Its leafy branches reach across the square.
+
+		DefaultEvent
+Name: Afternoon 
+Id: 181701
+Description: You watch buds bulge into blossoms. White flowers burst across the tree like November fireworks. As the afternoon draws on, petals begin to detach themselves, spinning across the square like drifting snow
+
+		ParentEvent
+Name: 
+Id: 143316
+Description: 
+
+
+
+	ChildBranches 15
+Name: Sit beneath the Tree of a Single Day until the day's end
+Id: 147116
+Description: Its limbs are bare. The square rattles with dead leaves.
+
+		DefaultEvent
+Name: Evening
+Id: 181702
+Description: The trunk groans at your back. Above you, withered branches scratch, spidery, at the air. A gnarled branch falls. The yellow-robed priestess sweeps it away.
+
+		ParentEvent
+Name: 
+Id: 143316
+Description: 
+
+
+
+	ChildBranches 16
+Name: Listen to a storyteller
+Id: 147118
+Description: Climb the hill to the bee-crested columns. Sit in their long shadows, and listen to the storytellers.
+
+		DefaultEvent
+Name: Tales
+Id: 181704
+Description: An old storyteller is describing the red, running feasts of the Replete as you approach. He stammers into silence. You sit, and wait until another storyteller resumes the tales.
+<br/><br/>
+London's Dilmun Club has appealed to the Presbyter for permission to approach the Mountain. Years ago, a director of the Mithridate Office resigned from his position and retired to the Shepherd Isles. Someone has been promising Snuffers forgiveness in exchange for service.
+
+
+
+		ParentEvent
+Name: 
+Id: 143316
+Description: 
+
+
+
+	ChildBranches 17
+Name: The Avuncular Broker's second commission
+Id: 147148
+Description: His invitation is urgent. 
+
+		DefaultEvent
+Name: A complication
+Id: 181756
+Description: This time he meets you in a private room. A lady in a neat, buttoned suit sits beside him, flicking through an English phrasebook. She seems quietly pleased.
+<br/><br/>"Sit, sit," the Broker urges. His avuncularity is diminished. "The Snuffer you caught was extremely surprised by its interrogation: it was under the impression that it was working for <i>us</i>. One of our London diplomats has decided that the expedience of using Snuffers outweighs the prohibition on associating with them. He is incorrect."
+<br/><br/>He introduces his associate, a Hands-On Diplomat. "I'd like you to see her safely to the Presbyterate embassy in London. She will explain her colleagues error to him, and replace him in his position. Thereupon, she will pay you. The payment is generous. It covers your discretion as well as your service." 
+
+
+
+		ParentEvent
+Name: 
+Id: 143316
+Description: 
+
+
+
+	ChildBranches 18
+Name: The Presbyterate Adventuress
+Id: 147211
+Description: A tall woman in a salt-caked Royal Navy uniform is methodically shooting giant land snails off a chunk of fallen statue. 
+
+		DefaultEvent
+Name: You approach
+Id: 181854
+Description: She lines up another shot.
+
+		ParentEvent
+Name: 
+Id: 143316
+Description: 
+
+
+
+	ChildBranches 19
+Name: Put a blemmigan ashore
+Id: 147272
+Description: Surely a simple mushroom will not attract the attention of the Gracious. 
+
+		DefaultEvent
+Name: An ecstatic exit
+Id: 181947
+Description: The southern Mountain heat seeps around the slopes of the hill. The soil of the Elder Continent is rich and strange. If the blemmigan can survive in it at all, it should flourish. 
+
+		ParentEvent
+Name: 
+Id: 143316
+Description:

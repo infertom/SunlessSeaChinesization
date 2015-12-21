@@ -1,0 +1,57 @@
+(78)
+Name: A Delightful Invitation
+Id: 176028
+Description: "BENTHIC COLLEGE is pleased to invite YOU to an exclusive and educational evening with Lady Agatha Treadgold, DELIGHTFUL ADVENTURESS and <i>raconteuse</i> of THRILLING TRUE TALES of FEIST and SPUNK."
+<br /><br />
+On the back is a scribbled note. "Come speak to me afterwards, darling. Opportunity beckons!"
+
+	ChildBranches 1
+Name: Attend the lecture
+Id: 143646
+Description: Opportunities are always worth exploring, at least.
+
+		DefaultEvent
+Name: A trip to Benthic
+Id: 176029
+Description: Benthic is the most open-minded of the London colleges. You find yourself waiting for the lecture in a queue of students, devils and bohemians, observed with some scorn by passers-by in Summerset colours.
+
+		ParentEvent
+Name: 
+Id: 176028
+Description: 
+
+
+
+	ChildBranches 2
+Name: Not at the moment
+Id: 143647
+Description: You have better things to do right now.
+
+		DefaultEvent
+Name: An opportunity for later
+Id: 176030
+Description: Whoever this person is, she can wait.
+<br />
+[The Delightful Adventuress' assistance is needed to continue your exploration of the Empire of Hands]
+
+		ParentEvent
+Name: 
+Id: 176028
+Description: 
+
+
+
+	ChildBranches 3
+Name: Accept the Delightful Adventuress' offer
+Id: 143926
+Description: She is rich enough to make it worth your while.
+
+		DefaultEvent
+Name: "Ah, the prodigal kapitano."
+Id: 176469
+Description: The Delightful Adventuress seems unsurprised by your return. "Prepare my valise!" she orders her Clay Man valet. "The Empire awaits after all!"
+
+		ParentEvent
+Name: 
+Id: 176028
+Description:

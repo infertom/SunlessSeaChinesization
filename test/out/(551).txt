@@ -1,0 +1,19 @@
+(551)
+Name: Unborn time
+Id: 175585
+Description: The Dawn Machine's roots extend here, into a luminous, impossible space. You breathe gold. You think light.
+
+	ChildBranches 1
+Name: Dawn's fingers
+Id: 143362
+Description: Worm-fates crawl on your skin. The Machine is sick. Its hatred threads your veins. Time will die. The Chain will end.
+
+		DefaultEvent
+Name: Relief
+Id: 175586
+Description: "We found you drifting," the Sequencer is saying. You blink. He slaps you on the shoulder. "You were blessed, my friend. Welcome home."
+
+		ParentEvent
+Name: 
+Id: 175585
+Description:

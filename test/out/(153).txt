@@ -1,0 +1,24 @@
+(153)
+Name: A spy walks the ship!
+Id: 180532
+Description: They're good. Very good. Were it not for a single envelope sitting face-down instead of face-up on your desk, you might never have noticed.
+
+	ChildBranches 1
+Name: Track down the spy
+Id: 146370
+Description: Search every cabin. Open every lockbox.
+
+		DefaultEvent
+Name: Slipped through the net
+Id: 180533
+Description: The crew is not informed of the precise reason for the search. They stare at each other suspiciously. Good. Next time, perhaps they will be more alert.
+
+		ParentEvent
+Name: 
+Id: 180532
+Description: 
+
+		SuccessEvent
+Name: Traitor!
+Id: 180535
+Description: The Determined Doctor makes no plea, no apology, no excuse. He holds his hands out for the irons, and is escorted to the brig with his head held high.

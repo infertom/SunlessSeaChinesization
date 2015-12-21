@@ -1,0 +1,223 @@
+(553)
+Name: Aestival
+Id: 143322
+Description: Sun! A great beam of sunlight bathes the island! Squint into the dazzle: far above, there's a hole in the roof.
+<br/><br/>
+In that light you see beaches of white-gold sand; trees heavy with bright fruit; the reds and blues and greens of the Surface.
+
+	ChildBranches 1
+Name: Seek the Iron & Misery company prototype component
+Id: 124056
+Description: The Cannoneer points. "There. The black rocks on the south side of the island, where nothing grows. We'll need labour and supplies to dig it out." [This will consume the Supplies, but not the Crew.]
+
+		DefaultEvent
+Name: Aestival's Secret
+Id: 143323
+Description: Days of back-breaking labour unearth a cache of old bones, curios... and a meteorite. A broken armature of steel and copper sheathes its sides. The zailors fall back before it as the glyphs on its side crawl with fire.
+<br/><br/>
+"This is it!!" the Cannoneer cries. "This must be what broke the roof. (It's very frightening.) A Seal of the Red Science!! I never thought I'd see such a thing. But it's sleeping. We'll need a Judgement's Egg, and my friends in the Iron Republic. We might be able to find an Egg in Irem." (The crew shrink back a little.) "Oh, such larks. Such larks!!"
+<br/><br/>
+[Take the Seal, and a Judgements' Egg, to the Iron Republic, south of London.]
+
+		ParentEvent
+Name: 
+Id: 143322
+Description: 
+
+
+
+	ChildBranches 2
+Name: Investigate the ruins
+Id: 124057
+Description: There was some sort of installation here - and what looks like a handsome country house. Who was here? And what happened to them? [This will open on Thursday 19th February.]
+
+		DefaultEvent
+Name: Red bird singing
+Id: 143324
+Description: A garden overgrown with berry-bushes. A wooden trestle-table, set for a meal. Chairs strewn with bones - a half-dozen skeletons. A red-breasted bird perches on a grinning cranium. It cocks an eye at you, and bursts into song: a liquid, thrilling sound. It seems unperturbed as you approach to poke through the bones.
+<br/><br/>
+No signs of violence. No fire, no bullets, no bites. These people died peacefully, sitting down to breakfast, as the Surface sunlight spilled over them. Sunlight can kill at any time. The longer you remain here, the more danger you're in. So why did they stay?
+<br/><br/>
+Perhaps they stayed because Aestival is as beautiful as anywhere in the Neath, and ten times as generous. It's a fine place for a colony. You could found your own pocket kingdom... if you could do something about the sun. But what? What has power over sunlight? What makes the impossible, possible?
+
+		ParentEvent
+Name: 
+Id: 143322
+Description: 
+
+		RareDefaultEvent
+Name: Red bird singing
+Id: 183589
+Description: A garden overgrown with berry-bushes. A wooden trestle-table, set for a meal. Chairs strewn with bones - a half-dozen skeletons. A red-breasted bird perches on a grinning cranium. It cocks an eye at you, and bursts into song: a liquid, thrilling sound. It seems unperturbed as you approach to poke through the bones.
+<br/><br/>
+No signs of violence. No fire, no bullets, no bites. These people died peacefully, sitting down to breakfast, as the Surface sunlight spilled over them. Sunlight can kill at any time. The longer you remain here, the more danger you're in. So why did they stay?
+<br/><br/>
+Perhaps they stayed because Aestival is as beautiful as anywhere in the Neath, and ten times as generous. It's a fine place for a colony. You could found your own pocket kingdom... if you could do something about the sun. But what? What has power over sunlight? What makes the impossible, possible?
+
+
+
+	ChildBranches 3
+Name: Fill a Mirrorcatch Box
+Id: 146107
+Description: Is this really sunlight? Then open the Box wide. Let it brim. [Warning: this may increase your Wounds.]
+
+		DefaultEvent
+Name: Snap it shut
+Id: 180108
+Description: The box will remain filled with light until it's opened, even underground. They do it with mirrors.
+
+		ParentEvent
+Name: 
+Id: 143322
+Description: 
+
+		RareDefaultEvent
+Name: Mortal measures
+Id: 181050
+Description: You fill the box successfully... but the sunlight has lit a fire in your bones. You struggle back to the ship and wait while the fever subsides. Be wary. This is true sunlight, and it can be unpredictable death to those who've spent too long here below.
+
+
+
+	ChildBranches 4
+Name: Gather supplies
+Id: 146657
+Description: The jungle here bursts with life.
+
+		DefaultEvent
+Name: Exotic delights
+Id: 181048
+Description: Breadfruit, sugar-cane, coconut. Soft-shelled crabs and plump birds too stupid to know a hungry zailor from a tree. Aestival is ripe with treasures unknown in the Neath. Fill your hold.
+
+		ParentEvent
+Name: 
+Id: 143322
+Description: 
+
+		RareDefaultEvent
+Name: Rare Default!
+Id: 181049
+Description: You fill your stores with breadfruit, sugar-cane, coconut. Soft-shelled crabs and plump birds too stupid to know a hungry zailor from a tree. But on the way back to the ship, one of your crew topples over with a groan. She's smiling blissfully. "Go on, cap'n," she says. "I've missed the zun." Her eyes close. Sunlight is perilous for those who've lived in the Neath too long.
+
+
+
+	ChildBranches 5
+Name: Prepare to found a colony
+Id: 146658
+Description: Begin to rebuild this place; and set Dawn's Law as the cornerstone, to shield you from the dangers of the sunlight.
+
+		DefaultEvent
+Name: The work begins
+Id: 181051
+Description: Zailors heave and shout, raise cranes and lift blocks. They're nervous to begin with, but as the day wears on and no one falls to the sunlight, their spirits rise. So, too, do the walls of your new dwelling...
+
+		ParentEvent
+Name: 
+Id: 143322
+Description: 
+
+
+
+	ChildBranches 6
+Name: Go beachcombing
+Id: 146955
+Description: If you're lucky, you might pick up treasures. More likely, you'll pick up bits of wood, and the occasional interesting arthropod.
+
+		DefaultEvent
+Name: 
+Id: 181493
+Description: 
+
+		ParentEvent
+Name: 
+Id: 143322
+Description: 
+
+
+
+	ChildBranches 7
+Name: Put a blemmigan ashore
+Id: 147271
+Description: Fallen fruit enriches the soil. Perhaps this will give the timid mushroom strength to resist the sun's rays.
+
+		DefaultEvent
+Name: A nimble scuttle
+Id: 181946
+Description: It bounces swiftly across the sun-hot sand, using a minimum of tendrils on the scorching beach. Somewhat shrivelled, it snuggles into the shade of a fruit-rich tree. It seems unwilling to go further. 
+
+		ParentEvent
+Name: 
+Id: 143322
+Description: 
+
+
+
+	ChildBranches 8
+Name: Compile a Port Report
+Id: 147624
+Description: Write fast. The light scars.
+
+		DefaultEvent
+Name: A burning afterimage. 
+Id: 182469
+Description: Your eyes water, the pages blur. The report is one of joy-filled complaint - Aestival has a beauty too bright to be appreciated. But perhaps the Admiralty can find something of use.
+
+		ParentEvent
+Name: 
+Id: 143322
+Description: 
+
+
+
+	ChildBranches 9
+Name: Visit your colony
+Id: 148743
+Description: You've begun something extraordinary. Let's see how it's going.
+
+		DefaultEvent
+Name: 
+Id: 184281
+Description: 
+
+		ParentEvent
+Name: 
+Id: 143322
+Description: 
+
+
+
+	ChildBranches 10
+Name: Prepare to found a colony
+Id: 149308
+Description: Begin to rebuild this place; and set the Parabox at its heart, to shield you from the dangers of the sunlight.
+
+		DefaultEvent
+Name: The work begins
+Id: 185237
+Description: Zailors heave and shout, raise cranes and lift blocks. They're nervous to begin with, but as the day wears on and no one falls to the sunlight, their spirits rise. So, too, do the walls of your new dwelling...
+
+		ParentEvent
+Name: 
+Id: 143322
+Description: 
+
+
+
+	ChildBranches 11
+Name: Fill a Mirrorcatch Box
+Id: 149309
+Description: Is this really sunlight? Then open the Box wide. Let it brim. [Warning: this may increase your Wounds.]
+
+		DefaultEvent
+Name: A faded glory
+Id: 185238
+Description: You've changed the nature of sunlight here. It's still warm. It still glows on the skin. But the box won't fill.
+
+		ParentEvent
+Name: 
+Id: 143322
+Description: 
+
+		RareDefaultEvent
+Name: A faded glory
+Id: 185239
+Description: You've changed the nature of sunlight here. It's still warm. It still glows on the skin. But the box won't fill.

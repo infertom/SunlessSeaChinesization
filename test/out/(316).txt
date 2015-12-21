@@ -1,0 +1,536 @@
+(316)
+Name: Shiftwork in the Dead Letter Office
+Id: 180310
+Description: One has various possible occupations here. None could be described as fast-paced.
+
+	ChildBranches 1
+Name: Converse with the Postal Rat
+Id: 146230
+Description: What is he working on now?
+
+		DefaultEvent
+Name: Category errors
+Id: 180313
+Description: Like many of his species, he likes to talk while he works.
+<br/><br/>
+"Sort by paper type or sort by inks?" he asks you, from inside the works. A tiny golden gear pings out of the machine and lands beside your shoe. "Usually the effect is the same, but blood is such a common ink ingredient that one cannot rely..."
+<br/><br/>
+Ten minutes later, he is telling you something very complicated about 'sentiment detection' and passing envelopes across a strip of joy-sensitive alloy, and something to do with a ratchet or sprocket or... no, you're lost.
+
+		ParentEvent
+Name: 
+Id: 180310
+Description: 
+
+
+
+	ChildBranches 2
+Name: Converse with the Postal Rat
+Id: 146251
+Description: Perhaps he'll have some insights on the inhabitants of this island.
+
+		DefaultEvent
+Name: On the islanders
+Id: 180341
+Description: "Do you like having sticky hands?" asks the Postal Rat. "Most people, they have sticky hands, they can't wait to clean them. Yes? For a postman, an undeliverable parcel is sticky hands. Bothers you till it's fixed."
+<br/><br/>
+"The longer you serve in the Post Office, the worse it feels. Delivering a letter correctly is good, so not delivering it is bad. The unclean feeling gets too strong and they come here."
+
+		ParentEvent
+Name: 
+Id: 180310
+Description: 
+
+
+
+	ChildBranches 3
+Name: Converse with the Postal Rat
+Id: 146252
+Description: How did he get into this line of work?
+
+		DefaultEvent
+Name: Cultish
+Id: 180342
+Description: The Postal Rat has a pair of spectacles on and is re-lettering the front of a water-damaged envelope, working over the original letters with a tiny brush and ink pot. The repairs are likely to take most of the afternoon. 
+<br/><br/>
+"I like to think of myself as being in the Resurrection business," he says, stopping to look at you seriously for a minute. "Where circumstances permit, taking the dead letters and making them alive again. Doesn't often work, but when it does... a miracle!"
+
+		ParentEvent
+Name: 
+Id: 180310
+Description: 
+
+
+
+	ChildBranches 4
+Name: Feed your deliverable letters into the sorting machine
+Id: 146253
+Description: Wouldn't it be interesting to see how the machine handled it?
+
+		DefaultEvent
+Name: Badly
+Id: 180343
+Description: The letters go in the hopper, but then there is a horrible churning and a loud THUNK and the whole thing comes to a halt. A single letter, mangled out of recognition, protrudes from the output slot.
+<br/><br/>
+The Postal Rat is tearing at his fur. "Wax-brain! Clayskull! What have you done?"
+<br/><br/>
+There's a great deal more commentary on your wits and parentage during the long hours of repair. The letters themselves are so damaged that they can't be read any more: dead again, in short.
+
+		ParentEvent
+Name: 
+Id: 180310
+Description: 
+
+
+
+	ChildBranches 5
+Name: Feed your undeliverable letters into the sorting machine
+Id: 146254
+Description: The gleaming hopper awaits.
+
+		DefaultEvent
+Name: Fifty-two categories
+Id: 180344
+Description: After prolonged whirring the machine begins to distribute: seven invitations edged in gilt, into the 'correspondence of the aristocracy' slot. Two oversized parcels probably containing books, into the 'books' tray. One stamped bronze tablet that drops with a clang into a bin marked 'First City'.
+<br/><br/>
+The Postal Rat watches all this with an air of satisfaction. 
+
+		ParentEvent
+Name: 
+Id: 180310
+Description: 
+
+
+
+	ChildBranches 6
+Name: Offer employment to the Postal Rat's niece
+Id: 146256
+Description: He asks it as a favour, and she sounds well-trained and eager.
+
+		DefaultEvent
+Name: Strongest possible recommendation
+Id: 180346
+Description: The Postal Rat is grateful, and says so at length and in a variety of ways. 
+<br/><br/>
+"Only so much work to go around on Nuncio. She keeps asking to assist me here, but as you can see -" (a gesture at heaps of loose gears and unhooked chains) "I hardly require any assistance, and my research is at so delicate a stage... But she's an excellent worker, very bright. Like her mother."
+
+		ParentEvent
+Name: 
+Id: 180310
+Description: 
+
+
+
+	ChildBranches 7
+Name: Converse with the Postal Rat
+Id: 146262
+Description: He seems to be in a reminiscent frame of mind.
+
+		DefaultEvent
+Name: Ratly courtship?
+Id: 180355
+Description: He tells you a long and lyrical story about an Albino Rat he once knew, who could do such clever things with phosphorescent beetles that you wouldn't believe it. His story is long-winded and goes on so many tangents that by the end you're not sure whether this rat was his long-lost love, or a fantasy, or some bit of Rattus Faber lore.
+
+		ParentEvent
+Name: 
+Id: 180310
+Description: 
+
+
+
+	ChildBranches 8
+Name: Ask the Postal Rat for a key to the basements
+Id: 146268
+Description: There are doors in the Dead Letter Office that you've never seen opened. Surely you can be trusted?
+
+		DefaultEvent
+Name: No trouble at all
+Id: 180362
+Description: He's surprised by the request. Most postmen don't like it down there. No one ever asks for a key. But he'll cut you a new one. Just be careful in there, and come out if you start to feel wrong.
+
+		ParentEvent
+Name: 
+Id: 180310
+Description: 
+
+
+
+	ChildBranches 9
+Name: Ask the Postal Rat for a key to the basements
+Id: 146269
+Description: You've worked here long enough now, and you might need one.
+
+		DefaultEvent
+Name: No trouble at all
+Id: 180363
+Description: He's surprised by the request. Most postmen don't like it down there. No one ever asks for a key. But he'll cut you a new one. Just be careful in there, and come out if you start to feel wrong.
+
+		ParentEvent
+Name: 
+Id: 180310
+Description: 
+
+
+
+	ChildBranches 10
+Name: Open the back rooms
+Id: 146273
+Description: The key is warm in your pocket.
+
+		DefaultEvent
+Name: Deep and deeper
+Id: 180372
+Description: You had expected... a few shelves of supplies? More files of letters, a few years older?
+<br/><br/>
+No. It is a pit, so deep that lantern light does not show the bottom. A spiral walkway descends along its wall, and that spiral opens wider as it goes, as if you were looking through the narrow end of a very large shell.
+<br/><br/>
+Lining this wall are shelves and nooks, unevenly sized. Some are a few inches square and contain single scrolls of papyrus. Others support crates bigger than coffins. They're made of a woody fungus, grown to meet requirements. There are no marks of carpentry or any of the Postal Rat's handiwork.
+<br/><br/>
+Three turns down the spiral and you feel you can't breathe. Time to leave. You can come back later. Maybe.
+
+		ParentEvent
+Name: 
+Id: 180310
+Description: 
+
+
+
+	ChildBranches 11
+Name: Tell the Postal Rat about your basement findings
+Id: 146275
+Description: Gives you something new to chat about.
+
+		DefaultEvent
+Name: Troubled but not surprised
+Id: 180374
+Description: "They say that's been there since before we came. Before there were Londoners in the 'Neath. Before there was a Dead Letter Office, there was someone else, and they built the last layer on top of what was there before, and so on."
+<br/><br/>
+When you press him a little further, he says, "I've been down there. Didn't like it much, but I wanted to test my machine. Thought if it could handle some of the very old dead letters, that would be a good sign, you know, evidence the machine was in working order, good strong sorting categories and so forth."
+<br/><br/>
+He pauses. "There's letters down there that set your hair on fire if you so much as look at them. See the bald patch on my left leg? That wasn't a machine accident, oh no! That singed right off as soon as I put my nose into one of them letters."
+
+		ParentEvent
+Name: 
+Id: 180310
+Description: 
+
+
+
+	ChildBranches 12
+Name: Make a further solitary exploration of the basement
+Id: 146276
+Description: Perhaps you were hasty in leaving earlier. It can't be so very bad.
+
+		DefaultEvent
+Name: Ancient voyages
+Id: 180375
+Description: You get further this time. Three twists; six; ten. The cavern is at least a hundred feet wide at this point, and there is no sign of the bottom. The things on the shelves are labelled in languages you can't read. There are rusty iron boxes, wooden planks, clay tablets.
+<br/><br/>
+Now here is a thing you might hope to understand: a packet wrapped in oilskin. Rolls of maps, depicting unfamiliar shorelines. Annotations concerning the creatures of the deep. A mark where the captain drowned his astrolabe (as a sacrifice, or out of fear?). 
+<br/><br/>
+Centuries old the message may be, but seafarers have the same needs and the same fears.
+<br/><br/>
+You pick apart the knot on the captain's diary and spread the pages. A prickling heat sweeps over your scalp. You can't read the words. You can't read the words. You can't read the words. 
+<br/><br/>
+When you get back upstairs, empty-handed, you remember the story you could not read. There was a field of stars and it was swarming with maggots. 
+
+		ParentEvent
+Name: 
+Id: 180310
+Description: 
+
+
+
+	ChildBranches 13
+Name: Claim a respectable envelope from the Dead Letter selection
+Id: 146856
+Description: The writing on the front is demure.
+
+		DefaultEvent
+Name: Dear, dear Mama
+Id: 181359
+Description: "...sensible of the honour of your advances... regret that I cannot accept your proposal... unable to leave the side of darling Mama while she still suffers her rheumatic complaint... considering her lifetime of sacrifice in raising her children, could not leave her now... certain you will understand... all my wishes for your future happiness..."
+<br/><br/>
+The writing is even, tidy, untroubled. It did not grieve the writer to send. That is, assuming Dear Mama did not compose this message herself.
+
+		ParentEvent
+Name: 
+Id: 180310
+Description: 
+
+
+
+	ChildBranches 14
+Name: Pay for a parcel with postage due
+Id: 146857
+Description: The carrier fees are startling for such a little packet. No wonder the recipient didn't think it worth paying.
+
+		DefaultEvent
+Name: Voyages north and east
+Id: 181360
+Description: Meticulous notes on the archaeology of foreign shores. Rubbings of lettering carved into distant cliffs. Drawings of a ruined temple, mushrooms growing in the eyes of its sacred statues.
+<br/><br/>
+These should have been the making of someone's academic career. They were sent to the Dean of Cryptotheology at the university, but not accepted. And the writer? Did she make it home, or did she die at sea?
+<br/><br/>
+Now they're your notes and secrets.
+
+		ParentEvent
+Name: 
+Id: 180310
+Description: 
+
+
+
+	ChildBranches 15
+Name: Accept responsibility for an envelope of heavy cream paper
+Id: 146858
+Description: Surely the sender was someone of consequence.
+
+		DefaultEvent
+Name: Manners aren't what they used to be
+Id: 181361
+Description: It is an invitation to a dinner party now long in the past, an occasion for bishops and dons. The opening is formal, but the closing lapses into exasperation. "Do, please, grant me the pleasure of a response this time, so that I may know whether to set your place! If you will not reply, this is positively the last time I will invite you anywhere!"
+<br/><br/>
+Another glance at the sender and the recipient. Ah. Yes. With those two involved, this is at least saleable gossip.
+
+		ParentEvent
+Name: 
+Id: 180310
+Description: 
+
+
+
+	ChildBranches 16
+Name: Lay claim to a parcel that clinks
+Id: 146859
+Description: It's probably bottles of something.
+
+		DefaultEvent
+Name: Cold, silvery liquid
+Id: 181362
+Description: Twenty-four bottles of a gleaming liquid that feels icy even through the glass. Each is stoppered and sealed with wax, with entwined initials S&C.
+<br/><br/>
+Just to look at the bottles is to feel numbed and soothed and distant from terror.
+
+		ParentEvent
+Name: 
+Id: 180310
+Description: 
+
+
+
+	ChildBranches 17
+Name: Converse with the Postal Rat
+Id: 146860
+Description: Why doesn't it make a machine like this one back in London? Might lead to fewer dead letters in the first place.
+
+		DefaultEvent
+Name: Regulations
+Id: 181364
+Description: "Oh, no, no! That wouldn't be permitted at all." There are strict rules about the initial handling and sorting of post. An experimental machine might mangle the letters. It's only the dead material that is unimportant enough to be entrusted to a Rattus Faber.
+<br/><br/>
+His voice isn't bitter, but he twists a coil so hard that it springs sideways out of the machine and pings off your shoe.
+
+		ParentEvent
+Name: 
+Id: 180310
+Description: 
+
+
+
+	ChildBranches 18
+Name: Descend into the basement with flame
+Id: 146866
+Description: Properly equipped. Candles for the way, and a flare for the bottom.
+
+		DefaultEvent
+Name: Spiral on spiral on spiral
+Id: 181371
+Description: The descent is long and slow. You count the turns at first, but the time comes when you can't see the square of light from the door above, and can't mark how far you have come around the spiral. You exhaust one candle after another.
+<br/><br/>
+At the end you come to a place where the ramp opens onto a bowl-shaped floor. The cavern must be hundreds of feet wide, here. You light your flare, but even that does not show the cavern walls.
+<br/><br/>
+The floor is carpeted with - at first you think it is gravel, but no, it is broken shards of clay and stone, all scribbled over in words too old to read.
+<br/><br/>
+At the centre of this space is a needle of deep black rock, glossy as resin, glittering with ice, inscribed with three arcane sigils that hurt to look at. You feel a meaning in their presence: a prohibition, or a commandment. That all things must come to their destined place. That what cannot be delivered immediately must be saved against a future date. That a message that goes unheard is a tragedy.
+<br/><br/>
+That the signal must be carried, no matter how far, no matter through what darkness, no matter whether the sender still lives nor whether the recipient can even read the language of the writing-
+<br/><br/>
+The inscription resolves itself and is known to you.
+NO WORD LOST. 
+
+		ParentEvent
+Name: 
+Id: 180310
+Description: 
+
+
+
+	ChildBranches 19
+Name: Tell the Postal Rat what you saw below
+Id: 146873
+Description: Maybe he will be curious.
+
+		DefaultEvent
+Name: Without name
+Id: 181380
+Description: You start to explain, but your language doesn't have the right words to express it: the weight of the delivery-commandment, the sacred necessity for every word to reach its destination. And the countless individual miscarriages of meaning from one entity to another which have occurred throughout history and are still occurring, to the detriment of the whole universe-
+<br/><br/>
+He holds up a paw. "Not going to understand it no matter how much you explain," he says. "And I'm glad, as if I did understand I'd be likely to run mad, working where and as I do."
+<br/><br/>
+After a moment he adds, "Likely you'll forget. At least, forget some of it. After all you never wore the uniform." Then he points out where your hair has singed at the temples, and gives you an ointment he keeps in a drawer.
+
+
+
+		ParentEvent
+Name: 
+Id: 180310
+Description: 
+
+
+
+	ChildBranches 20
+Name: Descend into the basement with sunlight
+Id: 146902
+Description: You have light sources that can contend even with that darkness.
+
+		DefaultEvent
+Name: Spirals ablaze
+Id: 181417
+Description: At the outset, you ration the sunlight, letting out only a glimmer at a time. The descent is long and slow.
+<br/><br/>
+Finally you reach the bottom, and throw the box open. The air blazes. The floor is carpeted with shards of clay and stone, a mosaic of tans and reds and glittering obsidian. The ceiling is so far away that you can barely make it out.
+<br/><br/>
+At the centre of this space is a needle of deep black rock, glossy as resin, glittering with ice, inscribed with three arcane sigils that hurt to look at. It takes the sunlight's glow and blossoms with it: this is something that once knew that light. You feel a meaning in their presence: a prohibition, or a commandment. That all things must come to their destined place. That what cannot be delivered immediately must be saved against a future date. That a message that goes unheard is a tragedy.
+<br/><br/>
+That the signal must be carried, that the light can traverse any darkness, that all languages can eventually be translated-
+<br/><br/>
+The inscription resolves itself and is known to you.
+NO WORD LOST. 
+<br/><br/>
+The sunlight is spent. The cavern goes black.
+
+		ParentEvent
+Name: 
+Id: 180310
+Description: 
+
+
+
+	ChildBranches 21
+Name: End your shift
+Id: 147080
+Description: Return to the docks. You are finished here for now.
+
+		DefaultEvent
+Name: 
+Id: 181656
+Description: 
+
+		ParentEvent
+Name: 
+Id: 180310
+Description: 
+
+
+
+	ChildBranches 22
+Name: Man the collections window
+Id: 146229
+Description: Better chance of meeting people. Slightly better. 
+
+		DefaultEvent
+Name: Tick, tock
+Id: 180312
+Description: Hours pass without anyone turning up to trouble your solitude. There's nothing to do other than to read a postal instruction manual.
+<br/>
+<br/>
+You learn that, on recent stamps, a slight blemish on the Empress's crown marks where the legitimate stamp press was damaged by a Revolutionary bomb. The absence of this blemish indicates forgery and requires that the letter be returned to its sender. 
+<br/>
+<br/>
+Delivery of a letter that should not be delivered is a postal misdemeanour punishable by the docking of wages, assuming, of course, that anyone ever finds out about it, which seems exceptionally unlikely.
+
+
+		ParentEvent
+Name: 
+Id: 180310
+Description: 
+
+		SuccessEvent
+Name: Tock, tick
+Id: 180361
+Description: You note down new parcels in a log book. You study postal regulations from a manual. You explore all the possible postures for sitting on the postman's stool.
+<br/><br/>
+It is only at the end of the day that a Dignified Lady arrives. She wears mauve gloves. She wishes to collect a letter on which she refused delivery twenty-two years ago. She has difficulty meeting your eye.
+<br/><br/>
+But the letter is here, filed in its proper slot. Firm and masculine handwriting, signs of limited education, inexpensive paper. No water damage.
+<br/><br/>
+She does not read it in front of you. She tucks it into a bag and goes out. 
+
+		RareSuccessEvent
+Name: Tock, tick
+Id: 180364
+Description: You note down new parcels in a log book. You study postal regulations from a manual. You explore all the possible postures for sitting on the postman's stool.
+<br/><br/>
+When your sole customer of the day turns up, it's an Elderly Devil. He describes the parcel he wants, humming all the while. It's sealed with gobs of wax and marked as Contraband. It clinks as you hand it over.
+<br/><br/>
+"By way of thanks," he says, producing a small leather-bound volume from within his double-breasted coat. "Should your shifts here be at all tedious. No, no, I don't need it! I've read it three times on the voyage here."
+<br/><br/>
+You read three and a half pages before the creeping terror of it forces you to light a second lamp.
+
+
+
+	ChildBranches 23
+Name: Make a study of what goes on in the back room
+Id: 146228
+Description: The machinery looks interesting.
+
+
+
+		DefaultEvent
+Name: Intricate restorations
+Id: 180311
+Description: The Postal Rat explains its activities willingly. What he says would doubtless be most stimulating to anyone with a taste for gears and finely extruded wires, but you follow very little.
+
+		ParentEvent
+Name: 
+Id: 180310
+Description: 
+
+		SuccessEvent
+Name: Finer distinctions
+Id: 181363
+Description: The Postal Rat is forever making improvements to the machine: making it more able to distinguish between similar types of package, more sensitive to the age and significance of the contents.
+<br/><br/>
+The current project requires encoding the entire contents of Slowcake's Exceptionals into a drum of punched metal, so that the machine will be able to recognise correspondence to or from persons of note, and send it into its own proper basket.
+
+
+
+	ChildBranches 24
+Name: Descend into the basement with mirrors
+Id: 146868
+Description: Arrange contraptions. Divert light. Illuminate what has been dark a long time.
+
+		DefaultEvent
+Name: Too dim
+Id: 181374
+Description: Your contraption of fires and mirrors is clever, but insufficient. By the twelfth spiral you are walking in darkness, and there is no knowing what might be waiting for you below.
+
+		ParentEvent
+Name: 
+Id: 180310
+Description: 
+
+		SuccessEvent
+Name: Spiral on spiral on glittering spiral
+Id: 181375
+Description: The descent is long and slow. You count the turns at first, but the time comes when you can't see the square of light from the door above, and can't mark how far you have come around the spiral. The illumination you have contrived gets dimmer the further you go, until you come at last to a floor whose base you can barely see.
+<br/><br/>
+The floor is carpeted with - at first you think it is gravel, but no, it is broken shards of clay and stone, all scribbled over in words too old to read.
+<br/><br/>
+At the centre of this space is a needle of deep black rock, glossy as resin, glittering with ice, inscribed with three arcane sigils that hurt to look at. You feel a meaning in their presence: a prohibition, or a commandment. That all things must come to their destined place. That what cannot be delivered immediately must be saved against a future date. That a message that goes unheard is a tragedy.
+<br/><br/>
+That the signal must be carried, no matter how far, no matter through what darkness, no matter whether the sender still lives nor whether the recipient can even read the language of the writing-
+<br/><br/>
+The inscription resolves itself and is known to you.
+NO WORD LOST.

@@ -1,0 +1,75 @@
+(311)
+Name: Penstock's Wicket
+Id: 180274
+Description: The Daughter follows Penstock back into the shop, to a redly lit grotto hollowed from the Bazaar's carapace. A heavily chained cage-lift awaits you there. It must descend into the most secret spaces of the Bazaar.
+<br/><br/>
+"Penstock's Wicket," she says. "He has an understanding with the Bazaar. He let my mother pass through, long ago, to make her bargain. Now I will follow."
+<br/><br/>
+Is that really such a terribly good idea?
+
+	ChildBranches 1
+Name: Discourage her from passing through the Wicket
+Id: 146205
+Description: She has wanted this for so long. But you've known her long enough to realise that beneath her bravado, she is genuinely terrified.
+
+		DefaultEvent
+Name: "Perhaps you're right."
+Id: 180275
+Description: She talks constantly as you return to the ship. How happy she is that you dissuaded her. How lucky she was not to fall prey to that temptation. How her mother was unhappy, obviously, truly. How she's more interested in engines than the Great Signs, anyway. How happy she is. But she needs to sleep for a while; to sleep for a while.
+
+		ParentEvent
+Name: 
+Id: 180274
+Description: 
+
+
+
+	ChildBranches 2
+Name: Let her go down under the Bazaar
+Id: 146206
+Description: "I want to match my mother," she says, reasonably. "I want to learn the Great Signs. The Courier - the Bazaar - is the only one who will teach me. I have to go." [There is a possibility that she may never return.]
+
+		DefaultEvent
+Name: An ascent
+Id: 180276
+Description: The cage rises, rattling, into view. Your officer is shivering, caked with lumps of something like ivory-coloured snow - but grinning brilliantly. "The Sundered Sea!" she cries. "The Bazaar - oh, he's so much more than any Bazaar. My mother - I have back what she took from me." She taps you playfully on the shoulder as you haul back the lift door. "Thank you. Here's a little present I picked up on the shore."
+<br/><br/>
+Did she get what she wanted? "Oh, yes. And so much more. I have one more tattoo now. But it's one that no one, ever, will see."
+
+		ParentEvent
+Name: 
+Id: 180274
+Description: 
+
+		RareDefaultEvent
+Name: A long and sorrowful wait
+Id: 180277
+Description: The lift descends rattling into the darkness, and is gone. You wait.
+<br/><br/>
+At last Penstock comes to lead you away by the arm. "I have to close up now," he says. "It's almost midnight. You won't see her again." He looks up at the place where the Bazaar's carapace meets the ceiling. "The Bazaar... she's not cruel. But she's not kind either. I'm sorry, [q:Addressed As]. You won't see your officer again."
+
+
+
+	ChildBranches 3
+Name: Let her go down under the Bazaar
+Id: 146272
+Description: "I want to match my mother," she says, reasonably. "I want to learn the Great Signs. The Courier - the Bazaar - is the only one who will teach me. I have to go." [There is a possibility that she may never return - but the work you've done to assist Penstock and the Bazaar means it's only a very small possibility.]
+
+		DefaultEvent
+Name: An ascent
+Id: 180370
+Description: The cage rises, rattling, into view. Your officer is shivering, caked with lumps of something like ivory-coloured snow - but grinning brilliantly. "The Sundered Sea!" she cries. "The Bazaar - oh, he's so much more than any Bazaar. My mother - I have back what she took from me." She taps you playfully on the shoulder as you haul back the lift door. "Thank you. Here's a little present I picked up on the shore."
+<br/><br/>
+Did she get what she wanted? "Oh, yes. And so much more. I have one more tattoo now. But it's one that no one, ever, will see."
+
+		ParentEvent
+Name: 
+Id: 180274
+Description: 
+
+		RareDefaultEvent
+Name: A long and sorrowful wait
+Id: 180371
+Description: The Daughter descends rattling into the darkness, and is gone. You wait.
+<br/><br/>
+At last Penstock comes to lead you away by the arm. "I have to close up now," he says. "It's almost midnight. You won't see her again." He looks up at the place where the Bazaar's carapace meets the ceiling. "The Bazaar... she's not cruel. But she's not kind either. I'm sorry, [q:Addressed As]. You won't see your officer again."

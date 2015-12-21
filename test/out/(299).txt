@@ -1,0 +1,104 @@
+(299)
+Name: A Candle-Lit Shop
+Id: 154987
+Description: A quiet street washed with serpent-green light from bulbs overhead. The houses here are dark, empty-seeming. Paint peels and bats chitter. A single shop, however, is open. Its windows glow with candle-light. The shopkeeper is a tall woman with pale eyes - not a local, but not a Londoner either. She blows the dust off a baize box and smiles toothily at you.
+
+	ChildBranches 1
+Name: Purchase a Pot of Violant Ink
+Id: 131519
+Description: "Good for diaries, if you have something to confess."
+
+		DefaultEvent
+Name: A watchful shimmer
+Id: 154988
+Description: The pot is tightly sealed. The glass is cool to the touch. When you grasp it, soft light spills between your fingers. Your skin tingles as if from too much sun.
+
+		ParentEvent
+Name: 
+Id: 154987
+Description: 
+
+
+
+	ChildBranches 2
+Name: Purchase a Watchful Curio
+Id: 131520
+Description: "I keep them with their faces turned to the wall. You never know, eh?"
+
+		DefaultEvent
+Name: Unweeping eyes
+Id: 154989
+Description: The Curio is granite, smoothed by the touch of countless hands. Its teeth are sharp.
+
+		ParentEvent
+Name: 
+Id: 154987
+Description: 
+
+
+
+	ChildBranches 3
+Name: Purchase a Drowning-Pearl
+Id: 131521
+Description: "The Taimen like these: yes, they do. Have you ever wondered why? No? Good for you, [q:Addressed As]. Good for you."
+
+		DefaultEvent
+Name: Cold as stones
+Id: 154990
+Description: He sells you the pearl in a twist of tissue-paper, in a little blue box. It looks up at you from the paper like a stolen eye.
+
+		ParentEvent
+Name: 
+Id: 154987
+Description: 
+
+
+
+	ChildBranches 4
+Name: Purchase a Strange Catch
+Id: 131522
+Description: "Pickled! We shall all be pickled, one day, I have no doubt. Preserved in some desperate museum. Excuse me. The light here confuses the mind."
+
+		DefaultEvent
+Name: A great grey glass jar
+Id: 154991
+Description: A fanged nightmare goggles idiotically at you from the murky liquid.
+
+		ParentEvent
+Name: 
+Id: 154987
+Description: 
+
+
+
+	ChildBranches 5
+Name: Purchase a Soothe & Cooper Long-Box
+Id: 131523
+Description: "This great thing? It's been cluttering up my shop for too long. Please, take it off my hands. I mean to say, oh, I suppose I can part with it. For the usual price."
+
+		DefaultEvent
+Name: A misplaced delivery?
+Id: 154992
+Description: The shopkeeper opens a trap-door. A pale and surly youth comes up, blinking, and hastily dons a pair of dark glasses. He helps you carry the Long-Box down to the dock, mute all the way.
+
+		ParentEvent
+Name: 
+Id: 154987
+Description: 
+
+
+
+	ChildBranches 6
+Name: Purchase a Brass-Backed Mirror
+Id: 131524
+Description: "I wonder if that will actually be possible."
+
+		DefaultEvent
+Name: She shakes her head sadly.
+Id: 154993
+Description: "Oh, no. No no. Mirrors are unloved here in the Khanate, you see. I can only suspect you of being a spy for the White-and-Golds. If I even had such a mirror, I could not sell it; and were you not a spy, still I would not damn you with its seductions. Perhaps there is something else?"
+
+		ParentEvent
+Name: 
+Id: 154987
+Description:

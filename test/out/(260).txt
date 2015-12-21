@@ -1,0 +1,44 @@
+(260)
+Name: The Venturer's Passage
+Id: 168131
+Description: Your zailors assist the Merchant Venturer as he assembles the contents of the crates. A platform takes shape before the Gate - a structure like a vast dragonfly or a carnival float. He piles it with cargo.
+<br/><br/>
+"The Gate," he tells you, "is a law, not a door. In a moment of inattention from its guardians, the law may be broken."
+
+	ChildBranches 1
+Name: Watch as he completes his scheme
+Id: 138850
+Description: "Trade exists beyond the Gate, in the high wilderness. The Bazaar itself has told me this. I will earn the currencies of heaven. I will return, strong with strange riches."
+
+		DefaultEvent
+Name: A ravishing light
+Id: 168132
+Description: The Gate does not open in the way of other gates - nothing moves - but its surface blazes bright as the skin of a star. The light is like the savage radiance from the Dawn Machine's ruptures. The Venturer and his machine shine like glass - their bones illuminated within - a sight so beautiful that sailors cry out and fall to their knees. The light grows brighter still, and now all the colours in all the ice around you are visible. Brighter, and you can see nothing at all.
+<br/><br/>
+The light fades. The High Gate is closed. The Venturer and his cargo are gone, into the void. As your eyes recover, far, far, away, in the uttermost South, you glimpse a pulse of ruddy, envious light.
+
+		ParentEvent
+Name: 
+Id: 168131
+Description: 
+
+
+
+	ChildBranches 2
+Name: Pass beyond with him
+Id: 138851
+Description: "Will you come with me? I don't know when we'll return. But when we do... we will be armoured in glory." [This will end your game, although your next character will retain something interesting.]
+
+		DefaultEvent
+Name: Into the North
+Id: 168133
+Description: The Gate does not open in the way of other gates - nothing moves - but its surface blazes bright as the skin of a star. The light is like the savage radiance from the Dawn Machine's ruptures. The Venturer and his machine shine like glass - their bones illuminated within - a sight so beautiful that sailors cry out and fall to their knees. The light grows brighter still, and now all the colours in all the ice around you are visible. Brighter, and you can see nothing at all.
+<br/><br/>
+You are through! All around you, the blistering, wonderful night of the High Wilderness. The stars watch you balefully. The winds of nowhere tear at your hair, strip away your skin. The Venturer is laughing. Your cargo unfolds like a map. "First," the Venturer says, "the Forge of Souls. Let's see who they'll make for us."
+<br/><br/>
+(THIS IS AN ENDING.)
+
+		ParentEvent
+Name: 
+Id: 168131
+Description:

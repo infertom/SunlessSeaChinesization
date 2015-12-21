@@ -1,0 +1,93 @@
+(166)
+Name: Ritual's End
+Id: 168628
+Description: The hour of confidence is drawing to its end. If there is anything else you need to do, now is the time.
+
+	ChildBranches 1
+Name: Set off a flare, allowing you to see everyone
+Id: 139119
+Description: You will see everything. [This will certainly get you kicked off the island.]
+
+		DefaultEvent
+Name: Ouch
+Id: 168629
+Description: The light is so sudden, so searing, that someone screams. All around you are... all sorts of things. Some are human, but you see other faces: rubbery, clay, some unrecognizably altered. The Chief Geometer, with his mask off, doesn't seem to be bothering to wear a face at all. Many faces are wet with tears. No one welcomes the blaze of light.
+<br/><br/>
+Someone throws a cloak over the flare: a mistake, because of course it only begins to burn. After that someone manages to douse both flare and cloak. (Who in this crowd was carrying a bucket of water?) But it is put out, and someone's hands are clamped firm around your wrist.
+<br/><br/>
+And that is the last that you see of Visage. You are taken blind back to the docks, your face covered in a black cloth that is no mask at all.
+
+		ParentEvent
+Name: 
+Id: 168628
+Description: 
+
+
+
+	ChildBranches 2
+Name: Set off a flare, lighting this place up
+Id: 139120
+Description: You will see everything. [This will certainly get you kicked off the island.]
+
+		DefaultEvent
+Name: Out, out out
+Id: 168630
+Description: The light is so sudden, so searing, that someone screams. All around you are... all sorts of things. Some are human, but you see other faces: rubbery, clay, some unrecognizably altered. The Chief Geometer, with his mask off, doesn't seem to be bothering to wear a face at all. Many faces are wet with tears. No one welcomes the blaze of light.
+<br/><br/>
+Someone throws a cloak over the flare: a mistake, because of course it only begins to burn. After that someone manages to douse both flare and cloak. (Who in this crowd was carrying a bucket of water?) But it is put out.
+<br/><br/>
+You do get out, though. You're escorted back up the tunnel, double-quick, and no business about having to wait your turn in an endless file of people. The cold sea air is on your face.
+
+		ParentEvent
+Name: 
+Id: 168628
+Description: 
+
+
+
+	ChildBranches 3
+Name: Shine a light on the bat-faced figure
+Id: 139121
+Description: Really it's just him you want to understand. [This will certainly get you kicked off the island.]
+
+
+
+		DefaultEvent
+Name: Bat
+Id: 168631
+Description: You hood the flare inside a lantern, but it's still distressfully bright in here.
+<br/><br/>
+You shine the light on your companion. A man only, with a broad nose that looks like it has been broken repeatedly, and a missing tooth, and scars about the neck as though he has been executed many times. He gives you a sad, sheepish grin. 
+<br/><br/>
+"Nothing to see here," he says. "And they'll be putting me to death again soon enough, so you needn't have bothered."
+<br/><br/>
+Already the others are swarming on him. Before your light goes out, you catch a glimpse of a noose, ready in someone's hand. The bats are not welcome here, it seems.
+<br/><br/>
+Though after your violation of the mask-darkness, you aren't welcome either.
+
+		ParentEvent
+Name: 
+Id: 168628
+Description: 
+
+
+
+	ChildBranches 4
+Name: Do nothing
+Id: 139122
+Description: Let the ceremony end according to the proper rites.
+
+
+		DefaultEvent
+Name: Last bell
+Id: 168632
+Description: At the end of the hour there comes a woman with a feather of shimmering silver, which she tucks into your hand. Symbol of the innocent heart that will not be eaten by the jackal. 
+<br/><br/>
+Then a bell rings and the time of speech is over. You all begin to put your masks back on. It is possible - you cannot know for sure - that in this cover someone has exchanged a mask with someone else.
+<br/><br/>
+It is an orderly and perfect line that emerges again from the ear of Flourishing-of-Years. If anyone watches from above, they must surely be satisfied. 
+
+		ParentEvent
+Name: 
+Id: 168628
+Description:

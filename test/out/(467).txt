@@ -1,0 +1,199 @@
+(467)
+Name: Preparing for the Festival of Silk
+Id: 167217
+Description: The glumness of the Nativity is broken by the reds and golds of freshly hung banners. Spider-worshipping Weavers and Widows guide the traders in readying their celebration of gratitude to the 'generous neighbours' that silently watch over them from the shadows.
+
+	ChildBranches 1
+Name: Meet with an Emissary of Spiders
+Id: 138296
+Description: He has witnessed much, yet seen nothing, since the sorrow-spiders he serves harvested his eyes.
+
+		DefaultEvent
+Name: "Ah, my good sir. Or is it Madame? Or another salutation perhaps? Pardon my ignorance."
+Id: 167218
+Description: He taps his blindfold. "The honour of serving the acrimonious masters does somewhat leave one at a disadvantage in matters of detail." He smiles. "Blind to light is not, however, deaf to rumour. I wonder, might I prevail upon the good natured individual I have heard contributed so much to our little festival? Splendid. Splendid..."
+<br /><br />
+He leans in close. "My benefactors have charged me with seeking... a special sustenance for a special occasion. I am sure an experienced zailor such as yourself sees through the necessary euphemism. Shall we say, unfortunates of little future, such as your tomb-colonists? Were perhaps a select few to find a different destination for the greater good, I can promise more than fair compensation for any subsequent regrets."<br/><br/>
+[You may be able to obtain trusting tomb-colonist tourists at Venderbight, if you've assisted them in the past.]
+
+		ParentEvent
+Name: 
+Id: 167217
+Description: 
+
+
+
+	ChildBranches 2
+Name: Compile a Port Report
+Id: 138329
+Description: The silk-traders of the Nativity know better than to risk loose chatter. Still, a little contribution to their festival may loosen their tongues.
+
+		DefaultEvent
+Name: An off-the-cuff, scripted response
+Id: 167267
+Description: The silk traders don't talk much. In particular, they don't talk of the sorrow-spiders at their feet, over their heads or crawling over them as they sleep. Spiders? We'll not be having that kind of talk about the generous neighbours, they say with haste, in raised voices.
+
+		ParentEvent
+Name: 
+Id: 167217
+Description: 
+
+
+
+	ChildBranches 3
+Name: Trade Supplies for Silk
+Id: 138330
+Description: The fine silk of Saviour's Rocks is the most coveted in the Neath. There can be no better time to acquire some without the usual traders' markup.
+
+		DefaultEvent
+Name: A fine trade!
+Id: 167268
+Description: "We'll only be needing to stock up on supplies like this 'til after the Festival of Silk," warns the merchant, as his people load your goods onto the ship. "It'll be back to Echoes like regular after that, but still, you come see me and I'll give you a deal that'd turn Mr Veils' cloak white."
+<br /><br />
+He pauses for a moment, checking the shadows on instinct. "Course, if anyone asks, I never said that."
+
+		ParentEvent
+Name: 
+Id: 167217
+Description: 
+
+		RareDefaultEvent
+Name: A fine bonus!
+Id: 167282
+Description: The merchant whistles as he opens the crate and finds a couple of bottles of Morelways 1872, apparently rejected by the crew for being fancy toff-water. "Morelways! You don't know how I've dreamed of this stuff since coming here. That Greyfields piss? A vintage for schoolgirls!"
+<br /></br>
+He pops the cork and takes a swig, an unpracticed look of happiness spreading across his face. At his gesture, an extra crate is loaded onto your ship.
+
+
+
+	ChildBranches 4
+Name: A delivery of 'Trinkets'
+Id: 138331
+Description: An almost entirely legitimate silk-trader urgently requests your help with a delivery to Fallen London.
+
+		DefaultEvent
+Name: "Trinkets?"
+Id: 167269
+Description: "Just trinkets," confirms the man, holding out the box. From inside comes a slight cracking sound, a hiss, a scratch that hints at nail on wood.
+<br /><br />
+"Trinkets," he repeats, not meeting your eyes.
+
+		ParentEvent
+Name: 
+Id: 167217
+Description: 
+
+		RareDefaultEvent
+Name: "Trinkets?"
+Id: 167275
+Description: "Just trinkets," confirms the man, holding out the box. Shaking it, you hear a rattling and see a sudden look of horror on the man's face. He says nothing though, merely backs away as quickly as good manners permit.
+
+
+
+	ChildBranches 5
+Name: Assist with festival preparations
+Id: 138337
+Description: The assistance of an experienced captain and crew will hardly be turned down.
+
+		DefaultEvent
+Name: Quiet murmurs of appreciation
+Id: 167277
+Description: The traders of the Nativity have little practice showing appreciation, but at least put in an effort. In particular, they not entirely accidentally let slip the secret of the 'Accord of Grace' - a hospitality granted visitors by the generous neighbours of whom they will speak no ill.
+<br /><br />
+They do however hint that this only applies to travellers arriving through the port. Those unlucky enough to run aground on the Rocks can consider themselves... but no. No. A sorrow-spider might hear something they would of course never say.
+
+		ParentEvent
+Name: 
+Id: 167217
+Description: 
+
+
+
+	ChildBranches 6
+Name: A prisoner bound by webs
+Id: 138663
+Description: He gasps for water as the town conducts its business around him. Not a man dares even meet his eyes.
+
+		DefaultEvent
+Name: Offend not the generous neighbours
+Id: 167806
+Description: The death of thirst is far from their strongest reprimand to those who would spurn their protection.
+
+		ParentEvent
+Name: 
+Id: 167217
+Description: 
+
+
+
+	ChildBranches 7
+Name: A thief of silk
+Id: 138664
+Description: You see him trying to steal from the festival while pretending to gather new banners to hang.
+
+		DefaultEvent
+Name: All avert their eyes as he is dragged away
+Id: 167807
+Description: The sorrow-spiders see all that happens in their domain. Their justice is swift and final. It is not a thing to be discussed, merely witnessed, for the future education of all who might violate their rules.
+
+		ParentEvent
+Name: 
+Id: 167217
+Description: 
+
+
+
+	ChildBranches 8
+Name: Deliver the tomb-colonists
+Id: 138903
+Description: You've been to Venderbight. Perhaps this is doing them a favour.
+
+		DefaultEvent
+Name: The grisly delivery is made
+Id: 168210
+Description: The Emissary of Spiders has a pair of strong traders load the unfortunate tomb-colonists onto a rickety, already well-stocked supply cart. It would be preferable not to be around when they wake up, but that seems unlikely. The Emissary bids you join him on the cart, now so burdened that the only place to sit is on the coffins.
+<br /><br />
+"A reward was promised, was it not?" he says, settling himself down on a silk cushion. "Come! The esurient masters demand an audience."
+
+		ParentEvent
+Name: 
+Id: 167217
+Description: 
+
+
+
+	ChildBranches 9
+Name: The Haunted Doctor
+Id: 146348
+Description: "Please. I must leave this terrible place. The sorrow-spiders will not take me back. Please." [The Haunted Doctor increases Hearts and Pages.]
+
+		DefaultEvent
+Name: Welcome aboard!
+Id: 180508
+Description: The Haunted Doctor hurries aboard the ship. He pauses, looking at the cursed wasteland of Saviour's Rocks. "The Lady said I would never be able to get it back once it was thrown away. I see she was... never mind. Is this my cabin? Yes. It is more than I deserve."
+<br />
+[Appoint your new Officer by dragging him from the Officers tab to his slot at the top of the screen. Do this in port, not at sea, or you may unsettle your crew.]
+
+		ParentEvent
+Name: 
+Id: 167217
+Description: 
+
+
+
+	ChildBranches 10
+Name: Put a blemmigan ashore
+Id: 147562
+Description: Dark and dank: just how they like it.
+
+		DefaultEvent
+Name: An unseemly brawl
+Id: 182369
+Description: The blemmigan whirls across the quay and under a silk-merchant's stall, occasioning some alarm. Gone from your life! Your duty is done!
+<br/><br/>
+Not quite. With a furious insectile screech, sorrow-spiders converge on the stall. The blemmigan is driven into the open! It smashes one spider-carapace with its beak, vaults another spider in a flash of fungal dexterity, fences tendril-to-chelicerae with a third as they both dash up a wall. Then it's gone into the webs, its hyphal slimes protecting him from their sticky adhesions. Spiders pour after it. Who will know its end? Not you. You had nothing to do with this. If anyone asks, you were probably never even here.
+
+		ParentEvent
+Name: 
+Id: 167217
+Description:

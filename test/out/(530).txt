@@ -1,0 +1,91 @@
+(530)
+Name: A Lesson in History
+Id: 152289
+Description: The Seneschal leads you to the southern side of the island, skirting the Chickenwoods. You pass through a number of raised mounds of earth mixed with fortifying strips of mushroom flesh, which you suppose to be makeshift walls. <br><br>
+
+The settlement is dazzling: this side of the island appears to be absolutely wreathed in scintillack. The Cavies' dwelling is awash with silver phosphorescence.<br><br>
+
+You look around. It's a large colony; most noticeable is the steam-pinnace -- "The Impossible Lamb"? -- that's run aground, from which Cavies come and go, bearing supplies. To the right of the ship, farther down the beach, a large group of Cavies lie on bundles of colourful cloth, whining and wailing as if in pain; to the left of the ship is a ramshackle tent of poles and linen in front of which guinea pigs clash against each other and sharpen their teeth. <br><br>
+In the centre of the village is a covered dais, veritably festooned with colourful cloth and guarded by well-decorated knights. You suspect this is where King Gracegnaw keeps council.
+<br><br>"Be welcome, Captain, in the Kingdom of Cavia, Capitol of our Isle and Blessed by the light of Our Lady's Eye." The Seneschal speaks solemnly, but there's a hint of sadness to her words. "Or so it was, and shall be again. I must speak with our King and prepare your arrival. My Page will show you the area, and bring you in sight of His Splendour in good time. Page!"
+<br><br>
+A much smaller guinea pig, its fur braided with a slender strip of Parabola linen, scurries over, and bows. The Seneschal takes her leave.
+
+	ChildBranches 1
+Name: Ask the Page to take you to the barracks.
+Id: 129793
+Description: What chance can guinea pigs stand against the weaponed might of the Rattus Faber?
+
+		DefaultEvent
+Name: Surprising odds.
+Id: 152290
+Description: The Page leads you to the Barracks, where the Knights don't deign to speak to one so undecorated as you. The Page, however, is eager to answer your questions.<br><br>
+"The rats have no weapons! None to speak of. What is a gun without a bullet but a sword without a blade? Ours are the supplies, the knives, the softstuffs and the glory. Their teeth are sharp, it is true, while ours ... " The Page hesitates as the Knights glower at him. "...are sharper! All praise to the Flowers of the House of Cavy!"
+<br><br>
+One Knight preens while the other grunts indifference, working a whetstone along its top front teeth. While you watch, a particularly vigorous swipe knocks a whole incisor out of place. It lands on the ground in a black and bloody mess.<br><br> The Knight gasps, grasps the tooth, and vanishes from sight, while the other glares in a way that dares you to make something of it.
+
+		ParentEvent
+Name: 
+Id: 152289
+Description: 
+
+
+
+	ChildBranches 2
+Name: Ask the Page to take you to the steam-pinnace.
+Id: 129796
+Description: Is this indeed "The Impossible Lamb"? Wasn't it reported overrun by rats?
+
+		DefaultEvent
+Name: A chalky shore.
+Id: 152293
+Description: The Page chitters while you inspect the vessel. <br><br>
+"Rats! Never! The Splendour of Cavy overtook this vessel! I was born here, the first Native of Cavia, but all our elders remember the voyage. It was hard, they say, but we were harder! But the Zee is black and unkind; we were lost in the dark for weeks, and no one speaks of those terrible times. But out of the darkness came the light of Our Lady's Eye, guiding us here, to our own Isle! In time we will ride the waves again, perhaps, once we have recovered our Eye. Is it not splendid?"
+<br><br>
+It certainly may have been, at one time, but you can see the hull's been severely damaged by the scintillack reef; there's no way the Cavies can hope to repair it themselves. Whatever the Page says, they're stranded here.
+
+		ParentEvent
+Name: 
+Id: 152289
+Description: 
+
+
+
+	ChildBranches 3
+Name: Ask the Page to take you to the King.
+Id: 129800
+Description: You've seen all you need to see here. Time to see if the King is ready to receive you.
+
+		DefaultEvent
+Name: 
+Id: 152298
+Description: 
+
+		ParentEvent
+Name: 
+Id: 152289
+Description: 
+
+
+
+	ChildBranches 4
+Name: Ask the Page to take you to the hospice.
+Id: 129947
+Description: Are those guinea pigs ... quarantined?
+
+		DefaultEvent
+Name: The Black Death.
+Id: 152507
+Description: An elderly looking Cavy greets you, eyeing you gravely.
+<br><br>
+"Many of us sickened during the voyage -- a rotting in our teeth, a weakness in the flesh. This Isle was our salvation; the stronger among us made a pilgrimage towards the pool of Our Lady's Light, and then, miracle of miracles, they were cured! They bathed in Her, they drank Her sweet waters, and the strong brought the weak to Her in turn. Soon we were thriving again, bearing our children and raising them to love Our Lady's Eye and see in it our deliverance."
+<br><br>
+The elder looks sorrowfully at the sick under his care. 
+<br><br>
+"Since the rats stole Her, the sickness has returned. All this light is but a mockery of Hers, and we gain from it no benefit. The only thing," the Elder's ears and voice flatten in a hiss "that helps our condition is the flesh -- the very hearts and livers -- of the rats who stole Her from us."
+
+
+		ParentEvent
+Name: 
+Id: 152289
+Description:

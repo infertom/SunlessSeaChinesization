@@ -1,0 +1,60 @@
+(257)
+Name: Speak with the Irrepressible Cannoneer
+Id: 148802
+Description: "Hello!! What can I do for you? I have lists!!"
+
+	ChildBranches 1
+Name: Increase your Iron
+Id: 127634
+Description: "Excellent!! That's at the top of my list!!" [Spend a Secret to improve your Iron, unless it's higher than 100. The ship must be in good shape to sustain the impact of the Cannoneer's experiments.]
+
+		DefaultEvent
+Name: "No - I mean yes - I mean, my God, no!!"
+Id: 148803
+Description: "That, Captain, is going to cause explosions. Although, hm, now you mention it - "
+
+		ParentEvent
+Name: 
+Id: 148802
+Description: 
+
+		RareDefaultEvent
+Name: A little explosion
+Id: 180106
+Description: "Oh, my word!! We need to - sorry about - there, that's out - only smoke - look at the - there. All's well that ends well!! And in the end, all manner of thing shall be well!!!"
+
+
+
+	ChildBranches 2
+Name: Answer questions about your past
+Id: 127636
+Description: You've kept your secrets long enough. [Unmask yourself! This will allow you to select a Past, Ambition, and form of preferred address - also providing you with a specialist ability bonus.]
+
+		DefaultEvent
+Name: 
+Id: 148805
+Description: 
+
+		ParentEvent
+Name: 
+Id: 148802
+Description: 
+
+
+
+	ChildBranches 3
+Name: Invite the Cannoneer to dine with you
+Id: 127637
+Description: "I've had enough to eat, thank you!! I don't eat much. But I'd like to demonstrate some ideas I've had. Can you meet me on the afterdeck at eight bells?"
+
+		DefaultEvent
+Name: Flowers of flame
+Id: 148806
+Description: The Cannoneer has found ways to calibrate your weapons for 'additional death and explosions'. When the smoke clears, however, it is impossible to deny that the risk and expense of most of his tricks is a little too great. Only a couple of minor modifications are safe to use.
+<br/><br/>
+"But do you know," the Cannoneer says, squinting thoughtfully, "it reminds me of a story! The Iron & Misery Company were testing something!! Destroyed one of their outlying stations. Destroyed it to bits!! If you can find me the prototype, I can make it work for us. Can you take me to Demeaux Island? I used to know the Factor there. He might talk."
+
+		ParentEvent
+Name: 
+Id: 148802
+Description:

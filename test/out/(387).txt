@@ -1,0 +1,125 @@
+(387)
+Name: Assist at an Animescence Hospital
+Id: 181054
+Description: Animescence is a rare disease of the Elder Continent. A slow combustion of the soul, gradually baking the vital organs. Poets suffer worse than most; lovers worst of all. The blistered monks who run the hospital will accept any assistance. 
+
+	ChildBranches 1
+Name: Obtain treatments for the Brisk Campaigner
+Id: 146661
+Description: No cure exists, but the monks claim they can delay the worst symptoms.
+
+		DefaultEvent
+Name: "We can spare a little, if your need is great."
+Id: 181055
+Description: A gelid paste. A trio of astringent philtres, to be taken in an exact order and dosage. An epigram, to recite as the treatments are administered. Will this bunkum really work?
+
+		ParentEvent
+Name: 
+Id: 181054
+Description: 
+
+
+
+	ChildBranches 2
+Name: Ask the Brisk Campaigner to educate the monks
+Id: 146664
+Description: She has a unique perspective on the disease, being - as far as you know - the only person to survive it.
+
+		DefaultEvent
+Name: Two lectures
+Id: 181058
+Description: "My cure is not one that can - or should - be replicated. But in the course of pursuing it, I learned a great deal about my condition."
+<br/><br/>
+The monks listen, avidly. Afterwards, they express their appreciation with a sack of sliding black beans. The abbey's coffee is highly regarded for its robust, aromatic flavour. The prior is happy to tell you their secret. "We feed the beans to a certain breed of sloth in the valley. The juices of their digestive tract dissolve the less ripe beans, while applying a distinct, nutty character to the surviving, superior beans. Then, once the bean has completed its passage through the sloth, we..."
+
+		ParentEvent
+Name: 
+Id: 181054
+Description: 
+
+
+
+	ChildBranches 3
+Name: Return to Adam's Way
+Id: 146668
+Description: Turn your back on the cedar-wood doors.
+
+		DefaultEvent
+Name: 
+Id: 181065
+Description: Down the stony incline, to the bustle of the port.
+
+		ParentEvent
+Name: 
+Id: 181054
+Description: 
+
+
+
+	ChildBranches 4
+Name: Carry water in the Chapel of Pyres
+Id: 146665
+Description: Where patients in their final throes rave on stone beds.
+
+		DefaultEvent
+Name: A narrow escape?
+Id: 181059
+Description: A tattooed patient croaks his last secret, kept hidden all his life. His lips are cracked. His skin is dry as paper. You draw close to listen. He shudders. He breathes a final, torn breath, his mouth hot as an oven door. A monk drags you away. The soul burns most fiercely when the body dies. Get too close, and your own might catch light. Is it hot in here?
+
+		ParentEvent
+Name: 
+Id: 181054
+Description: 
+
+		SuccessEvent
+Name: Deathbed confessions
+Id: 181060
+Description: The Chapel smells like a chophouse at lunchtime. You make your way between the beds, tipping sips of water between parched lips, and holding hands as hot as kettles. In their final fevers, the patients whisper their regrets, their secrets, their solace.
+
+
+
+	ChildBranches 5
+Name: Root out a reckless poet
+Id: 146666
+Description: The cellerar has discovered scraps of love-poetry on the pantry floor. The abbot wants the perpetrator found, before they dangerously inflame the inmates' passions.
+
+		DefaultEvent
+Name: Empty-handed
+Id: 181061
+Description: The recalcitrant poet eludes you. The best you can do is recover the verses already in circulation before they do more damage. The stanzas are yearning, hopeful. The poet has talent.
+
+		ParentEvent
+Name: 
+Id: 181054
+Description: 
+
+		SuccessEvent
+Name: The culprit
+Id: 181062
+Description: You catch the poet red-handed, composing by candlelight in a cupboard. Her hair is damp with sweat. She clutches the page she was writing tightly, knowing you'll try to take it. You watch its corners curl under her heat.
+<br/><br/>
+Sorrowfully, the monks break the poet's pen, and spill her ink. They give her magnum opus - <i>The Courier's Wish</i> - to you for disposal.
+
+
+
+	ChildBranches 6
+Name: Assist in the cloisters
+Id: 146667
+Description: Where the monks catalogue the patients' dispositions, particularities and progress.
+
+		DefaultEvent
+Name: Senseless
+Id: 181063
+Description: You fill a dozen notebooks with observations and details, but find no pattern. Animescence is a capricious disease.
+
+		ParentEvent
+Name: 
+Id: 181054
+Description: 
+
+		SuccessEvent
+Name: Taxonomy
+Id: 181064
+Description: You conduct interviews, record observations, track the simmering, inexorable advancement of a dozen cases of the disease. The more phlegmatic patients endure better than the melancholy and the sanguine. 
+<br/><br/>
+The abbot commends your attention to detail. The monks are not wealthy, but they pay for your assistance with barrels of fresh well-water, gold-crusted bread, and a small, precious box of lemons.

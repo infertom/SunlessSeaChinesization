@@ -1,0 +1,62 @@
+(24)
+Name: The Campaigner's health is desperate
+Id: 165301
+Description: A phosphorescence swims in the skin of her face, like torches in fog. She keeps one hand on the rail as she walks. Zailors draw back, muttering petitions to Stone.
+
+	ChildBranches 1
+Name: Bed-rest and desperate measures
+Id: 137099
+Description: Insist she stays in bed. Dose her food with the mutersalt which, you've learnt, suppresses her condition.
+
+		DefaultEvent
+Name: Desperate acquiescence
+Id: 165302
+Description: She's more willing to go and lie down than you expected. Mutersalt numbs the voice, but she seems disinclined to talk in any case. There is no time left for obstinacy and heroism. Help her save herself soon, or all the mutersalt in the Pale Wastes won't be enough.
+
+		ParentEvent
+Name: 
+Id: 165301
+Description: 
+
+
+
+	ChildBranches 2
+Name: Let her go
+Id: 137105
+Description: These are her final moments.
+
+		DefaultEvent
+Name: The light goes out
+Id: 165312
+Description: "My family," she says composedly, "will have opinions on my the matter of my bur - " She begins to cough, desperately. A spasm takes her. The crew gather, appalled. There is blood on the deck.
+<br/><br/>
+She hangs on your arm, looks up at you. "Burial. This flesh - contaminated - give it to - zee. At zee!"
+<br/><br/>
+The light in her eyes goes out: the strength is gone from her arm. She collapses like a falling tower.
+
+		ParentEvent
+Name: 
+Id: 165301
+Description: 
+
+
+
+	ChildBranches 3
+Name: Administer the treatments from Adam's Way
+Id: 146683
+Description: The instructions are baroque. You work as quickly as you can.
+
+		DefaultEvent
+Name: Remedy? Or placebo?
+Id: 181083
+Description: The luminosity behind her skin dulls. "I'm quite all right," she croaks, her mouth dry as sand.
+
+		ParentEvent
+Name: 
+Id: 165301
+Description: 
+
+		RareDefaultEvent
+Name: Fruitless
+Id: 181084
+Description: Did you definitely give her two drops of the first concoction and three of the second? Is her condition too advanced? Are the medicines only quackery? Her skin is hot as the glass of a lamp. A light burns behind her eyes.

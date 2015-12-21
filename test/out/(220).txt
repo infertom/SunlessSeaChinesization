@@ -1,0 +1,59 @@
+(220)
+Name: Ice cold silver
+Id: 147949
+Description: You're surrounded by the evidence of your attempted... well, attempted laziness, though it might look to other eyes like attempted larceny.
+
+	ChildBranches 1
+Name: Send up to the steepled building after all
+Id: 127090
+Description: If you're challenged about the warehouse, say someone else did it.
+
+		DefaultEvent
+Name: Not your mess
+Id: 148071
+Description: You send one of your crew to the steepled building to ask for help. By the time they get back, you've shifted the boxes well away from the warehouse.
+<br/>
+<br/> 
+You've also assumed a very credible look of irritation at the inconvenience of the port arrangements. No question of you being in the wrong, surely.
+
+		ParentEvent
+Name: 
+Id: 147949
+Description: 
+
+
+
+	ChildBranches 2
+Name: Hide the evidence
+Id: 127033
+Description: No one needs to know.
+
+		DefaultEvent
+Name: Not very persuasive
+Id: 147950
+Description: You heave the broken box into the water and close the warehouse door again, but you can't get the lock to close. 
+<br/>
+<br/>
+The spilled silver liquid has hardened into forms as thin and cruel as blades. You can't pry it away. It lies there, shining.
+
+		ParentEvent
+Name: 
+Id: 147949
+Description: 
+
+		SuccessEvent
+Name: Shards of silver
+Id: 147951
+Description: Disposing of the box is not too difficult. It makes a splash, chucked into the water, and there is a bubbling gleam from the depths as though more of the silver liquid is leaking out. But soon enough box and bubbles are out of sight.
+<br/>
+<br/>
+The warehouse door closes too, with enough effort, and you even manage to get the lock locked again; a more difficult task than unlocking it in the first place.
+<br/>
+<br/>
+It is the congealed metal on the ground that gives you trouble. It is very cold, very hard, and it has frozen in thin ragged slivers that threaten to cut your hands when you try to pry it up.
+<br/>
+<br/>
+It is brittle, though, and you are able to smash it into flakes and pull the flakes away. At last you have done, and the scene looks no different than it did when you began.
+<br/>
+<br/>
+Only when all that is done do you send someone up to the steepled building to ask for help.

@@ -1,0 +1,99 @@
+(230)
+Name: Retire from Zeefaring Life
+Id: 143688
+Description: You're ready to end your life at zee, before the Unterzee ends it for you. [If you've completed an Ambition, this is unambiguously a win: otherwise, perhaps, call it a draw. You must be retiring to at least an Elegant Townhouse, in any case. You have standards.]
+
+	ChildBranches 1
+Name: Retire to an Elegant Townhouse
+Id: 124301
+Description: It's time to come home, for good.
+
+		DefaultEvent
+Name: A peaceful conclusion
+Id: 143689
+Description: It's a good life. It may not be the best of all possible lives; but you eat well, sleep well and never drown. You can write your memoirs, take up a hobby. Bee-keeping, perhaps. Basket-weaving. Cat-collecting. Bat-watching...
+<br/><br/>
+[This captain's career is complete.]
+
+		ParentEvent
+Name: 
+Id: 143688
+Description: 
+
+
+
+	ChildBranches 2
+Name: Retire to a Zeeside Mansion
+Id: 124302
+Description: Any earthly comfort you might reasonably desire.
+
+		DefaultEvent
+Name: An affluent conclusion
+Id: 143690
+Description: Perhaps you look out of those grand windows in your study and dream of the East, or even of the North, of what could have come to you across those lightless waters. Perhaps you embroider the stories of your exploits, a little. But perhaps you only grow old in comfort and peace. <br/><br/>
+[This captain's career is complete.]
+
+		ParentEvent
+Name: 
+Id: 143688
+Description: 
+
+
+
+	ChildBranches 3
+Name: VICTORY ... Retire to a Life of Luxury
+Id: 126069
+Description: You have a handsome mansion. You will also need a retirement fund.
+
+		DefaultEvent
+Name: Peace and luxury
+Id: 146446
+Description: You didn't reach the farthest ends of the zee, or earn a chapter of your own in the histories. But you will live out your days in well-cushioned, pleasantly-heated, chandelier-tinkling refinement and delight. Your cellar is full. Your servants are attentive. Beyond the windows of your study, the zee glimmers in the light of the false-stars. On quiet evenings, you raise a glass to it: your defeated foe. You have everything that money might conceivably buy. Everything else is beside the point.
+<br/><br/>
+[This captain's career is complete.]
+
+		ParentEvent
+Name: 
+Id: 143688
+Description: 
+
+
+
+	ChildBranches 4
+Name: VICTORY! ...Retire to a Life of Fame
+Id: 126071
+Description: You have written the Zong of the Zee, an epic and comprehensive artistic response to the black unknowns of the Neath. It will stand the test of time. Perhaps if anyone betters it, you can have them disposed of.
+
+		DefaultEvent
+Name: Fame and fortune
+Id: 146448
+Description: You are acclaimed as the Prophet of the Unterzee. Your work inspires a whole generation of new captains to risk their ships, crew and selves against the unknown rewards of the dark waters. Poets and scholars queue to consult you. Your secretary will juggle dinner invitations for years to come. You're at the summit of London's social order.<br/><br/>
+Your crew, of course, is not. They are bit players: crowd scenes, even. Perhaps you keep in touch with them, help them with loans or comfort when their own schemes fail. Perhaps you're content on your lonely pinnacle.
+<br/><br/>
+[This captain's career is complete.]
+
+		ParentEvent
+Name: 
+Id: 143688
+Description: 
+
+
+
+	ChildBranches 5
+Name: VICTORY! ...Retire with your Father's Bones restored
+Id: 126072
+Description: You have the grim bundle wrapped respectfully in oilskins. Arrange a funeral.
+
+		DefaultEvent
+Name: A quiet afternoon
+Id: 146449
+Description: Rain at funerals is decorous. The Neath chooses to grace this afternoon with one of its thin and melancholy showers. Water-drops glisten on the shovel, the coffin, the pale expanse of the vicar's forehead. Not many Londoners remember your father, but the sense of occasion - the long quest! the final return to rest! - has brought out a sizeable crowd. Mourners line up to shake your hand. When they speak, you hear only the zee.
+<br/><br/>
+Afterwards, you give the servants an evening off. The house is empty. The clock ticks. The roof-beams creak companionably. You can still hear the zee. 
+<br/><br/>
+[This captain's career is complete.]
+
+		ParentEvent
+Name: 
+Id: 143688
+Description:

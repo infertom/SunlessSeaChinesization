@@ -1,0 +1,41 @@
+(443)
+Name: Tomb-Colonists in Irem
+Id: 155214
+Description: "We will wander the stairs for hours. We will forget our scars and our stains. The leaves will be red as remembered blood. The sea will be black as memory. Irem, Irem. We will not leave. We must leave."
+
+	ChildBranches 1
+Name: The Colonists will look East
+Id: 131672
+Description: They will be drawn to the edge of the isle, where Salt's realm opens out into the darker zee: the places beyond the edge. What will they see?
+
+		DefaultEvent
+Name: Their bandages will be soaked with tears
+Id: 155215
+Description: "We saw it," one will say. "The light across the water. We'll see it again at the end. Please let us sleep, now. Let us sleep."
+
+		ParentEvent
+Name: 
+Id: 155214
+Description: 
+
+		RareDefaultEvent
+Name: Their eyes will be flushed with light.
+Id: 175348
+Description: One of them will not return. "An exchange," another will say, and they will gift you with secrets that will guide you across the zee, to home. ("There is no home for us," they will tell you. "But take us back to Venderbight. It's all we have left.")
+
+
+
+	ChildBranches 2
+Name: Encourage them to purchase Parabola-Linen Bandages
+Id: 131673
+Description: They will deck themselves in imagined crimson.
+
+		DefaultEvent
+Name: They will thank you
+Id: 155216
+Description: "When we return to Venderbight," one will say, "when we return, we will be sunset. Red and gold. We will always remember you, Captain. You gave us this ending. Here. Lagniappe."
+
+		ParentEvent
+Name: 
+Id: 155214
+Description:

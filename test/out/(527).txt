@@ -1,0 +1,4 @@
+(527)
+Name: Unwelcome in the Republic Ascendant
+Id: 153740
+Description: The line of the House of Cavy is ended. Rats hold the tent-city of the guinea-pigs. You are not welcome here. Pass on.

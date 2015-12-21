@@ -1,0 +1,36 @@
+(49)
+Name: A skilled crewman
+Id: 143942
+Description: This is the zailor who came begging to you for a berth. He's done good work, this one. But he's keeping a little shrine to the Salt, the nameless god of the horizon, at the back of the hold.
+
+	ChildBranches 1
+Name: Permit it
+Id: 124456
+Description: Out here, a captain needs all the help he can get. Even from sad strange gods of farewells.
+
+		DefaultEvent
+Name: A breath of air
+Id: 143943
+Description: You let him keep his salt circle and his chalked arrow. That night, as you stand on the foredeck, a soft breeze comes out of the East, the Salt's direction; tousles your hair; passes.
+
+		ParentEvent
+Name: 
+Id: 143942
+Description: 
+
+
+
+	ChildBranches 2
+Name: Forbid it
+Id: 124457
+Description: You'll have none of this nonsense aboard your ship. If the Salt even exists, its attention is dangerous.
+
+		DefaultEvent
+Name: A ripple of discontent
+Id: 143944
+Description: Not all the crew are pleased. But most understand.
+
+		ParentEvent
+Name: 
+Id: 143942
+Description:

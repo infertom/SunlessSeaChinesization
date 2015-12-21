@@ -1,0 +1,128 @@
+(547)
+Name: The Wreck of the Nocturne
+Id: 167366
+Description: The webbed hulk of this once proud vessel refuses to be dragged beneath the black waves.
+
+	ChildBranches 1
+Name: Board this empty mausoleum
+Id: 138397
+Description: Superstitions of the zee give even cynical zailors pause before ransacking half-drowned vessels. Still, nothing in the code prohibits indulging curiosity.
+
+		DefaultEvent
+Name: A harrowing emptiness
+Id: 167367
+Description: The fate of the Nocturne is well known, and proven by the webs stretching across its battered hull. Aside from those and a few signs of struggle, the contents lie mostly undisturbed. After all, what use have the masters of Saviour's Rocks for trinkets, baubles, gold and gems?
+<br /><br />
+If the crew and passengers were lucky, they merely became lunch. If not... you've heard the stories; the kind of zee ztories saved for campfires on distant shores and cold nights when the rigging creaks. Of the Tree of Ages, a harbinger of doom crewed by sorrow-spiders. What happened to the lovers who found Storm's broken heart in a sandalwood box. The suicide songs of-
+<br /></br >
+Mere superstitious nonsense, of course. Of course. Even so, it remains a relief when the candle finally melts and it is time to leave this place to the waves and rocks.
+
+		ParentEvent
+Name: 
+Id: 167366
+Description: 
+
+		RareDefaultEvent
+Name: An insult to Salt!
+Id: 167506
+Description: The fate of the Nocturne is well known, and proven by the webs stretching across its battered hull. Aside from those and a few signs of struggle, the contents lie mostly undisturbed. After all, what use have the masters of Saviour's Rocks for trinkets, baubles, gold and gems? If the crew and passengers were lucky, they became-
+<br /><br />
+A shout rises from the crew, their eyes locked in horror at a zailor caught slipping a jewelled trinket into his unmentionables. Before you can do anything, his crewmates have him by all the limbs, hurling him and his cursed plunder to join the Drownies in the black. None may steal from a half-drowned ship. There is no gold in the zee worth Salt's ire. Only sacrifice absolves.
+
+
+
+	ChildBranches 2
+Name: The Nocturne rests
+Id: 138486
+Description: Water seeping in, its spine broken, the Nocturne is finished. Soon it will sink and be forgotten.
+
+		DefaultEvent
+Name: Leave it to its fate
+Id: 167505
+Description: There is nothing more to be done here.
+
+		ParentEvent
+Name: 
+Id: 167366
+Description: 
+
+
+
+	ChildBranches 3
+Name: The Final Voyage of the Nocturne
+Id: 138492
+Description: Patch up the holes and bring the Nocturne safely to the spider-council of Saviour's Rocks.
+<br />
+[You will be unable to return to your ship until the journey is complete. Should any unfortunate accidents befall your crew while on board, they will be lost.]
+
+		DefaultEvent
+Name: The crew boards the ship
+Id: 167514
+Description: The supplies are taken on board by the crew-members who drew the shortest straws. Despite appearances, the Nocturne will not be difficult to temporarily make zeeworthy. It remains to be seen if it will be sturdy enough to make the journey to Saviour's Rocks.
+
+		ParentEvent
+Name: 
+Id: 167366
+Description: 
+
+
+
+	ChildBranches 4
+Name: The Secret of the Nocturne
+Id: 138493
+Description: Superstitions of the zee give even cynical zailors pause before ransacking half-drowned vessels. Merely investigating however is no crime against Salt.
+<br />
+[You will be unable to return to your ship until you finish your investigation for the spider-council.]
+
+		DefaultEvent
+Name: Light in the darkness
+Id: 167515
+Description: It is true that the interior of the Nocturne is a dark, unwelcoming place that demands a candle for exploration. With the whole crew searching it thoroughly though, the wrecked ship will be a beacon to anyone... anything that might be passing.
+<br /><br />
+It would best to finish this as quickly as possible.
+
+		ParentEvent
+Name: 
+Id: 167366
+Description: 
+
+
+
+	ChildBranches 5
+Name: A continuing mystery...
+Id: 138515
+Description: You cannot help but think there is something more going on here than you have been led to believe.
+
+		DefaultEvent
+Name: A question for another time
+Id: 167551
+Description: You should report back to the spider-council of Saviour's Rocks to get your promised reward.
+
+		ParentEvent
+Name: 
+Id: 167366
+Description: 
+
+
+
+	ChildBranches 6
+Name: A mystery unresolved
+Id: 138545
+Description: The fate of the Nocturne is tied to the machinations of the sorrow-spiders of Saviour's Rocks. As you are now their sworn enemy, its story must remain untold.
+
+		DefaultEvent
+Name: A harrowing emptiness
+Id: 167586
+Description: The former crew and passengers of the Nocturne were taken by the sorrow-spiders to become part of the Tree of Seasons. You have freed them from that at least, though find little of interest in their abandoned belongings. To plunder the half-drowned ship could only bring down the wrath of Salt. It is best left well alone, as you sail away from this whole accursed mess.
+
+		ParentEvent
+Name: 
+Id: 167366
+Description: 
+
+		RareDefaultEvent
+Name: An insult to Salt!
+Id: 167587
+Description: The former crew and passengers of the Nocturne were taken by the sorrow-spiders to become part of the Tree of Seasons. You have freed them from that at least, though find little of interest in their abandoned belongings. To plunder the half-drowned ship could only bring down the wrath of Salt. It is best left well alone, as you-
+<br /></br />
+A shout rises from the crew, their eyes locked in horror at a zailor caught slipping a jewelled trinket into his unmentionables. Before you can do anything, his crewmates have him by all the limbs, hurling him and his cursed plunder to join the Drownies in the black. None may steal from a half-drowned ship. There is no gold in the zee worth Salt's ire. Only sacrifice absolves.

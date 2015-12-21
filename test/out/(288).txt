@@ -1,0 +1,102 @@
+(288)
+Name: Beachcombing
+Id: 146920
+Description: Take a stroll along the beach. Perhaps the zee has brought you something.
+
+	ChildBranches 1
+Name: Driftwood?
+Id: 126372
+Description: A smooth dark surface.
+
+		DefaultEvent
+Name: A wooden horse
+Id: 146921
+Description: It was a child's toy once. Someone inscribed their name on it, and a string of numbers. Ciphers?
+
+		ParentEvent
+Name: 
+Id: 146920
+Description: 
+
+		RareDefaultEvent
+Name: A horrid carving
+Id: 146923
+Description: Someone shaped this into a devil-mask, and then threw it in the sea. When you look at it, it's easy to see why. Brrr.
+
+
+
+	ChildBranches 2
+Name: Something glinting
+Id: 126373
+Description: Just bottle-glass?
+
+		DefaultEvent
+Name: Just bottle-glass
+Id: 146922
+Description: ...but there's a message in the bottle. A page from a journal! The writer has described a debauched afternoon in thrilling detail. Who threw this in the sea? Was it some botched attempt at blackmail, or a love affair gone sour?
+
+		ParentEvent
+Name: 
+Id: 146920
+Description: 
+
+		RareDefaultEvent
+Name: A tangle of seaweed and pearls
+Id: 146924
+Description: The stories there are about drowning-pearls! They've never seen the inside of an oyster. Place one under your tongue, and you can name the date of your own death. Don't place one under your tongue, because they're the transformed eyes of zailors lost at sea. Stories aside, they'll fetch a good price.
+
+
+
+	ChildBranches 3
+Name: Something softly shining...
+Id: 126524
+Description: It glows like a pale ember.
+
+		DefaultEvent
+Name: A bottled soul?
+Id: 147155
+Description: It's a soul, all right, but behind the glass, its pale face is oddly serene, and its light is remarkably bright. There's something different about this one.
+
+		ParentEvent
+Name: 
+Id: 146920
+Description: 
+
+
+
+	ChildBranches 4
+Name: A nasty glob of goo
+Id: 126525
+Description: It lies on the shingle like a discarded heart.
+
+		DefaultEvent
+Name: Scoop it up
+Id: 147156
+Description: Wrap it in a cloth and carry it cautiously back to the ship. Perhaps it contains something less disgusting.
+
+		ParentEvent
+Name: 
+Id: 146920
+Description: 
+
+
+
+	ChildBranches 5
+Name: The remnants of a shipwreck!
+Id: 146954
+Description: What's washed up here?
+
+		DefaultEvent
+Name: Boxes of biscuits
+Id: 181491
+Description: Murgatroyd's Fungal Crackers! An awful lot of them. One must hope that you enjoy Fungal Crackers, or have an extremely hungry parrot.
+
+		ParentEvent
+Name: 
+Id: 146920
+Description: 
+
+		RareDefaultEvent
+Name: Drums of fuel
+Id: 181492
+Description: Stamped with the marks of the Royal Navy. Some naval picket met its end out here. Well: you can find a use for it.

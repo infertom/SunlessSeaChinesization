@@ -1,0 +1,237 @@
+(19)
+Name: Open an Unprepossessing Mass
+Id: 140908
+Description: There is probably something horrible inside. But possibly there is not.
+
+	ChildBranches 1
+Name: A wooden corner shows
+Id: 122501
+Description: Some kind of case, or box, is encased in the salty jelly...
+
+		DefaultEvent
+Name: A cask of wine
+Id: 140909
+Description: It seems intact, although who knows how the taste may have altered. Perhaps you won't tell the buyers where you found it.
+
+		ParentEvent
+Name: 
+Id: 140908
+Description: 
+
+		RareDefaultEvent
+Name: A coffin - 
+Id: 148280
+Description: You lever open the lid, and a bandaged head stirs, turns. "Already?" its voice creaks. "I'm so tired." A tomb-colonist! Do you have space in your hold?
+
+
+
+	ChildBranches 2
+Name: A curious sac
+Id: 127242
+Description: Slice it open. What's within?
+
+		DefaultEvent
+Name: Stripped clean
+Id: 148278
+Description: A human skull! This isn't the zee-beast's stomach. What is it doing in there? Like a seed in a gourd?
+
+		ParentEvent
+Name: 
+Id: 140908
+Description: 
+
+		RareDefaultEvent
+Name: "Zee-eggs."
+Id: 148281
+Description: "Call 'em zee-eggs", the bo'sun suggests. "We don't want to tell the crew what they actually are. They're safe to eat, but... you know."
+
+
+
+	ChildBranches 3
+Name: Mortal remains
+Id: 127243
+Description: Peel away the membrane, and - stifle a shudder - a half-digested zailor clutching a half-digested book. You'll dispose of the poor remnant decently, but what does the book say?
+
+		DefaultEvent
+Name: Fair dealing
+Id: 148279
+Description: '...I met her again that September. Her hair was gone, and her hand, and she could remember nothing that had occurred to her before the age of nineteen. I could scarcely speak for horror, but she responded nonchalantly. "I think my eyes will be next," she told me. "I hardly need them down here in the dark, and the Convention will offer me an excellent price for them."
+<br/><br/>
+Reader: shun the Brimstone Convention. They will not cheat you. Worse, they will make you offers you cannot bear to refuse...'
+
+		ParentEvent
+Name: 
+Id: 140908
+Description: 
+
+		RareDefaultEvent
+Name: Thousands
+Id: 148282
+Description: "...hull-down on the horizon. But as we drew closer, we all grew puzzled: it was like no ship we had ever seen, a curious congeries of multiple hulls and jointed... limbs? Then we knew it had sighted us, for thick smoke rose as it roused its engines and gave chase. Its limbs bristled. Through the glass now I could see what lay at the meeting-point of its faces: thousands upon thousands of spider-eyes, champing spider-fangs, fused together like wax. A spider-council! but one of unprecedented size, and crammed strangely into a hybrid ship. It could only be the Tree of Ages: and the first day of our flight began..."
+
+
+
+	ChildBranches 4
+Name: A violet gleam
+Id: 127244
+Description: You think for a moment it's another pocket of fluid, but no, something's shining.
+
+		DefaultEvent
+Name: Amber?
+Id: 148283
+Description: It's very like amber - the deep amber that they use for cheap bracelets in London - but it's a rich deep violet. Something rare.
+
+		ParentEvent
+Name: 
+Id: 140908
+Description: 
+
+
+
+	ChildBranches 5
+Name: A beast within a beast
+Id: 127245
+Description: The greater beast, it seems, swallowed a lesser. Here it is.
+
+		DefaultEvent
+Name: And still within - 
+Id: 148284
+Description: It's something like a scrappy little shark. It has scales like dark rainbows. A peculiar flint nodule is crammed sideways into its mouth. How did that happen?
+
+
+		ParentEvent
+Name: 
+Id: 140908
+Description: 
+
+		RareDefaultEvent
+Name: A brief mystery
+Id: 148295
+Description: It takes you a while to work out what this is, but eventually you realise it's a puckered sucker - perhaps from the tip of a tentacle. If so, it's a tentacle of truly preposterous size. The sucker is the size of a man's head...
+
+
+
+	ChildBranches 6
+Name: Gummed with hardened mucus
+Id: 127246
+Description: There are lumpy objects inside this unpromising blob, like little pebbles...
+
+		DefaultEvent
+Name: Hush
+Id: 148285
+Description: Yes: there's something in there. So red and shining, like a murdered ruby. Never speak of it.
+
+		ParentEvent
+Name: 
+Id: 140908
+Description: 
+
+		RareDefaultEvent
+Name: Those are pearls
+Id: 148311
+Description: Clean the slime off, buff them. Some day they'll adorn a courageous neck.
+
+
+
+	ChildBranches 7
+Name: Suitable for smoking
+Id: 127247
+Description: You can probably preserve this to eat at your leisure.
+
+		DefaultEvent
+Name: Edible once roasted into submission
+Id: 148286
+Description: It will serve. But the smoke brings a kind of horror: a waking dream, a kinaesthetic sense of vast things coiling in crushing lightless black...
+
+		ParentEvent
+Name: 
+Id: 140908
+Description: 
+
+		RareDefaultEvent
+Name: Edible, if salty
+Id: 148294
+Description: Keep it against a hungrier day. All shall be well, and all manner of thing shall be well.
+
+
+
+	ChildBranches 8
+Name: Something angular
+Id: 127248
+Description: What is this oddly angled object trapped in salty flesh?
+
+		DefaultEvent
+Name: Pleading eyes
+Id: 148287
+Description: It comes free: a statuette chipped from volcanic rock. Its expression is somehow desperate. The work is both skilled and exotic. You'll find a buyer, you're certain.
+
+		ParentEvent
+Name: 
+Id: 140908
+Description: 
+
+		RareDefaultEvent
+Name: A pale form swims in quartz
+Id: 148455
+Description: Someone has bottled a soul in quartz. How is that possible? Then again, how is it possible to bottle souls at all? Never mind. Worry about who'll buy it, instead.
+
+
+
+	ChildBranches 9
+Name: Fling it overboard!
+Id: 127249
+Description: [You will gain nothing. But at least you won't suffer Terror effects.]
+
+		DefaultEvent
+Name: A heave and a splash
+Id: 148288
+Description: and it's gone.
+
+		ParentEvent
+Name: 
+Id: 140908
+Description: 
+
+
+
+	ChildBranches 10
+Name: Choice cuts
+Id: 127250
+Description: It won't keep, but it looks tasty.
+
+		DefaultEvent
+Name: Bland, but sustaining.
+Id: 148289
+Description: It's rather like eating trout, if the trout had tried to kill you a few hours ago. Take that, ersatz trout.
+
+		ParentEvent
+Name: 
+Id: 140908
+Description: 
+
+		RareDefaultEvent
+Name: Plaintive, but satisfying
+Id: 148293
+Description: Two zailors complain that the meat sighs melodramatically when cutlery is applied to it. They are probably engaging in mischief, but your crew become nervous. Nervous, but satiated.
+
+
+
+	ChildBranches 11
+Name: A tin can?
+Id: 127260
+Description: You're about to toss it aside, but something makes you look at it more closely.
+
+		DefaultEvent
+Name: Eviction
+Id: 148310
+Description: This sizeable can once held a significant quantity of corned beef. Now, something coiled and watchful lairs in it. Extract it carefully. It may have a use.
+
+		ParentEvent
+Name: 
+Id: 140908
+Description: 
+
+		RareDefaultEvent
+Name: A lamp!
+Id: 148453
+Description: Faint traces of a label still read ...ATROYDS OYSTE... , but now the can holds light. An unknown hand has pierced holes; fitted a mount for a candle; ornamented it with elaborate scrollwork. Some collector of curiosities will pay a good price for this.

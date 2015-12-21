@@ -1,0 +1,48 @@
+(164)
+Name: Inside the Hollow of the Ear
+Id: 168619
+Description: The road you follow leads up through switchbacks along the side of the face, and finally to the ear of Flourishing-of-Years, and into the cave that is her ear. The tunnel bends back on itself and all lights have now been extinguished. There is nothing to guide you but the hand of the person behind you on your back, and the movement of the person in front of you. 
+<br/><br/>
+The one who walks beside you wears a bat mask.
+<br/><br/>
+Fortunately the floor of the tunnel is very smooth and presents no stumbling blocks. Sound carries strangely in this place, however. Sometimes you cannot hear your own footsteps, and sometimes a breath comes back to you audible from someplace ahead in line.
+
+	ChildBranches 1
+Name: Try to run
+Id: 139112
+Description: You do not really know what this festival is or what it means.
+
+		DefaultEvent
+Name: No escape route
+Id: 168620
+Description: You try to stop and turn, but there are hands on your shoulders, and steady feet behind you. The passage is narrower and the stone walls are closer than you had thought they were.
+<br/><br/>
+You cannot go out. There are too many people in too little space. And if anyone were to roll a boulder into the ear of Flourishing-of-Years, then you would be trapped here and there would be no recourse.
+<br/><br/>
+"Steady on," says Bat-mask beside you. His accent is the accent of Wolfstack Docks. 
+<br/><br/>
+A moment later there's a pungent ammonia smell, as though he's cracked open smelling salts for you, though in this pure black you can't see a thing for sure.
+
+		ParentEvent
+Name: 
+Id: 168619
+Description: 
+
+
+
+	ChildBranches 2
+Name: Continue
+Id: 139113
+Description: There is a secret in the dark.
+
+		DefaultEvent
+Name: In line
+Id: 168621
+Description: The footsteps of the people are steady and synchronized, and you go together. For how many years has this been done, and for how many will it be done in the future?
+<br/><br/>
+"Watch your step here," says Bat-mask to you in an undervoice. Its accent is the accent of Wolfstack Docks. "Floor is about to get squishier." And sure enough it does.
+
+		ParentEvent
+Name: 
+Id: 168619
+Description:

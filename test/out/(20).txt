@@ -1,0 +1,73 @@
+(20)
+Name: Recurring Nightmare: Watched
+Id: 147411
+Description: The sea is bright as milk: false-stars above are black on a pitchy bed. Something is watching you. Its gaze enfolds your boat. You are transparent as glass.
+
+	ChildBranches 1
+Name: Go deeper into the Nightmare
+Id: 131689
+Description: The Eye wants to learn you. Well, let it. You'll learn the Eye in turn. [Increases Nightmare's Strength. If it reaches 5, you'll confront the Nightmare: this is dangerous, but may win you a Secret.]
+
+		DefaultEvent
+Name: No further
+Id: 155238
+Description: You're closer. The sea freezes over, but the ice is clear.
+
+		ParentEvent
+Name: 
+Id: 147411
+Description: 
+
+		SuccessEvent
+Name: On across the sea
+Id: 155240
+Description: Beneath you, the Eye grows wider. The water begins to warm, to steam. Remove your garments: it may soon be time to swim.
+
+
+
+	ChildBranches 2
+Name: Confront the Nightmare
+Id: 131690
+Description: The water around you is steaming, boiling. The Eye rises. Here it comes. Here you go. [If you fail, the Nightmare will grow even stronger, and you will suffer considerable Terror.]
+
+		DefaultEvent
+Name: Too bright
+Id: 155239
+Description: Its eye rises like the moon. You look on it, unflinching, as long as you can. Its gaze strips you of every defence - your pride, your courage, your skin, your flesh. When its gaze falls on your naked bones, the terror wakes you screaming.
+<br/><br/>
+Your crew watch you warily. They are beginning to lose faith in you.
+[You have failed to defeat your Nightmare. It has grown in strength.]
+
+		ParentEvent
+Name: 
+Id: 147411
+Description: 
+
+		SuccessEvent
+Name: Something above
+Id: 155241
+Description: You dive cleanly into the water! It is scalding hot: your skin peels away like old paper. Beneath you the Eye rises. Your descent will take you directly into its dark, impossible pupil. Your lungs are bursting. You will wake, die, or both. The Eye opens all the way, and in its glistening centre you see the reflection of the God that lives in the roof: a lost lorn angry thing of lightnings, a lone exile -
+<br/><br/>
+You wake. You have passed through the Nightmare and out the other side.
+
+
+
+	ChildBranches 3
+Name: Flee the Nightmare
+Id: 127750
+Description: Turn the helm and flee across the milk-bright sea. [This will reduce Nightmare's Strength. If it reaches 0, the Nighmare will fade entirely. If you have any Restful Nights, they'll reduce the difficulty.]
+
+		DefaultEvent
+Name: Hard to leave
+Id: 148987
+Description: The Eye's attraction is magnetic, gravitic, compelling. You fall into a dreaming, eager reverie. To be known! To be known! But waking rescues you, for now -
+
+		ParentEvent
+Name: 
+Id: 147411
+Description: 
+
+		SuccessEvent
+Name: An escape?
+Id: 155242
+Description: The sea churns in your wake. You pull away from the Eye, into the shallower waters of waking, but a terror clings.

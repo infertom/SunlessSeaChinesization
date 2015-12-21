@@ -1,0 +1,81 @@
+(74)
+Name: A white zee-bat
+Id: 148693
+Description: A zailor has grown fretful and disobedient, reluctant to go on deck, even in port. "There's a white zee-bat watching me up there. Salt's messenger. Salt's got its eye on me. I'll never see home again!"
+
+	ChildBranches 1
+Name: Salt?
+Id: 127557
+Description: Zailors' superstition. Order him up on deck at once.
+
+		DefaultEvent
+Name: And onwards
+Id: 148694
+Description: He goes up unwilling, but he goes. And when there's no sign of the white zee-bat over the next few days, his fears dissipate and he's left looking foolish before his shipmates.
+
+		ParentEvent
+Name: 
+Id: 148693
+Description: 
+
+
+
+	ChildBranches 2
+Name: Salt.
+Id: 127558
+Description: Salt: one of the nameless gods that zailors fear. This zailor is a conscientious man. Send him to the sick bay on the pretext of a fever.
+
+		DefaultEvent
+Name: And onwards
+Id: 148695
+Description: The zailor is grateful, though your ship's doctor rolls a sceptical eye. When he next goes up on deck, the railings are clear of zee-bats, white or black, and he sets to work with a will.
+
+		ParentEvent
+Name: 
+Id: 148693
+Description: 
+
+
+
+	ChildBranches 3
+Name: Feed the zee-bat
+Id: 128724
+Description: If white zee-bats are sacred to Salt, perhaps you'll win Salt's favour. If you believe any of this.
+
+		DefaultEvent
+Name: From your fingers
+Id: 150635
+Description: The zee-bat takes fungal crackers from your fingers, as boldly as a parrot. It dips its head to you and chirrups something you might mistake for speech. It spreads its wings, and leaps into the air.
+<br/><br>
+The next day, your crewman is gone, along with one of the ship's boats. No one saw him depart, or knows why.
+
+		ParentEvent
+Name: 
+Id: 148693
+Description: 
+
+
+
+	ChildBranches 4
+Name: Shoot the zee-bat
+Id: 128725
+Description: If the b___dy thing is frightening your b___dy crew, you'll b___dy well settle its hash!
+
+		DefaultEvent
+Name: BANG -
+Id: 150636
+Description: You miss. The bat takes wing and is gone.
+<br/><br/>
+A low rumble rises from your crew, as if they were a crowd at a trial.
+
+		ParentEvent
+Name: 
+Id: 148693
+Description: 
+
+		SuccessEvent
+Name: BANG
+Id: 150637
+Description: It sees your intention and spreads its wings to flee: but your shot catches it, and it falls to the deck with a broken fluttering.
+<br/><br/>
+You cross the deck to collect the pale corpse. Your crew are utterly silent. No one catches your eye.

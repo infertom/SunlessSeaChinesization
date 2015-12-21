@@ -1,0 +1,57 @@
+(23)
+Name: The Campaigner's health is failing
+Id: 165262
+Description: She's developed a rattle in her lungs. Each time she coughs, the skin of her throat lights with an emberish glow. This latest coughing fit brings her to her knees.
+
+	ChildBranches 1
+Name: Insist she takes to her bed to recover
+Id: 137075
+Description: She can't be up and about. Have meals sent to her cabin until she's a little restored.
+
+		DefaultEvent
+Name: Haughty acquiescence
+Id: 165263
+Description: She isn't pleased; but she isn't stupid either. "Very well. Until I judge that I'm well enough to rise from my sick-bed. Let us both be honest: I am much better equipped than you to determine when I am well enough."
+
+		ParentEvent
+Name: 
+Id: 165262
+Description: 
+
+
+
+	ChildBranches 2
+Name: Let her go
+Id: 137106
+Description: There's nothing more you can do for her.
+
+		DefaultEvent
+Name: The light goes out
+Id: 165313
+Description: "My family," she says composedly, "will have opinions on my the matter of my bur - " She begins to cough, desperately. A spasm takes her. The crew gather, appalled. There is blood on the deck.
+<br/><br/>
+She hangs on your arm, looks up at you. "Burial. This flesh - contaminated - give it to - zee. At zee!"
+<br/><br/>
+The light in her eyes goes out: the strength is gone from her arm. She collapses like a falling tower.
+
+		ParentEvent
+Name: 
+Id: 165262
+Description: 
+
+
+
+	ChildBranches 3
+Name: Administer the treatments from Adam's Way
+Id: 146681
+Description: The instructions are bizarre, but you follow them exactly.
+
+		DefaultEvent
+Name: Remedy? Or placebo?
+Id: 181081
+Description: Her breathing eases, and she waves you away. Rising, she forces a severe smile, nods, and lurches to her cabin. Her breathe smelled like a skillet after bacon. 
+
+		ParentEvent
+Name: 
+Id: 165262
+Description:

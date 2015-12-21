@@ -1,0 +1,36 @@
+(31)
+Name: Tears
+Id: 150466
+Description: Your cheeks are wet. You think for a moment that it's zee-spray - but then the sorrow hits you like a falling stalactite. You are weeping. You double over, inconsolable.
+
+	ChildBranches 1
+Name: Control yourself
+Id: 128688
+Description: Stifle your sobs. What is this? Why this sorrow?
+
+		DefaultEvent
+Name: The ebb tide
+Id: 150586
+Description: You dig your nails into the palms of your hands, pacing the deck. The sorrow retreats like mist to the borders of your thought. You master yourself: but the taste of salt remains.
+
+		ParentEvent
+Name: 
+Id: 150466
+Description: 
+
+
+
+	ChildBranches 2
+Name: Weep
+Id: 128696
+Description: Give yourself over to it.
+
+		DefaultEvent
+Name: The flood tide
+Id: 150595
+Description: Ah, ah, ah, ah. Your crew watch in alarm as you collapse to the deck. Tears burst from your eyes. Your body is wracked with sobs... it passes as suddenly as it started. But your thoughts are stained dark with unlikely grief.
+
+		ParentEvent
+Name: 
+Id: 150466
+Description:

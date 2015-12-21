@@ -1,0 +1,41 @@
+(520)
+Name: Tomb-Colonists in Shepherd's Wash
+Id: 155236
+Description: "Something of the peace of old Kent still clings to this place. I always hated Kent. But this is the tour."
+
+	ChildBranches 1
+Name: A picnic at the Stones
+Id: 131688
+Description: No, they haven't brought their own picnic materials. That's your job, isn't it? Aren't you in charge? They certainly seem to think so.
+
+		DefaultEvent
+Name: Too quiet?
+Id: 155237
+Description: Your decaying charges return cheerful and a little tipsy, singing alarming Napoleonic-era drinking songs, chucking pebbles at bats. "Captain!" one hails you. "Rocks! I adore rocks. But now I am bored of rocks. Take us somewhere else."
+
+		ParentEvent
+Name: 
+Id: 155236
+Description: 
+
+
+
+	ChildBranches 2
+Name: A visit to the Three Graves
+Id: 143191
+Description: The island to the north-west has what might be graves. Or treasure-troves. Or follies created by the villagers to confuse you. Anyway, it'll do as a tourist destination.
+
+		DefaultEvent
+Name: Sombre silence
+Id: 175334
+Description: "Four graves now, Captain. Four graves. Let's go."
+
+		ParentEvent
+Name: 
+Id: 155236
+Description: 
+
+		RareDefaultEvent
+Name: Chattering excitedly
+Id: 175335
+Description: "We saw a Drownie, Captain! That's good luck! ...well, in Venderbight we say it's good luck. There's different kinds of dead, eh? Different kinds of dead. What a lovely trip. Where are we going now?"

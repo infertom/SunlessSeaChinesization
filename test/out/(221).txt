@@ -1,0 +1,53 @@
+(221)
+Name: The Time Before
+Id: 149059
+Description: Then she tells you what happened before. She was a doctor, healing the malaise of countesses and publishing research about the applications of mushroom-derived spirits.
+<br/>
+<br/>
+Her twin lived with her, at her expense, but preferred more bohemian entertainments. The Acolyte describes what their life together was: sepia anatomical charts next to dream-animals done in viridian paint. Prisoner's Honey jostling retorts full of medicine. Silk scraps in the bandage drawer. 
+<br/>
+<br/>
+The twin is gone now: something about an accident, a footbath full of silvery fluid, skin cracked and frozen. A resuscitation attempt that went wrong, preventing any return from death. 
+<br/>
+<br/>
+Afterward her memories are blurred, until they pick up again here. She regards her present occupation as penance of some kind.
+
+	ChildBranches 1
+Name: Express sympathy
+Id: 127798
+Description: It cannot be easy to recall such things.
+
+		DefaultEvent
+Name: Cool in here
+Id: 149060
+Description: She pretends, unsuccessfully, not to need any comfort. She lowers the goggles over her eyes for a few minutes. You can't see whether there are any tears.
+
+		ParentEvent
+Name: 
+Id: 149059
+Description: 
+
+
+
+	ChildBranches 2
+Name: Press for more details
+Id: 127806
+Description: There must be more she can tell you than that. Even if she doesn't want to.
+
+		DefaultEvent
+Name: Irritation
+Id: 149072
+Description: Your questions are not answered, not even acknowledged. She gets to her feet and reaches for her bag, for the new bright scalpel. Apparently your conversation is at an end.
+
+		ParentEvent
+Name: 
+Id: 149059
+Description: 
+
+		SuccessEvent
+Name: Irritation and information
+Id: 149073
+Description: When you ask, she answers, grimly, with anatomical precision. How the twin had returned in bad shape from a shared dream. How her skin was covered with a tracery of bleeding lines. The shock this caused to the body. The inevitable death.
+<br/>
+<br/>
+After the explanation, she returns to her work. It seems the interview is at an end.

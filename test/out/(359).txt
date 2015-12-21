@@ -1,0 +1,58 @@
+(359)
+Name: You've defeated the Unfinished Revolutionaries
+Id: 171442
+Description: Fragments of clay are littered across the deck. They crunch underfoot like potsherds. Unfinished Men do not surrender.
+
+	ChildBranches 1
+Name: Investigate the hold
+Id: 140776
+Description: What treasure did these villains take?
+
+		DefaultEvent
+Name: 
+Id: 171445
+Description: 
+
+		ParentEvent
+Name: 
+Id: 171442
+Description: 
+
+
+
+	ChildBranches 2
+Name: Record any Observations
+Id: 140778
+Description: If you've gathered at least 10 Observations, you may learn something...
+
+		DefaultEvent
+Name: A hundred absences
+Id: 171447
+Description: An Unfinished Man is missing something that other Clay Men lack. What did each of these your enemies lack? An eye. A hand. Mercy. Obedience. Fear. Pain. A shadow. A sense of proportion. This may serve as material for philosophy, or for battle tactics.
+
+		ParentEvent
+Name: 
+Id: 171442
+Description: 
+
+
+
+	ChildBranches 3
+Name: Send home with a prize crew
+Id: 140779
+Description: Eight zailors should be enough for a skeleton crew, unless she runs into trouble.
+
+		DefaultEvent
+Name: Into the darkness
+Id: 171448
+Description: Your prize is never seen again. Perhaps a heptycheer devours your crew. Perhaps they devour each other. Perhaps they betray you and sail it to the Iron Republic, where laws cannot follow.
+
+		ParentEvent
+Name: 
+Id: 171442
+Description: 
+
+		SuccessEvent
+Name: Awaiting your pleasure
+Id: 171449
+Description: When you next return to London, return to your Lodgings to claim your prize money...

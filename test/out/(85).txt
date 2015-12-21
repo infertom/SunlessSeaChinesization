@@ -1,0 +1,53 @@
+(85)
+Name: The Venturer's Executor
+Id: 172536
+Description: "I'm here to fulfil his last requests. Was there something that you wanted?"
+
+	ChildBranches 1
+Name: A shipment from the Lady of the Cages
+Id: 139072
+Description: "I had been afraid this might happen. Very well. Be quick about it."
+
+		DefaultEvent
+Name: Middlemen
+Id: 168558
+Description: She hands you a black medallion, her mouth twisted in distaste. "Tell the Lady that she will receive her payment. A contract is a contract."
+
+		ParentEvent
+Name: 
+Id: 172536
+Description: 
+
+
+
+	ChildBranches 2
+Name: Betray Zaira
+Id: 139661
+Description: "My client made provisions for an alternative arrangement. If you'll give me the honey now, I will pay you one thousand Echoes, no questions asked."
+
+		DefaultEvent
+Name: An alternative arrangement
+Id: 169528
+Description: One thousand Echoes. They rustle delightfully, like letters about autumn. The Executor accepts the vials from you. "Good luck," she suggests. She doesn't sound convinced.
+
+		ParentEvent
+Name: 
+Id: 172536
+Description: 
+
+
+
+	ChildBranches 3
+Name: Speak of the Surface
+Id: 141456
+Description: "He had arranged for a series of frescoes, to commemorate what he was. Can you supply inspiration?"
+
+		DefaultEvent
+Name: Spring, autumn
+Id: 172537
+Description: The Executor listens in silence. "Yes," she says at last, "that's what we've lost. Thank you."
+
+		ParentEvent
+Name: 
+Id: 172536
+Description:

@@ -1,0 +1,19 @@
+(104)
+Name: The Merchant Venturer
+Id: 168040
+Description: An urchin tugs your sleeve. "Guv'nor wants a word." A brooding figure waits at the lamp-light's edge. 
+
+	ChildBranches 1
+Name: Speak to the Merchant Venturer
+Id: 138793
+Description: "I have need of a reliable agent. Failing that, an inventive one. Here are my requirements - "
+
+		DefaultEvent
+Name: An opportunity for profit
+Id: 168041
+Description: He has very specific needs, but he'll pay much better than market rates. And he won't ask how you came by these things.
+
+		ParentEvent
+Name: 
+Id: 168040
+Description:

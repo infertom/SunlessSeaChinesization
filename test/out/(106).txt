@@ -1,0 +1,382 @@
+(106)
+Name: The Venturer's Desires
+Id: 159414
+Description: "I will need your help." [If he has made two requests, you can fulfil either one.]
+
+	ChildBranches 1
+Name: "Something deep."
+Id: 134191
+Description: "Five hundred Echoes for seven peculiar fish-corpses. A very fine price."
+
+		DefaultEvent
+Name: 
+Id: 159415
+Description: "Thank you. This is perfect. I can buy cave-trout down at the docks any day of the week, but I'll need something a little different. Something for the shapelings. But now, I have further need of your services..."
+
+		ParentEvent
+Name: 
+Id: 159414
+Description: 
+
+
+
+	ChildBranches 2
+Name: "Something savage."
+Id: 137952
+Description: "I imagine you'll need to, ah, hunt things. Fierce things. Five hundred Echoes for seven pieces."
+
+		DefaultEvent
+Name: 
+Id: 166625
+Description: "This will do nicely. I need persuasive threats, not weapons - and these are persuasive. Now, I have further need of your services..."
+
+		ParentEvent
+Name: 
+Id: 159414
+Description: 
+
+
+
+	ChildBranches 3
+Name: "Something bright."
+Id: 137953
+Description: "Port Cecil, in the Principles of Coral. It's usually north-east, or thereabouts. That's where scintillack comes from. A round thousand Echoes, for seven."
+
+		DefaultEvent
+Name: 
+Id: 166626
+Description: "Thank you. Where I'm going... there will be light enough, eventually. But we'll need something we can manage ourselves. But now, I have further need of your services..."
+
+		ParentEvent
+Name: 
+Id: 159414
+Description: 
+
+
+
+	ChildBranches 4
+Name: "Something romantic."
+Id: 137954
+Description: "They publish this stuff in the Khanate, to the East. It may be difficult. They don't trade readily... and the Bazaar taxes love stories. I'll pay a thousand Echoes for the seven."
+
+		DefaultEvent
+Name: 
+Id: 166627
+Description: "Beyond the gate, there will be many appetites. I cannot be sure how much use these will be - but I can hope. Now, something else..."
+
+		ParentEvent
+Name: 
+Id: 159414
+Description: 
+
+
+
+	ChildBranches 5
+Name: "Something silky."
+Id: 137955
+Description: "I'll offer you a better price than you'll get in Wolfstack. Much better. Fifteen hundred Echoes for the lot. You'll find silk in Saviour's Rocks, far to the East. Or in the Khanate, near the zee's heart."
+
+		DefaultEvent
+Name: 
+Id: 166628
+Description: "Spiders. Spiders... they are the first to know the speech of stars. I will be the last. But I need something more..."
+
+		ParentEvent
+Name: 
+Id: 159414
+Description: 
+
+
+
+	ChildBranches 6
+Name: "Something warming."
+Id: 137956
+Description: "They sell it in Mt Palmerston, somewhere in the North of the Unterzee. One thousand Echoes for seven sealed skins."
+
+		DefaultEvent
+Name: 
+Id: 166629
+Description: "It's a specialist taste. But where I'm going, there are specialist customers. One more thing - "
+
+		ParentEvent
+Name: 
+Id: 159414
+Description: 
+
+
+
+	ChildBranches 7
+Name: "Something spicy."
+Id: 137957
+Description: "They harvest it in Whither, to the north along the coast. Seven hundred Echoes."
+
+		DefaultEvent
+Name: 
+Id: 166630
+Description: "We won't need it for its taste. There are voices which must be drowned. Now -"
+
+		ParentEvent
+Name: 
+Id: 159414
+Description: 
+
+
+
+	ChildBranches 8
+Name: "Something perilous."
+Id: 137958
+Description: "They sell these in Mt Palmerston, somewhere in the North of the Unterzee. Five hundred for seven barrels of the things. You won't find a better price."
+
+		DefaultEvent
+Name: 
+Id: 166631
+Description: "When I was a boy, I asked my nurse: when you break a law, what happens to the pieces? Now I know. Now I know. But I need something else - "
+
+		ParentEvent
+Name: 
+Id: 159414
+Description: 
+
+
+
+	ChildBranches 9
+Name: "Something intricate."
+Id: 137959
+Description: "Find them in buried treasure, broken museums, pirate cargoes. Now and then, the stomachs of monsters. Good luck. I need seven. Don't ask why. Fifteen hundred Echoes will answer all your questions."
+
+		DefaultEvent
+Name: 
+Id: 166632
+Description: "Oh, thank you. Thank you. When I look at these, I want so much to travel again; but there's only one journey left in me, I think. You, on the other hand - "
+
+		ParentEvent
+Name: 
+Id: 159414
+Description: 
+
+
+
+	ChildBranches 10
+Name: "Something forlorn."
+Id: 137960
+Description: "You can find it in Irem... or dreams. I don't know which is easier to find. (Actually, they sell it down at Wolfstack, but where's the romance in that? Or the profit.) Seven hundred Echoes for seven bales." 
+
+		DefaultEvent
+Name: 
+Id: 166633
+Description: 
+
+		ParentEvent
+Name: 
+Id: 159414
+Description: 
+
+
+
+	ChildBranches 11
+Name: The Venturer has a plan
+Id: 138795
+Description: "My operations here will continue without me... and I have gathered all the supplies I need for my greatest endeavour yet. I need to charter your ship."
+<br/><br/>
+Will you hear what he has to say?
+
+		DefaultEvent
+Name: "Time to go."
+Id: 168043
+Description: "You and I: we are not numbered among the timid. Now is the time to complete what we have begun. Come with me. Come North, to Avid Horizon, to the High Gate."
+
+		ParentEvent
+Name: 
+Id: 159414
+Description: 
+
+
+
+	ChildBranches 12
+Name: North!
+Id: 138796
+Description: Take the Venturer to Avid Horizon, where the sea ends and the Watchers wait. The Venturer, and his forty units of essential cargo. [Do not choose this option unless you have forty units of free cargo space, and can reach Avid Horizon.]
+
+		DefaultEvent
+Name: 
+Id: 168044
+Description: "Let us sail when you're ready. All that you've assembled for me - it's here. Treasures too great for this world. Take me North, to Avid Horizon, in Void's Approach." [If you lose the supplies, you can buy more, but they won't be cheap.]
+
+		ParentEvent
+Name: 
+Id: 159414
+Description: 
+
+
+
+	ChildBranches 13
+Name: Avid Horizon! Absolutely not.
+Id: 138797
+Description: It's a place of evil reputation. The High Gate won't open on anything good. His motives are plainly not rational. Bid him farewell.
+
+		DefaultEvent
+Name: "I understand."
+Id: 168045
+Description: "You are not who I thought you were. I'll admit I'm disappointed. But I've come to far to fail now. I'll find another. I have a parting gift for you. Listen - "
+<br/><br/>
+His eyes are wide and dark. His voice is low. These things he speaks of - the disposition of darkness, the shadows of land, the path the quiet wind walks - these were laws once. But here, so far from the Sun, the laws have decayed. Their force is spent. This is why the zee changes eternally, like a sleeper twisting in dreams. At least, now, you understand a little of how it might change.
+<br/><br/>
+You awake from a long cold reverie. The Venturer is gone.
+
+		ParentEvent
+Name: 
+Id: 159414
+Description: 
+
+
+
+	ChildBranches 14
+Name: Purchase more supplies for the Venturer's expedition
+Id: 138849
+Description: You've made mistakes: you may yet correct them.
+
+		DefaultEvent
+Name: 
+Id: 168130
+Description: Perhaps going North is the mistake. Time to find out.
+
+		ParentEvent
+Name: 
+Id: 159414
+Description: 
+
+
+
+	ChildBranches 15
+Name: "Something durable."
+Id: 139039
+Description: "Murder enough monsters. Or you can purchase it in the Chelonate, far to the East. They're flooded with dead monsters. I'm not. Five hundred Echoes. Yes, it's generous. Be quick."
+
+		DefaultEvent
+Name: 
+Id: 168513
+Description: "All these are lessons. Contours of history. There will be scholars and marvellers... but enough of that. I have another task for you."
+
+		ParentEvent
+Name: 
+Id: 159414
+Description: 
+
+
+
+	ChildBranches 16
+Name: "Something azure."
+Id: 139040
+Description: "Sapphires, as of course you know, come from Port Carnelian, in the south-west of the zee. One thousand Echoes. There and back again. Hurry. I have candles to light."
+
+		DefaultEvent
+Name: 
+Id: 168514
+Description: "That blue! I will confess something to you. This is my least practical purchase - but I wanted something to remember the blue. Thank you. Cheap at the price. But there's something else - "
+
+		ParentEvent
+Name: 
+Id: 159414
+Description: 
+
+
+
+	ChildBranches 17
+Name: "Something... difficult."
+Id: 139041
+Description: "You, ah, might need to destroy a Lorn-Fluke - or find someone who already has. There's a thousand Echoes in it for you. One thousand. One thousand exactly. One thousand is the num - one thousand."
+
+		DefaultEvent
+Name: 
+Id: 168515
+Description: "The Flukes. The greatest of the shapelings. And the Lorns are the greatest of the Flukes. By accepting this Core, I make myself an accomplice in a crime... but perhaps, in a sense, this one will return home. Perhaps. One more thing - "
+
+		ParentEvent
+Name: 
+Id: 159414
+Description: 
+
+
+
+	ChildBranches 18
+Name: "Something sorrowful."
+Id: 139042
+Description: "We all know where to find human skulls. I appreciate that it can be difficult to negotiate for them. Five hundred Echoes... and no questions asked."
+
+		DefaultEvent
+Name: 
+Id: 168516
+Description: "Seven. It's always seven. I don't know why. But if we are to profit by this scheme, we have to hew to the rules. We're close, now. But another thing - "
+
+		ParentEvent
+Name: 
+Id: 159414
+Description: 
+
+
+
+	ChildBranches 19
+Name: "Something dark."
+Id: 139043
+Description: "They grow it in the Elder Continent, to the South. You can find it in Adam's Way, or Port Carnelian, or the Khanate, perhaps. Seven hundred Echoes. Yes. Perhaps I just drink a lot of coffee." 
+
+		DefaultEvent
+Name: 
+Id: 168517
+Description: "This will put fire in our belly. In all our bellies. We'll need that: it's cold out there. One more thing - "
+
+		ParentEvent
+Name: 
+Id: 159414
+Description: 
+
+
+
+	ChildBranches 20
+Name: A shipment from the Lady of the Cages
+Id: 139662
+Description: "Hand it over then. But quietly. No need to attract any...unwanted attention." 
+
+		DefaultEvent
+Name: Middlemen
+Id: 169529
+Description: The Venturer hands you a black medallion. "Tell the Lady I'll send the usual payment. By the expected channels. Mostly urchins, this time," he adds. "The Admiralty's cracking down."
+
+		ParentEvent
+Name: 
+Id: 159414
+Description: 
+
+
+
+	ChildBranches 21
+Name: Betray Zaira
+Id: 139663
+Description: "I'll pay you a thousand Echoes for it, right now. Just tell the Lady of the Cages you lost the shipment at sea."
+
+		DefaultEvent
+Name: Explanations due
+Id: 169530
+Description: It is a good deal for both of you. The Merchant Venturer's handshake is warm and surprisingly firm. Is that a look of pity in his eyes?
+
+		ParentEvent
+Name: 
+Id: 159414
+Description: 
+
+
+
+	ChildBranches 22
+Name: "Something romantic."
+Id: 147403
+Description: "They publish this stuff in the Khanate, to the East. It may be difficult. They don't trade readily... and the Bazaar taxes love stories. I'll pay a thousand Echoes for the seven."
+
+		DefaultEvent
+Name: 
+Id: 182147
+Description: "Beyond the gate, there will be many appetites. I cannot be sure how much use these will be - but I can hope. Now, something else..."
+
+		ParentEvent
+Name: 
+Id: 159414
+Description:

@@ -1,0 +1,36 @@
+(363)
+Name: You've destroyed a Glorious Frigate
+Id: 171470
+Description: The ship is yours! What will you do with her?
+
+	ChildBranches 1
+Name: Record any Observations
+Id: 140794
+Description: If you've gathered enough, you may learn something...
+
+		DefaultEvent
+Name: 
+Id: 171474
+Description: [Something!]
+
+		ParentEvent
+Name: 
+Id: 171470
+Description: 
+
+
+
+	ChildBranches 2
+Name: Investigate the hold
+Id: 140799
+Description: What treasure did these villains take?
+
+		DefaultEvent
+Name: 
+Id: 171482
+Description: 
+
+		ParentEvent
+Name: 
+Id: 171470
+Description:

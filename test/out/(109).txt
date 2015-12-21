@@ -1,0 +1,449 @@
+(109)
+Name: London!
+Id: 141880
+Description: She's the greatest city on the Unterzee. And don't you forget it.
+
+	ChildBranches 1
+Name: Visit your Lodgings
+Id: 123076
+Description: Spend some time at home.
+
+		DefaultEvent
+Name: 
+Id: 141885
+Description: 
+
+		ParentEvent
+Name: 
+Id: 141880
+Description: 
+
+
+
+	ChildBranches 2
+Name: Visit the Admiralty's Survey Office
+Id: 126752
+Description: They'll pay for information from zee-captains. Find out what, and how.
+
+		DefaultEvent
+Name: 
+Id: 147502
+Description: 
+
+		ParentEvent
+Name: 
+Id: 141880
+Description: 
+
+
+
+	ChildBranches 3
+Name: Visit the University
+Id: 126753
+Description: The University has an inexhaustible appetite for Secrets, zee-speciments, and other tidbits of esoteric lore. Provide a Secret to prove yourself worthy of entry. [Find Secrets by locating locations of interest, or in foreign ports.]
+
+		DefaultEvent
+Name: Quite impressed
+Id: 147503
+Description: "Oh yes," the University's Maritime Liaison whispers breathily. "Oh yes. This is quite a tasty one. Let me explain it to you." She (he?) explains, teeth glinting.
+
+		ParentEvent
+Name: 
+Id: 141880
+Description: 
+
+
+
+	ChildBranches 4
+Name: Put your ship in Drydock
+Id: 128248
+Description: For repairs, or sometimes other purposes...
+
+		DefaultEvent
+Name: 
+Id: 149824
+Description: 
+
+		ParentEvent
+Name: 
+Id: 141880
+Description: 
+
+
+
+	ChildBranches 5
+Name: Offer passage to a Tomb-Colonist
+Id: 128250
+Description: An emigrant will pay to be taken north, to Venderbight.
+
+		DefaultEvent
+Name: 
+Id: 149826
+Description: It's oddly difficult to die in Fallen London; but when a Londoner is too tatty and wretched to live, they wrap themselves in bandages and take ship for the Tomb-Colonies. Your crew cart these ones aboard in padded coffins. They'll sleep there until the journey is done. [The tomb-colonist is in your hold. Take them north to the colony of Venderbight, and sell them there.]
+
+		ParentEvent
+Name: 
+Id: 141880
+Description: 
+
+
+
+	ChildBranches 6
+Name: Deliver Clay Men
+Id: 128252
+Description: This is where they wanted to be, or at least, where they're supposed to be.
+
+		DefaultEvent
+Name: Ashore
+Id: 149828
+Description: One by one, they rise, uncomplainingly, with no trace of stiffness or discomfort from the long voyage. The deck resounds beneath their heavy tread. A shroomyard manager waits on dock, tapping her foot. "About time," she says. "Here's your payment. Come along, now, you. There's a good construct."
+
+		ParentEvent
+Name: 
+Id: 141880
+Description: 
+
+
+
+	ChildBranches 7
+Name: A new recruit!
+Id: 131054
+Description: Who awaits your attention?
+
+		DefaultEvent
+Name: 
+Id: 154280
+Description: 
+
+		ParentEvent
+Name: 
+Id: 141880
+Description: 
+
+
+
+	ChildBranches 8
+Name: Deliver Sphinxstone
+Id: 134485
+Description: Special Constables - black uniforms, distinctive caps, the badge of the Ministry of Public Decency - wait with a cart.
+
+		DefaultEvent
+Name: 
+Id: 159885
+Description: "Sign." "Sign." "Sign." "Here's a receipt." "Here's a discretion-contract." "Here's a penalty-contract." Your vision is blurred by the end of it all. The cart rumbles off into the coiling fog. Here's your reward.
+
+		ParentEvent
+Name: 
+Id: 141880
+Description: 
+
+
+
+	ChildBranches 9
+Name: Deliver a Blemmigan
+Id: 134530
+Description: A greatcoat-clad figure waits in the shadow of a crane. "You have blemmigans?" it enquires hopefully. Its voice is high, fluting. A scarf conceals its face.
+
+		DefaultEvent
+Name: Welcome, blemmigan
+Id: 159949
+Description: Your blemmigan leaps from the rail of the ship to shelter in the stranger's greatcoat, and the stranger nods unsteadily. "We'll see to it," the fluting voice assures you. It places a box atop a quayside bollard - clumsily, its hand muffled in its sleeve. Then it's gone, leaving only an odour of marsh-mud lingering in the air. What's in the box?
+
+		ParentEvent
+Name: 
+Id: 141880
+Description: 
+
+
+
+	ChildBranches 10
+Name: Deliver Blemmigans
+Id: 134531
+Description: A greatcoat-clad figure waits in the shadow of a crane. "You have blemmigans?" it enquires hopefully. Its voice is high, fluting. A scarf conceals its face.
+
+		DefaultEvent
+Name: Welcome, blemmigans!
+Id: 159950
+Description: Your blemmigans swirl across the dock like clawed and violet fog. Up into the greatcoat, like squirrels into a shrub! "Thank you all," the figure flutes. "We have something for you - and we wanted you to have this, our work. Though it's unsigned, of course." It retreats into the dockside mist, leaving behind a dank odour; a packing-crate; and a volume of love poetry...
+
+		ParentEvent
+Name: 
+Id: 141880
+Description: 
+
+
+
+	ChildBranches 11
+Name: Honey at the crossroads
+Id: 142104
+Description: "Wait here," the instructions said. "Wear a crimson feather in your hat."
+
+		DefaultEvent
+Name: The Veiled Lady
+Id: 173666
+Description: A black carriage - stripped of livery - slows beside you. When the door opens, a veiled woman in midnight-blue gestures curtly. "In," she demands. 
+<br/><br/>
+You wait on a deep-cushioned seat. A furrow-browed old gentleman with a mild and sheeply gaze samples the honey. He nods approvingly. The upholstery smells like flowers and rust.
+<br/><br/>
+"Go," the veiled woman says. She tosses you a lacquered serpent-bracelet. It's freezing to the touch. Its mouth is stuffed with jewels.
+
+		ParentEvent
+Name: 
+Id: 141880
+Description: 
+
+		RareDefaultEvent
+Name: An encounter with the Mercies
+Id: 173667
+Description: A clatter of hooves; hoarse voices raised in song. A phaeton pulls up beside you, slewing dangerously. Two bandaged figures sit hunched at the front. "Honey!" one croaks. "Quickly!"
+<br/><br/>
+You pass up the barrel, and they heft it as if it were empty. "I'm a terrible person," she tells you dolefully. "But so are you. And it tastes so sweet. Here's your money."
+<br/><br/>
+And they're off! with a cackle, a blown kiss, and a waft of cigar-smoke.
+
+
+
+	ChildBranches 12
+Name: Deliver Sphinxstone to... ?
+Id: 143327
+Description: A smiling woman in an elegant jonquil gown places a gloved hand on your arm. "Are you waiting for the Ministry men? They won't be coming. But I have a proposition for you."
+
+		DefaultEvent
+Name: Bright gown, bright hair
+Id: 175538
+Description: Her skin glows with health. Her smile is wise and merciless.
+
+		ParentEvent
+Name: 
+Id: 141880
+Description: 
+
+
+
+	ChildBranches 13
+Name: A dusty gentleman
+Id: 143328
+Description: "Captain! Wait! She gave you an errand, didn't she? She serves a certain Power - a bright one, but not a friendly one. I have a counter-proposal. Will you listen?"
+
+		DefaultEvent
+Name: Tired eyes, sallow skin
+Id: 175539
+Description: He stoops like a clerk and coughs like a miner. But that frock-coat is of the finest fabric and the newest cut. "My name is Penstock," he says.
+
+		ParentEvent
+Name: 
+Id: 141880
+Description: 
+
+
+
+	ChildBranches 14
+Name: A dusty gentleman
+Id: 143690
+Description: "Captain! A moment. You turned her down, didn't you? That was wise. The Power she serves is no friend to London, or to the Bazaar. I have a proposal of my own. Will you listen?"
+
+		DefaultEvent
+Name: Tired eyes, sallow skin
+Id: 176106
+Description: He stoops like a clerk and coughs like a miner. But that frock-coat is of the finest fabric and the newest cut. "My name is Penstock," he says.
+
+		ParentEvent
+Name: 
+Id: 141880
+Description: 
+
+
+
+	ChildBranches 15
+Name: Deliver Sphinxstone to the boy Slivvy
+Id: 143693
+Description: Slivvy is the fey and stuttering shaman-boy who speaks to the wind. Slivvy lives in the Flit, the rooftop kingdom of Fallen London, where urchins and anarchists lair. It's not far. But it is high. It won't be easy to get the Sphinxstone up there.
+
+		DefaultEvent
+Name: Step by step
+Id: 176110
+Description: You still have contacts in the urchin-gangs; you still have favours owed. Your skills and alliances and your knowledge of the Flit-ways is enough to get the stone up, though your zailors are green with terror by the end of it. "I want to go back to zee, captain!" one moans.
+<br/><br/>
+The urchin Slivvy has arranged cradles for the rocks. "We are going to drop them on people Storm doesn't like," he tells you. "Squash them f-f-flat. It's alright if a g-g-god tells you to do it." Is he joking? It's difficult to tell, with Slivvy. He leans forward and whispers the directions to the Backmost Stairs, the secret Flit-route that you've never travelled.
+
+		ParentEvent
+Name: 
+Id: 141880
+Description: 
+
+
+
+	ChildBranches 16
+Name: Deliver Sphinxstone to your successor in your old parish church
+Id: 143694
+Description: Why? You can't face the man. But you must, if you wish to fulfil Penstock's commission.
+
+		DefaultEvent
+Name: Crimes past
+Id: 176111
+Description: That night, you wait behind the vestry with a rented wagon full of stones. You've sent your zailors back to the ship.
+<br/><br/>
+Your successor is prompt. He seems disinclined to look you in the eye. "We have instructions," he says quietly. "We require an altar, and we must use one of these - objects." He does look up, then. "Why? Who are you working for now? Does the Bazaar rule the Church? I don't understand. But they told me to give you this, and these."
+<br/><br/>
+'These' are your old vestments... and a Bible. POST-FINAL REVISED EXCEPTIONAL EDITION. All holy books have been amended since London fell, modified by St Cyriac's College and the Ministry of Public Decency. This one contains certain <i>special</i> amendments.
+
+		ParentEvent
+Name: 
+Id: 141880
+Description: 
+
+
+
+	ChildBranches 17
+Name: Deliver Sphinxstone for Penstock
+Id: 143695
+Description: St Joshua is the patron saint of spies and intriguers. His clergy are the Midnighters: steeped in secrets and wrapped in irrigo. Penstock wishes you to take the Sphinxstone to them.
+
+		DefaultEvent
+Name: The Shrine of St Joshua
+Id: 176112
+Description: <p>The Shrine moves constantly, but you have directions from Penstock. Tonight, it is here, at the bottom of a narrow flight of stairs that leads down to the Stolen River, that you find the shrine. It is hung with irrigo. Its altar is a stool, with the icon of St Joshua set upon it. You shield your eyes against the sapping colour. Already you've forgotten the route you took to come here. With luck, the zailors waiting above with the stone will not have wandered off.</p>
+<p>"The Salt Lions," the Midnighter says breathily. "Oh yes, oh yes. That must be forgotten. Don't worry: we'll purge the stone of what remains. We're grateful to you, although you won't remember why - "</p>
+<p>And now here you are behind the warehouses at the docks. Your hands and lips are cold. Here, in your pocket, is a tattered book.</p>
+
+		ParentEvent
+Name: 
+Id: 141880
+Description: 
+
+
+
+	ChildBranches 18
+Name: Decide whether to complete the Avuncular Broker's mission
+Id: 147162
+Description: The Hands-On Diplomat is anxious to take up her new post. "And no doubt you're anxious to be paid."
+
+		DefaultEvent
+Name: 
+Id: 181779
+Description: 
+
+		ParentEvent
+Name: 
+Id: 141880
+Description: 
+
+
+
+	ChildBranches 19
+Name: Deliver Supplies for the Work
+Id: 147490
+Description: A Burning-Eyed Student waits at the abandoned lime-kilns by Watchmaker's Hill.
+
+		DefaultEvent
+Name: "O wonderful - "
+Id: 182266
+Description: She hisses with delight as she examines what you've brought. "Yes. Yes, this brings the Day much closer. Here. We won't insult you with payment, but we've brought supplies to defray your costs. And these souls. They are our gratitude: they were donated, freely. Do what you will with them."
+
+		ParentEvent
+Name: 
+Id: 141880
+Description: 
+
+
+
+	ChildBranches 20
+Name: Hire on more crew
+Id: 123073
+Description: Sensible zailors are looking for a safe run to the tomb-colonies, or at least a sane run to the Southern Archipelago. You'll need to buy drinks, spread around hiring fees. Look for daredevils.
+
+		DefaultEvent
+Name: Lean pickings
+Id: 141882
+Description: An eager-seeming crowd of zailors consumed all the beer you buy and then melts away. You're left with a single strabismic, melancholy seaman who wants to know if he can bring his pickled monkey aboard. "I'll pad the bottle with straw," he promises.
+
+		ParentEvent
+Name: 
+Id: 141880
+Description: 
+
+		SuccessEvent
+Name: Rich pickings
+Id: 144869
+Description: Your tall tales find a ready audience. Scarred and seasoned men and women tramp aboard and find places to sling hammocks.
+
+
+
+	ChildBranches 21
+Name: Carouse in Wolfstack Docks
+Id: 123072
+Description: [This will reduce your Terror. You might run into trouble, or romance.]
+
+		DefaultEvent
+Name: A strange night out
+Id: 141881
+Description: You wake in the back room of Gaston's Lampery, head pounding. You had something to drink, but beyond that it's a little hazy. Your knuckles are bloody (your blood, you think) and your shirt bloody likewise (probably not yours, unless your blood is slick and greenish). You've had better nights out. "A difficult brew," Gaston says gnomically.
+
+		ParentEvent
+Name: 
+Id: 141880
+Description: 
+
+		SuccessEvent
+Name: A good night out
+Id: 148624
+Description: Sea shanties, good companionship, and the warmth of a pub fire.
+
+		RareSuccessEvent
+Name: A marvellous night out
+Id: 149160
+Description: Sea shanties, fine food, and the warmth of a pub fire. And something more...
+
+
+
+	ChildBranches 22
+Name: Carouse in Wolfstack Docks
+Id: 142718
+Description: [This will reduce your Terror. You might run into trouble, or romance.]
+
+		DefaultEvent
+Name: A strange night out
+Id: 174590
+Description: You wake in the back room of Gaston's Lampery, head pounding. You had something to drink, but beyond that it's a little hazy. Your knuckles are bloody (your blood, you think) and your shirt bloody likewise (probably not yours, unless your blood is slick and greenish). You've had better nights out. "A difficult brew," Gaston says gnomically.
+
+		ParentEvent
+Name: 
+Id: 141880
+Description: 
+
+		SuccessEvent
+Name: A marvellous night out
+Id: 174591
+Description: Sea shanties, fine food, and the warmth of a pub fire. And something more...
+
+		RareSuccessEvent
+Name: A marvellous night out
+Id: 174592
+Description: Sea shanties, fine food, and the warmth of a pub fire. And something more...
+
+
+
+	ChildBranches 23
+Name: Carouse in Wolfstack Docks
+Id: 142719
+Description: [This will reduce your Terror. You might run into trouble, or romance.]
+
+		DefaultEvent
+Name: A strange night out
+Id: 174593
+Description: You wake in the back room of Gaston's Lampery, head pounding. You had something to drink, but beyond that it's a little hazy. Your knuckles are bloody (your blood, you think) and your shirt bloody likewise (probably not yours, unless your blood is slick and greenish). You've had better nights out. "A difficult brew," Gaston says gnomically.
+
+		ParentEvent
+Name: 
+Id: 141880
+Description: 
+
+		SuccessEvent
+Name: A good night out
+Id: 174594
+Description: Sea shanties, good companionship, and the warmth of a pub fire.
+
+		RareSuccessEvent
+Name: A good night out
+Id: 174595
+Description: Sea shanties, good companionship, and the warmth of a pub fire.
