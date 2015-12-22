@@ -3,7 +3,7 @@ Name: Khan's Glory
 Id: 143358
 Description: Here are the palaces of the Khan and his court, each a fortress to itself. Sleek lords and ladies in belted robes breakfast on balconies. An unlikely antelope peeks at you from a park. Guns rotate easily on motorised gimbals.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Offer a gift to the Leopard
 Id: 124080
 Description: The royal clan of the Khan. The Khan himself has a notorious weakness for coffee, and his court follows suit.
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Petition for access to the Nephrite Quarter
 Id: 124081
 Description: The Clan of the Leopard grants trade licenses to foreigners. [This gives access to the Nephrite Quarter in Khan's Heart to the South, allowing you to sell your goods there.]
@@ -39,7 +39,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Offer a gift to the Taimen
 Id: 131353
 Description: This clan is named for a sizeable and ferocious fish of the Surface. They have a fondness for Drowning-Pearls, for some secret clan ritual.
@@ -56,7 +56,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Plead your case with the Taimen
 Id: 131354
 Description: The Taimen Clan has long controlled the White-and-Golds, the 'loyalty service' who watch Khaganians and foreigners alike. If they're convinced your intentions are good, they may be lenient. [If your Suspicion has risen too high, this will reduce it.]
@@ -73,7 +73,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Cruise past the clan palaces
 Id: 131409
 Description: Khan's Glory has a steely beauty, but the clan-lords are    ever-suspicious of spies, and those gun emplacements are vigilant.
@@ -90,7 +90,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: Ask the Leopard contacts to intercede with the Taimen
 Id: 131413
 Description: If your Khaganian Suspicion has risen too high, the Taimen can help. The Leopard may induce them to do so.
@@ -111,7 +111,7 @@ Description:
 
 
 
-	ChildBranches 7
+		ChildBranches 7
 Name: Ask your Taimen contacts to intercede with the Leopard
 Id: 131414
 Description: The Leopard's favour is essential for gaining access to Khanate trade.
@@ -128,7 +128,7 @@ Description:
 
 
 
-	ChildBranches 8
+		ChildBranches 8
 Name: Offer Strategic Information to the Taimen
 Id: 131415
 Description: Treason is such an old-fashioned word.
@@ -145,7 +145,7 @@ Description:
 
 
 
-	ChildBranches 9
+		ChildBranches 9
 Name: Sell the Memento Mori
 Id: 146139
 Description: The Effusive Official from the Leopard is sceptical. After he has witnessed you demonstrate the device, his scepticism melts like butter on the stove. [The Khanate will offer you three Captivating Treasures.]
@@ -162,7 +162,7 @@ Description:
 
 
 
-	ChildBranches 10
+		ChildBranches 10
 Name: Release a blemmigan
 Id: 147564
 Description: Perhaps it can sneak under the noses of these grandly epauletted guards with their frightening modern weapons - 
@@ -179,7 +179,7 @@ Description:
 
 
 
-	ChildBranches 11
+		ChildBranches 11
 Name: Cruise past the clan palaces
 Id: 131408
 Description: Khan's Glory has a steely beauty, but the clan-lords are    ever-suspicious of spies, and those gun emplacements are vigilant.

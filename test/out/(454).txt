@@ -3,7 +3,7 @@ Name: Mount Palmerston
 Id: 138473
 Description: Sullen lights glow green at the jetty's edge. Behind the port buildings, the island is knee-deep in ash. There are ruins here and there, of houses destroyed by fire. Far above, the mountain's top flickers red: just for an instant.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Explore the island
 Id: 120961
 Description: Tangles of thorned scrub climb the rocky slopes of the volcano. 
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Chat to the port-folk about the Brimstone Convention
 Id: 120962
 Description: There was a revolution in Hell: and the aristocracy of devils fled here. Here, they plot in exile.
@@ -37,7 +37,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Explore the island
 Id: 120963
 Description: Tangles of thorned scrub climb the rocky slopes of the volcano. 
@@ -54,7 +54,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Explore the island
 Id: 120966
 Description: Tangles of thorned scrub climb the rocky slopes of the volcano. 
@@ -71,7 +71,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Explore the island
 Id: 128331
 Description: Tangles of thorned scrub climb the rocky slopes of the volcano. 
@@ -88,7 +88,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: Deliver your smuggled souls
 Id: 129145
 Description: A hooded figure with a lantern waits at the far end of the quay.
@@ -105,7 +105,7 @@ Description:
 
 
 
-	ChildBranches 7
+		ChildBranches 7
 Name: Explore the island
 Id: 129374
 Description: Tangles of thorned scrub climb the rocky slopes of the volcano. There are ruins here and there, of houses destroyed by fire.
@@ -122,7 +122,7 @@ Description:
 
 
 
-	ChildBranches 8
+		ChildBranches 8
 Name: Find your contact
 Id: 130491
 Description: You have a rendezvous in the ruined granary up on the headland, where the last generation of farmers died in the volcano's flames.
@@ -139,7 +139,7 @@ Description:
 
 
 
-	ChildBranches 9
+		ChildBranches 9
 Name: Find your contact
 Id: 130495
 Description: You have a rendezvous in the ruined granary up on the headland, where the last generation of farmers died in the volcano's flames.
@@ -156,7 +156,7 @@ Description:
 
 
 
-	ChildBranches 10
+		ChildBranches 10
 Name: Put a blemmigan ashore
 Id: 133911
 Description: Surely it'll flourish here?
@@ -173,7 +173,7 @@ Description:
 
 
 
-	ChildBranches 11
+		ChildBranches 11
 Name: Dig among the ruins
 Id: 147534
 Description: Perhaps the villagers left valuables behind. You could pick over their remains to see what you might find. (You ghoul.)

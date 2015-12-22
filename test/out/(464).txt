@@ -3,7 +3,7 @@ Name: A council of joy
 Id: 167637
 Description: The sorrow-spiders have reconvened to hear of your progress. A stench of impatience fills the air.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Present the Young Scholar's Notebook
 Id: 138573
 Description: You have your doubts about its veracity. Still, if there was a secret to be found on the Nocturne, it surely lies within these pages.
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: The unseeing eye in the dark
 Id: 138618
 Description: You were watched. It can not have been a coincidence.
@@ -41,7 +41,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Volunteer nothing
 Id: 138619
 Description: You're being played. Ominous.
@@ -62,7 +62,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: A secret that worries even the sorrow-spiders?
 Id: 138620
 Description: You're getting out of your depth now.
@@ -81,7 +81,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Agree
 Id: 138621
 Description: They're not telling you something, of course. But you've seen this out so far...
@@ -98,7 +98,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: Refuse
 Id: 138622
 Description: They're not telling you something, of course. And you refuse to be the pawn of sorrow-spiders.
@@ -115,7 +115,7 @@ Description:
 
 
 
-	ChildBranches 7
+		ChildBranches 7
 Name: Leave the Web of Stone
 Id: 138625
 Description: It is time to end this.
@@ -132,7 +132,7 @@ Description:
 
 
 
-	ChildBranches 8
+		ChildBranches 8
 Name: Negotiate for the Captain of the Nocturne
 Id: 138623
 Description: The sorrow-spiders have him within their Tree of Seasons. Nobody knows a ship better than its captain. His advice would be invaluable on this task.
@@ -154,7 +154,7 @@ Description: They are angry at the mere thought of giving up one of their prizes
 
 
 
-	ChildBranches 9
+		ChildBranches 9
 Name: Demand the Captain of the Nocturne
 Id: 138624
 Description: If they want your help with this, they can start giving you some real assistance, not lies!

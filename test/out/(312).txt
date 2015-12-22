@@ -3,7 +3,7 @@ Name: Speak to your bandaged cook
 Id: 152797
 Description: "My captain! Come into my little galley. Mind that pot of sauce. It is, ahaha, vigorous in the extreme."
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Increase your Hearts
 Id: 130124
 Description: "Let us speak, my captain, of the nature of edibility..."
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Dine with the Ba-
 Id: 146198
 Description: "Ah, no no no, my captain! <i>You</i> shall dine with <i>me</i>!"
@@ -40,7 +40,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Hand over a Strange Catch for his culinary masterpiece
 Id: 147215
 Description: "Hello, little fellow. Let us see what delights you hold." His filleting knife gleams. [This is a matter of luck. He will need at least two useful ingredients.]
@@ -62,7 +62,7 @@ Description: He tastes a morsel on the tip of his knife, and shudders. "An exqui
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Turn over a Live Specimen for his culinary masterpiece
 Id: 147259
 Description: "Wonderful! The fresher the better! Hold it down a moment. I will need to fetch the larger of my mandolines." [This is a matter of luck. He will need at least two useful ingredients.]
@@ -84,7 +84,7 @@ Description: Tasting it, he makes a strangled noise. Have you poisoned him? "No,
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: He pokes his head from the galley
 Id: 147260
 Description: "Have you my mutersalt, captain? My zzoup? I am keen to investigate their possibilities." A braising-alembic bubbles eagerly in the background.
@@ -105,7 +105,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: Give him an Elegiac Cockatoo
 Id: 147261
 Description: When the bird sees the galley its poetry becomes doubly heartfelt.
@@ -122,7 +122,7 @@ Description:
 
 
 
-	ChildBranches 7
+		ChildBranches 7
 Name: Deliver a Colossal Fluke-Core to the galley
 Id: 147262
 Description: The zailors struggle under the weight. Irrigo juices stain the deck.
@@ -139,7 +139,7 @@ Description:
 
 
 
-	ChildBranches 8
+		ChildBranches 8
 Name: A squelch, then a quivering thunk
 Id: 147289
 Description: The Bandaged Poissonnier has thrown a strange catch across the galley, and then a knife. Is something wrong?
@@ -158,7 +158,7 @@ Description:
 
 
 
-	ChildBranches 9
+		ChildBranches 9
 Name: He has a question about your current destination
 Id: 147436
 Description: "Do you think we will pass near Khan's Heart sometime soon?"
@@ -175,7 +175,7 @@ Description:
 
 
 
-	ChildBranches 10
+		ChildBranches 10
 Name: He has a request
 Id: 147440
 Description: After his visit to the Khanate he is more fixated, less congenial. He corners you below decks, his eyes fervent between his wrappings.

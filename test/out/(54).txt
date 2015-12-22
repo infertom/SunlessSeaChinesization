@@ -3,7 +3,7 @@ Name: Mouths to Feed
 Id: 147224
 Description: [Your crew needs provisions. You can all tighten your belts, but bad things will begin to happen. This card will remain available as long as Hunger is over 50. Don't let Hunger reach 100.]
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Feast
 Id: 126569
 Description: [This option is only available to those who have already turned cannibal.]
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Drink Zzoup
 Id: 132106
 Description: The taste is acquired, rather than popular. But no one is likely to be fussy just now.
@@ -37,7 +37,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Consume a Strange Catch
 Id: 126570
 Description: It doesn't look appetising, or even safe, but perhaps it's worth the risk...
@@ -59,7 +59,7 @@ Description: The Cook converts it to a sort of minimalist bouillabaisse. It's sa
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Consume a Live Specimen
 Id: 126571
 Description: It's not attractive, but at least it's fresh.
@@ -81,7 +81,7 @@ Description: The Live Specimen's end is sadly unceremonious. It's come so far, o
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Bandaged Poissonnier 
 Id: 130129
 Description: Ask the Bandaged Poissonnier to render a Strange Catch edible.
@@ -103,7 +103,7 @@ Description: The Poissonnier labours mightily to render the Strange Catch appeti
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: Bandaged Chef-Paramount
 Id: 147441
 Description: Ask him to render a Strange Catch edible.

@@ -3,7 +3,7 @@ Name: Speak to your nacreous acquaintance
 Id: 165527
 Description: It drips eagerly. Perhaps if it comes to your cabin you should put down some sort of matting.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Increase your Hearts
 Id: 137238
 Description: [Spend a Secret to improve your Hearts, unless it's higher than 150.]
@@ -22,7 +22,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Invite it to dine with you
 Id: 137240
 Description: You'll need a suitable morsel.
@@ -43,7 +43,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Invite it to dine with you
 Id: 137241
 Description: You'll need a suitable morsel.
@@ -60,7 +60,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Invite it to dine with you
 Id: 137644
 Description: You'll need a suitable morsel.
@@ -79,7 +79,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Proposition the Nacreous Survivor
 Id: 146906
 Description: It is not unknown for romantic tastes at sea to grow <i>specialised</i>.
@@ -96,7 +96,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: Smile at your nacreous lover
 Id: 146909
 Description: Be discreet. Your crew would be horrified.
@@ -113,7 +113,7 @@ Description:
 
 
 
-	ChildBranches 7
+		ChildBranches 7
 Name: Proposition the Nacreous Survivor
 Id: 146910
 Description: It bends its face. You've known it long enough to understand that this is an affectionate smile. Are you sure about this? [The Survivor can only evince the proper responses in the presence of sufficient Scintillack.]

@@ -11,7 +11,7 @@ The Pilgrims are still away, and with them the Agnihotri and his council of Sun-
 <br/><br/>
 And what will you do?
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Zail Away
 Id: 129871
 Description: This is none of your concern, and it should stay that way.
@@ -32,7 +32,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Hear out the Neathers
 Id: 129872
 Description: What, exactly, do they hope to achieve?
@@ -55,7 +55,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Hear out the Sun-Priests
 Id: 129873
 Description: They are all in council at the Temple of Mihir.
@@ -82,7 +82,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Side with Mihir's Priests
 Id: 129874
 Description: Tell the Sun-Priests where to find the Jewel-Turbaned Youth.
@@ -110,7 +110,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Join the Neather Revolution
 Id: 129875
 Description: Cracking mirrors and dousing lamps; how hard could it be?

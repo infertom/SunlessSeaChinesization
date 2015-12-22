@@ -3,7 +3,7 @@ Name: The Web of Stone
 Id: 167215
 Description: The last remnants of an ancient citadel, now home to the spider-council of Saviour's Rocks. Eyeless Weavers and Widows busy themselves tending to the spiders and their Tree of Seasons, showing neither interest or concern at your presence. You will be Summoned.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Spy on the Weavers and Widows
 Id: 138295
 Description: To spy on the blind is no challenge, but the glares of the sorrow-spiders all around make it clear that while here, you will never not be under observation.
@@ -22,7 +22,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Summoned by the spider-council
 Id: 138353
 Description: It is time. You have been called.
@@ -41,7 +41,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Behold the Tree of Seasons
 Id: 138361
 Description: The heart of the spider-council. Few have laid eyes upon it, and most of those have had said eyes ritually removed to birth new sorrow-spiders shortly afterwards.
@@ -58,7 +58,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Burn the Tree of Seasons
 Id: 138362
 Description: The Weavers and Widows have torches to warm them during their work. Now you will use them to put an end to it! D__n the consequences!
@@ -75,7 +75,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Attempt to rest until summoned
 Id: 138376
 Description: Amongst an army of poisonous spiders and deranged cultists? Still not as rough as the flophouses of Spite.
@@ -92,7 +92,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: Hospitality of the sorrow-spiders
 Id: 138377
 Description: A polite Widow indicates her fellow disciples' willingness for you to take a meal with them.
@@ -114,7 +114,7 @@ Description: This is one of many questions for which an answer can serve no good
 
 
 
-	ChildBranches 7
+		ChildBranches 7
 Name: A new initiate
 Id: 138452
 Description: A naked young man lies on a stone platform, his shaking hands squeezed tight by his brothers and sisters to be.
@@ -135,7 +135,7 @@ Description:
 
 
 
-	ChildBranches 8
+		ChildBranches 8
 Name: Further investigate the Tree of Seasons
 Id: 138939
 Description: The sorrow-spiders have taken many prisoners.
@@ -152,7 +152,7 @@ Description:
 
 
 
-	ChildBranches 9
+		ChildBranches 9
 Name: Spying: On the grand spider-council
 Id: 138607
 Description: A group of Weavers and Widows is quietly discussing something. You might be able to listen in.
@@ -179,7 +179,7 @@ Description: They speak of a chaos brought under control by a spider-council for
 
 
 
-	ChildBranches 10
+		ChildBranches 10
 Name: Spying: On a deal with a... ?
 Id: 138608
 Description: A group of Weavers and Widows is quietly discussing something. You might be able to listen in.
@@ -206,7 +206,7 @@ Description: They speak of a century of stolen secrets, and a almost as long reg
 
 
 
-	ChildBranches 11
+		ChildBranches 11
 Name: Spying: On the Tree of Ages
 Id: 138609
 Description: A group of Weavers and Widows is quietly discussing something. You might be able to listen in.
@@ -233,7 +233,7 @@ Description: They speak of a ship sent forth from Saviour's Rocks to catch secre
 
 
 
-	ChildBranches 12
+		ChildBranches 12
 Name: Spying: On the subject of eyes
 Id: 138610
 Description: A group of Weavers and Widows is quietly discussing something. You might be able to listen in.

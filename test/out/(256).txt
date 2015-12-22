@@ -3,7 +3,7 @@ Name: Speak to the Tireless Mechanic
 Id: 148797
 Description: "Hello hello. Busy now, but always got time for you."
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Increase your Veils
 Id: 127630
 Description: [Spend a Secret to improve your Veils, unless it's higher than 150.]
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Answer questions about your past
 Id: 127632
 Description: You've kept your secrets long enough. [Unmask yourself! This will allow you to select a Past, Ambition, and form of preferred address - also providing you with a specialist ability bonus.]
@@ -37,7 +37,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Invite him to dine with you
 Id: 127633
 Description: His tastes are spartan - he eats little, drinks only water, barely sleeps at all - so you need only lay a simple table.
@@ -58,7 +58,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Allow the Mechanic to enjoy his sleep
 Id: 146679
 Description: "It might be messy," he warns you. "Could you have a couple of strong zailors standing by? Tell them to snap the box shut when the trouble begins." He holds up a bottle of laudanum. "<i>I</i> will be sleeping <i>deeply</i>."
@@ -90,7 +90,7 @@ In the bunk, the Mechanic sleeps on, his face wreathed in dreamy smiles. He will
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Proposition the Tireless Mechanic
 Id: 146905
 Description:  [The Mechanic enjoys the life of the mind. Ensure your Pages is at least twenty points higher than your Hearts.]
@@ -109,7 +109,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: Exchange a secret smile
 Id: 146908
 Description: A romance with an Officer might be considered unseemly. You'll need to be discreet.
@@ -126,7 +126,7 @@ Description:
 
 
 
-	ChildBranches 7
+		ChildBranches 7
 Name: Ask the Mechanic to explain exactly what the hell is going on
 Id: 147149
 Description: "Well, it's like this. I stole a secret from the Echo Bazaar. With the help of the Fingerkings. You know, the serpents who rule dream. Then I reneged on the Fingerkings. Don't look at me like that. Would you rather I'd given them the secret?"

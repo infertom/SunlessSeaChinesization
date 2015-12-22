@@ -3,7 +3,7 @@ Name: Avernus
 Id: 152263
 Description: The Canal emerges in the little lake called Avernus. A warm breeze ruffles blue waters. You and your crew shelter like vampires from the light, with awnings, curtains, broad-brimmed hats. Poplars, birdsong, the warmth of the Campanian sun. 
 
-	ChildBranches 1
+		ChildBranches 1
 Name: To Naples
 Id: 129775
 Description: The very last stretch of the Canal runs overland to the bay by Bacoli. Then it's an easy run down the Tyrrhenian coast into Naples.
@@ -27,7 +27,7 @@ Description: In the vast expanse of the Surface, without familiar echoes, your e
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Return Below
 Id: 129776
 Description: The sky is blue-hot metal. Cicadas buzz like a headache. This is no place for an honest zailor. [You will need ten Fuel and two Supplies to return below. If you have insufficient, you will be trapped here on the Surface.]
@@ -44,7 +44,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: End your journey
 Id: 130806
 Description: Ill luck or incaution has brought you to this. Your ship is stranded.
@@ -61,7 +61,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: The ship is empty
 Id: 131651
 Description: Where are you, all of you?
@@ -78,7 +78,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Fill your Mirrorcatch Box
 Id: 144346
 Description: Open it wide. Let it bask in the light, until its baffles and convolutions brim with sun.

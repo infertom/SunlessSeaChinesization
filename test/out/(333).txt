@@ -3,7 +3,7 @@ Name: You've destroyed a War Trimaran
 Id: 144336
 Description: Shattered, listing. Seize what you can.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Seize and loot her!
 Id: 124714
 Description: Take what you can. Imprison or cut down any Khaganians that remain.
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Record any Observations
 Id: 131989
 Description: If you've gathered enough, you may learn something...

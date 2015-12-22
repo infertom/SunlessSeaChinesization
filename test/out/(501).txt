@@ -6,7 +6,7 @@ Description: The walled city of Varchas is dark. The glowing fungus has been str
 The Mirrored Gates are broken into tiny facets and each one glints malevolently. You can see... shapes... moving in them. Glimmers of cosmogone - that burnt orange darkness. Glimpses of smoking sea. Sweet laughter that hitches and skitters like the death of clocks.
 
 
-	ChildBranches 1
+		ChildBranches 1
 Name: What's that?
 Id: 129838
 Description: Can you hear something...whispering? 
@@ -24,7 +24,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Put a blemmigan ashore
 Id: 147572
 Description: Leave it to its fate.
@@ -43,7 +43,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Compile a Port Report
 Id: 147658
 Description: It's difficult to convey just how unpleasant the place is without quite an aggressive use of... ellipses.

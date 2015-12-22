@@ -3,7 +3,7 @@ Name: Outfitter
 Id: 154478
 Description: 
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Highest-end equipment
 Id: 131174
 Description: Eschatologue with all the trimmings.

@@ -4,7 +4,7 @@ Id: 152415
 Description: The Sun-Priests come to you, flanked by guards. "I think," the oldest one says thoughtfully, "that it is time for you to go, Taamas. You have caused enough disruption in our glorious city."
 
 
-	ChildBranches 1
+		ChildBranches 1
 Name: You nod
 Id: 129877
 Description: It's good advice; best to leave before the Agnihotri returns from the Pilgrimage. You have learnt a great deal here. The affairs of Varchas touch on the mysteries of the Continent.

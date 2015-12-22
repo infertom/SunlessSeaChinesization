@@ -3,7 +3,7 @@ Name: Restless nights
 Id: 121899
 Description: In the watches of the night, you pad softly past the hatch to the crew quarters. A man cries out softly in his sleep, desperately. Another. 
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Ignore them
 Id: 110631
 Description: The captain can't be seen to take these things seriously.
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Enquire about their dreams the next morning
 Id: 110630
 Description: What did they see?

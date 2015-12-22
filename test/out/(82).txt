@@ -3,7 +3,7 @@ Name: The Widower
 Id: 153576
 Description: "Hello. Come in. Sit down. I believe you have some news about my wife? I paid the ransom. Of course I did, and of course I never heard anything more. Please. Where is she? What happened?"
 
-	ChildBranches 1
+		ChildBranches 1
 Name: "Your wife is a mindless shell."
 Id: 130587
 Description: Tell him the truth, however horrible. The bees, the cages, the slow and agonising theft of her memories.
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: "Your wife died while escaping."
 Id: 148030
 Description: Tell him it was instant, and painless. It's a lie, but perhaps a kind one.
@@ -37,7 +37,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Tell him of the captain's gambling debts and brothel-bill
 Id: 148031
 Description: Let him know what kind of woman he married. Of course, perhaps he already knew.
@@ -54,7 +54,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Tell him the captain was taken in combat
 Id: 148032
 Description: Suggest valour brought low by ill luck.
@@ -71,7 +71,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Tell him his wife was a red honey smuggler
 Id: 148033
 Description: Red honey: so vile, it's not even illegal.
@@ -89,7 +89,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: Tell him his wife was a pirate-hunter
 Id: 148034
 Description: It's plausible. Any pirate-hunter might prowl the waters around the Isle of Cats, or even slip into the harbour and mingle with their targets.
@@ -106,7 +106,7 @@ Description:
 
 
 
-	ChildBranches 7
+		ChildBranches 7
 Name: Give him the box
 Id: 148035
 Description: ONLY THOSE WHO DO NOTHING MAKE NO ERRORS. Is that the phrase that will open it? Did the captain hope the box would find its way to him, somehow?

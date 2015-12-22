@@ -3,7 +3,7 @@ Name: Sovereign Island
 Id: 175471
 Description: Today, the sprawling palace is called the Wildweald Court. Tomorrow, who knows? The world of the Pentecost apes is one of cruel whimsy, where stolen traditions last only as long as their amusement.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Gain access to the Court
 Id: 143282
 Description: The gates are guarded by two armoured monkeys that would look adorable if not for the blood on their bayonets. Humans are not welcome without an invitation or a worthy gift for the Emperor.
@@ -22,7 +22,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Back to the boat
 Id: 144130
 Description: There is more zailing to be done today.
@@ -39,7 +39,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Gather Strategic Information for the Admiralty
 Id: 144907
 Description: What remains of the Empire of Hands? Spies are not required when the misery flows so freely.
@@ -57,7 +57,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Attempt to enter the Wildweald Court
 Id: 144908
 Description: The soldiers once again bar your passage.
@@ -74,7 +74,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Back to the boat
 Id: 145108
 Description: Once again, Port Stanton beckons.
@@ -91,7 +91,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: The Delightful Adventuress
 Id: 145477
 Description: They released her. How thoughtful.
@@ -110,7 +110,7 @@ Description:
 
 
 
-	ChildBranches 7
+		ChildBranches 7
 Name: Attempt to enter the Wildweald Court
 Id: 147110
 Description: The soldiers once again bar your passage.
@@ -127,7 +127,7 @@ Description:
 
 
 
-	ChildBranches 8
+		ChildBranches 8
 Name: Gather Strategic Information for the Admiralty
 Id: 147112
 Description: What remains of the Empire of Hands? Spies are not required when the misery flows so freely.

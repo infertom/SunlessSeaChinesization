@@ -3,7 +3,7 @@ Name: The Bright-Eyed Sequencer
 Id: 175542
 Description: "That stone's full of old memories. The Bazaar has been drinking them." She nods at the spires that loom over London, the dark limbs that sprawl through the streets. "I have a better destination. Help us bring light here below, and we will reward you - reward you richly."
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Accept
 Id: 143331
 Description: "Rich reward." "Light." These are happy words.
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Refuse
 Id: 143688
 Description: Those bright bright eyes: the unmistakable mark of the Dawn Machine. None understand the Dawn Machine, but all fear it. Who knows what its motives are? Or hers?

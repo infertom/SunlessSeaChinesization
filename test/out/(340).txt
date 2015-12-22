@@ -3,7 +3,7 @@ Name: A litter of smashed carapaces
 Id: 153584
 Description: Who would have thought the foul things had so much ichor in them?
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Clean your boots
 Id: 130591
 Description: All that stamping and shooting has taken its toll. Sorrow-spider ichor does not smell anything like flowers.
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Record any Observations
 Id: 131982
 Description: If you've gathered enough, you may learn something...

@@ -3,7 +3,7 @@ Name: A skilled crewman
 Id: 143942
 Description: This is the zailor who came begging to you for a berth. He's done good work, this one. But he's keeping a little shrine to the Salt, the nameless god of the horizon, at the back of the hold.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Permit it
 Id: 124456
 Description: Out here, a captain needs all the help he can get. Even from sad strange gods of farewells.
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Forbid it
 Id: 124457
 Description: You'll have none of this nonsense aboard your ship. If the Salt even exists, its attention is dangerous.

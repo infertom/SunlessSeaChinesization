@@ -3,7 +3,7 @@ Name: The Mayor's Shack
 Id: 175587
 Description: In better times, being overseer of Port Stanton gave the incumbent their pick of visitors to the Empire. Now, it is as thankless a task as any to be found in the Neath.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Sell your soul to the Mayor
 Id: 143363
 Description: He doesn't have much to offer, but if you aren't using it...
@@ -24,7 +24,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Acquire emergency fuel
 Id: 143374
 Description: If only there wasn't a trade embargo, you could refuel so cheaply and easily, the Mayor sighs. "Oh, if only!" But, he adds, idly picking his teeth, he might, just maybe, know of some barrels conveniently sitting around...
@@ -43,7 +43,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Acquire emergency fuel
 Id: 143385
 Description: The Mayor smiles, steepling his fingers. The zailor in him knows he has you over a barrel, and that barrel contains fuel. The Delightful Adventuress in him concurs.
@@ -62,7 +62,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Acquire emergency fuel
 Id: 143386
 Description: The Mayor smiles tightly. As a four-soul ape with ambitions, he cannot be seen to be anything but cunning, ruthless, and avaricious to a fault. The part of him that was the Delightful Adventuress only cheers him on.
@@ -81,7 +81,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Acquire emergency Fuel
 Id: 143387
 Description: "Fuel? Got fuel." The Flea-Ridden Mayor nods quickly. "Not cheap. Not free. Can be arranged. London money okay. Put on table. Look on docks. Yes?"
@@ -100,7 +100,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: Acquire fresh Supplies
 Id: 144000
 Description: Oddly little of the Empire of Hands' natural bounty is edible. The monkeys will help you find the edible stuff, for a fee.
@@ -117,7 +117,7 @@ Description:
 
 
 
-	ChildBranches 7
+		ChildBranches 7
 Name: Excuse yourself
 Id: 144149
 Description: The rest of the Empire of Hands awaits.
@@ -134,7 +134,7 @@ Description:
 
 
 
-	ChildBranches 8
+		ChildBranches 8
 Name: Acquire emergency fuel
 Id: 144958
 Description: The Mayor smiles tightly. As a four-soul ape with ambitions, he cannot be seen to be anything but cunning, ruthless, and avaricious to a fault. The part of him that was the Delightful Adventuress only cheers him on.

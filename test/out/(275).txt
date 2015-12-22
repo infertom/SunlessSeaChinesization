@@ -3,7 +3,7 @@ Name: A Privateer Encampment
 Id: 141262
 Description: This was an empty cliff-top above the bleak waves. Now it blazes with colour! Striped tents, coloured flames, the music of pianola and kettle-drum! Moustachioed women and languorous men play chess, carve bones, eat cats and polish their terrifying brass weapons. These are Iron Republic privateers: pirates whose practices contravene the very laws of nature.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Attack
 Id: 122734
 Description: They are numerous, but lost to wine and music. You will have the element of surprise, but it's very hard to know exactly what those weapons will do.
@@ -25,7 +25,7 @@ Description: Your first volley does satisfyingly grievous damage, but a half-doz
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Creep close and eavesdrop
 Id: 122735
 Description: The Republic is privy to the gossip of Hell. Creep close, and you may learn impossible secrets.

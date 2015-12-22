@@ -3,7 +3,7 @@ Name: The Labyrinth of Tigers
 Id: 143355
 Description: ...is open under the patronage of the LONDON ZOOLOGICAL SOCIETY to CAUTIOUS VISITORS for EDUCATIONAL PURPOSES. Here you may see the DEVIL-APES of FAR MANDELAY. The THING IN THE MIRROR. The CANTIGASTER'S CHILDREN. The gargantuan CAVE-SNAKE. The INHABITER OF WOLVES. The HYBRID FIEND. N.B. The MANAGEMENT RECOMMENDS that you arrange your exit WELL BEFORE CLOSING TIME.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Provide a rare creature of the Labyrinth
 Id: 124078
 Description: "Are those - are those young siren-serpents? Marvellous, marvellous! We'll pay you handsomely. Of course we will."
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: A Live Specimen
 Id: 147411
 Description: Something not yet extinct.
@@ -37,7 +37,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Purchase a Live Specimen from the Labyrinth
 Id: 147412
 Description: The Labyrinth does not sell its exhibits. But some keepers can be bribed.

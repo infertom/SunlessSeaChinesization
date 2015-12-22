@@ -3,7 +3,7 @@ Name: The Voracious Diplomat
 Id: 168559
 Description: The Diplomat lairs near Mansion's Pyre, in a second-floor office above a gymnasium for pugilistic ladies and gentlemen. Your conversation is punctuated by distant shouts and blows. The Diplomat smiles fondly at the sounds.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Pick up an Agent
 Id: 141597
 Description: "I have a friend," the Diplomat says casually, "who would be grateful for passage somewhere else. The Khanate, for instance." [An Agent will allow you to establish an intelligence network, and sometimes to grow it later.]
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Describe recent moves in the Great Game
 Id: 141598
 Description: "Oh, yes?"
@@ -37,7 +37,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Ask about the Diplomat's role
 Id: 142293
 Description: What kind of diplomacy is involved?
@@ -54,7 +54,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Ask about the Dark-Spectacled Admiral
 Id: 142294
 Description: Do they work closely together?
@@ -71,7 +71,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Provide Vital Intelligence
 Id: 142304
 Description: "I say! <i>Now</i> I'm listening."

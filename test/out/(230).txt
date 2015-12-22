@@ -3,7 +3,7 @@ Name: Retire from Zeefaring Life
 Id: 143688
 Description: You're ready to end your life at zee, before the Unterzee ends it for you. [If you've completed an Ambition, this is unambiguously a win: otherwise, perhaps, call it a draw. You must be retiring to at least an Elegant Townhouse, in any case. You have standards.]
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Retire to an Elegant Townhouse
 Id: 124301
 Description: It's time to come home, for good.
@@ -22,7 +22,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Retire to a Zeeside Mansion
 Id: 124302
 Description: Any earthly comfort you might reasonably desire.
@@ -40,7 +40,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: VICTORY ... Retire to a Life of Luxury
 Id: 126069
 Description: You have a handsome mansion. You will also need a retirement fund.
@@ -59,7 +59,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: VICTORY! ...Retire to a Life of Fame
 Id: 126071
 Description: You have written the Zong of the Zee, an epic and comprehensive artistic response to the black unknowns of the Neath. It will stand the test of time. Perhaps if anyone betters it, you can have them disposed of.
@@ -79,7 +79,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: VICTORY! ...Retire with your Father's Bones restored
 Id: 126072
 Description: You have the grim bundle wrapped respectfully in oilskins. Arrange a funeral.

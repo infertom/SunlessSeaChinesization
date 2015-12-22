@@ -3,7 +3,7 @@ Name: The Pulse of the Principles
 Id: 165542
 Description: Silvery light fills a sea-cave, dripping from the walls. It condenses to pools of whitish fluid on the uneven floor. Sea-sound fills the cave, strong and slow, like the long beating of a heart. On a square slab of coral, someone has set up a game of chess. The pieces are different from the ones used in London. You see the spiralling Bishops, the corner Roots, the Kin and the terrible Cream. As you touch each one, a deep voice whispers its name...
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Move a Paw
 Id: 137248
 Description: The Catspaw, perhaps, or the Skinspaw. This is a safe move.
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Move a Night
 Id: 137249
 Description: The Nights are fanged like lions. A touch will wound you. This is an aggressive move...
@@ -37,7 +37,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Leave
 Id: 137250
 Description: This is not a place to be.
@@ -54,7 +54,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Offer assistance with dissolution
 Id: 137251
 Description: In the flow of air through the cavern, you hear the voice of the Principles, langorously pleading. "I offer an assistant," it flutes. "And scintillack. You enjoy scintillack, aren't you?"
@@ -74,7 +74,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Setting up
 Id: 137504
 Description: The Outcast toddles eagerly over to the chess-board, to place the sphinxstone piece at one corner. "Oh yes," the voice of the Principles sighs."Oh yes, that will very good. But I ache so to be reduced, to be less. Will you bring more? I will pay most in scintillack, and in secrets."
@@ -103,7 +103,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: Give the Principles a Wakeful Idol
 Id: 137505
 Description: "That gorgeous little spark! A counterweight. I will devolve, and my Emissary must end with me. To satisfy the Chain, we must have an ascension. This little fellow will rise as I descend. Perhaps you can take her with you."
@@ -120,7 +120,7 @@ Description:
 
 
 
-	ChildBranches 7
+		ChildBranches 7
 Name: Give the Principles Heartmetal
 Id: 137506
 Description: "I long for my ending, but I fear it beside. This is needed to encase my fear. Ice and oysters. The trap-jaws. Give me courage. I want so to be less. Give it to me."
@@ -137,7 +137,7 @@ Description:
 
 
 
-	ChildBranches 8
+		ChildBranches 8
 Name: Give the Principles a piece of Stygian Ivory
 Id: 137507
 Description: "We don't necessarily need this, for my dissolution. The others are tools. This is ornament. But ivory in chess is asked, aren't we?"
@@ -154,7 +154,7 @@ Description:
 
 
 
-	ChildBranches 9
+		ChildBranches 9
 Name: Give the Principles a Fluke-Core
 Id: 137508
 Description: "O my cousin, my enemy! I was of their kind before I began my descent. Now you see me as I am. But I would be so much less. I would dissolve on the waves like old foam. Help me end. Kill my emissary... but not until we are ready."
@@ -171,7 +171,7 @@ Description:
 
 
 
-	ChildBranches 10
+		ChildBranches 10
 Name: Give the Principles an Ambiguous Eolith
 Id: 137510
 Description: "The Great Chain of Being is rigid... but the shapelings know its weak places. This is for I have sent my Emissary. He knows. This is one of his. Thank you. I will be much less, and I will sleep forever."
@@ -188,7 +188,7 @@ Description:
 
 
 
-	ChildBranches 11
+		ChildBranches 11
 Name: The Last Game
 Id: 137520
 Description: "I will miss chess most when this is done. The black waves, my children's glows, let them pass - but o my sweet diagonal. It's time. Afraid I find. Quickly. The board awaits."
@@ -205,7 +205,7 @@ Description:
 
 
 
-	ChildBranches 12
+		ChildBranches 12
 Name: Win the match
 Id: 137567
 Description: The Principles will be reduced, as it desires, to a mindless hump of coral. The Outcast stands trembling behind the board, ready to enact the Principles' moves: its mind will be destroyed with its master's.
@@ -228,7 +228,7 @@ Description:
 
 
 
-	ChildBranches 13
+		ChildBranches 13
 Name: Lose the match
 Id: 137568
 Description: You are enmeshed in an alien scheme. Perhaps you mistrust it. Perhaps you pity the Outcast. Whatever your motives, you will throw the match on purpose, leaving the Principles trapped in consciousness, defeating the purpose of this whole quest.
@@ -249,7 +249,7 @@ Description:
 
 
 
-	ChildBranches 14
+		ChildBranches 14
 Name: Give the Principles a Hunting-Trophy
 Id: 137745
 Description: "We don't necessarily need this, for my dissolution. The others are tools. This is ornament. But ivory in chess is asked, aren't we?"

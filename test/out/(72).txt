@@ -3,7 +3,7 @@ Name: Desperate Measures
 Id: 147221
 Description: "Seaman Macfadzean drowned, [q:AddressedAs] . We've laid her out on deck. Shall we - I mean, er, the I mean, er, the funeral?" Your bo'sun's face is furtive.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Arrange for the er, the er, the funeral
 Id: 126567
 Description: It may be that the bo'sun is hinting at a solution to your supplies problem, but if so, you'll have none of it.
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Put Seaman Macfadzean's body to good use
 Id: 126568
 Description: The crew are starving. You're starving. These things happen at sea. No one need ever know.

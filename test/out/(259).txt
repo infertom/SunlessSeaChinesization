@@ -3,7 +3,7 @@ Name: Speak to the Scarred Sister
 Id: 149717
 Description: She's usually in the sick-bay, or up on deck, listening to the wind, watching for the rare storms of the Unterzee.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Invite her to dine with you
 Id: 128183
 Description: ...and talk about storms.
@@ -25,7 +25,7 @@ Description: "I wanted us to move to Hunter's Keep," she confesses, "because I h
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Increase your Hearts
 Id: 128185
 Description: [Spend a Secret to improve your Hearts, unless it's higher than 100.]
@@ -42,7 +42,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Invite her to dine with you...
 Id: 128186
 Description: ...and ask her to talk about what happened at Hunter's Keep.

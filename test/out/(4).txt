@@ -3,7 +3,7 @@ Name: The Man who Stole the Sun
 Id: 181040
 Description: This miscreant found his way into the cargo hold and opened a Mirrorcatch Box! The box is empty, now. He looks down at his feet. 'Sorry, captain. It war so shiny.'
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Throw him in the brig
 Id: 146653
 Description: Make an example of him.
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Let him off with a warning
 Id: 146654
 Description: It is <i>very</i> shiny.

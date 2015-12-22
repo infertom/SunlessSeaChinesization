@@ -3,7 +3,7 @@ Name: The Half-Empty City
 Id: 152405
 Description: The atmosphere in Varchas is deflated, melancholy, after the Pilgrims depart.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Time to leave
 Id: 129870
 Description: You know when to leave; besides, your crew is probably growing restless.

@@ -3,7 +3,7 @@ Name: A Choice
 Id: 152194
 Description: The time has come to cast your lot with one faction or another. Whom will you favour?
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Favour the Chief Engineer
 Id: 129725
 Description: He seems grumpy but honest. Also you've seen what rat-made weapons can do, and perhaps you'd rather not be on the receiving end of them. 
@@ -22,7 +22,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Favour the Seneschal
 Id: 129726
 Description: Perhaps you've never liked rats; perhaps you've always been fond of rat-skin suits; perhaps the Seneschal's charms are too much for you. At any rate you're keen to find out more about their civilisation.
@@ -40,7 +40,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Abstain
 Id: 129731
 Description: You'd prefer not to get involved. 
@@ -61,7 +61,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Attempt to Broker Peace
 Id: 129732
 Description: Surely their commonalities are more numerous than their differences. Perhaps you can help them get along. 

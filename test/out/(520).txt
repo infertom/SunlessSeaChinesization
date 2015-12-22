@@ -3,7 +3,7 @@ Name: Tomb-Colonists in Shepherd's Wash
 Id: 155236
 Description: "Something of the peace of old Kent still clings to this place. I always hated Kent. But this is the tour."
 
-	ChildBranches 1
+		ChildBranches 1
 Name: A picnic at the Stones
 Id: 131688
 Description: No, they haven't brought their own picnic materials. That's your job, isn't it? Aren't you in charge? They certainly seem to think so.
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: A visit to the Three Graves
 Id: 143191
 Description: The island to the north-west has what might be graves. Or treasure-troves. Or follies created by the villagers to confuse you. Anyway, it'll do as a tourist destination.

@@ -3,7 +3,7 @@ Name: Speak to the Wistful Deviless
 Id: 148772
 Description: She slouches unhappily by the rail. The zee-air doesn't suit her. "It smells clean," she complains.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Invite her to supper in your quarters
 Id: 127610
 Description: Devils make interesting, if perilous, conversationalists.
@@ -24,7 +24,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Invite her to supper in your quarters
 Id: 128329
 Description: Devils make interesting, if perilous, conversationalists.

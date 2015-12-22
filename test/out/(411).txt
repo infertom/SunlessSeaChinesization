@@ -3,7 +3,7 @@ Name: Tomb-Colonists in Gaider's Mourn
 Id: 152355
 Description: "...today we are to visit a pirates' nest! I look forward to their scars. I hope the Captain will keep them safe from us. It's been a while since I killed pirates - "
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Let them out on their own
 Id: 143190
 Description: Tomb-colonists are generally both dead and deadly. They have decades of duelling experience. They'll probably be fine.
@@ -25,7 +25,7 @@ Description: The colonists return, chattering excitedly of a brawl at the Arrant
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Send crew to watch them
 Id: 129839
 Description: They'll only drink too much Red Ruin and cut up someone important. Then they'll get cut up in turn, and before you know it, you'll be picking their bits out of the zee.

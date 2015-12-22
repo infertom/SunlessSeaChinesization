@@ -5,7 +5,7 @@ Description: North-west of Whither town, the House of the Question stands alone.
 <br/><br/>
 [Gaining the Attention of a god is useful chiefly for lifting curses.]
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Gain Storm's Attention
 Id: 129165
 Description: Storm's shrine is red with blood and wine. Feed it.
@@ -22,7 +22,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Gain Stone's Attention
 Id: 129166
 Description: A flame burns eternally in the shrine of Stone, bright god of home and healing. Bring fuel for her flame, and a token from the South where she rules.
@@ -39,7 +39,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Gain Salt's Attention
 Id: 129167
 Description: The walls around Salt's shrine are written over with tales. Bring it a story.
@@ -56,7 +56,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Ask about the Drowned Man
 Id: 129168
 Description: The initiates of the House are reluctant to speak of him, but you may be able to bribe them enough to gain a few tenuous snippets.
@@ -78,7 +78,7 @@ Description: "The Drowned Man's brothers - aye, and sisters - gave him to the kn
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Lift Storm's Curse
 Id: 129169
 Description: "This is going to be pretty grim," an initiate warns you. "And if you close your eyes, we'll have to start from the beginning. Storm takes cursing seriously."
@@ -95,7 +95,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: Lift Stone's Curse
 Id: 129170
 Description: Stone is not a vengeful god, but her memory is long. She will require rich offerings. The initiates want paying, too. "You've brought the parts," one tells you, "but you need to cover the labour too."
@@ -112,7 +112,7 @@ Description:
 
 
 
-	ChildBranches 7
+		ChildBranches 7
 Name: Lift Salt's Curse
 Id: 129171
 Description: No one will answer you when you speak of Salt's Curse. It takes you half a day to glean what it might demand of you. But at least if they can't speak of it, they can't quote you a price.
@@ -129,7 +129,7 @@ Description:
 
 
 
-	ChildBranches 8
+		ChildBranches 8
 Name: Be cleansed of the cannibal taint
 Id: 129172
 Description: 
@@ -146,7 +146,7 @@ Description:
 
 
 
-	ChildBranches 9
+		ChildBranches 9
 Name: Defy the Gods
 Id: 129819
 Description: Spit on the floor. Curse the priests. Overturn an altar. [This will increase your Iron and Hearts by 5 each, up to 110, and set your Terror to 0: but you will never be able to remove any god's curse, or benefit in certain other ways.]

@@ -5,7 +5,7 @@ Description: The King's Claw tells you to call them Isery. They are dressed in a
 <br><br>
 "You have caught the interest of the Pirate-King, and therefore <em>my</em> interest as well," they say, fixing you with an amber-eyed gaze. "You seem capable enough. And I have need of a capable... friend."
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Accept their offer
 Id: 139066
 Description: You can never have too many friends, in the Neath.
@@ -23,7 +23,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: A change of Patron
 Id: 139067
 Description: "Oh yes, you did some work for Zaira, didn't you? Ah, no matter - she and I look for different things in the zee-Captain."
@@ -40,7 +40,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Refuse Isery
 Id: 139068
 Description: Perhaps you are unsettled by Isery's beauty, or perhaps by the prospect of working for one so comfortable with the Catties' Pirate-King. 
@@ -57,7 +57,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Promises made
 Id: 139069
 Description: One of the courtesans of the Honeyed Tongue bends down to whisper in Isery's ear, and they give you a thoughtful look.
@@ -75,7 +75,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: NOPE
 Id: 139444
 Description: You know, of course. But it's probably a good idea to be sure.
@@ -94,7 +94,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: Second chances
 Id: 140688
 Description: You have failed Isery before. But perhaps they are feeling lenient?

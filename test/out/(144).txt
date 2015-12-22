@@ -5,7 +5,7 @@ Description: I & M has a funger operation here, felling giant bolegus shrooms fo
 <br/><br/>
 Up puffs the Affable Factor. "Oh hello, Captain! Thank God for visitors. We'd go quite mad out here otherwise, ahahaha. Quite mad. How can we be of assistance?"
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Give the pass-sign to the Affable Factor
 Id: 110632
 Description: The Admiralty asked you to bring back Strategic Information. This is your contact.
@@ -27,7 +27,7 @@ Description: "Here. Little to report, but we have had Khanate privateers nosing 
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Tea with the Factor
 Id: 110633
 Description: The poor fellow needs the company, and he can spare an hour away from his schedule.
@@ -46,7 +46,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Explore Demeaux Island
 Id: 124310
 Description: Close-crowded thickets of bolegus and skirralee. The Iron & Misery company fells them daily, but they grow back almost as fast. The interior of the island is dark and wild.
@@ -63,7 +63,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Explore Demeaux Island
 Id: 125898
 Description: Close-crowded thickets of bolegus and skirralee. The Iron & Misery company fells them daily, but they grow back almost as fast. The interior of the island is dark and wild.
@@ -80,7 +80,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Explore Demeaux Island
 Id: 125900
 Description: Close-crowded thickets of bolegus and skirralee. The Iron & Misery company fells them daily, but they grow back almost as fast. The interior of the island is dark and wild.
@@ -97,7 +97,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: Explore Demeaux Island
 Id: 125901
 Description: Close-crowded thickets of bolegus and skirralee. The Iron & Misery company fells them daily, but they grow back almost as fast.
@@ -114,7 +114,7 @@ Description:
 
 
 
-	ChildBranches 7
+		ChildBranches 7
 Name: Accept a volunteer
 Id: 126068
 Description: One of Company's bolegus-fellers has negotiated an early release from her contract. "It's the sproutlings," she tells you, her face pleading. "I keep picking them out of me porridge. And me hair. And me eyes. Take me away. I'm a good worker."
@@ -131,7 +131,7 @@ Description:
 
 
 
-	ChildBranches 8
+		ChildBranches 8
 Name: Put a blemmigan ashore
 Id: 133910
 Description: Though it's far from hospitable...
@@ -148,7 +148,7 @@ Description:
 
 
 
-	ChildBranches 9
+		ChildBranches 9
 Name: Bargain with the Factor for a secret
 Id: 146106
 Description: The Irrepressible Cannoneer is convinced that the Factor knows more about a weapon - the Company's terrible prototype. You will need a bribe. It's only fair.
@@ -167,7 +167,7 @@ Description:
 
 
 
-	ChildBranches 10
+		ChildBranches 10
 Name: Tea with the Factor
 Id: 147442
 Description: The poor fellow needs the company, and he can spare an hour away from his schedule.
@@ -186,7 +186,7 @@ Description:
 
 
 
-	ChildBranches 11
+		ChildBranches 11
 Name: Compile a Port Report
 Id: 147663
 Description: The Admiralty likes to keep an eye on Iron & Misery's activities.
@@ -203,7 +203,7 @@ Description:
 
 
 
-	ChildBranches 12
+		ChildBranches 12
 Name: Gather supplies
 Id: 129132
 Description: Some of the island's fungus is good to eat. Some is poisonous, hallucinogenic or mischievous. Good luck!

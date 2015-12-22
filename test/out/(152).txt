@@ -3,7 +3,7 @@ Name: The Screaming Sage
 Id: 176672
 Description: "Captain, I dream of that engine. I dream of the Sage in its core, screaming. Captain - I dream of joining him."
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Let it be so
 Id: 147456
 Description: Permit the zailor to join the Sage in the Impeller's heart.
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Refuse
 Id: 147457
 Description: It will not take another life.
@@ -39,7 +39,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Speak to the Tireless Mechanic
 Id: 147458
 Description: He built the thing. He must be able to manage it.

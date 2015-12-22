@@ -3,7 +3,7 @@ Name: A Glittering Eye
 Id: 146639
 Description: You turn, and there's a long, lank, brown man at your shoulder. "Listen," he says. "I have a story for you..."
 
-	ChildBranches 1
+		ChildBranches 1
 Name: "I - "
 Id: 126186
 Description: Something about the grey-beard compels your attention.
@@ -22,7 +22,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Turn the situation around.
 Id: 126474
 Description: "No. <i>I</i> have stories for <i>you</i>."
@@ -39,7 +39,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Leave. Don't look back.
 Id: 126566
 Description: If once he catches your eye, you'll be lost.

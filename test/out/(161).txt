@@ -7,7 +7,7 @@ Lamp-Lighters constantly check the fuel-levels of the sconces, and replace wicks
 <br/><br/>
 There is much to explore; where will you go next?
 
-	ChildBranches 1
+		ChildBranches 1
 Name: The Hospital
 Id: 129899
 Description: The Hospital lies in the shadow of the Southern Tower.
@@ -24,7 +24,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: The Guard House
 Id: 129900
 Description: Down a side-street; you can see the sun-blazoned flag from here.
@@ -41,7 +41,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Temple of Mihir
 Id: 129901
 Description: It lies in the Sacred District, at the centre of Varchas.
@@ -58,7 +58,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Mansion of the Jewel-Turbaned Youth
 Id: 129902
 Description: It is in the Eastern District.
@@ -75,7 +75,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Entertainments in Varchas
 Id: 129903
 Description: There are bars and gaming-houses to the west. 
@@ -92,7 +92,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: The Pilgrimage to Amaradri
 Id: 129904
 Description: The Agnihotri seeks wisdom. The sick are ready to begin a long journey. The young and the restless have made their plans. The swords of the Guard have been renewed. The Pilgrimage is ready to begin.
@@ -109,7 +109,7 @@ Description:
 
 
 
-	ChildBranches 7
+		ChildBranches 7
 Name: The Inn
 Id: 129914
 Description: At evening, after the fifth bell, each Taamas is assigned a room.

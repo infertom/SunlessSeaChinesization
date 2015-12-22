@@ -3,7 +3,7 @@ Name: Medical details from the Acolyte
 Id: 149001
 Description: There is a great deal in what she says that you don't think you've heard any doctor mention before.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Make copious notes
 Id: 127762
 Description: This information might be valuable.
@@ -28,7 +28,7 @@ Description: Fortunately you are a quick hand with a pen. It might not make much
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Draw your own conclusions
 Id: 127766
 Description: To someone with sufficient medical knowledge, this is all quite enlightening.

@@ -3,7 +3,7 @@ Name: That Old Fury
 Id: 150455
 Description: A zailor has run mad! She roams the ship, cudgel in hand, smashing comrades to the deck. She cries: "He is angry! Oh, he is angry!"
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Shoot her dead
 Id: 128622
 Description: It's the only safe thing to do. She's already killed one man.
@@ -25,7 +25,7 @@ Description: Your zailors' weapons roar, and down she goes. You recite a hasty f
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Talk her down
 Id: 128624
 Description: Call her by name. Remind her who she is, where, why.
@@ -47,7 +47,7 @@ Description: Your soft words convince her to lay down her weapon: she stands sta
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Capture her alive
 Id: 129257
 Description: Perhaps you can confine her until the madness passes...

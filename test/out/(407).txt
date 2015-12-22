@@ -3,7 +3,7 @@ Name: Chapel of Lights
 Id: 143325
 Description: Furtive faithful gather in the shadows between the many, many candles. A bell tolls in the chapel tower: cracked iron laughter. Beware. The isle is full of voices.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Eat of the Chapel's bounty
 Id: 124058
 Description: A Smiling Priest unlocks the door of the store-house for you. "Here," he says. "Eat. But take nothing away with you."
@@ -25,7 +25,7 @@ Description: They have shark-steaks plucked from the sea. Thin slices of cavern-
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Attend a service at the Chapel
 Id: 124059
 Description: The great bell tolls. The few and ragged faithful gather. Bring your offerings.
@@ -42,7 +42,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Give a Nightmare to the Well
 Id: 130395
 Description: "The Well drinks colour," the Smiling Priest whispers. "The Well drinks dreams. And the Well is always thirsty." [This will reduce your Nightmare's Strength, but also scar you permanently, and increase your Wounds by 1. Three Wounds will kill you.]
@@ -59,7 +59,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Bring people from other islands on pilgrimages
 Id: 130396
 Description: especially Mutton Island
@@ -76,7 +76,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Collect the information you were sent for
 Id: 130397
 Description: The Smiling Priest is your contact. Speak to him.
@@ -93,7 +93,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: Gather intelligence
 Id: 131310
 Description: What occurs, here between the darkness and the light?
@@ -110,7 +110,7 @@ Description:
 
 
 
-	ChildBranches 7
+		ChildBranches 7
 Name: Put a blemmigan ashore
 Id: 133943
 Description: Carefully.
@@ -127,7 +127,7 @@ Description:
 
 
 
-	ChildBranches 8
+		ChildBranches 8
 Name: An interview with the Smiling Priest
 Id: 144573
 Description: The stone said: SERVED THE CHAPEL OF LIGHT. How did he serve?
@@ -148,7 +148,7 @@ Description:
 
 
 
-	ChildBranches 9
+		ChildBranches 9
 Name: An interview with the Smiling Priest
 Id: 144574
 Description: The stone said: SERVED THE CHAPEL OF LIGHT. How did he serve?
@@ -169,7 +169,7 @@ Description:
 
 
 
-	ChildBranches 10
+		ChildBranches 10
 Name: Your Sigil-Ridden Navigator races toward the chapel
 Id: 147446
 Description: "This is the place. Hark! The bell!"

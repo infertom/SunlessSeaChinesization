@@ -3,7 +3,7 @@ Name: Finally, calm
 Id: 155175
 Description: The smoke pouring from the deck hatch ceases. Your Chief Engineer emerges.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: "What now?"
 Id: 131646
 Description: The roar of the engines has subsided.

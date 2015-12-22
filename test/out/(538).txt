@@ -5,7 +5,7 @@ Description: The capital of the Dual Monarchy has seen better days. The palaces 
 <br/><br/>
 Radical elements have taken to smashing the gas-lamps with flung stones. At least that means it's decently dark at night.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Establish a business relationship
 Id: 129256
 Description: The proud and glittering Café Ferstel has long been a centre of intellectual life. But its coffee has deteriorated in quality. Offer a sample to the Melancholic Proprietor.
@@ -24,7 +24,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Deliver coffee to the Café Ferstel
 Id: 130776
 Description: Gas-lamps glow; waiters swoop; chess-players hunch over their tables. The Melancholic Proprietor looks up from his moustache wax. "Aha," he says gloomily. "My only remaining friend. I'm glad you're not dead yet."
@@ -41,7 +41,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: "Psst! Friend! Strike a blow for freedom, will you?"
 Id: 130777
 Description: A Fidgety Agitator beseeches you to take supplies below, to London, for the cause of Revolution.
@@ -58,7 +58,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Report the Fidgeting Agitator to the authorities
 Id: 130778
 Description: His idealism burns worryingly bright. Besides, you might turn a profit from informing on him.
@@ -77,7 +77,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Another favour for the Agitator
 Id: 147487
 Description: "Over here, friend! The Work proceeds. But you can help it proceed faster."
@@ -94,7 +94,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: Dine with your friend from the Bureau
 Id: 147488
 Description: "Back so soon? A charming surprise! How is life in the netherworld? Do you perhaps have something else for me?"
@@ -111,7 +111,7 @@ Description:
 
 
 
-	ChildBranches 7
+		ChildBranches 7
 Name: Back to Naples
 Id: 147489
 Description: The Midnight Express. The eight o'clock train is less crowded, but dangerously exposed to sunlight. Besides, you have your return ticket.
@@ -128,7 +128,7 @@ Description:
 
 
 
-	ChildBranches 8
+		ChildBranches 8
 Name: No sign of your contact
 Id: 147491
 Description: Where is the Fidgeting Agitator?
@@ -145,7 +145,7 @@ Description:
 
 
 
-	ChildBranches 9
+		ChildBranches 9
 Name: The Ferstel's carcass
 Id: 147493
 Description: The Café Ferstel is a fire-ravaged wreck! A hand-lettered sign hangs from the blackened, twisted frame of the entrance door.

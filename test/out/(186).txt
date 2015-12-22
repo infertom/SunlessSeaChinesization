@@ -3,7 +3,7 @@ Name: Pirate Frigate
 Id: 144248
 Description: Corsairs in outdated cockade hats cram the decks of the ship, yelling threats and insults.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Fight!
 Id: 124660
 Description: They've brought it on themselves...
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Flee!
 Id: 124661
 Description: You might yet escape. How quick are they?

@@ -15,7 +15,7 @@ The corpse inside is permanently dead, in a way that the dead of London often ar
 <br/>
 She lifts the body onto a marble slab. Without pause in her lyrics she prepares a scalpel. Your presence does not seem to bother her.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Watch
 Id: 127095
 Description: You've never heard of this practice before.
@@ -43,7 +43,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Don't watch
 Id: 127096
 Description: You can wait by the door.
@@ -63,7 +63,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Watch with medical interest
 Id: 127098
 Description: Whatever she is about to do, it's sure to be anatomically informative.

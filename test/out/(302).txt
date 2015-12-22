@@ -3,7 +3,7 @@ Name: The Serpent's Lure
 Id: 182164
 Description: A fanged mouth rears from the water, big enough to bite a boat in half or swallow a pig! The 'woman' contorts and slides into the water: she's the tip of the monster's tail. This will be untidy.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Pacify it
 Id: 147418
 Description: Fling it bait, and move on.
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Obliterate it
 Id: 147417
 Description: It's a formidable beast. But you're formidable too.
@@ -42,7 +42,7 @@ Description: With cutlass and with pistol, your zailors stride into battle! The 
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Flee!
 Id: 147419
 Description: It is always preferable to fight zee-serpents from inside a ship. Not from inside a serpent. Withdraw as best you can.

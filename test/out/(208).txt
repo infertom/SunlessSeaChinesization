@@ -6,7 +6,7 @@ Description: The Charitable Hospital is a long, galleried building divided into 
 A Dour-Faced Nurse glances at you expectantly. "Which ward are you here to visit?" 
 
 
-	ChildBranches 1
+		ChildBranches 1
 Name: The Fungal Infections Ward
 Id: 129865
 Description: They keep it cool and closed-off. The doctors and nurses all wear masks when they enter. How bad could a fungal infection be?
@@ -28,7 +28,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: The Mirrorless Room
 Id: 129866
 Description: The ward is locked several times over, and the Dour-Faced Nurse looks uncomfortable when you mention it.
@@ -51,7 +51,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: The Open Ward
 Id: 129867
 Description: You see patients sprawled on their beds, playing card-games and chatting to visitors. Most of them have minor injuries.
@@ -73,7 +73,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Return to the City Centre
 Id: 129906
 Description: You are finished here.
@@ -90,7 +90,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Offer the services of the Brisk Campaigner
 Id: 138175
 Description: You've won her trust; she's prepared to come ashore.
@@ -111,7 +111,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: Offer the services of the Haunted Doctor
 Id: 138176
 Description: You've won his trust; he's prepared to come ashore.
@@ -132,7 +132,7 @@ Description:
 
 
 
-	ChildBranches 7
+		ChildBranches 7
 Name: Offer your services
 Id: 129868
 Description: You have some skills; you could help the Dour-Faced Nurse tend the patients on the Open Ward.

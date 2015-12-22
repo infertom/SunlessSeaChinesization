@@ -3,7 +3,7 @@ Name: A Patriotic Dispute
 Id: 148817
 Description: A crew of Chelonate hunters exchange heated insults with a Khanate privateer. It looks likely to end in blood.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Leave
 Id: 127980
 Description: There is nothing to be gained here.
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Raise your own flag
 Id: 127649
 Description: The Chelonians are savage ghouls who live in a dead turtle. The Khaganians are decadent cowards who can't hold a kingdom together. London is the sole bright light of civilisation in the Neath. Perhaps you should point these things out.
@@ -47,7 +47,7 @@ Description: Neither set of foreigners is impressed by your characterisation of 
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Side with the Khaganians
 Id: 127647
 Description: They may be foreign, but at least they're halfway sophisticated.
@@ -69,7 +69,7 @@ Description: The Chelonians are a fierce crew, but with your assistance, the Kha
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Side with the Chelonians
 Id: 127648
 Description: They may be uncouth, but at least they're brave.

@@ -3,7 +3,7 @@ Name: The Avuncular Broker's Task
 Id: 181776
 Description: The Hands-On Diplomat slides bullets into her pistol. "Time to go," she says, slipping it into her satchel. She shares the name of the man she is to replace, and shows you his picture. A dapper chap: dark-eyed, dark-skinned, smiling.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Escort her safely to the embassy
 Id: 147160
 Description: The Presbyterate Embassy is hidden in London's sewers. The journey is damp and odorous.
@@ -22,7 +22,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Warn her target of her arrival
 Id: 147161
 Description: He at least deserves a fighting chance.
@@ -41,7 +41,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Escort her safely to your sweetheart's door
 Id: 147201
 Description: It's safe to say this will end your relationship. [In addition, if you have a child you will lose them to the orphanage.]
@@ -60,7 +60,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Warn your sweetheart
 Id: 147202
 Description: Give him time to escape.
@@ -83,7 +83,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Escort her safely to the embassy
 Id: 147203
 Description: The picture reminds you of another Presbyterate gentleman you once knew. Not enough to abandon your commission, though.
@@ -102,7 +102,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: Escort her safely to your lover's door
 Id: 147204
 Description: You recognise the picture: the Dapper Chap you spent a night with. But what is one night?
@@ -121,7 +121,7 @@ Description:
 
 
 
-	ChildBranches 7
+		ChildBranches 7
 Name: Warn her target of her arrival
 Id: 147205
 Description: The picture reminds you of another Presbyterate gentleman you once knew. You are inclined to give this one a fighting chance.
@@ -140,7 +140,7 @@ Description:
 
 
 
-	ChildBranches 8
+		ChildBranches 8
 Name: Warn your lover of her arrival
 Id: 147206
 Description: You recognise the picture as the Dapper Chap you spent a night with. 
@@ -159,7 +159,7 @@ Description:
 
 
 
-	ChildBranches 9
+		ChildBranches 9
 Name: Stall her
 Id: 147207
 Description: You have other, urgent business first.

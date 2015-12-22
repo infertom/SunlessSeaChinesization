@@ -3,7 +3,7 @@ Name: Scavengers of Dark Matter
 Id: 149077
 Description: They move stealthily in the dark. They haven't noticed you yet.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Challenge them immediately
 Id: 127808
 Description: It's what any good watchman would do.
@@ -28,7 +28,7 @@ Description: They panic and scramble back into the boat. From the sounds of it, 
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Watch until you know what they're up to
 Id: 127809
 Description: You can always intervene afterward.

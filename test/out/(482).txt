@@ -3,7 +3,7 @@ Name: The Silent House
 Id: 149699
 Description: The house seems empty: all is still. Why, then, do you have the sense that there's not much time remaining?
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Loot the house
 Id: 128176
 Description: Musical instruments, curios, jewellery. Even Phoebe's paintings will sell. It's robbery, not salvage, but if you don't, someone else may.
@@ -25,7 +25,7 @@ Description: The crew spread out to spread out whatever they can. They're not ha
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Search the house
 Id: 128175
 Description: Discover whatever you can about what happened here.

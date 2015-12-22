@@ -3,7 +3,7 @@ Name: You've destroyed a Lifeberg
 Id: 144296
 Description: Take a moment to enjoy your victory, then poke through the fragments.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Concentrate on gathering treasures
 Id: 124694
 Description: You need money more than edibles.
@@ -25,7 +25,7 @@ Description: Fragments gleam like obsidian in the depths of the ice. Their glass
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Record any Observations
 Id: 131984
 Description: If you've gathered at least 10 Observations, you may learn something...
@@ -42,7 +42,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Concentrate on replenishing supplies
 Id: 124693
 Description: It's big. There may be something edible or combustible in there. Somewhere. 

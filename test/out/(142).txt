@@ -3,7 +3,7 @@ Name: The Trouble with Tomb-Colonists
 Id: 169785
 Description: You've brought this decaying emigrant north. Now what?
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Watch carefully
 Id: 139821
 Description: Something is happening to the man in the bandages. He sighs. He groans. He clutches his chest.
@@ -22,7 +22,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Make no promise of discretion
 Id: 139829
 Description: Keep your nose clean. You'll drop her off at the dock, as you promised, and after that, it's her problem.
@@ -39,7 +39,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Days of Shrooms and Roses
 Id: 139904
 Description: The new tomb-colonist surveys Venderbight, shaking her head. "It won't do," she says. "It won't do at all."
@@ -58,7 +58,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: The New Jonah
 Id: 139906
 Description: Your passenger stands sombrely by the rail. "Salt sent me a dream," she insists. "You must find my father."
@@ -78,7 +78,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: An Absent Friend
 Id: 139907
 Description: "It is everything I imagined!" he tells you breathlessly. "But there's someone missing. Please - bring her to me."
@@ -97,7 +97,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: Help out an immigrant
 Id: 141558
 Description: Your tomb-colonist passenger yanks off her bandages. She looks remarkably healthy for a tomb-colonist. "I'm not as dead as I look," she confesses. "And I won't get ashore without your help. Yes, the Constables are looking for me back home. Is that a problem?"
@@ -114,7 +114,7 @@ Description:
 
 
 
-	ChildBranches 7
+		ChildBranches 7
 Name: One Last Fight
 Id: 139905
 Description: Your passenger has been drinking. "Ahoy!" she chortles. "Defend yourself!" She launches a tipsy assault. Your crew hang back, chuckling. Thanks, crew.

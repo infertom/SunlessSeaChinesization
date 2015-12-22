@@ -5,7 +5,7 @@ Description: All visitors to Varchas are given one night's accommodation in the 
 <br/><br/>
 Evening falls - or does it? The town's Five Principal Mirrors are mounted on coiled-spring mechanisms, and alter their angles subtly to create the impression of evening. Across the city, the Fire-Keepers throw pinches of coloured powder into the lamps and the quality of light yellows to a softer brightness.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Sleep
 Id: 129841
 Description: The bed is low and wide, and draped with cotton sheets stamped with vegetable-dye patterns in muted greens and blues. 
@@ -24,7 +24,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Use the Mirror-Charm
 Id: 129843
 Description: You hang it upon the mirror by your bed-side, and hope for quieter dreams.
@@ -42,7 +42,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: The Wine-Mazed Lamp-Lighter
 Id: 129846
 Description: He is dressed in saffron robes and is indeed pouring wine down the throat of a very attractive dark-eyed boy. You could tell him his sister is looking for him.
@@ -62,7 +62,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Smoke-dreams await
 Id: 138228
 Description: The bed is comfortable... but the mirrors are watchful.
@@ -80,7 +80,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Dawn in Varchas
 Id: 138230
 Description: Outsider time in Varchas is strictly rationed. Each morning at dawn, the Guard visits the inn to eject any Taamas they find. They are polite, but very definite.
@@ -97,7 +97,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: The Kitchens
 Id: 129844
 Description: The smells of cooking mingle with the fungus-rot; but you aren't going to let that put you off your food.
@@ -123,7 +123,7 @@ Do you not eat meat, you ask in wonderment, and the Inn's Cook calls to Mihir fo
 
 
 
-	ChildBranches 7
+		ChildBranches 7
 Name: The Courtyard
 Id: 129845
 Description: Cushions are arrayed around the marble fountain in the middle; musicians pluck their instruments under the shade of the twisted, yellow-leafed trees.
@@ -150,7 +150,7 @@ The evening finishes with the Song of Mihir, which is sung to the accompaniment 
 
 
 
-	ChildBranches 8
+		ChildBranches 8
 Name: Don't sleep
 Id: 129842
 Description: It won't be difficult to stay awake in this constant light. But the lack of rest will take its toll.

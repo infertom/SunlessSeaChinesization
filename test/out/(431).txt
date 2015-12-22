@@ -3,7 +3,7 @@ Name: Fountainhead Island
 Id: 175475
 Description: Swiftly growing vegetation keeps a thick forest wrapped around variably ancient ruins. Even the yet to be plundered ones are heavily scarred with crowbar marks.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: A temple in the forest
 Id: 143284
 Description: In a clearing of parasynthetic trees looms an imposing structure of wood and stone.
@@ -25,7 +25,7 @@ Description: It stretches through the forest in a number of styles, each designe
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Return to the boat
 Id: 143645
 Description: It will take a better equipped expedition to uncover this island's secrets and treasures.
@@ -42,7 +42,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Visit the Delightful Adventuress' camp
 Id: 143927
 Description: With a small army of monkeys bought with her soul, she excavates the Vault of the First Emperor.
@@ -59,7 +59,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: To the Vault of the First Emperor
 Id: 143930
 Description: A shortcut past the Delightful Adventuress' camp
@@ -76,7 +76,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: A Treasure Hunt
 Id: 143956
 Description: Secrets are buried here, ready to be uncovered.
@@ -95,7 +95,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: Return to the boat
 Id: 144137
 Description: Treasure hunting can wait until later.

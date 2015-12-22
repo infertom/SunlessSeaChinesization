@@ -3,7 +3,7 @@ Name: Naming your colony
 Id: 183593
 Description: In the folklore of the zee, this place is Aestival. What will you call it?
 
-	ChildBranches 1
+		ChildBranches 1
 Name: "Aestival."
 Id: 148318
 Description: It's still a good name. Why change it?
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: "Lastport."
 Id: 148319
 Description: Here you are at the edge of the world.
@@ -37,7 +37,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: "Freedom."
 Id: 148320
 Description: Here no laws will bind you, unless you so choose.
@@ -54,7 +54,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: "Utopia Beneath."
 Id: 148321
 Description: You'll be the perfect monarch: enlightened, merciful, absolute.
@@ -71,7 +71,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: "Sophia."
 Id: 148322
 Description: 'Wisdom' would be a great name, but it's taken... by a Khanate prison. So stick with the classics.
@@ -88,7 +88,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: "Fiddler's Gold."
 Id: 148323
 Description: Fiddler's Green is the legendary zailors' paradise. Fiddler's Gold would be one better.
@@ -105,7 +105,7 @@ Description:
 
 
 
-	ChildBranches 7
+		ChildBranches 7
 Name: "Peachtree Isle."
 Id: 148324
 Description: Something appealing and inoffensive.
@@ -122,7 +122,7 @@ Description:
 
 
 
-	ChildBranches 8
+		ChildBranches 8
 Name: "B____r Off."
 Id: 148325
 Description: It's going to be your island. Give it a name that discourages visitors.
@@ -139,7 +139,7 @@ Description:
 
 
 
-	ChildBranches 9
+		ChildBranches 9
 Name: "Head Office."
 Id: 148326
 Description: Somewhere from which to pursue your business interests.
@@ -156,7 +156,7 @@ Description:
 
 
 
-	ChildBranches 10
+		ChildBranches 10
 Name: "Sanctuary."
 Id: 148327
 Description: Perhaps you'll take in strays.
@@ -173,7 +173,7 @@ Description:
 
 
 
-	ChildBranches 11
+		ChildBranches 11
 Name: "The Empire of Trees"
 Id: 148691
 Description: It's a little grand, and a little ridiculous, but it shows vision. If not a sense of proportion.
@@ -190,7 +190,7 @@ Description:
 
 
 
-	ChildBranches 12
+		ChildBranches 12
 Name: "New London."
 Id: 149315
 Description: One day, you'll remake the city that birthed your ship.

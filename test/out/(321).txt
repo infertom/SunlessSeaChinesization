@@ -3,7 +3,7 @@ Name: Speak to the Unsettling Sage
 Id: 177524
 Description: "Caaptain, hello. A chaarming ship you haave."
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Invite the Unsettling Sage to dinner
 Id: 144567
 Description: His tastes are piscine in the extreme.
@@ -22,7 +22,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Tell the Unsettling Sage a story
 Id: 147163
 Description: "Yes. Something about the laands I have not seen..."

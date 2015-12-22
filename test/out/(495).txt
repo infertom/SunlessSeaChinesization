@@ -7,7 +7,7 @@ Description: The next time you are summoned to see your Patron, it is not in the
 <br><br>
 They look fond for a moment, soft. "I require you to perform a little experiment for me. Shouldn't take long."
 
-	ChildBranches 1
+		ChildBranches 1
 Name: A passion for science
 Id: 139078
 Description: "I'll send a Melliferous Sister with you. Just expose the bee to intense emotion. Pick one - and don't get too fancy."
@@ -24,7 +24,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Perhaps not
 Id: 139079
 Description: You are not sure that maddened bees and intense emotions should be mixed, especially not near your own precious person.

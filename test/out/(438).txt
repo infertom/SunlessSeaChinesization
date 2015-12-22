@@ -3,7 +3,7 @@ Name: A Monkey Foundling
 Id: 175837
 Description: Shipwrecked as a baby, raised by the Empire of Hands. She now plays between the worlds of apes and men, neither quite one nor entirely of the other.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Demand that she put those down, at once!
 Id: 145552
 Description: At once, you shout! Or there will be trouble!
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: A desperate swim!
 Id: 145553
 Description: Curse these relaxed limbs!
@@ -37,7 +37,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Chase the Monkey Foundling
 Id: 145554
 Description: D__n it, you can not return to the crew like this!
@@ -54,7 +54,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Fie upon them, let them stare!
 Id: 145556
 Description: Let their tongues volunteer them for a whipping.
@@ -73,7 +73,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: A forest clearing
 Id: 145562
 Description: The footprints lead here. She has not even attempted to hide them. It is as if she wants you to follow...
@@ -94,7 +94,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: Please.
 Id: 145563
 Description: There. It is said.
@@ -111,7 +111,7 @@ Description:
 
 
 
-	ChildBranches 7
+		ChildBranches 7
 Name: Pretty please.
 Id: 145564
 Description: With an imaginary cherry on top, if she likes.
@@ -128,7 +128,7 @@ Description:
 
 
 
-	ChildBranches 8
+		ChildBranches 8
 Name: Pretty, pretty, pretty, pretty, please?
 Id: 145565
 Description: D__n it, it is freezing! How much longer?
@@ -145,7 +145,7 @@ Description:
 
 
 
-	ChildBranches 9
+		ChildBranches 9
 Name: Pretty, pretty, pretty, pretty, PRETTY, PRETTY PLEASE!
 Id: 145566
 Description: Your anguished plea echoes through the trees.
@@ -166,7 +166,7 @@ Description:
 
 
 
-	ChildBranches 10
+		ChildBranches 10
 Name: Enough of this nonsense
 Id: 145568
 Description: Let the crew do their worst. You're done here.
@@ -185,7 +185,7 @@ Description:
 
 
 
-	ChildBranches 11
+		ChildBranches 11
 Name: Give her a taste of her own medicine
 Id: 145572
 Description: Pranks? You'll show her how they're done.
@@ -206,7 +206,7 @@ Description:
 
 
 
-	ChildBranches 12
+		ChildBranches 12
 Name: Enough, you say! Enough!
 Id: 145575
 Description: You are bruised, stinking and tired. She wins.
@@ -225,7 +225,7 @@ Description:
 
 
 
-	ChildBranches 13
+		ChildBranches 13
 Name: The Monkey Foundling dances
 Id: 145576
 Description: She pirouettes on a tree-stump, saluting as you approach.
@@ -244,7 +244,7 @@ Description:
 
 
 
-	ChildBranches 14
+		ChildBranches 14
 Name: Help the Monkey Foundling
 Id: 145577
 Description: She meant you no real harm. She was only playing.
@@ -265,7 +265,7 @@ Description:
 
 
 
-	ChildBranches 15
+		ChildBranches 15
 Name: Bah, the little wench has it coming
 Id: 145578
 Description: She can't torture you and then expect your assistance.
@@ -284,7 +284,7 @@ Description:
 
 
 
-	ChildBranches 16
+		ChildBranches 16
 Name: A small hut in the middle of the forest
 Id: 145579
 Description: Is this where the Monkey Foundling lives? Why would she lead you here, of all places?
@@ -303,7 +303,7 @@ Description:
 
 
 
-	ChildBranches 17
+		ChildBranches 17
 Name: Return to the ship
 Id: 145581
 Description: Well. There is no avoiding this any longer...
@@ -322,7 +322,7 @@ Description:
 
 
 
-	ChildBranches 18
+		ChildBranches 18
 Name: The Dark Woods
 Id: 145582
 Description: Enough! It is time to teach the brat a lesson!
@@ -345,7 +345,7 @@ Description:
 
 
 
-	ChildBranches 19
+		ChildBranches 19
 Name: You slowly drift awake
 Id: 145583
 Description: The Monkey Foundling sits on a rock, barely any distance away, idly playing a tune on a small wooden flute.
@@ -368,7 +368,7 @@ Description:
 
 
 
-	ChildBranches 20
+		ChildBranches 20
 Name: Back to the ship
 Id: 145748
 Description: Agony! Agony! Agony!
@@ -387,7 +387,7 @@ Description:
 
 
 
-	ChildBranches 21
+		ChildBranches 21
 Name: Back to the ship
 Id: 145749
 Description: Agony! Agony! Agony!
@@ -408,7 +408,7 @@ Description:
 
 
 
-	ChildBranches 22
+		ChildBranches 22
 Name: The chase continues!
 Id: 145750
 Description: The Monkey Foundling slides down a vine in front of you. She sticks out her tongue and scampers through a break in the trees.
@@ -425,7 +425,7 @@ Description:
 
 
 
-	ChildBranches 23
+		ChildBranches 23
 Name: A mild, yet pointed threat
 Id: 145906
 Description: The Monkey Foundling shall have no mischief at the Captain's expense today. Either she puts those down, or you're feeding her to the crew.
@@ -446,7 +446,7 @@ Description:
 
 
 
-	ChildBranches 24
+		ChildBranches 24
 Name: Abandoned in the woods
 Id: 146077
 Description: There is nothing to do but head back and hope that, one day, you manage to live this down.
@@ -465,7 +465,7 @@ Description:
 
 
 
-	ChildBranches 25
+		ChildBranches 25
 Name: Throw a rock at the little wench
 Id: 145567
 Description: She is playing with you. You are not playing with her.
@@ -489,7 +489,7 @@ She blinks. The tears are gone. Very well, her new look says; the look of one us
 
 
 
-	ChildBranches 26
+		ChildBranches 26
 Name: She wants to play? You'll play.
 Id: 145571
 Description: Though the crossing is treacherous, particularly when one's hands are torn between modesty and balance.
@@ -517,7 +517,7 @@ You cross triumphantly, to her grudging admiration.
 
 
 
-	ChildBranches 27
+		ChildBranches 27
 Name: Pursue the Monkey Foundling
 Id: 145570
 Description: She moves effortlessly through the branches above.

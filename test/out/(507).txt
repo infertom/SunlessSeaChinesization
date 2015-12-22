@@ -3,7 +3,7 @@ Name: Once more
 Id: 151669
 Description: You encounter the Acolyte one more time.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Apologize
 Id: 129369
 Description: She doesn't look overjoyed to see you.
@@ -23,7 +23,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Ask after her situation
 Id: 129370
 Description: It seems unlikely that the other acolytes offer one another much consolation. You've never seen any sign of friendship between them, anyhow.
@@ -43,7 +43,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Real consolation
 Id: 129371
 Description: Offer her the consolation of friendship.
@@ -64,7 +64,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Propose that the Scarred Sister replace her
 Id: 130111
 Description: Perhaps Phoebe will find consolation in these duties of darkness.

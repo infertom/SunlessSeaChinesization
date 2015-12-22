@@ -3,7 +3,7 @@ Name: The Delightful Adventuress
 Id: 176037
 Description: Her feet have trodden lands most in the Neath have never even heard of. Her eyes have seen every opportunity for fame and glory while there.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: An Evening with the Delightful Adventuress
 Id: 143651
 Description: Whoever she is, she knows how to pack a hall. Not a seat is empty as she takes the stage.
@@ -24,7 +24,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: A business proposition
 Id: 143921
 Description: The Delightful Adventuress' masked Clay Man Barnabas escorts you to the Principal of Benthic's study, where she sits sipping brandy by the fire.
@@ -43,7 +43,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Accept
 Id: 143922
 Description: It is a long voyage, but you know the way.
@@ -60,7 +60,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Refuse
 Id: 143923
 Description: You have more important business to attend to.
@@ -79,7 +79,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Agree to take the Delightful Adventuress
 Id: 143924
 Description: Whatever she wants in the Empire, her money is good.
@@ -96,7 +96,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: The answer remains no
 Id: 143925
 Description: For a moment, you considered changing your mind.

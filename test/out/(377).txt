@@ -3,7 +3,7 @@ Name: Shattered Citadel Encounters
 Id: 155888
 Description: You've found something. Or it's found you.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Search the Church of the Starved Men
 Id: 132108
 Description: A cruciform chamber with a great altar, rows of rotting pews. Perhaps the windows once held stained glass. The altar is dripstone, painstakingly carved into organic shapes: jointed limbs, eye-bulbs, snapping claws, armoured excrescences.
@@ -24,7 +24,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: The Church of the Starved Men
 Id: 132109
 Description: The chamber, the pew-skeletons, the glassless windows. The altar robbed of its treasures.
@@ -41,7 +41,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Let the Nacreous Outcast approach the alter
 Id: 132246
 Description: He burbles: his frondules tremble.
@@ -64,7 +64,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: The Gate of Forms
 Id: 132248
 Description: Here - in the floor, because of the stalactite's fall - is a gate of glittering chalcedony, half-lost beneath rubble but thick enough to resist the most determined assault. Its surface is a relief of twisted limbs, distorted faces screaming in glee. (Carved? Moulded? Impossibly, natural?) A pit at its centre might be a key-socket, or only a mouth.
@@ -81,7 +81,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Back through the Gate of Forms
 Id: 132261
 Description: One half of the Gate hangs down and open, where you breached it, into a space that roars with wind.
@@ -98,7 +98,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: The Root-Gallery
 Id: 132262
 Description: You've traversed half the length of the stalactite called Godfall, from the monastery to here. The Starved Men cut a tremendous gallery around the whole root of the stalactite, leaving a vast central pillar to support its weight. In its day, the view must have been unrivalled. Remnants of salvaged glass and wooden eating-houses, viewing-booths, sight-temples still cling to the edges - but the root has been shattered, and the stalactite fell.
@@ -121,7 +121,7 @@ Description:
 
 
 
-	ChildBranches 7
+		ChildBranches 7
 Name: The Root-Gallery
 Id: 132422
 Description: You've been here before. The Starved Men cut a tremendous gallery around the whole root of the stalactite, leaving a vast central pillar to support its weight. In its day, the view must have been unrivalled. Remnants of salvaged glass and wooden eating-houses, viewing-booths, sight-temples still cling to the edges - but the root has been shattered, and the stalactite fell. Go a little closer - clamber carefully across the tilted surface of the gallery floor towards the shattered stump of the root.
@@ -140,7 +140,7 @@ Description:
 
 
 
-	ChildBranches 8
+		ChildBranches 8
 Name: No way through!
 Id: 132483
 Description: You don't have what you need to pass the Gate. Turn back. [Retrace your steps to leave and find what you need.]
@@ -157,7 +157,7 @@ Description:
 
 
 
-	ChildBranches 9
+		ChildBranches 9
 Name: And out.
 Id: 132485
 Description: Something disorienting happened - 
@@ -174,7 +174,7 @@ Description:
 
 
 
-	ChildBranches 10
+		ChildBranches 10
 Name: Creep across a chasm
 Id: 132103
 Description: The stalactite has cracked right across. That crack is a plunging chasm. The dark sea thunders below. You can probably get across. After all, you are zailors. Zailors have rope.
@@ -196,7 +196,7 @@ Description: It's harder in the candle-lit gloom than it would be in the deck of
 
 
 
-	ChildBranches 11
+		ChildBranches 11
 Name: Fight off a Frenzied Assault
 Id: 132102
 Description: One, two - six, seven, eight - a rabble of leathery mummy-things, mouths agape, comes boiling from crevices. Crooked limbs reach for you.
@@ -218,7 +218,7 @@ Description: They're tenacious, these leather remnants, but not strong. Some for
 
 
 
-	ChildBranches 12
+		ChildBranches 12
 Name: A labyrinth of dwelling-galleries
 Id: 132104
 Description: You hear the zee! The passage branches and opens into a tangle of galleries on the skin of the surface. There are doorways to dwelling-places - all empty now, all leading into one another like cells of a honeycomb. Perhaps you can find your way through.
@@ -240,7 +240,7 @@ Description: You make your way through an asymmetrical foam of beehive dwellings
 
 
 
-	ChildBranches 13
+		ChildBranches 13
 Name: A nasty moment
 Id: 132105
 Description: The tunnels coil like intestines. The stalactite seems to pulse with the beat of an unknown heart.
@@ -262,7 +262,7 @@ Description: The gases down here will maze the mind and convulse the spirit. Pre
 
 
 
-	ChildBranches 14
+		ChildBranches 14
 Name: A Black-Jawed Beast
 Id: 132175
 Description: Mandibles slide wetly from the wall!
@@ -284,7 +284,7 @@ Description: You had your eye on that curious projection. You push a zailor to t
 
 
 
-	ChildBranches 15
+		ChildBranches 15
 Name: Lost in amber
 Id: 132176
 Description: A spherical room. The ceiling drips honey; the walls and floor are glazed with warm orange-yellow. It's gives under your touch - slowly, but when you try to pull your hand free, it takes all your strength. Tables and chairs project through the yard-thick amber on the floor - enough to cross, perhaps.
@@ -306,7 +306,7 @@ Description: You each step cautiously from chair to table to bench. Thankfully, 
 
 
 
-	ChildBranches 16
+		ChildBranches 16
 Name: The Glittering Crisis
 Id: 132177
 Description: You stumble into the heart of a geode! Quartz crystals twist the light and spangle it into your eyes. It's like trying to out-stare molten silver. Go carefully.
@@ -328,7 +328,7 @@ Description: You graze the back of your hand against a sharp crystal. Blood bloo
 
 
 
-	ChildBranches 17
+		ChildBranches 17
 Name: Fight off Winged Things!
 Id: 132178
 Description: It's as if the wall's shed its skin. Suddenly they're on you, everywhere. The air roars. They fill your mouth, eyes, nose.

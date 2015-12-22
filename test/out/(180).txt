@@ -3,7 +3,7 @@ Name: The Bound Shark attacks!
 Id: 144185
 Description: "The most tormented of zee-beasts. Its murderous eyes peep from its caged flesh like convicts begging release."
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Fight!
 Id: 124619
 Description: When all's said, it's just a really big fish in a cage. And you - you are a zee-captain.
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Flee!
 Id: 124620
 Description: It's nimbler than you are. But perhaps you can distract it with a zailor. Your crew won't like this, though -

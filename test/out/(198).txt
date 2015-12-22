@@ -5,7 +5,7 @@ Description: You enter to see your Navigator shaking a Smiling Priest by the col
 <br/><br/>
 "I'm sure we can find a path to put you on, my friend." He examines the sigil with the professional air of a collector. "But we will need your help in return."
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Pay a price
 Id: 147494
 Description: "Our stores are running low. If we cannot feed our congregation, our mission must end. Can you provide? The fresher the better." Your Navigator has nothing. He pleads for your help.
@@ -26,7 +26,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Pay another price
 Id: 147495
 Description: The priest slips his arm around your shoulders. "For you, a lesser payment," he whispers. "Post no guards on your ship tonight. Ask no questions. And in the morning, perhaps you'd like to join us for breakfast." A red and white smile.

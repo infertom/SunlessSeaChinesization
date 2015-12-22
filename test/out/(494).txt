@@ -3,7 +3,7 @@ Name: A Smuggler's Reward
 Id: 168566
 Description: "Don't keep me waiting!" Isery pouts prettily, and rustles their silks. "Do you have a little present for me?"
 
-	ChildBranches 1
+		ChildBranches 1
 Name: A well-earned reward
 Id: 139077
 Description: You hand over the Alarming Scholar's notes. 

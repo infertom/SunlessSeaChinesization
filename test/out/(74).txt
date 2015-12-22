@@ -3,7 +3,7 @@ Name: A white zee-bat
 Id: 148693
 Description: A zailor has grown fretful and disobedient, reluctant to go on deck, even in port. "There's a white zee-bat watching me up there. Salt's messenger. Salt's got its eye on me. I'll never see home again!"
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Salt?
 Id: 127557
 Description: Zailors' superstition. Order him up on deck at once.
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Salt.
 Id: 127558
 Description: Salt: one of the nameless gods that zailors fear. This zailor is a conscientious man. Send him to the sick bay on the pretext of a fever.
@@ -37,7 +37,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Feed the zee-bat
 Id: 128724
 Description: If white zee-bats are sacred to Salt, perhaps you'll win Salt's favour. If you believe any of this.
@@ -56,7 +56,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Shoot the zee-bat
 Id: 128725
 Description: If the b___dy thing is frightening your b___dy crew, you'll b___dy well settle its hash!

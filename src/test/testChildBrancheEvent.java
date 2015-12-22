@@ -1,5 +1,10 @@
 package test;
 
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.FileWriter;
+import java.io.IOException;
+
 import com.alibaba.fastjson.JSONObject;
 
 import tool.READFILEALL;
@@ -9,7 +14,7 @@ public class testChildBrancheEvent {
 	private static String fileInName = "test/testChildBrancheEvent.txt";
 	private static StringBuilder testStr = new StringBuilder();
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		testStr = READFILEALL.readFileAl(fileInName);
 		System.out.println(testStr.toString());
 		
@@ -27,12 +32,16 @@ public class testChildBrancheEvent {
 			System.err.println("exchange error");
 		}
 		
-		//获取JSONObject
-		JSONObject object = event.getJsonObject();
-		System.out.println(object.toJSONString());
+		//获取JSON-String
+		File file = new File("test/out/childBrancheEvent.txt");
+		FileOutputStream outputStream = new FileOutputStream(file);
+		FileWriter out = new FileWriter(file);
+		out.write(event.getJsonString().trim());
+		out.close();
+		System.out.println(event.getJsonString());
 	
 		//获取info
-		System.out.println("Info\n" + event.getInfo());
+		System.out.println("Info\n" + event.getEventInfo());
 	}
 
 }

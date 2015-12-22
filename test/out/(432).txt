@@ -3,7 +3,7 @@ Name: Hearthsake Island
 Id: 175477
 Description: The survivors of a pirate expedition have stolen this land, where apes are unwelcome except as an entrée.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: The Lost Treasure Hunter
 Id: 143285
 Description: He squints at a map, muttering incoherently.
@@ -22,7 +22,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Approach the village
 Id: 143605
 Description: Greasy smoke and guiltily tempting aromas rise from a collection of huts around a long beached pirate ship, and a field of pointedly impaled monkeys.

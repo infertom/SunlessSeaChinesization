@@ -1,9 +1,9 @@
 (1)
 Name: UNFINISHED!
 Id: 135238
-Description: A grating roar below decks! One among your Clay Men cargo - missing something usual, like obedience, temperance, or a sense of humour.
+Description: dddddddddddddddd
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Wait it out
 Id: 119003
 Description: You had prudently stowed the Clay Man in your Secure Storage. Let it try to break free. You'll deal with it when it's exhausted. But it won't end well for any other Clay Men you have in there.
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Destroy it!
 Id: 119016
 Description: Regrettable, but these things must be done.
@@ -42,7 +42,7 @@ Description: Clay Men are strong as stone. Unfinished Men may be fierce as lambs
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Negotiate
 Id: 119019
 Description: Risky, but these things must be done right.

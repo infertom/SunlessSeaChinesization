@@ -3,7 +3,7 @@ Name: A Stranger in Difficulties
 Id: 154999
 Description: As you pass an elegant house, lights blaze and shouts echo! Someone has caused a commotion. And here, you imagine, is that someone, slipping over the garden wall. He loses his grip and falls. A muffled cry, and he's sitting on the ground, nursing his ankle.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Assist him
 Id: 131528
 Description: He's probably up to no good, but perhaps that's an opportunity for you.
@@ -25,7 +25,7 @@ Description: A devilishly handsome young man! "Oh, thank you," he says. He peers
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Turn him in
 Id: 131529
 Description: For justice and all those admirable abstract things.

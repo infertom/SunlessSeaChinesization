@@ -3,7 +3,7 @@ Name: A spy walks the ship!
 Id: 180539
 Description: They're good. Very good. Were it not for a single envelope sitting face-up instead of down on your desk, you might never have noticed.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Track down the spy
 Id: 146373
 Description: Search every cabin. Open every lockbox.

@@ -3,7 +3,7 @@ Name: "Don't you dare forget me."
 Id: 149164
 Description: You stand on the bridge with the Likely Lass' locket in your hand.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Keep it
 Id: 127857
 Description: It's a risk for both of you. Shore-bound lovers grow lonely, and zee-captains die young.
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Throw it away
 Id: 127858
 Description: With enough time and effort, you could break her heart, or she yours.

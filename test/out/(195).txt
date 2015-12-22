@@ -3,7 +3,7 @@ Name: Unfinished Pirates
 Id: 155005
 Description: A galley! No ordinary oar-powered ship could challenge a steamship - but this one is crewed by Clay Men, tireless earthen constructs born in Polythreme. Of course, these can be no ordinary Clay Men - those are patient and biddable - 
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Fight the Unfinished Pirates
 Id: 131531
 Description: Unfinished Men! Something has gone awry with their construction, and they're capable of violence. Perhaps you should finish their deconstruction.
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Flee!
 Id: 131532
 Description: Now they're this close, they won't be easy to escape. Clay Men, Unfinished or not, are tenacious.

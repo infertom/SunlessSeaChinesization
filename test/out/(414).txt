@@ -3,7 +3,7 @@ Name: Explorations complete!
 Id: 143331
 Description: Perhaps you can use the information you've gleaned...
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Prepare a Comprehensive Port Report
 Id: 124062
 Description: Few have reason to brave the waters this far East, especially with the trade embargo. The Admiralty will pay especially well for up-to-date intelligence.

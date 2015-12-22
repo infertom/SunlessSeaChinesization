@@ -5,7 +5,7 @@ Description: “No more light,” the Obsequious Steward cautions you. "The Cura
 <br/><br/>
  A bandaged shape no larger than a child lies crumpled on a couch. It lifts its head with obvious effort. It takes several seconds for you to distinguish its voice from the soft buzz of the bees.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Accept the commission
 Id: 132783
 Description: "Thank you. This poor flesh... thirsts for colours..."
@@ -24,7 +24,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Give it your Lump of Blue Scintillack
 Id: 133352
 Description: "Oh... bright as... bright as waking..."
@@ -43,7 +43,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Give it your Ray-Drenched Cinder
 Id: 133353
 Description: "I smell - stars..."
@@ -62,7 +62,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Show it your Weeping Scar
 Id: 133354
 Description: "Let me...see..."
@@ -81,7 +81,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Give it your Eyeless Skull
 Id: 133355
 Description: "Yes. I want to forget..."
@@ -102,7 +102,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: Give it your Hunter's Eye
 Id: 133356
 Description: "I saw it once. I saw it long ago... when first I came here below..."
@@ -123,7 +123,7 @@ Description:
 
 
 
-	ChildBranches 7
+		ChildBranches 7
 Name: Give it your Pot of Violant Ink
 Id: 133357
 Description: "We would have made a better contract. But we hungered for the flesh of gods."
@@ -144,7 +144,7 @@ Description:
 
 
 
-	ChildBranches 8
+		ChildBranches 8
 Name: Give it your enigmatic painting
 Id: 133358
 Description: "The Fingerkings. Our enemies. The enemies of everyone..."
@@ -163,7 +163,7 @@ Description:
 
 
 
-	ChildBranches 9
+		ChildBranches 9
 Name: Receive a final reward
 Id: 133622
 Description: It reaches up to clasp your hand. "I am... grateful. You don't know what you've done to me. Accelerated... the growth beneath the flesh. Spared me the sanatorium. Here... my... dissolution..."
@@ -182,7 +182,7 @@ Description:
 
 
 
-	ChildBranches 10
+		ChildBranches 10
 Name: Depart for now
 Id: 133751
 Description: You have no further business with the Curator just now.
@@ -199,7 +199,7 @@ Description:
 
 
 
-	ChildBranches 11
+		ChildBranches 11
 Name: Give it your Colossal Fluke-Core
 Id: 134053
 Description: "Yes. End it. I will find my own ending..."
@@ -220,7 +220,7 @@ Description:
 
 
 
-	ChildBranches 12
+		ChildBranches 12
 Name: Give it your Apocyan Chess Piece
 Id: 137640
 Description: "Oh... yes... it also wants... it also wants..."
@@ -239,7 +239,7 @@ Description:
 
 
 
-	ChildBranches 13
+		ChildBranches 13
 Name: Give it your Mirror-Charm
 Id: 146676
 Description: "Yes. Yes, that has passed between... two worlds..."
@@ -258,7 +258,7 @@ Description:
 
 
 
-	ChildBranches 14
+		ChildBranches 14
 Name: Give it your Mirrorcatch Box Full of Very Angry Dream-Snakes
 Id: 146682
 Description: "Oh, my, my, my. They are... cross..."
@@ -277,7 +277,7 @@ Description:
 
 
 
-	ChildBranches 15
+		ChildBranches 15
 Name: Give it a Star-Shell
 Id: 147119
 Description: "What is... that?"
@@ -296,7 +296,7 @@ Description:
 
 
 
-	ChildBranches 16
+		ChildBranches 16
 Name: Show it a sketch of the Figurehead of the Eater of Names
 Id: 147407
 Description: "Oh! ...oh... I know..."
@@ -315,7 +315,7 @@ Description:
 
 
 
-	ChildBranches 17
+		ChildBranches 17
 Name: Listen to a whispered request
 Id: 132780
 Description: “Zee-Captain. Silk-skin. Not much left of me. I will go… into the Grand Sanatorium. Bring me colours. Seven colours. Pay. Well.”
@@ -339,7 +339,7 @@ Description: “Cosmogone. Irrigo. Peligin. Steward has… list… Find them her
 
 
 
-	ChildBranches 18
+		ChildBranches 18
 Name: Ask about the Grand Sanatorium
 Id: 132782
 Description: One hears the name whispered, here and there in the arcades of Venderbight.

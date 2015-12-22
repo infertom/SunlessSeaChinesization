@@ -3,7 +3,7 @@ Name: Soothe & Cooper Long-Box
 Id: 152840
 Description: Is it, in fact, a coffin?
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Crack the seal and see what's inside.
 Id: 130149
 Description: Curiosity kills.

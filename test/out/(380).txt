@@ -4,7 +4,7 @@ Id: 143316
 Description: To the south: the Elder Continent, and the seventy-two cornucopian kingdoms of the Presbyterate. Are the stories true - rivers of honey; castles of ivory? 
 Who can say? Foreigners (that's you) are forbidden from the interior. The closest most get is Adam's Way: a shouting, feasting, thieving, riot of a port. [The options available may change as the day progresses.]
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Deliver Sphinxstone for Penstock
 Id: 124052
 Description: A tilted temple squats in the shade of a gumheart shroom. This is where Penstock sent you. Your zailors drag the stones, complaining as zailors generally do.
@@ -23,7 +23,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Go ashore with the Adventuress
 Id: 124053
 Description: "I'll admit it: I would like one last look around. But we're not going inland. The College would sniff me out soon enough."
@@ -44,7 +44,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Visit an exhibition of Presbyterate curiosities
 Id: 146435
 Description: For the insignificant price of a single echo, the Sober Showman will lay the wonders of the Elder Continent directly at your feet!
@@ -61,7 +61,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Listen to a storyteller
 Id: 146437
 Description: Ignore the gaudy entertainments, intended to defraud visitors. Pass the street-hawkers (they will only tell you what you want to hear). Shun the tavern gossip, most of which is fabricated by the Mithridate Office, the Prester's propagandists.
@@ -80,7 +80,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Attend a funeral feast
 Id: 146439
 Description: A public square. A gathering of the bereaved, uncannily cheerful. A table, shining with cutlery, white china plates, tall glasses.
@@ -97,7 +97,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: An Avuncular Broker has a commission
 Id: 146441
 Description: His client has a task of modest - but scriptural - significance. He is conducting interviews.
@@ -116,7 +116,7 @@ Description:
 
 
 
-	ChildBranches 7
+		ChildBranches 7
 Name: Accept the Avuncular Broker's commission
 Id: 146446
 Description: He orders a plate of figs soaked in honey. "Tell me: what do you know about the disciples of the Thief-of-Faces?"
@@ -135,7 +135,7 @@ Description:
 
 
 
-	ChildBranches 8
+		ChildBranches 8
 Name: Deliver the snuffer to the Avuncular Broker
 Id: 146447
 Description: You have contained the creature in a barrel. You order it rolled to the Broker's door.
@@ -154,7 +154,7 @@ Description:
 
 
 
-	ChildBranches 9
+		ChildBranches 9
 Name: Assist at an animescence hospital
 Id: 146735
 Description: It stands apart from the port, on a lonely zee-side bluff.
@@ -171,7 +171,7 @@ Description:
 
 
 
-	ChildBranches 10
+		ChildBranches 10
 Name: Sit by the Tree of a Single Day and let the hours pass
 Id: 147107
 Description: The day is young, and the tree is still only a sapling.
@@ -188,7 +188,7 @@ Description:
 
 
 
-	ChildBranches 11
+		ChildBranches 11
 Name: Catch a nut that falls from the Tree of a Single Day
 Id: 147108
 Description: Picking them from a branch is forbidden, but fallen ones are useless. You'll need to intercept it between bough and ground. [A matter of luck.]
@@ -210,7 +210,7 @@ Description: An hour you wait, and another hour. In that time, nuts fall beyond 
 
 
 
-	ChildBranches 12
+		ChildBranches 12
 Name: Return to your ship
 Id: 147111
 Description: The day is over. It's time to return to your ship.
@@ -227,7 +227,7 @@ Description:
 
 
 
-	ChildBranches 13
+		ChildBranches 13
 Name: Sit beneath the Tree of a Single Day and let the hours pass
 Id: 147114
 Description: Already so tall and strong! Its leaves are a mantle of green and gold.
@@ -244,7 +244,7 @@ Description:
 
 
 
-	ChildBranches 14
+		ChildBranches 14
 Name: Sit beneath the Tree of a Single Day and let the hours pass
 Id: 147115
 Description: Its leafy branches reach across the square.
@@ -261,7 +261,7 @@ Description:
 
 
 
-	ChildBranches 15
+		ChildBranches 15
 Name: Sit beneath the Tree of a Single Day until the day's end
 Id: 147116
 Description: Its limbs are bare. The square rattles with dead leaves.
@@ -278,7 +278,7 @@ Description:
 
 
 
-	ChildBranches 16
+		ChildBranches 16
 Name: Listen to a storyteller
 Id: 147118
 Description: Climb the hill to the bee-crested columns. Sit in their long shadows, and listen to the storytellers.
@@ -299,7 +299,7 @@ Description:
 
 
 
-	ChildBranches 17
+		ChildBranches 17
 Name: The Avuncular Broker's second commission
 Id: 147148
 Description: His invitation is urgent. 
@@ -320,7 +320,7 @@ Description:
 
 
 
-	ChildBranches 18
+		ChildBranches 18
 Name: The Presbyterate Adventuress
 Id: 147211
 Description: A tall woman in a salt-caked Royal Navy uniform is methodically shooting giant land snails off a chunk of fallen statue. 
@@ -337,7 +337,7 @@ Description:
 
 
 
-	ChildBranches 19
+		ChildBranches 19
 Name: Put a blemmigan ashore
 Id: 147272
 Description: Surely a simple mushroom will not attract the attention of the Gracious. 

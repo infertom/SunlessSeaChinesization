@@ -3,7 +3,7 @@ Name: Nightmare's End
 Id: 155245
 Description: A weight has lifted.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Your dreams have passed
 Id: 131692
 Description: That's good

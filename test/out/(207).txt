@@ -5,7 +5,7 @@ Description: There are many available; Mihir is not a puritan god. The nicer est
 <br/><br/>
  What takes your fancy?
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Return to the City Centre
 Id: 129911
 Description: You are done here.
@@ -22,7 +22,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Join the gaming-table
 Id: 129862
 Description: They are playing on an ornate board, with pieces of mirrored-chips and snakes made of bone. 
@@ -48,7 +48,7 @@ You manage to acquit yourself reasonably well. At least, you aren't the first on
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: The Arguing Priests
 Id: 129863
 Description: They are having a wine-drenched debate at one of the tables in the back; do you care to listen in?
@@ -76,7 +76,7 @@ The difference might seem trivial to you, but apparently this is a subject of he
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: The Duellists
 Id: 129864
 Description: The courtyard is strewn with white sand; the duellists fight with curving twin-bladed scimitars in each hand. You could try your luck in a exhibition match?

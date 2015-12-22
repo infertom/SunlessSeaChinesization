@@ -3,7 +3,7 @@ Name: A Visit to the Bazaar
 Id: 180347
 Description: She's down the gang-plank as soon as she's docked. "I need to talk to Penstock," she says. "The land agent. The one at the Bazaar." She hesitates; she bites her lip. "Will you come with me?"
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Go with her
 Id: 146257
 Description: Penstock's Land Agency: a modest office in an immodest location, hard against the eastern flank of the Bazaar - that spired fortress of commerce that towers over London. Penstock stoops like a clerk and coughs like a miner, but his eyes are very wise.
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Let her go alone
 Id: 146258
 Description: ...to an uncertain fate. You might never see her again.
@@ -46,7 +46,7 @@ Description: A day passes, and a bonded courier arrives. "Mr Penstock asked me t
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Go with her
 Id: 146264
 Description: Penstock's Land Agency: a modest office in an immodest location, hard against the eastern flank of the Bazaar - that spired fortress of commerce that towers over London. You've met Penstock before. He spares you a single regretful glance.
@@ -63,7 +63,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Go with her
 Id: 146265
 Description: Penstock's Land Agency: a modest office in an immodest location, hard against the eastern flank of the Bazaar - that spired fortress of commerce that towers over London. You've met Penstock before. He cocks an eyebrow at you. "Don't you have business elsewhere?"
@@ -82,7 +82,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Go with her
 Id: 146266
 Description: Penstock's Land Agency: a modest office in an immodest location, hard against the eastern flank of the Bazaar - that spired fortress of commerce that towers over London. You've met Penstock before. He gives you a long hard look, then turns his attention to the Daughter.
@@ -99,7 +99,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: Go with her
 Id: 146267
 Description: Penstock's Land Agency: a modest office in an immodest location, hard against the eastern flank of the Bazaar - that spired fortress of commerce that towers over London. You've met Penstock before. He gives you a warm smile, then turns his attention to the Daughter.

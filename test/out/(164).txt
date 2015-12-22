@@ -7,7 +7,7 @@ The one who walks beside you wears a bat mask.
 <br/><br/>
 Fortunately the floor of the tunnel is very smooth and presents no stumbling blocks. Sound carries strangely in this place, however. Sometimes you cannot hear your own footsteps, and sometimes a breath comes back to you audible from someplace ahead in line.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Try to run
 Id: 139112
 Description: You do not really know what this festival is or what it means.
@@ -30,7 +30,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Continue
 Id: 139113
 Description: There is a secret in the dark.

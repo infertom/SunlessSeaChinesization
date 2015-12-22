@@ -3,7 +3,7 @@ Name: Opening a Cache of Curiosities
 Id: 140906
 Description: What's inside?
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Some sort of barrel
 Id: 122500
 Description: Tap the bung, carefully.
@@ -25,7 +25,7 @@ Description: In the flaring light, it's zee-dark, but the taste is the darkness 
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: A bolt of fabric
 Id: 122502
 Description: Shake out a little and let it glimmer in the light.
@@ -47,7 +47,7 @@ Description: You can find spider-silk in London, of course. There are troubles t
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: An intriguingly lumpy sack
 Id: 125254
 Description: It's probably not a sack full of skulls.
@@ -69,7 +69,7 @@ Description: A sad little chain of bottled souls. It is hard to be sure if souls
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: A filthy scrap of paper
 Id: 125255
 Description: Creased and grimy
@@ -91,7 +91,7 @@ Description: "...on the day we saw the Pillars of Irem. They are not what I expe
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: An oilskin packet
 Id: 125256
 Description: Something valuable, to someone.
@@ -115,7 +115,7 @@ Whatever encyclopaedias the bo'sun has been drinking, these are drowning-pearls 
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: A stout crate
 Id: 125264
 Description: Crates! The source of sustenance: the fundamental element of cargo.
@@ -137,7 +137,7 @@ Description: Hardtack and water and an unexpected box of nails. A would-be wit r
 
 
 
-	ChildBranches 7
+		ChildBranches 7
 Name: A rich wild scent
 Id: 125316
 Description: Whatever's in these barrels smells... heavenly.
@@ -159,7 +159,7 @@ Description: Glorious zzoup! The only fine thing ever to come from Mount Palmers
 
 
 
-	ChildBranches 8
+		ChildBranches 8
 Name: A tightly-sealed crate
 Id: 125317
 Description: Is that the mark of the Iron Republic, Hell's client-state?
@@ -181,7 +181,7 @@ Description: What does Hell want with candles? Does it not have enough fires of 
 
 
 
-	ChildBranches 9
+		ChildBranches 9
 Name: A hessian bundle
 Id: 125318
 Description: It clinks.
@@ -203,7 +203,7 @@ Description: A narrow-waisted timer in a soapstone frame. The timer is filled wi
 
 
 
-	ChildBranches 10
+		ChildBranches 10
 Name: A lacquered casket
 Id: 125319
 Description: It's the size of a small dog, or a large Bible. It's locked, but the lock won't resist a persistently-applied knife-blade, like this - 
@@ -225,7 +225,7 @@ Description: A blandly smiling golden face. Rays extend from its edge, curled li
 
 
 
-	ChildBranches 11
+		ChildBranches 11
 Name: An intriguingly lumpy sack
 Id: 127014
 Description: It's probably not a sack full of skulls.
@@ -247,7 +247,7 @@ Description: Who the hell puts skulls in a sack?
 
 
 
-	ChildBranches 12
+		ChildBranches 12
 Name: Signed and sealed
 Id: 127020
 Description: A brown paper package marked with a torn label. Once, perhaps, this was a delivery note.
@@ -269,7 +269,7 @@ Description: A porcelain ornament - a dog-faced lion or a lion-faced dog, scowli
 
 
 
-	ChildBranches 13
+		ChildBranches 13
 Name: A long locked box
 Id: 130148
 Description: Is that a coffin? It carries a delivery label.
@@ -286,7 +286,7 @@ Description:
 
 
 
-	ChildBranches 14
+		ChildBranches 14
 Name: Day from night
 Id: 131299
 Description: A big wicker basket, scrupulously sealed with black wax.

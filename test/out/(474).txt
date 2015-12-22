@@ -3,7 +3,7 @@ Name: Burn the Tree of Seasons
 Id: 167355
 Description: A deep breath. A moment to collect your thoughts. Even if you escape alive, it will not be without cost.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: On second thoughts...
 Id: 138392
 Description: Even if it went well, you might not survive the reprisal.
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Yes! Burn the Tree of Seasons!
 Id: 138391
 Description: The tree, the spider-council, the island itself if you can!

@@ -7,7 +7,7 @@ At the sight of the Mayor hobbling up, she straightens. A thin, insincere smile 
 <br /><br />
 She shakes her head, barely waiting for a response. "F-o-o-d," she repeats. <i>"Komprenas?</i> Oh dear, I see we shall be here for a while. Listen, I hear you fellows rather like souls. Shall we discuss that like higher primates?"
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Payment for the journey
 Id: 143660
 Description: Barnabas stays to settle up while his mistress negotiates the value of her soul with the Mayor.

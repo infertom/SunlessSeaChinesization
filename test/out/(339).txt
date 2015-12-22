@@ -3,7 +3,7 @@ Name: The Eater of Names is destroyed
 Id: 153582
 Description: The worms are screaming. The boat is shattered. Wild-eyed Chelonite zealots leap into the zee. None of them try to swim. As far as you can tell, they're diving straight down, with no intention of coming back up.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Seize its cargo
 Id: 130590
 Description: The Eater of Names has long plundered unwise strangers in the name of Death and the Great Shell. Perhaps they've kept something of use.
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Seize its figurehead
 Id: 131990
 Description: The colour is gant: that colour which remains when all else has been consumed.

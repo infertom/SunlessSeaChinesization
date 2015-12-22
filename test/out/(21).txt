@@ -3,7 +3,7 @@ Name: Sleep when you're dead?
 Id: 155202
 Description: You're hurt. You should really be in bed.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Spend time in bed
 Id: 131665
 Description: [This will heal a Wound.]
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Tough it out
 Id: 131666
 Description: Stuff and nonsense! March round the deck shouting courageously! [This will slightly reduce Terror, but may occasionally injure you further.]

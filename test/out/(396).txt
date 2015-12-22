@@ -3,7 +3,7 @@ Name: The Dark Room
 Id: 181469
 Description: Darkness. Almost silence. Soft breath. The crushing pressure of once-lived experience, as at the core of a star-corpse. Frostfound's lightless heart.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Retrieve the Name-Which-Burns
 Id: 146940
 Description: [This will be become relevant on Thursday 23rd February.]
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Unveil a Judgements' Egg
 Id: 146941
 Description: Light overcomes darkness. If you are are done with darkness, this will preserve you. [This will set your Terror to zero, and expel you from the Dark Room.]
@@ -39,7 +39,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Return to the Corridors of Frostfound
 Id: 146942
 Description: 
@@ -56,7 +56,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Open a Sunlight-Filled Mirrorcatch Box
 Id: 146953
 Description: Light overcomes darkness. If you are are done with darkness, this will preserve you. [This will dramatically reduce your Terror, and expel you from the Dark Room.]
@@ -73,7 +73,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Eat
 Id: 147061
 Description: You are mortally wounded. You will die when you wake. Here in the dark, you can feast, committing an unpardonable sin, and live. You will feast only on memory, but your wound, too, is a memory.
@@ -90,7 +90,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: Harvest a Star-Shell
 Id: 147113
 Description: Something desolate remains of a long-ago change: something the Curator might desire.
@@ -107,7 +107,7 @@ Description:
 
 
 
-	ChildBranches 7
+		ChildBranches 7
 Name: You are defiant
 Id: 147147
 Description: What? It's only some imaginary god's imagined lair. Leave and live. [This will eject you from Frostfound, removing any Terror.]
@@ -124,7 +124,7 @@ Description:
 
 
 
-	ChildBranches 8
+		ChildBranches 8
 Name: Fumble in the darkness
 Id: 147146
 Description: Was it only curiosity that brought you this far? Perhaps you can salvage something, regardless. [This is only possible once.]

@@ -5,7 +5,7 @@ Description: Rumpled convolutions of coral fill the water, glimmering with silve
 <br/><br/>
  A neat little port huddles into the side of a coral island - prosaic Imperial docks and houses tucked away in a baroque organic chaos. In that curious silvery light, among the frozen chaos of coral, the scene has the unreal air of a pencil sketch, crumpled and discarded.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Explore the coral knoll around Port Cecil
 Id: 124084
 Description: Sea laps dark around silvery coral. Humps and columns rise from the coral - a bewildering maze. Go carefully.
@@ -22,7 +22,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Explore the coral knoll around Port Cecil
 Id: 127757
 Description: Sea laps dark around silvery coral. Humps and columns rise from the coral - a bewildering maze. Go carefully.
@@ -39,7 +39,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Explore the coral knoll around Port Cecil
 Id: 127760
 Description: Sea laps dark around silvery coral. Humps and columns rise from the coral - a bewildering maze. Go carefully.
@@ -56,7 +56,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Explore the coral knoll around Port Cecil
 Id: 127761
 Description: Sea laps dark around silvery coral. Humps and columns rise from the coral - a bewildering maze. Go carefully.
@@ -73,7 +73,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Explore the coral knoll around Port Cecil
 Id: 127763
 Description: Sea laps dark around silvery coral. Humps and columns rise from the coral - a bewildering maze. Go carefully.
@@ -90,7 +90,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: A contact in the labyrinth
 Id: 130492
 Description: The Admiral gave you directions to take to meet your contact. Left, right, down, into the labyrinth of coral outside Port Cecil. Over the silvered vein. Past the castellations to the Unfinished Court.
@@ -107,7 +107,7 @@ Description:
 
 
 
-	ChildBranches 7
+		ChildBranches 7
 Name: Gather intelligence
 Id: 131309
 Description: What happens here?
@@ -124,7 +124,7 @@ Description:
 
 
 
-	ChildBranches 8
+		ChildBranches 8
 Name: Put a blemmigan ashore
 Id: 133949
 Description: Are you certain?
@@ -141,7 +141,7 @@ Description:
 
 
 
-	ChildBranches 9
+		ChildBranches 9
 Name: Drop off the Chequered Character
 Id: 137242
 Description: He waits eagerly by the rail. He lifts his head to inhale. "I can already smell the chess," he announces.
@@ -158,7 +158,7 @@ Description:
 
 
 
-	ChildBranches 10
+		ChildBranches 10
 Name: An Extra Move
 Id: 137244
 Description: As you reach the cross-roads in Port Cecil, a voice whispers: "Pawn to Bishop Six." A rearing shape the size of a cottage - rather like a mitred bishop, indeed - stands six yards to your right. A crevice in its coral side might be a cave-mouth.
@@ -175,7 +175,7 @@ Description:
 
 
 
-	ChildBranches 11
+		ChildBranches 11
 Name: Sell your Apocyan Chess-Piece
 Id: 137638
 Description: If you have no other use for it, one of the chess-addicts certainly will.
@@ -192,7 +192,7 @@ Description:
 
 
 
-	ChildBranches 12
+		ChildBranches 12
 Name: Chess
 Id: 137649
 Description: The chess-players watch you carefully...
@@ -209,7 +209,7 @@ Description:
 
 
 
-	ChildBranches 13
+		ChildBranches 13
 Name: Gather Scintillack
 Id: 127771
 Description: The best of the coral will fetch a high price in London. But walk the reefs of the Principles, and you risk delusion and despair. Take your crew, and go carefully.
@@ -238,7 +238,7 @@ Description: Where the zee washes across the coral's edge, it glows a rich purpl
 
 
 
-	ChildBranches 14
+		ChildBranches 14
 Name: Chess
 Id: 124085
 Description: Chess is popular in the Principles. The port is full of exiles, drunks and washed-up zee-traders. They all play, often obsessively.
@@ -278,7 +278,7 @@ Description: You don't know how long you've been playing. You won a match, anoth
 
 
 
-	ChildBranches 15
+		ChildBranches 15
 Name: Gather Scintillack
 Id: 137635
 Description: The best of the coral will fetch a high price in London. But walk the reefs of the Principles, and you risk delusion and despair. Take your crew, and go carefully.

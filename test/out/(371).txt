@@ -3,7 +3,7 @@ Name: You've destroyed a Tramp Steamer
 Id: 174353
 Description: Innocent men and women are dead, but that's their problem. And yours, if you're caught, but let's not dwell on that. What now?
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Poke through the wreckage
 Id: 142566
 Description: Take what you can.

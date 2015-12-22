@@ -5,7 +5,7 @@ Description: The light here is very different. The ice-crystal walls are invisib
 <br/><br/>
 KNOW YOURSELF, a voice intones.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Know yourself
 Id: 146943
 Description: You have brought burning knowledge across the sea. Use it now to unveil your shadow-reflection in the fog.
@@ -22,7 +22,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Wrestle yourself
 Id: 146944
 Description: Know yourself? Never mind that. Take the direct approach. Assault your shadow-reflection. [This will sacrifice one point of each skill, and increase your Wounds.]
@@ -39,7 +39,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Return to the Corridors of Frostfound
 Id: 146945
 Description: 
@@ -56,7 +56,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Retrieve the Mechanic's Secret
 Id: 146957
 Description: "This," the Mechanic says, very quietly, "is as far as we go .Let's get what we came for, and get out. I don't want to see what's in the fog - not again."

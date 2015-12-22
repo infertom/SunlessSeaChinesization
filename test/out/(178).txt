@@ -3,7 +3,7 @@ Name: The Wistful Deviless
 Id: 146571
 Description: The road to the crater ends at a brass gate in the crater wall. Beside it stands an oddly charming little cottage. It’s thrown together from pumice and basalt, but it features honeysuckle. An equally charming deviless in a tea-gown leans against the cottage wall, twirling a parasol and fanning herself. “I am the guardian of this place,” she remarks languidly. “You may not pass. But can I offer you a cup of <i>armillaria<i/> tea?”
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Tea with the Deviless
 Id: 126147
 Description: <i>Armillaria</i>? That's not one of the poisonous ones, is it? You're pretty sure it's not.
@@ -22,7 +22,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: No, thank you
 Id: 126149
 Description: You haven't brought a sufficiently long spoon, perhaps.
@@ -39,7 +39,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: A hesitant request
 Id: 126151
 Description: "Do you happen to have a case of souls for me? No I’m not going to eat them! We don’t eat souls, usually. I’m not clear how that story got around. I just - I told you that I miss London. I miss Hell. I’d like a keepsake. And all souls are ours, you know, by right.”
@@ -57,7 +57,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Concede her your soul
 Id: 126152
 Description: “Or you could just… lend me yours.” She bites her lip and looks up into your eyes. “I’ll keep it safe. Much safer than at zee. If you drown, it’ll be here, with me, for always. Mortals do drown so.” She places a slender, sallow hand on your wrist. Through your cuff, it’s warm as a stone in the sun. “It won’t hurt at all.” [This will surrender your soul to the Deviless.]
@@ -76,7 +76,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: The Deviless disconsolate
 Id: 126181
 Description: She pours the tea with a shaking hand. Her eyes are distant. “The lights, the agonies, the scalding mists of lead. I miss them so. I long to return from exile. I was such a fool. There's no future with the Convention."
@@ -95,7 +95,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: Give the Deviless the news from the Embassy, and the gift
 Id: 127512
 Description: The Deviless keeps little snakes as pets now - each no bigger than her little finger. She scratches their heads, she calls them by name, and once, when she thinks you aren't looking, she pops one in her mouth to chew it like a liquorice-treat.
@@ -116,7 +116,7 @@ Description:
 
 
 
-	ChildBranches 7
+		ChildBranches 7
 Name: Give the Deviless the news from the Embassy, but not the gift
 Id: 127554
 Description: You've already sold it. She'll never know. [This will gain you 150 Echoes.]
@@ -133,7 +133,7 @@ Description:
 
 
 
-	ChildBranches 8
+		ChildBranches 8
 Name: Tell the Deviless it's time to go
 Id: 127555
 Description: The Brass Embassy has given you the good word.
@@ -150,7 +150,7 @@ Description:
 
 
 
-	ChildBranches 9
+		ChildBranches 9
 Name: Warn the Wistful Deviless
 Id: 127609
 Description: She's a double-agent who tried to deceive Hell. You tipped Hell off. If she tries to go home, they'll be ready for her.
@@ -173,7 +173,7 @@ Description:
 
 
 
-	ChildBranches 10
+		ChildBranches 10
 Name: Refuse tactfully
 Id: 127861
 Description: You do not, at the moment, feel that the Deviless needs any more human souls.
@@ -190,7 +190,7 @@ Description:
 
 
 
-	ChildBranches 11
+		ChildBranches 11
 Name: An awkwardness
 Id: 127863
 Description: The message from the Deviless still nestles in your pocket.

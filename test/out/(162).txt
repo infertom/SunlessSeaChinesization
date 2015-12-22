@@ -3,7 +3,7 @@ Name: Ashore in Visage
 Id: 168605
 Description: On the lower slopes: stone buildings, flat roofs, archways. In the architecture there lingers a memory of lotus and palm frond. The hill above is a face, forever looking up at the ceiling of the Unterzee. No one inhabits its cheeks or the hollows of its eyes.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Check in at the Customs House
 Id: 139100
 Description: One may not wander Visage at will.
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Visit the Library of Parts
 Id: 139103
 Description: So called because all the books are fragmentary, perhaps.
@@ -39,7 +39,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Visit the Flood Court
 Id: 139104
 Description: The Moon-Moth speaks as though you should already know what that is.
@@ -58,7 +58,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Visit the House of the Chief Geometer
 Id: 139105
 Description: It is understood to be an honour.
@@ -77,7 +77,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Visit the Temple of Apis
 Id: 139106
 Description: All the denizens of Visage go there sooner or later.
@@ -94,7 +94,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: Visit the Side of the Face
 Id: 139107
 Description: The stone cheek of Flourishing-of-Years is visited as a pilgrimage by the inhabitants of Visage, and if you are in good favour, you too may go. 
@@ -111,7 +111,7 @@ Description:
 
 
 
-	ChildBranches 7
+		ChildBranches 7
 Name: Enter the Hollow of the Ear
 Id: 139108
 Description: [This is a journey of several steps, and may conclude your current visit.]
@@ -130,7 +130,7 @@ Description:
 
 
 
-	ChildBranches 8
+		ChildBranches 8
 Name: Trade masks with the Moon-Moth
 Id: 139269
 Description: It has been making subtle overtures for some time. You only now understand them.
@@ -149,7 +149,7 @@ Description:
 
 
 
-	ChildBranches 9
+		ChildBranches 9
 Name: End your performance and leave the island
 Id: 139878
 Description: You can't stay in character forever.
@@ -168,7 +168,7 @@ Description:
 
 
 
-	ChildBranches 10
+		ChildBranches 10
 Name: End your performance and leave the island
 Id: 139896
 Description: You can't stay in character forever.
@@ -185,7 +185,7 @@ Description:
 
 
 
-	ChildBranches 11
+		ChildBranches 11
 Name: The Assigner of Corpses?
 Id: 144563
 Description: One of these masked strangers is the Assigner of Corpses, if the Gracious Widow is to be believed. But which?

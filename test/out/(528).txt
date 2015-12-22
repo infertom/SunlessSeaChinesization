@@ -10,7 +10,7 @@ An efficient fishing operation is set up by the water: an albino rat mends nets 
 <br><br>
 With that he vanishes into one of the mounds and leaves you to explore.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Head to the barracks.
 Id: 129751
 Description: The drill sergeant appears to be sizing you up. Can this be all the rats have to fight with?
@@ -29,7 +29,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Head to the beach.
 Id: 129757
 Description: What kind of fish might they catch here? And who ever heard of a rat <i>mending</i> nets?
@@ -48,7 +48,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Wait for the war council.
 Id: 129791
 Description: You've done all the exploring you want. Time to take action.
@@ -65,7 +65,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Head towards the Rat Star.
 Id: 129758
 Description: An excitable-looking rat is peering at it through smoky goggles, twitching her whiskers and making notes on what appears to be real paper.

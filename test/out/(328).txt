@@ -3,7 +3,7 @@ Name: The Lorn-Fluke is destroyed
 Id: 144304
 Description: Its pulpy flesh shivers with the energies of its failing language. Already it is disintegrating into the waters.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Record any Observations
 Id: 131988
 Description: If you've gathered 30 Observations, you may learn something...
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Examine its corpse
 Id: 124697
 Description: Dangerous. But what an opportunity!

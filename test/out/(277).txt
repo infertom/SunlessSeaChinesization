@@ -3,7 +3,7 @@ Name: A Shadowy Predator
 Id: 141268
 Description: It's the little things. The click of a sliding stone where there should be silence - a motion in the shadows, as if they were thick-stirred like ink - a lull in the cries of the zee-bats. Something is watching you, drawing closer hour by hour. You and your crew draw back to back, watching the darkness.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Wait, watch, and end it
 Id: 122738
 Description: It has stealth, but you have rifles. All you need is a clear shot, and you'll earn yourself a trophy.
@@ -29,7 +29,7 @@ When you drag into the light, its oily flesh is already beginning to dissolve (p
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Capture it alive
 Id: 122739
 Description: This could be tricky.
@@ -51,7 +51,7 @@ Description: You employ ruses, stratagems and a cruel choice of bait, harrying t
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Retreat to the ship
 Id: 125903
 Description: Put clear black water between you and the thing in the shadows.

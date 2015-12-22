@@ -3,7 +3,7 @@ Name: Outcomes
 Id: 152326
 Description: You've given the Rattus Faber all the assistance you can. What next?
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Invite a Rattus Faber on board with you.
 Id: 129821
 Description: What's a ship without a few rats?
@@ -24,7 +24,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: The Wide Dark Zee
 Id: 129909
 Description: There's nothing left for you here, except the story of the place...
@@ -41,7 +41,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Intercede on behalf of the Cavies.
 Id: 129822
 Description: They've been defeated, and you can tell they've been ailing without the light of the Rat Star. Perhaps they've suffered enough?
@@ -70,7 +70,7 @@ As you leave, you see the Albino rat timidly offering a young Cavy prisoner a pi
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Steal the Rat Star
 Id: 129823
 Description: Perhaps you think you deserve it as your due; perhaps it's what you wanted all along. In either case, it should be an easy enough matter to snatch it from under the rats' noses while they're busy herding their prisoners. 

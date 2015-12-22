@@ -3,7 +3,7 @@ Name: A Whisper-Locked Puzzle-Box
 Id: 183088
 Description: If you've learnt the phrase that opens it, you can do so here. If not, what do you intend?
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Open the Box
 Id: 148020
 Description: "Only those who do nothing make no errors..."
@@ -25,7 +25,7 @@ Description: Books of poetry, pamphlets of a racier nature. A velvet-wrapped col
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Throw the box in the sea
 Id: 148037
 Description: Enough of this. Whatever's in there isn't worth the trouble.
@@ -42,7 +42,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Throw the box in the sea, as an offering to Salt
 Id: 148038
 Description:  [This will give you Salt's Attention and remove Salt's Curse.]
@@ -59,7 +59,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Break it open
 Id: 148039
 Description: The chest is reinforced with steel and probably Iremi riddlery. But if you actually turn the fire of your ship's guns on it, it will probably give up its contents. What's left of them.

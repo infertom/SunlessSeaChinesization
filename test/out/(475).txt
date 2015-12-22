@@ -3,7 +3,7 @@ Name: Tomb-Colonists in Polythreme
 Id: 153212
 Description: "...this is the city where the stones of the streets cry out. Excellent. If I wanted silence, I would have stayed in Venderbight, where even the bats hesitate to squeak. I look forward to a number of considerable headaches."
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Arrange a fine meal at a restaurant ashore
 Id: 130380
 Description: The dead are always hungry. Stuff their mouths with bolete-cake, and they'll stay out of trouble.
@@ -21,7 +21,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Let them go off and purchase new bandages
 Id: 143193
 Description: Every stain tells a story, or so the Venderbight fashion has it. But some of these stories are getting a little tired; and the living bandages of Polythreme will make fine souvenirs.
@@ -45,7 +45,7 @@ Description: "We've made friends! Here's my big friend! And here's my little fri
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Recruit a Bandage-Colony
 Id: 143194
 Description: Clothes-colonies - living assemblages of garments - walk Polythreme, upright as any citizen of London. The more raggedy ones could pass for tomb-colonists...[If you're missing a tomb-colonist, this may be useful.]

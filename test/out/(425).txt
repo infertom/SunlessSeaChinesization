@@ -3,7 +3,7 @@ Name: The Silent Gallery
 Id: 176492
 Description: The Exquisite Seneschal attends her Emperor's needs, handling the chaotic administration of the Court.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: A Plan: Supplies for the Zeppelin
 Id: 143946
 Description: The Exquisite Seneschal may have an unpalatable way of gathering supplies, but only for a trusted friend.
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: A Plan: Fuel for the Zeppelin
 Id: 143953
 Description: The Exquisite Seneschal looks for a trusted agent to establish a relationship with the Iron Republic.
@@ -37,7 +37,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Report the Zeppelin's completion
 Id: 143954
 Description: Everything is ready. It is time to tell the Emperor.
@@ -54,7 +54,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Return to the Court
 Id: 143955
 Description: The Exquisite Seneschal has work to be getting on with.
@@ -71,7 +71,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Ask for help translating the Vault inscriptions
 Id: 143957
 Description: The Exquisite Seneschal often finds herself looking to the past for assistance. She may have an idea.
@@ -90,7 +90,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: Gain the Emperor's Favour
 Id: 143999
 Description: Steal the Zeppelin? Now there's an idea. A shame it is so well guarded. You would need to get behind him if you want to stab him in the back.
@@ -111,7 +111,7 @@ Description:
 
 
 
-	ChildBranches 7
+		ChildBranches 7
 Name: A Destination: The Elder Continent
 Id: 144933
 Description: Before the Zeppelin can depart, the monkeys must agree on a destination. Suggest they head South.
@@ -128,7 +128,7 @@ Description:
 
 
 
-	ChildBranches 8
+		ChildBranches 8
 Name: A Destination: Past the Uttermost Edge
 Id: 144934
 Description: Before the Zeppelin can depart, the monkeys must agree on a destination. Suggest they head East.
@@ -145,7 +145,7 @@ Description:
 
 
 
-	ChildBranches 9
+		ChildBranches 9
 Name: Take your place in the Great Exodus
 Id: 145770
 Description: The Emperor promised that you would join him.

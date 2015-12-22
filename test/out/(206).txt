@@ -5,7 +5,7 @@ Description: A modest stone building with bas-relief lintels and wide, unshutter
 <br/><br/>
 It is a scene of controlled chaos. You can see the white-cloaked Guards bustling to and fro within, shouting companionably to each other while a stream of Fungus-Carters, merchants and ordinary citizens petition them.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: What's going on?
 Id: 129858
 Description: Is it a particularly busy day, or are they always so besieged?
@@ -27,7 +27,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: A Dream of Smoke
 Id: 129859
 Description: Perhaps the guards will have some advice?
@@ -49,7 +49,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Hint at the Jewel-Turbaned Youth's activities
 Id: 129860
 Description: You can leave out the bit where you told the gathering a forbidden story, and glide over any naming any particular names.
@@ -68,7 +68,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Return to the City Centre
 Id: 129908
 Description: You are done here.
@@ -85,7 +85,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Train with the guards
 Id: 129861
 Description: There is a formation of new recruits doing basic forms in the courtyard.

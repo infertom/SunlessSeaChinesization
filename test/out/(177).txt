@@ -3,7 +3,7 @@ Name: LIMBO'D - Saviour's Rocks Magic Cheat Menu
 Id: 166267
 Description: Because playing games is just *so* 1990...
 
-	ChildBranches 1
+		ChildBranches 1
 Name: The Cornucopia of Cheating
 Id: 137709
 Description: Give me everything that I need to complete this storyline. (Skills will not be changed.)
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: The Nice Cup Of Tea of Terror Reduction
 Id: 138085
 Description: Take it away. All of it. Also any Wounds.
@@ -37,7 +37,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Flask Of Opprobrium
 Id: 138214
 Description: Become the Scourge of the Sorrow-Spiders
@@ -54,7 +54,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: A Lethe Injection
 Id: 138227
 Description: Make the Sorrow-Spiders forget who you are, and any transgressions. (Reset story)
@@ -71,7 +71,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: I'm Testing This - What Should Happen?
 Id: 138294
 Description: Spoilers, of course

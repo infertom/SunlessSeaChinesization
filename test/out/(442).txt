@@ -3,7 +3,7 @@ Name: The Lost Treasure Hunter
 Id: 175994
 Description: His adventures have left him with many tools for finding gold and glory. A sense of direction is not one of them.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Trade stories with the Lost Treasure Hunter
 Id: 143618
 Description: He has survived many adventures. So have you.
@@ -29,7 +29,7 @@ Description: Has he ever found what he was looking for? No, he admits, but he ha
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Trade Recent News for Dynamite
 Id: 143619
 Description: "You have a newspaper? At least I won't feel entirely lost when I finally get back home."
@@ -46,7 +46,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Trade Supplies for Foxfire Candles
 Id: 143620
 Description: "Don't tell the others, but I still can't bring myself to eat like they do. I pretend, but it's a good thing there's berries. Wouldn't say no to something a bit more."
@@ -63,7 +63,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Trade a Live Specimen for a Flare
 Id: 143621
 Description: "The chaps will sometimes eat fish, if it falls in their laps." He looks hopeful. "Do you have any that could be, ah, carefully thrown?"
@@ -80,7 +80,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Persuade him to give you his map
 Id: 143622
 Description: It could be a profitable kindness.
@@ -101,7 +101,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: Leave him to his search
 Id: 144005
 Description: You have your own treasures to discover.

@@ -3,7 +3,7 @@ Name: The Horizon Codex
 Id: 168134
 Description: This came to you by night: how exactly will never be clear. It has been savagely censored, but some details survive...
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Read the Codex
 Id: 138852
 Description: The cover crackles with frost. [This will increase your Pages to 60.]
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Read the Codex
 Id: 139807
 Description: A philosopher of your degree will learn far more from this book. [This will increase your Pages to 85.]

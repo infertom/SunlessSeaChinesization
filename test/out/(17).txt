@@ -3,7 +3,7 @@ Name: ADVICE FOR CAPTAINS
 Id: 149127
 Description: The much-lamented M. Demeaux found a watery grave long, long ago. Probably your end will be no better. But if you read this book of invaluable advice, your chances will improve.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: ON EXPLORATION
 Id: 127831
 Description: Exploration is the heart of the game. Risk brings reward. Staying close to London is safe, but eventually you'll run out of fuel and supplies. Exploring, and playing port stories, will allow you to find Secrets and Echoes.
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: ON FIGHTING
 Id: 127832
 Description: When your enemy is in the arc of your guns, you'll see the firing solution - the glow around the fire buttons - increase. When it's complete, let them have it!
@@ -41,7 +41,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: ON EXPLORATION
 Id: 127833
 Description: When you put into port, you can generally explore and exhaust the story options until your next visit.
@@ -58,7 +58,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: ON TERROR
 Id: 127834
 Description: Terror increases gradually over time while you're out at zee, away from land. Watch the Skull: when you see orange or red pips, Terror will bump up if you spend much longer in the frightening place. Many events will increase it too.
@@ -75,7 +75,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: ON FINDING PLACES TO EXPLORE
 Id: 127850
 Description: Use your zee-bat scout. Technically, it's a chiropteroscope, but we're among friends here. 
@@ -94,7 +94,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: ON NEW STORIES
 Id: 127864
 Description: We'll add new stories to the game from time to time. You can download them from the main menu. 
@@ -111,7 +111,7 @@ Description:
 
 
 
-	ChildBranches 7
+		ChildBranches 7
 Name: ON MERCY
 Id: 131172
 Description: Unforgiving Mode is how the game is meant to be played - one autosave, updated whenever you reach port and wiped on death. If you're getting frustrated, or want a more leisurely exploration, you can switch to Merciful Mode.
@@ -128,7 +128,7 @@ Description:
 
 
 
-	ChildBranches 8
+		ChildBranches 8
 Name: ON ENDINGS, AND BEGINNINGS
 Id: 146771
 Description: Captains often die. This is not the end. When you die, you'll learn lessons which will help you survive next time. Beware: the layout of the Unterzee changes with each new captain. But home waters are stable, and islands will only move so far.
@@ -145,7 +145,7 @@ Description:
 
 
 
-	ChildBranches 9
+		ChildBranches 9
 Name: SELL THIS BOOK
 Id: 146773
 Description: You're a veteran captain, and require no more advice? Very well, then.

@@ -3,7 +3,7 @@ Name: A Buzzing Beggar
 Id: 149969
 Description: "Zzouls, my friend," a masked figure entreats you. "Zzouls. Do you have zzouls? I miss them zo. Let me pay you for them."
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Yes, you have zouls. Souls.
 Id: 128333
 Description: Offer it a crate of human souls.
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: No zouls for you!
 Id: 128334
 Description: Curse and push the Buzzing Beggar aside.
@@ -37,7 +37,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Refuse more politely
 Id: 128336
 Description: No zouls today.

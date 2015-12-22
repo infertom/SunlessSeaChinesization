@@ -3,7 +3,7 @@ Name: An Oasis of Sorts
 Id: 141253
 Description: A quiet hollow. A stream of sweet dark water. A grove of parasynthetic fruit trees, boughs heavy with symbiotic fungus.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Resupply, but keep away from the stream
 Id: 122728
 Description: Trees rarely attack. Fish, as any zailor knows, are chancier.
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Fish in the stream
 Id: 122729
 Description: Now and again, lazy, menacing ripples disturb the surface. There's more in there than sticklebacks.

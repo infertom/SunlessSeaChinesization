@@ -5,7 +5,7 @@ Description: "Here!" a zailor shouts. There's something nestled in the mossy cro
 <br/><br/>
 This has all happened before, exactly like this. Are you losing your mind?
 
-	ChildBranches 1
+		ChildBranches 1
 Name: So what?
 Id: 127825
 Description: If fortune has put a treasure in your way twice over, then good for fortune. Onwards!
@@ -22,7 +22,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Refuse to co-operate
 Id: 127824
 Description: Snatch the statue, hurl it on the ground, and leap on it.

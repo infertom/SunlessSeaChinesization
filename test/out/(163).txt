@@ -3,7 +3,7 @@ Name: Festival of Flourishing
 Id: 168615
 Description: All the denizens of Visage are walking towards the Ear together. There is a place in the procession which belongs by right to the wearer of your mask.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Fall in line with the others
 Id: 139109
 Description: How else will you discover what lies within?
@@ -22,7 +22,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Fall in line with the others, secretly bringing a flare with you
 Id: 139110
 Description: Perhaps you will need it, in the darkness where you are going.
@@ -41,7 +41,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Strip off your mask and prepare to depart
 Id: 139111
 Description: With everyone distracted by this festival, your departure would not even be noticed.

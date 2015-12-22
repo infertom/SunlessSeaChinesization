@@ -3,7 +3,7 @@ Name: The Campaigner's health is failing
 Id: 165262
 Description: She's developed a rattle in her lungs. Each time she coughs, the skin of her throat lights with an emberish glow. This latest coughing fit brings her to her knees.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Insist she takes to her bed to recover
 Id: 137075
 Description: She can't be up and about. Have meals sent to her cabin until she's a little restored.
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Let her go
 Id: 137106
 Description: There's nothing more you can do for her.
@@ -41,7 +41,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Administer the treatments from Adam's Way
 Id: 146681
 Description: The instructions are bizarre, but you follow them exactly.

@@ -7,7 +7,7 @@ But as the wine is drunk and the cards are played, the gathering takes on a cert
 <br/><br/>
 "Will you," the Jewel-Turbaned Youth stares at you, licking his lips, "will you tell us <i>a story</i>?"
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Decline firmly
 Id: 129847
 Description: It is not wise to become involved in <i>politics</i>, especially politics that are not your own. You will leave, and not return.
@@ -26,7 +26,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Tell them of yourself
 Id: 129848
 Description: It might be nice to be honest, especially to a group of people you'll never have to meet again. 
@@ -47,7 +47,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Return to the City Centre
 Id: 129910
 Description: You are finished here for now, but the invitation will remain open.
@@ -64,7 +64,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Invent a fanciful tale
 Id: 129849
 Description: It's practically a zailor's profession.
@@ -89,7 +89,7 @@ Afterwards the Jewel-Turbaned Youth takes you by the hand; his own is shaking, a
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Tell a wanderer's tale
 Id: 129850
 Description: Full of zee-salt and darkness and the creaking of ships.

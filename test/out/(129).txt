@@ -3,7 +3,7 @@ Name: A sorrowful duty
 Id: 151292
 Description: "Good evening again. I am sorry to say that my sources have informed us that you are no longer in possession of the little gift that we entrusted to you... but neither 'ave you delivered it. Consequently we must visit a reckoning on you and yours. 'old still." Behind the Blind Bruiser, a gang of ruffians clap iron-shod cudgels into their hands.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Offer compensation!
 Id: 129163
 Description: Perhaps you can still escape without worse consequences.
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: A battle on the dockside!
 Id: 129164
 Description: The forces of the law are conspicuous by their absence. Paid off, no doubt. This doesn't look good.

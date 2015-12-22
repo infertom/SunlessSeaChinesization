@@ -3,7 +3,7 @@ Name: The Not-So Delightful Adventuress
 Id: 176494
 Description: Barnabas stoically stands by his seething mistress, ensuring the monkeys do not take their fun too far. His bruised loyalty does not however stretch to interfering with the opportunistic monkey selling ammunition.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Decline the opportunity
 Id: 143949
 Description: That is a revenge for monkeys. You are better than that. Or more fiscally responsible, at least.
@@ -22,7 +22,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Buy a tomato
 Id: 143947
 Description: Heavy and squishy, in just the right stages of rot. Juices drip down your hand as you squeeze its soft skin.

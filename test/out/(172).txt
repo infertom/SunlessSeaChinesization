@@ -3,7 +3,7 @@ Name: Beside the Face
 Id: 169914
 Description: Up on the hillside, the buildings become scarcer and then vanish entirely, leaving you looking at the bottom of a great chin.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Push a visiting Bat off the stone chin
 Id: 139890
 Description: The visitor is wearing all black, and keeps reaching up to scratch under its bat-mask. 
@@ -24,7 +24,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Deface the stone with new markings
 Id: 139891
 Description: [This will get you kicked off the island, in all likelihood.]
@@ -43,7 +43,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Silently observe the attitude of the visiting Lion
 Id: 139892
 Description: It is paying obeisance to the face.
@@ -63,7 +63,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Meditate on the meaning of the face
 Id: 139893
 Description: It offers many forms of inspiration.
@@ -80,7 +80,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Look for the doorway into the Ear
 Id: 139900
 Description: It must be around here somewhere.
@@ -104,7 +104,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: Offer instruction to the Frog that found its way up here
 Id: 139889
 Description: That's the sort of thing your Moth would have done to you.
@@ -131,7 +131,7 @@ Description: You tell the Frog a partially true story about how this face was ca
 
 
 
-	ChildBranches 7
+		ChildBranches 7
 Name: Study ancient marks
 Id: 139888
 Description: Tiny pictures march across the stone.

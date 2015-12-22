@@ -3,7 +3,7 @@ Name: Assist at an Animescence Hospital
 Id: 181054
 Description: Animescence is a rare disease of the Elder Continent. A slow combustion of the soul, gradually baking the vital organs. Poets suffer worse than most; lovers worst of all. The blistered monks who run the hospital will accept any assistance. 
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Obtain treatments for the Brisk Campaigner
 Id: 146661
 Description: No cure exists, but the monks claim they can delay the worst symptoms.
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Ask the Brisk Campaigner to educate the monks
 Id: 146664
 Description: She has a unique perspective on the disease, being - as far as you know - the only person to survive it.
@@ -39,7 +39,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Return to Adam's Way
 Id: 146668
 Description: Turn your back on the cedar-wood doors.
@@ -56,7 +56,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Carry water in the Chapel of Pyres
 Id: 146665
 Description: Where patients in their final throes rave on stone beds.
@@ -78,7 +78,7 @@ Description: The Chapel smells like a chophouse at lunchtime. You make your way 
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Root out a reckless poet
 Id: 146666
 Description: The cellerar has discovered scraps of love-poetry on the pantry floor. The abbot wants the perpetrator found, before they dangerously inflame the inmates' passions.
@@ -102,7 +102,7 @@ Sorrowfully, the monks break the poet's pen, and spill her ink. They give her ma
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: Assist in the cloisters
 Id: 146667
 Description: Where the monks catalogue the patients' dispositions, particularities and progress.

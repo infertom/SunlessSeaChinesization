@@ -3,7 +3,7 @@ Name: The Lorn-Fluke approaches
 Id: 144191
 Description: O[xxxxx] THRR [xxxxx] N KUTHE TH[xxxxxx].
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Fight!
 Id: 124623
 Description: Your gunners' ears bleed from the onslaught of its irreducible language. But you defy this alien power!
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Flee!
 Id: 124624
 Description: Sometimes, Lorn-Flukes can be bribed with Secrets. But how many Secrets will this one demand?

@@ -3,7 +3,7 @@ Name: The Diamond Bridge
 Id: 181460
 Description: A narrow space of blinding light, all colours and none, between the towers of Brite and the towers of Teneb. Once on the Bridge, you will be exposed, like an insect in the desert, like a fresh carcass on the operating table, like a jewel in the sun.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Cross the bridge
 Id: 146934
 Description: The light will erode what you are. [This will sacrifice one point of Pages.]
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Return to the Corridors of Frostfound
 Id: 146935
 Description: 
@@ -37,7 +37,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Cross the bridge
 Id: 147088
 Description: You have the sun in your pocket.
@@ -54,7 +54,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Cross the bridge
 Id: 146933
 Description: You remember the sun.

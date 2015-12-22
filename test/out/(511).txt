@@ -3,7 +3,7 @@ Name: Observing the Latest Autopsies
 Id: 148091
 Description: There are many, many boxes piled up under the steepled roof.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: The Confessor
 Id: 127102
 Description: This one's a priest with a white collar.
@@ -23,7 +23,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: The Professor
 Id: 127103
 Description: Here's a corpse with professorial clothes and too many lines in his forehead.
@@ -46,7 +46,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: The drinker
 Id: 127104
 Description: She has a red nose and sad, sunken eyes.
@@ -66,7 +66,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: The sister
 Id: 127105
 Description: Her clothes are virtuous and her hands are neatly folded on her breast.
@@ -102,7 +102,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: The wife
 Id: 127106
 Description: She has a silver ring on her hand.
@@ -125,7 +125,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: The Fashionable Lady
 Id: 127115
 Description: Her gown scoops low and there is a lump at her cleavage as large as a golf ball.
@@ -145,7 +145,7 @@ Description:
 
 
 
-	ChildBranches 7
+		ChildBranches 7
 Name: The Rubbery Man
 Id: 127116
 Description: Most of the corpses are human, but not all.
@@ -165,7 +165,7 @@ Description:
 
 
 
-	ChildBranches 8
+		ChildBranches 8
 Name: A historian
 Id: 127117
 Description: The slim figure on the table has ink-stained fingers and a face that defies gender.
@@ -188,7 +188,7 @@ Description:
 
 
 
-	ChildBranches 9
+		ChildBranches 9
 Name: A foreigner
 Id: 127118
 Description: The woman has a square jaw and a patterned apron.
@@ -211,7 +211,7 @@ Description:
 
 
 
-	ChildBranches 10
+		ChildBranches 10
 Name: A young man
 Id: 127120
 Description: He lived just long enough to grow a mustache.

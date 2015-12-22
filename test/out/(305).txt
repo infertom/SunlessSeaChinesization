@@ -3,7 +3,7 @@ Name: Alike in Dignity
 Id: 152190
 Description: Two remarkable rodents stand -- sit? squat? -- before you. To whom will you speak first?
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Speak to the Chief Engineer
 Id: 129722
 Description: His eyes have a wave-cold glint to them and he wears his scars like jewels.
@@ -23,7 +23,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Speak to the Seneschal
 Id: 129723
 Description: How does an armoured guinea pig manage to look regal? 
@@ -54,7 +54,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: You've heard enough
 Id: 129746
 Description: Enough talk. You're ready to make a choice.

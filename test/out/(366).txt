@@ -3,7 +3,7 @@ Name: You've destroyed an Elder Angler Crab
 Id: 171495
 Description: The shell is shattered; the glowing illiciae lie silent...
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Butcher it
 Id: 140809
 Description: For supplies; and occasionally other oddities.
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Record any Observations
 Id: 140810
 Description: If you've gathered enough, you may learn something...
@@ -42,7 +42,7 @@ Description: The Angler's bulk moved with impossible grace and speed. You've lea
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Dissect it
 Id: 140808
 Description: for knowledge.

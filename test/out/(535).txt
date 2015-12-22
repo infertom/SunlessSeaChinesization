@@ -3,7 +3,7 @@ Name: Light-Ship
 Id: 152931
 Description: Its clear bright beam warms the way.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Speak to the Crew
 Id: 130198
 Description: They long for news of home...
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Purchase Fuel
 Id: 146861
 Description: They have a little spare, but it's twice the usual price.
@@ -37,7 +37,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Put a blemmigan aship
 Id: 147284
 Description: It's unlikely to flourish, but you'll have done your duty.
@@ -54,7 +54,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: "Oh, no. No no no!"
 Id: 147355
 Description: "We've heard about you. You're Captain Mushroom. You, Captain Mushroom, can turn right around and get back on your ship."

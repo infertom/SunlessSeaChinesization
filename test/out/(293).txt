@@ -3,7 +3,7 @@ Name: Monumental Ruins
 Id: 149035
 Description: The builders of this place worked with great slabs of Neath-wall stone, carved with blank-eyed, unsmiling faces and blocky, stoic serpents.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Picnic
 Id: 127779
 Description: Creepers climb the shattered pyramid. An owl blinks at you from an idol's mouth. In the undergrowth, a cave-lizard munches decorously on a white cricket. This place seems peaceful. Rest a while.
@@ -25,7 +25,7 @@ Description: A Complacent Stoker sits on a comfortable-looking stone. It rolls o
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: --
 Id: 127780
 Description: Don't forget Anarchist camp option - but tie to larger arc.
@@ -42,7 +42,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Search warily
 Id: 127778
 Description: The Neath is rarely gentle. Treat this place as enemy territory.

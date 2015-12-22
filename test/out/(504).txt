@@ -8,7 +8,7 @@ A rough, shadowed path leads from the docks to the Mirrored Gates of Varchas. Bu
 Varchas is barred to visitors.
 
 
-	ChildBranches 1
+		ChildBranches 1
 Name: A new settlement
 Id: 129879
 Description: There is a collection of tents and huts clustered in the thin ring of light around the city's walls. Perhaps you could speak to them?
@@ -31,7 +31,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Put a blemmigan ashore
 Id: 147590
 Description: Will anyone object?
@@ -48,7 +48,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Compile a Port Report
 Id: 147657
 Description: The gates are closed. The Admiralty will want to know.

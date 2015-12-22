@@ -3,7 +3,7 @@ Name: You've defeated a War Trimaran
 Id: 171350
 Description: Shattered, listing. Seize what you can.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Seize and loot her!
 Id: 140723
 Description: Take what you can. Imprison or cut down any Khaganians that remain.
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Let her go
 Id: 140724
 Description: ...if you're desperate not to antagonise the Khanate. This is a privateer which attacked you, or a rogue naval vessel - you're within your rights - but mercy will repair your reputation, if the Khanate dislikes you already.
@@ -37,7 +37,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Record any Observations
 Id: 140725
 Description: If you've gathered enough, you may learn something...
@@ -59,7 +59,7 @@ Description: Tactics, manoeuvres, weapons... and a few items of particular inter
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Send home with a prize crew
 Id: 140770
 Description: Eight zailors should be enough for a skeleton crew, unless she runs into trouble.

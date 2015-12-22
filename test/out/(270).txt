@@ -3,7 +3,7 @@ Name: A Raggedy Fellow
 Id: 141247
 Description: "[q:Addressed As]! I'm a good zeeman! I'm yours if you'll have me! Will you have me? I'm hungry. I'll work hard." He seems likely enough, if a little ragged and sorrowful.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Take him with you
 Id: 122724
 Description: You could use an extra hand.
@@ -25,7 +25,7 @@ Description: All the way back to the ship, he talks excitedly about the zeeman's
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Leave him here
 Id: 122725
 Description: Strangers are too chancy. You've heard stories about things in the shape of sailors. Or you just don't like his face.
@@ -47,7 +47,7 @@ Description: "You won't take me? Well, you'll take my curse! Salt, witness me! M
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: No room
 Id: 127820
 Description: You have a full complement. No space.
@@ -64,7 +64,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Pay his passage home
 Id: 147012
 Description: An act of generosity.
@@ -81,7 +81,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: A sudden apprehension
 Id: 127805
 Description: When he sees the zailor on your left, he turns and bolts into the darkness. After him!

@@ -3,7 +3,7 @@ Name: Deal with a Prisoner
 Id: 151261
 Description: Have they suffered enough?
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Maroon the Prisoner
 Id: 129254
 Description: Cast them adrift, or set them ashore on some uncharted eyot. Perhaps it's more merciful than jettisoning them like cargo.
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Consume the Prisoner
 Id: 129255
 Description: A natural consequence of indiscipline; the captain's ultimate prerogative.
@@ -37,7 +37,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Release the Prisoner
 Id: 129144
 Description: Offer them an amnesty, on their solemn parole. [Success in this Hearts test means they're more likely to become Crew again; but it doesn't ensure it.]

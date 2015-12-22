@@ -3,7 +3,7 @@ Name: Speak to the Campaigner
 Id: 157597
 Description: "Sit down there. I'll be with you in a moment. Captain."
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Increase your Hearts
 Id: 133117
 Description: "Oh, thank you! This is actually very interesting. Let me see if we can find something useful for you, too." [Spend a Secret to improve your Hearts, unless it's higher than 100.]
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Invite her to dine with you
 Id: 133119
 Description: ...for a light meal of sea-lily soup and whale-cheese, with a glass of Surface cordial. The Brisk Campaigner's tastes are expensive. The mutersalt ensures that the conversation waits until after-dinner coffee.
@@ -39,7 +39,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: A cure for animescence
 Id: 134236
 Description: "I have an idea. But I'm going to need flesh from chillier kingdoms. Solacefruit, from the Melting Isles where the Mangrove College lies. And, yes, more mutersalt. I regret that it's not cheap."
@@ -65,7 +65,7 @@ Description: She returns from her workroom, eyes downcast.
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Another step
 Id: 134237
 Description: "There is an account, in the journals of M. Demeaux, of a devil-rite used for the extinction of flames. The substance called 'zzoup' - it can be eaten, by the unwary at least, but it can be turned to other purposes too - "
@@ -84,7 +84,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: "Scintillack and solacefruit."
 Id: 134238
 Description: "I have a theory about the properties of fluid light, and their procession through the highways of the heart - "
@@ -110,7 +110,7 @@ Description: The Campaigner secludes herself in her work-room. You are woken nex
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: "I have one more idea - "
 Id: 134240
 Description: "I am uncomfortable with this matter of zee-gods. But I cannot afford discomfort. Can you help me find this last thing? It is rare, I know - "
@@ -131,7 +131,7 @@ Description:
 
 
 
-	ChildBranches 7
+		ChildBranches 7
 Name: Celebrate with the Campaigner
 Id: 134242
 Description: The Campaigner has changed. The irises of her eyes, which were brown, are now charred black. The flesh is shrunken on her bones. She's aged ten years. But her back is straight and her voice is clear. "Wine," she says incisively.
@@ -148,7 +148,7 @@ Description:
 
 
 
-	ChildBranches 8
+		ChildBranches 8
 Name: Proposition the Brisk Campaigner
 Id: 146903
 Description: "Perhaps it's the animescence. Perhaps, yes, all right, I'm afraid of death. But now you come to mention it, I am - restless." [The Campaigner respects insight and has no patience with crassness. Ensure your Mirrors is at least 20 points higher than your Iron.] 
@@ -166,7 +166,7 @@ Description:
 
 
 
-	ChildBranches 9
+		ChildBranches 9
 Name: Proposition the Indomitable Campaigner
 Id: 146904
 Description: "Why not? Why not indeed. You <i>are</i> quite pretty." [Perhaps the Campaigner's brush with death has left her a little giddy.]
@@ -185,7 +185,7 @@ Description:
 
 
 
-	ChildBranches 10
+		ChildBranches 10
 Name: Exchange a secret smile
 Id: 146907
 Description: A romance with an Officer might be considered unseemly. You'll need to be discreet.

@@ -3,7 +3,7 @@ Name: A Blemmigan Colony
 Id: 141271
 Description: At the heart of a salty little bog, you come upon a pulsing mound of blemmigans! They are a rich dark purple, like viscera, perhaps, or blackberries. They chitter as they swarm: the sound is like pebbles on a beach. Be careful. A single blemmigan is a nuisance. A hundred are a calamity.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Your Elegiac Cockatoo takes an interest
 Id: 122741
 Description: It leaves your shoulder and circles the blemmigan mound, emitting couplets...
@@ -22,7 +22,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Assault the colony
 Id: 125841
 Description: Repulsive creatures! Take what you can.
@@ -46,7 +46,7 @@ Of course, now you’re possessed of a mound of mud. You find nothing of value, 
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Observe the colony
 Id: 125842
 Description: Fascinating creatures! Learn what you can.

@@ -3,7 +3,7 @@ Name: Inside the Little Gate
 Id: 152551
 Description: The inner port is open to you, now, although it is clear that your welcome is conditional. Don't cause trouble.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Surrender a Long-Box for payment
 Id: 129973
 Description: The Acolyte is gone, but her colleagues will supply suitable payment.
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Return later
 Id: 129974
 Description: Other acolytes move between the buildings, singing softly, but none of them seems inclined to speak to you at this moment.
@@ -37,7 +37,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Deliver a Long-Box to the Acolyte
 Id: 130110
 Description: More secrets of the heart.
@@ -54,7 +54,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Exchange a Long-Box for a Heartmetal Ingot
 Id: 137641
 Description: What use is heartmetal to you? But then, what use is a Long-Box? (Perhaps you imagine the whisper at shoulder - 'What use, indeed, is a heart?'. When you turn, there's only the ragged flirting of the wind.)
@@ -71,7 +71,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Put a blemmigan ashore
 Id: 147592
 Description: What will it do, in this place of oil and metal?

@@ -3,7 +3,7 @@ Name: Tears
 Id: 150466
 Description: Your cheeks are wet. You think for a moment that it's zee-spray - but then the sorrow hits you like a falling stalactite. You are weeping. You double over, inconsolable.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Control yourself
 Id: 128688
 Description: Stifle your sobs. What is this? Why this sorrow?
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Weep
 Id: 128696
 Description: Give yourself over to it.

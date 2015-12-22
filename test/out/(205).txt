@@ -5,7 +5,7 @@ Description: The Temple Tower pierces through the city's heart, taller than the 
 <br/><br/>
 There are no mirrors in the Temple of Mihir. The rest of the city has to make do with mirrored light and reflection but Mihir's most sacred space is filled with hundreds of lamps and lit candles of hard-packed phosphorescent fungus.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Listen to the Mantras
 Id: 129852
 Description: "In Varchas the sun still shines!" calls the Sun-Priest, in the way of an invocation. The assembled temple-goers raise their voices in well-worn reply, <i>In Varchas the sun still shines!</i>
@@ -25,7 +25,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: The Shrine of Mihir
 Id: 129854
 Description: His stone-carved form is rubbed daily with glowing moss. Perhaps it is guilt which makes you think of placing a Lamentable Relic amongst the flowers and other offerings?
@@ -46,7 +46,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: The Sun-Seers
 Id: 129855
 Description: The most important Priests of Mihir are the Sun-Seers; they wear necklaces of glowing scintillack-beads. They'll pay well for more scintillack.
@@ -64,7 +64,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Return to the City Centre
 Id: 129905
 Description: You are done here.
@@ -81,7 +81,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Dreams of Smoke
 Id: 129916
 Description: They seem like something one of the Priests might understand, if you had a mind to tell them.
@@ -103,7 +103,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: Blue Scintillack!
 Id: 139333
 Description: How much more will they pay for this treasure?
@@ -120,7 +120,7 @@ Description:
 
 
 
-	ChildBranches 7
+		ChildBranches 7
 Name: The Bas-Reliefs
 Id: 129853
 Description: Every surface of the temple is carved and worked; if you peer closer, the bas-reliefs depict Varchas's Fall into the Neath.
@@ -149,7 +149,7 @@ Varchas as-it-is-now is conspiciously absent from the carvings, as if the Stone-
 
 
 
-	ChildBranches 8
+		ChildBranches 8
 Name: The Agnihotri
 Id: 129856
 Description: The Varchaasi equivalent of a King, or Governor; he is overseeing the rituals, and gives you a slanted glance.

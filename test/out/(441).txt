@@ -3,7 +3,7 @@ Name: Hearthsake Village
 Id: 175977
 Description: It was not madness that drove these pirates to cannibalism, but years of being shipwrecked without the comfort of meat. After a while, any meat would do.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Dine at the Captain's Table
 Id: 143604
 Description: All are welcome to share the pirates' wealth, provided they have the stomach for it. And the table manners.
@@ -33,7 +33,7 @@ He considers his pirates. "WE ARE <i>HARDLY EVER</i> SAVAGES!" he corrects, expl
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: The Lost Treasure Hunter
 Id: 143613
 Description: He joined the pirates to see the zee. Now he just hopes to one day see something he recognises.
@@ -57,7 +57,7 @@ It is a voice that so badly wants the answer to be "No."
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Return to the boat
 Id: 143642
 Description: They seem a friendly sort, and are shocked at the idea that they would ever be such poor hosts as to eat a guest. But then, they have no shortage of supplies...
@@ -74,7 +74,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Poison the Cannibal Pirates
 Id: 143643
 Description: Their leader's toasts guarantee they will all at least drink some wine. This vintage will have a particular kick.
@@ -95,7 +95,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Return to the boat
 Id: 143968
 Description: Time to head back to Port Stanton.
@@ -117,7 +117,7 @@ Description: The Boisterous Pirate even instructs his men to prepare you a littl
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: The Lost Treasure Hunter
 Id: 145076
 Description: He is holding onto what remains of his supplies now, for his next adventure.
@@ -136,7 +136,7 @@ Description:
 
 
 
-	ChildBranches 7
+		ChildBranches 7
 Name: A council of war
 Id: 145478
 Description: Since when was the village full of Pentecost apes?
@@ -157,7 +157,7 @@ Description:
 
 
 
-	ChildBranches 8
+		ChildBranches 8
 Name: Join a raid on the Empire of Hands
 Id: 143614
 Description: The cannibals often raid the mainland for both supplies and sport. "THE MORE THE MERRIER!" you are told.
@@ -196,7 +196,7 @@ At his signal, you and the pirates burst from the undergrowth and take a monkey 
 
 
 
-	ChildBranches 9
+		ChildBranches 9
 Name: Severely wounded!
 Id: 145094
 Description: The Cannibal Pirates are generous, but they are also <i>cannibals</i>. You need to recover, now!

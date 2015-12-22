@@ -3,7 +3,7 @@ Name: You've defeated a Bound-Shark
 Id: 153027
 Description: Its bonds buckled, its skin torn, its teeth shattered.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Use its meat
 Id: 130263
 Description: Its torment ended with its death. You have more immediate concerns.
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Record any Observations
 Id: 131992
 Description: If you've gathered at least 10 Observations, you may learn something...
@@ -37,7 +37,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Examine its cage-armature
 Id: 130262
 Description: Someone has bound it savagely with black iron - sunk bands and joined mechanisms deep into its flesh.

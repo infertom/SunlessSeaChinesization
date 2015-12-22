@@ -3,7 +3,7 @@ Name: Wisdom: whom have you freed?
 Id: 181204
 Description: You've rescued a prisoner from the terrible fastness of Wisdom.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: The Unsettling Sage
 Id: 146753
 Description: This is the man you came here for. Is he a man? There's something peculiar about the line of his jaw - the shape of his eyes. But he's grateful to see you.
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Some Poor Soul
 Id: 146754
 Description: You broke in here at random, or as part of your own complex schemes. You've rescued some sort of rather genteel pirate, apparently.

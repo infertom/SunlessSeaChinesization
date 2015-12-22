@@ -3,7 +3,7 @@ Name: Influence Affairs in Port Carnelian
 Id: 180499
 Description: You have an opportunity to guide the fate of London's far-flung colony.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Shore up the Governer's rule
 Id: 146341
 Description: Port Carnelian is a vital part of Her Enduring Majesty's dominions, and so it shall remain!
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Insert Khanate agents into key positions
 Id: 146343
 Description: There are other empires.
@@ -39,7 +39,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Broker an alliance of tigers
 Id: 146345
 Description: They are, after all, the rightful rulers of the Carnelian Coast.
@@ -58,7 +58,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Secure British sovereignty in the colony
 Id: 146346
 Description: Drive out the Khan's agents, and arrange to secure the colony's British allegiance.
@@ -78,7 +78,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Stage a coup!
 Id: 146347
 Description: Hand the colony to the Khanate.
@@ -98,7 +98,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: Drive out the foreign powers
 Id: 146350
 Description: Restore the Carnelian Coast to the tigers.
@@ -119,7 +119,7 @@ Description:
 
 
 
-	ChildBranches 7
+		ChildBranches 7
 Name: Bide your time
 Id: 146351
 Description: Not yet.

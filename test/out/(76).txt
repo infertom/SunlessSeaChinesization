@@ -5,7 +5,7 @@ Description: A chunk of grit baked in your ship's biscuit! You crack a tooth and
 <br/><br/>
 "Diamonds are sacred to Stone,' one says. "Give it to the zee, captain. It'll be luck for us."
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Hang on to it
 Id: 128728
 Description: You're not going to throw a diamond in the zee to appease some nameless god of zailor's superstitions.
@@ -22,7 +22,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Do the careful thing
 Id: 128729
 Description: Zailors pray to Stone when they want home, hearth and healing. She's the kind of god you'd want on your side.

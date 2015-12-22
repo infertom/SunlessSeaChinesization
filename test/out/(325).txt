@@ -3,7 +3,7 @@ Name: You've defeated an Albino Moray
 Id: 144292
 Description: D--n me, it's an ugly thing! Even uglier dead than alive. Friendlier, though.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Butcher it
 Id: 124692
 Description: For supplies; and occasionally other oddities.
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Record any Observations
 Id: 131995
 Description: If you've gathered enough, you may learn something...
@@ -37,7 +37,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Rescue a New Jonah
 Id: 141552
 Description: The eel's gut twitches. Is something alive in there?
@@ -54,7 +54,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Dissect it
 Id: 124691
 Description: for knowledge.

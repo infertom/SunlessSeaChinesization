@@ -3,7 +3,7 @@ Name: Emland Testing Storylet
 Id: 148040
 Description: Use this to reset various things. Delete before going live!
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Reset your Trade in Long Boxes
 Id: 127067
 Description: Get rid of extant quantities
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Give yourself All the Wide Zee at 80
 Id: 127068
 Description: Won't this be fun?
@@ -37,7 +37,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Give yourself All the Wide Zee at 20
 Id: 127069
 Description: Won't this be fun?
@@ -54,7 +54,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Give yourself All the Wide Zee at 40
 Id: 127070
 Description: Won't this be fun?
@@ -71,7 +71,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Give yourself All the Wide Zee at 60
 Id: 127071
 Description: Won't this be fun?
@@ -88,7 +88,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: Give yourself Iron 50
 Id: 127072
 Description: Need some help exploring?
@@ -105,7 +105,7 @@ Description:
 
 
 
-	ChildBranches 7
+		ChildBranches 7
 Name: Give yourself Veils 50
 Id: 127073
 Description: Mmm, veils.
@@ -122,7 +122,7 @@ Description:
 
 
 
-	ChildBranches 8
+		ChildBranches 8
 Name: Give yourself Mirrors 50
 Id: 127097
 Description: Need some help exploring?
@@ -139,7 +139,7 @@ Description:
 
 
 
-	ChildBranches 9
+		ChildBranches 9
 Name: Hearts 50
 Id: 127099
 Description: What it says on tin.

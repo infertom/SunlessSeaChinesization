@@ -7,7 +7,7 @@ A rough, shadowed path leads from the docks to the Mirrored Gates of Varchas. Tw
 <br/><br/>
 The city is a beacon against the tree-hushed, sprawling darkness of the Elder Continent. In the far distance a vast mountain glimmers.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Choke on the smell
 Id: 126187
 Description: It is overpowering, sweet. It comes from the fungus growing wild all over the city's stones. 
@@ -24,7 +24,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: The zailors wave you over
 Id: 129707
 Description: They are sitting on some upturned crates on the docks, playing a game with mirrored chips and stylised snakes made of bone. 
@@ -45,7 +45,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Ask the Guard a few questions
 Id: 129708
 Description: Never a bad idea to gather a little intelligence, before heading into unknown waters. Or cities, as the case may be.
@@ -62,7 +62,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Tell the Guard you wish to enter
 Id: 129710
 Description: Well, what else are gates for, if not to go <i>through</i>?
@@ -81,7 +81,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Put a blemmigan ashore
 Id: 147565
 Description: Will the Guard permit it?
@@ -98,7 +98,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: Compile a Port Report
 Id: 147654
 Description: The Admiralty will want to know.

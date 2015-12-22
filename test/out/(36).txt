@@ -3,7 +3,7 @@ Name: Pale Visitors
 Id: 150655
 Description: The cry goes up: Drownies in the water! The pale faces of the drowned-dead bob up like lamps. They're singing...
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Drown out their song with the roar of the engines
 Id: 128735
 Description: Drownies are drawn to fear like pickpockets to crowds. Stoke the engines as hot as they'll go: it will use fuel and may damage the ship, but you'll drown out their wretched song.
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Ignore it as best you can
 Id: 128738
 Description: Stop your ears. Set to work. You can't spare the fuel.

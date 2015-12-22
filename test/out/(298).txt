@@ -3,7 +3,7 @@ Name: An Exile Aboard?
 Id: 153222
 Description: A Mute Exile wants to join your crew. Will you permit it?
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Permit it
 Id: 130388
 Description: ...though other zailors clutch their zee-talismans and make signs against evil. The folk of Whither are uncanny: those who are exiled to Codex must be more so.
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Refuse it
 Id: 130389
 Description: You'll pick your crew more carefully.

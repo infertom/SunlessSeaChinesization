@@ -5,7 +5,7 @@ Description: "Captain! Captain! An irregularity with the Harbourmaster's Office!
 <br/><br/>
 [This will determine what people call your captain, but your captain's gender is up to you.]
 
-	ChildBranches 1
+		ChildBranches 1
 Name: "Madam."
 Id: 112667
 Description: More zee-captains choose this than you might expect.
@@ -24,7 +24,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: "Sir."
 Id: 113495
 Description: 
@@ -42,7 +42,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: "Citizen."
 Id: 113496
 Description: A term of address popular among those of egalitarian sentiments.
@@ -60,7 +60,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: "my Lord."
 Id: 113498
 Description: Perhaps you really do come from a noble family. Who's to know?
@@ -78,7 +78,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: "my Lady."
 Id: 113499
 Description: Perhaps you really do come from a noble family. Who's to know?
@@ -96,7 +96,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: 'Captain.'
 Id: 113500
 Description: 'Captain' will do perfectly well ashore as well as at sea, thank you.

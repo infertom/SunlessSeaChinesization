@@ -3,7 +3,7 @@ Name: Khanate War Trimaran
 Id: 144272
 Description: Your home nation is not technically at war with the Khanate, but the Khanate navy are quite happy to behave like privateers. Khaganian sailors in brave red and gold scurry up and down the decks, readying weapons.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Fight!
 Id: 124677
 Description: Show them what Londoners are made of!
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Will they recognise your token?
 Id: 128202
 Description: It's worth some sort of respect from the Khanate, but who can say what or how?
@@ -37,7 +37,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Peace through piety?
 Id: 124678
 Description: Perhaps you can avoid conflict. What do you know about the Khaganian religion?

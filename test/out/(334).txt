@@ -3,7 +3,7 @@ Name: The Megalops defeated
 Id: 148076
 Description: With a forlorn and wailing cry, the Megalops turns on its back, legs neatly folded, as bluish blood gouts from its wounds. Its golden glow begins to dim.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Butcher it
 Id: 127094
 Description: For supplies.
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Record any Observations
 Id: 131980
 Description: If you've gathered at least three Observations, you may learn something...
@@ -37,7 +37,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Dissect it
 Id: 127093
 Description: For knowledge.

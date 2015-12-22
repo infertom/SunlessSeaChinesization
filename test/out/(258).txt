@@ -3,7 +3,7 @@ Name: Speak with your Navigator
 Id: 148807
 Description: "I... yes. Yes, now is good. Thank you."
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Increase your Mirrors
 Id: 127638
 Description: [Spend a Secret to improve your Mirrors, unless it's higher than 100.]
@@ -22,7 +22,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Answer questions about your past
 Id: 127640
 Description: You've kept your secrets long enough. [Unmask yourself! This will allow you to select a Past, Ambition, and form of preferred address - also providing you with a specialist ability bonus.]
@@ -39,7 +39,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Invite him to dine with you
 Id: 127641
 Description: He has an admirable appetite for so slight a fellow. 
@@ -60,7 +60,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: His last request
 Id: 147453
 Description: The truth has broken him.
@@ -79,7 +79,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Increase your Mirrors
 Id: 147454
 Description: [Spend a Secret to improve your Mirrors, unless it's higher than 100.]
@@ -96,7 +96,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: "Captain. Captain!"
 Id: 147492
 Description: "My sleep is riddled with dreams, [q:Addressed As]. Dreams of bells and candles!"
@@ -115,7 +115,7 @@ Description:
 
 
 
-	ChildBranches 7
+		ChildBranches 7
 Name: The ship's surgeon finds you
 Id: 147496
 Description: "He's awake, [q:Addressed As], and he's asking for you." The Navigator has slept - fitfully - since he collapsed on the Frostfound ice.
@@ -133,7 +133,7 @@ Description:
 
 
 
-	ChildBranches 8
+		ChildBranches 8
 Name: "Captain, may I speak with you? In private."
 Id: 147497
 Description: His voice is dull. His sigil throbs, red as embers in the Neathy gloom. 
@@ -150,7 +150,7 @@ Description:
 
 
 
-	ChildBranches 9
+		ChildBranches 9
 Name: Suggest another option
 Id: 147498
 Description: It would be a release for him - of a sort - and it has a certain sanguine poetry...
@@ -167,7 +167,7 @@ Description:
 
 
 
-	ChildBranches 10
+		ChildBranches 10
 Name: Ask where he would like to disembark
 Id: 147527
 Description: "Leave me on Codex, where my silence won't be questioned. Or at the Empire of Hands, where no one will care."
@@ -188,7 +188,7 @@ Description:
 
 
 
-	ChildBranches 11
+		ChildBranches 11
 Name: He stands at the rail, staring into the dark
 Id: 147637
 Description: He flinches when you join him. His sigil has been troubling him of late.

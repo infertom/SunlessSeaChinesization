@@ -3,7 +3,7 @@ Name: Read the Boke of Sharpes
 Id: 169762
 Description: Some previous zee-captain acquired this horrendous compendium. Where, you'll never know. That's for the best.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Read the Boke
 Id: 139808
 Description: Some of the stains are so old that they no longer smell. Some of the writing is still legible. [This will increase your Iron to 60.]
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Read the Boke
 Id: 139809
 Description: You're a soldier. This is your business. [This will increase your Iron to 85.]

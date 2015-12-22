@@ -3,7 +3,7 @@ Name: You've destroyed a Tyrant-Moth
 Id: 173743
 Description: It's already disintegrating into a sloughy mass, like a slick of rotting leaves.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Search for jewels
 Id: 142160
 Description: There's an old story...
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Record any Observations
 Id: 142161
 Description: If you've gathered at least 10 Observations, you may learn something...
@@ -39,7 +39,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Examine it before its final dissolution
 Id: 142159
 Description: Those mosaic configurations on its wings. Do they carry meaning?

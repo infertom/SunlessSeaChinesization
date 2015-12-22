@@ -6,7 +6,7 @@ Description: The conversation is taking place in a corner of the building, on ma
 <br/>
 "What about you?" she asks. "Is there any secret you struggle not to tell anyone?"
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Say no, and mean it
 Id: 127754
 Description: Your conscience is clear.
@@ -23,7 +23,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Say no dishonestly
 Id: 127755
 Description: There's nothing she needs to hear.
@@ -43,7 +43,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Admit that you do have certain secrets
 Id: 127756
 Description: Who doesn't?
@@ -64,7 +64,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Tell the whole horrible truth
 Id: 127758
 Description: Perhaps it will interest her.
@@ -84,7 +84,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Invent something pleasingly awful to tell her
 Id: 127767
 Description: Who knows, perhaps she'll believe you.

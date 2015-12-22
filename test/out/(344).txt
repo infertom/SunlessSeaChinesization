@@ -3,7 +3,7 @@ Name: Jillyfish Passing
 Id: 168000
 Description: It was a colossus of toxic tentacles, capped with hardened ramming-goo. Now it's a smear on the ocean's surface. Jillyfish dissolve in minutes once they're dead.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Scoop up what's left!
 Id: 138770
 Description: It might be edible. Parts of it might be edible. Parts of it might be anything.
@@ -25,7 +25,7 @@ Description: It might serve for soup, or sauce. Goo sauce. But what's this promi
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Let it disperse
 Id: 138771
 Description: Watch its oil-rainbow colours fade.
@@ -42,7 +42,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Let it disperse
 Id: 138772
 Description: Watch its oil-rainbow colours fade.
@@ -59,7 +59,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Let it disperse
 Id: 138773
 Description: Watch its oil-rainbow colours fade.

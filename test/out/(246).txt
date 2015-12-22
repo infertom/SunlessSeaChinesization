@@ -3,7 +3,7 @@ Name: Speak to the Magician
 Id: 147321
 Description: He's a good engineer, despite that missing hand. But zailors fall silent when he passes.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Ask bluntly about his hook
 Id: 126631
 Description: ...after a fish supper and a half-carafe of adequate Morelways.
@@ -24,7 +24,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Ask how a magician came to be an engineer
 Id: 126683
 Description: ...after a meal of salt pork and a glass of good Greyfields.
@@ -45,7 +45,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Dispel the darkness?
 Id: 126684
 Description: He's mentioned before that he was in the theatre. Could he arrange a... diversion... to improve morale? His eyes are opaque. "Yes," he acknowledges. "But I will require some very particular materials. Don't ask why."
@@ -68,7 +68,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Answer his questions about your past
 Id: 127501
 Description: You've kept your secrets long enough. [Unmask yourself! This will allow you to select a Past, Ambition, and form of preferred address - also providing you with a specialist ability bonus.]
@@ -85,7 +85,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Ask again about the Khanate
 Id: 129686
 Description: He needs to find help in the Khanate to enact his revenge. What kind of help? Invite him to dinner and ask about it.
@@ -104,7 +104,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: Construct the Serpentine
 Id: 129790
 Description: "I have an idea."
@@ -121,7 +121,7 @@ Description:
 
 
 
-	ChildBranches 7
+		ChildBranches 7
 Name: Ask about the Khanate
 Id: 129961
 Description: He needs to find help in the Khanate to enact his revenge. What kind of help? Invite him to dinner and ask about it.
@@ -140,7 +140,7 @@ Description:
 
 
 
-	ChildBranches 8
+		ChildBranches 8
 Name: Increase your Veils
 Id: 129987
 Description: [Spend a Secret to improve your Veils, if it is no higher than 100.]
@@ -157,7 +157,7 @@ Description:
 
 
 
-	ChildBranches 9
+		ChildBranches 9
 Name: "Do you have any use for this?"
 Id: 146680
 Description: Offer the Magician a Mirrorcatch Box Full of Very Angry Dream-Snakes.
@@ -174,7 +174,7 @@ Description:
 
 
 
-	ChildBranches 10
+		ChildBranches 10
 Name: Exchange a secret smile
 Id: 147266
 Description: A romance with an Officer might be considered unseemly. You'll need to be discreet.
@@ -191,7 +191,7 @@ Description:
 
 
 
-	ChildBranches 11
+		ChildBranches 11
 Name: Proposition the Genial Magician
 Id: 147267
 Description: "Honestly, I could use the distraction. Don't look at me like that. You're terribly desirable. But I <i>could</i> use the distraction." [The Magician enjoys erudition. Ensure that your Pages is at least twenty points higher than your Iron.]
@@ -210,7 +210,7 @@ Description:
 
 
 
-	ChildBranches 12
+		ChildBranches 12
 Name: Proposition the Prudent Magician
 Id: 147268
 Description: "Yes. Yes, I would like that." [The Magician enjoys erudition. Ensure that your Pages is at least twenty points higher than your Iron.]
@@ -228,7 +228,7 @@ Description:
 
 
 
-	ChildBranches 13
+		ChildBranches 13
 Name: Proposition the Satisfied Magician
 Id: 147269
 Description: "Oh, yes, very yes indeed. Why don't you come over here?" [The Magician enjoys erudition. Ensure that your Pages is at least twenty points higher than your Iron.]
@@ -246,7 +246,7 @@ Description:
 
 
 
-	ChildBranches 14
+		ChildBranches 14
 Name: Proposition the Urbane Magician
 Id: 147270
 Description: "I do so enjoy the way you think. Let's see what this body is capable of."

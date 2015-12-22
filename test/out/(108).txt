@@ -3,7 +3,7 @@ Name: The Dark-Spectacled Admiral
 Id: 120801
 Description: You're ushered into his office off Mansion's Pyre: a cramped room with a vast desk. He surveys you across that desk. "Ah yes. The merchant-captain of whom we hear such complicated things." [The Admiral will purchase intelligence from you.]
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Submit your Port Reports
 Id: 109938
 Description: [Visit and investigate ports to gain Port Reports, and trade them in here.]
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Pass on Strategic Information
 Id: 110629
 Description: The Admiral sits up, although he steeples his fingers and pretends calm.
@@ -37,7 +37,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Ask what he needs
 Id: 125023
 Description: Discover the Admiral's desires.
@@ -54,7 +54,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Submit a Revelatory Chart
 Id: 125251
 Description: Let's find out if it's real.
@@ -71,7 +71,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Return to Wolfstack Docks
 Id: 126755
 Description: The Admiral's room is dark and stuffy. You need zee-air.
@@ -88,7 +88,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: Submit Brimstone Buzzings
 Id: 127956
 Description: What will it mean to the Admiral?
@@ -105,7 +105,7 @@ Description:
 
 
 
-	ChildBranches 7
+		ChildBranches 7
 Name: Ask if there's anything in particular he needs
 Id: 127957
 Description: "Well, if I can be assured of your discretion - "
@@ -122,7 +122,7 @@ Description:
 
 
 
-	ChildBranches 8
+		ChildBranches 8
 Name: Speak of Moves in the Great Game
 Id: 127958
 Description: Whispers - 
@@ -139,7 +139,7 @@ Description:
 
 
 
-	ChildBranches 9
+		ChildBranches 9
 Name: Turn in your shipment of red honey
 Id: 127959
 Description: It is very firmly proscribed; the Admiral will probably be quite eager to hear where you came by it.
@@ -156,7 +156,7 @@ Description:
 
 
 
-	ChildBranches 10
+		ChildBranches 10
 Name: Submit Vital Intelligence
 Id: 127960
 Description: "What's that? Tell me, quickly!" [Vital Intelligence can be created from two pieces of Strategic Information, or earned through spy networks and some other opportunities.]
@@ -178,7 +178,7 @@ Description: "I'm especially glad you brought this to me, rather than... you kno
 
 
 
-	ChildBranches 11
+		ChildBranches 11
 Name: Ask the Admiral what he thinks of the Voracious Diplomat
 Id: 142296
 Description: The Diplomat - a half-legendary, all-infamous figure whose connection to the Admiralty is obscure.
@@ -195,7 +195,7 @@ Description:
 
 
 
-	ChildBranches 12
+		ChildBranches 12
 Name: Submit Vital Intelligence
 Id: 142324
 Description: "What's that? Tell me, quickly!" [Vital Intelligence can be created from two pieces of Strategic Information, or earned through spy networks and some other opportunities.]
@@ -212,7 +212,7 @@ Description:
 
 
 
-	ChildBranches 13
+		ChildBranches 13
 Name: 'A deplorable end'
 Id: 144580
 Description: At the Parthenaeum Club, the Admiral dropped hints about your father, and about his 'deplorable end'. What does the Admiral know?
@@ -233,7 +233,7 @@ Description:
 
 
 
-	ChildBranches 14
+		ChildBranches 14
 Name: Sell the Memento Mori to the Royal Navy
 Id: 146140
 Description: "My God, yes! If it can do everything you claim, I can authorise a payment of - let's see - one thousand Echoes." Perhaps you looked a little disappointed. "And her Enduring Majesty's enduring gratitude. London needs this."
@@ -252,7 +252,7 @@ Description:
 
 
 
-	ChildBranches 15
+		ChildBranches 15
 Name: Assistance with subsistence?
 Id: 146422
 Description: Ask if the Admiralty can provide a little fuel to cover your costs. [This will take you to the Drydock, where 1 point of Favour will get you 2-3 Fuel.]
@@ -269,7 +269,7 @@ Description:
 
 
 
-	ChildBranches 16
+		ChildBranches 16
 Name: "Please don't send me to b___dy Frostfound."
 Id: 147210
 Description: Appeal to the Admiral's better nature. Remind of your past services to his office. Frostfound is far away and freezing cold and in all probability no one there will co-operate.

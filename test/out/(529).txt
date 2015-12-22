@@ -5,7 +5,7 @@ Description: The Chief Engineer emerges from underground with a motley assortmen
 <br><br>
 "So you're going to help us beat the Cavies," he says, a hard edge to his voice. "But how exactly?" 
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Offer guns
 Id: 129782
 Description: You'd rather not get directly involved, but you can spare some scrap metal, shot, and maybe a deck gun.
@@ -24,7 +24,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Offer to attack the Cavies yourself.
 Id: 129785
 Description: You have a ship. You have cannons. Steer her to the Southern side of the island and have at those anachronistic animals!
@@ -50,7 +50,7 @@ A damp hush settles over your crew as the smoke clears to reveal the torn, blood
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Offer assistance with strategy
 Id: 129786
 Description: Engineer a distraction to enable the rats to raid the Cavies' ship for supplies.

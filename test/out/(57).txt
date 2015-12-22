@@ -3,7 +3,7 @@ Name: A missing zailor?
 Id: 141726
 Description: At roll-call, there's one face too few... and you don't like the uneasy hush that descends. Your crew are on the brink of starvation. Has one committed the primal crime of cannibalism?
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Ignore it
 Id: 124816
 Description: Best left alone. If you find the cannibal, you'll lose two zailors.
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Investigate
 Id: 122984
 Description: There is a spirit or god in the Neath whose name is not spoken. He is worshipped with candles, and with the frenzied consumption of flesh. Has someone here turned to that worship?

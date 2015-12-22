@@ -3,7 +3,7 @@ Name: Speak to the Plausible Surgeon
 Id: 148100
 Description: "Hello, my dear, my dear. Sit down carefully. Just let me tidy away these implements. We don't want any carelessness, do we?"
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Increase your Pages
 Id: 127109
 Description: "Ohoho, we'd like to talk about <i>secrets</i>, would we? Secrets are my very <i>favourite</i>." [Spending a Secret will improve your Pages, but no higher than 50.]
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: 
 Id: 146431
 Description: 

@@ -3,7 +3,7 @@ Name: Summon a Beastie
 Id: 153495
 Description: I can call spirits from the vasty deep!
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Fight a PirateSteamPinnace
 Id: 130530
 Description: 
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Fight a Behemoustache
 Id: 130531
 Description: Without having to go and find one at zee.
@@ -37,7 +37,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Fight an AnglerCrab
 Id: 130532
 Description: 
@@ -54,7 +54,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Fight a Lifeberg
 Id: 130533
 Description: 
@@ -71,7 +71,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Fight a BatSwarm
 Id: 130534
 Description: 
@@ -88,7 +88,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: Fight a PirateFrigate
 Id: 130535
 Description: 
@@ -105,7 +105,7 @@ Description:
 
 
 
-	ChildBranches 7
+		ChildBranches 7
 Name: Fight an AlbinoMoray
 Id: 130536
 Description: 
@@ -122,7 +122,7 @@ Description:
 
 
 
-	ChildBranches 8
+		ChildBranches 8
 Name: Fight a BoundShark
 Id: 130537
 Description: 
@@ -139,7 +139,7 @@ Description:
 
 
 
-	ChildBranches 9
+		ChildBranches 9
 Name: Fight a LornFluke
 Id: 130538
 Description: 
@@ -156,7 +156,7 @@ Description:
 
 
 
-	ChildBranches 10
+		ChildBranches 10
 Name: Fight a HuntingParty
 Id: 130553
 Description: 
@@ -173,7 +173,7 @@ Description:
 
 
 
-	ChildBranches 11
+		ChildBranches 11
 Name: Fight WingedThingsSwarm
 Id: 130594
 Description: 
@@ -190,7 +190,7 @@ Description:
 
 
 
-	ChildBranches 12
+		ChildBranches 12
 Name: Fight CorsairBand
 Id: 130595
 Description: 

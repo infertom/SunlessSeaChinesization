@@ -1,12 +1,13 @@
 package analysisEvents;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 
-public class ChildBranche {
+public class ChildBranche implements Iterable<ChildBrancheEvent>{
 	private JSONObject childBranche;
 	private List<ChildBrancheEvent> childBrancheEvents = new ArrayList<ChildBrancheEvent>();
 	String title = "";
@@ -81,11 +82,30 @@ public class ChildBranche {
 
 		return num;
 	}
+	
+	//获取包含片段par的Info
+	public String getInfoByDes(String par){
+		if ( this.getDesNum(par) == 1 ){
+			String description = this.getDescription();
+			String temp = "";
+			if ( description != null && description.indexOf(par) != -1 ){
+				temp = this.getEventInfo();
+			}else{
+				for ( ChildBrancheEvent e : childBrancheEvents ){
+					temp = e.getInfoByDes(par);
+					if ( temp != null ) break;
+				}
+			}
+			return temp;
+		}else{
+			return null;
+		}
+	}
 
 	// 替换Description
 	public Boolean exchangeDescription(String par, String buffer) {
 		if (this.getDesNum(par) == 1) {
-			String description = childBranche.getString("Description");
+			String description = this.getDescription();
 			if (description != null && description.indexOf(par) != -1) {
 				childBranche.put("Description", buffer);
 			} else {
@@ -99,26 +119,37 @@ public class ChildBranche {
 		}
 	}
 
-	// 获取当前Event的JSONObject
-	public JSONObject getJsonObject() {
+	// 获取当前Event的JSONO-String
+	public String getJsonString() {
 		for (ChildBrancheEvent e : childBrancheEvents) {
-			childBranche.put(e.getTitle(), e.getJsonObject());
+			childBranche.put(e.getTitle(), JSON.parseObject(e.getJsonString()));
 		}
 
-		return childBranche;
+		return childBranche.toJSONString();
 	}
 
 	// 获取info，包含Description，Name，Id
+	public String getEventInfo(){
+		String temp = "\t\t" + this.getTitle() + "\r\n" + 
+				  "Name: " + this.getName() + "\r\n" +
+				  "Id: " + this.getId() + "\r\n" +
+				  "Description: " + this.getDescription() + "\r\n\r\n";
+		return temp;
+	}
+	
+	//获取包含event及分支的所有信息
 	public String getInfo() {
-		String temp = "\t" + this.getTitle() + "\r\n" + 
-					  "Name: " + this.getName() + "\r\n" +
-					  "Id: " + this.getId() + "\r\n" +
-					  "Description: " + this.getDescription() + "\r\n\r\n";
+		String temp = this.getEventInfo();
 		for (ChildBrancheEvent e : childBrancheEvents) {
-			temp += e.getInfo();
+			temp += e.getEventInfo();
 		}
 		temp += "\r\n\r\n";
 		
 		return temp;
+	}
+	
+	
+	public Iterator<ChildBrancheEvent> iterator(){
+		return childBrancheEvents.iterator();
 	}
 }

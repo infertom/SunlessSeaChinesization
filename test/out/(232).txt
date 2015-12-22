@@ -3,7 +3,7 @@ Name: A New Recruit
 Id: 154278
 Description: Someone wants to sign on. [On later visits, different officers will sometimes be available. If there's more than one choice, you can choose one per visit.]
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Engage an Officer: the Brisk Campaigner
 Id: 123074
 Description: "Hoi, you! You need a real physician. None of your surgeons." [The Brisk Campaigner is a skilled Doctor who increases Hearts and Iron.]
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Engage an Officer: the Haunted Doctor
 Id: 123075
 Description: "Please. I must leave this place. I can work my passage. I'm a doctor." [The Haunted Doctor increases Hearts and Pages.]
@@ -37,7 +37,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Engage an Officer: the Genial Magician
 Id: 126575
 Description: "Good afternoon, [q:Addressed As]! Perhaps I can do your engines some good. No, ha ha, I'm quite the engineer. Difficult to credit, isn't it? But here are my references." [The Genial Magician increases Veils and Mirrors.]
@@ -54,7 +54,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Engage an Officer: the Presbyterate Adventuress
 Id: 126591
 Description: "Afternoon, [q:Addressed As]. Looking for a gunnery officer? I'd like to help you blow up some monsters, if you'll have me." [The Adventuress is a Gunnery Officer who increases Iron and Veils.]
@@ -72,7 +72,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Engage an Officer: the Tireless Mechanic
 Id: 126593
 Description: The Tireless Mechanic has had enough of Frostfound. He smiles at you over his spectacles, teeth chattering. "Brrr. So glad to see a ship at last. Ready to offer my services. I'm an engineer. Finest you'll ever hire. Treat engines like my own children. Not that I have children. Too busy. Usually busy." [The Tireless Mechanic increases Veils and Fuel Efficiency.]
@@ -89,7 +89,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: Engage an Officer: the Carnelian Exile 
 Id: 126594
 Description: "[q:Addressed As]. I know the way. Let me show you."
@@ -108,7 +108,7 @@ Description:
 
 
 
-	ChildBranches 7
+		ChildBranches 7
 Name: Engage an Officer: Maybe's Daughter
 Id: 126595
 Description: At the end of the rotting dock, a woman perches on a suitcase. Both she and the suitcase are noticeably cleaner than everything else in view. 
@@ -127,7 +127,7 @@ Description:
 
 
 
-	ChildBranches 8
+		ChildBranches 8
 Name: Engage an Officer: the Irrepressible Cannoneer
 Id: 126601
 Description: "[q:Addressed As]! Are you looking for a gunner? I'm looking for a ship! Here are my references!! Here are more references!! Here's my design for a whistling shell!! Here's my colleague!! (He'll stay on shore.) Here's my hand!!! Will you take it?" [The Cannoneer is a Gunnery Officer who substantially increases Iron.]
@@ -144,7 +144,7 @@ Description:
 
 
 
-	ChildBranches 9
+		ChildBranches 9
 Name: Engage an Officer: the Sigil-Ridden Navigator.
 Id: 126630
 Description: "I... let me guide your ship. I know all the zee, how it was, how it will be. Please. I... the headaches only stop when I'm working." [The Navigator is a First Officer who increases Mirrors and Veils.]
@@ -161,7 +161,7 @@ Description:
 
 
 
-	ChildBranches 10
+		ChildBranches 10
 Name: Engage a Zailor
 Id: 131053
 Description: What desperate desire has led this one to sign on? Who cares? They're very keen. Consequently, they're cheap. [This will simply increase your Crew by one.]

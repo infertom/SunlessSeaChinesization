@@ -3,7 +3,7 @@ Name: Receive an Embassy
 Id: 144251
 Description: Any pirate in a hut can raise a flag. You're much more than that, now - the governor of a thriving settlement. But to be taken seriously as a nation, you must be formally recognised, and make an alliance. Who is your chosen ally?
 
-	ChildBranches 1
+		ChildBranches 1
 Name: A pact with Khan's Shadow
 Id: 124663
 Description: The Shadow is desperate for allies... but they're mistrustful. If your Viceroy is someone who knows their ways, and if you have an introduction from their friends, then they'll work with you.
@@ -24,7 +24,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: An accommodation with London
 Id: 149343
 Description: The Empire doesn't like its subjects founding rival nations. But honestly, there's not much they can do about it, and the Empire's power is on the wane. If you are credibly powerful - and if you have enough sway at the Admiralty - perhaps you can persuade them to wink at you.
@@ -45,7 +45,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: No one
 Id: 149346
 Description: Never mind staking a claim. You'll forge that claim in blood and fire. If anyone tries to take it from you, you'll fling it back at them.
@@ -77,7 +77,7 @@ This is your kingdom. London is where you began - but now, this is your home. Fr
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: An understanding with the Presbyterate
 Id: 149344
 Description: The nation at the heart of the Elder Continent is older than London and the Khanate put together. They have an entire government department devoted to mithridacy - the art of confusing foreigners. Perhaps - just perhaps - you can work out the right thing to say to them.
@@ -111,7 +111,7 @@ This is your kingdom. London is where you began - but now, this is your home. Fr
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Overtures to the Khanate
 Id: 124662
 Description: The Khanate is not easily impressed. You'll need to master the proper forms of address, and the proper literary allusions - tremendously difficult, even for the best-educated barbarian. You'll need the favour of the Leopard, the royal clan. And you'll need to send a suitable gift.

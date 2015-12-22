@@ -3,7 +3,7 @@ Name: Your Colony
 Id: 183590
 Description: One day, perhaps, your kingdom.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Establish your colony in earnest
 Id: 148316
 Description: Put ten volunteers ashore here, with enough supplies, building materials and cutlery to civilise this desert isle.
@@ -22,7 +22,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Improve your estate
 Id: 148738
 Description: Bricks, barrels, glass, books, pianos, antimacassars, tea. All the components of civilisation. [You must increase your Estate quality to 100 before declaring yourself a nation.]
@@ -39,7 +39,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Increase your population
 Id: 148739
 Description: Suggest to five crew that they might want to remain ashore. [You must increase your population to 77 before declaring yourself a nation.]
@@ -56,7 +56,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Install a viceroy - the Satisfied Magician
 Id: 149226
 Description: You'll need someone to rule in your absence. He's proven himself intelligent, charismatic and trustworthy, now that his quest for revenge is complete.
@@ -73,7 +73,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Install a viceroy - the Indomitable Campaigner
 Id: 149227
 Description: You'll need someone to rule in your absence. She'd probably be alarmingly good at this, now that her illness is cured.
@@ -90,7 +90,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: Install a viceroy - the Disillusioned Doctor
 Id: 149228
 Description: You'll need someone to rule in your absence. He's a realist, now. He might not be the most vigorous governor, but he's loyal.
@@ -107,7 +107,7 @@ Description:
 
 
 
-	ChildBranches 7
+		ChildBranches 7
 Name: Declare yourself a nation
 Id: 149239
 Description: When your estate and your population are great enough, you can declare yourself a nation - albeit a minor one - and complete this ambition! You will need to choose a great power to ally yourself with, or go it alone - choose this option to see the requirements.
@@ -124,7 +124,7 @@ Description:
 
 
 
-	ChildBranches 8
+		ChildBranches 8
 Name: Collect Fuel
 Id: 149249
 Description: [This will expend one point of Estate to gain 30 points of Fuel.]
@@ -141,7 +141,7 @@ Description:
 
 
 
-	ChildBranches 9
+		ChildBranches 9
 Name: Knowledge is Power
 Id: 149347
 Description: Use Vital Intelligence to lay plans and win leverage. [This will increase Estate by 3; you can do it up to five times.]
@@ -158,7 +158,7 @@ Description:
 
 
 
-	ChildBranches 10
+		ChildBranches 10
 Name: Coffee is Power
 Id: 149348
 Description: Darkdrop Coffee will energise your labourers. There are risks, of course. There are always risks. But if their hearts burst, it's probably from happiness. [This will increase Estate by 2; you can do it up to 5 times.]
@@ -175,7 +175,7 @@ Description:
 
 
 
-	ChildBranches 11
+		ChildBranches 11
 Name: Wealth is Power
 Id: 149349
 Description: Enshrine and boast of your treasures, to increase your prestige. [This will increase Estate by 5; you can do it up to five times.]
@@ -192,7 +192,7 @@ Description:
 
 
 
-	ChildBranches 12
+		ChildBranches 12
 Name: Time ashore
 Id: 150021
 Description: There's enough here for your zailors to pretend it's civilisation. Those of them that like civilisation. [This will reduce your Terror by ten points at a cost of 1 Supply.]
@@ -209,7 +209,7 @@ Description:
 
 
 
-	ChildBranches 13
+		ChildBranches 13
 Name: Repair your ship
 Id: 150022
 Description: This little drydock isn't exactly the Admiralty Shipyards; but you can manage repairs that would be impossible at zee. [This will completely repair your Hull at a cost of seven Supplies.]

@@ -3,7 +3,7 @@ Name: "Don't lose it."
 Id: 149161
 Description: You stand on the bridge with the Dapper Chap's locket in your hand.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Keep it
 Id: 127855
 Description: It's a risk for both of you. Shore-bound lovers grow lonely, and zee-captains die young.
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Throw it away
 Id: 127856
 Description: With enough time and effort, you could break his heart, or he yours.

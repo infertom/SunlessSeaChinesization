@@ -3,7 +3,7 @@ Name: You've defeated a Behemoustache
 Id: 171428
 Description: The mouth gapes. The eyes are dull.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Harvest its flesh and its moustache
 Id: 140768
 Description: The one is oily. The other is both oily and magnificent.
@@ -25,7 +25,7 @@ Description: Take its teeth as trophies, and its bones for corsets. Regrettably,
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Dig around in its innards
 Id: 140769
 Description: Not a pleasant job, but perhaps a profitable one.

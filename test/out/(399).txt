@@ -6,7 +6,7 @@ Description: Entering the brothel is like sliding into the dream of a Surface or
 The courtesans are red-lipped and kohl-smudged. When you catch their eyes, they smile back at you with professional interest.
 [Your actions will attract the Pirate-King's notice. You need 5 x Pirate-King's Notice to gain an offer from a Patron.]
 
-	ChildBranches 1
+		ChildBranches 1
 Name: A meeting with the King's Claw
 Id: 139062
 Description: The Claw keeps a suite in the maze of corridors above the brothel.
@@ -23,7 +23,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Isery's Experiment: A purposeful assignation
 Id: 139080
 Description: The courtesans at the Honeyed Tongue are warm and accommodating, if you have the coin. 
@@ -41,7 +41,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Isery's Experiment: Sacrifice a member of your crew
 Id: 139081
 Description: She is unwarily drunk on mushroom-wine, and sitting alone. Fear is an intense emotion, and one you can easily provoke.
@@ -60,7 +60,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Ask what red honey is
 Id: 139431
 Description: You know, of course. Only, the <i>particulars</i> may have slipped your mind. 
@@ -79,7 +79,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Comfort a zee-captain
 Id: 139443
 Description: A zee-captain is weeping gently into a courtesan's bosom, muttering of her lost crew, and rose gardens.
@@ -99,7 +99,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: Swap tales with a honey-smuggler
 Id: 139451
 Description: A few rousing zee-stories should loosen his tongue about the mysterious Pirate-King.
@@ -117,7 +117,7 @@ Description:
 
 
 
-	ChildBranches 7
+		ChildBranches 7
 Name: Isery's Experiment: Start a bar-fight
 Id: 139082
 Description: Easy enough in a crowd such as this one, and guaranteed to generate intense feeling. The question is: do you dare?

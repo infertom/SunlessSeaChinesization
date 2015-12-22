@@ -3,7 +3,7 @@ Name: So you're the only one who made it...
 Id: 149095
 Description: Only you and one other crew-member remain. (What of your officers? Perhaps incapacitated: perhaps worse.) One of you must be the Snuffer.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Reveal your true face!
 Id: 127818
 Description: Actually... it's you. It's been you for a while now. [We may implement an option to play as a Snuffer who's replaced the actual you, but not just yet.]
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Attack
 Id: 127816
 Description: 
@@ -60,7 +60,7 @@ No trace of the Snuffer remains... but a life-boat is missing. Something drove i
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Spare him
 Id: 127817
 Description: It's just possible that the Snuffer has already left the ship: that you're both human. You could lay down your arms, and trust the other zailor.

@@ -3,7 +3,7 @@ Name: Auroral Rupture
 Id: 138512
 Description: A light grows in the far south-west. It begins like a distant bonfire, but very rapidly, it becomes brighter, brighter. It looks remarkably like sunrise. Some of your crew fall to their knees: others duck behind cover or shield their eyes. One cries, "Dawn Machine waking!"
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Take cover
 Id: 120982
 Description: Keep your eyes on the ground. This is something uncanny.
@@ -22,7 +22,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Carnelian Exile
 Id: 120983
 Description: "Shield yourself," she whispers. "Let me watch it." [This is not available in the current build.]
@@ -39,7 +39,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Look around you, but not directly at the light
 Id: 120984
 Description: Anything like sunlight is rare, down here. What will you see?
@@ -58,7 +58,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Veils
 Id: 120985
 Description: 
@@ -75,7 +75,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Look into the light
 Id: 120981
 Description: Curiosity is deadlier than any number of sharks.

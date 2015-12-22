@@ -3,7 +3,7 @@ Name: Aftermaths
 Id: 152342
 Description: You've given the House of Cavy all the assistance you can. What next?
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Invite a Cavy on board with you.
 Id: 129831
 Description: They're reputed to be excellent swimmers. They're adorable enough to boost morale. And if times are lean, well, maybe a guinea pig stew will buy the crew a day or two before they start eating each other.
@@ -24,7 +24,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: The Wide Dark Zee
 Id: 129934
 Description: There's nothing left for you here, except the story of the place...
@@ -41,7 +41,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Intercede on behalf of the Rats.
 Id: 129832
 Description: They've been defeated, and you intuit that they had no knowledge of the damage being done to the Cavies by the Eye's theft. Perhaps amends can be made? 
@@ -77,7 +77,7 @@ As you leave, you see the Page timidly approaching an Albino rat to inquire abou
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Steal the Eye
 Id: 129833
 Description: Perhaps you think you deserve it as your due; perhaps it's what you wanted all along. In either case, it should be possible to snatch it from under the Cavies' noses while they're busy herding their prisoners. 

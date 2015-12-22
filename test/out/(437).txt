@@ -3,7 +3,7 @@ Name: The Vault of the First Emperor
 Id: 175835
 Description: This tribute to the Empire's first and greatest has been constructed over generations by monkeys working with stolen ideas of what an ancient tomb <i>should</i> be.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Return to the surface
 Id: 143516
 Description: A little more preparation is needed here
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Onwards!
 Id: 143983
 Description: This part of the temple looks distinctly more ancient, and more carefully crafted by its architects. A sense of respect and history pervades.
@@ -41,7 +41,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: An underground courtyard
 Id: 143984
 Description: Down a flight of steps, the centre of the Vault
@@ -62,7 +62,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Enter the Vault
 Id: 143988
 Description: Back to the Mosaic Floor
@@ -79,7 +79,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Press on into the Vault
 Id: 143989
 Description: What trials await through the... technically a doorway... over the melted cogs and fallen rubble?
@@ -98,7 +98,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: Return to the surface
 Id: 143990
 Description: This will require a little more preparation.
@@ -115,7 +115,7 @@ Description:
 
 
 
-	ChildBranches 7
+		ChildBranches 7
 Name: Solve the puzzle
 Id: 144007
 Description: Three poles, stone discs? Oh, please. The <i>Towers of Hanoi puzzle?</i> That little children's game that has been amusing London in recent years? This antechamber must be a more recent addition to the Vault than it looks, if even the monkeys have bought into its legend.
@@ -136,7 +136,7 @@ Description:
 
 
 
-	ChildBranches 8
+		ChildBranches 8
 Name: Continue solving the puzzle
 Id: 144008
 Description: They cannot be serious about this, surely?
@@ -160,7 +160,7 @@ Description: If you keep this up, you should be done just in time to see the Six
 
 
 
-	ChildBranches 9
+		ChildBranches 9
 Name: Reset the puzzle
 Id: 144009
 Description: You suddenly have a sense that you went wrong somewhere. Better start again!
@@ -177,7 +177,7 @@ Description:
 
 
 
-	ChildBranches 10
+		ChildBranches 10
 Name: Finally!
 Id: 144012
 Description: The last disc slides onto the final pole.
@@ -194,7 +194,7 @@ Description:
 
 
 
-	ChildBranches 11
+		ChildBranches 11
 Name: Into the Vault
 Id: 144015
 Description: Back to the Towers of Hanoi puzzle.
@@ -211,7 +211,7 @@ Description:
 
 
 
-	ChildBranches 12
+		ChildBranches 12
 Name: Enter the Vault
 Id: 144016
 Description: Through the doors, into the depths...
@@ -234,7 +234,7 @@ Description:
 
 
 
-	ChildBranches 13
+		ChildBranches 13
 Name: Blow the door open with dynamite
 Id: 144017
 Description: There's more than one way to show your intelligence.
@@ -253,7 +253,7 @@ Description:
 
 
 
-	ChildBranches 14
+		ChildBranches 14
 Name: Reset the puzzle
 Id: 144018
 Description: It'll almost certainly work properly this time.
@@ -270,7 +270,7 @@ Description:
 
 
 
-	ChildBranches 15
+		ChildBranches 15
 Name: Outside the Vault
 Id: 144019
 Description: The Delightful Adventuress consults papers while her Clay Man Barnabas and a small crew of variably hard-working monkeys try to force open the doors."
@@ -291,7 +291,7 @@ Description:
 
 
 
-	ChildBranches 16
+		ChildBranches 16
 Name: Examine the Mosaic Floor
 Id: 144021
 Description: Nine coloured tiles stretch across this corridor.
@@ -310,7 +310,7 @@ Description:
 
 
 
-	ChildBranches 17
+		ChildBranches 17
 Name: The Final Door
 Id: 144022
 Description: Huge. Imposing. Impassable. Is there a way through it?
@@ -329,7 +329,7 @@ Description:
 
 
 
-	ChildBranches 18
+		ChildBranches 18
 Name: Attempt to read the inscriptions
 Id: 144066
 Description: The Exquisite Seneschal said that this frozen drop of red honey might help.
@@ -346,7 +346,7 @@ Description:
 
 
 
-	ChildBranches 19
+		ChildBranches 19
 Name: Read the inscriptions
 Id: 144067
 Description: The ancient carvings shift between complete nonsense and easy readability as the memories wax and wane.
@@ -367,7 +367,7 @@ Description:
 
 
 
-	ChildBranches 20
+		ChildBranches 20
 Name: Step on a Yellow tile
 Id: 144070
 Description: 
@@ -384,7 +384,7 @@ Description:
 
 
 
-	ChildBranches 21
+		ChildBranches 21
 Name: Step on a Red tile
 Id: 144076
 Description: 
@@ -408,7 +408,7 @@ You run back to safety.
 
 
 
-	ChildBranches 22
+		ChildBranches 22
 Name: Step on a Blue tile
 Id: 144077
 Description: 
@@ -425,7 +425,7 @@ Description:
 
 
 
-	ChildBranches 23
+		ChildBranches 23
 Name: Step on a Green tile
 Id: 144078
 Description: 
@@ -449,7 +449,7 @@ You run back to safety.
 
 
 
-	ChildBranches 24
+		ChildBranches 24
 Name: Step on a Red tile
 Id: 144079
 Description: 
@@ -473,7 +473,7 @@ You run back to safety.
 
 
 
-	ChildBranches 25
+		ChildBranches 25
 Name: Step on a Blue tile
 Id: 144080
 Description: 
@@ -497,7 +497,7 @@ You run back to safety.
 
 
 
-	ChildBranches 26
+		ChildBranches 26
 Name: Step on a White tile
 Id: 144081
 Description: 
@@ -521,7 +521,7 @@ You run back to safety.
 
 
 
-	ChildBranches 27
+		ChildBranches 27
 Name: Step on a Blue tile
 Id: 144082
 Description: 
@@ -545,7 +545,7 @@ You run back to safety.
 
 
 
-	ChildBranches 28
+		ChildBranches 28
 Name: Step on a Red tile
 Id: 144083
 Description: 
@@ -562,7 +562,7 @@ Description:
 
 
 
-	ChildBranches 29
+		ChildBranches 29
 Name: A dusty bowl of glassy red chips
 Id: 144084
 Description: It stands on a plinth in the middle of the room, its contents seemingly untouched by the monkeys who have tried getting through the door.
@@ -579,7 +579,7 @@ Description:
 
 
 
-	ChildBranches 30
+		ChildBranches 30
 Name: Consume the red honey chip
 Id: 144089
 Description: Its frozen memories glint in the candlelight.
@@ -600,7 +600,7 @@ Description:
 
 
 
-	ChildBranches 31
+		ChildBranches 31
 Name: Open the Emperor's Tomb
 Id: 144090
 Description: The memory fades, but something remains. Only one who is as worldly-wise as the First Emperor hoped his people would be, can open this door.
@@ -617,7 +617,7 @@ Description:
 
 
 
-	ChildBranches 32
+		ChildBranches 32
 Name: Leave the Vault, for now
 Id: 144091
 Description: There has to be a better way...
@@ -634,7 +634,7 @@ Description:
 
 
 
-	ChildBranches 33
+		ChildBranches 33
 Name: Leave her to her work
 Id: 144123
 Description: There are other parts of the Empire of Hands to explore.
@@ -651,7 +651,7 @@ Description:
 
 
 
-	ChildBranches 34
+		ChildBranches 34
 Name: Outside the Vault
 Id: 144143
 Description: The Delightful Adventuress flits back and forth between her basecamp and the Vault entrance.
@@ -668,7 +668,7 @@ Description:
 
 
 
-	ChildBranches 35
+		ChildBranches 35
 Name: A complex maze stretches out ahead
 Id: 145914
 Description: The Delightful Adventuress claps your shoulder. "Have no fear, darling. Such things are hardly a problem for a woman of adventure!
@@ -687,7 +687,7 @@ Description:
 
 
 
-	ChildBranches 36
+		ChildBranches 36
 Name: A pit of venomous snakes!
 Id: 145915
 Description: You see them through the door. Thousands of them, in a pit crossable only by a thin beam lit by inconsistent neath-light through a hole in the roof. It would be no problem for a monkey to cross. But a human?
@@ -706,7 +706,7 @@ Description:
 
 
 
-	ChildBranches 37
+		ChildBranches 37
 Name: Leave the Vault
 Id: 145955
 Description: Its secrets will have to remain a little longer.
@@ -723,7 +723,7 @@ Description:
 
 
 
-	ChildBranches 38
+		ChildBranches 38
 Name: Enter the Vault
 Id: 145962
 Description: Back to the Emperor's Tomb
@@ -740,7 +740,7 @@ Description:
 
 
 
-	ChildBranches 39
+		ChildBranches 39
 Name: Leave the Vault for now
 Id: 145997
 Description: Back to the rest of Fountainhead Island
@@ -757,7 +757,7 @@ Description:
 
 
 
-	ChildBranches 40
+		ChildBranches 40
 Name: Attempt to read the inscriptions
 Id: 144020
 Description: The language is unrecognisable. Is that a bit of a pictogram? Why is it by the cricket stumps?
@@ -779,7 +779,7 @@ Description: The monkey tongue follows no apparent rules, being a creole of many
 
 
 
-	ChildBranches 41
+		ChildBranches 41
 Name: Across the snake-pit
 Id: 145917
 Description: Well, if she can do it...
@@ -810,7 +810,7 @@ The adventure continues...
 
 
 
-	ChildBranches 42
+		ChildBranches 42
 Name: Severely wounded!
 Id: 144088
 Description: You lie bleeding on the floor, fighting for life.

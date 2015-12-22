@@ -3,7 +3,7 @@ Name: A Delightful Basecamp
 Id: 176471
 Description: The Delightful Adventuress, helped by her faceless Clay Man bodyguard Barnabas and a small group of worker monkeys hired for the price of her soul, works to excavate the Vault of the First Emperor.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: To the Vault of the First Emperor
 Id: 143928
 Description: Its stone entrance dominates a small clearing.
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: A Gift for the Monkey Emperor
 Id: 143931
 Description: The Delightful Adventuress has already uncovered and put aside many treasures. A small statue amongst them looks particularly interesting.
@@ -37,7 +37,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: To the Vault of the First Emperor
 Id: 143932
 Description: Its secrets still await you.
@@ -54,7 +54,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Leave the Delightful Adventuress' camp
 Id: 143933
 Description: There is nothing here you need right now.
@@ -71,7 +71,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Pay Barnabas to help with the Mosaic Floor
 Id: 144001
 Description: A Clay Man has little to fear from crossbow bolts
@@ -90,7 +90,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: Speak with the Delightful Adventuress
 Id: 144002
 Description: She prepares to make her run on the Vault.
@@ -108,7 +108,7 @@ Description:
 
 
 
-	ChildBranches 7
+		ChildBranches 7
 Name: Consult with the Delightful Adventuress
 Id: 144003
 Description: Does she have any ideas on that infernal puzzle?
@@ -125,7 +125,7 @@ Description:
 
 
 
-	ChildBranches 8
+		ChildBranches 8
 Name: Consult with the Delightful Adventuress
 Id: 144004
 Description: Can she think of a way over that mosaic floor?
@@ -146,7 +146,7 @@ Description:
 
 
 
-	ChildBranches 9
+		ChildBranches 9
 Name: Consult with the Delightful Adventuress
 Id: 144157
 Description: She taps her feet impatiently.

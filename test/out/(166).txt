@@ -3,7 +3,7 @@ Name: Ritual's End
 Id: 168628
 Description: The hour of confidence is drawing to its end. If there is anything else you need to do, now is the time.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Set off a flare, allowing you to see everyone
 Id: 139119
 Description: You will see everything. [This will certainly get you kicked off the island.]
@@ -24,7 +24,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Set off a flare, lighting this place up
 Id: 139120
 Description: You will see everything. [This will certainly get you kicked off the island.]
@@ -45,7 +45,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Shine a light on the bat-faced figure
 Id: 139121
 Description: Really it's just him you want to understand. [This will certainly get you kicked off the island.]
@@ -72,7 +72,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Do nothing
 Id: 139122
 Description: Let the ceremony end according to the proper rites.

@@ -3,7 +3,7 @@ Name: Half-rations
 Id: 127390
 Description: Hushed voices, tired faces.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Encourage them
 Id: 114084
 Description: This isn't the time for rousing speeches, but a quiet word here and there will help.

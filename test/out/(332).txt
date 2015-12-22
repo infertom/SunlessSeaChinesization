@@ -3,7 +3,7 @@ Name: You've destroyed a Republican Dreadnought
 Id: 144320
 Description: The ship is yours! What will you do with her?
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Record any Observations
 Id: 132005
 Description: If you've gathered enough, you may learn something...
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Investigate the hold
 Id: 140804
 Description: What treasure did these villains take?

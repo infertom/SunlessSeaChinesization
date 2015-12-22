@@ -3,7 +3,7 @@ Name: Speak to the Shady Cook
 Id: 148102
 Description: "Whatcheront?" He might say more, but a coughing fit takes him. Eventually he straightens up and wipes his mouth, slowly, with his forearm. [The Shady Cook is not the most hygienic of officers, but he'll do until you find someone better.]
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Increase your Hearts
 Id: 127110
 Description: "Vorragerranarigeh?"[Spend a Secret to improve your Hearts, but no higher than 50.]
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Ask him what he wants from life?
 Id: 146423
 Description: Why did the Shady Cook choose to go to zee?

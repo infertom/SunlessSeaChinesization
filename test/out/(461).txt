@@ -3,7 +3,7 @@ Name: The Salt Lions, after
 Id: 175523
 Description: Two basalt beasts, cathedral-sized. They frown eternally at each other across the black waves. The north one carries the remnants of an encampment, fraying and tattering in the wind. A supply dock stands empty below.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Pick over the encampment
 Id: 143316
 Description: From time to time, some entrepreneur attempts to continue the disassembly of the Salt Lions. It never ends well. But perhaps they've left something.
@@ -25,7 +25,7 @@ Description: A barrel of Murgatroyd's Fungal Crackers. A sack of coke. A tear-st
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Salt's Rites
 Id: 143317
 Description: The face of the northern sphinx is all but gone. Lost faces are sacred to Salt, they say. You are drawn there. To what end? Salt's voice is distant, but clear...
@@ -42,7 +42,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: "Shalt-Flions"
 Id: 143321
 Description: You've brought the Nacreous Outcast here. With luck, it knows why.
@@ -63,7 +63,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: "Shalt-Flions"
 Id: 143322
 Description: You've brought the Nacreous Outcast here. With luck, it knows why.
@@ -80,7 +80,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Put a blemmigan ashore
 Id: 147302
 Description: The island isn't entirely sheer rock. Just mostly. Blemmigans have populated harsher environments.
@@ -98,7 +98,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: Compile a Port Report
 Id: 147670
 Description: Nothing remains. Witness.

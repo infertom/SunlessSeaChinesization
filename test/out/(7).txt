@@ -3,7 +3,7 @@ Name: Shipwrecked!
 Id: 139752
 Description: Your ship founders! There are screams - a flood of dark water - the unforgettable sound of a ship's spine breaking - 
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Slip beneath the waves
 Id: 121753
 Description: Perhaps you'll be remembered in song.
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Slip beneath the waves
 Id: 132097
 Description: You are gone. But you've provided for your heir...

@@ -3,7 +3,7 @@ Name: Speak to the Sly Navigator
 Id: 148104
 Description: "The zee, Captain. Look at it, out there! It's not our friend. Don't forget that."
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Increase your Mirrors
 Id: 127111
 Description: "Tell me a tale, and I'll tell you another. The zee is full of stories." [Spending a Secret will improve your Mirrors, but no higher than 50.]
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: What does he want?
 Id: 146427
 Description: What does he seek at zee?
@@ -39,7 +39,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Exchange a secret smile
 Id: 146623
 Description: A romance with an Officer might be considered unseemly. You'll need to be discreet.
@@ -56,7 +56,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Proposition the Sly Navigator
 Id: 146624
 Description: "I do talk nonsense about the zee, I know. But I like it. And I like you." [The Navigator values sincerity. Ensure your Hearts is at least twenty points higher than your Mirrors.]

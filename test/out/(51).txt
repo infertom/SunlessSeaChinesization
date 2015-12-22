@@ -3,7 +3,7 @@ Name: The Snuffer's Appetite
 Id: 149090
 Description: Another crewman has gone missing. Another abandoned face found on deck, as if to taunt you.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Have the ship's doctor examine your crew
 Id: 127814
 Description: Each eyes the other sidelong. Your physician can provide a more educated evaluation.
@@ -25,7 +25,7 @@ Description: Snuffers are more malleable than men. This one has relocated its in
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Use a ruse
 Id: 127815
 Description: Snuffers, the stories say, eat candles. They are too cunning to be caught by a bait of common candles, but if you could render down something rare...

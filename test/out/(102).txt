@@ -3,7 +3,7 @@ Name: The New Sequence
 Id: 173031
 Description: Welcome back. Nothing has changed. There's been a little progress, of course.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Progress?
 Id: 141759
 Description: Is progress possible without change?

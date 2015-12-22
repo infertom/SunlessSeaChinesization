@@ -9,7 +9,7 @@ The secret, when you can focus enough to make it out, is this:
 <br/>
 The Austere Acolyte's twin was not her twin, not her sister at all. The Acolyte never had a sister. This being took up wearing a mirror of her face, early in her childhood. It was drawn by her early promise, by the likelihood of her success.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Tell her the truth
 Id: 127812
 Description: What a relief it would be for her to know she wasn't to blame for a sister's death.
@@ -29,7 +29,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Invent a comforting lie
 Id: 127813
 Description: How lonely she would be to learn that her childhood's companion was not her sister at all.

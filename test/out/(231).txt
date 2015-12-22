@@ -3,7 +3,7 @@ Name: The Admiralty Survey Office
 Id: 144833
 Description: The Admiralty's picket fleets and intelligence networks are long gone. The Survey Office pays zee-captains a small sum for recent information. [Visit and investigate ports to gain Port Reports, and trade them in here. The first time you trade in a Port Report, you'll gain Admiralty's Favour.]
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Demeaux Island
 Id: 125031
 Description: "You've been to Demeaux's Gate?"
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Gaider's Mourn
 Id: 125032
 Description: "You have something to tell us about the pirate fleets of the Forest?"
@@ -37,7 +37,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Hunter's Keep
 Id: 127981
 Description: "I trust the sisters are keeping well? They are citizens of her Enduring Majesty, notionally."
@@ -54,7 +54,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Mt Palmerston
 Id: 127982
 Description: "The Brimstone Convention. They trouble me, Captain."
@@ -71,7 +71,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Port Cecil
 Id: 127983
 Description: "The Principles of Coral. I have no idea why anyone thought that settlement was a good idea."
@@ -88,7 +88,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: Quaker's Haven
 Id: 127984
 Description: "Been trying the original Rubbery Lumps, have we?"
@@ -105,7 +105,7 @@ Description:
 
 
 
-	ChildBranches 7
+		ChildBranches 7
 Name: Venderbight
 Id: 127985
 Description: "What have the nearly-dead been up to, then?"
@@ -122,7 +122,7 @@ Description:
 
 
 
-	ChildBranches 8
+		ChildBranches 8
 Name: Whither
 Id: 127986
 Description: "I refuse to ask any questions. I don't want to give them the satisfaction."
@@ -139,7 +139,7 @@ Description:
 
 
 
-	ChildBranches 9
+		ChildBranches 9
 Name: Leave the Admiralty
 Id: 127987
 Description: "You don't have anything else for us?
@@ -156,7 +156,7 @@ Description:
 
 
 
-	ChildBranches 10
+		ChildBranches 10
 Name: Ask to speak to the Dark-Spectacled Admiral
 Id: 128238
 Description: "Do you have an appointment?"
@@ -173,7 +173,7 @@ Description:
 
 
 
-	ChildBranches 11
+		ChildBranches 11
 Name: Ask to speak to a higher authority
 Id: 128239
 Description: "Do you have an appointment?"
@@ -190,7 +190,7 @@ Description:
 
 
 
-	ChildBranches 12
+		ChildBranches 12
 Name: Hunter's Keep's End
 Id: 129802
 Description: "I trust the sisters are keeping well? They are citizens of her Enduring Majesty, notionally."
@@ -207,7 +207,7 @@ Description:
 
 
 
-	ChildBranches 13
+		ChildBranches 13
 Name: Station III
 Id: 129835
 Description: "Excuse me. Just let me call a colleague in - "
@@ -226,7 +226,7 @@ Description:
 
 
 
-	ChildBranches 14
+		ChildBranches 14
 Name: Abbey Rock
 Id: 129836
 Description: "We categorise it as a military installation, you know. Although that has occasioned some quite vigorous debate."
@@ -243,7 +243,7 @@ Description:
 
 
 
-	ChildBranches 15
+		ChildBranches 15
 Name: Shepherd Isles: submit as unsubstantiated hearsay
 Id: 129837
 Description: "We do hear some unlikely tales of that place."
@@ -260,7 +260,7 @@ Description:
 
 
 
-	ChildBranches 16
+		ChildBranches 16
 Name: Ask if there's anything in particular they need
 Id: 130370
 Description: "Well, if we can be assured of your discretion - "
@@ -277,7 +277,7 @@ Description:
 
 
 
-	ChildBranches 17
+		ChildBranches 17
 Name: Ask if there's anything in particular they need
 Id: 130371
 Description: "Well, if we can be assured of your discretion - "
@@ -294,7 +294,7 @@ Description:
 
 
 
-	ChildBranches 18
+		ChildBranches 18
 Name: Strategic Information!
 Id: 130372
 Description: "What's that? Indeed, indeed! I'll send you up directly to speak to the Admiral himself - "
@@ -311,7 +311,7 @@ Description:
 
 
 
-	ChildBranches 19
+		ChildBranches 19
 Name: The Cumaean Canal
 Id: 130784
 Description: "Well, if you've been there, I suppose we may as well hear about it. The fee is nominal, though."
@@ -328,7 +328,7 @@ Description:
 
 
 
-	ChildBranches 20
+		ChildBranches 20
 Name: Godfall
 Id: 131301
 Description: "Pirate-monks. I honestly have no idea what we're supposed to do about pirate-monks. What are they up to?"
@@ -345,7 +345,7 @@ Description:
 
 
 
-	ChildBranches 21
+		ChildBranches 21
 Name: Pigmote Isle
 Id: 131303
 Description: "I'm not certain I heard you correctly."
@@ -362,7 +362,7 @@ Description:
 
 
 
-	ChildBranches 22
+		ChildBranches 22
 Name: Chapel of Lights
 Id: 131304
 Description: "There's something about the Unterzee that breeds heresy and dissent. I rather think we might need to send the Bishop of Southwark out for a good bit of Christian shouting."
@@ -379,7 +379,7 @@ Description:
 
 
 
-	ChildBranches 23
+		ChildBranches 23
 Name: Avid Horizon
 Id: 131305
 Description: "I hope you intend to tell me that everything is quiet there?"
@@ -396,7 +396,7 @@ Description:
 
 
 
-	ChildBranches 24
+		ChildBranches 24
 Name: Khan's Heart
 Id: 131339
 Description: "Been to the Salt Steppes, eh? Yes, this kind of material is always of interest. How a nation could be so barbarian and so decadent at once is beyond me. But they're terribly dangerous."
@@ -413,7 +413,7 @@ Description:
 
 
 
-	ChildBranches 25
+		ChildBranches 25
 Name: The Uttershroom
 Id: 133868
 Description: "You've spent time in Myceligaea? Dear me. I am most terribly sorry.
@@ -430,7 +430,7 @@ Description:
 
 
 
-	ChildBranches 26
+		ChildBranches 26
 Name: The Iron Republic
 Id: 134537
 Description: "Excuse me. I need to unlock this. And this. Oops, and this. Could you place your report inside - ? Yes, I imagine someone will read it, eventually. There's always someone."
@@ -452,7 +452,7 @@ Description: "I... no, I didn't expect that to happen. Well, perhaps it's for th
 
 
 
-	ChildBranches 27
+		ChildBranches 27
 Name: The Mangrove College
 Id: 134547
 Description: "Oh yes. The muddy philosophers. Do tell."
@@ -469,7 +469,7 @@ Description:
 
 
 
-	ChildBranches 28
+		ChildBranches 28
 Name: Saviour's Rocks
 Id: 138333
 Description: "Goodness. We don't often hear news from there. Screaming, sometimes."
@@ -488,7 +488,7 @@ Description:
 
 
 
-	ChildBranches 29
+		ChildBranches 29
 Name: Saviour's Rocks
 Id: 138334
 Description: "Goodness. We don't often hear news from there. Screaming, sometimes."
@@ -505,7 +505,7 @@ Description:
 
 
 
-	ChildBranches 30
+		ChildBranches 30
 Name: Isle of Cats
 Id: 139574
 Description: "And what does the so-called Pirate-King have to say for himself, these days?"
@@ -522,7 +522,7 @@ Description:
 
 
 
-	ChildBranches 31
+		ChildBranches 31
 Name: Visage
 Id: 142040
 Description: "Ah, the island that looks up. I don't suppose you found out what it's staring at."
@@ -539,7 +539,7 @@ Description:
 
 
 
-	ChildBranches 32
+		ChildBranches 32
 Name: Polythreme
 Id: 142569
 Description: "The King with a Hundred Hearts. What a useful fellow. Without his exports, I'd be delivering my own coal."
@@ -556,7 +556,7 @@ Description:
 
 
 
-	ChildBranches 33
+		ChildBranches 33
 Name: Empire of Hands
 Id: 143976
 Description: "Oh, goodness. What are those accursed monkeys up to these days? You didn't bring any of them back with you, did you?"
@@ -575,7 +575,7 @@ Description:
 
 
 
-	ChildBranches 34
+		ChildBranches 34
 Name: Empire of Hands
 Id: 143977
 Description: "Oh, goodness. What are those accursed monkeys up to now? Don't let the Revenue Men catch you trading with them."
@@ -597,7 +597,7 @@ Description: "Wildweald Court? When I started here, it was the Court Eternal. Th
 
 
 
-	ChildBranches 35
+		ChildBranches 35
 Name: Port Carnelian
 Id: 146281
 Description: "You know, I sometimes wonder whether that place was a good idea. I didn't say that."
@@ -614,7 +614,7 @@ Description:
 
 
 
-	ChildBranches 36
+		ChildBranches 36
 Name: Nuncio
 Id: 146850
 Description: "Ah. Yes. The place that lures away postmen. One hears no end of complaints from the Postal Service."
@@ -631,7 +631,7 @@ Description:
 
 
 
-	ChildBranches 37
+		ChildBranches 37
 Name: Frostfound
 Id: 147485
 Description: "Is it as beautiful as they say? I doubt it. Poets are notorious liars. But liars make bad poets. A paradox, isn't it? Never mind! Your report?"
@@ -648,7 +648,7 @@ Description:
 
 
 
-	ChildBranches 38
+		ChildBranches 38
 Name: Aestival
 Id: 147625
 Description: "I had always wondered if it might be a myth - "
@@ -665,7 +665,7 @@ Description:
 
 
 
-	ChildBranches 39
+		ChildBranches 39
 Name: The Chelonate
 Id: 147626
 Description: "Is it still as revolting as they say? What about the smell?"
@@ -682,7 +682,7 @@ Description:
 
 
 
-	ChildBranches 40
+		ChildBranches 40
 Name: Codex
 Id: 147628
 Description: "Exiled for giving answers. That's Whither for you. Anything new?"
@@ -699,7 +699,7 @@ Description:
 
 
 
-	ChildBranches 41
+		ChildBranches 41
 Name: The Fathomking's Hold
 Id: 147630
 Description: "What's the old monster up to now?"
@@ -716,7 +716,7 @@ Description:
 
 
 
-	ChildBranches 42
+		ChildBranches 42
 Name: Grand Geode
 Id: 147634
 Description: "The Grand - yes. Yes, of course, we're generally quite well-informed on that topic, but since you're here, perhaps you may as well let us know what your own impressions were -"
@@ -733,7 +733,7 @@ Description:
 
 
 
-	ChildBranches 43
+		ChildBranches 43
 Name: Khan's Shadow
 Id: 147636
 Description: "Oh, these are always fun! Come on, let's hear it."
@@ -750,7 +750,7 @@ Description:
 
 
 
-	ChildBranches 44
+		ChildBranches 44
 Name: Wisdom
 Id: 147649
 Description: "Brrr. Did the oracles look hungry?"
@@ -767,7 +767,7 @@ Description:
 
 
 
-	ChildBranches 45
+		ChildBranches 45
 Name: Varchas
 Id: 147651
 Description: "The Mirrored City, eh? Still think we're the barbarians, do they?"
@@ -784,7 +784,7 @@ Description:
 
 
 
-	ChildBranches 46
+		ChildBranches 46
 Name: Varchas
 Id: 147652
 Description: "Trouble afoot in the City of Light, hm?"
@@ -801,7 +801,7 @@ Description:
 
 
 
-	ChildBranches 47
+		ChildBranches 47
 Name: Varchas
 Id: 147653
 Description: "You look troubled, I must say. What's happening out there?"
@@ -818,7 +818,7 @@ Description:
 
 
 
-	ChildBranches 48
+		ChildBranches 48
 Name: Adam's Way
 Id: 147662
 Description: "'The Elder Continent'. Hmph. Elder than what? Pile of Mithridate nonsense, if you ask me."
@@ -835,7 +835,7 @@ Description:
 
 
 
-	ChildBranches 49
+		ChildBranches 49
 Name: Irem
 Id: 147665
 Description: "Oh God. Oh God. What tense is it written in? Oh God. Look, just read it to my colleague here. He'll give you your fee. I'll be over there when you're done."
@@ -852,7 +852,7 @@ Description:
 
 
 
-	ChildBranches 50
+		ChildBranches 50
 Name: Kingeater's Castle
 Id: 147667
 Description: "Ah. Despair's fastness."
@@ -869,7 +869,7 @@ Description:
 
 
 
-	ChildBranches 51
+		ChildBranches 51
 Name: The Salt Lions
 Id: 147668
 Description: "The Bazaar has always taken an interest in that place."
@@ -886,7 +886,7 @@ Description:
 
 
 
-	ChildBranches 52
+		ChildBranches 52
 Name: Shepherd Isles: submit as fact
 Id: 129834
 Description: "We do hear some peculiar tales of that place."

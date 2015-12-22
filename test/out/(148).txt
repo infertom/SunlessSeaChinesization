@@ -3,7 +3,7 @@ Name: The Haunted Doctor shrinks from a sorrow-spider
 Id: 143343
 Description: How did that horrible creature get aboard the ship?
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Smash the sorrow-spider with a flung boot
 Id: 146362
 Description: How did that horrible creature get aboard the ship?
@@ -28,7 +28,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Call a zailor to take care of the nasty thing
 Id: 147533
 Description: A captain has more important concerns.

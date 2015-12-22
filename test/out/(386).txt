@@ -3,7 +3,7 @@ Name: The Sober Showman's Exhibition
 Id: 181034
 Description: The signs advertising his entertainments bristle with exclamation marks. In person, he is more circumspect. 
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Grant your crew shore-leave
 Id: 146660
 Description: Pay for them to spend an improving day at the Exhibition.
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Visit the Grotesquery
 Id: 146869
 Description: A sign stands before the crimson tent. 'TODAY: Behold a MONSTROUS ABORIGINAL of the Elder Continent: a disciple of the Thief-of-Faces!'
@@ -37,7 +37,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Visit the Grotesquery
 Id: 146870
 Description: A sign stands before the crimson tent. 'TODAY: Behold a MONSTROUS ABORIGINAL of the Elder Continent: A cyclopes, last of a dead tribe!'
@@ -54,7 +54,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Visit the Grotesquery
 Id: 146871
 Description: 'TODAY: an example of the Changed: those intemperate souls who dared improve on the Almighty's design! Behold, a practitioner of the Shapeling Arts''
@@ -73,7 +73,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Visit the Grotesquery
 Id: 146872
 Description: 'TODAY: an example of the Changed: those intemperate souls who dared improve on the Almighty's design! Behold, a Gentleman in possession of a Peculiar Personal Enhancement'
@@ -94,7 +94,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: Attend the Cabinet of Curiosities
 Id: 146877
 Description: A sign outside the tent reads: 'Revealed for the first time: innumerable MYSTERIES OF THE INTERIOR! A profusion of Presbyterate secrets to perplex and petrify!' A case catches your eye. It is labelled 'The Covenant'.
@@ -112,7 +112,7 @@ Description:
 
 
 
-	ChildBranches 7
+		ChildBranches 7
 Name: Attend the Cabinet of Curiosities
 Id: 146879
 Description: A sign outside the tent reads: 'Revealed for the first time: innumerable MYSTERIES OF THE INTERIOR! A profusion of Presbyterate secrets to perplex and petrify!' A rusted sword catches your eye.
@@ -129,7 +129,7 @@ Description:
 
 
 
-	ChildBranches 8
+		ChildBranches 8
 Name: Attend the Cabinet of Curiosities
 Id: 146880
 Description: A sign outside the tent reads: 'Explore the natural, and unnatural, WONDERS OF THE ELDER CONTINENT!' A shining jewel catches your eye.
@@ -148,7 +148,7 @@ Description:
 
 
 
-	ChildBranches 9
+		ChildBranches 9
 Name: Attend the Cabinet of Curiosities
 Id: 146881
 Description: A sign outside the tent reads: 'Explore the natural, and unnatural, WONDERS OF THE ELDER CONTINENT!' An impossibilitycatches your eye.
@@ -166,7 +166,7 @@ Description:
 
 
 
-	ChildBranches 10
+		ChildBranches 10
 Name: Leave the exhibition
 Id: 147102
 Description: Enough distractions.
@@ -183,7 +183,7 @@ Description:
 
 
 
-	ChildBranches 11
+		ChildBranches 11
 Name: Purchase an Elegiac Cockatoo for the Poissonnier
 Id: 147280
 Description: Algernon is the Sober Showman's beloved pet. He claims he could never part with it - it reminds him of his bright, carefree childhood in Her Majesty's old Surface colonies. 

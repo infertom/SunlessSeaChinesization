@@ -3,7 +3,7 @@ Name: Ash Isthmus
 Id: 175466
 Description: Black beaches give way to an oasis of gently glowing trees and the scent of rotting flowers.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Enter the forest
 Id: 143279
 Description: Parasynthetic vegetation thrives in the Empire of Hands' fertile soil and cool humidity.
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Relax in a hot spring
 Id: 143433
 Description: Steam and a hint of sulphur gently rise from a secluded natural pool flanked by trees and mushrooms.
@@ -37,7 +37,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Return to the boat
 Id: 143435
 Description: There's nothing here that will concern the Admiralty.
@@ -54,7 +54,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: No, no thoughts. Not right now...
 Id: 143436
 Description: Let this moment be yours and yours alone, not wasted on worldly concerns.
@@ -73,7 +73,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: A thought for your lover...
 Id: 143459
 Description: What is the Likely Lass doing right now? Are you on her mind like she is on yours?
@@ -92,7 +92,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: A thought for your lover...
 Id: 143460
 Description: What is the Dapper Chap doing right now? Are you on his mind like he is on yours?
@@ -111,7 +111,7 @@ Description:
 
 
 
-	ChildBranches 7
+		ChildBranches 7
 Name: A thought for the East...
 Id: 143461
 Description: Few zailors are resourceful enough to get this far, where the stories end and the myths begin.
@@ -130,7 +130,7 @@ Description:
 
 
 
-	ChildBranches 8
+		ChildBranches 8
 Name: A thought for your child...
 Id: 143462
 Description: One day, will you bring them here, to this place? Or will it be you hearing tales of adventure in impossible lands?
@@ -149,7 +149,7 @@ Description:
 
 
 
-	ChildBranches 9
+		ChildBranches 9
 Name: A thought for the future...
 Id: 143463
 Description: Ambition brought you this far in your journey, and, one way or another, ambition will end it. But have you changed on your journeys? Has it?
@@ -168,7 +168,7 @@ Description:
 
 
 
-	ChildBranches 10
+		ChildBranches 10
 Name: A thought for the zee...
 Id: 143464
 Description: As mysterious and deadly as the first day you set zail on her, she remains your mistress and your kingdom.
@@ -187,7 +187,7 @@ Description:
 
 
 
-	ChildBranches 11
+		ChildBranches 11
 Name: A thought for the past...
 Id: 143469
 Description: Zee captains are born and zee captains are raised. You think back on the day you learned it was your path.
@@ -206,7 +206,7 @@ Description:
 
 
 
-	ChildBranches 12
+		ChildBranches 12
 Name: Return to the boat
 Id: 143524
 Description: There's nothing here that concerns you right now.
@@ -223,7 +223,7 @@ Description:
 
 
 
-	ChildBranches 13
+		ChildBranches 13
 Name: Caught!
 Id: 143525
 Description: A tiny blonde girl perches, watching, on a rock. Her innocent grin is spiced with mischievous glee.
@@ -240,7 +240,7 @@ Description:
 
 
 
-	ChildBranches 14
+		ChildBranches 14
 Name: Return to the boat
 Id: 143526
 Description: You are not about to let your guard down again.
@@ -257,7 +257,7 @@ Description:
 
 
 
-	ChildBranches 15
+		ChildBranches 15
 Name: The Monkey Foundling's Hut
 Id: 145746
 Description: She does not seem to be here right now. A pair of Pentecost apes are though, glaring at you with equal parts malice and their usual avarice.
@@ -274,7 +274,7 @@ Description:
 
 
 
-	ChildBranches 16
+		ChildBranches 16
 Name: The Monkey Foundling's Hut
 Id: 145747
 Description: She is inside, snoring. A pair of Pentecost apes stand vigil outside, glaring at you with equal parts malice and their usual avarice for souls.
@@ -299,7 +299,7 @@ Description:
 
 
 
-	ChildBranches 17
+		ChildBranches 17
 Name: Hunt for supplies
 Id: 143434
 Description: Not many of the plants and berries here are familiar, but some of them at least look similar to ones that were being eaten back in Port Stanton.

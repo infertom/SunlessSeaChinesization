@@ -6,7 +6,7 @@ Description: She is as elegant as ever - a little careworn, though. You almost t
 “I miss the peace of that place,” she says. “Palmerston. There was a little wind that walked in the grey-grass on the mountain’s slopes. It carried the smell of ashes. I hated it, because it reminded me of home - but now - now, I wake, and I think I hear it. At the Convention, I had a purpose. We were going to destroy so many things. I lost faith in that purpose, but I have no more faith here. I should never have made you bring me here.”
 
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Sympathy for the deviless
 Id: 119012
 Description: Console her as best you can.
@@ -25,7 +25,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: No sympathy for the deviless
 Id: 127504
 Description: All her problems - every single one - are problems of her own making. Tell her to stiffen her back and stop moping.
@@ -42,7 +42,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: A marriage proposal for the deviless
 Id: 127505
 Description: Do you have feelings for her? Or is this a strategy on your part?
@@ -59,7 +59,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Offer to take her back to Palmerston
 Id: 127506
 Description: If that's what she wants

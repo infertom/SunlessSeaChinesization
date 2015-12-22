@@ -5,7 +5,7 @@ Description: Some disturbance of the undersea has brought sunken ruins up out of
 <br/><br/>
 Even as you watch the ruins groan and shiver. The convulsions that brought them up will soon take them below again.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Chip some of the amber away to sell
 Id: 127494
 Description: It's very like the 'deep amber' sold in London - the stuff the squid-faced Rubbery Men exude. This may be a good haul.
@@ -22,7 +22,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Examine the ruins
 Id: 127495
 Description: The amber encasing the ancient stones has cracked under the grinding pressures of the earth. You could scramble in and examine them.

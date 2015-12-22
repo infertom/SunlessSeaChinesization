@@ -3,7 +3,7 @@ Name: A Contest of Riddles
 Id: 146635
 Description: Fisherfolk, zailors, a shady couple of likely-pirates - and is that a Drownie down by the water's edge? They sit round a fire at the zee's edge passing around a bottle of something viscously black. They're wagering on riddles. Will you join them?
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Walk away
 Id: 126475
 Description: Riddles are for children.
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Bet an Echo on one of the simpler riddles.
 Id: 126184
 Description: One of the fishermen is bursting to try it.
@@ -42,7 +42,7 @@ Description: The fisherman grumbles, but pays up.
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Seek a real challenge, for ten Echoes
 Id: 126476
 Description: Here's a sardonic woman with a pair of matched knives, a silver hoop earring and a Khanate accent. She has a real riddle.
@@ -64,7 +64,7 @@ Description: She tips her hat to you. "Fair's fair. Take this. I found it off Wo
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Attempt one of the Riddles of Pearl
 Id: 126477
 Description: At the Fathomking's feasts, the guests challenge one another to answer these riddles. You need not pay the penalty they do. But you will need to stump up a hundred Echoes to challenge the Drownie.
@@ -86,7 +86,7 @@ Description: The Drownie performs a curious bobbing bow, and produces something 
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Attempt one of the Great Riddles of Irem
 Id: 126478
 Description: Who is this, in lion-coloured furs at the firelight's edge? "I carry one of the Great Riddles of Irem," she intones. Her eyes glisten. "One thousand Echoes, against a jewel from the Pillared Sea."

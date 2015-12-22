@@ -3,7 +3,7 @@ Name: You've destroyed a Merchant Cruiser
 Id: 174347
 Description: Innocent men and women are dead, but that's their problem. And yours, if you're caught, but let's not dwell on that. What now?
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Loot and scuttle her
 Id: 142563
 Description: Take what you can. Hide the evidence of your crime.

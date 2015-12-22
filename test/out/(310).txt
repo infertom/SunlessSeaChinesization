@@ -3,7 +3,7 @@ Name: Maybe a Mother
 Id: 180196
 Description: The Daughter leaves with the woman in lilac. You see nothing of them for the rest of the night. But in the morning, the Daughter returns, her eyes bright with purpose. "Show me your tattoo," she demands.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: "I don't have a tattoo."
 Id: 146157
 Description: You've kept your skin untouched.
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: The Dauntless Hand
 Id: 146200
 Description: "You mean this?"
@@ -39,7 +39,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: The Wheel of Mists
 Id: 146201
 Description: "You mean this?"
@@ -58,7 +58,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: The Unflinching Eye
 Id: 146202
 Description: "You mean this?"
@@ -77,7 +77,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: The Splendour
 Id: 146203
 Description: "You mean this?"
@@ -96,7 +96,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: The Gambit
 Id: 146204
 Description: "You mean this?"

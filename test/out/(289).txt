@@ -3,7 +3,7 @@ Name: A Serpent-Image
 Id: 147445
 Description: "Here!" a zailor shouts. There's something nestled in the mossy crook of a grey-leafed tree. A wooden serpent, lacquered with black, red and yellow. Its eyes are garnet flakes. "That'd fetch a good price at the Bazaar," the zailor observes. "But it has a cursy look," points out another.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Leave it
 Id: 126716
 Description: Perhaps it's cursed, perhaps it's not, but your crew gets superstitious at the drop of a bat.
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: The Genial Magician has a use for it
 Id: 126718
 Description: "I say," he remarks. "This is just what I need. Mind if I hang on to it?"
@@ -40,7 +40,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Take it
 Id: 127828
 Description: Perhaps you can think of some way to - wait. You've been here before. The tree, the serpent. This isn't the first time.
@@ -57,7 +57,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Take it anyway
 Id: 126715
 Description: Perhaps you can think of some way to allay their fears.
@@ -79,7 +79,7 @@ Description: It's an image of a Fingerking! A serpent-thing that crawls beneath 
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Take it, but reward the zailor
 Id: 126717
 Description: Half-share: fair's fair. If she hadn't seen it, you'd have missed it entirely.

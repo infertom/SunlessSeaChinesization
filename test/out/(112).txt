@@ -3,7 +3,7 @@ Name: Your Lodgings
 Id: 143503
 Description: Here you may catch up with your correspondence, rest, or retire altogether from sea-faring life. The better your Lodgings, the better the quality of your retirement. Naturally.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Rest in a Room Above the Blind Helmsman
 Id: 124177
 Description: If you don't have the Echoes to go out roistering, best stay at home. [This will reduce your Terror, heal a Wound, and give you a Restful Night.]
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Purchase an Elegant Townhouse
 Id: 124190
 Description: A good address on Hollow Street. It won't be cheap.
@@ -37,7 +37,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Rest in your Elegant Townhouse
 Id: 124191
 Description: A pleasant interlude. [Resting here will reduce your Terror, heal two Wounds, and give you two Restful Nights.]
@@ -54,7 +54,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Purchase a Zeeside Mansion
 Id: 124192
 Description: Something up by the Prickfinger Wastes, but not too near the Carnival. Something with a view.
@@ -71,7 +71,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Rest in your Zeeside Mansion
 Id: 124193
 Description: The life of quality. [Resting here will reduce Terror, heal all Wounds and give you three Restful Nights.]
@@ -88,7 +88,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: Consider Retirement from Zeefaring Life
 Id: 124194
 Description: [This allows you to review options which will end the game.You can safely scrutinise them without choosing one.]
@@ -105,7 +105,7 @@ Description:
 
 
 
-	ChildBranches 7
+		ChildBranches 7
 Name: Write the Zong of the Zee
 Id: 126095
 Description: You have assembled a store of lore and a collection of antiquities. Your knowledge of the zee rivals that of any captain of history. Write it all down. [This will create the Zong of the Zee, which allows you to retire happily if you have the correct Ambition, and is a pretty nifty item in its own right.]
@@ -124,7 +124,7 @@ Description:
 
 
 
-	ChildBranches 8
+		ChildBranches 8
 Name: Long-awaited prize money
 Id: 127008
 Description: A letter! "[q:Addressed As] - we have assessed the...dah dah dah... in accordance with the law of the Zee... dah dah dah... pleased to enclose a money-order for..."
@@ -141,7 +141,7 @@ Description:
 
 
 
-	ChildBranches 9
+		ChildBranches 9
 Name: A calling card
 Id: 127503
 Description: A smoky flake of hand-lettered vellum. The Wistful Deviless has come to visit.
@@ -158,7 +158,7 @@ Description:
 
 
 
-	ChildBranches 10
+		ChildBranches 10
 Name: Read the morning papers
 Id: 128214
 Description: The Unexpurgated Gazette, the Magazine Formerly Known as the London Magazine, the Spiteful Trumpeter. News.
@@ -180,7 +180,7 @@ Description: The Khanate is threatening war. (They always are.) London's colonie
 
 
 
-	ChildBranches 11
+		ChildBranches 11
 Name: Back to the rest of the city
 Id: 128251
 Description: [Or you could click the London! card on the right.]
@@ -197,7 +197,7 @@ Description:
 
 
 
-	ChildBranches 12
+		ChildBranches 12
 Name: Visitors
 Id: 130990
 Description: "Ain't you tall. Well, it comes to us all. Tall, locked up, or et, we used to say upstairs. Remember that?"
@@ -214,7 +214,7 @@ Description:
 
 
 
-	ChildBranches 13
+		ChildBranches 13
 Name: --
 Id: 130991
 Description: "Our mutual friends have been busy. It's a good thing, darling, that you have been so far away."
@@ -231,7 +231,7 @@ Description:
 
 
 
-	ChildBranches 14
+		ChildBranches 14
 Name: Soldier - old comrade
 Id: 130992
 Description: "Those days in the swamp. Ah, they were simpler - eh, the nonsense. They were just muddier."
@@ -248,7 +248,7 @@ Description:
 
 
 
-	ChildBranches 15
+		ChildBranches 15
 Name: Priest - Heterodox Thinker
 Id: 130993
 Description: "Shall I set up the board?"
@@ -265,7 +265,7 @@ Description:
 
 
 
-	ChildBranches 16
+		ChildBranches 16
 Name: Scholar - ??
 Id: 131647
 Description: 
@@ -282,7 +282,7 @@ Description:
 
 
 
-	ChildBranches 17
+		ChildBranches 17
 Name: Write a Will
 Id: 132093
 Description: The Court of Chancery, as a roaring lion, walketh about seeking whom it may devour. Ensure it doesn't get its lion-tentacles on your property when you're gone. [Should you die, this will ensure that your heir retains your Lodgings, and any Heirlooms you've accumulated.]
@@ -299,7 +299,7 @@ Description:
 
 
 
-	ChildBranches 18
+		ChildBranches 18
 Name: Convert a Collection of Outlandish Artefacts into an Heirloom
 Id: 132094
 Description: Individually, these Artefacts are interesting. Together, they're unique. [This is a way to pass on money to your next character. You'll need to pay a small fee to write these treasures into your will.]
@@ -316,7 +316,7 @@ Description:
 
 
 
-	ChildBranches 19
+		ChildBranches 19
 Name: Sell off an Heirloom
 Id: 132095
 Description: Yes, yes, it's a piece of history. How much is it worth? [You will usually get slightly less than the item was originally worth. Warning! If you die without a Will in place, your next character will not inherit these.]
@@ -333,7 +333,7 @@ Description:
 
 
 
-	ChildBranches 20
+		ChildBranches 20
 Name: Adorn your Lodgings with Captivating Treasures
 Id: 132249
 Description: Convert Captivating Treasures into Heirlooms, and they'll adorn your lodgings until the day you die. After that, your family will probably sell them. [This is a way to pass on money to your next character. You can have no more than 12 Heirlooms - or 16 in a Mansion - and you'll need to pay a small fee to write these treasures into your will.]
@@ -350,7 +350,7 @@ Description:
 
 
 
-	ChildBranches 21
+		ChildBranches 21
 Name: Time with your Family
 Id: 142616
 Description: Your sweetheart comes and goes. They have their own, complicated business. But they always return to your shared home, and your child.
@@ -367,7 +367,7 @@ Description:
 
 
 
-	ChildBranches 22
+		ChildBranches 22
 Name: See your Child
 Id: 142720
 Description: Where is the little creature?
@@ -384,7 +384,7 @@ Description:
 
 
 
-	ChildBranches 23
+		ChildBranches 23
 Name: Sell your Mansion
 Id: 146662
 Description: Do you really need a Mansion? You don't have so very many things, do you? [This will sell your Townhouse: after moving expenses and fees, you'll be 7500 Echoes richer. You must have no more than 12 Heirlooms - that's all you can fit in a Townhouse.]
@@ -401,7 +401,7 @@ Description:
 
 
 
-	ChildBranches 24
+		ChildBranches 24
 Name: Sell your Townhouse
 Id: 146663
 Description: Times are hard. Perhaps you should return to a simpler life. [This will sell your Townhouse: after moving expenses and fees, you'll be 500 Echoes richer. You must also sell off any Heirlooms first.]
@@ -418,7 +418,7 @@ Description:
 
 
 
-	ChildBranches 25
+		ChildBranches 25
 Name: An invitation to Benthic College
 Id: 147073
 Description: Your travels have caught someone's attention.
@@ -435,7 +435,7 @@ Description:
 
 
 
-	ChildBranches 26
+		ChildBranches 26
 Name: The Delightful Adventuress
 Id: 147076
 Description: She still seeks passage to the Empire of Hands.
@@ -452,7 +452,7 @@ Description:
 
 
 
-	ChildBranches 27
+		ChildBranches 27
 Name: A neatly wrapped brown paper package
 Id: 147079
 Description: The corners are crisp and tight. The address has been printed in large block letters with scrupulous care. The sender has applied double the necessary number of postage stamps. They must have been very determined it get here. There is no return address.
@@ -471,7 +471,7 @@ Description:
 
 
 
-	ChildBranches 28
+		ChildBranches 28
 Name: Peruse your Comprehensive Port Report in private
 Id: 147219
 Description: Perhaps you are unwilling or unable to take it to the Admiralty... [This will give you a single Secret rather than a fee.]

@@ -3,7 +3,7 @@ Name: The Hungry Dead
 Id: 150763
 Description: Your Cook is outraged! One of the tomb-colonists has woken from his coffined rest and found his way to the stores. When the Cook came across him, he had consumed a half-wheel of cheese and an alarming quantity of suet.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Fling the villain overboard!
 Id: 129137
 Description: He can walk home.
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Return him to the hold
 Id: 129138
 Description: Perhaps he'll stay put this time.

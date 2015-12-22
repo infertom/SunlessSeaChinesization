@@ -3,7 +3,7 @@ Name: A Tryst
 Id: 150908
 Description: A discreet opportunity has arisen to spend time with your favourite officer. [This will noticeably reduce your Terror, unless it's already low. But if you have a sweetheart back home, you may want to think twice.]
 
-	ChildBranches 1
+		ChildBranches 1
 Name: A Tryst with the Survivor
 Id: 128871
 Description: You will be uninterrupted in the tiny pantry: and although it is tiny, the Survivor is inhumanly adaptable.
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: A Tryst with the Longshanks Gunner
 Id: 128872
 Description: "The funnel-top, my captain! They're stopping the engines to clear the sturricles. It'll be like the old days, like the roof-tops of the Flit."
@@ -37,7 +37,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: A Tryst with the Brisk Campaigner
 Id: 128873
 Description: "I'm not messing about in some dirty corner. You can just come to my cabin and be discreet."
@@ -56,7 +56,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: A Tryst with the Sly Navigator
 Id: 128877
 Description: "I've said I need the bridge clear for twenty minutes. Of course, someone might still discover us - "
@@ -73,7 +73,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: A Tryst with the Tireless Mechanic
 Id: 128878
 Description: "Behind the boilers, O my captain. No one will pass by for at least forty-seven minutes."
@@ -90,7 +90,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: A Tryst with the Magician
 Id: 128879
 Description: "We'll need to be quick. But we can take our time. Oh, you know what I mean."
@@ -107,7 +107,7 @@ Description:
 
 
 
-	ChildBranches 7
+		ChildBranches 7
 Name: Maybe's Daughter
 Id: 128880
 Description: "In the barrel," she says,"of the forward gun. I'll bring cushions."
@@ -124,7 +124,7 @@ Description:
 
 
 
-	ChildBranches 8
+		ChildBranches 8
 Name: The Cladery Heir
 Id: 128881
 Description: 
@@ -141,7 +141,7 @@ Description:
 
 
 
-	ChildBranches 9
+		ChildBranches 9
 Name: The affair is at an end
 Id: 128908
 Description: Perhaps they're gone. Perhaps you've thought better of it. [This will end the affair.]
@@ -158,7 +158,7 @@ Description:
 
 
 
-	ChildBranches 10
+		ChildBranches 10
 Name: Maybe's Rival
 Id: 146614
 Description: "In the barrel," she says,"of the forward gun. I'll bring cushions."
@@ -177,7 +177,7 @@ Description:
 
 
 
-	ChildBranches 11
+		ChildBranches 11
 Name: Nobody's Daughter
 Id: 146615
 Description: "In the barrel," she says,"of the forward gun. I'll bring cushions."
@@ -196,7 +196,7 @@ Description:
 
 
 
-	ChildBranches 12
+		ChildBranches 12
 Name: A Tryst with the Indomitable Campaigner
 Id: 146616
 Description: "We need to talk."
@@ -213,7 +213,7 @@ Description:
 
 
 
-	ChildBranches 13
+		ChildBranches 13
 Name: A Tryst with the Magician
 Id: 146618
 Description: "Just for a while," he says, very quietly. "For a little while."
@@ -230,7 +230,7 @@ Description:
 
 
 
-	ChildBranches 14
+		ChildBranches 14
 Name: A Tryst with the Magician
 Id: 146619
 Description: "Oh, yes. I think we can risk a little time behind mirrors."
@@ -247,7 +247,7 @@ Description:
 
 
 
-	ChildBranches 15
+		ChildBranches 15
 Name: A Tryst with the Magician
 Id: 146620
 Description: "Yes, <i>please</i>. I'll see you very soon."

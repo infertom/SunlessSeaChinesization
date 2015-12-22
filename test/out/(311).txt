@@ -7,7 +7,7 @@ Description: The Daughter follows Penstock back into the shop, to a redly lit gr
 <br/><br/>
 Is that really such a terribly good idea?
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Discourage her from passing through the Wicket
 Id: 146205
 Description: She has wanted this for so long. But you've known her long enough to realise that beneath her bravado, she is genuinely terrified.
@@ -24,7 +24,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Let her go down under the Bazaar
 Id: 146206
 Description: "I want to match my mother," she says, reasonably. "I want to learn the Great Signs. The Courier - the Bazaar - is the only one who will teach me. I have to go." [There is a possibility that she may never return.]
@@ -50,7 +50,7 @@ At last Penstock comes to lead you away by the arm. "I have to close up now," he
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Let her go down under the Bazaar
 Id: 146272
 Description: "I want to match my mother," she says, reasonably. "I want to learn the Great Signs. The Courier - the Bazaar - is the only one who will teach me. I have to go." [There is a possibility that she may never return - but the work you've done to assist Penstock and the Bazaar means it's only a very small possibility.]

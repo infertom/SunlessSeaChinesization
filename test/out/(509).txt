@@ -3,7 +3,7 @@ Name: Meeting the Heartmetal Smith
 Id: 180165
 Description: "I don't know where he is!! Can we ask directions?"
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Ask directions
 Id: 146138
 Description: A Clay Man directs you, with a minimum of enthusiasm and even fewer words.

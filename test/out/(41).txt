@@ -3,7 +3,7 @@ Name: The Crawling Stars
 Id: 150770
 Description: The lookout shouts! Far above, the false-stars in the cavern roof are shifting: a rare and ominous event. What now?
 
-	ChildBranches 1
+		ChildBranches 1
 Name: "Eyes on the deck!"
 Id: 129140
 Description: Forbid them to look. You can't really stop them, but you can at least discourage discussion. They won't like it, but it's safer.
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Record the change and assign a name
 Id: 129139
 Description: If the new shape seems well-omened, your crew may be cheered. Who knows?

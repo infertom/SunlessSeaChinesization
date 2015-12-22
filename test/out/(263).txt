@@ -5,7 +5,7 @@ Description: "The Bazaar has been feasting on old memories from the Salt Lions. 
 <br/><br/>
 "So we've found another use for the Sphinxstone. We can set something right."
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Reject his plea
 Id: 143691
 Description: He smells of ammonia and sadness. You should go somewhere that does not smell of those things.
@@ -22,7 +22,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Accept his commission
 Id: 143692
 Description: "Take it far away. We'll tell you where. You will be paid." [If you've already arranged with the Bright-Eyed Sequencer to take it to the Grand Geode, this will cause you to renege.]

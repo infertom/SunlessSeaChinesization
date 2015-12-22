@@ -3,7 +3,7 @@ Name: STARVATION WALKS THE SHIP!
 Id: 144484
 Description: Day by day, you all grow weaker. Each sip of fresh water is carefully rationed. Zailors squabble over scraps of leather. Each morning, bodies are found stiff and cold.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Consign their bodies to the zee
 Id: 124814
 Description: The zee, too, is hungry.
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Feast on their remains.
 Id: 124895
 Description: You are past the edge of desperation. They have died: you will live.

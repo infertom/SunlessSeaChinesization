@@ -5,7 +5,7 @@ Description: Your Network needs something, to prosper. What is it? [If you provi
 
 
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Insight
 Id: 143340
 Description: One of your operatives is troubled. Her temper is short; a flaw in a spy. "My ears are full of thunder," she tells you, too loud. Her eyes have turned grey as rain clouds.
@@ -23,7 +23,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Bait!
 Id: 143343
 Description: A rival agent besets your network. You need to draw them out.
@@ -45,7 +45,7 @@ Description: A Slender Factotum takes your bait. Is he your quarry? Your agents 
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: An addition to a tiger's library
 Id: 143345
 Description: The Governor relies on a cadre of docile native tigers to act as intermediaries with their fellows. One of them has a weakness for pot-boilers.
@@ -67,7 +67,7 @@ Description: The tiger favours plummy heroines, stiff-moustached heroes, and the
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: It just might work
 Id: 143352
 Description: An embassy clerk has access to vital documents. Unfortunately, they are inconveniently moral: offended by bribery, impervious to blackmail. But you have a plan.
@@ -90,7 +90,7 @@ Description: Unfortunately, your scheme is stymied by rival agencies. Spies buzz
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Seek another opportunity
 Id: 143357
 Description: Perhaps you simply can't obtain what you need. Let the opportunity pass. Come back later. [This will allow you to choose another mission when you come back - usually, but not always, a different one. It will cost Something Awaits You.]
@@ -107,7 +107,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: An elucidation
 Id: 143358
 Description: An asset - once forthcoming - has grown reticent.
@@ -125,7 +125,7 @@ Description:
 
 
 
-	ChildBranches 7
+		ChildBranches 7
 Name: Sate a fervence
 Id: 146338
 Description: The Khanate's unofficial representative in Port Carnelian does not speak of his religion. According to this report, though, he reveres Judgements' Eggs. They sell them (reluctantly) in Irem and the Iron Republic. [This will increase your Network substantially, although not past 7.]
@@ -142,7 +142,7 @@ Description:
 
 
 
-	ChildBranches 8
+		ChildBranches 8
 Name: An offering to the Banded Prince
 Id: 146339
 Description: He dwells in a jungle ruin: an anachronism; a curiosity. His position is romantic, but titular. Or is it? [This will increase your Network substantially, although not past 7.]
@@ -160,7 +160,7 @@ Description:
 
 
 
-	ChildBranches 9
+		ChildBranches 9
 Name: Echoes
 Id: 143342
 Description: Money buys secrets.
@@ -182,7 +182,7 @@ Description: Beneath the bustling arches of the Blue Emporium, merchants sell sa
 
 
 
-	ChildBranches 10
+		ChildBranches 10
 Name: Your authority
 Id: 143344
 Description: A rival spymaster proposes a meeting.
@@ -204,7 +204,7 @@ Description: You sit together at a pantomime. While the excitable audience roars
 
 
 
-	ChildBranches 11
+		ChildBranches 11
 Name: A Diplomatic Agent
 Id: 143356
 Description: Port Carnelian is choked with spies. Bewildered Surface spies. Earnest spies from London. Elegant spies from the Khanate. Splendid spies from the Presbyterate. But there's always room for a small one.

@@ -3,7 +3,7 @@ Name: The Chandler of Souls
 Id: 176484
 Description: High-souled apes prize quality over quantity, seeking beneficial spiritual alchemy. The Chandler lacks the finesse of devils, but he assures you this is not a problem. Your soul is his concern, your comfort is not.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Sell to the Ambitious Page
 Id: 143939
 Description: She will likely not keep it for longer than it takes to trade up. For now though, it serves her purposes.
@@ -30,7 +30,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Sell to the Veiled Concubine
 Id: 143940
 Description: She seeks uplifting from the servant classes to the low-aristocracy.
@@ -51,7 +51,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Sell to the Mayor of Port Stanton
 Id: 143941
 Description: With it, he will have the five souls needed to petition for membership of the Court.
@@ -74,7 +74,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Sell to the Monkey Baronet
 Id: 143942
 Description: There is something in your eyes he approves of. He wishes to see if he can replicate it in his own polished-silver mirror.
@@ -97,7 +97,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: A gift for the Emperor
 Id: 143943
 Description: If it pleases him to accept, of course.
@@ -129,7 +129,7 @@ As you dress, a young monkey arrives with a letter clearly written and signed by
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: No sale. Not for now.
 Id: 143944
 Description: Whether the offers are insufficient or you simply thought twice, you'll be keeping your soul.
@@ -146,7 +146,7 @@ Description:
 
 
 
-	ChildBranches 7
+		ChildBranches 7
 Name: A gift for the Emperor
 Id: 143945
 Description: If it pleases him to accept, of course.
@@ -178,7 +178,7 @@ As you dress, a young monkey arrives with a letter clearly written by the Exquis
 
 
 
-	ChildBranches 8
+		ChildBranches 8
 Name: A gift for the Emperor
 Id: 144932
 Description: If it pleases him to accept, of course.

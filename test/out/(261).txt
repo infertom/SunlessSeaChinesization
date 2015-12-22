@@ -3,7 +3,7 @@ Name: Open a Long-Buried Treasure
 Id: 145176
 Description: 
 
-	ChildBranches 1
+		ChildBranches 1
 Name: 
 Id: 125253
 Description: 

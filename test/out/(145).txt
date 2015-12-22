@@ -3,7 +3,7 @@ Name: Scale and Substance
 Id: 135252
 Description: The zee looks more inviting by the day. How could you have thought it hostile? It is invigorating; fruitful. You scratch at your arm. Your skin is always itching, up here in the dry. [This card will continue to appear until you bury your father's bones or give in to temptation.]
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Leave your ship forever
 Id: 119013
 Description: Your father came from the sea. You know now that you could take his place there. [This will end the game in a victory, of sorts.]

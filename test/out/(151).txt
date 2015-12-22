@@ -3,7 +3,7 @@ Name: Trinkets? Just Trinkets?
 Id: 167909
 Description: When the crate from Saviour's Rocks explodes into an infestation of prematurely hatched sorrow-spiders... it does not entirely come as a surprise.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Throw them overboard!
 Id: 138714
 Description: There is no place for sorrow-spiders on this vessel.
@@ -25,7 +25,7 @@ Description: If so, they will be swimming a long time to get to their destinatio
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: The cook will be pleased
 Id: 138715
 Description: The rest of the crew, perhaps not so much.

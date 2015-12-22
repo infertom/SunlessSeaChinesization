@@ -3,7 +3,7 @@ Name: "I want to go away to sea."
 Id: 143394
 Description: Your child wants to sign on with a ship. Already? But time passes quickly - and most quickly on the Unterzee. How many years have you been at zee? Don't ask. Time operates slyly, out in the dark.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Permit it
 Id: 124104
 Description: A family tradition! If your child survives. Many zailors don't. You of all people know that. [This is how you gain a Scion, allowing your next captain to choose two legacies.]
@@ -22,7 +22,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Forbid it
 Id: 124105
 Description: You know what happens at zee. No child of yours will risk that. But will they listen? [This will reassure you, setting Terror to zero and reducing Nightmares.]

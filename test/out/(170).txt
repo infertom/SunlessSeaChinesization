@@ -3,7 +3,7 @@ Name: Library of Parts
 Id: 169406
 Description: Moon-Moth stands to one side, as your escort and tour guide.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Ask about the purpose of this room
 Id: 139580
 Description: What sorts of parts are they, anyway?
@@ -21,7 +21,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Study the scrolls in a bumbling way
 Id: 139581
 Description: They look very old, after all.
@@ -40,7 +40,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Write notes in the margins
 Id: 139584
 Description: If your frog glove will hold a pen, that is.
@@ -59,7 +59,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Steal what scrolls you may
 Id: 139589
 Description: There are a large number of them.
@@ -80,7 +80,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Praise the literary traditions of Visage
 Id: 139590
 Description: The scrolls are so numerous, so neatly shelved, so elegantly illustrated.
@@ -99,7 +99,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: Look for books about the ritual in the Ear
 Id: 139897
 Description: Perhaps there's more for you to understand.
@@ -121,7 +121,7 @@ Description:
 
 
 
-	ChildBranches 7
+		ChildBranches 7
 Name: Look for books about the ritual in the Ear
 Id: 139899
 Description: Perhaps there's more for you to understand.
@@ -145,7 +145,7 @@ Description:
 
 
 
-	ChildBranches 8
+		ChildBranches 8
 Name: Steal the most valuable-looking scroll for later sale
 Id: 139586
 Description: It is the sort of thing a locust might do.
@@ -172,7 +172,7 @@ Moon-Moth does not see what you do. The carapace of your costume hides everythin
 
 
 
-	ChildBranches 9
+		ChildBranches 9
 Name: Read over Lotus-blossom's shoulder
 Id: 139587
 Description: What is that she's studying?
@@ -198,7 +198,7 @@ She is too absorbed to notice you there, but the Moon-Moth is not. It does not l
 
 
 
-	ChildBranches 10
+		ChildBranches 10
 Name: Steal the most valuable-looking scroll for later sale
 Id: 139582
 Description: Not very frog-like, but who cares?
@@ -224,7 +224,7 @@ It is probably a coincidence that the Moon-Moth declares your visit to be at an 
 
 
 
-	ChildBranches 11
+		ChildBranches 11
 Name: Pick the pockets of the readers
 Id: 139588
 Description: While they are looking, you can be acquiring.

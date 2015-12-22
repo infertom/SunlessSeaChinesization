@@ -3,7 +3,7 @@ Name: A Difficult Conversation
 Id: 180731
 Description: Some would say that zee-captains must be free to love who they will. It's a lonely life. But it seems your sweetheart disagrees.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Er - 
 Id: 146504
 Description: You shouldn't ever see this. Something went wrong.
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: End things with your sweetheart
 Id: 146621
 Description: You can have no future with your officer, but you're better off alone. [You will also lose any child of the union that you might have.]
@@ -37,7 +37,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Convince the Dapper Chap to stay with you
 Id: 146485
 Description: He's waiting for you, leaning elegantly against a dock-crane. "I know," he says without preamble. "Tell me it's not true."
@@ -59,7 +59,7 @@ Description: Yes, you want to stay with him. Yes, you deeply regret what happene
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Convince the Likely Lass to stay with you
 Id: 146501
 Description: She has harsh things to say about both you and your favourite officer. How did she find out? "I <i>am</i> a spy," she points out.
@@ -81,7 +81,7 @@ Description: Yes, you want to stay with her. Yes, you deeply regret what happene
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Convince the Dapper Chap to stay with you
 Id: 146502
 Description: He's waiting for you, leaning elegantly against a dock-crane. "I know," he says without preamble. "Tell me it's not true."
@@ -103,7 +103,7 @@ Description: Yes, you want to stay with him. Yes, you deeply regret what happene
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: Convince the Likely Lass to stay with you
 Id: 146503
 Description: She has harsh things to say about both you and your favourite officer. How did she find out? "I <i>am</i> a spy," she points out.

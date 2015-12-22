@@ -3,7 +3,7 @@ Name: You've destroyed the Unfinished Pirates
 Id: 155013
 Description: Fragments of clay are littered across the deck. They crunch underfoot like potsherds. Unfinished Men do not surrender.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Investigate the hold
 Id: 131537
 Description: What treasure did these villains take?
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Record any Observations
 Id: 131991
 Description: If you've gathered at least 10 Observations, you may learn something...

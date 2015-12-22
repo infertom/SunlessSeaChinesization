@@ -3,7 +3,7 @@ Name: Wisdom
 Id: 143388
 Description: Nuppmiddt built this place as a prison for the Khanate. Now it answers only to its Governor, and its Governor answers to no one.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Let the Shady Cook go ashore
 Id: 124100
 Description: "Worracoovaprisnz," he says dangerously. "Lemmesithertow!"
@@ -24,7 +24,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Hand over a Prisoner
 Id: 124101
 Description: "Oh, no, we'll pay <i>you</i>," the Unctuous Fellow says. "We can always find a use for another pair of hands. We get lonely, you know. Lonely."
@@ -43,7 +43,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Exchange a Secret for a Prisoner
 Id: 146698
 Description: Wisdom has many, many secrets - far more than one might expect them to glean from the prisoners. But a discerning scholar might identify a secret which would tempt even the Governor of the prison. [This is unlikely to be profitable, unless you have someone specific in mind.]
@@ -64,7 +64,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Put a blemmigan ashore
 Id: 147304
 Description: High, smooth walls with no obvious cracks or tendril-holds. Outflow pipes guarded by the zee. If the blemmigan can break in, its talents are wasted on mere propagation.
@@ -81,7 +81,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Compile a Port Report
 Id: 147650
 Description: Watch the comings and goings.
@@ -98,7 +98,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: Ransom a Prisoner
 Id: 146696
 Description: Wisdom will release prisoners, on payment of an eye-wateringly high redemption fee. It's not entirely clear whether this constitutes bribery, or a legal instance of Khaganian mercy. [This is unlikely to be profitable, unless you have someone specific in mind.]
@@ -120,7 +120,7 @@ Description: He is convivial, the Unctuous Fellow. He convives to the extent of 
 
 
 
-	ChildBranches 7
+		ChildBranches 7
 Name: Rescue a Prisoner
 Id: 146697
 Description: Scale the walls. Enter through the outflow pipes. Evade the guards. Secure your rescuee without raising any alarms. Don't get eaten by giant toads. [You'll only get one chance at this. It is unlikely to be profitable, unless you have someone specific in mind.]

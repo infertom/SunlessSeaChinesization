@@ -3,7 +3,7 @@ Name: The Inky Blotter
 Id: 180301
 Description: Lit by two roaring fires, one at either end of the room. The bartender is in postman's uniform, like almost all of the patrons. A noseless postal inspector called Blunt Thomas delivers the drinks, clears tables, stacks the firewood.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Listen in on postal tall tales
 Id: 146220
 Description: Fishermen brag about fish that got away. Postmen brag about hard deliveries.
@@ -23,7 +23,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Ask why the local currency consists of rats
 Id: 146221
 Description: Two strings of rats for a pint of ale. Three strings for wine. Five for the tolerable brandy under the bar.
@@ -46,7 +46,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Ask why the Hairless Postwoman is hairless
 Id: 146222
 Description: Legacy of some interestingly explosive package, maybe?
@@ -69,7 +69,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Ask about that big statue in the center of the island
 Id: 146223
 Description: If there were a guidebook for visitors, it would have to be the first entry.
@@ -86,7 +86,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Ask why the postmen came here
 Id: 146224
 Description: You don't get the impression they're making a holiday of it.
@@ -109,7 +109,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: Ask how they all occupy themselves all day
 Id: 146226
 Description: There must be more than this...?
@@ -126,7 +126,7 @@ Description:
 
 
 
-	ChildBranches 7
+		ChildBranches 7
 Name: Hand off some deliverable post to one of the postmen
 Id: 146241
 Description: Give at least one of them a second chance, a reason to leave Nuncio.
@@ -147,7 +147,7 @@ Description:
 
 
 
-	ChildBranches 8
+		ChildBranches 8
 Name: Show off your sack of undeliverable post
 Id: 146244
 Description: It's full of conversation-starting bits. Like this parcel with the bloodstains.
@@ -166,7 +166,7 @@ Description:
 
 
 
-	ChildBranches 9
+		ChildBranches 9
 Name: Throw your undeliverable post into the fire
 Id: 146245
 Description: Might contribute to their fuel supply, eh?
@@ -189,7 +189,7 @@ Description:
 
 
 
-	ChildBranches 10
+		ChildBranches 10
 Name: Ask to borrow a uniform
 Id: 146248
 Description: If you're to fit in here, you'll need one.
@@ -210,7 +210,7 @@ Description:
 
 
 
-	ChildBranches 11
+		ChildBranches 11
 Name: Ask why letters wash ashore here
 Id: 146249
 Description: Maybe one of them will know.
@@ -231,7 +231,7 @@ Description:
 
 
 
-	ChildBranches 12
+		ChildBranches 12
 Name: Trade war stories about your shiftwork
 Id: 146259
 Description: You know how to fit in.
@@ -252,7 +252,7 @@ Description:
 
 
 
-	ChildBranches 13
+		ChildBranches 13
 Name: Ask about the locked doors in the Dead Letter Office
 Id: 146271
 Description: Someone must have been through, though for some reason they don't seem to discuss it much.
@@ -273,7 +273,7 @@ Description:
 
 
 
-	ChildBranches 14
+		ChildBranches 14
 Name: Judge the postmen in light of what you now know
 Id: 146874
 Description: All have failed.
@@ -290,7 +290,7 @@ Description:
 
 
 
-	ChildBranches 15
+		ChildBranches 15
 Name: Honour the postmen in light of what you now know
 Id: 146875
 Description: All have tried.
@@ -309,7 +309,7 @@ Description:
 
 
 
-	ChildBranches 16
+		ChildBranches 16
 Name: Talk about the caverns below the Dead Letter Office
 Id: 146876
 Description: Someone must know something, or be curious.
@@ -328,7 +328,7 @@ Description:
 
 
 
-	ChildBranches 17
+		ChildBranches 17
 Name: Back to the docks
 Id: 147078
 Description: Leave the warmth of the Blotter for now.

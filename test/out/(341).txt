@@ -3,7 +3,7 @@ Name: Fallen Corsairs
 Id: 153586
 Description: They're as unlovely in death as they were in life.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Loot the bodies
 Id: 130592
 Description: How many times have they looted fallen enemies? Now it's your turn.
@@ -25,7 +25,7 @@ Description: Leathery meat and handfuls of coins from a dozen harbours. But what
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Record any Observations
 Id: 131986
 Description: If you've gathered at least 10 Observations, you may learn something...

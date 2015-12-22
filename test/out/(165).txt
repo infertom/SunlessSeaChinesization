@@ -9,7 +9,7 @@ A voice speaks in the darkness, a ritual preparation: "Here at the new year, we 
 <br/><br/>
 Here and there is the sound of people fumbling with ties and strings. Your own face feels different with the mask off.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Wait, listen
 Id: 139114
 Description: There are things here to learn, perhaps to your advantage.
@@ -28,7 +28,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Tell one of your own secrets
 Id: 139115
 Description: All this time under the mask. It would be freeing.
@@ -46,7 +46,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Fight the urge to panic
 Id: 139116
 Description: The room may have gotten bigger, but you are still trapped like a bug in a bottle.
@@ -65,7 +65,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Fight the urge to giggle
 Id: 139117
 Description: What curious practices they have here.
@@ -84,7 +84,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Receive the confidence of a stranger as holy
 Id: 139118
 Description: Those who come as spectators may remain as participants.

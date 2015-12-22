@@ -3,7 +3,7 @@ Name: Choice of masks
 Id: 168633
 Description: Masks in an assortment of shapes and colours await.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Ask to go about without any mask
 Id: 139123
 Description: Your own fair face will do for you, thanks very much.
@@ -22,7 +22,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Ask the significance of the masks
 Id: 139124
 Description: Maybe there's more to it than a question of aesthetic taste.
@@ -45,7 +45,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Choose the frog mask
 Id: 139125
 Description: It looks curious.
@@ -64,7 +64,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Choose the locust mask
 Id: 139126
 Description: It looks voracious.
@@ -85,7 +85,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Choose the bat mask
 Id: 139127
 Description: It looks threatening.

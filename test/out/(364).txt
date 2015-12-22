@@ -3,7 +3,7 @@ Name: You've defeated a Glorious Frigate
 Id: 171475
 Description: The ship is yours! What will you do with her?
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Record any Observations
 Id: 140797
 Description: If you've gathered enough, you may learn something...
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Investigate the hold
 Id: 140801
 Description: What treasure did these villains take?
@@ -37,7 +37,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Send home with a prize crew
 Id: 140800
 Description: Ten zailors should be enough for a skeleton crew, unless she runs into trouble.

@@ -3,7 +3,7 @@ Name: The Tomb-Colony of Venderbight
 Id: 141878
 Description: On deck, you can hear the sound that a thousand bandaged dead make as they shuffle and cough. It's something like the world's most restless concert audience, or the world's most plague-ridden cathedral.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Visit the First Curator
 Id: 124451
 Description: ZEE-CAPTAINS: THE FIRST CURATOR GIVES AUDIENCE. The First Curator is responsible for the preservation of the tomb-colonies. It has been here much longer than London, like all the oldest tomb-colonists. But even tomb-colonists dissolve in the end. Its time is close.
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: A dusty glass of wine
 Id: 124452
 Description: Venderbight is not the most promising place for shore leave. Too much decay. Too little light. Too many bandaged walking corpses. Few companions of easy virtue. No cinnamon, no recent newspapers, very little pickled cave-herring.
@@ -37,7 +37,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Explore Venderbight
 Id: 127785
 Description: Here, they favour candle-light over gas-light. The shadows are swagged like cobwebs. The tomb-colonists stand still enough to be mistaken for sculpture, until they laugh or cough. One building in three seems abandoned.
@@ -54,7 +54,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Explore Venderbight
 Id: 127786
 Description: Here, they favour candle-light over gas-light. The shadows are swagged like cobwebs. The tomb-colonists stand still enough to be mistaken for sculpture, until they laugh or cough. One building in three seems abandoned.
@@ -71,7 +71,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Explore Venderbight
 Id: 127787
 Description: Here, they favour candle-light over gas-light. The shadows are swagged like cobwebs. The tomb-colonists stand still enough to be mistaken for sculpture, until they laugh or cough. One building in three seems abandoned.
@@ -88,7 +88,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: Explore Venderbight
 Id: 127788
 Description: Here, they favour candle-light over gas-light. The shadows are swagged like cobwebs. The tomb-colonists stand still enough to be mistaken for sculpture, until they laugh or cough. One building in three seems abandoned.
@@ -105,7 +105,7 @@ Description:
 
 
 
-	ChildBranches 7
+		ChildBranches 7
 Name: Gather gossip
 Id: 127961
 Description: Who's plotting what, out in the tomb-colonies?
@@ -123,7 +123,7 @@ Description:
 
 
 
-	ChildBranches 8
+		ChildBranches 8
 Name: Explore Venderbight
 Id: 130112
 Description: Here, they favour candle-light over gas-light. The shadows are swagged like cobwebs. The tomb-colonists stand still enough to be mistaken for sculpture, until they laugh or cough. One building in three seems abandoned.
@@ -141,7 +141,7 @@ Description:
 
 
 
-	ChildBranches 9
+		ChildBranches 9
 Name: Explore Venderbight
 Id: 130113
 Description: Here, they favour candle-light over gas-light. The shadows are swagged like cobwebs. The tomb-colonists stand still enough to be mistaken for sculpture, until they laugh or cough. One building in three seems abandoned.
@@ -158,7 +158,7 @@ Description:
 
 
 
-	ChildBranches 10
+		ChildBranches 10
 Name: Explore Venderbight
 Id: 130114
 Description: Here, they favour candle-light over gas-light. The shadows are swagged like cobwebs. The tomb-colonists stand still enough to be mistaken for sculpture, until they laugh or cough. One building in three seems abandoned.
@@ -177,7 +177,7 @@ Description:
 
 
 
-	ChildBranches 11
+		ChildBranches 11
 Name: Explore Venderbight
 Id: 130115
 Description: Here, they favour candle-light over gas-light. The shadows are swagged like cobwebs. The tomb-colonists stand still enough to be mistaken for sculpture, until they laugh or cough. One building in three seems abandoned.
@@ -194,7 +194,7 @@ Description:
 
 
 
-	ChildBranches 12
+		ChildBranches 12
 Name: Explore Venderbight
 Id: 130116
 Description: Here, they favour candle-light over gas-light. The shadows are swagged like cobwebs. The tomb-colonists stand still enough to be mistaken for sculpture, until they laugh or cough. One building in three seems abandoned.
@@ -211,7 +211,7 @@ Description:
 
 
 
-	ChildBranches 13
+		ChildBranches 13
 Name: Explore Venderbight
 Id: 130117
 Description: Here, they favour candle-light over gas-light. The shadows are swagged like cobwebs. The tomb-colonists stand still enough to be mistaken for sculpture, until they laugh or cough. One building in three seems abandoned.
@@ -228,7 +228,7 @@ Description:
 
 
 
-	ChildBranches 14
+		ChildBranches 14
 Name: Explore Venderbight
 Id: 130122
 Description: Here, they favour candle-light over gas-light. The shadows are swagged like cobwebs. The tomb-colonists stand still enough to be mistaken for sculpture, until they laugh or cough. One building in three seems abandoned.
@@ -247,7 +247,7 @@ Description:
 
 
 
-	ChildBranches 15
+		ChildBranches 15
 Name: Explore Venderbight
 Id: 130123
 Description: Here, they favour candle-light over gas-light. The shadows are swagged like cobwebs. The tomb-colonists stand still enough to be mistaken for sculpture, until they laugh or cough. One building in three seems abandoned.
@@ -264,7 +264,7 @@ Description:
 
 
 
-	ChildBranches 16
+		ChildBranches 16
 Name: Explore Venderbight
 Id: 130130
 Description: Here, they favour candle-light over gas-light. The shadows are swagged like cobwebs. The tomb-colonists stand still enough to be mistaken for sculpture, until they laugh or cough. One building in three seems abandoned.
@@ -283,7 +283,7 @@ Description:
 
 
 
-	ChildBranches 17
+		ChildBranches 17
 Name: Explore Venderbight
 Id: 130131
 Description: Here, they favour candle-light over gas-light. The shadows are swagged like cobwebs. The tomb-colonists stand still enough to be mistaken for sculpture, until they laugh or cough. One building in three seems abandoned.
@@ -302,7 +302,7 @@ Description:
 
 
 
-	ChildBranches 18
+		ChildBranches 18
 Name: Put a blemmigan ashore
 Id: 133947
 Description: That'll liven things up.
@@ -319,7 +319,7 @@ Description:
 
 
 
-	ChildBranches 19
+		ChildBranches 19
 Name: Sell a shipment of red honey to the Tomb-Colonists
 Id: 139738
 Description: It is hard to look disreputable beneath that many bandages, but this colonist manages it somehow. [Selling red honey in Venderbight is safer, but less profitable, than in London.]
@@ -336,7 +336,7 @@ Description:
 
 
 
-	ChildBranches 20
+		ChildBranches 20
 Name: The Last Tour Operator
 Id: 142724
 Description: "Ho, captain! I have one dozen sad and bandaged souls here. They're choosing their final fate. Will you take them on one last diversionary tour? It may be a longish trip. Make sure you have enough supplies." [This will replace 12 Supplies with 12 Tomb-Colonists, who you'll need to take to three destinations in the Unterzee. Mouse over your Objective: Tomb-Colonists quality to learn the destination for each visit.]
@@ -362,7 +362,7 @@ The Operator leans in and whispers: "Honestly, I don't mind if you bring back a 
 
 
 
-	ChildBranches 21
+		ChildBranches 21
 Name: The End of the Tour: a Full Complement
 Id: 143090
 Description: The Last Tour Operator hails you delightedly. "You didn't lose a one! That's never happened before!" There is a chorus of surprised protest from the colonists on deck. "Oh, shut up!" she snaps. "You're all here, aren't you? Right, last instalments, please, so I can pay the nice captain."
@@ -379,7 +379,7 @@ Description:
 
 
 
-	ChildBranches 22
+		ChildBranches 22
 Name: The End of the Tour: What Remains
 Id: 143091
 Description: The Operator hails you warily. "Is this all? What happened to the rest of them?"
@@ -396,7 +396,7 @@ Description:
 
 
 
-	ChildBranches 23
+		ChildBranches 23
 Name: The End of the Tour: I Alone Was Saved
 Id: 143092
 Description: The Operator waves to your single remaining tomb-colonist. The colonist, hesitantly, waves back. There is a difficult pause.
@@ -417,7 +417,7 @@ Description:
 
 
 
-	ChildBranches 24
+		ChildBranches 24
 Name: The Tour: How Embarrassing
 Id: 143093
 Description: The Last Tour Operator leans on the dockside wall, picking her teeth. "You're a little light," she remarks.
@@ -434,7 +434,7 @@ Description:
 
 
 
-	ChildBranches 25
+		ChildBranches 25
 Name: Inspire wanderlust
 Id: 143683
 Description: Did you find the Last Tour lucrative? Or do you have another use for tomb-colonists? Share tales of the wonders you've seen across the zee, and perhaps they'll rouse themselves for another go. [This will allow you to begin the Last Tour storyline again.]
@@ -451,7 +451,7 @@ Description:
 
 
 
-	ChildBranches 26
+		ChildBranches 26
 Name: Visit a certain little restaurant
 Id: 147444
 Description: Fine cuisine in Venderbight? Now that would be something.

@@ -3,7 +3,7 @@ Name: Recurring Nightmare: Watched
 Id: 147411
 Description: The sea is bright as milk: false-stars above are black on a pitchy bed. Something is watching you. Its gaze enfolds your boat. You are transparent as glass.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Go deeper into the Nightmare
 Id: 131689
 Description: The Eye wants to learn you. Well, let it. You'll learn the Eye in turn. [Increases Nightmare's Strength. If it reaches 5, you'll confront the Nightmare: this is dangerous, but may win you a Secret.]
@@ -25,7 +25,7 @@ Description: Beneath you, the Eye grows wider. The water begins to warm, to stea
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Confront the Nightmare
 Id: 131690
 Description: The water around you is steaming, boiling. The Eye rises. Here it comes. Here you go. [If you fail, the Nightmare will grow even stronger, and you will suffer considerable Terror.]
@@ -52,7 +52,7 @@ You wake. You have passed through the Nightmare and out the other side.
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Flee the Nightmare
 Id: 127750
 Description: Turn the helm and flee across the milk-bright sea. [This will reduce Nightmare's Strength. If it reaches 0, the Nighmare will fade entirely. If you have any Restful Nights, they'll reduce the difficulty.]

@@ -3,7 +3,7 @@ Name: The Campaigner's health is desperate
 Id: 165301
 Description: A phosphorescence swims in the skin of her face, like torches in fog. She keeps one hand on the rail as she walks. Zailors draw back, muttering petitions to Stone.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Bed-rest and desperate measures
 Id: 137099
 Description: Insist she stays in bed. Dose her food with the mutersalt which, you've learnt, suppresses her condition.
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Let her go
 Id: 137105
 Description: These are her final moments.
@@ -41,7 +41,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Administer the treatments from Adam's Way
 Id: 146683
 Description: The instructions are baroque. You work as quickly as you can.

@@ -3,7 +3,7 @@ Name: Fire!
 Id: 151243
 Description: You've pushed your engines too far, too fast! Zailors scream - flames rage -
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Heal the wounded, damp the flames
 Id: 129133
 Description: Do what you can -
@@ -30,7 +30,7 @@ Description: ...your Chief Engineer's face is pale as wax. "I... don't know what
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Heal the wounded, damp the flames
 Id: 131642
 Description: Do what you can -

@@ -3,7 +3,7 @@ Name: Tomb-Colonists in Irem
 Id: 155214
 Description: "We will wander the stairs for hours. We will forget our scars and our stains. The leaves will be red as remembered blood. The sea will be black as memory. Irem, Irem. We will not leave. We must leave."
 
-	ChildBranches 1
+		ChildBranches 1
 Name: The Colonists will look East
 Id: 131672
 Description: They will be drawn to the edge of the isle, where Salt's realm opens out into the darker zee: the places beyond the edge. What will they see?
@@ -25,7 +25,7 @@ Description: One of them will not return. "An exchange," another will say, and t
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Encourage them to purchase Parabola-Linen Bandages
 Id: 131673
 Description: They will deck themselves in imagined crimson.

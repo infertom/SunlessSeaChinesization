@@ -1,5 +1,11 @@
 package test;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.FileWriter;
+import java.io.IOException;
+
 import com.alibaba.fastjson.JSONObject;
 
 import analysisEvents.ChildBranche;
@@ -9,7 +15,7 @@ public class testChildBranche {
 	private static String fileInName = "test/testChildBranche.txt";
 	private static StringBuilder testStr = new StringBuilder();
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		testStr = READFILEALL.readFileAl(fileInName);
 		System.out.println(testStr.toString());
 
@@ -32,9 +38,12 @@ public class testChildBranche {
 		}
 
 		// 获取JSONObject
-		System.out.println("getJSONObject:");
-		JSONObject object = event.getJsonObject();
-		System.out.println(object.toJSONString());
+		File file = new File("test/out/childBranche.txt");
+		FileOutputStream outputStream = new FileOutputStream(file);
+		FileWriter out = new FileWriter(file);
+		out.write(event.getJsonString().trim());
+		out.close();
+		System.out.println(event.getJsonString());
 	
 		//获取Info
 		System.out.println("\nInfo:\n" + event.getInfo().trim());

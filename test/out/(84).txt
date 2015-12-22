@@ -3,7 +3,7 @@ Name: A Delegation
 Id: 152176
 Description: 
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Favour the Chief Engineer
 Id: 129712
 Description: He seems grumpy but honest. Also you've seen what rat-made weapons can do, and you'd rather not be on the receiving end of them. 
@@ -22,7 +22,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Favour the Seneschal
 Id: 129717
 Description: 
@@ -39,7 +39,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Refuse the choice
 Id: 129718
 Description: 

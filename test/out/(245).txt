@@ -3,7 +3,7 @@ Name: Your Comatose Ferret
 Id: 147256
 Description: It lies across your desk like a lumpy scarf.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Play with your Ferret
 Id: 126586
 Description: Attract its attention.
@@ -25,7 +25,7 @@ Description: The Comatose Ferret resents the disturbance. It springs to life lik
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Consume your Comatose Ferret
 Id: 128493
 Description: It looks more and more like a plumply enticing furry sausage. But it is, also, adorable. What to do?
@@ -42,7 +42,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Play with your Ferret
 Id: 132035
 Description: Today, your Ferret seems a little livelier.
@@ -64,7 +64,7 @@ Description: The Ferret raises its head and snaps at your hand. It moves so slow
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Play with your Ferret
 Id: 132036
 Description: Today, the Ferret is wary. There is a fey glint in its eye.

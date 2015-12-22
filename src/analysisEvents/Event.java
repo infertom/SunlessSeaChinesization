@@ -1,6 +1,7 @@
 package analysisEvents;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 import com.alibaba.fastjson.JSON;
@@ -8,7 +9,7 @@ import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 
 	
-public class Event {
+public class Event implements Iterable<ChildBranche>{
 	private JSONObject event;
 	private List<ChildBranche> childBranches = new ArrayList<ChildBranche>();
 	String title = "";
@@ -89,6 +90,25 @@ public class Event {
 		return num;
 	}
 
+	//获取包含片段par的Info
+	public String getInfoByDes(String par){
+		if ( this.getDesNum(par) == 1 ){
+			String description = this.getDescription();
+			String temp = "";
+			if ( description != null && description.indexOf(par) != -1 ){
+				temp = this.getEventInfo();
+			}else{
+				for ( ChildBranche e : childBranches ){
+					temp = e.getInfoByDes(par);
+					if ( temp != null ) break;
+				}
+			}
+			return temp;
+		}else{
+			return null;
+		}
+	}
+	
 	//替换Description
 	public Boolean exchangeDescription(String par, String buffer){
 		if ( this.getDesNum(par) == 1 ){
@@ -106,23 +126,30 @@ public class Event {
 		}
 	}
 	
-	//获取当前Event的JSONObject
-	public JSONObject getJsonObject(){
+	//获取当前Event的JSON-String
+	public String getJsonString(){
 		JSONArray ja = new JSONArray();
 		for ( ChildBranche e : childBranches ){
-			ja.add(e.getJsonObject());
+			ja.add(JSON.parseObject(e.getJsonString()));
 		}
-		event.put("ChildBranches", ja.toJSONString());
+		event.put("ChildBranches", ja);
 		
-		return event;
+		return event.toJSONString();
 	}
 	
+
 	// 获取info，包含Description，Name，Id
-	public String getInfo(){
-		String temp = "\t" + this.getTitle() + "\r\n" + 
+	public String getEventInfo(){
+		String temp = "\t\t" + this.getTitle() + "\r\n" + 
 				  "Name: " + this.getName() + "\r\n" +
 				  "Id: " + this.getId() + "\r\n" +
 				  "Description: " + this.getDescription() + "\r\n\r\n";
+		return temp;
+	}
+	
+	//获取包含event及分支的所有信息
+	public String getInfo(){
+		String temp = this.getEventInfo();
 		for ( ChildBranche e : childBranches ){
 			temp += e.getInfo();
 		}
@@ -130,4 +157,8 @@ public class Event {
 		
 		return temp;
 	}	
+	
+	public Iterator<ChildBranche> iterator(){
+		return childBranches.iterator();
+	}
 }

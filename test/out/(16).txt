@@ -3,7 +3,7 @@ Name: Choose an Ambition
 Id: 145720
 Description: What does winning mean to you?
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Wealth
 Id: 125596
 Description: You know how it is to be poor. Now you want a mansion, servants, fine clothes. A family, perhaps.
@@ -22,7 +22,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Your Father's Bones
 Id: 125597
 Description: Your father was lost at zee. You never knew him, but you've often dreamed of him. Find and return his remains to London for a decent burial.
@@ -41,7 +41,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: The Uttermost East
 Id: 125598
 Description: Find what lies beyond the map's edge. [This is now a hidden victory condition.]
@@ -58,7 +58,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Fulfilment
 Id: 125599
 Description: Gather a hundred tales. Learn all you can of the zee. Write a masterpiece. Retire.
@@ -75,7 +75,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: A Private Kingdom
 Id: 125600
 Description: Establish a settlement where you are absolute ruler. A utopia, perhaps. Perhaps. [This is not available in this build.]
@@ -92,7 +92,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: NORTH
 Id: 125601
 Description: A seventh, hidden, self-destructive ambition, or no ambition at all. 

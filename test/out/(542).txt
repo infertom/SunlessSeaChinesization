@@ -3,7 +3,7 @@ Name: The Mangrove College
 Id: 143391
 Description: A steaming sprawl of parasynthetic vegetation - and a village. Barely a village. Holed walls, roofs in disrepair, stilts leaning dangerously. It looks to have been assembled by drunks in a hurry. Dock carefully.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Pick up a passenger
 Id: 124102
 Description: The Mangrove College is named for its scholars and philosophers. They have long abandoned civilised comforts for the life of the mind. Sometimes, they want those civilised comforts back.
@@ -25,7 +25,7 @@ Description: "The Corsair's Forest, please. Gaider's Mourn. No, I'm not in a hur
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Eat, drink, be merry
 Id: 124103
 Description: The philosophers of the College are not hospitable, but this whole shoreline is bursting with fruit and edible fungus. Reach up and it falls into your hand. Pick it up, and it's already fermented.
@@ -42,7 +42,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Gather supplies
 Id: 124453
 Description: You don't have time to stop and rest, but you can gather plenty of supplies. The College members will grumble, but there's enough to go around
@@ -59,7 +59,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Into the Wisp-Ways
 Id: 134239
 Description: The swamps around the village are full of mud, crocodiles and vegetable treasures, including the notorious parasite called 'solacefruit'. The fogs and spreading branches occlude all light. [Take plenty of candles if you venture in.]
@@ -76,7 +76,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Unpick the Mysteries of other Lands
 Id: 134243
 Description: The scholars of the College are hungry for lore. They'll help you put the pieces together. [This will convert these items to a Secret.]
@@ -93,7 +93,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: Unpick the Mysteries of the Zee
 Id: 134244
 Description: Some of the 'philosophers' of the College have the grizzled air of old zailors. Retired mariners? Or pirates who've come here to avoid attention?
@@ -110,7 +110,7 @@ Description:
 
 
 
-	ChildBranches 7
+		ChildBranches 7
 Name: Meet your contact
 Id: 134317
 Description: An Enigmatic Gentleman lives a comfortable life in the largest hut. He won't see you without an appointment, but the Admiralty has arranged that appointment.
@@ -127,7 +127,7 @@ Description:
 
 
 
-	ChildBranches 8
+		ChildBranches 8
 Name: Compile a Port Report
 Id: 134539
 Description: Sages, scholars, philosophers, naturalists, poets, dreamers - here to pursue their rarefied ideals in a land of muddy fecundity.
@@ -144,7 +144,7 @@ Description:
 
 
 
-	ChildBranches 9
+		ChildBranches 9
 Name: Pick up an Absent Friend for Venderbight
 Id: 141590
 Description: The directions take you to a frondy hovel in the shade of a swamp-oak. When you knock, the whole thing quivers as if it's come unmoored.
@@ -161,7 +161,7 @@ Description:
 
 
 
-	ChildBranches 10
+		ChildBranches 10
 Name: Engage an Officer: Maybe's Daughter
 Id: 146152
 Description: "Hello! Where are you headed? On second thoughts, I don't mind. Can I come aboard? Yes, I'm an engineer, but I'm an engineer in a hurry." [Maybe's Daughter is an Engineer who increases Veils, Iron and Engine Power.]
@@ -178,7 +178,7 @@ Description:
 
 
 
-	ChildBranches 11
+		ChildBranches 11
 Name: Go beachcombing
 Id: 146956
 Description: Ships come and go to and from the Mangrove College, often in secret. What might they have flung overboard?
@@ -195,7 +195,7 @@ Description:
 
 
 
-	ChildBranches 12
+		ChildBranches 12
 Name: Put a blemmigan ashore
 Id: 147299
 Description: The college is already a crumbling mess more plant than village. Unleashing a blemmigan here will only hasten the decline. No matter.
@@ -212,7 +212,7 @@ Description:
 
 
 
-	ChildBranches 13
+		ChildBranches 13
 Name: Gather supplies
 Id: 147373
 Description: You don't have time to stop and rest, but you can gather plenty of supplies. The College members will grumble, but there's enough to go around
@@ -234,7 +234,7 @@ Description: Your crew returns sooner than you expected. One is nursing a badly 
 
 
 
-	ChildBranches 14
+		ChildBranches 14
 Name: Pick up a passenger
 Id: 147439
 Description: The Mangrove College is named for its scholars and philosophers. They have long abandoned civilised comforts for the life of the mind. Sometimes, they want those civilised comforts back.

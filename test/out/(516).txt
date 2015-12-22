@@ -3,7 +3,7 @@ Name: Visit to the Smith's Emporium
 Id: 149033
 Description: The rooms run back into the rock of the island, chamber after chamber of long-barreled machinery.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Commission a Weapon
 Id: 127777
 Description: Though the smith is initially reluctant to build for anyone but his Usual Customers (whoever those might be), he admits that he is interested in testing a private project... [This is not yet possible.]
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Ask the smith about life on the island
 Id: 127792
 Description: He doubtless has his own perspective.
@@ -40,7 +40,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Ask the smith about how he got here
 Id: 127793
 Description: Might be an interesting tale.
@@ -60,7 +60,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Ask him about the heartmetal suit
 Id: 127795
 Description: Pretend you heard a rumour about it, if you don't want to admit to snooping.
@@ -80,7 +80,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Ask the smith to construct an assembly-housing for the Cannoneer's weapon
 Id: 130146
 Description: Why is the smith so willing to help? Just how many outstanding favours are owed? The Cannoneer shrugs the question off, smiling. "I made a lot of bombs, back in the day. A lot of bombs. For a lot of people. Who don't like me to talk about it!! I think that's why the University threw me out. I never dared go back and ask, though."
@@ -105,7 +105,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: Search the place on your own
 Id: 127794
 Description: Who knows what might be in the back storage areas?

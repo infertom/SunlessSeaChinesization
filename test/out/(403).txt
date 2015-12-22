@@ -5,7 +5,7 @@ Description: Your Patron offers the Pirate-King the wine-glass. The King takes a
 He returns hours later, skin flushed and eyes bright. "I am very partial to memories of the Far East. Very thoughtful of you."<br><br>
 He bestows a humming, honey-soaked kiss on Isery's lips, and then Zaira's, before holding out the vial to you.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Take a sip
 Id: 139088
 Description: The prisoner gazes at the ceiling blankly, with no sign of his earlier distress. 
@@ -24,7 +24,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Decline the taste
 Id: 139089
 Description: You just want your reward. And, possibly, to get away from the grim sight of the prisoner rattling his shackles in the corner.

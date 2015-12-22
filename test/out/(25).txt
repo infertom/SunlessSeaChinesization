@@ -3,7 +3,7 @@ Name: The Campaigner is dying
 Id: 165303
 Description: Her skin, her eyes. Like the long-set sun. "Too late," she croaks. Wisps of deadly light escape between her lips.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Let her go
 Id: 137100
 Description: There's nothing more you can do. These are her final moments.
@@ -24,7 +24,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Administer the treatments from Adam's Way
 Id: 146685
 Description: Is there time?

@@ -3,7 +3,7 @@ Name: Navigator's Boon
 Id: 153822
 Description: You fall into conversation with another zee-captain - one with at least one voyage to their credit.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Earnest advice
 Id: 130729
 Description: They've paid dearly to learn these lessons. You'll gain from their scars.

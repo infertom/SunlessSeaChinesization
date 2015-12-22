@@ -3,7 +3,7 @@ Name: Exploring the Shattered Citadel
 Id: 155227
 Description: All the Neath is dark. The Citadel is dark as only a once-bright place can be. It hung up there among the false-stars, drowned in azure light, for... how long? Now it's here. So are you. [Very bad things will happen if you run out of candles.]
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Fumble in the dark
 Id: 131684
 Description: Somewhere - somewhere here is the way out. The darkness presses against you. Its breath is hot on your neck.
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Leave
 Id: 131694
 Description: Here's the wall-crack that leads to the monastery-cellar.
@@ -37,7 +37,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Silence
 Id: 132484
 Description: No one is left. Who is even reading this?
@@ -54,7 +54,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Go deeper
 Id: 131682
 Description: The Citadel lies on its side. All its halls and tunnels tilt crazily. Edge your way through, like an ant through a broken puzzle-box.
@@ -76,7 +76,7 @@ Description: You've found your way deeper into the Citadel...
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Retrace your steps
 Id: 131683
 Description: Back - out? Up? Before? Very quickly, directions in here become impossible.

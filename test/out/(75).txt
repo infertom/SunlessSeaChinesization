@@ -3,7 +3,7 @@ Name: A fallen stone
 Id: 150638
 Description: Now and then, rocky fragments fall from the roof of the Neath. The decks of older ships are pocked with scars. The sound is one no land-lubber knows, and no zailor will ever forget. This one has smashed the glass of a deck-binnacle. "Ill omen!" one sailor cries. "The god in the roof! Storm is angry!"
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Do nothing
 Id: 128726
 Description: Storm: one of the three nameless gods of the zee. An absurd superstition. 
@@ -25,7 +25,7 @@ Description: It takes some persuading to get the crew to sweep up the binnacle a
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Make a sacrifice to avert misfortune
 Id: 128727
 Description: In the stories, Storm is the noisiest, angriest and least reasonable of the zee-gods. Better not take chances.

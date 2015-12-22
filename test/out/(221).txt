@@ -12,7 +12,7 @@ The twin is gone now: something about an accident, a footbath full of silvery fl
 <br/>
 Afterward her memories are blurred, until they pick up again here. She regards her present occupation as penance of some kind.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Express sympathy
 Id: 127798
 Description: It cannot be easy to recall such things.
@@ -29,7 +29,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Press for more details
 Id: 127806
 Description: There must be more she can tell you than that. Even if she doesn't want to.

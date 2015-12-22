@@ -3,7 +3,7 @@ Name: Climbing out
 Id: 181372
 Description: The climb out is slow and takes a long time. Could you possibly have come down this far? Surely not. Your breath grows ragged and your legs cramp.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Ascend
 Id: 146867
 Description: There's no way out but up.
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Sit down a moment
 Id: 146901
 Description: The rest of the spiral will still be there after you've got your breath.

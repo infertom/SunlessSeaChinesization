@@ -3,7 +3,7 @@ Name: An Old Friend
 Id: 155190
 Description: "I was hoping I could do more than just keep you company," she remarks. "I do have a little medical training."
 
-	ChildBranches 1
+		ChildBranches 1
 Name: "Well, we can always use another surgeon - "
 Id: 131656
 Description: Smile and extend your hand.
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: "Wait - "
 Id: 131664
 Description: "What are you doing here? You never came aboard - "

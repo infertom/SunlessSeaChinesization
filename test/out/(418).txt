@@ -3,7 +3,7 @@ Name: Legacy of the First Emperor
 Id: 176669
 Description: The lost treasure has been found. Now for the easy bit.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: The Burial Chamber
 Id: 144071
 Description: The First Emperor's bones lie in state, surrounded by souls in spheres of blue, green and silver.
@@ -22,7 +22,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Attack the Delightful Adventuress
 Id: 144092
 Description: This entirely unexpected betrayal will not stand!
@@ -41,7 +41,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Obey the Delightful Adventuress
 Id: 144093
 Description: You've done everything else she asked...
@@ -58,7 +58,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: The Clay Man finishes gathering the souls
 Id: 144094
 Description: This could be going better...
@@ -77,7 +77,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: A calculated risk
 Id: 144095
 Description: With the bag over her shoulder, she's going to be slower. You just have to avoid that poisoned sword...
@@ -100,7 +100,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: Do nothing, form a plan later
 Id: 144096
 Description: The monkeys built this tomb by copying stories. The stories always have a way out.
@@ -121,7 +121,7 @@ Description:
 
 
 
-	ChildBranches 7
+		ChildBranches 7
 Name: Attempt to dig a way out
 Id: 144097
 Description: She won't get away with this!
@@ -140,7 +140,7 @@ Description:
 
 
 
-	ChildBranches 8
+		ChildBranches 8
 Name: The Monkey Foundling to the rescue!
 Id: 144099
 Description: From above comes a familiar, mischievous cry
@@ -159,7 +159,7 @@ Description:
 
 
 
-	ChildBranches 9
+		ChildBranches 9
 Name: You have nothing to dig with but your hands
 Id: 144101
 Description: Even so, you're making progress. Bit by bit! You just have to hope that it's enough, and the rest of the Vault hasn't collapsed on itself.
@@ -181,7 +181,7 @@ Description: It's pitch black on the other side, but the damage to the Vault was
 
 
 
-	ChildBranches 10
+		ChildBranches 10
 Name: A Delightful Reunion
 Id: 144104
 Description: It appears the Delightful Adventuress is having problems of her own by the rowboats.
@@ -200,7 +200,7 @@ Description:
 
 
 
-	ChildBranches 11
+		ChildBranches 11
 Name: Team up with the Delightful Adventuress
 Id: 144106
 Description: With her poisoned rapier and your wits, you can take out these uppity apes.
@@ -219,7 +219,7 @@ Description:
 
 
 
-	ChildBranches 12
+		ChildBranches 12
 Name: Propose a fair deal
 Id: 144110
 Description: Split the souls three ways, and everyone can be happy.
@@ -238,7 +238,7 @@ Description:
 
 
 
-	ChildBranches 13
+		ChildBranches 13
 Name: Team up with the Mayor
 Id: 144111
 Description: Even if you defeat him, there could be an army of his kind between you and your ship.
@@ -259,7 +259,7 @@ Description:
 
 
 
-	ChildBranches 14
+		ChildBranches 14
 Name: Triumph of the Delightful Adventuress
 Id: 144113
 Description: Barnabas' clay muscles seem to swell as he lumbers forward, silent but purposeful.
@@ -280,7 +280,7 @@ Description:
 
 
 
-	ChildBranches 15
+		ChildBranches 15
 Name: Donate the Legacy to the Zeppelin
 Id: 144118
 Description: This will completely fulfil its requirement for Souls. The Mayor keeps the remainder to do with as he chooses. You receive the payment from the Wildweald Court.
@@ -299,7 +299,7 @@ Description:
 
 
 
-	ChildBranches 16
+		ChildBranches 16
 Name: Punish the Delightful Adventuress
 Id: 144120
 Description: She deserves it. And she's not getting a ride home.
@@ -318,7 +318,7 @@ Description:
 
 
 
-	ChildBranches 17
+		ChildBranches 17
 Name: Let Barnabas decide her fate
 Id: 144121
 Description: He is after all the one that she betrayed the most.
@@ -337,7 +337,7 @@ Description:
 
 
 
-	ChildBranches 18
+		ChildBranches 18
 Name: Refuse
 Id: 144122
 Description: You are not going to abandon anyone to the monkeys.
@@ -360,7 +360,7 @@ Description:
 
 
 
-	ChildBranches 19
+		ChildBranches 19
 Name: Use your extra dynamite
 Id: 144135
 Description: Somehow you knew it would be worth going back for more...
@@ -377,7 +377,7 @@ Description:
 
 
 
-	ChildBranches 20
+		ChildBranches 20
 Name: Search for a way out
 Id: 145175
 Description: If only you could see just a little better...
@@ -396,7 +396,7 @@ Description:
 
 
 
-	ChildBranches 21
+		ChildBranches 21
 Name: The Monkey Foundling to the rescue!
 Id: 145922
 Description: If any of your crew was going to save you...
@@ -415,7 +415,7 @@ Description:
 
 
 
-	ChildBranches 22
+		ChildBranches 22
 Name: A fading taste of red honey
 Id: 144100
 Description: What is it, just on the edge of remembrance?
@@ -445,7 +445,7 @@ Barnabas helps you climb up the pillars. Success! A vent. You climb through it w
 
 
 
-	ChildBranches 23
+		ChildBranches 23
 Name: Split the Legacy three ways
 Id: 144119
 Description: You, the Mayor, and Barnabas. Though it seems unlikely that the Mayor will agree to a <i>straight</i> three way split...

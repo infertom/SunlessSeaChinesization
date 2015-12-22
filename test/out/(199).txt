@@ -3,7 +3,7 @@ Name: The Navigator's Confession
 Id: 182318
 Description: A square of paper, folded into quarters to make a booklet.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Read the first page
 Id: 147528
 Description: <i>To Whom it may Concern, I hereby record my full and honest confession in the hopes of absolution in Her Enduring Majesty's Service.</i>
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Read the second page
 Id: 147529
 Description: <i>Our stores nearly depleted, we turned back - and here I committed the first of my crimes. </i>
@@ -37,7 +37,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Read the third page
 Id: 147530
 Description: <i>The first of us to draw the short straw was the captain. The second was my brother. </i>
@@ -54,7 +54,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Read the fourth page
 Id: 147531
 Description: Here he scribbled his later note, when the Admiralty failed to select him for absolution through service.

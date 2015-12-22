@@ -3,7 +3,7 @@ Name: Port Carnelian
 Id: 175505
 Description: London's first Unterzee colony sweats under a blanket of southern heat. To the right of the dock, the sapphire-mines yawn. To the left, the Governor's house stands, prim as an Elderwick mansion. Behind lies the fungal jungle, ghostly in white and violet.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Visit Murgatroyd's Imperial Tea Shop
 Id: 143315
 Description: Behind the windows, spoons clink on china.
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Talk to a tiger in the Blue Bazaar
 Id: 143323
 Description: The Carnelian Coast's padding natives are eloquent, placid, and acerbic. Most of the time.
@@ -46,7 +46,7 @@ The tiger chats about the Banded Prince, their supposed monarch, and his palace 
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Call at Heartscross House
 Id: 143334
 Description: Where the Governor administers this distant fleck of Her Majesty's empire.
@@ -63,7 +63,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Find out what your spies need
 Id: 143336
 Description: To improve the quality of your network, you'll need... something. Find out what. [This will improve your Network here.]
@@ -80,7 +80,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Call at a room above a bookshop
 Id: 143370
 Description: The diplomats of the Khanate were expelled from Port Carnelian following the Galatea Incident. Only one remains behind. "Not in any official capacity, you understand."
@@ -97,7 +97,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: Fulfil your spies' needs
 Id: 146274
 Description: They wanted something... [This will improve your Network here.]
@@ -114,7 +114,7 @@ Description:
 
 
 
-	ChildBranches 7
+		ChildBranches 7
 Name: Influence Affairs in Port Carnelian
 Id: 146340
 Description: Your network's influence over the colony is extensive. How will you use it?
@@ -131,7 +131,7 @@ Description:
 
 
 
-	ChildBranches 8
+		ChildBranches 8
 Name: Decide Port Carnelian's fate
 Id: 146344
 Description: Your network reaches into every office, every parlour. 
@@ -148,7 +148,7 @@ Description:
 
 
 
-	ChildBranches 9
+		ChildBranches 9
 Name: Visit Heartscross House
 Id: 146363
 Description: The Governor is always pleased to see you, and his cook makes admirable scones.
@@ -167,7 +167,7 @@ Description:
 
 
 
-	ChildBranches 10
+		ChildBranches 10
 Name: Visit Heartscross House
 Id: 146364
 Description: The leaping-fish flag of the Taiman clan hangs over the door
@@ -186,7 +186,7 @@ Description:
 
 
 
-	ChildBranches 11
+		ChildBranches 11
 Name: Visit Heartscross House
 Id: 146365
 Description: Tigers flank the door. Are they asleep? No. A glint of golden eyes.
@@ -206,7 +206,7 @@ Description:
 
 
 
-	ChildBranches 12
+		ChildBranches 12
 Name: Find the Avuncular Broker's Snuffer
 Id: 147150
 Description: He wants it captured alive.
@@ -223,7 +223,7 @@ Description:
 
 
 
-	ChildBranches 13
+		ChildBranches 13
 Name: Put a blemmigan ashore
 Id: 147288
 Description: The heat of the colony thrills the blemmigan. It sits quivering by the port rail.
@@ -240,7 +240,7 @@ Description:
 
 
 
-	ChildBranches 14
+		ChildBranches 14
 Name: Insinuate an agent into Port Carnelian
 Id: 143329
 Description: The place is thick with spies. Who would notice another? Once your agent is in place, you can tap your network for information, or use it to influence affairs here.
@@ -264,7 +264,7 @@ Description: Your agent vanishes into the Carnelian crowds. Within the week they
 
 
 
-	ChildBranches 15
+		ChildBranches 15
 Name: Help Maybe's Daughter search for her mother
 Id: 146191
 Description: "This one's a slender lead. She's been seen wearing sapphires." The Daughter shrugs. "This is where sapphires come from. Look, you were heading this way anyway, weren't you? (Weren't you?)"
@@ -288,7 +288,7 @@ The Daughter assembles the rags of her composure with remarkable speed. "Excuse 
 
 
 
-	ChildBranches 16
+		ChildBranches 16
 Name: Seek intelligence
 Id: 146270
 Description: If you have eyes and ears on the Carnelian Coast, you can use them to gain more than just a Port Report. [The better your Network, the easier this will be.]
@@ -320,7 +320,7 @@ Description: The great zee-powers covet the Carnelian Coast for its sapphires, b
 
 
 
-	ChildBranches 17
+		ChildBranches 17
 Name: Pan for sapphires in the fungal jungle
 Id: 146366
 Description: Somewhere in its heart runs a river of shining stones.

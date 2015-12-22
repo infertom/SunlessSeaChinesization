@@ -4,7 +4,7 @@ Id: 135245
 Description: Her Enduring Majesty's Customs Service works closely with both the Ministry of Public Decency, and the Masters of the Bazaar. Today, they have selected you for an inspection. Don't cheek them.
 
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Declare all controlled goods
 Id: 119009
 Description: Pay the customs duty on any untaxed Souls or Romantic Literature you're carrying. Surrender any smuggled sunlight. [This will also reduce your Suspicion, if your Suspicion is 5 or more.]
@@ -21,7 +21,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Let them do their worst
 Id: 119010
 Description: You have nothing to hide. [This will also reduce your Suspicion, if your Suspicion is 5 or more.]
@@ -38,7 +38,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Talk your way out of the search
 Id: 119011
 Description: Today's duty-officer is a patriot. Perhaps you can claim you're on Admiralty business?
@@ -55,7 +55,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Talk your way out of the search
 Id: 119015
 Description: Today's duty-officer is no respecter of the Admiralty. She will look ill on any attempt to frighten her with military credibility. But she's an amateur antiquarian...
@@ -72,7 +72,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Set something aside
 Id: 119008
 Description: They needn't know about every little trinket you have.

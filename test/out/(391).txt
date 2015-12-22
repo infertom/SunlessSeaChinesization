@@ -3,7 +3,7 @@ Name: Sapphire Chamber
 Id: 181438
 Description: Every facet of the ice-crystal wall is the hard and depthless blue of a desert sky. You take one step further in, and that blue plucks at your senses. Vertigo spins you. A voice intones: THIS WAS THE SKY. 
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Step into the sky
 Id: 146920
 Description: You'll be terribly exposed. But perhaps you'll learn something. [This will sacrifice a point of Veils.]
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Return to the Corridors of Frostfound
 Id: 146921
 Description: Step out into the nexus of corridors.
@@ -37,7 +37,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Recall other places where there is no sky
 Id: 146919
 Description: You are far from any sky. Stare fiercely into that fierce blue, and call to mind your memories of skyless islands.

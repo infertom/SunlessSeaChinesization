@@ -3,7 +3,7 @@ Name: The Uttershroom
 Id: 158110
 Description: Climb the fungal-fibre ladders to its summit. Shaggy, suspicious villagers scratch a living here, amidst endless clouds of spores and scurrying mobs of plant-animal hybrids. None of them ever leave. "Monsters," one explains darkly. "Zee full of monsters."
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Visit the village
 Id: 133440
 Description: Hospitable? Not exactly. But they usually don't chase you off with sticks, and they usually let you sit beside their mildew-smelling fire.
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Trade honey
 Id: 133828
 Description: "Honey," a shroomer explains. "Everyone wants honey." Life on the Uttershroom is unvarying and occasionally deadly poisonous. The shroomers are desperate for the diversion that prisoner's honey can bring, but vague about what they can pay in return. Supplies, though, at least.
@@ -39,7 +39,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Another gift
 Id: 133829
 Description: "Ho! Zeegoer. Here. Shroom has something else for you. No more limbs. Seed now."
@@ -56,7 +56,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Gather intelligence
 Id: 133832
 Description: What happens here, on top of a mushroom the size of Marlborough?
@@ -80,7 +80,7 @@ A gaggle of blemmigans - purple-tentacled fungus things - follows you down the r
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Trade honey for supplies and blemmigan
 Id: 133860
 Description: "Ah! You return again? You want more blemmigan? We have more blemmigan. Many, many blemmigan. Always more blemmigan."
@@ -97,7 +97,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: Visit the village
 Id: 133906
 Description: Hospitable? Not exactly. But they usually don't chase you off with sticks, and they usually let you sit beside their mildew-smelling fire.
@@ -114,7 +114,7 @@ Description:
 
 
 
-	ChildBranches 7
+		ChildBranches 7
 Name: A gift
 Id: 144235
 Description: "Psst. Psst. Zeegoer. Here. Shroom has something for you. Fell long ago. Best elsewhere now."
@@ -131,7 +131,7 @@ Description:
 
 
 
-	ChildBranches 8
+		ChildBranches 8
 Name: Search the shroom-top
 Id: 146496
 Description: Fibrous huts, spore-fogs, that endless damp purple smell. Is there anything else?

@@ -3,7 +3,7 @@ Name: You've destroyed the Faustic Corsair
 Id: 171456
 Description: The ship is yours! What will you do with her?
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Investigate the hold
 Id: 140784
 Description: What treasure did these villains take?
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Record any Observations
 Id: 140786
 Description: If you've gathered at least 10 Observations, you may learn something...

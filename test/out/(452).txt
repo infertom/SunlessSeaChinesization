@@ -3,7 +3,7 @@ Name: Kingeater's Castle
 Id: 143370
 Description: An old voracity lives here, in the far reaches of the zee. The priests are long gone, but sacrifices are still made. Perhaps you have come here to make a sacrifice. Perhaps the sacrifice is you.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: An act of burning faith
 Id: 124088
 Description: Which god holds sway here? Storm, Stone, Salt? Perhaps no god that is elsewhere named. But if you feed it, it will calm your mind. [This will expend Fuel and Supplies to lower your Terror.]
@@ -22,7 +22,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Lose your mind
 Id: 124089
 Description: Offer your thoughts at the altar. [Do not do this.]
@@ -39,7 +39,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Eat your crew
 Id: 146361
 Description: Not all of them will go easily. [Do not do this. This will destroy all your crew and any human, or near-human, Officers. The struggle will wound or even kill you.]
@@ -56,7 +56,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Allow the Gall-Eyed Engineer to go ashore
 Id: 146433
 Description: "This is the place! Please, Captain. My time is close."
@@ -79,7 +79,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Construct the Fulgent Impeller
 Id: 146684
 Description: Under directions from the Mechanic, your crew piece the slabs of black ivory together, as the ancients were said to assemble stone walls without mortar. Sometimes they must saw a piece in half, or abrade its sides to make it fit, but the work proceeds with surprising speed. The Impeller begins to take shape - a squat, heavy-shouldered shape, like a scarecrow built to resemble an engine.
@@ -104,7 +104,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: Attempt travel elsewhere
 Id: 146747
 Description: (useful esp if Salt teleports you here)
@@ -121,7 +121,7 @@ Description:
 
 
 
-	ChildBranches 7
+		ChildBranches 7
 Name: Put a blemmigan ashore
 Id: 147283
 Description: It's quivering.
@@ -138,7 +138,7 @@ Description:
 
 
 
-	ChildBranches 8
+		ChildBranches 8
 Name: Rid your Sigil-Ridden Navigator of his troublesome humanity
 Id: 147452
 Description: He lies on the slab. He hands you the knife.
@@ -157,7 +157,7 @@ Description:
 
 
 
-	ChildBranches 9
+		ChildBranches 9
 Name: Compile a Port Report
 Id: 147666
 Description: Silence. Desolation. The sense of an impending and terrible mistake.

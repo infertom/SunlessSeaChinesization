@@ -5,7 +5,7 @@ Description: The moth perches at the head of the sofa. You've never seen one thi
 <br/><br/>
 "It's finished, [q:Addressed As]," the Obsequious Steward says behind you: though he seems less Obsequious, now. "All shall be well and all manner of thing shall be well. But first..."
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Accept Steam-Yacht Deeds
 Id: 133623
 Description: "It was too frail to sail, by the time she was completed. It would have wanted you to have her." [You will be able to swap to the Steam-Yacht when in Venderbight. The Leucothea class is a mid-sized ship with 250 Hull that increases Hearts, Veils and Pages by 10 each.]
@@ -22,7 +22,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Forget other rewards; take only the Moth
 Id: 133626
 Description: It's watching you. Does it remember the flesh it dwelt in? It spoke often of the zee. Perhaps it would like to travel?
@@ -39,7 +39,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Accept a huge trove of Fragments
 Id: 133627
 Description: "Perhaps it would have preferred you to have its memoirs? They're a little dry. But it was very wise. It had lived a long, long, time. "
@@ -58,7 +58,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Accept seven Treasures
 Id: 133628
 Description: "Of course, if it's avarice that motivates you... I must admit I am, myself, motivated chiefly by avarice."

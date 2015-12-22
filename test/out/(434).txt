@@ -3,7 +3,7 @@ Name: Port Stanton
 Id: 175485
 Description: Soul-hungry monkeys reluctantly tend this trading post, waiting for an opportunity to escape. Bloated fleas hop from ape to man and man to ape, gorging themselves without a care for which is which.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Compile a Port Report
 Id: 143289
 Description: Now that the Admiralty has been brought up to date, this will be far quicker. Unfortunately, also less profitable.
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Prepare a Comprehensive Port Report
 Id: 143294
 Description: Few have reason to brave the waters this far East, especially with the trade embargo. The Admiralty will pay especially well for up-to-date intelligence.
@@ -37,7 +37,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Shore leave
 Id: 143296
 Description: The parasynthetic jungle holds many dangers. Step carefully. There is no authority beyond the fence.
@@ -56,7 +56,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: An Audience with the Calculating Mayor
 Id: 143298
 Description: He may keep you waiting, but he will find time in his busy schedule if there is a chance of profiting from it.
@@ -73,7 +73,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: The Zeppelin
 Id: 143299
 Description: Intense work is underway across the bridge.
@@ -90,7 +90,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: Put a blemmigan ashore
 Id: 143320
 Description: Blemmigans and monkeys on the same island? Nothing bad can come of this.
@@ -108,7 +108,7 @@ Description:
 
 
 
-	ChildBranches 7
+		ChildBranches 7
 Name: Recover your soul
 Id: 143333
 Description: Some d__ned monkey took it? Even a devil would have the manners to ask! Well, they will not keep it for long!
@@ -125,7 +125,7 @@ Description:
 
 
 
-	ChildBranches 8
+		ChildBranches 8
 Name: An Audience with the Flea-Ridden Mayor
 Id: 143366
 Description: He is not busy. No appointments are required.
@@ -142,7 +142,7 @@ Description:
 
 
 
-	ChildBranches 9
+		ChildBranches 9
 Name: An Audience with the Esteemed Mayor
 Id: 143367
 Description: He leaves you waiting for several minutes. As the newest member of the Wildweald Court, it would not do to be seen getting friendly with outsiders.
@@ -159,7 +159,7 @@ Description:
 
 
 
-	ChildBranches 10
+		ChildBranches 10
 Name: An Audience with the Civilised Mayor
 Id: 143368
 Description: Talk business? Why, yes, yes, of course we shall. But after a cup of tea. One must do these things correctly.
@@ -176,7 +176,7 @@ Description:
 
 
 
-	ChildBranches 11
+		ChildBranches 11
 Name: The Zeppelin
 Id: 143960
 Description: You now have permission to visit and bring supplies.
@@ -193,7 +193,7 @@ Description:
 
 
 
-	ChildBranches 12
+		ChildBranches 12
 Name: The Zeppelin
 Id: 143961
 Description: The great work of the Pentecost apes is complete. Soon, they will escape their quarantine.
@@ -210,7 +210,7 @@ Description:
 
 
 
-	ChildBranches 13
+		ChildBranches 13
 Name: The Zeppelin
 Id: 143962
 Description: Pieces of cloth and ash still regularly blow into port.
@@ -227,7 +227,7 @@ Description:
 
 
 
-	ChildBranches 14
+		ChildBranches 14
 Name: Shore leave
 Id: 144865
 Description: The parasynthetic jungle holds many dangers. Step carefully. There is no authority beyond the fence.
@@ -249,7 +249,7 @@ Description: The bones and rotting carcasses stretch out in all their macabre gl
 
 
 
-	ChildBranches 15
+		ChildBranches 15
 Name: Shore leave
 Id: 144866
 Description: The parasynthetic jungle holds many dangers. Step carefully. There is no authority beyond the fence.
@@ -268,7 +268,7 @@ Description:
 
 
 
-	ChildBranches 16
+		ChildBranches 16
 Name: Shore leave
 Id: 144867
 Description: The parasynthetic jungle holds many dangers. Step carefully. There is no authority beyond the fence.
@@ -285,7 +285,7 @@ Description:
 
 
 
-	ChildBranches 17
+		ChildBranches 17
 Name: Shore leave
 Id: 144868
 Description: The parasynthetic jungle holds many dangers. Step carefully. There is no authority beyond the fence.
@@ -304,7 +304,7 @@ Description:
 
 
 
-	ChildBranches 18
+		ChildBranches 18
 Name: Shore leave
 Id: 144869
 Description: The parasynthetic jungle holds many dangers. Step carefully. There is no authority beyond the fence.
@@ -323,7 +323,7 @@ Description:
 
 
 
-	ChildBranches 19
+		ChildBranches 19
 Name: Shore leave
 Id: 144870
 Description: The parasynthetic jungle holds many dangers. Step carefully. There is no authority beyond the fence.
@@ -342,7 +342,7 @@ Description:
 
 
 
-	ChildBranches 20
+		ChildBranches 20
 Name: Poke around the shore
 Id: 144872
 Description: The parasynthetic jungle holds many dangers. Step carefully. There is no authority beyond the fence.
@@ -359,7 +359,7 @@ Description:
 
 
 
-	ChildBranches 21
+		ChildBranches 21
 Name: An Audience with the Civilised Mayor
 Id: 144957
 Description: Talk business? Why, yes, yes, of course we shall. But after a cup of tea. One must do these things correctly.
@@ -376,7 +376,7 @@ Description:
 
 
 
-	ChildBranches 22
+		ChildBranches 22
 Name: Help your navigator sell his soul
 Id: 147451
 Description: "Perhaps one of these apes will make better use of it." He carries his meagre belongings in a pack over his shoulder.
@@ -395,7 +395,7 @@ Description:
 
 
 
-	ChildBranches 23
+		ChildBranches 23
 Name: Gather Strategic Information for the Admiralty
 Id: 148311
 Description: The Admiral commissioned you to gather information. Here at the Empire's edge, that's difficult, but you could pick up a few scraps. [This will give you an Intriguing Snippet: if you can penetrate the court on Sovereign Island, you may be able to do better.]

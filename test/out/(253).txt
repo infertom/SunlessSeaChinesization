@@ -3,7 +3,7 @@ Name: Speak to Maybe's Daughter
 Id: 148782
 Description: Perhaps you don't entirely trust her, but she keeps the engines turning, and she's hard to dislike.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Increase your Veils
 Id: 127618
 Description: [Spend a Secret to improve your Veils, if it is no higher than 100.]
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Answer questions about your past
 Id: 127620
 Description: You've kept your secrets long enough. [Unmask yourself! This will allow you to select a Past, Ambition, and form of preferred address - also providing you with a specialist ability bonus.]
@@ -37,7 +37,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Invite her to dine with you
 Id: 127621
 Description: "That's a lovely idea. How about a fish dinner? ...I do have quite particular tastes in fish."
@@ -60,7 +60,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: About her mother...
 Id: 146369
 Description: What exactly is the story with her mother?
@@ -81,7 +81,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Proposition Maybe's Daughter
 Id: 147285
 Description: "What a coincidence. I was about to suggest the same thing."  [She has no interest in tediously sincere lovers. Ensure your Veils is at least twenty points higher than your Hearts.]
@@ -100,7 +100,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: Proposition Nobody's Daughter
 Id: 147286
 Description: "Why not?" [She has no interest in tediously sincere lovers. Ensure your Veils is at least twenty points higher than your Hearts.]
@@ -119,7 +119,7 @@ Description:
 
 
 
-	ChildBranches 7
+		ChildBranches 7
 Name: Proposition Maybe's Rival
 Id: 147287
 Description: "I've been wondering when you'd ask. I think it'll be different now. Since the Bazaar. Want to help me find out?" [She has no interest in tediously sincere lovers. Ensure your Veils is at least twenty points higher than your Hearts.]

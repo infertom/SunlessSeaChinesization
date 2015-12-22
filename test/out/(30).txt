@@ -3,7 +3,7 @@ Name: Home
 Id: 150461
 Description: A zailor runs to the rail, stripping off his clothes as he goes, beaming rapturously. "Home!" he cries. "Home!"
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Let him go
 Id: 128625
 Description: Nothing to be done.
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Circle to try to pick him up
 Id: 128627
 Description: It'll cost fuel and time, and it's useless unless he comes to his senses...

@@ -3,7 +3,7 @@ Name: Tomb-Colonists in Khan's Glory
 Id: 165533
 Description: "...one knows one should be patriotic, but the Glory is so much prettier than London. Although one finds one tiring of all the guns pointed at one. One should find a better pronoun."
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Let them tour the palaces
 Id: 137243
 Description: They may be mistaken for marauding ghosts: shot, burnt or exorcised. Well, they should have stayed home if they wanted an easy life.
@@ -25,7 +25,7 @@ Description: "He's gone," one of them explains. "They put him in a sort of cruci
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Use your influence with the Leopard
 Id: 143192
 Description: Perhaps you can arrange some sort of cultural exchange with clan officials?

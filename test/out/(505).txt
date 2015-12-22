@@ -8,7 +8,7 @@ A rough, shadowed path leads from the docks to the Mirrored Gates of Varchas. Tw
 The city is a beacon against the tree-hushed, sprawling darkness of the Elder Continent. In the far distance a vast Mountain glimmers.
 
 
-	ChildBranches 1
+		ChildBranches 1
 Name: "Welcome."
 Id: 129881
 Description: The Guard at the Mirrored Gates smiles. Clearly, she remembers you.
@@ -26,7 +26,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: "Not yet, Taamas."
 Id: 138136
 Description: The blue-cloaked Guard watches you narrowly.
@@ -43,7 +43,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: "Oh, it's you."
 Id: 138144
 Description: The Guard at the Mirrored Gates gives you a startled look. Clearly, she remembers you.
@@ -63,7 +63,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Put a blemmigan ashore
 Id: 147566
 Description: Will the Guard permit it?
@@ -80,7 +80,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Compile a Port Report
 Id: 147655
 Description: The Admiralty will want to know.

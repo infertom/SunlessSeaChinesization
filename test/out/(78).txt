@@ -5,7 +5,7 @@ Description: "BENTHIC COLLEGE is pleased to invite YOU to an exclusive and educa
 <br /><br />
 On the back is a scribbled note. "Come speak to me afterwards, darling. Opportunity beckons!"
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Attend the lecture
 Id: 143646
 Description: Opportunities are always worth exploring, at least.
@@ -22,7 +22,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Not at the moment
 Id: 143647
 Description: You have better things to do right now.
@@ -41,7 +41,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Accept the Delightful Adventuress' offer
 Id: 143926
 Description: She is rich enough to make it worth your while.

@@ -3,7 +3,7 @@ Name: The Isle of Codex
 Id: 153215
 Description: Codex: a desperate caveful of mute exiles, and an inexplicable colony of shivering, bad-tempered monkeys.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Strategic Information for the Admiralty
 Id: 130382
 Description: Make the pass-sign to a Mute Exile.
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Ask a question of the Mute Exiles
 Id: 130384
 Description: 
@@ -37,7 +37,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Ask a question of the Shivering Monkeys
 Id: 130385
 Description: 
@@ -54,7 +54,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Trade writing materials
 Id: 130386
 Description: 
@@ -71,7 +71,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Trade supplies
 Id: 130387
 Description: 
@@ -88,7 +88,7 @@ Description:
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: Someone wants to return home
 Id: 130394
 Description: (to Whither)
@@ -105,7 +105,7 @@ Description:
 
 
 
-	ChildBranches 7
+		ChildBranches 7
 Name: Put a blemmigan ashore
 Id: 133913
 Description: How do blemmigans deal with the cold?
@@ -122,7 +122,7 @@ Description:
 
 
 
-	ChildBranches 8
+		ChildBranches 8
 Name: Acquire a Doomed Monster-Hunter
 Id: 144275
 Description: This one has waited all her life for a single answer. Give her that answer, and she will be ready to lay down her life.
@@ -141,7 +141,7 @@ Description:
 
 
 
-	ChildBranches 9
+		ChildBranches 9
 Name: Allow your Navigator to join the Mute Exiles
 Id: 147450
 Description: The stones of Codex crawl with sigils. Your Navigator steps into the enfolding silence of the glum, grey shore. His tattoo shivers like a nestling gull.
@@ -160,7 +160,7 @@ Description:
 
 
 
-	ChildBranches 10
+		ChildBranches 10
 Name: Compile a Port Report
 Id: 147629
 Description: No one will speak. This is a challenge.

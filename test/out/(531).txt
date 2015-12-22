@@ -5,7 +5,7 @@ Description: The Page leads you -- crouching at first, and then on your knees --
 <br><br>
 "We are told," intones the King, "that you have promised your assistance to the House of Cavy. This is agreeable to us. But what form shall your assistance take?"
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Offer medicine
 Id: 129804
 Description: You'd rather not get directly involved, but you can spare some salves and brews from the hold.
@@ -26,7 +26,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Offer to obtain the Eye by force
 Id: 129807
 Description: You have guns. You have a boat. If you row a raiding party to the northern side of the island then you and the Cavies can flank the rats' settlement. 
@@ -57,7 +57,7 @@ A small rat weeps quietly over a parent's severed torso before being prodded and
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Offer to obtain the Eye through cunning
 Id: 129808
 Description: One should use shadows to catch a light. The rats won't even know you were there. Probably.

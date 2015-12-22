@@ -3,7 +3,7 @@ Name: Open an Unprepossessing Mass
 Id: 140908
 Description: There is probably something horrible inside. But possibly there is not.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: A wooden corner shows
 Id: 122501
 Description: Some kind of case, or box, is encased in the salty jelly...
@@ -25,7 +25,7 @@ Description: You lever open the lid, and a bandaged head stirs, turns. "Already?
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: A curious sac
 Id: 127242
 Description: Slice it open. What's within?
@@ -47,7 +47,7 @@ Description: "Call 'em zee-eggs", the bo'sun suggests. "We don't want to tell th
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Mortal remains
 Id: 127243
 Description: Peel away the membrane, and - stifle a shudder - a half-digested zailor clutching a half-digested book. You'll dispose of the poor remnant decently, but what does the book say?
@@ -71,7 +71,7 @@ Description: "...hull-down on the horizon. But as we drew closer, we all grew pu
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: A violet gleam
 Id: 127244
 Description: You think for a moment it's another pocket of fluid, but no, something's shining.
@@ -88,7 +88,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: A beast within a beast
 Id: 127245
 Description: The greater beast, it seems, swallowed a lesser. Here it is.
@@ -111,7 +111,7 @@ Description: It takes you a while to work out what this is, but eventually you r
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: Gummed with hardened mucus
 Id: 127246
 Description: There are lumpy objects inside this unpromising blob, like little pebbles...
@@ -133,7 +133,7 @@ Description: Clean the slime off, buff them. Some day they'll adorn a courageous
 
 
 
-	ChildBranches 7
+		ChildBranches 7
 Name: Suitable for smoking
 Id: 127247
 Description: You can probably preserve this to eat at your leisure.
@@ -155,7 +155,7 @@ Description: Keep it against a hungrier day. All shall be well, and all manner o
 
 
 
-	ChildBranches 8
+		ChildBranches 8
 Name: Something angular
 Id: 127248
 Description: What is this oddly angled object trapped in salty flesh?
@@ -177,7 +177,7 @@ Description: Someone has bottled a soul in quartz. How is that possible? Then ag
 
 
 
-	ChildBranches 9
+		ChildBranches 9
 Name: Fling it overboard!
 Id: 127249
 Description: [You will gain nothing. But at least you won't suffer Terror effects.]
@@ -194,7 +194,7 @@ Description:
 
 
 
-	ChildBranches 10
+		ChildBranches 10
 Name: Choice cuts
 Id: 127250
 Description: It won't keep, but it looks tasty.
@@ -216,7 +216,7 @@ Description: Two zailors complain that the meat sighs melodramatically when cutl
 
 
 
-	ChildBranches 11
+		ChildBranches 11
 Name: A tin can?
 Id: 127260
 Description: You're about to toss it aside, but something makes you look at it more closely.

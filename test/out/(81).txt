@@ -5,7 +5,7 @@ Description: In the years that follow, many stories are told of the hideous fate
 <br /><br />
 It is also more accurately said that somewhere in the Second Empire of Hands stands an ivory shrine, established in gratitude. It soon ceases to be visited, and is quickly lost to the weeds.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: You fade away into history
 Id: 145473
 Description: When the moment comes, it is a blessing.

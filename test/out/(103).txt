@@ -3,7 +3,7 @@ Name: Trinkets. Just Trinkets.
 Id: 168212
 Description: The man waiting is not a cultist. He is just another ordinary citizen. Wearing a silken blindfold. In a few years, perhaps everyone will be wearing them.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Deliver the Trinkets to the waiting man
 Id: 138904
 Description: Still a firmly sealed crate of what are absolutely not sorrow-spider eggs. Well, that's a relief. Or maybe you just got lucky? Either way, they made it. So did you.

@@ -3,7 +3,7 @@ Name: Rebellious murmurs
 Id: 141724
 Description: Plates are empty, cups are dry. Your crew's loyalty is less certain by the day.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Discipline
 Id: 124815
 Description: Promise them that if they cross you, they'll never see their homes again.
@@ -25,7 +25,7 @@ Description: When you've done, there is absolute silence from the crew. The engi
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Inspiration
 Id: 122983
 Description: Promise that if they trust you a little longer, they'll see their homes again soon.

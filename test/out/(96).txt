@@ -3,7 +3,7 @@ Name: A New Arrival
 Id: 150971
 Description: You, your sweetheart, and your child. What will your child call you?
 
-	ChildBranches 1
+		ChildBranches 1
 Name: "Father"
 Id: 128924
 Description: Yes: you are the child's father.
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: "Mother"
 Id: 128925
 Description: Yes: you are the child's mother.
@@ -37,7 +37,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: "Captain"
 Id: 128926
 Description: Your relationship will be remote, or complicated, or exceptional.
@@ -54,7 +54,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: Nothing at all
 Id: 128927
 Description: You don't want to raise the child - or you can't afford to. Turn away. Let your sweetheart raise the brat, if they can.
@@ -71,7 +71,7 @@ Description:
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Improve your lodgings first
 Id: 142461
 Description: You can't raise a child in a room above a pub. Well, people do, but your sweetheart expects better.

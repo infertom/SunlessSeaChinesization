@@ -3,7 +3,7 @@ Name: A Contretemps with Corsairs
 Id: 148821
 Description: Fights on the Mourn have a staccato quality. A careless lunge will send you plummeting to your doom. So wait, and choose your moment carefully.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Unleash your Wretched Mog
 Id: 127652
 Description: Its fur is bristling. It's almost sparking. A sound like a dying storm rumbles in its throat.
@@ -25,7 +25,7 @@ Description: Your Mog's fearless agility gives it a tremendous advantage. It lea
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Fight!
 Id: 127650
 Description: You're good at that.
@@ -47,7 +47,7 @@ Description: You smash a wiry villain to the ground, trip over an incoming blade
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Flee...
 Id: 127651
 Description: The better part of valour is discretion. The better part of discretion is not falling off a high cliff into a rock-fanged sea.

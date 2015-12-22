@@ -3,7 +3,7 @@ Name: Shadowy work in Khan's Heart
 Id: 146643
 Description: Your Network needs something, to prosper. What is it? [If you provide this successfully, your Network level may increase.]
 
-	ChildBranches 1
+		ChildBranches 1
 Name: A blessing
 Id: 128869
 Description: Spies are more superstitious even than zailors. This one awaits an omen.
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Bait!
 Id: 128875
 Description: Use a mouse to catch a rat. [Gain Vital Intelligence by tapping your network in Khan's Heart. Succeed or fail, this will use up the Intelligence.]
@@ -42,7 +42,7 @@ Description: The Khanate has its share of canny operators. They take what you of
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Prisoner's Honey
 Id: 128888
 Description: Khan's Heart is a darkly gleaming miracle of a city. But it's no paradise. Someone is looking for paradise.
@@ -59,7 +59,7 @@ Description:
 
 
 
-	ChildBranches 4
+		ChildBranches 4
 Name: It just might work
 Id: 128905
 Description: Oh God. This old trick again. Well, sometimes it works. And all it needs is a sack of coffee beans, a shakerful of Mutersalt and the name of the newest spy in town...
@@ -81,7 +81,7 @@ Description: The room is booked. The dinner is arranged. The special dish is pre
 
 
 
-	ChildBranches 5
+		ChildBranches 5
 Name: Someone has a habit
 Id: 128907
 Description: They call it red honey, or gaoler's honey. It is made in utmost secret, by very bad people. It's, ah, quite wonderful on the tongue. [This will increase your Network substantially, although not past 7.]
@@ -103,7 +103,7 @@ Description: In the chilly spaces of the Garden Tower, your contact pleads for a
 
 
 
-	ChildBranches 6
+		ChildBranches 6
 Name: Seek another opportunity
 Id: 129020
 Description: Perhaps you simply can't obtain what you need. Let the opportunity pass. Come back later. [This will allow you to choose another mission when you come back - usually, but not always, a different one. It will cost Something Awaits You.]
@@ -120,7 +120,7 @@ Description:
 
 
 
-	ChildBranches 7
+		ChildBranches 7
 Name: A dream of the Sun
 Id: 129040
 Description: Someone misses home. Bring them news of the Surface.
@@ -137,7 +137,7 @@ Description:
 
 
 
-	ChildBranches 8
+		ChildBranches 8
 Name: A collector
 Id: 142457
 Description: Your agent has a contact in the Leopard. But the sons and daughters of the Leopard are always hungry for treasures. [This will increase your Network substantially, although not past 7.]
@@ -159,7 +159,7 @@ Description: Your little gift finds a warm welcome. The Leopard princeling has p
 
 
 
-	ChildBranches 9
+		ChildBranches 9
 Name: A Diplomatic Agent
 Id: 129019
 Description: The Voracious Diplomat, in London, can provide the kind of specialist assistance you need.
@@ -186,7 +186,7 @@ Description: Other networks are active here - even surface ones. Within a day, y
 
 
 
-	ChildBranches 10
+		ChildBranches 10
 Name: Cash
 Id: 128874
 Description: Spies have an extraordinary appetite for funds. Bribes, hush-money, peculiar equipment...
@@ -208,7 +208,7 @@ Description: A long and sometimes confusing list of what they need it for. It's 
 
 
 
-	ChildBranches 11
+		ChildBranches 11
 Name: Your cunning is required
 Id: 128876
 Description: This will need your personal attention.

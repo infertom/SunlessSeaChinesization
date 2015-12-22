@@ -3,7 +3,7 @@ Name: The Emerald Vista
 Id: 181465
 Description: Rich deep fresh green of infinite depths and tints. If secrets had a colour, it would be this. It baffles and delights the eye. A chilly wind brushes you. SOMETHING SOUGHT, the voice intones. SOMETHING LOST.
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Peer into the depths
 Id: 146938
 Description: Surrender your understanding to the wind. [This will sacrifice a point of Mirrors.]
@@ -20,7 +20,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Return to the Corridors of Frostfound
 Id: 146939
 Description: 
@@ -37,7 +37,7 @@ Description:
 
 
 
-	ChildBranches 3
+		ChildBranches 3
 Name: Make use of little secrets
 Id: 146937
 Description: You could wander in this colour for ever. Seek little fragments of understanding, to steer by.

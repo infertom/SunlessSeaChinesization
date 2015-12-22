@@ -5,7 +5,7 @@ Description: Your zailors assist the Merchant Venturer as he assembles the conte
 <br/><br/>
 "The Gate," he tells you, "is a law, not a door. In a moment of inattention from its guardians, the law may be broken."
 
-	ChildBranches 1
+		ChildBranches 1
 Name: Watch as he completes his scheme
 Id: 138850
 Description: "Trade exists beyond the Gate, in the high wilderness. The Bazaar itself has told me this. I will earn the currencies of heaven. I will return, strong with strange riches."
@@ -24,7 +24,7 @@ Description:
 
 
 
-	ChildBranches 2
+		ChildBranches 2
 Name: Pass beyond with him
 Id: 138851
 Description: "Will you come with me? I don't know when we'll return. But when we do... we will be armoured in glory." [This will end your game, although your next character will retain something interesting.]
